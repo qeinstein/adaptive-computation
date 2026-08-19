@@ -155,13 +155,13 @@ informative.}
 
 \paragraph{African-language NLI.} Evaluation resources for African languages have
 expanded substantially, from named-entity benchmarks
-\citep{adelani2021masakhaner} to broader multi-task suites. IrokoBench
-\citep{adelani2025irokobench} introduces AfriXNLI, the natural language inference
+\citep{adelani-etal-2021-masakhaner} to broader multi-task suites. IrokoBench
+\citep{adelani-etal-2025-irokobench} introduces AfriXNLI, the natural language inference
 benchmark used here, by translating a subset of XNLI
-\citep{conneau2018xnli} into 16 African languages. On the modelling side,
-XLM-R \citep{conneau2020xlmr} provides the multilingual encoder that most
+\citep{conneau-etal-2018-xnli} into 16 African languages. On the modelling side,
+XLM-R \citep{conneau-etal-2020-unsupervised} provides the multilingual encoder that most
 African-adapted models extend, including AfroXLMR
-\citep{alabi2022afroxlmr}, which adapts it through continued pre-training on
+\citep{alabi-etal-2022-adapting}, which adapts it through continued pre-training on
 African-language corpora. The translated construction that makes AfriXNLI
 possible is also what creates the lineage we examine in \S\ref{sec:f1}.
 
@@ -169,7 +169,7 @@ possible is also what creates the lineage we examine in \S\ref{sec:f1}.
 contextual representation spaces through geometric summaries---anisotropy,
 directional concentration, and spectral or rank-based measures of how many
 dimensions a representation effectively occupies
-\citep{ethayarajh2019contextual}. Such statistics are attractive as difficulty or
+\citep{ethayarajh-2019-contextual}. Such statistics are attractive as difficulty or
 quality proxies because they are cheap to compute from a forward pass that has
 already been performed. They are also, in multilingual corpora, routinely
 reported pooled across languages, which is the practice \S\ref{sec:f3a}
@@ -178,8 +178,8 @@ examines.
 \paragraph{Adaptive inference and cascades.} Conditional computation for
 transformer inference is well established, and we claim no novelty in the idea.
 Early-exit methods attach classifiers to intermediate layers and halt when a
-confidence criterion is met \citep{xin2020deebert} or when successive layers
-agree \citep{zhou2020pabee}. CascadeBERT \citep{li2021cascadebert} argues that
+confidence criterion is met \citep{xin-etal-2020-deebert} or when successive layers
+agree \citep{zhou2020pabee}. CascadeBERT \citep{li-etal-2021-cascadebert-accelerating} argues that
 intermediate-layer representations are unreliable for this purpose and instead
 cascades complete models, calibrating them so that a cheap model's confidence can
 govern escalation---the design our compute ladder follows. Calibration itself
@@ -202,7 +202,7 @@ representation analyses at risk of making.
 \label{sec:design}
 
 \subsection{Data and the clean-language protocol}
-AfriXNLI \citep{TODO-afrixnli} provides 18 language configurations with 450
+AfriXNLI \citep{adelani-etal-2025-irokobench} provides 18 language configurations with 450
 development and 600 test examples each and perfectly balanced three-way labels.
 XNLI intersects AfriXNLI at \{\texttt{eng}, \texttt{fra}, \texttt{swa}\}; these
 are excluded throughout. The remaining 15 configurations (\texttt{amh},
@@ -229,7 +229,9 @@ Features (African MLM) & afro-xlmr-base   & 12 & 768 & --- \\
 Features (generic MLM) & xlm-roberta-base & 12 & 768 & --- \\
 \bottomrule
 \end{tabular}
-\caption{Frozen checkpoints; no fine-tuning was performed. The three feature
+\caption{Frozen checkpoints \citep{wang-etal-2021-minilmv2,he2023debertav3,
+conneau-etal-2020-unsupervised,alabi-etal-2022-adapting}; no fine-tuning was
+performed. The three feature
 sources supply representation statistics only and are never asked to predict.
 \texttt{xlm-roberta-base} was added post hoc as a replication source
 (\S\ref{sec:f3a}).}
