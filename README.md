@@ -1,4 +1,6 @@
-# When Multilingual Representation Signals Mislead
+# Structure, Association, and Decision Value
+
+Representation-Based Difficulty Estimation for Adaptive Inference in African-Language NLI
 
 Code, cached model outputs, and analysis for a study of whether internal
 representation statistics can estimate the per-example value of escalating an
