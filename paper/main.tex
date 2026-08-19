@@ -7,8 +7,8 @@
 %     I.    evaluation validity        (no Delta)
 %     II.   capability ordering        (no Delta)
 %     III-a language confounding       (no Delta)  <- intellectual center
-%     III-b residual signal            (Delta)
-%     IV.   routing failure            (Delta)
+%     III-b target-specific signal     (Delta)  <- dual-target: prob vs correct
+%     IV.   routing: no advantage      (Delta)  <- IV(a) target alignment
 %   => representation geometry is not a reliable routing signal in this setting.
 %
 % The Delta construction is the paper's weakest link (not seed-averaged; see
@@ -72,13 +72,15 @@ exposure.}
 \todo{Then, in order: (i) parameter count does not order capability across
 African languages; (ii) across three multilingual representation spaces,
 angular dispersion is dominated by language identity while effective rank is
-not, so pooled analyses invert; (iii) the one association that survives
-language control is highly stable but explains ${\approx}1.6\%$ of variance and
-loses to a confidence baseline at every compute budget.}
+not, so pooled analyses invert; (iii) the association that survives language
+control is target-specific --- it predicts the probability gain from escalation
+but not whether escalation changes the prediction --- and yields no routing
+advantage over a confidence baseline.}
 
 \claim{Our central methodological finding is that a representation statistic can
-be highly structured and statistically significant without being a useful
-decision variable.}
+be highly structured and statistically significant with respect to one notion of
+computational benefit while being irrelevant to another, and therefore useless as
+a decision variable.}
 
 \todo{Do not describe the paper as proposing a method. State the negative result
 plainly. Write this section LAST.}
@@ -124,13 +126,17 @@ answer is negative:
         multilingual representation spaces, some geometry statistics are
         dominated by language identity and others are not, and naive pooled
         analysis inverts as a result (\S\ref{sec:f3b}).
-  \item \textbf{Operational value} (\S\ref{sec:f4}). The association that
-        survives every control is nonetheless useless for routing.
+  \item \textbf{Operational value} (\S\ref{sec:f3b}--\S\ref{sec:f4}). The
+        association that survives every control is specific to one notion of
+        computational benefit and confers no routing advantage over a trivial
+        confidence baseline, while a large oracle headroom goes unexploited.
 \end{enumerate}
 
 \paragraph{What the reader should take away.}
 \claim{A representation statistic can be highly structured and statistically
-significant without being a useful decision variable.}
+significant without being a useful decision variable.} \claim{Which notion of
+``benefit from computation'' one measures determines which signals appear
+informative.}
 
 %==============================================================================
 \section{Background and Related Work}
@@ -476,11 +482,42 @@ recommendation we draw in \S\ref{sec:discussion}; the latter would have been a
 stronger and more general result, and we did not obtain it.
 
 %==============================================================================
-\section{Stage III(b): What Survives Language Control}
+\section{Stage III(b): Representation Signals Depend on What
+``Benefit from Computation'' Means}
 \label{sec:f3b}
 
-\todo{First sentence must flag the dependency change: from here on, results
-depend on the $\Delta$ construction of \S\ref{sec:delta}.}
+From this point the analysis depends on a constructed target, and therefore on
+the modelling choices discussed in \S\ref{sec:delta} and
+\S\ref{sec:limitations}. The results in \S\ref{sec:f1}--\S\ref{sec:f3a} do not.
+
+\subsection{Two notions of marginal benefit}
+\label{sec:twotargets}
+
+An input that ``benefits from more computation'' can be characterised in at least
+two ways. The first asks how much escalation moves the model's probability on the
+correct label; the second asks whether escalation changes the decision at all:
+\begin{align}
+\Delta_{\mathrm{prob}}(x) &= p_e(y^\star \mid x) - p_s(y^\star \mid x),
+  \label{eq:dprob}\\
+\Delta_{\mathrm{correct}}(x) &= \mathbf{1}[\hat{y}_e = y^\star]
+                              - \mathbf{1}[\hat{y}_s = y^\star].
+  \label{eq:dcorr}
+\end{align}
+Equation~\ref{eq:dprob} is continuous (mean $+0.099$, sd $0.221$ on the viable
+ladder); Equation~\ref{eq:dcorr} is ternary, taking $+1$ on 24.7\% of examples,
+$-1$ on 11.2\%, and $0$ on the remaining 64.1\%. We refer to
+$\Delta_{\mathrm{correct}}$ as the \emph{decision-relevant} or \emph{routing}
+target, because it is the quantity a routing system's accuracy depends on. We do
+not call it the true target: both are legitimate operationalisations of
+computational benefit, and part of what follows is that the choice matters.
+
+The two are correlated at $+0.655$---substantial, but far from interchangeable.
+They also differ in how much of their variation is attributable to language:
+$\eta^2 = 0.126$ for $\Delta_{\mathrm{prob}}$ against $0.033$ for
+$\Delta_{\mathrm{correct}}$, so the choice of target additionally determines how
+much of the language confounding established in \S\ref{sec:f3a} is inherited.
+
+\subsection{Pooled analysis is inadequate}
 
 \claim{Naive pooled analysis errs in both directions: it manufactures a
 relationship for the language-determined statistic and erases a genuine one for
@@ -496,73 +533,163 @@ Feature (mDeBERTa) & $\eta^2$ & Pooled $\rho$ & Within $\rho$ \\
 L8 angular dispersion      & 0.757 & $+0.296$ & $+0.061$ \\
 L12 effective rank         & 0.040 & $-0.009$ & $-0.127$ \\
 L12 spectral concentration & 0.031 & $+0.044$ & $+0.099$ \\
-\midrule
-\multicolumn{4}{l}{\emph{reference}: $\eta^2(\Delta)=0.126$,
-$\eta^2(\text{conf})=0.212$, $\eta^2(n_{\text{tok}})=0.196$} \\
 \bottomrule
 \end{tabular}
-\caption{Partial Spearman with $\Delta$, controlling for confidence, token
-count, and fragmentation. Angular dispersion is inflated $4.9\times$ by pooling;
-effective rank is masked roughly tenfold.}
+\caption{Partial Spearman with $\Delta_{\mathrm{prob}}$, controlling for
+cheap-model confidence, token count, and fragmentation. Angular dispersion is
+inflated $4.9\times$ by pooling; effective rank is masked roughly tenfold.}
 \label{tab:simpson}
 \end{table}
 
-For \texttt{mDeBERTa L12 effective rank} on MiniLM$\rightarrow$mDeBERTa
-($n=9{,}000$), the within-language partial Spearman is $\rho=-0.127$, 95\% CI
-$[-0.147,-0.106]$ (Fisher-$z$), Holm-adjusted $p=3.88\times10^{-32}$,
-sign-consistent in 12/15 languages. It survives bootstrap resampling,
-subsampling to 25\% of the data, leave-one-language-out, and label permutation
-(Appendix~\ref{app:stability}). \claim{Variance explained is nonetheless
-approximately $1.6\%$.}
+Table~\ref{tab:simpson} shows the consequence of \S\ref{sec:f3a} for correlation
+analysis. Angular dispersion, the statistic that is 76\% between-language
+variance at this layer, carries a pooled correlation of $+0.296$ with
+$\Delta_{\mathrm{prob}}$ that falls to $+0.061$ once language is controlled.
+Effective rank, at $\eta^2 = 0.040$, shows the opposite: a pooled correlation
+indistinguishable from zero ($-0.009$) that becomes $-0.127$ under the same
+control. \todo{One sentence on the selection-pressure asymmetry: an analyst
+screening features by pooled correlation would promote the first and discard the
+second, which is exactly backwards.} The inversion is not confined to
+$\Delta_{\mathrm{prob}}$: for effective rank against $\Delta_{\mathrm{correct}}$
+the pooled correlation is $+0.050$ while the within-language estimate is
+$-0.027$, a sign reversal.
 
-\todo{Close by noting the selection-pressure asymmetry: the statistic that
-looked most promising under pooling was the most language-determined, while the
-one that survived was invisible under pooling. Naive analysis selects exactly
-backwards. This observation belongs here, then is developed in
-\S\ref{sec:discussion}.}
+\subsection{The surviving association is target-specific}
+\label{sec:swap}
 
-%==============================================================================
-\section{Stage IV: The Surviving Signal Does Not Yield a Useful Router}
-\label{sec:f4}
-
-\claim{A statistically robust representation signal need not provide useful
-incremental information for adaptive routing.}
+\claim{Effective rank predicts the probability gain from escalation but not
+whether escalation changes the prediction; confidence shows the reverse
+pattern.}
 
 \begin{table}[t]
 \centering
 \small
-\begin{tabular}{lrrrrrrr}
+\begin{tabular}{lcccc}
 \toprule
-Budget & Cheap & Random & Conf. & Geom. & G+C & Oracle & All-exp. \\
+& \multicolumn{2}{c}{$\Delta_{\mathrm{prob}}$}
+& \multicolumn{2}{c}{$\Delta_{\mathrm{correct}}$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Signal & $\rho$ & Holm $p$ & $\rho$ & Holm $p$ \\
 \midrule
-20\% & 0.426 & 0.461 & \textbf{0.466} & 0.460 & 0.463 & 0.555 & 0.577 \\
-40\% & 0.426 & 0.493 & \textbf{0.506} & 0.498 & 0.498 & 0.632 & 0.577 \\
-60\% & 0.426 & 0.518 & \textbf{0.543} & 0.524 & 0.526 & 0.678 & 0.577 \\
-80\% & 0.426 & 0.546 & \textbf{0.564} & 0.556 & 0.554 & 0.661 & 0.577 \\
+mDeBERTa L12 effective rank      & $\mathbf{-0.127}$ & $5.8\!\times\!10^{-32}$ & $-0.027$ & $0.28$ \\
+mDeBERTa L12 spectral conc.      & $+0.099$ & $2.9\!\times\!10^{-19}$ & $+0.003$ & $1.00$ \\
+mDeBERTa L8 angular dispersion   & $+0.061$ & $2.2\!\times\!10^{-7}$  & $+0.007$ & $1.00$ \\
+mDeBERTa L12 angular dispersion  & $+0.029$ & $0.13$ & $\mathbf{-0.066}$ & $1.6\!\times\!10^{-8}$ \\
+\midrule
+Cheap-model confidence           & $+0.003$ & --- & $\mathbf{-0.099}$ & --- \\
+\bottomrule
+\end{tabular}
+\caption{Within-language partial Spearman against both targets, identical
+procedure, Holm-corrected across all 27 features. Bold marks associations
+significant at the Holm-adjusted level. The two targets are predicted by
+different signals.}
+\label{tab:swap}
+\end{table}
+
+The magnitudes in Table~\ref{tab:swap} are less interesting than the pattern.
+Effective rank at layer 12 has the strongest association in the study with
+$\Delta_{\mathrm{prob}}$ ($\rho = -0.127$, 95\% CI $[-0.147, -0.106]$,
+Holm-adjusted $p = 5.8 \times 10^{-32}$, sign-consistent in 12/15 languages) and
+survives bootstrap resampling, subsampling to a quarter of the data,
+leave-one-language-out, and label permutation
+(Appendix~\ref{app:stability}). Against $\Delta_{\mathrm{correct}}$ the same
+feature reaches only $\rho = -0.027$ and does not survive multiple-comparison
+correction ($p = 0.28$).
+
+Cheap-model confidence exhibits the mirror image. Within language it is
+unrelated to $\Delta_{\mathrm{prob}}$ ($\rho = +0.003$, CI $[-0.018, +0.023]$)
+while being the strongest single predictor of $\Delta_{\mathrm{correct}}$
+($\rho = -0.099$, CI $[-0.120, -0.079]$). A signal that appears uninformative
+under one operationalisation of computational benefit is the best available
+signal under the other.
+
+Angular dispersion at layer 12 makes the point harder to dismiss as a magnitude
+artifact: it is not significant against $\Delta_{\mathrm{prob}}$
+($\rho = +0.029$, $p = 0.13$) but is strongly significant against
+$\Delta_{\mathrm{correct}}$ with the \emph{opposite sign}
+($\rho = -0.066$, $p = 1.6 \times 10^{-8}$, sign-consistent in 12/15 languages).
+\claim{A representation statistic can predict one notion of computational
+benefit while being irrelevant to---or oppositely related to---another.}
+
+\paragraph{Registration.} \claim{This dual-target analysis was added after the
+routing-target mismatch described in \S\ref{sec:targetalign} was identified, and
+should be interpreted as a post-hoc analysis rather than a pre-specified test.}
+It rests on a single cheap--expensive pair and has not been replicated across
+model pairs.
+
+\todo{Handoff sentence to Stage IV, roughly: we therefore asked not whether
+effective rank is statistically associated with a marginal-benefit target, but
+whether any of these associations carries enough incremental information to
+support a useful routing decision.}
+
+%==============================================================================
+\section{Stage IV: From Statistical Association to Adaptive Routing}
+\label{sec:f4}
+
+\subsection{Target alignment}
+\label{sec:targetalign}
+
+\todo{Open by stating the error plainly and in the first person: our initial
+routing experiment trained a predictor of $\Delta_{\mathrm{prob}}$ but scored the
+resulting decisions by accuracy, which is a function of
+$\Delta_{\mathrm{correct}}$. Given \S\ref{sec:swap}, that mismatch gave
+confidence an implicit advantage, because confidence is related to the scoring
+quantity and effective rank is not.}
+
+\claim{A routing method should be trained against the quantity whose decision
+value is being evaluated.} \todo{State this as the principle the original design
+violated, and note that identifying and correcting the violation is part of the
+contribution rather than an erratum.}
+
+\subsection{The corrected comparison}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Budget & Random & Conf. & Geom.$(\Delta_{\mathrm{prob}})$
+& Geom.$(\Delta_{\mathrm{correct}})$ & Geom.+Conf. & Oracle \\
+\midrule
+20\% & 0.457 & 0.466 & 0.461 & 0.468 & \textbf{0.472} & 0.613 \\
+40\% & 0.486 & 0.506 & 0.498 & 0.504 & \textbf{0.508} & 0.688 \\
+60\% & 0.519 & 0.543 & 0.524 & 0.535 & \textbf{0.545} & 0.688 \\
+80\% & 0.548 & 0.564 & 0.553 & 0.559 & \textbf{0.565} & 0.688 \\
 \bottomrule
 \end{tabular}
 \caption{Leave-one-language-out routing accuracy at matched compute budget,
-11 viable ladder languages. ``Conf.'' escalates the least-confident examples;
-``Geom.'' is a ridge regression on all 18 geometry features.}
+11 viable ladder languages. Training the geometry router on
+$\Delta_{\mathrm{correct}}$ rather than $\Delta_{\mathrm{prob}}$ recovers most of
+the apparent deficit against confidence.}
 \label{tab:router}
 \end{table}
 
-The confidence$-$geometry gap is positive at every budget and every ridge
-penalty $\lambda\in\{1,10,100,1000\}$, ranging from $+0.006$ to $+0.019$, with
-confidence winning in 7--10 of 11 held-out languages.
+\todo{Report the stability of the corrected comparison: across
+$\lambda \in \{1,10,100,1000\}$ the confidence$-$geometry gap is $-0.0015$ to
+$-0.0024$ at the 20\% budget (confidence wins 5/11 languages, i.e.\ chance) and
+$+0.0059$ to $+0.0147$ at 60\% (6--8/11). Geometry+confidence beats confidence
+alone by $-0.0005$ to $-0.0062$, winning 4--6/11. Per-language sd is
+$\approx 0.018$ throughout, larger than every gap.}
 
-\paragraph{Wording constraint.} At the 20\% and 40\% budgets the per-language
-standard deviation ($\approx 0.015$) exceeds the mean gap ($\approx 0.007$).
-\claim{The correct statement is that geometry never beats confidence at any
-budget or penalty, and is clearly worse at moderate budgets.} It must not be
-stated as confidence substantially outperforming geometry everywhere.
+\claim{Once the routing predictor is trained against the decision-relevant
+target, representation geometry and confidence are statistically
+indistinguishable across the tested budgets and regularisation settings, and
+both remain substantially below the oracle.}
 
-\paragraph{Unexploited headroom.} The oracle reaches $0.678$ at the 60\% budget
-against $0.577$ for always-expensive. \claim{The routing problem is genuinely
-learnable and neither signal captures it}, so the negative result is about these
-signals rather than about the task being degenerate.
+\subsection{Unexploited headroom}
 
-%==============================================================================
+\claim{The routing problem is genuinely learnable and neither signal captures
+it.} At the 60\% budget an oracle over $\Delta_{\mathrm{correct}}$ reaches
+$0.688$ against roughly $0.545$ for the best practical method and $0.577$ for
+always-expensive inference---approximately 14 accuracy points of recoverable
+headroom.
+
+\todo{Draw the conclusion carefully: the negative result is not that adaptive
+routing is impossible here, nor that representation geometry is uninformative.
+It is that neither of the tested per-example signals extracts the available
+benefit, and that the appearance of a clear baseline win was partly an artifact
+of target misalignment.}
+
 \section{Discussion}
 \label{sec:discussion}
 
@@ -575,7 +702,9 @@ significant without being a useful decision variable.}
 
 \todo{Develop the practitioner corollary as concrete recommendations: report
 within-language statistics; report $\eta^2$ alongside any pooled multilingual
-correlation; benchmark against confidence before claiming a representation-based
+correlation; state which notion of computational benefit a difficulty signal is
+validated against, and train routing predictors on the quantity the evaluation
+scores; benchmark against confidence before claiming a representation-based
 method adds information; audit translated benchmarks for lineage before use;
 do not order cascade rungs by parameter count.}
 
