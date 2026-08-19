@@ -1,0 +1,451 @@
+premise	hypothesis	label
+Sai ya ce, Mama na dawo gida.	Ya kira babar sa, sanda motar makarantar ta sauke shi.	1
+Sai ya ce, Mama na dawo gida.	Bai ce ko kalma ɗaya ba.	2
+Sai ya ce, Mama na dawo gida.	Ya fadawa babar sa yaji gida.	0
+Ban san komai ba akan me zanje yi ba, balle na je wani keɓantaccen wuri a Washington.	Ban taɓa zuwa Washington ba, dan haka lokacin da ka tura ni wajan, Sai dana ɓata ina ƙoƙarin gano wajan.	1
+Ban san komai ba akan me zanje yi ba, balle na je wani keɓantaccen wuri a Washington.	Na san abinda nake bukatar yi yayin da na shiga Washington. 	2
+Ban san komai ba akan me zanje yi ba, balle na je wani keɓantaccen wuri a Washington.	Bani da tabbas kan me zanyi, dan haka naje Washington inda aka tura ni nayi naje.	0
+Bai samu zuwa ba.	Shine na farkon gayyata kuma yaji daɗin yanayin.	2
+Bai samu zuwa ba.	Ba'a bashi damar halarta ba.	0
+Bai samu zuwa ba.	Ba'a bashi damar halattar taron buɗe gidan ajiyar kayan tarihin ba.	1
+Kuma kawai sai naji Hakane, wannan din ne.	Bayan nace e, ya ƙare.	0
+Kuma kawai sai naji Hakane, wannan din ne.	Nace a'a amma yaci gaba da ja-in-ja.	2
+Kuma kawai sai naji Hakane, wannan din ne.	Lokacin da nace E, muka yanke shawarar yin aure a wannan ranar.	1
+Ina wajen dai kawai ina ƙoƙarin gano shi.	Na fahimta sosai tun daga farko. 	2
+Ina wajen dai kawai ina ƙoƙarin gano shi.	Ina ƙoƙarin gano inda kuɗin shige.	1
+Ina wajen dai kawai ina ƙoƙarin gano shi.	Ina ƙoƙarin ganewa.	0
+Kuma kakar mu tana bamu labarin yadda yayar ta da mijinta suka yanke shawarar koma wa cikin gari zuwa Augusta, su koma farare.	Yayar kakar fara ce kuma ta koma Texas.	2
+Kuma kakar mu tana bamu labarin yadda yayar ta da mijinta suka yanke shawarar koma wa cikin gari zuwa Augusta, su koma farare.	Yayar Kakar ba fara ce ba.	0
+Kuma kakar mu tana bamu labarin yadda yayar ta da mijinta suka yanke shawarar koma wa cikin gari zuwa Augusta, su koma farare.	Yayar kakar ba fara bace amma ta so ta zama dan ta iya zuwa makaranta. 	1
+Amma shine ne, ka sani,  ta hanyoyi da yawa kamar ɗan mai gona saboda yaron wannan mutumin ne da yake da kadarori da yawa. 	Baban sa bai taɓa mallakar komai ba a rayuwar sa.	2
+Amma shine ne, ka sani,  ta hanyoyi da yawa kamar ɗan mai gona saboda yaron wannan mutumin ne da yake da kadarori da yawa. 	Baban sa yana da eka 2000 ta gona.	1
+Amma shine ne, ka sani,  ta hanyoyi da yawa kamar ɗan mai gona saboda yaron wannan mutumin ne da yake da kadarori da yawa. 	Baban sa yana da kadarori da yawa	0
+Amma aiki na shine na saka wannan lema a jikin shi da kuma abubuwan kariya idan zaa aika kayan zuwa kasashen waje.	Bani da aikin yi dan haka kawai na ajjiye duk akwatunan a gida.	2
+Amma aiki na shine na saka wannan lema a jikin shi da kuma abubuwan kariya idan zaa aika kayan zuwa kasashen waje.	Na fitar da akwatinan zuwa Japan ta ruwa.	1
+Amma aiki na shine na saka wannan lema a jikin shi da kuma abubuwan kariya idan zaa aika kayan zuwa kasashen waje.	Na fitar dasu ta ruwa.	0
+Yanzu hakan ne, uh na bar maɓellin a jiki.	sai da na tabbatar da maɓallin a ɓalle yake sosai, dan na samu cikakken tsaro.	1
+Yanzu hakan ne, uh na bar maɓellin a jiki.	Ta haka dai na iya fidda maɓellin.	2
+Yanzu hakan ne, uh na bar maɓellin a jiki.	Haka daidai yadda na tamke shi.	0
+Kuma, shi mai neman mata ne, kuma Eh, kullum yana waje, kuma, ah, dan haka,  bana son shi, amma kome ne ma wadannan labaraina ne.	Ya kasance mai gaskia da kirki.	2
+Kuma, shi mai neman mata ne, kuma Eh, kullum yana waje, kuma, ah, dan haka,  bana son shi, amma kome ne ma wadannan labaraina ne.	Na tsane shi saboda yana da girman kai.	1
+Kuma, shi mai neman mata ne, kuma Eh, kullum yana waje, kuma, ah, dan haka,  bana son shi, amma kome ne ma wadannan labaraina ne.	Ni ba mai ra'ayi sa bane.	0
+Bayan na ja, shima sai ya jawo labule dan na fara jawo shi waje, sai ya nuna wasu kayan a gefen hagu a cikin  jirgin suka narke lokacin tafiyar da jirgin yayi. 	Duka kayayyakin aikin cikin jirgin saman sun cika cifcif.	2
+Bayan na ja, shima sai ya jawo labule dan na fara jawo shi waje, sai ya nuna wasu kayan a gefen hagu a cikin  jirgin suka narke lokacin tafiyar da jirgin yayi. 	Fito da shi yayi wuya.	1
+Bayan na ja, shima sai ya jawo labule dan na fara jawo shi waje, sai ya nuna wasu kayan a gefen hagu a cikin  jirgin suka narke lokacin tafiyar da jirgin yayi. 	Akwai kayayyakin aiki a cikin jirgin saman da suka narke.	0
+Kuma, bata gane ba fa.	Kash, ta kasa ganewa sosai saboda banbancin yare.	1
+Kuma, bata gane ba fa.	Tabbas, ba ta fahimta ba.	0
+Kuma, bata gane ba fa.	Ta san hakikanin abinda suke magana akai.	2
+Watakila ta faɗawa kowa kuma ban bada hankali na ba a lokacin.	Ban ji ta ba lokacin da take faɗawa kowa.	0
+Watakila ta faɗawa kowa kuma ban bada hankali na ba a lokacin.	Naji duka abinda ta faɗa.	2
+Watakila ta faɗawa kowa kuma ban bada hankali na ba a lokacin.	Ina wa wani daban magana ne a lokacin.	1
+Biyu kawai muka rasa, ko uku a jiragen sama lokacin da muke kan gwaji.	Jirage sama da biyu suka ɓata saboda yanayin samaniya.	1
+Biyu kawai muka rasa, ko uku a jiragen sama lokacin da muke kan gwaji.	Sama da jirage biyu suka ɓata. 	0
+Biyu kawai muka rasa, ko uku a jiragen sama lokacin da muke kan gwaji.	Bamu taɓa rasa jirgi ba.	2
+Ina buƙatar kayi min wani abu.	Bana buƙatar ko wanne irin taimakon ka.	2
+Ina buƙatar kayi min wani abu.	Babban aiki ne da nake buƙatar ayi.	1
+Ina buƙatar kayi min wani abu.	Akwai wani abu da nake buƙatar ayi.	0
+Oh, Ashe kogin maciji oh kogin maciji na ɗauke da macizai da yawa a ciki.	Duk da sunan sa, Kogin maciji a zahiri bai ɗauke da kowanne maciji, An sanya masa sunan saboda siffar sa ta S.	2
+Oh, Ashe kogin maciji oh kogin maciji na ɗauke da macizai da yawa a ciki.	Kogin maciji yana da kunkuru.	1
+Oh, Ashe kogin maciji oh kogin maciji na ɗauke da macizai da yawa a ciki.	Kogin maciji yana cike da macizai.	0
+Hakane, akwai sadaukarwa, bawai kawai wani abu ne da zaka iya ba, saboda kawai ka shiga cikin sa,  bana tunani hakan zai yi yu.	Ina tunanin sai ka sadaukar da awa 10 a rana zaka ƙware a kai.	1
+Hakane, akwai sadaukarwa, bawai kawai wani abu ne da zaka iya ba, saboda kawai ka shiga cikin sa,  bana tunani hakan zai yi yu.	Ina tunanin kana buƙatar sadaukarwa zuwa gare shi dan kayi da kyau.	0
+Hakane, akwai sadaukarwa, bawai kawai wani abu ne da zaka iya ba, saboda kawai ka shiga cikin sa,  bana tunani hakan zai yi yu.	Babu matsala, idan baka ɗauke shi da mahimmanci ba.	2
+Kuma abinda nake ganin zai bada sha'awa shine abinda muke yi, ina nufin za mu canza mutane da ke wakiltar mu.	Kawai nasan ba zai yi dadin ba kuma babu riba mu canja waɗanda ke wakiltar mu dan haka kar ma muyi ƙoƙarin canjin.	2
+Kuma abinda nake ganin zai bada sha'awa shine abinda muke yi, ina nufin za mu canza mutane da ke wakiltar mu.	Ina tunani zai zama ƙalubale a canja waɗanda ke wakiltar mu amma akwai nasara a ƙarshe. 	1
+Kuma abinda nake ganin zai bada sha'awa shine abinda muke yi, ina nufin za mu canza mutane da ke wakiltar mu.	Dole ne mu kawo canji a mutanan dake wakiltar mu.	0
+Kuma zasu iya zama masu kirki bayan an horar da su.	Suna zama masu tsauri da kuma rashin tausayi suna kammala horon.	2
+Kuma zasu iya zama masu kirki bayan an horar da su.	Suna canjawa da sauri a yayin da suke ɗaukar horo.	1
+Kuma zasu iya zama masu kirki bayan an horar da su.	Idan suka samu horo suna da dadin sha'anin.	0
+Kuma zai iya cigaba har shekara ashirin, ina ganin wannan abun akwai shashanci.	Ina ga akwai shirme ace shari'a guda ɗaya zata iya ɗaukan shekaru.	1
+Kuma zai iya cigaba har shekara ashirin, ina ganin wannan abun akwai shashanci.	Ina ga akwai ɗaurewar kai ace ta ɗauki tsawon lokaci. 	0
+Kuma zai iya cigaba har shekara ashirin, ina ganin wannan abun akwai shashanci.	Ya kai tsawon sati ne kawai.	2
+Eh, tabbas wanda ka samu marar igiya ne.	Gyara wanda kake dashi marar igiya ne.	0
+Eh, tabbas wanda ka samu marar igiya ne.	Wanda kake dashi tabbas masu igiyar su kaɗai ne sababbin zuwa.	2
+Eh, tabbas wanda ka samu marar igiya ne.	Watakila kana da wani mai wajan zaben sa igiyar.	1
+Kana maganar malaman ne ko iyayen.	Kana maganar dalibai ne suka yi ko mai taimakon malamai ne suka yi?	2
+Kana maganar malaman ne ko iyayen.	Wai malamai ne ko iyaye?	0
+Kana maganar malaman ne ko iyayen.	Me kake so kace game da iyayen da malaman?	1
+Ina ganin zai yi yi, ina tunanin hakan, ban dai gama sani mene ra'ayi na game da yin gwajin kwaya ba, uh ,am ni bana shan komai kuma bazan taɓa tunani sha ba.	Ina da adawa mai karfi akan gwajin kwaya, bani da shakku ko kaɗan a raina. 	2
+Ina ganin zai yi yi, ina tunanin hakan, ban dai gama sani mene ra'ayi na game da yin gwajin kwaya ba, uh ,am ni bana shan komai kuma bazan taɓa tunani sha ba.	Ina da tsammanin ba zan sami damuwa idan an yi min gwajin kwaya.	1
+Ina ganin zai yi yi, ina tunanin hakan, ban dai gama sani mene ra'ayi na game da yin gwajin kwaya ba, uh ,am ni bana shan komai kuma bazan taɓa tunani sha ba.	Ina tunani haka, amma ban sami nutsuwa a raina ba a kan maganar gwajin kwaya.	0
+Ka damu da yadda labarun ƙasa ke shafar unguwanni.	Ka damu da yadda labarun ƙasa ke shafar unguwanni.	0
+Ka damu da yadda labarun ƙasa ke shafar unguwanni.	Ban damu ba da abinda labarun ƙasa ke nuni cike da damuwa kan unguwannin mu.	2
+Ka damu da yadda labarun ƙasa ke shafar unguwanni.	Tashar labaran ƙasa yana bayar da unguwannin mu baya.	1
+Amma ai mun saba ganin siket, ko riga da siket da kuma bilawus ko cot ko doguwar riga duk su zaka gani a nan dan haka daɗi na da aikin gida shine zan iya saka wando.	Bana saka kaya idan ina aiki a gida.	0
+Amma ai mun saba ganin siket, ko riga da siket da kuma bilawus ko cot ko doguwar riga duk su zaka gani a nan dan haka daɗi na da aikin gida shine zan iya saka wando.	Bana saka komai banda rigar sanyi lokacin da nake aiki a gida.	1
+Amma ai mun saba ganin siket, ko riga da siket da kuma bilawus ko cot ko doguwar riga duk su zaka gani a nan dan haka daɗi na da aikin gida shine zan iya saka wando.	Ina saka kaya har yanzu lokacin da nake aiki a gida saboda ina ji na zama yar gayu.	2
+Hakane, akwai wani abu game da samun wajan zama, ban dai sani ba.	Samun wajan zama shine tabbacin mafarki na.	1
+Hakane, akwai wani abu game da samun wajan zama, ban dai sani ba.	Gaskiya ban damu ba in ina da wajan zama.	2
+Hakane, akwai wani abu game da samun wajan zama, ban dai sani ba.	Akwai jin dadi idan kana da wajan zama.	0
+Eh, Eh, na sani, ba zan ma damu sosai ba idan suna da kamfani dake da kudi	Abu ne mai sauki a gane ko daukan nauyin ma'aikatar aka yi. 	1
+Eh, Eh, na sani, ba zan ma damu sosai ba idan suna da kamfani dake da kudi	Zan ji haushi idan na gane sun ɗaukin nauyin kuɗin da ake gudanar da ma'aikatar.	2
+Eh, Eh, na sani, ba zan ma damu sosai ba idan suna da kamfani dake da kudi	Ba zan damu ba idan ɗaukan nauyin kuɗin da ake gudanar da ma'aikatar ake yi. 	0
+Eh, ta wajan hayin mu nan, muna da haɗin a karkara da bashi da kyau.	Haɗin wurraren nan wani sa'in na da kyau.	1
+Eh, ta wajan hayin mu nan, muna da haɗin a karkara da bashi da kyau.	Bama samun haɗi mai kyau a nan.	0
+Eh, ta wajan hayin mu nan, muna da haɗin a karkara da bashi da kyau.	Muna da haɗi mafi kyau a wajajen nan.	2
+Ɗaya daga cikin amfanu da muke samu shine tafiye-tafiye	Tafiye-tafiye shine fannin da nafi so.	1
+Ɗaya daga cikin amfanu da muke samu shine tafiye-tafiye	Tafiye-tafiye na ɗaya daga cikin ribar da muke samu.	0
+Ɗaya daga cikin amfanu da muke samu shine tafiye-tafiye	Bama samun ko wanne irin amfanu.	2
+Gaskiya ba kyau fa uh.	Naji ance babu dadi.	1
+Gaskiya ba kyau fa uh.	Babu kyan gani.	0
+Gaskiya ba kyau fa uh.	Babu laifi.	2
+Waɗannan rikirkitattun na'urar kwayoyin halitta sun samo asali ne saboda zaɓin su a haka zai iya canza yanayi su gaba ɗaya dan haka su kwayoyin halitta suna taruwa lokacin da yanayin su na gaba ɗaya ya haɓaka kuma ya canza da yanayi da suke.	Duk na'urorin kwayoyin halitta suna da wahalar sha'ani.	2
+Waɗannan rikirkitattun na'urar kwayoyin halitta sun samo asali ne saboda zaɓin su a haka zai iya canza yanayi su gaba ɗaya dan haka su kwayoyin halitta suna taruwa lokacin da yanayin su na gaba ɗaya ya haɓaka kuma ya canza da yanayi da suke.	Da yawan na'urorin kwayoyin halitta zasu iya bayyana wasa ƙa’idoji.	0
+Waɗannan rikirkitattun na'urar kwayoyin halitta sun samo asali ne saboda zaɓin su a haka zai iya canza yanayi su gaba ɗaya dan haka su kwayoyin halitta suna taruwa lokacin da yanayin su na gaba ɗaya ya haɓaka kuma ya canza da yanayi da suke.	Waɗanne na'urorin kwayoyin halitta yawanci ana amfani dasu a fitar da guba iri-ir dan samun kariya.	1
+Amma ban yadda waɗannan kayan aikin shayo kan matsalar zaa iya gama su ba.	Babu wani tsarin dokokin da zai yanke yadda zaayi cikakken sanwic ba tare da mutum ba.	1
+Amma ban yadda waɗannan kayan aikin shayo kan matsalar zaa iya gama su ba.	Babu wani kayan aiki da zai warware wannan matsalar gaba ɗaya da kansa	0
+Amma ban yadda waɗannan kayan aikin shayo kan matsalar zaa iya gama su ba.	Waɗannan kayan aikin suna aiki a kowanne irin yanayi.	2
+Doka tana fansar ba ɗaiɗaikun mutane kawai ba har da al'umma ko ƙasa gaba ɗaya. 	Don yin fansa, ɗaiɗaikun mutane sa koma kan doka.	2
+Doka tana fansar ba ɗaiɗaikun mutane kawai ba har da al'umma ko ƙasa gaba ɗaya. 	Doka zata fanshi Amurka.	1
+Doka tana fansar ba ɗaiɗaikun mutane kawai ba har da al'umma ko ƙasa gaba ɗaya. 	Doka zata ceto al'ummar da kuma ƙasar.	0
+A cikin kundin tsarin mulki na 1787 ya bada izini da masu bayi su dawo da bayin su da suka tsere zuwa ƙasar 'yanci.	A shekarar 1787, an sa doka da ta hana mutane dawo da bayi da suke cikin ƙasar yanci.	2
+A cikin kundin tsarin mulki na 1787 ya bada izini da masu bayi su dawo da bayin su da suka tsere zuwa ƙasar 'yanci.	Wani ɓangaren na rubutun a cikin kundin tsarin mulkin an rubuta shi a 1787.	0
+A cikin kundin tsarin mulki na 1787 ya bada izini da masu bayi su dawo da bayin su da suka tsere zuwa ƙasar 'yanci.	Damar dawo da bayi daga yankunan yanci ba dama bace da ta shahara ba.	1
+Steve Harris, mai nazarin kimiyyar kwayoyin halitta daga Taxas yayi ziyara.	Steve Harris yaƙi ya bar gidan sa kan kowanne irin dalili.	2
+Steve Harris, mai nazarin kimiyyar kwayoyin halitta daga Taxas yayi ziyara.	Steve mai nazarin halitta ne daga wajen gari.	0
+Steve Harris, mai nazarin kimiyyar kwayoyin halitta daga Taxas yayi ziyara.	Steve yana ziyartar California dan ya binciki sabon abu.	1
+Mambobi kowanne babi akwai maza manya tsakanin talatin zuwa hamsin (ana kiran su Moradas) kuma an ƙara raba su zuwa mambobi biyu da ake kira hermanos disciplantes ('yan uwa masu horar sa) da kuma jami'ai da ake kira da hermanos de luz ('yan uwa masu haske).	Sama da jami'i dari ne sukai hidima a kowanne sashi.	2
+Mambobi kowanne babi akwai maza manya tsakanin talatin zuwa hamsin (ana kiran su Moradas) kuma an ƙara raba su zuwa mambobi biyu da ake kira hermanos disciplantes ('yan uwa masu horar sa) da kuma jami'ai da ake kira da hermanos de luz ('yan uwa masu haske).	Sashin ya ɗauke da duka mambobi gama gari da jami'ai.	0
+Mambobi kowanne babi akwai maza manya tsakanin talatin zuwa hamsin (ana kiran su Moradas) kuma an ƙara raba su zuwa mambobi biyu da ake kira hermanos disciplantes ('yan uwa masu horar sa) da kuma jami'ai da ake kira da hermanos de luz ('yan uwa masu haske).	Sashen suke da alhakin maida Jama'a 'yan asalin ƙasar Amurka ta tsakiya. 	1
+Daga 'yan shekera 4 zuwa 5, tambayoyin sau da yawa sun danganci shiryanya labari ( Mai zai biyo bayan?	Yawancin yara basa koyar magana sai sun kai shekara shida.	2
+Daga 'yan shekera 4 zuwa 5, tambayoyin sau da yawa sun danganci shiryanya labari ( Mai zai biyo bayan?	Yan shekara biyar sun fi damuwa da mai faru gaba.	0
+Daga 'yan shekera 4 zuwa 5, tambayoyin sau da yawa sun danganci shiryanya labari ( Mai zai biyo bayan?	Yan shekera biyar gaba ɗaya ana ɗaukar su a matsayin marasa iya zance.	1
+A hankalce, tururuwan shigowa a jiha yana bada damar rarrabewa, sabode idan jihohi biyu suka hade kan wata jihar, wannan jihohi sun zama daya. 	Tururuwan shigowa yana bada damar rarrabewa.	0
+A hankalce, tururuwan shigowa a jiha yana bada damar rarrabewa, sabode idan jihohi biyu suka hade kan wata jihar, wannan jihohi sun zama daya. 	Tururuwar shigo yana da alaka da yawan jama'a.	1
+A hankalce, tururuwan shigowa a jiha yana bada damar rarrabewa, sabode idan jihohi biyu suka hade kan wata jihar, wannan jihohi sun zama daya. 	Tururuwan shigowa yana hana rarrabewa.	2
+Dan haka, sauna ci gaba da ƙirƙira duniya mai gudana, in da bayanai da suka wuce a babu dadewa zaa dauka.	Wasu basa sha'awar duniya mai gudana idan dole zata kunshi bayanai daga karnin baya.	0
+Dan haka, sauna ci gaba da ƙirƙira duniya mai gudana, in da bayanai da suka wuce a babu dadewa zaa dauka.	Duk wani bayani daga kowane ƙarni na da inganci daga kuma kowace duniyar.	2
+Dan haka, sauna ci gaba da ƙirƙira duniya mai gudana, in da bayanai da suka wuce a babu dadewa zaa dauka.	Wannan harsashi na duniya da shi ake amfani wajan tsarin harsashi yanayi .	1
+Kuma, dan haka, Babu alhakin jihar yadda keɓaɓɓin mutane ke hana walwala ga baƙaƙe yan ƙasa.	Wasu keɓaɓɓin mutane suna hana baƙaƙe yan ƙasa damar cuɗanya.	0
+Kuma, dan haka, Babu alhakin jihar yadda keɓaɓɓin mutane ke hana walwala ga baƙaƙe yan ƙasa.	keɓaɓɓin mutane farare ne.	1
+Kuma, dan haka, Babu alhakin jihar yadda keɓaɓɓin mutane ke hana walwala ga baƙaƙe yan ƙasa.	Duka jihar ke da alhakin kan halayyar da kiɓaɓɓin mutanen.	2
+Babu wani bambanci tsakanin abokan karatu ƙanana da manya wajan samun nasara cin jarabawa.	Yayin da sakamakon gwaji abokan karatu ƙanana da manya iri ɗaya ne, ƙananan yan ajin suna saurin gama jarabawa.	1
+Babu wani bambanci tsakanin abokan karatu ƙanana da manya wajan samun nasara cin jarabawa.	Abokan karatu ƙanana da manya suna cimma samun sakamakon iri ɗaya a wajan jaraba.	0
+Babu wani bambanci tsakanin abokan karatu ƙanana da manya wajan samun nasara cin jarabawa.	Abokan karatu ƙanana da manya suna samun bambanci sakamakon dalilin shekaru .	2
+Darwin har ya fara rayuwa a nan.	Darwin ya fara da mai da hankali kan kifi.	1
+Darwin har ya fara rayuwa a nan.	Darwin ya fara da rayuwa dake gabata.	0
+Darwin har ya fara rayuwa a nan.	Darwin yana mai da hankali ne kawai akan abubuwan mara sa rai.	2
+Abin da yafi yawan dawowa da jarirai da kuma ƙanana yara shi ciwon Otitis ko kuma ciwon tsakiyar kunne.	Ciwon tsakiyar kunne shine yafi yawa a wajan jarirai.	0
+Abin da yafi yawan dawowa da jarirai da kuma ƙanana yara shi ciwon Otitis ko kuma ciwon tsakiyar kunne.	Ciwon kunne da ake kira Otitis yana matuƙar wuyar samu a yaran dake shekaru shiga makaranta. 	2
+Abin da yafi yawan dawowa da jarirai da kuma ƙanana yara shi ciwon Otitis ko kuma ciwon tsakiyar kunne.	Mafi yawanci jarirai zasu sami ciwon tsakiyar kunne.	1
+Lokacin da wayayyiyar al'umma suka toshe kunnan su, shirme zai yaɗu.	Shirme zasu ragu idan wayayyiyar al'umma sunyi watsi dasu.	0
+Lokacin da wayayyiyar al'umma suka toshe kunnan su, shirme zai yaɗu.	Shirme yana samun karɓuwa wajan wayayyiyar al'umma idan wayayyiyar al'umma sunyi watsi da shi.	2
+Lokacin da wayayyiyar al'umma suka toshe kunnan su, shirme zai yaɗu.	Wayayyiyar al'umma na watsi da mafi yawan shirme.	1
+Gaskiya, A cikin abin da muke buƙata akwai hanyar siffanta abubuwan da tsarin abubuwan da gaskiya a cikin wannan duniyar marar daidaito 	Muna bukatar saka wata shaida dan muga inda kungiyar take abu mai kyau	1
+Gaskiya, A cikin abin da muke buƙata akwai hanyar siffanta abubuwan da tsarin abubuwan da gaskiya a cikin wannan duniyar marar daidaito 	Muna bukatar sakawa kungiyar wani shaidar ganewai.	0
+Gaskiya, A cikin abin da muke buƙata akwai hanyar siffanta abubuwan da tsarin abubuwan da gaskiya a cikin wannan duniyar marar daidaito 	Ba sai munyi wata shidar komai ba.	2
+Ya mai da roƙon sa zuwa shugaban Julian.	Ya so ya tambayi shugaban Julian wani abu.	0
+Ya mai da roƙon sa zuwa shugaban Julian.	Ya so ya tambayi shugaban Julian ya ceci matar sa.	1
+Ya mai da roƙon sa zuwa shugaban Julian.	An rasa inda zaa ga Shugaba Julian.	2
+Jeremy Pitt ya mayar da dariyar da rantsuwa.	Jeremy Pitt ya mayar da dariyar yana kyakyatawa sai kuma ya kai naushi fuskar mai dariyar.	2
+Jeremy Pitt ya mayar da dariyar da rantsuwa.	Jeremy Pitt yayi rantsuwa faɗa dan ƙasar sa da kuma sarauniyar sa.	1
+Jeremy Pitt ya mayar da dariyar da rantsuwa.	Wani yayi dariya kusa da Jeremy Pitt.	0
+Pitt, wanda ya kalli wasa daga quarter-deck rail yace mai martaba na tsaye cir a wajan baya ko motsi.	Pitt bai taba ganin mai martaba ba duk da matsayin sa a lokacin.	1
+Pitt, wanda ya kalli wasa daga quarter-deck rail yace mai martaba na tsaye cir a wajan baya ko motsi.	Pitt ya rantse akan bai samu ganin komai ba a wasan.	2
+Pitt, wanda ya kalli wasa daga quarter-deck rail yace mai martaba na tsaye cir a wajan baya ko motsi.	Pitt ya ga yadda mai martaba ya ɗauki wasan da mahimmanci a lokacin yin sa.	0
+Kanal din ya karɓa, kuma ya sunkuyar da kan sa, yana cire hular sa mai faɗi.	Kanal din ya karɓi lambar yabo a wajan mai garin New York City.	1
+Kanal din ya karɓa, kuma ya sunkuyar da kan sa, yana cire hular sa mai faɗi.	Kana din yaki karbar abinda aka bashi kuma ya bar hular sa a kansa alamar rashin amincewa.	2
+Kanal din ya karɓa, kuma ya sunkuyar da kan sa, yana cire hular sa mai faɗi.	Kanal din yana sanye da hular sa.	0
+Kuma mani rashin mutunci dan bazan goyi banyan ku ba, saboda nasan kuna da hannun a cikin kisan kai da wasu laifukan, ya zuba mata ido cikin sakin baki.	Yayi imani cewa laifikan da aka aikata zai iya kasancewa kisan ƙare dangi ne.	1
+Kuma mani rashin mutunci dan bazan goyi banyan ku ba, saboda nasan kuna da hannun a cikin kisan kai da wasu laifukan, ya zuba mata ido cikin sakin baki.	Ya zabi ƙin kama hannayen sa saboda anyi musu tambarin laifi.	0
+Kuma mani rashin mutunci dan bazan goyi banyan ku ba, saboda nasan kuna da hannun a cikin kisan kai da wasu laifukan, ya zuba mata ido cikin sakin baki.	Ya zaɓi ya riƙe hannaye ta saboda ƙanana ne, ga laushi kuma abinda yafi waɗannan duka shine tsafta. 	2
+Ta sadaukar da duka lokaci ta kan sa, ka kuma san mai martaba Julian Wade kyakkyawa matashi ne da yazo daga St. James.	Mai martaba Julian yazo daga St.James's.	0
+Ta sadaukar da duka lokaci ta kan sa, ka kuma san mai martaba Julian Wade kyakkyawa matashi ne da yazo daga St. James.	Ita da mai martaba Julian Wade sun sumbatu juna daren jiya.	1
+Ta sadaukar da duka lokaci ta kan sa, ka kuma san mai martaba Julian Wade kyakkyawa matashi ne da yazo daga St. James.	Ta faɗa kaunar mai martaba Julian Wade, duk da halinsa na ko in kula.	2
+Amma....Amma.... A cikin wannan jirgin ruwa? Jami'in ya yi yanayi tausayi, ya kuma da rikicin da ke faruwa, ya yi shiru.	Ofishin ya kaure da hayaniya na yan mintina, an fusata da iskancin dake kan tebur ɗin sa.	2
+Amma....Amma.... A cikin wannan jirgin ruwa? Jami'in ya yi yanayi tausayi, ya kuma da rikicin da ke faruwa, ya yi shiru.	Jami'in ya rikice saboda abunda yake gani yana faruwa a wajan hawa jirgin ruwan.	0
+Amma....Amma.... A cikin wannan jirgin ruwa? Jami'in ya yi yanayi tausayi, ya kuma da rikicin da ke faruwa, ya yi shiru.	Jami'in cikin rashin nutsuwa ya gigita ganin amain kan tebur ɗin sa.	1
+Kai ne mai martaba Julian Wade, na gane, yayi gaisuwar cikin rashin mutunci. 	Mai martaba Julian Wade ya gabatar da tarbar cikin mutunci da karamci.	2
+Kai ne mai martaba Julian Wade, na gane, yayi gaisuwar cikin rashin mutunci. 	Mai martaba Julian Wade yayi tarbar a halin da za'a iya ɗauka a matsayin rashin ɗa'a.	0
+Kai ne mai martaba Julian Wade, na gane, yayi gaisuwar cikin rashin mutunci. 	Duk da mutane da dama sun so su kusanci shi, Mai martaba Wade a mafiya yawan lokaci bashi da sakin fuska. 	1
+Mary Traill zata gaya muku yadda akayi.	Mary Traill zata iya faɗar labarin Jakin.	1
+Mary Traill zata gaya muku yadda akayi.	Mary Trail na da masaniya.	0
+Mary Traill zata gaya muku yadda akayi.	Ni kaɗai nake da masaniya.	2
+Akwai gaggan yan daban da suke jiran wannan mara mutuncin a Royal Port. Blood zai iya shiga tsakani amma Mai martaba Julian ya tsai da shi.	Blood kungiya ce ta yan daba na duniya wacce ke Royal Port. su mai martaba Julian ke kira in za ai aikin assha	2
+Akwai gaggan yan daban da suke jiran wannan mara mutuncin a Royal Port. Blood zai iya shiga tsakani amma Mai martaba Julian ya tsai da shi.	Cikin abinda ke karkashin mallakin Lord Juli sun hada da Port Royal, birni na kasuwanci wanda yake cibiyar hada-hada a yankin.	1
+Akwai gaggan yan daban da suke jiran wannan mara mutuncin a Royal Port. Blood zai iya shiga tsakani amma Mai martaba Julian ya tsai da shi.	Royal port tana da guraren hukunta masu laifi.	0
+Ba dai Bishof da kansa ba, Wolverstone ya faɗa, a tsakanin tambaya da kuma rashin tabbas.	Wolverstone yayi tambaya da take nuna kwarjinin sa akan sauran.	0
+Ba dai Bishof da kansa ba, Wolverstone ya faɗa, a tsakanin tambaya da kuma rashin tabbas.	Wolverstone ya ambaci Bishof a matsayin ɗaya daga cikin masu kyau. 	1
+Ba dai Bishof da kansa ba, Wolverstone ya faɗa, a tsakanin tambaya da kuma rashin tabbas.	Wolverstone bai ce komai ba akan Bishof.	2
+Shin zaku daina wannan kukan da tawaye da cin amanar ƙasa da kuma koton sojoji? Blood ya ajjiye hular sa, ya zauna ba tare da izini ba.	Blood yana da hular da yasa kafin ya zauna.	0
+Shin zaku daina wannan kukan da tawaye da cin amanar ƙasa da kuma koton sojoji? Blood ya ajjiye hular sa, ya zauna ba tare da izini ba.	Blood yasa hular sa sai ya fice daga ɗakin ba tare da yace komai ba.	2
+Shin zaku daina wannan kukan da tawaye da cin amanar ƙasa da kuma koton sojoji? Blood ya ajjiye hular sa, ya zauna ba tare da izini ba.	Hular Blood baƙa ce tana da gashin mikiya guda uku a jikin ta.	1
+Abubuwa basu tafiya sosai ba gaba daya a gare shi tunda ya karbi kwamishinan sarki sati biyu da ya wuce.	Yana barci mai nauyi da daddare tare da masaniyar ya kin karbar mukamin kwamishinan sarki.	2
+Abubuwa basu tafiya sosai ba gaba daya a gare shi tunda ya karbi kwamishinan sarki sati biyu da ya wuce.	Abunda ke hana shi barci shine karɓar muƙamin kwamishinan sarki da yayi.	0
+Abubuwa basu tafiya sosai ba gaba daya a gare shi tunda ya karbi kwamishinan sarki sati biyu da ya wuce.	Kwamishinan sarki babban muƙamin ne da yake da nauye-nauye masu yawa.	1
+Suna cikin iyakar, Ogle yayi kururuwa.	Ogle yace za'a iya samun su.	0
+Suna cikin iyakar, Ogle yayi kururuwa.	Ogle yace suna inda zaa jiyo su.	1
+Suna cikin iyakar, Ogle yayi kururuwa.	Duk da yasan suna inda zaa iya samun su, Ogle bai bayyana ba.	2
+Na aiko maka Kaftin Blood, saboda wani labari da ya same ni yanzu. 	Ban ji wani irin labari ba, kaftin Blood. Ka ji?	2
+Na aiko maka Kaftin Blood, saboda wani labari da ya same ni yanzu. 	Na sami wasu labarai kafin na neme ka, Kaftin Blood.	0
+Na aiko maka Kaftin Blood, saboda wani labari da ya same ni yanzu. 	Labaran dana samu ya bani mamaki matuƙa.	1
+Bayan ka gama ganin waɗannan, ka hau kan dutse gidan kwamishinan inda zaka kyawawan wurare da kuma gaɓar ruwa da ragowar tashar jiragen ruwan.	Zaka iya ganin jiragen ruwa daga saman tsaunin	1
+Bayan ka gama ganin waɗannan, ka hau kan dutse gidan kwamishinan inda zaka kyawawan wurare da kuma gaɓar ruwa da ragowar tashar jiragen ruwan.	Zaka iya hango bakin tekun daga saman tsaunin.	0
+Bayan ka gama ganin waɗannan, ka hau kan dutse gidan kwamishinan inda zaka kyawawan wurare da kuma gaɓar ruwa da ragowar tashar jiragen ruwan.	Ba zaka iya ganin bakin tekun ba daga saman tsaunin ba.	2
+A bayan yankin kudancin Amurka, zaka samu kamfanin turare, inda zaka iya fitar da ƙamshin da kake so da kanka.	Kamfanin turaren yana samar da kaya tun 1954.	1
+A bayan yankin kudancin Amurka, zaka samu kamfanin turare, inda zaka iya fitar da ƙamshin da kake so da kanka.	Kamfanin turaren yana bayan yankin kudancin Afrika.	0
+A bayan yankin kudancin Amurka, zaka samu kamfanin turare, inda zaka iya fitar da ƙamshin da kake so da kanka.	Kamfanin turaren yana gaban yankin kudancin Afirka.	2
+Ansa rai kuma anci buri akan lemon tsami na Bahamian da Abarba. 	Duk da abarba suna da daɗi kudin kawu su kasuwar yayi yawa.	1
+Ansa rai kuma anci buri akan lemon tsami na Bahamian da Abarba. 	Kayan marmari na Bahamian ya samu gagarimar karɓuwa, kamar yadda kowa ya yace zai yi.	2
+Ansa rai kuma anci buri akan lemon tsami na Bahamian da Abarba. 	Kayan marmari na Bahamian bai samu karɓuwa ba kamar yadda kowa ya so.	0
+Ƙarar sautin, 3 km (2 miles) a tsayi, ana tunawa babbar caldera ce tayi shi bayan fashewar dutse mai amai wuta.	Abubuwa da yawa zasu iya haddasa karar sautin na mil 2, har da aman wutar dutse.	1
+Ƙarar sautin, 3 km (2 miles) a tsayi, ana tunawa babbar caldera ce tayi shi bayan fashewar dutse mai amai wuta.	Tabbas ba aman wutar dutse ne ya haddasa karar sautin na mil 2 ba.	2
+Ƙarar sautin, 3 km (2 miles) a tsayi, ana tunawa babbar caldera ce tayi shi bayan fashewar dutse mai amai wuta.	Watakila aman wutar dutse ne ya haddasa karar sautin na mil 2	0
+A can wurin babu annashuwa sosai, kuma yaren zai iya baka tsaro  amma zaka samu damar ganin al'adun Chinese masu kyau.	Yana da kyau ka sami mai ma fassara tare da kai.	1
+A can wurin babu annashuwa sosai, kuma yaren zai iya baka tsaro  amma zaka samu damar ganin al'adun Chinese masu kyau.	Akwai matsalar yare da zai iya sanyaya ma gwiwa.	0
+A can wurin babu annashuwa sosai, kuma yaren zai iya baka tsaro  amma zaka samu damar ganin al'adun Chinese masu kyau.	Ba sai ka damu da batutuwan yare ba a wajan, tunda kowa yana magana da turanci ne.	2
+A Tsakanin 1936 da 1940 Greece na karkashin mulkin kama karya na loannus Metaxas, Ana iya tunawa da sutin (a'a)  da ya amsa dashi zuwa ga Mussolini ultimatum yayi mubaya'a a 1940.	Greece bata taba zama a ƙarƙashin mulkin soja ba.	2
+A Tsakanin 1936 da 1940 Greece na karkashin mulkin kama karya na loannus Metaxas, Ana iya tunawa da sutin (a'a)  da ya amsa dashi zuwa ga Mussolini ultimatum yayi mubaya'a a 1940.	Greece na ɗaya daga cikin ƙasashe a duniya da tayi mulkin kama karya.	0
+A Tsakanin 1936 da 1940 Greece na karkashin mulkin kama karya na loannus Metaxas, Ana iya tunawa da sutin (a'a)  da ya amsa dashi zuwa ga Mussolini ultimatum yayi mubaya'a a 1940.	Tattalin arzikin Greece bai yi kyau ba a ƙarƙashin mulkin kama karya na soja na Metaxas.	1
+Sauwaƙaƙe layikan dake jikin Sant Pau an yadda suna canza daga na Barcelona mai matuƙa yawa da kuma na gini Gothic mai rikirkitacce.	Sant Pau bashi da zanan gidajen da.	2
+Sauwaƙaƙe layikan dake jikin Sant Pau an yadda suna canza daga na Barcelona mai matuƙa yawa da kuma na gini Gothic mai rikirkitacce.	Sant Pau na da zanan gidajen da.	0
+Sauwaƙaƙe layikan dake jikin Sant Pau an yadda suna canza daga na Barcelona mai matuƙa yawa da kuma na gini Gothic mai rikirkitacce.	Sant Pau na da majami'u.	1
+kan a kifta, ya shige.	Abun ne mai sauki kowanne irin motsi ya tsoratar	1
+kan a kifta, ya shige.	Bai da tsoro kuma babu abinda zai sa shi ya matsa.	2
+kan a kifta, ya shige.	Mafi ƙanƙara motsi kuma shikenan, ya tafi.	0
+Wannan babban shirin gyarar zai ƙare ne a ƙarshe shekera 2001.	Kafin 2001 ta shigo, shirin gyararrakin zai ƙare. 	2
+Wannan babban shirin gyarar zai ƙare ne a ƙarshe shekera 2001.	Shirin gyaran ba zai kammala ba sai kamar bayan shekarar 2000 ta kare.	0
+Wannan babban shirin gyarar zai ƙare ne a ƙarshe shekera 2001.	Lokacin da gyararrakin zai kammala, zai zama ya shafe shekaru biyar.	1
+Ma'aikacin na aiki kan shirin kara yawan adadin filamingos a US Virgin Islands, zaka samu ɗan ƙarami garken su suna kiwo kowacce shekara. 	Ma'aikacin na aiki wajan kawar da filamingos din.	2
+Ma'aikacin na aiki kan shirin kara yawan adadin filamingos a US Virgin Islands, zaka samu ɗan ƙarami garken su suna kiwo kowacce shekara. 	Ma'aikaci na aikin wajan ƙara yawan filamingos dake tsibirin saboda a dawo dasu daga kusan ƙarewa. 	1
+Ma'aikacin na aiki kan shirin kara yawan adadin filamingos a US Virgin Islands, zaka samu ɗan ƙarami garken su suna kiwo kowacce shekara. 	Ma'aikacin na aiki dan ya ƙara yawan filamingos din dake tsibirin. 	0
+Tsaunikan Serra de Tramuntana sun gangara cikin teku a nan,akwai hanyoyin kaɗan da ake iya zuwa wajan, da kuma tasha jiragen ruwa guda ɗaya a duka gaɓar tekun. 	Duwarwatsu suna samun zabtarewar ƙasa akai-akai dan haka gina tashar a wajan ba abu ne mai sauƙi ba.	1
+Tsaunikan Serra de Tramuntana sun gangara cikin teku a nan,akwai hanyoyin kaɗan da ake iya zuwa wajan, da kuma tasha jiragen ruwa guda ɗaya a duka gaɓar tekun. 	Duwarwatsu sun sa tashashoshin jirgin ruwa zai yi wuyar ginawa. 	0
+Tsaunikan Serra de Tramuntana sun gangara cikin teku a nan,akwai hanyoyin kaɗan da ake iya zuwa wajan, da kuma tasha jiragen ruwa guda ɗaya a duka gaɓar tekun. 	Akwai tashoshin jiragen ruwa guda 27 wajan duwarwatsu.	2
+An san Culebra a matsayin tsibiri Spanish har zuwa lokacin da Amurka ta karɓe shi, yana tsakanin Puerto Rico da  St. Thomas a US Virgin Islands.	Culebra na tsakiyar Puerto Rico and St. Thomas a  US Virgin Islands.	0
+An san Culebra a matsayin tsibiri Spanish har zuwa lokacin da Amurka ta karɓe shi, yana tsakanin Puerto Rico da  St. Thomas a US Virgin Islands.	Babu inda Culebra ta haɗa hanya da Puerto Rico and St. Thomas a US Virgin Islands.	2
+An san Culebra a matsayin tsibiri Spanish har zuwa lokacin da Amurka ta karɓe shi, yana tsakanin Puerto Rico da  St. Thomas a US Virgin Islands.	Culebra tana wani waje tsakanin Puerto Rico da St.Thomas a US Virgin Islands.	1
+Umeda ce ta kawo karshen garin kasuwanci da kuma nishadi a arewacin kauyen da aka fi sani da Kita (mai nufin arewa) kuma shine muhimmin samun cigaba na hadadar zamani a Osaka.	Umeda bata cikin sashin gundumar nishaɗantarwa.	2
+Umeda ce ta kawo karshen garin kasuwanci da kuma nishadi a arewacin kauyen da aka fi sani da Kita (mai nufin arewa) kuma shine muhimmin samun cigaba na hadadar zamani a Osaka.	Umeda ita ce sashe mafi girma a gundumar nishaɗantarwa.	1
+Umeda ce ta kawo karshen garin kasuwanci da kuma nishadi a arewacin kauyen da aka fi sani da Kita (mai nufin arewa) kuma shine muhimmin samun cigaba na hadadar zamani a Osaka.	Umeda na daga arewa da gundumar nishaɗantarwa.	0
+Na uku a cikin jerin alloli Hindu shine Brahma, wanda aikinsa kawai shine ya ƙirƙiri duniya.	Brahma manzo ne na kiristoci.	2
+Na uku a cikin jerin alloli Hindu shine Brahma, wanda aikinsa kawai shine ya ƙirƙiri duniya.	Brahma yana cikin alloli uku na Hindu.	0
+Na uku a cikin jerin alloli Hindu shine Brahma, wanda aikinsa kawai shine ya ƙirƙiri duniya.	Brahma ne mafi mahimmanci a cikin alloli uku.	1
+Pedro ya hau kan gadon mulkin, ta hanyar gwagwarmayar yaƙi da ya ɗauki watanni da kuma ɗacin rai bayan hakan.	Mutane 10000 suka mutu a yaƙin.	1
+Pedro ya hau kan gadon mulkin, ta hanyar gwagwarmayar yaƙi da ya ɗauki watanni da kuma ɗacin rai bayan hakan.	Watanni da suka shuɗe akai yakin.	0
+Pedro ya hau kan gadon mulkin, ta hanyar gwagwarmayar yaƙi da ya ɗauki watanni da kuma ɗacin rai bayan hakan.	an gama yaƙin a kwana daya.	2
+an karfafa tsarin kula da lafiya maaikata da sabbin gammammen tsari da wuri domin kula da cigaba da fadada mu'amala da abokanan kasuwanci.	ta karfaffafen tsarin kula da lafiyar maaikata, an gina ɗaki wa sabbin gammamen tsari ko kuma an bada dama domin a sami sabon gammamen tsari.	1
+an karfafa tsarin kula da lafiya maaikata da sabbin gammammen tsari da wuri domin kula da cigaba da fadada mu'amala da abokanan kasuwanci.	an samar da gammammen tsari.	0
+an karfafa tsarin kula da lafiya maaikata da sabbin gammammen tsari da wuri domin kula da cigaba da fadada mu'amala da abokanan kasuwanci.	tsarin kula da lafiyar maaikata ta bunkasa fiye da da.	2
+duk da dai hanyoyin samun kudi sun gyaru, akwai kudin aiwatar da aikin nan.	akwai kayan da ake bukata na yin wannan ayyukan.	0
+duk da dai hanyoyin samun kudi sun gyaru, akwai kudin aiwatar da aikin nan.	babu wasu ƙudi da aka ware wa wannan aikin.	2
+duk da dai hanyoyin samun kudi sun gyaru, akwai kudin aiwatar da aikin nan.	babu wadatattun ƙudi da aka ware wa wannan aikin.	1
+ƙididdigar hanyoyin na karkara da ke wannan takardar, an dangana shi da ƙididdigan National Mail (1989) alif dubu daya da tamani da tara.	ƙididdigan da ke wannan takardan a dangana ta da rahoton 2001.	2
+ƙididdigar hanyoyin na karkara da ke wannan takardar, an dangana shi da ƙididdigan National Mail (1989) alif dubu daya da tamani da tara.	ƙididdigan takardan na sun shuɗe.	1
+ƙididdigar hanyoyin na karkara da ke wannan takardar, an dangana shi da ƙididdigan National Mail (1989) alif dubu daya da tamani da tara.	akwai bayanai akan hanyoyin karkara a wannan takardan.	0
+Masu Zartarwa  na iya samun adadin tanadi ko faduwa wa kowannni alama.	kowanni abu Mai Zartarwa ya gwada akai zai bashi ma'auni daban.	0
+Masu Zartarwa  na iya samun adadin tanadi ko faduwa wa kowannni alama.	Masu Zartarwa basa faduwa.	2
+Masu Zartarwa  na iya samun adadin tanadi ko faduwa wa kowannni alama.	dole Masu Zartarwa su samu wani adadi na ma'auni mai kyau domin cigaba.	1
+batun da aka tattauna akai a lokacin gwajin neman samun aiki shine yadda mutane ke yi idan sun ga tallar gurin siye da siyarwan zamani'	rashin yarda a yayin amsa tambayoyin gwajin neman aiki na matakin farko ba zai sa ka samu aikin ba.	1
+batun da aka tattauna akai a lokacin gwajin neman samun aiki shine yadda mutane ke yi idan sun ga tallar gurin siye da siyarwan zamani'	a tambayoyin gwajin samun shiga aikin ba ayi magana akan tallata wurin kasuwanci ba.	2
+batun da aka tattauna akai a lokacin gwajin neman samun aiki shine yadda mutane ke yi idan sun ga tallar gurin siye da siyarwan zamani'	a tambayoyin gwajin samun shiga aikin an ambaci yadda mutane ke yi akan tallata wurin kasuwanci kadan.	0
+189 kuma farashin masu amfani an ƙiyasce su a hanya daya.	sun ƙiyasta farshin masu amfani da shi.	0
+189 kuma farashin masu amfani an ƙiyasce su a hanya daya.	sun ƙiyasta cewa farashin masu amfani da shi $10000 ne.	1
+189 kuma farashin masu amfani an ƙiyasce su a hanya daya.	sun san takamaiman farashin masu amfani da shi.	2
+a misali, a GGD, an yi aikin taswiran karatun daban, da tsayi.	ba ayi nazarin taswirar ba.	2
+a misali, a GGD, an yi aikin taswiran karatun daban, da tsayi.	Na zari akan taswirar anyi shi ne a boye.	0
+a misali, a GGD, an yi aikin taswiran karatun daban, da tsayi.	Ba ayi nasara a nazarin taswirar ba.	1
+duk hukumomi tara  sun amsa rahoto yin 	daga hukumomi tara biyu ne kadai suka damu su amsa mana tambayoyi cewan zasu kasance da mu.	2
+duk hukumomi tara  sun amsa rahoto yin 	duka hukumomi taran sun amsa cewan sun kasance a gurin	0
+duk hukumomi tara  sun amsa rahoto yin 	wadannan hukumomin taran sun yi murnar ganin cewa sun kai wannan matsayin a fafatawar. 	1
+tun 1996, kudin shiga na arzikin gidaje yai tashin gauron zabi uwa 6:4 a 1999	Duk gidaje sun sami fiye da $10000 kari shekarar da ta gabata.	1
+tun 1996, kudin shiga na arzikin gidaje yai tashin gauron zabi uwa 6:4 a 1999	tattalin arzikin gidaje dayawa na yin kasa	2
+tun 1996, kudin shiga na arzikin gidaje yai tashin gauron zabi uwa 6:4 a 1999	gidaje da dama sun sami karin kudade da dama	0
+ta raberaben hanya,ana bawa kowanne kashi farko da rukunin workshare ƙari a kan kason ƙuɗaɗe don samun matsaƙaicin farashi.	rukunin tushe yafi farashin.	0
+ta raberaben hanya,ana bawa kowanne kashi farko da rukunin workshare ƙari a kan kason ƙuɗaɗe don samun matsaƙaicin farashi.	farashin ya ƙaru da kaso 10 cikin dari a kan uwar kudin.	1
+ta raberaben hanya,ana bawa kowanne kashi farko da rukunin workshare ƙari a kan kason ƙuɗaɗe don samun matsaƙaicin farashi.	farashin bai kai asalin ƙudin ba 	2
+19 a misali a ce aikin wata huɗu kamin a bada aikin,gabaki ɗaya watanni 13 lokaci ne da za a iya gyara wannan tukunyar 675 MWe.	 gyare gyaren wata biyu ya ci kawai.	2
+19 a misali a ce aikin wata huɗu kamin a bada aikin,gabaki ɗaya watanni 13 lokaci ne da za a iya gyara wannan tukunyar 675 MWe.	gyaran tukunyar jirgin ruwan karkashin kasa sai da ya kai watanni 13.	1
+19 a misali a ce aikin wata huɗu kamin a bada aikin,gabaki ɗaya watanni 13 lokaci ne da za a iya gyara wannan tukunyar 675 MWe.	gyaran tukunyar jirgin sai da ya kai watanni 13.	0
+rashin maaikatan IT a kasa yanzu ya na daya daga cikin dalilan da yasa manyan kunguyoyi ke nema daga wani gurin.	akwai ma'aikatan IT dayawa.	2
+rashin maaikatan IT a kasa yanzu ya na daya daga cikin dalilan da yasa manyan kunguyoyi ke nema daga wani gurin.	babu maaikatan IT sosai saboda duk sun tafi kasar Indiya.	1
+rashin maaikatan IT a kasa yanzu ya na daya daga cikin dalilan da yasa manyan kunguyoyi ke nema daga wani gurin.	babu maaikatan IT sosai da zasu cike guraben ayyukan.	0
+bazai yiwu a san adadi ko inda son kai a wannan abun ya chanza gabaki daya yanayin gudanar da C-R ta ko'ina.	ga zahiri ya nuna akwai son kai a nan.	2
+bazai yiwu a san adadi ko inda son kai a wannan abun ya chanza gabaki daya yanayin gudanar da C-R ta ko'ina.	ba zai yiwu ka san adadin son kai dake nan ba saboda zai yi wuya ka raba shi da tunzurawa na wasu daga waje.	1
+bazai yiwu a san adadi ko inda son kai a wannan abun ya chanza gabaki daya yanayin gudanar da C-R ta ko'ina.	baza ka san adadin son kan da ake da shi.	0
+daga cikin farashin fasaha, saboda yanayin aikin da wasu ƙungiya zasu iya yi a farashi mai tsada, an riga da an lissafa su ta hanyar da aka lissafa na baya.	ana iya gano ƙudin kula da bangaren fasaha ta ɓangare guda ɗaya ne.	0
+daga cikin farashin fasaha, saboda yanayin aikin da wasu ƙungiya zasu iya yi a farashi mai tsada, an riga da an lissafa su ta hanyar da aka lissafa na baya.	basu gano ta wani hanyar zasu lissafa ƙudin kula da ɓangaren fasaha ba.	2
+daga cikin farashin fasaha, saboda yanayin aikin da wasu ƙungiya zasu iya yi a farashi mai tsada, an riga da an lissafa su ta hanyar da aka lissafa na baya.	sun yi amfani da tsohon data don su lissafa ƙudin kula da ɓangaren fasaha.	1
+abin yi na 4: kula da hatsarin a kai a kai.	babi na huɗu ya ƙunshi gwaji akan yadda za a rage hatsari.	0
+abin yi na 4: kula da hatsarin a kai a kai.	wannan littafin bai ƙunshi wani sanarwa game da hanyayoyin rage hatsari mai tsawon zango.	2
+abin yi na 4: kula da hatsarin a kai a kai.	dole a gama gwajin kuma a kai nan da ƙarshen mako.	1
+an samar da ƙungiyar musulunci a 1940 an yi saboda duniyar zamani, wanda irin nazarin Marxist-Leninist ne ya tunzura su tare da ƙungiyoyin yan tawaye.	an hada da nazarin Marxist-Leninist a harkar kungiyar musulunci.	0
+an samar da ƙungiyar musulunci a 1940 an yi saboda duniyar zamani, wanda irin nazarin Marxist-Leninist ne ya tunzura su tare da ƙungiyoyin yan tawaye.	a karni na shidda aka fara kafa kungiyar musulmai.	2
+an samar da ƙungiyar musulunci a 1940 an yi saboda duniyar zamani, wanda irin nazarin Marxist-Leninist ne ya tunzura su tare da ƙungiyoyin yan tawaye.	ƙungiyar musulmai ya samo asali daga ƙungiyar wayar da kan al'umma.	1
+wasu masu bada shawara sun nuna wannan damuwarsu.	ɗuk masu bada shawara sun yadda gabaki ɗayan su cewan ba wani abin damuwa.	2
+wasu masu bada shawara sun nuna wannan damuwarsu.	mashawurci daya ne kaɗai bai faɗi nasa hasashen ba agame da wannan tsarin.	1
+wasu masu bada shawara sun nuna wannan damuwarsu.	an samu rarrabuwa akan matsalar a gurin masu bada shawara daban daban.	0
+wannan tsarin na zaɓar fasinjoji ta ɗauki ɗaɗɗaya wanda za a bincika sosai.	duk fasinjojin na wucewa ba tare da an sami wani matsala ba.	2
+wannan tsarin na zaɓar fasinjoji ta ɗauki ɗaɗɗaya wanda za a bincika sosai.	wasu fasinjan na samun binciken ilahirin jiki.	1
+wannan tsarin na zaɓar fasinjoji ta ɗauki ɗaɗɗaya wanda za a bincika sosai.	wasu fasinjan na samun bincike sosai daga gurin jami'an tsaro.	0
+bamu da abinda zai nuna cewan an gayawa sabon shugaba wannan raayin ko cewan Clarke ya basu takardan. duk da dai cewan kungiyar ma'aikatan sun yi aiki da gwamnatin sabon gwamnati da wanda ya shuɗe.	muna da yaƙini ɗari bisa ɗari cewan Clarke bai bawa kowa takardan shi ba.	1
+bamu da abinda zai nuna cewan an gayawa sabon shugaba wannan raayin ko cewan Clarke ya basu takardan. duk da dai cewan kungiyar ma'aikatan sun yi aiki da gwamnatin sabon gwamnati da wanda ya shuɗe.	bamu da shaidar cewan Clarke ya bashi takardan.	0
+bamu da abinda zai nuna cewan an gayawa sabon shugaba wannan raayin ko cewan Clarke ya basu takardan. duk da dai cewan kungiyar ma'aikatan sun yi aiki da gwamnatin sabon gwamnati da wanda ya shuɗe.	muna da masaniyar cewan Clarke ya basu takardan ranar 2 ga watan Yuli.	2
+ba tabbacin za a iya kafa tsarin kafin 2010, amman ko da wannan jaddawalin tsarin lokaci za a iya samun tafiyar hawainiya, duba ga yadda ake samun barazanar tsaro.	yana da wuya a saka na'urar saboda masu iya ƙutse na kawo hari kullun da daddare.	1
+ba tabbacin za a iya kafa tsarin kafin 2010, amman ko da wannan jaddawalin tsarin lokaci za a iya samun tafiyar hawainiya, duba ga yadda ake samun barazanar tsaro.	ba abu ne mai sauki ba a saka na'urar saboda matsalar tsaro.	0
+ba tabbacin za a iya kafa tsarin kafin 2010, amman ko da wannan jaddawalin tsarin lokaci za a iya samun tafiyar hawainiya, duba ga yadda ake samun barazanar tsaro.	Za a saka na'urar tsaron nan da sati 6, nayi alƙawari.	2
+saboda haka, a yayin da muke kare ƙasar mu ta gado, Amurkawa su sa ido akan barazanar da zata iya taba mu da yancin mu na dan Adam.	Amurkawa kar su damu akan yancin su na zama dan Adam- zamu kare su.	2
+saboda haka, a yayin da muke kare ƙasar mu ta gado, Amurkawa su sa ido akan barazanar da zata iya taba mu da yancin mu na dan Adam.	Amurkawa su tabbatar ba a ƙwace musu bindigun su ba.	1
+saboda haka, a yayin da muke kare ƙasar mu ta gado, Amurkawa su sa ido akan barazanar da zata iya taba mu da yancin mu na dan Adam.	Amurkawa su sanya idanu akan barazanar yancin su na zama dan Adam.	0
+isar da saƙo akai akai bai sa ya zama mai inganci.	isar da saƙo bai sa ya inganta ba.	0
+isar da saƙo akai akai bai sa ya zama mai inganci.	isar da saƙo ya ƙara masa inganci.	2
+isar da saƙo akai akai bai sa ya zama mai inganci.	bai sa ya ƙara wani inganci ba a loƙacin da aka isar da sakon zuwa ga White Houseba.	1
+a mataki na gaba, darakta na ɓangaren al Qaeda a CIA a wannan loƙacin ya tuna cewan yana tunanin aikin sa ba kai tsaye bane ya sa ko ya hana .	darakta bai son ya shiga cikin maganar saboda ya kusan yin ritaya.	1
+a mataki na gaba, darakta na ɓangaren al Qaeda a CIA a wannan loƙacin ya tuna cewan yana tunanin aikin sa ba kai tsaye bane ya sa ko ya hana .	daraktan wannan ɓangaren baya son ya shiga maganar bada umarnin abinda za ayi.	0
+a mataki na gaba, darakta na ɓangaren al Qaeda a CIA a wannan loƙacin ya tuna cewan yana tunanin aikin sa ba kai tsaye bane ya sa ko ya hana .	darekta na tunanin cewa shi ke da na faɗa.	2
+Pickard ya tuna cewa ya ga ƙagaggen jawabin da aka hada a wurin taro na ranar 12 ga watan Yuli	Pickard bai tuna abinda suka ce ba ko kadan.	2
+Pickard ya tuna cewa ya ga ƙagaggen jawabin da aka hada a wurin taro na ranar 12 ga watan Yuli	Pickard ya tuna cewan taron ya bada bayanai akan hatsarin.	1
+Pickard ya tuna cewa ya ga ƙagaggen jawabin da aka hada a wurin taro na ranar 12 ga watan Yuli	Pickard ya tuna duk bayanan da akayi a wurin taron.	0
+ya yi tafiya zuwa Pakistan amma ya zama ya ƙagu sanda aka tambaye shi in ya yi tafiya zuwa wasu ƙasashe da ke maƙwabtaka da Pakistan (Pakistan sannannen hanya ce zuwa sansanin horo da ke Afghanistan).	ba wani abu bane wa yan ta'aɗɗa su yi tafiya ta Pakistan don shiga Afghanistan.	0
+ya yi tafiya zuwa Pakistan amma ya zama ya ƙagu sanda aka tambaye shi in ya yi tafiya zuwa wasu ƙasashe da ke maƙwabtaka da Pakistan (Pakistan sannannen hanya ce zuwa sansanin horo da ke Afghanistan).	tsakanin Pakistan da Afghanistan akwai nisa sosai.	2
+ya yi tafiya zuwa Pakistan amma ya zama ya ƙagu sanda aka tambaye shi in ya yi tafiya zuwa wasu ƙasashe da ke maƙwabtaka da Pakistan (Pakistan sannannen hanya ce zuwa sansanin horo da ke Afghanistan).	dambe na daga cikinirin horon da ake badawa a Afghanistan.	1
+a gurguje wadannan hanyoyin da dalilan da ya sa masu shiga tsaƙani ba a yadda da su ba, duba Graham Allison da Philip Zelikow, Essense of Decision , 2d, ed.	An kula da abubuwan da aka kama da kwarewa.	2
+a gurguje wadannan hanyoyin da dalilan da ya sa masu shiga tsaƙani ba a yadda da su ba, duba Graham Allison da Philip Zelikow, Essense of Decision , 2d, ed.	an aika abubuwan da kama don a bincika ga wanda ba shi ya dace ba	1
+a gurguje wadannan hanyoyin da dalilan da ya sa masu shiga tsaƙani ba a yadda da su ba, duba Graham Allison da Philip Zelikow, Essense of Decision , 2d, ed.	Abubuwan da aka kama ba a kula da su ba da kyau.	0
+Sun yi nasarar sa harin yayi wuya akan abubuwan da ake son a hara, kuma sunyi hakan ne ta hanyar mayar da kamawa abu mafi sauki.	sun san cewan idan suka sa samun abubuwan da ake hari yayi wahala, za a sami ƙarin kame sosai	1
+Sun yi nasarar sa harin yayi wuya akan abubuwan da ake son a hara, kuma sunyi hakan ne ta hanyar mayar da kamawa abu mafi sauki.	sun sa kamun wanda ake zargi yai sauƙi domin a cikin mintuna aka garƙame su.	2
+Sun yi nasarar sa harin yayi wuya akan abubuwan da ake son a hara, kuma sunyi hakan ne ta hanyar mayar da kamawa abu mafi sauki.	suna ƙirkiran wanda za a kai wa hari ta yadda za a sami ƙalubale saboda daga baya zasu ke cafke su akai akai	0
+an sanar wa da Ɓangaren masu tsaro na sararin sama na Southeast na afkuwar abun a daidai misalin karfe 9:55, bayan mintuna 28.	bayan mintuna 28 bayan abin ya faru Bangaren masu tsaro sararin sama na Southeast suka sami sanarwa.	0
+an sanar wa da Ɓangaren masu tsaro na sararin sama na Southeast na afkuwar abun a daidai misalin karfe 9:55, bayan mintuna 28.	Ɓangaren basu sami sanarwa ba da wuri saboda tangarɗan sadarwa.	1
+an sanar wa da Ɓangaren masu tsaro na sararin sama na Southeast na afkuwar abun a daidai misalin karfe 9:55, bayan mintuna 28.	Ɓangaren masu tsaro na sararin sama sun sami saƙo daƙiƙu 28 bayan afkuwar alamarin.	2
+muna nan muna jiran ranar da za ai muhawara na ƙasa bakidaya akan abubuwan da muke da yaƙini, kuma zamu shiga muyi shi tuƙuru.	ba amfanin yin muhawara akan wannan batun.	2
+muna nan muna jiran ranar da za ai muhawara na ƙasa bakidaya akan abubuwan da muke da yaƙini, kuma zamu shiga muyi shi tuƙuru.	muna son muyi muhawara saboda mun san waddannan abubuwan na da muhimmmanci.	1
+muna nan muna jiran ranar da za ai muhawara na ƙasa bakidaya akan abubuwan da muke da yaƙini, kuma zamu shiga muyi shi tuƙuru.	muna son muyi muhawara akan wadannan abubuwan.	0
+bayan Mihdhar ya tafi wasu yaran suka shiga gidan.	Mihdhar ya san daliban na jiran tafiyar sa ne.	1
+bayan Mihdhar ya tafi wasu yaran suka shiga gidan.	dalibai sun tafi gida bayan Mihdhar ya tafi.	0
+bayan Mihdhar ya tafi wasu yaran suka shiga gidan.	daliban sun yi zanga zanga awajen gidan da Mihdhar ke zaune.	2
+kyautar ka na da amfani ga bikin kakar bana karo na tamanin da biyar.	duk kyautar da muka samu bai da muhimmanci kamar naka.	1
+kyautar ka na da amfani ga bikin kakar bana karo na tamanin da biyar.	bamu damu da kyautar ka ba kwatakwata.	2
+kyautar ka na da amfani ga bikin kakar bana karo na tamanin da biyar.	mun fi shekara tamanin muna yin wannan.	0
+ya dauki haɗin gwiwa tsaƙanin wasu mutanen da jami'a wajan samar da ƙudi domin cigaba da kula da girma da dauƙakar makarantar mu ta horon masu aikin shari'a.	makarantar mu ta koyon aikin shari'a ta dogara akan kudin da take samu daga waje ne kawai.	2
+ya dauki haɗin gwiwa tsaƙanin wasu mutanen da jami'a wajan samar da ƙudi domin cigaba da kula da girma da dauƙakar makarantar mu ta horon masu aikin shari'a.	makarantar mu ta koyon aikin shari'a tana samun wani ɓangaren taimako daga gurin Melinda da Bill Gates Foundation.	1
+ya dauki haɗin gwiwa tsaƙanin wasu mutanen da jami'a wajan samar da ƙudi domin cigaba da kula da girma da dauƙakar makarantar mu ta horon masu aikin shari'a.	makarantar mu na koyon aikin shari'a na bukatar ƙudi domin cigaba da gudana.	0
+da taimakon abokanan hurɗan mu masu zuciyar taimako ne kadai muka iya cimma abubuwa da dama.	Bill Gates ya bamu gudummawar $5 miliyan.	1
+da taimakon abokanan hurɗan mu masu zuciyar taimako ne kadai muka iya cimma abubuwa da dama.	duba da yanayin kasuwanci, abokanan hurɗan mu masu zuciyar kyauta sun ja baya daga bamu tallafi.	2
+da taimakon abokanan hurɗan mu masu zuciyar taimako ne kadai muka iya cimma abubuwa da dama.	mun iya cimma abubuwa da dama, saboda tallafin da muke ta samu.	0
+mun godiya da taimakawa gidan tarihi da ajiya na zanezanen Indianapolis a 1999.	mun gode da bada tallafin $100 ga gidan ajiya da tarihi  na zarezanen Indianapolis.	1
+mun godiya da taimakawa gidan tarihi da ajiya na zanezanen Indianapolis a 1999.	mun gode amma bamu gode ba da ƙin bada gudummawa a 1999.	2
+mun godiya da taimakawa gidan tarihi da ajiya na zanezanen Indianapolis a 1999.	muna farinciki da taimakon da kuka bawa gidan ajiya da tarihi.	0
+burina shine ka samu albarka da ƙwarin gwiwa daga wannan abin.	da fatan wannan abin zai zaburar da kai.	0
+burina shine ka samu albarka da ƙwarin gwiwa daga wannan abin.	nasan wannan abun ya saka kana jin gazawa, amma ka karkata zuwa tafiya hutun ka.	2
+burina shine ka samu albarka da ƙwarin gwiwa daga wannan abin.	na san zakiya iya ƙarfin ka wajan yaƙi da ciwon dajin nono.	1
+yana da muhimmanci muji daga gare ka a lokacin da muke yin taron neman tallafi na karshe a wannan kakar.	wannan shine neman tallafi na karshe da zamu yi a wannan kakar, saboda haka muna buƙatar taimakon ka.	0
+yana da muhimmanci muji daga gare ka a lokacin da muke yin taron neman tallafi na karshe a wannan kakar.	muna da taron neman tallafin ƙudi biyu nan gaba a wannan shekaran.	2
+yana da muhimmanci muji daga gare ka a lokacin da muke yin taron neman tallafi na karshe a wannan kakar.	muna buƙatar ƙarin $100,000 don mu kai gurbin taron neman tallafin ƙudi na wannan kakar.	1
+P. S. wannan kyauta na ka yana da muhimmanci ga bikin murnan cika shekaru 85 da gina gidan kallon wasan ƙwaiƙwayo na Indianapolis Civic wanda yafi kowanne gidan kallon wasan kwaikwayon da yake aiki har yanzu dadewa a ƙasar.	akwai wani gurin kallon wasan kwaikwayo da aka yi bikin cikar sa shekara 84 kwanannan amma ya ƙone.	1
+P. S. wannan kyauta na ka yana da muhimmanci ga bikin murnan cika shekaru 85 da gina gidan kallon wasan ƙwaiƙwayo na Indianapolis Civic wanda yafi kowanne gidan kallon wasan kwaikwayon da yake aiki har yanzu dadewa a ƙasar.	muna babban bikin buɗe sabon gidan kallon wasan kwaikwayo na Indianapolis.	2
+P. S. wannan kyauta na ka yana da muhimmanci ga bikin murnan cika shekaru 85 da gina gidan kallon wasan ƙwaiƙwayo na Indianapolis Civic wanda yafi kowanne gidan kallon wasan kwaikwayon da yake aiki har yanzu dadewa a ƙasar.	muna matuƙar farinciki cewa gidan kallon wasan kwaikwayo na Indianpolis Civic kai shkeara 85 yana aiki.	0
+wanda suka samu damar shiga, za a basu sunaye, adireshi da lambobin waya, tare da taƙaitaccen bayanin abinda makarantar ke da buƙata.	wanda suka sami damar shiga za a basu yadda zasu tuntuɓe su da kuma taƙaitaccen bayani.	0
+wanda suka samu damar shiga, za a basu sunaye, adireshi da lambobin waya, tare da taƙaitaccen bayanin abinda makarantar ke da buƙata.	wanda suka sami damar shiga zasu sa hannu a takardar yarjejeniya, kafin a basu damar samun karɓan  abubuwan da zasu yi nan gaba.	1
+wanda suka samu damar shiga, za a basu sunaye, adireshi da lambobin waya, tare da taƙaitaccen bayanin abinda makarantar ke da buƙata.	wanda suka samu shiga zasu iya sanin sunayen su amma banda adireshin su.	2
+mun tsara gidan dabbobin mu da amfani da biomes, wanda zai ƙarfafa wurin zama na asali in da dabbobin ke zaune.	biomes na ƙarfafa wurin zaman dabbobi na asali.	0
+mun tsara gidan dabbobin mu da amfani da biomes, wanda zai ƙarfafa wurin zama na asali in da dabbobin ke zaune.	a gidan dabbobi, mun yarda cewa ƙagaggen wurin zama ya fi asalin gurin zama.	2
+mun tsara gidan dabbobin mu da amfani da biomes, wanda zai ƙarfafa wurin zama na asali in da dabbobin ke zaune.	biomes na gidan dabobbin mu na da tsada sosai.	1
+goyon bayan da kake wa Goodwill zai bada damar samun horon koyin da kuma maye gurbin aiki da zai taimakawa masu aiki tukuru su samu aiki mai na kirki a Indiana ta tsakiya.	mutanen Indiana ta tsaƙiya basu taba samun horon aiki ba.	2
+goyon bayan da kake wa Goodwill zai bada damar samun horon koyin da kuma maye gurbin aiki da zai taimakawa masu aiki tukuru su samu aiki mai na kirki a Indiana ta tsakiya.	bawa Goodwill goyon baya zai taimaki mutanen Indiana.	0
+goyon bayan da kake wa Goodwill zai bada damar samun horon koyin da kuma maye gurbin aiki da zai taimakawa masu aiki tukuru su samu aiki mai na kirki a Indiana ta tsakiya.	bawa Goodwill goyon baya zai rage yawaitan rashin aikin yi.	1
+tun da fari dai har kawo e yau makarantar koyon aikin likitanci na garin Indiana ya kasance shine cibiya mai bada sahihin kiwon lafiya a fadin ƙasar, kuma yana daukaka da bunƙasa.	Indiana na da a ƙalla makarantun koyon aikin likitanci masu kyau guda ashirin.	2
+tun da fari dai har kawo e yau makarantar koyon aikin likitanci na garin Indiana ya kasance shine cibiya mai bada sahihin kiwon lafiya a fadin ƙasar, kuma yana daukaka da bunƙasa.	a jahar Indiana ta na da makarantar koyon aikin likitanci guda daya kadai.	0
+tun da fari dai har kawo e yau makarantar koyon aikin likitanci na garin Indiana ya kasance shine cibiya mai bada sahihin kiwon lafiya a fadin ƙasar, kuma yana daukaka da bunƙasa.	baza a sake samun wata makarantar koyon aikin likitanci ba nan da shekara biyar a garin Indiana.	1
+baya ga haka, tashin gwauron zabin da ƙudin litattafan sharia, mujallu da aiyukan database na nufin ƙudin kula da kayayyakin mu yanzu zai wuce kasafin mu.	kula da kayayyakin mu na yanzu kaɗai yana cin kaso uku a kudin kasafin mu na shekara.	2
+baya ga haka, tashin gwauron zabin da ƙudin litattafan sharia, mujallu da aiyukan database na nufin ƙudin kula da kayayyakin mu yanzu zai wuce kasafin mu.	kasafin mu na yanzu bazai bada daman kula da kayayyakin da muke da su ba.	0
+baya ga haka, tashin gwauron zabin da ƙudin litattafan sharia, mujallu da aiyukan database na nufin ƙudin kula da kayayyakin mu yanzu zai wuce kasafin mu.	muna buƙatar aƙalla gudummawar $10,000  don cigaba da kula da kayayyakin da muke da su yanzu.	1
+zamu yi kokarin tuntuɓar kowannen ku wanda bai samu damar shiga wannan shekarar nan da kwana 45 domin cimma burin mu kafin ranar rufewa wadda 30th ga watan Yuni ne.	bamu da niyyar tuntubar wadanda basu bada gudummuwa ba a wannan shekarar.	2
+zamu yi kokarin tuntuɓar kowannen ku wanda bai samu damar shiga wannan shekarar nan da kwana 45 domin cimma burin mu kafin ranar rufewa wadda 30th ga watan Yuni ne.	zamu aika saƙon mail nan da kwana 45 ga wanda basu bada gudummawa wannan shekarar.	1
+zamu yi kokarin tuntuɓar kowannen ku wanda bai samu damar shiga wannan shekarar nan da kwana 45 domin cimma burin mu kafin ranar rufewa wadda 30th ga watan Yuni ne.	zamu yi ƙoƙarin tuntubar wanda basu bada gudummawa ba nan da kwana 45	0
+a matsayin dan makarantar horon masu aikin shari'a__, nasan kana sane da cigaban mu.	ina daga cikin mutanen makarantar horon masu sharia.	1
+a matsayin dan makarantar horon masu aikin shari'a__, nasan kana sane da cigaban mu.	Ba wanda yake dan makarantar koyon  aikin shari'ar.	2
+a matsayin dan makarantar horon masu aikin shari'a__, nasan kana sane da cigaban mu.	makarantar horar da masu aikin sharia ta karbi mutane.	0
+ƙudin samar da gidajen nan ya wuce abinda masu siya zasu iya biya, saboda haka mun dogara da tallafi da gudummuwa daga gurin ɗaiɗaikun mutane don a samu a siya.	an gina gidajen kyauta gaba daya.	2
+ƙudin samar da gidajen nan ya wuce abinda masu siya zasu iya biya, saboda haka mun dogara da tallafi da gudummuwa daga gurin ɗaiɗaikun mutane don a samu a siya.	gina gidajen na bukatar tanadin kayayyaki.	0
+ƙudin samar da gidajen nan ya wuce abinda masu siya zasu iya biya, saboda haka mun dogara da tallafi da gudummuwa daga gurin ɗaiɗaikun mutane don a samu a siya.	Gina gidajen yayi tsada sosai sama da yadda aka yi tsammani.	1
+labaran dake bangon jaridar newsweeklies ya ja ra'ayin iyaye masu neman labarai.	Iyaye masu neman labarai sune irin wanda newsweeklies suke neman don kasuwancin su.	0
+labaran dake bangon jaridar newsweeklies ya ja ra'ayin iyaye masu neman labarai.	Jaridar Newsweeklies na tsara bangon shafin su domin su ja hankalin yara dan tsofaffi.	2
+labaran dake bangon jaridar newsweeklies ya ja ra'ayin iyaye masu neman labarai.	akwai yiwuwar iyaye su fi kashe ƙudin su akan siyan sabbin motoci, da samun hanya mai kyau na tallata kasuwanci a mujallu.	1
+mujallar Times ta rubuta labarin bangon mujallar akan Bill Gates da matakai 12 da za a bi don samun cigaba a shekarun dijital.	Kim Kardashian tayi rubutu a bangon farko na mujallar Times akan matakai12 da ake bukata a sami nasara a zamanin dijital.	2
+mujallar Times ta rubuta labarin bangon mujallar akan Bill Gates da matakai 12 da za a bi don samun cigaba a shekarun dijital.	mujallar Times na da hoton Bill Gates a bangon shafi.	1
+mujallar Times ta rubuta labarin bangon mujallar akan Bill Gates da matakai 12 da za a bi don samun cigaba a shekarun dijital.	mujallar Times na rubuta labari akan Bill Gates da nasarar da ake samu a shekarun dijital.	0
+gudu shiru, gudu mai zurfi, saurin bada amsa.	gudu kana ƙara.	2
+gudu shiru, gudu mai zurfi, saurin bada amsa.	gudu tare da bugun hannu.	1
+gudu shiru, gudu mai zurfi, saurin bada amsa.	gudu ba tare da an ji ba.	0
+Paul na ganin ƙimar Alan Greenspan a matsayin mai aƙida wanda ke iya kula da yawaitar rashin aikin yi kamar yadda wasu ƙka'idojin tattalin arziki suka alkinta.	Alan Greenspan ya na da  ƙa'idojin tattalin arziki akan rashin aikin yi.	0
+Paul na ganin ƙimar Alan Greenspan a matsayin mai aƙida wanda ke iya kula da yawaitar rashin aikin yi kamar yadda wasu ƙka'idojin tattalin arziki suka alkinta.	Paul bai taba jin labarin Alan Greenspan ba bare ƙa'idojin sa na tattalin arziki.	2
+Paul na ganin ƙimar Alan Greenspan a matsayin mai aƙida wanda ke iya kula da yawaitar rashin aikin yi kamar yadda wasu ƙka'idojin tattalin arziki suka alkinta.	Paul na tunanin Alan Greenpan ya fi kowa ƙwanya a masana tattalin arziki da ya sani.	1
+da taimakon microsoft helpdesk, na gano cewan CD-ROM dina ƙila na haɗa shi da katin kiɗa a maimakon IDE wataƙila shine dadlilin da Linux bai aiki ba.	ban taba amfani da Linux ba.	2
+da taimakon microsoft helpdesk, na gano cewan CD-ROM dina ƙila na haɗa shi da katin kiɗa a maimakon IDE wataƙila shine dadlilin da Linux bai aiki ba.	ina samun matsala wajen hada Linus ya hadu da na'urar modem dina.	1
+da taimakon microsoft helpdesk, na gano cewan CD-ROM dina ƙila na haɗa shi da katin kiɗa a maimakon IDE wataƙila shine dadlilin da Linux bai aiki ba.	ina samun matsala da linux.	0
+Steve na kasa daga ƙaramin asusun ka na aljihu, Hatch ya fada.	cikin fushi Hatch yace ya gaza iya ɗaga ƙaramin asusun aljihun Steve.	1
+Steve na kasa daga ƙaramin asusun ka na aljihu, Hatch ya fada.	Hatch ba shi da wani ra'ayi agame da ƙaramin asusu aljihu na Steve.	2
+Steve na kasa daga ƙaramin asusun ka na aljihu, Hatch ya fada.	Hatch yayi barkwancen cewa ya gaza iya ɗaga ƙaramin asusun aljihu na Steve	0
+masu son karatu musamman wanda suka manne a ajin karatun sanin tattalin arziki da na na'ura mai kwakwalwa basu da wani alfanu nan gaba.	masu san karatu basu da wani alfanu.	0
+masu son karatu musamman wanda suka manne a ajin karatun sanin tattalin arziki da na na'ura mai kwakwalwa basu da wani alfanu nan gaba.	masu son karatu basu iya mu'amala ba.	1
+masu son karatu musamman wanda suka manne a ajin karatun sanin tattalin arziki da na na'ura mai kwakwalwa basu da wani alfanu nan gaba.	masu son karatu suna da nasibi nan gaba.	2
+wannan yafi abin da News Quiz zata iya alkarwantawa akan Fox.	wannan bai kai abinda News Quiz zasu iya yin alƙawari ba agame da Fox.	2
+wannan yafi abin da News Quiz zata iya alkarwantawa akan Fox.	wannan yafi abinda News Quiz zasu iya bada tabbaci akan Fox.	0
+wannan yafi abin da News Quiz zata iya alkarwantawa akan Fox.	kila yafi abin da News Quiz zasu iya fada akan Fox.	1
+hauhawar ƙidayar alumma daidai take da gurɓatan yanayi - a baibai.	gurɓatar yanayi na kawo tasgaro ga hauhawar ƙidayar al'umma.	1
+hauhawar ƙidayar alumma daidai take da gurɓatan yanayi - a baibai.	hauhawar ƙidayar al'umma na daidai da gurɓatar yanayi.	0
+hauhawar ƙidayar alumma daidai take da gurɓatan yanayi - a baibai.	babu alaka tsaƙanin yawaitar alumma da gurɓatar yanayi.	2
+to, tunda Bill Bradley a St Louis ya girma, tsaya, yi haquri, abun zai zama abin dariya in Al Gore ya tashi a Tenesse.	Bradley ya fito daga Arkansas.	2
+to, tunda Bill Bradley a St Louis ya girma, tsaya, yi haquri, abun zai zama abin dariya in Al Gore ya tashi a Tenesse.	Bradley ya fito daga Missouri.	0
+to, tunda Bill Bradley a St Louis ya girma, tsaya, yi haquri, abun zai zama abin dariya in Al Gore ya tashi a Tenesse.	Bradley ya fito daga gabashin St.Louis.	1
+Sabol yace zai yi dan tsaye tsaye, amma an riga da an shirya.	Sabol baya buƙatar yake tsaye tsaye a hanya.	1
+Sabol yace zai yi dan tsaye tsaye, amma an riga da an shirya.	Sabol sai maimaitawa yake cewan zai tsaya a hanya.	0
+Sabol yace zai yi dan tsaye tsaye, amma an riga da an shirya.	Sabol ya ce bai da buƙatar tsahirta tafiyar don hutuwa.	2
+me yasa wannan baya aiki a yanar gizo ba?	wannan yana aiki a yanar gizo.	2
+me yasa wannan baya aiki a yanar gizo ba?	a halin yanzu wannan baya aiki a yanar gizo.	0
+me yasa wannan baya aiki a yanar gizo ba?	a wasu lokutan ƙila yayi aiki a yanar gizo.	1
+yan sanda sun cire ƙani da ƙanwar Jon Benet Ramsey daga zargin su suka kashe ta da ƙwaƙƙwaran shaidar cewan basa gari sanda taasan ya afku.	ƙanin Jon Benet Ramsey wadda suke uwa ɗaya baya gari san da akayi kisan.	0
+yan sanda sun cire ƙani da ƙanwar Jon Benet Ramsey daga zargin su suka kashe ta da ƙwaƙƙwaran shaidar cewan basa gari sanda taasan ya afku.	ƙanwar Jon Benet Ramsey wadda suke uwa ɗaya na da shaida ƙwaƙwara cewan bata gari san da akayi kisan kai.	1
+yan sanda sun cire ƙani da ƙanwar Jon Benet Ramsey daga zargin su suka kashe ta da ƙwaƙƙwaran shaidar cewan basa gari sanda taasan ya afku.	akwai isassun hujjoji da za su sa a kama kanin Jon Benet Ramsey wanda suke uwa daya.	2
+bana tunanin ka tsayar da matsaya akan wani ɓangaren kake.	alamu sun nuna a fili wa kake goyon baya.	2
+bana tunanin ka tsayar da matsaya akan wani ɓangaren kake.	bamu san wa kake goyon baya ba a wannan zaben.	1
+bana tunanin ka tsayar da matsaya akan wani ɓangaren kake.	bamu san wa kake goyon baya ba.	0
+wata rana fasaha da ake ji da shi zata zama kamar kwan fitila( gama gari).	fasaha na gundira bayan wani dan lokaci.	0
+wata rana fasaha da ake ji da shi zata zama kamar kwan fitila( gama gari).	fasaha na da dadin shaani.	2
+wata rana fasaha da ake ji da shi zata zama kamar kwan fitila( gama gari).	fasaha na gundira idan ba a chanza shi akai akai.	1
+wani zabin ba ya nufin maimako.	bai dace ake amfani da wani zabin da nufin maimako ba.	0
+wani zabin ba ya nufin maimako.	an yarda ake amfani da maimako a madadin wani zabin.	2
+wani zabin ba ya nufin maimako.	mutane da dama basu san yadda za su yi amfani da wani zabin da maimako ba.	1
+lokacin da Skeat ya shiga shekara sittin, a shekara 1895, sai ya fara nuna cewan ya fara rage damuwa akan wasu abubuwan.	a yayin da Skeat ya kai shekaru sittin, bai bada wani alamun da ya nuna yana tunanin komi ba.	2
+lokacin da Skeat ya shiga shekara sittin, a shekara 1895, sai ya fara nuna cewan ya fara rage damuwa akan wasu abubuwan.	da Skeat ya fara girma sai ya rage damuwa da wasu abubuwan.	0
+lokacin da Skeat ya shiga shekara sittin, a shekara 1895, sai ya fara nuna cewan ya fara rage damuwa akan wasu abubuwan.	da Skeat ya fara girma sai ya koma damuwa da abubuwa daban-daban.	1
+... amma a karo na biyu sai ya tsinkayi kansa a tsakanin abokanansa biyu.	bai san bangaren wa zai zaba ba a tsakanin abokan sa biyu.	1
+... amma a karo na biyu sai ya tsinkayi kansa a tsakanin abokanansa biyu.	Haduwa daya kawai yake da ita, wadda kuma da abokin sa ne.	2
+... amma a karo na biyu sai ya tsinkayi kansa a tsakanin abokanansa biyu.	haduwa karo na biyu da mutane uku.	0
+wanne ka fi so lissafi ko kimiya?	kana da zabi tsakanin lissafi ko kimiya? 	0
+wanne ka fi so lissafi ko kimiya?	wane kafi tsana, turanci ko falsafa?	2
+wanne ka fi so lissafi ko kimiya?	zaka iya son wasu abubuwan baya ga lissafi da kimiya.	1
+lokaci da cigaban kimiya zata sa wayoyin tangaraho  marasa nisan zango za a iya ce musu wayar tarho.	wayoyin tangaraho mara sa nisan zango duk zasu zama wayan tarho.	0
+lokaci da cigaban kimiya zata sa wayoyin tangaraho  marasa nisan zango za a iya ce musu wayar tarho.	kimiya zata sa wayoyi su sami cigaba.	1
+lokaci da cigaban kimiya zata sa wayoyin tangaraho  marasa nisan zango za a iya ce musu wayar tarho.	wayar tarho sun fi sauki akan wayan mara nisan zango tangaraho.	2
+magana ta karshe, muna hasashe, kwarai, cewan baka mika mukalar nan ko ina ba.	mun dauke shi akan cewa baka gabatar da wannan mukabalar ga wani daban ba.	0
+magana ta karshe, muna hasashe, kwarai, cewan baka mika mukalar nan ko ina ba.	mun fahimci cewan ka buga wannan muƙalar a jaridu biyar a baya.	2
+magana ta karshe, muna hasashe, kwarai, cewan baka mika mukalar nan ko ina ba.	muna son ka sa hannun yarjejeniya a wata takarda cewan wannan  mukalar mu kadai ka bawa mu buga.	1
+dan uwa mai kirki-- wannan faden ya sami asali daga Julius Caeser inda aka fi yawan amfani (iv.	a Julius Caeser, akai amfani da kalmar dan uwan kirki.	0
+dan uwa mai kirki-- wannan faden ya sami asali daga Julius Caeser inda aka fi yawan amfani (iv.	an fara amfani da kalmar danuwa mai kirki a ƙarni na 20.	2
+dan uwa mai kirki-- wannan faden ya sami asali daga Julius Caeser inda aka fi yawan amfani (iv.	ana amfani da kalmar danuwa mai kirki  da nufin a ce siriki(danuwan wanda aka aura).	1
+in haka ne, kila zasu so su siyi wannan wallafa saboda yana da shafi 55, ma'anoni da ambaton da babu su a  bugun da ya gabata.	wannan littafin yana da sabbin kalmomi masu yawa da ba a wallafa ba da.	0
+in haka ne, kila zasu so su siyi wannan wallafa saboda yana da shafi 55, ma'anoni da ambaton da babu su a  bugun da ya gabata.	wannan wallafar daya ne da wallafar da ta shude.	2
+in haka ne, kila zasu so su siyi wannan wallafa saboda yana da shafi 55, ma'anoni da ambaton da babu su a  bugun da ya gabata.	wannan wallafar an sayar da kwafi dubu biyar a shekarar farko.	1
+kamannin abincin ya sa mun dan razana, amma a hakan muka ci ba tare da wani shauki ba, cikin bacin rai da danne zuciya.	kowa na ci ana hira cikin shauki saboda abincin ya tuna musu da abincin da kowa ke so a lokacin shagulgula.	2
+kamannin abincin ya sa mun dan razana, amma a hakan muka ci ba tare da wani shauki ba, cikin bacin rai da danne zuciya.	mun ji a ran mu cewan ya kamata mu ci abin da aka kawo mana saboda bama son mu bata wa masu masaukin bakin mu rai.	1
+kamannin abincin ya sa mun dan razana, amma a hakan muka ci ba tare da wani shauki ba, cikin bacin rai da danne zuciya.	da kyar muka ci abin da aka kawo mana, duk da bamu so kalan yadda abincin yake ba.	0
+shekarar matasan nawa?	nasan takamaiman shekarun matasan nawa.	2
+shekarar matasan nawa?	matasa na daga cikin jerin wanda mutane ke kasa sa su a rukunin shekarun su.	0
+shekarar matasan nawa?	duk matasa na kasa da shekara ashirin da biyar	1
+bayan haka, a nasu zaton lokaci na gewayowa, ba mikewa ba, saboda haka tuna wucewar lokaci bai da muhimmanci kamar yin taron bikin murnan zagayowar kaka.	a nasu zaton, lokaci a mike yake, da kowanne shudewar ta na da amfani ga zagayowar kaka.	2
+bayan haka, a nasu zaton lokaci na gewayowa, ba mikewa ba, saboda haka tuna wucewar lokaci bai da muhimmanci kamar yin taron bikin murnan zagayowar kaka.	saboda sun yarda cewan lokaci na zagayowa, zuwan kowanne kaka na da muhimmanci a gare su.	0
+bayan haka, a nasu zaton lokaci na gewayowa, ba mikewa ba, saboda haka tuna wucewar lokaci bai da muhimmanci kamar yin taron bikin murnan zagayowar kaka.	suna murnar kowanne kaka saboda sun yarda lokaci na zagayowa.	1
+a misali wasu na samun hanya daban da kayan da ake amfani ko kebantaccen gurin da ake buga wassani.	duk wasanni ana sanya masa suna daga cikin kayan wasan da ake amfani da shi a wasan.	2
+a misali wasu na samun hanya daban da kayan da ake amfani ko kebantaccen gurin da ake buga wassani.	wasu wasannin ba daga kayan wasan bane ko kebantaccen gurin wasan ake sa musu suna ba.	0
+a misali wasu na samun hanya daban da kayan da ake amfani ko kebantaccen gurin da ake buga wassani.	hakan na yawancin faruwa idan akai amfani da kayan wasan da ake da su na wani wasan aka ƙirƙiri wani wasan.	1
+dangane da ƙalubale, ina neman kalma daya da za a iya gutsira ta zuwa kananan kashi biyu cikin nasara.	na sami kalmomi uku da za a iya gutsura su zuwa kananan kashi biyu cikin nasara.	2
+dangane da ƙalubale, ina neman kalma daya da za a iya gutsira ta zuwa kananan kashi biyu cikin nasara.	ban same su da sauki ba, nemo kalma daya da za a iya gutsura ta gida biyu cikin nasara.	0
+dangane da ƙalubale, ina neman kalma daya da za a iya gutsira ta zuwa kananan kashi biyu cikin nasara.	na tsinci kaina da son koyan harsuna, tun da na shiga ajin gabatarwa shekarar da ta wuce.	1
+amma wannan shafin na sadaukarwa an manta da shi a lokacin binciken rubutu, wanda ya bar mai karantawa cikin duhu.	An sadaukar da littafin ga mahaifiyar mawallafin.	1
+amma wannan shafin na sadaukarwa an manta da shi a lokacin binciken rubutu, wanda ya bar mai karantawa cikin duhu.	shi wannan binciken rubutu ya kunshi duk abin da mai karatu yake da bukatar sani.	2
+amma wannan shafin na sadaukarwa an manta da shi a lokacin binciken rubutu, wanda ya bar mai karantawa cikin duhu.	binciken rubutu bai kunshi wasu bayanai masu muhimmanci da ya kamata ba daga sadaukarwa.	0
+a ƙarshe ƙarni na 19 an sami tataunawa da dama a akan kalmar.	daga ƙarshe dai an yarda cewan kalmar bata dace ba saboda da'a.	1
+a ƙarshe ƙarni na 19 an sami tataunawa da dama a akan kalmar.	kalmar ta janyo muhawara shekaru da dama da suka shude.	0
+a ƙarshe ƙarni na 19 an sami tataunawa da dama a akan kalmar.	An watsar kuma an manta da da kalmar kafin ƙarshen ƙarni na 19.	2

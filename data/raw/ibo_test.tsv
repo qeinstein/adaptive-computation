@@ -1,0 +1,601 @@
+premise	hypothesis	label
+Ọdịmma, anaghị m echedi maka nke ahụ, mana adaara m nọọ mba n'obi, ma, m mechaa gwawa ya okwu ọzọ.	A gwa beghị m ya okwu ọzọ.	2
+Ọdịmma, anaghị m echedi maka nke ahụ, mana adaara m nọọ mba n'obi, ma, m mechaa gwawa ya okwu ọzọ.	E were m iwe ruo na mụ bidoro gwawa ya okwu ọzọ.	0
+Ọdịmma, anaghị m echedi maka nke ahụ, mana adaara m nọọ mba n'obi, ma, m mechaa gwawa ya okwu ọzọ.	Anyị nwere mkparịtaụka dị ukwuu.	1
+Ha gwara m na, uh, na a ga-akpọrọ m otu nwamadi ma emecha ka m hụ.	A gwaghị m ihe ọ bụla gbasara izute onye ọ bụla.	2
+Ha gwara m na, uh, na a ga-akpọrọ m otu nwamadi ma emecha ka m hụ.	Agwara m na-aga kpọ otu nwamadi ka m ga zute.	0
+Ha gwara m na, uh, na a ga-akpọrọ m otu nwamadi ma emecha ka m hụ.	Nwamadi ahụ gburu ntakịrị oge tutu ọ pụta.	1
+E nwere ọtụtụ ịhe ị nwere ị́ké ị kwu maka nke ahụ aga m ahapụ nke ahụ nọọ. 	A chọrọ m ịgwa gị ihe nile m mara gbasara ihe ahụ!	2
+E nwere ọtụtụ ịhe ị nwere ị́ké ị kwu maka nke ahụ aga m ahapụ nke ahụ nọọ. 	A gaghị m ekwu maka nke ahụ, agbanyeghị na e nwere ọtụtụ ịhe a ga-arụtụ áká. 	0
+E nwere ọtụtụ ịhe ị nwere ị́ké ị kwu maka nke ahụ aga m ahapụ nke ahụ nọọ. 	A gaghị m ekwu gbasara akụkọ ihe mere eme maka obodo ahụ n'ihi na enwere ọtụtụ ihe a ga-ekwu.	1
+Ya mere o dochaghị m anya ịhe kpatara ya.	O doro m anya maka ihe kpatara ya.	2
+Ya mere o dochaghị m anya ịhe kpatara ya.	Amaghị m ịhe o jiri nyefee ụlọakwụkwọ.	1
+Ya mere o dochaghị m anya ịhe kpatara ya.	A maghị m ihe mere ihe ahụ jiri mee.	0
+Abụ m naanị onye na uh, gbaturula ihe eji agbago ma ọ bụ agbatu ngwaorụ ndị ahụ maka, nlele ihe ahụ n'ime ụlọ elu ntakịrị ndị ahụ. 	Ọ bụghị nmasị m ị bụ naanị m ga-agbatu ngwaọrụ ahụ eji agbago ma ọ bụ agbatu ngwaorụ maka nlele ahụ.	1
+Abụ m naanị onye na uh, gbaturula ihe eji agbago ma ọ bụ agbatu ngwaorụ ndị ahụ maka, nlele ihe ahụ n'ime ụlọ elu ntakịrị ndị ahụ. 	E mere nwale n'ime ụlọ elu ntakịrị ndị ahụ.	0
+Abụ m naanị onye na uh, gbaturula ihe eji agbago ma ọ bụ agbatu ngwaorụ ndị ahụ maka, nlele ihe ahụ n'ime ụlọ elu ntakịrị ndị ahụ. 	E nwere mmadụ ole na ole n'ime anyị bụ ndị gbaturu ngwaọrụ ahụ eji agbago ma ọ bụ agbatu ngwaorụ maka ule ahụ.	2
+A bụ m uh, Chief Master Sergeant, laraezumike nka, dịka Rick kwuru. 	A ka m na-arụ ọrụ rụọ taa.	2
+A bụ m uh, Chief Master Sergeant, laraezumike nka, dịka Rick kwuru. 	A lara m ezumike nka na 2002.	1
+A bụ m uh, Chief Master Sergeant, laraezumike nka, dịka Rick kwuru. 	Rick gwara gị na alara m ezumike nka.	0
+E nwere ụfọdụ atụmatụ otu ego ga-esi abata nọ n'oche m na, u, uh, ọ bụ maka nke a na nke a Cutty, nke ahụ bụ aha onye ahịa ahụ.	Onye ahịa a kpọrọ Cutty na-enweta $10000 na otu ọnwa.	1
+E nwere ụfọdụ atụmatụ otu ego ga-esi abata nọ n'oche m na, u, uh, ọ bụ maka nke a na nke a Cutty, nke ahụ bụ aha onye ahịa ahụ.	E nwere onye ahịa akpọrọ Cutty.	0
+E nwere ụfọdụ atụmatụ otu ego ga-esi abata nọ n'oche m na, u, uh, ọ bụ maka nke a na nke a Cutty, nke ahụ bụ aha onye ahịa ahụ.	Anyị enweghị onye ahịa akpọrọ Cutty.	2
+Nwata nwaanyị nwere ị́ké ị nyere m áká si n'ụzọ nille n'ofe obodo 	Nwata nwanyị m chọrọ enyemaka ya bi n'ebe dị anya.	0
+Nwata nwaanyị nwere ị́ké ị nyere m áká si n'ụzọ nille n'ofe obodo 	Nwata nwaanyị ga-enyere m áká nọ mailụ 5 site na ebe a.	1
+Nwata nwaanyị nwere ị́ké ị nyere m áká si n'ụzọ nille n'ofe obodo 	E nweghị onye nwere ike inyere m aka.	2
+Mana ha nwere nkewa gbasara ịhe dịka ndị bụ ndị enyemaka n'ubi na ndị bụ ụmụaka nọ n'ụlọ, ọ dị ka - -	Ha nile kwekọrịtara na ha ga-arụ ọrụ n'ubi ahụ.	2
+Mana ha nwere nkewa gbasara ịhe dịka ndị bụ ndị enyemaka n'ubi na ndị bụ ụmụaka nọ n'ụlọ, ọ dị ka - -	Ha enweghị ị́ké ị kwekọrịta gbasara onye bụ onye ọrụ ubi na onye bụ onye ụlọ ahụ.	0
+Mana ha nwere nkewa gbasara ịhe dịka ndị bụ ndị enyemaka n'ubi na ndị bụ ụmụaka nọ n'ụlọ, ọ dị ka - -	Ha enweghị ike ịkwekọrịta onye ga-arụ ọrụ n'ubi owu na onye ga ehicha ala.	1
+Ana m asị na ha nweere naanị, dịka, ha nweere ụmụaka ise, otu n'ime ha nwụrụ anwụ.	Ụmụ ha nile lanarịrị.	2
+Ana m asị na ha nweere naanị, dịka, ha nweere ụmụaka ise, otu n'ime ha nwụrụ anwụ.	Otu nwata nwuru anwụ n'ime ụmụ ise.	0
+Ana m asị na ha nweere naanị, dịka, ha nweere ụmụaka ise, otu n'ime ha nwụrụ anwụ.	Nwa nke nwụrụ anwụ bụ nke a mụrụ n'ịrịa ọrịa.	1
+Ọ sịrị na enwere nọọ anya mmiri na-asọpụta ya n'anya na ọ sịrị, ọ bịa sị Joe gbagotere n'elu vàrándà. 	Dịka ọ gwara ya ka ọ biarute na vàrándà, anya mmiri dị ya n'anya.	0
+Ọ sịrị na enwere nọọ anya mmiri na-asọpụta ya n'anya na ọ sịrị, ọ bịa sị Joe gbagotere n'elu vàrándà. 	O meere ọsịsọ hichapụ anya mmiri ka o sichara n'elu vàrándà ahụ tụda Joe. 	2
+Ọ sịrị na enwere nọọ anya mmiri na-asọpụta ya n'anya na ọ sịrị, ọ bịa sị Joe gbagotere n'elu vàrándà. 	O nwere oke an̄uri ịhụ Joe nke mere ka ọ malite ịkwa ákwá.	1
+Ọ bụrụgodị na ụgbọelu na-agba ọ́kụ́, gịnị mere ọ, ọ ga uh, agba ọ́kụ́ ma ọ ga agbazee site n'akụkụ ígwè ka ọ́kụ́ ahụ nwuputa.	E nwere ike ịjikwata ịcha ọ́kụ́ ahụ n'oge ọkụ ọgbugba kwa .	1
+Ọ bụrụgodị na ụgbọelu na-agba ọ́kụ́, gịnị mere ọ, ọ ga uh, agba ọ́kụ́ ma ọ ga agbazee site n'akụkụ ígwè ka ọ́kụ́ ahụ nwuputa.	Ịcha-ọ́kụ́ ahụ ga-enwuputa site n'akụkụ ígwè ka ụgbọelu ahụ gbachara ọ́kụ́.	0
+Ọ bụrụgodị na ụgbọelu na-agba ọ́kụ́, gịnị mere ọ, ọ ga uh, agba ọ́kụ́ ma ọ ga agbazee site n'akụkụ ígwè ka ọ́kụ́ ahụ nwuputa.	Icha ọ́kụ́ ahụ a gaghị enwuputa n'oge ọkụ na-agba.	2
+Nke a bụ Chief Master Sergeant Clem Francis, laraezumike nká site na US Air Force.	Chief ahụ lara ezumike nká site na US Air Force.	0
+Nke a bụ Chief Master Sergeant Clem Francis, laraezumike nká site na US Air Force.	Chief ahụ ka lárà ezumike nká n'izu ụka olenaole gaara aga.	1
+Nke a bụ Chief Master Sergeant Clem Francis, laraezumike nká site na US Air Force.	US Air force Chief ahụ ka bidoro ọrụ ya n'izu ụka a.	2
+Ọdịmma, o ruru ebe e nwere ụgbọelu abụọ maọbụ atọ na-abịa n'izu ma amaghị m ebe ha na-efega.	Ugbo elu karịrị otu na-abịarute izu ụka ọ bụla.	0
+Ọdịmma, o ruru ebe e nwere ụgbọelu abụọ maọbụ atọ na-abịa n'izu ma amaghị m ebe ha na-efega.	Mbawanye n'ogo ụgbọelu na-efe n'elu na-enye nsogbu.	1
+Ọdịmma, o ruru ebe e nwere ụgbọelu abụọ maọbụ atọ na-abịa n'izu ma amaghị m ebe ha na-efega.	A naghị enwe ugbo elu ọ bụla na-abịarute.	2
+Ha enwe larịị ọzụzụ ha n'ime preshọ sutu ndị zuruoke ma o weere m obere oge ma ị baa na preshọ sutu ndị zuruoke.	Ọ na-eweru ọnwa atọ iji mezuo ọzụzụ  iji preshọ sutu zuruoke.	1
+Ha enwe larịị ọzụzụ ha n'ime preshọ sutu ndị zuruoke ma o weere m obere oge ma ị baa na preshọ sutu ndị zuruoke.	Ọzụzụ iji yia preshọ sutu ozuruoke na-egbu oge.	0
+Ha enwe larịị ọzụzụ ha n'ime preshọ sutu ndị zuruoke ma o weere m obere oge ma ị baa na preshọ sutu ndị zuruoke.	Anyị nwere ike inye gị ọzụzụ ịji preshọ sutu zuruoke na njedebe ụbọchị a.	2
+Achọrọ m ị sị na o nweghị ịhe égwù ọbụla dị n'ịji ogbunigwe ahụ baa n'ime maka na ọ gaghị agbawa agbanyeghị otu ọbụla o siri dasie ị́ké n'ala.	Ogbunigwe ahụ bụ nke onye n'akwọ ụgbọ elu menyụrụ.	1
+Achọrọ m ị sị na o nweghị ịhe égwù ọbụla dị n'ịji ogbunigwe ahụ baa n'ime maka na ọ gaghị agbawa agbanyeghị otu ọbụla o siri dasie ị́ké n'ala.	Ogbunigwe ahụ enweghị ohere ịgbawa.	0
+Achọrọ m ị sị na o nweghị ịhe égwù ọbụla dị n'ịji ogbunigwe ahụ baa n'ime maka na ọ gaghị agbawa agbanyeghị otu ọbụla o siri dasie ị́ké n'ala.	E nwere ihe egwu dị ukwuu maka ogbunigwe ahụ igbawa.	2
+Ma kedụ kwanu ma ọ bụrụ na ọ dịka otu m na-agbalisi ike nọọ ịme.	O doghị m anya ihe íhè a yiri n'anya gị.	2
+Ma kedụ kwanu ma ọ bụrụ na ọ dịka otu m na-agbalisi ike nọọ ịme.	Ana m agbalisi ike ịme ịhe a, n'ezie.	0
+Ma kedụ kwanu ma ọ bụrụ na ọ dịka otu m na-agbalisi ike nọọ ịme.	A na m agbalisi ike ịmecha projektị m n'izu na-abịa.	1
+Mana otu ọbụla, anụmanụ ndị ahụ ga-atoghapụ mgbe ọbụla, ọ kachasị ewu ndị ahụ.	Ewu ndị a na-agbapụ n'ọba ụbọchị ọ bụla.	1
+Mana otu ọbụla, anụmanụ ndị ahụ ga-atoghapụ mgbe ọbụla, ọ kachasị ewu ndị ahụ.	Ewu ndị ahụ na-agbapụ karị.	0
+Mana otu ọbụla, anụmanụ ndị ahụ ga-atoghapụ mgbe ọbụla, ọ kachasị ewu ndị ahụ.	E debere ewu ndị ahụ nke ọma ma na nchekwa.	2
+Ọnụ ụzọ ndị ahụ gbachiri agbachi mgbe anyị baara n'ime.	Ụzọ nile ahụ mepere emepe.	2
+Ọnụ ụzọ ndị ahụ gbachiri agbachi mgbe anyị baara n'ime.	Anyị ji igodo ndị ahụ n'aka. 	1
+Ọnụ ụzọ ndị ahụ gbachiri agbachi mgbe anyị baara n'ime.	Anyị bara n'ime n'agbanyeghi na ụzọ ahụ gbachiri agbachi.	0
+Ya mere achọrịị m nọọ ka m were ịhe nille ma chọọ ma gbakọ ya otú ahụ.	Obi siri m ike na mkpokọta ahụ bụ ihe niile m chọrọ iji chepụta ihe a.	1
+Ya mere achọrịị m nọọ ka m were ịhe nille ma chọọ ma gbakọ ya otú ahụ.	Amaghịdị m ịhe m ga-eji mgbakọ niile ahụ nọọ mee biko gwatụ m ịhe ndị ọzọ ị mata ka m sị chepụta ịhe a mebiri.	2
+Ya mere achọrịị m nọọ ka m were ịhe nille ma chọọ ma gbakọ ya otú ahụ.	Aga m agbakọ ya site na mkpokọta ahụ.	0
+ma e nwere ọtụtụ n'ime ya n'ihi na ndị nne ahụ ga na-aṅụ ọgwụ ị́ké.	Ndị nne ahụ bụ ndị ọgwụ ị́ké riri ahụ.	1
+ma e nwere ọtụtụ n'ime ya n'ihi na ndị nne ahụ ga na-aṅụ ọgwụ ị́ké.	Ndị nne ahụ anọghị n'ọgwụ nkịtị maọbụ ọgwụ ị́ké.	2
+ma e nwere ọtụtụ n'ime ya n'ihi na ndị nne ahụ ga na-aṅụ ọgwụ ị́ké.	Ndị nne ahụ na-an̄ụ ọgwụ ị́ké.	0
+éè ọ dị nọọ mma mmiri ọ na-ezo kemgbe	E neghara m mmiri ozuzo anya.	1
+éè ọ dị nọọ mma mmiri ọ na-ezo kemgbe	Ọ dị mma ma na-ezo mmiri.	0
+éè ọ dị nọọ mma mmiri ọ na-ezo kemgbe	Ọ bụ nnọọ óké ihe iyi egwu na anwụ a na-adịghị akwụsị akwụsị.	2
+oh ịhe ndụ mmadụ ruru na maọbụ ma ọ bụghị  ị ga-enwe ị́ké ịgwọgharị mmadụ.	Ndụ niile kwesịrị ngwọgharị na inwe oghere nke abụọ.	1
+oh ịhe ndụ mmadụ ruru na maọbụ ma ọ bụghị  ị ga-enwe ị́ké ịgwọgharị mmadụ.	Mmadụ ọbụla ekwesịghị ka a gwọgharịa  ya.	2
+oh ịhe ndụ mmadụ ruru na maọbụ ma ọ bụghị  ị ga-enwe ị́ké ịgwọgharị mmadụ.	N'agbanyeghi ngwọgharị kedụ ndụ ruru ya.	0
+oh nwoke m ị nwere nsogbu ịkpa waya pụrụ iche ebe ahụ	A hụbeghị m ụdị nsogbụ ịkpa waya a mbụ.	1
+oh nwoke m ị nwere nsogbu ịkpa waya pụrụ iche ebe ahụ	Ịkpa waya abụghị nsogbu.	2
+oh nwoke m ị nwere nsogbu ịkpa waya pụrụ iche ebe ahụ	E nwere nsogbụ ịkpa waya a dị iche kpatara.	0
+ọ dara ka ịhe ga-atọ ụtọ éè ọ dị mụ mma otu otu ọtụtụ ịhe ndị ha ga-ahapụ	O jughị m anya ma ncha na ha nwere obi ebere.	2
+ọ dara ka ịhe ga-atọ ụtọ éè ọ dị mụ mma otu otu ọtụtụ ịhe ndị ha ga-ahapụ	O juru m anya na ha kweere gị ka ị were nri na mmanya n'ebe ahụ.	1
+ọ dara ka ịhe ga-atọ ụtọ éè ọ dị mụ mma otu otu ọtụtụ ịhe ndị ha ga-ahapụ	Ọ juru m anya ihe ha nwere ike ịji wee puọ.	0
+oh mana otú ọbụla otú ọbụla um ụmụaka m dị áfọ̀ iri abụọ na otu na áfọ̀ iri abụọ na anọ ya mere enweghị m ị́ké ị	A chọghị m ka n'ihi na ụmụaka m akarịala áfọ̀ iri abụọ.	0
+oh mana otú ọbụla otú ọbụla um ụmụaka m dị áfọ̀ iri abụọ na otu na áfọ̀ iri abụọ na anọ ya mere enweghị m ị́ké ị	Enwere m ị́ké ị mee ya ebe ọ bụ na ha e tozuwago n'áfọ̀.	1
+oh mana otú ọbụla otú ọbụla um ụmụaka m dị áfọ̀ iri abụọ na otu na áfọ̀ iri abụọ na anọ ya mere enweghị m ị́ké ị	A ga m emerịrị ebe ọ bụ na ha abụọ dị áfọ̀ iri nakwa iri na otu.	2
+éè ndị mmadụ ndị ndị nwere ị́ké ị nọ ọrụ oge ọbụla maọbụ ndị mkpebi ha nwere ị́ké ikpuchi ma ọ bụrụ na ha chọọ ịme mkpebi	Éè, ndị mmadụ n'enweghị ike ime mkpebi ikpe kachasị mma.	0
+éè ndị mmadụ ndị ndị nwere ị́ké ị nọ ọrụ oge ọbụla maọbụ ndị mkpebi ha nwere ị́ké ikpuchi ma ọ bụrụ na ha chọọ ịme mkpebi	Éè, ndị mmadụ ndị nwere ị́ké agụụ anaghị agụ ha.	1
+éè ndị mmadụ ndị ndị nwere ị́ké ị nọ ọrụ oge ọbụla maọbụ ndị mkpebi ha nwere ị́ké ikpuchi ma ọ bụrụ na ha chọọ ịme mkpebi	Éè, ndị mmadụ ndị ngalaba mkpebi ha enweghị ike imebi.	2
+mba ha ka na ha ka na-eme njem ha bidoro mewe kemgbe ịrị áfọ̀ isii nọ na ngwụcha	Ha na-eme njem kemgbe tụpụ 1970.	0
+mba ha ka na ha ka na-eme njem ha bidoro mewe kemgbe ịrị áfọ̀ isii nọ na ngwụcha	Ha nwere mmasị ime njem.	1
+mba ha ka na ha ka na-eme njem ha bidoro mewe kemgbe ịrị áfọ̀ isii nọ na ngwụcha	Ha kwụsiri njem ha n'oge etebeghị aka.	2
+kedụ ka ị ga-esi e mmegharị ahụ	Ị nwere ike ịkọwa etu isiri mee mmegharị ahụ?	0
+kedụ ka ị ga-esi e mmegharị ahụ	Enwere m mmasị na mmegharị ahụ maka na achọrọ ụfọdụ ọrụ na-emetụ n'obi.	1
+kedụ ka ị ga-esi e mmegharị ahụ	Biko kwụsị ikwu maka mmegharị ahụ.	2
+ọdịmma nke ahụ bụ ezigbo ya echeghịdị m maka nke ahụ éè	Nke ahụ bụ echiche enweghị ịsị m tụfụrụ n'izu uka gara aga. 	2
+ọdịmma nke ahụ bụ ezigbo ya echeghịdị m maka nke ahụ éè	Nke ahụ ezigbo okwu.	0
+ọdịmma nke ahụ bụ ezigbo ya echeghịdị m maka nke ahụ éè	Okwu ahụ megidere ibe ya nke  ikwuru bu ezigbo okwu.	1
+nlekọta ụbọchị ụbọchị abụọ n'izu ha kpọrọ ya ebe a na-eleta ndị agadi mana ọ na-aga n'ebe ndị agadi	Ebe nlekọta ụbọchị ahụ n'emepe emepe kwa ụbọchị maka ụmụaka nọ n'okpuru afọ ise naanị.	2
+nlekọta ụbọchị ụbọchị abụọ n'izu ha kpọrọ ya ebe a na-eleta ndị agadi mana ọ na-aga n'ebe ndị agadi	Ha na-ahapụ ha ka ha gaa ugboro abụọ n'izu ụka ma ọ bụrụ na ndị okenye nwere ị́ké ịme ya.	1
+nlekọta ụbọchị ụbọchị abụọ n'izu ha kpọrọ ya ebe a na-eleta ndị agadi mana ọ na-aga n'ebe ndị agadi	Ha na-akpọ ya ka nlekọta ụbọchị agadị mana ihe a na akpọ ya bụ ebe owuwu agadị. 	0
+nke ahụ bụ ebumnobi ha oh	Ọ bụ ihe ahụ ka ha na-agbalịsị ike maka ya.	0
+nke ahụ bụ ebumnobi ha oh	Nke ahụ abụghị kwa ịhe ha chọọrọ. 	2
+nke ahụ bụ ebumnobi ha oh	Ha nwetara ebumnobi ha.	1
+njikwa egbe pụtara ịji aka abụọ eme ịhe	Ọkara n'ime egbe niile agbajọrọ na-esi n'iji otu aka. 	1
+njikwa egbe pụtara ịji aka abụọ eme ịhe	Ụzọ kachasi mma maka ijikwa egbe bụ ịji ụkwụ abụọ.	2
+njikwa egbe pụtara ịji aka abụọ eme ịhe	Jiri aka abụọ ma ọ bụrụ na-ịchọrọ ímù njikwa egbe.	0
+na uh mana ọ nọkatara bịa n'ebe a na-amaghị amaghị m ebe o si bịa mana	A maghị m ebe o si a bịa mana ọ dị osiso.	0
+na uh mana ọ nọkatara bịa n'ebe a na-amaghị amaghị m ebe o si bịa mana	Ọ bịara ọsịsọ mana ama m nọ ebe o nwere ị́ké ị sị abịa.	1
+na uh mana ọ nọkatara bịa n'ebe a na-amaghị amaghị m ebe o si bịa mana	Ọ na-abịa dịka molasses ma a makwa m kpọmkwem mgbe ọ ga-abịa.	2
+mba n'ezie o dochaghị m anya echeghị m	A maghị m ọtụtụ ihe gbasara ya.	0
+mba n'ezie o dochaghị m anya echeghị m	O nweghị ịhe m ma n'ịhe ndị gbasara ịhụnanya. 	1
+mba n'ezie o dochaghị m anya echeghị m	A na m amụ ya kemgbe ọtụtụ afọ.	2
+éè ọ dị ukwuu ị ma ọ	E chem na-ọmara na ọ dị ịtụnanya. 	1
+éè ọ dị ukwuu ị ma ọ	Mba ọ jọgburu onwe ya.	2
+éè ọ dị ukwuu ị ma ọ	Éè ọ dị ezigbo mma.	0
+éè ọ tụpụtara nọọ aro ka eweta uh um otu uh um otu mọpụ dịka ị ga-eji mee ihe	Ọ tụrụ aro ka azuta vakkum.	2
+éè ọ tụpụtara nọọ aro ka eweta uh um otu uh um otu mọpụ dịka ị ga-eji mee ihe	Ọ tụụrụ aro ka achọwa mọpụ. 	0
+éè ọ tụpụtara nọọ aro ka eweta uh um otu uh um otu mọpụ dịka ị ga-eji mee ihe	Ọ chọrọ iji ihe mọpụ wee hichapụ ọbara ahụ.	1
+ọ dị nnukwu njọ ebe a anyị nwere nọọ onye gbara egbe ka o siiri chọọ n'ihe dịka site n'ụlọ anyị garuo ụlọ atọ	Egbe ọgbụgba ahụ dị opekata mpe 100 miles site n'ebe m bi.	2
+ọ dị nnukwu njọ ebe a anyị nwere nọọ onye gbara egbe ka o siiri chọọ n'ihe dịka site n'ụlọ anyị garuo ụlọ atọ	Egbe ọgbụgba ahụ dara na nso ụlọ m na o mere ụjọ ekweghị ka mụ pụọ n'èzí.	1
+ọ dị nnukwu njọ ebe a anyị nwere nọọ onye gbara egbe ka o siiri chọọ n'ihe dịka site n'ụlọ anyị garuo ụlọ atọ	E nwere ịgba egbe dị nso n'ụlọ m, ọ dịghị mma n'ezie na gburugburu a.	0
+uh-huh nke ahụ bụ eziokwu ọ dị ọ dịghị nọọ adịgide.	E kwetaghị m gị, ọ na-adịgide.	2
+uh-huh nke ahụ bụ eziokwu ọ dị ọ dịghị nọọ adịgide.	A na m eche na o nwere ị́ké bụrụ eziokwu ka ị kwuru maka ndịgịde ya. 	1
+uh-huh nke ahụ bụ eziokwu ọ dị ọ dịghị nọọ adịgide.	I kwụrụ eziokwu gbasara ya na-ọdịghị adịgide.	0
+ana m achọ ka m nọgide ebe ahụ 	Ana m agbalị  ịnọgidesi ike.	0
+ana m achọ ka m nọgide ebe ahụ 	Ana m emekwanu ị́ké m.	1
+ana m achọ ka m nọgide ebe ahụ 	Aga m a hapụ ya ma na eleghị anya n'azụ.	2
+Anyị hiwere ọnụ ụzọ ịba na tekinọlọji n'ọdịnihu.	Anyị na-arụ ihe ga e bụ ụzọ dị mkpa maka ọdịnihu tekinọlọji.	0
+Anyị hiwere ọnụ ụzọ ịba na tekinọlọji n'ọdịnihu.	Anyị na-arụ transịstọ, ka ọdịnihu anyị bụrụ nke AI ga na-elekọta.	1
+Anyị hiwere ọnụ ụzọ ịba na tekinọlọji n'ọdịnihu.	Anyị chọrọ ịgbochi tekinọlọji ịga n'ihu.	2
+Ọmụmatụ, na ọ karịsịa, jinu niile tụgharịrị chaa ododo.	Na ịkachasị, nanị ọkara jinu ahụ ga-agbanwe ododo. 	2
+Ọmụmatụ, na ọ karịsịa, jinu niile tụgharịrị chaa ododo.	O kwere omume ka jinu ahụ tụgharịa àgwà.	0
+Ọmụmatụ, na ọ karịsịa, jinu niile tụgharịrị chaa ododo.	Mgbe ụfọdụ jinu ahụ ga-agbanwe chawa anụnụ-anụnụ.	1
+Daniel Yamins bụ onye ntorobịa mgbakọnawepụ ị́sị́ na-anụ ọkụ.	Mr. Yamins dị ukwuu na mgbakọnamwepụ.	0
+Daniel Yamins bụ onye ntorobịa mgbakọnawepụ ị́sị́ na-anụ ọkụ.	Maazi tinyere uche n'ọjibra nke jiometri.	1
+Daniel Yamins bụ onye ntorobịa mgbakọnawepụ ị́sị́ na-anụ ọkụ.	Mr. Yamins bụ nnukwu onye osise, mana ọ dị njọ na mgbakọnamwepu.	2
+Na ọ bụrụ otú ahụ, ha ana anọkarị n'akụkụ oke ahụ?	Ama m na ha adịghị eme njem nso ókè ahụ.	2
+Na ọ bụrụ otú ahụ, ha ana anọkarị n'akụkụ oke ahụ?	Achọrọ m ịma, ha na-anọkarị na England?	1
+Na ọ bụrụ otú ahụ, ha ana anọkarị n'akụkụ oke ahụ?	Onye Ọkà okwu chọrọ ka e doo ya  anya gbasara ugboro ole ha gara n'akụkụ ókè ahu.	0
+Na e nwere, echere m, ịhe ngosi mọlịkụl na biosphere nọ nọọ na-akpụkọrita onwe ya  n'oge kwere nnapụta maka ịdị na-agbasa ịhe ndị e tinye kọrọ ọnụ.	Biosphere ahụ na-agbanwe ọtụtụ mgbe.	0
+Na e nwere, echere m, ịhe ngosi mọlịkụl na biosphere nọ nọọ na-akpụkọrita onwe ya  n'oge kwere nnapụta maka ịdị na-agbasa ịhe ndị e tinye kọrọ ọnụ.	Biosphere ahụ na-agbanwe site n'ọnọdụ okpomọkụ. 	1
+Na e nwere, echere m, ịhe ngosi mọlịkụl na biosphere nọ nọọ na-akpụkọrita onwe ya  n'oge kwere nnapụta maka ịdị na-agbasa ịhe ndị e tinye kọrọ ọnụ.	Biosphere ahụ adịghị agbanwe.	2
+Site na mwuli elu ahụ, kristal nkịtị e nweghị ị́ké inye ọtụtụ ozi.	Kristal nkịtị bụ nnọọ nnukwu njupụta ụzọ nchekwa ozi.	2
+Site na mwuli elu ahụ, kristal nkịtị e nweghị ị́ké inye ọtụtụ ozi.	Kristal ndị nkịtị abachaghi nnukwu uru iji na-enye ozi.	0
+Site na mwuli elu ahụ, kristal nkịtị e nweghị ị́ké inye ọtụtụ ozi.	E nwere ụdị crystal ndị ọzọ bara uru nke ukwuu maka itinye n'ụdị ọzọ ozi  gbasara ala obodo site n'iji laser beams.	1
+Ya mere, ndị okenye ekwesịghị ị na-akụziri ụmụntakịrị na-ebidobeghị akwụkwọ ịghọ aghụghọ, dịka ha si eme mgbe ụfọdụ oge ha chọrọ ị nyere ha aka ịmụta izu okwe maọbụ ịhe ndị ọzọ yiri ha. 	Ụmụntakịrị ebidobeghi akwụkwọ site n'ebumpụta ụwa ka mma n'idozi izu okwe karịa n'egwuregwu ịghọ aghụghọ.	2
+Ya mere, ndị okenye ekwesịghị ị na-akụziri ụmụntakịrị na-ebidobeghị akwụkwọ ịghọ aghụghọ, dịka ha si eme mgbe ụfọdụ oge ha chọrọ ị nyere ha aka ịmụta izu okwe maọbụ ịhe ndị ọzọ yiri ha. 	Ndị na-ebidobeghị akwụkwọ agaghị achọ enyemaka buru ibu iji muta aghụghọ.	0
+Ya mere, ndị okenye ekwesịghị ị na-akụziri ụmụntakịrị na-ebidobeghị akwụkwọ ịghọ aghụghọ, dịka ha si eme mgbe ụfọdụ oge ha chọrọ ị nyere ha aka ịmụta izu okwe maọbụ ịhe ndị ọzọ yiri ha. 	Ụmụaka ebidobeghi akwụkwọ e nweghị ńkà n'ihe ngosi mbara igwe iji mutasia izu okwe na-onwe ha.	1
+[Obodo a bụ nke] e chepụtara n'ime nwere onwe na itinye uchu n'okwu nke bụ na e kere mmadụ niile nhatanha.	Ndetu gbasara atụmatụ a ka edekoro na ọtụtụ akwụkwọ mgbakwunye.	1
+[Obodo a bụ nke] e chepụtara n'ime nwere onwe na itinye uchu n'okwu nke bụ na e kere mmadụ niile nhatanha.	Ụfọdụ ndị mmadụ kwenyere na mmadụ niile ha.	0
+[Obodo a bụ nke] e chepụtara n'ime nwere onwe na itinye uchu n'okwu nke bụ na e kere mmadụ niile nhatanha.	Atọrọ ntọala mba a n'ihi nkwenye na ụfọdụ mmadụ site n'ebumpụta ụwa dị mma karịa ndị ọzọ	2
+Ọ bụ ka mụ na-eto ya karia?	O doro m anya nke ukwuu na-ekwesịrị m iti ya ihe maka ọdịda ya.	2
+Ọ bụ ka mụ na-eto ya karia?	Ana m eche ma ọ chọrọ ekele site na m ọzọ.	0
+Ọ bụ ka mụ na-eto ya karia?	E kwesịrị m ị na-eto ya karịa maka ihe ngosi piano ya?	1
+E nwere ị́ké ị wu atụmatụ ndị spin netwọk n'akụkụ dị iche iche. 	Akụkụ ndị ọzọ bụ ihe enwere ike iji wee wuo atụmatụ spin network.	0
+E nwere ị́ké ị wu atụmatụ ndị spin netwọk n'akụkụ dị iche iche. 	Spin netwọk dị mkpa maka tekinọlọji ndị eji etinye dátà.	1
+E nwere ị́ké ị wu atụmatụ ndị spin netwọk n'akụkụ dị iche iche. 	E nweghị ike ịche gbasara Spin Network n'akụkụ dị iche iche.	2
+(n'obi erughị ala) Mba, mba, achọghị m ka ị nwụọ!	A chọghị m ka ị nwụọ!	0
+(n'obi erughị ala) Mba, mba, achọghị m ka ị nwụọ!	Ọ gbasaghị ma ị nwụọ! 	2
+(n'obi erughị ala) Mba, mba, achọghị m ka ị nwụọ!	Ọ ga-ewute m nnọọ ma ị nwụọ!	1
+A kwugburu ya n'ihu ọhanaeze na March 19,1875, na San Jose, California.	California na-eme ogbugbu n'ihu ọhanaeze ruo ọgwụgwụ nke oge 1875.	0
+A kwugburu ya n'ihu ọhanaeze na March 19,1875, na San Jose, California.	A tọhapụrụ ya pụọ na nmehie niile ma zigakwa ya n'ụzọ ya. 	2
+A kwugburu ya n'ihu ọhanaeze na March 19,1875, na San Jose, California.	A kwụgburu ya maka ịgba ikike mgba okpuru na izu ohi ịnyịnya.	1
+N'oge ọgba-aghara ahụ, osimiri ndụ ndụ ahụ na-egbuke egbuke na-asọpụta. 	Osimiri ahụ na-acha anụnụ anụnụ ma dị nro ka enyo.	2
+N'oge ọgba-aghara ahụ, osimiri ndụ ndụ ahụ na-egbuke egbuke na-asọpụta. 	Osimiri ahụ jupụtara n'obere ázụ̀ ndị na-agbasa n'ahụ ụgbọ mmiri ahụ.	1
+N'oge ọgba-aghara ahụ, osimiri ndụ ndụ ahụ na-egbuke egbuke na-asọpụta. 	Osimiri ahụ na-acha akwụkwọ ndụ akwụkwọ ndụ, ma dịkwa ka ọ na-ésī.	0
+Usoro iwu dị nọọ iche na-achọ ịrụ ọrụ n'ụzọ na-esoghị ọgbaghara nọ n'afọ ndị 1860. 	Site na 1870 usoro iwu niile adaala na obodo ahụ nọkwa n'ọgbaghara zuru oke.	2
+Usoro iwu dị nọọ iche na-achọ ịrụ ọrụ n'ụzọ na-esoghị ọgbaghara nọ n'afọ ndị 1860. 	Afọ ndị 1860 bụ oge ọgbaghara.	0
+Usoro iwu dị nọọ iche na-achọ ịrụ ọrụ n'ụzọ na-esoghị ọgbaghara nọ n'afọ ndị 1860. 	Usoro iwu nke ọhụụ chọrọ ị mmụba ikike oru.	1
+Ụdị echiche ogo elu ọbụla, ọ rụtụrụ aka, dịka o siri pụta na mkparịta ụka na sosha midia, n'etiti nwata ahụ na ndị nnọchiteanya omenala ya dịka ha na-esonye n'ọrụ arụkọtara ọnụ. 	Ụmụntakịrị anaghị enwe ike ịkekọrịta ụdị echiche dị elu.	2
+Ụdị echiche ogo elu ọbụla, ọ rụtụrụ aka, dịka o siri pụta na mkparịta ụka na sosha midia, n'etiti nwata ahụ na ndị nnọchiteanya omenala ya dịka ha na-esonye n'ọrụ arụkọtara ọnụ. 	Ị́kụ̀ ázụ̀ bụ otu ọrụ e nwekọrọ ọnụ n'etiti ọtụtụ omenala ndị dị iche iche. 	1
+Ụdị echiche ogo elu ọbụla, ọ rụtụrụ aka, dịka o siri pụta na mkparịta ụka na sosha midia, n'etiti nwata ahụ na ndị nnọchiteanya omenala ya dịka ha na-esonye n'ọrụ arụkọtara ọnụ. 	Ịkekọrịta ọrụ nkịtị na-enye aka mgbe ụfọdụ maka ịkekọrịta echiche ụdị nke dị elu.	0
+Ụfọdụ agbataobi nweere onye ekpere nwoke maọbụ nwaanyị, ndị ńdú ime mmụọ nwere ike ị du ndị obodo n'ekpere n'akwamozu, ụbọchị ncheta ọnwụ ndị nsọ na mgbe ọbụla ụkọchukwu na-anọghị ya. 	O nweghị ndị agbataobi nwere ndị ńdú ime mmụọ ndị na-abụghị ndị nchu àjà.	2
+Ụfọdụ agbataobi nweere onye ekpere nwoke maọbụ nwaanyị, ndị ńdú ime mmụọ nwere ike ị du ndị obodo n'ekpere n'akwamozu, ụbọchị ncheta ọnwụ ndị nsọ na mgbe ọbụla ụkọchukwu na-anọghị ya. 	Ụfọdụ agbataobi nwere ndị ńdú ime mụọ ndị na-abụghị ndị nchu àjà.	0
+Ụfọdụ agbataobi nweere onye ekpere nwoke maọbụ nwaanyị, ndị ńdú ime mmụọ nwere ike ị du ndị obodo n'ekpere n'akwamozu, ụbọchị ncheta ọnwụ ndị nsọ na mgbe ọbụla ụkọchukwu na-anọghị ya. 	Ụfọdụ ndị ńdú ime mmụọ nwere ntutu isi dị ojii.	1
+N'ime ejije sosha dràmà, ohere na-adịgasi ịji mepụta ma kpọkọta ọrụ ndị ọzọ nwere ị́ké inyere ụmụaka aka ịghọta oyiri na ndịịche dị n'etiti ndị mmadụ ịnwe mmasị, nkwenye, na mmetụta.	Ụmụaka nwere ike ịmụ ka ndị mmadụ si yie na ịdị iche iche.	0
+N'ime ejije sosha dràmà, ohere na-adịgasi ịji mepụta ma kpọkọta ọrụ ndị ọzọ nwere ị́ké inyere ụmụaka aka ịghọta oyiri na ndịịche dị n'etiti ndị mmadụ ịnwe mmasị, nkwenye, na mmetụta.	Ụmụaka nwere ike ịhụ ka agbụrụ dị iche iche siri dị iche.	1
+N'ime ejije sosha dràmà, ohere na-adịgasi ịji mepụta ma kpọkọta ọrụ ndị ọzọ nwere ị́ké inyere ụmụaka aka ịghọta oyiri na ndịịche dị n'etiti ndị mmadụ ịnwe mmasị, nkwenye, na mmetụta.	Ụmụaka enweghị ike ịmụ ihe ọ bula.	2
+Ịhe ahụ kachasị mma n'ime ntụziaka iwu German mgbe agha kwụsịrị, yanu, bụ nọọ ịhe kachasị kpalite ọchịchị Nazi ahụ.	Ọchịchị Nazi kwetara na ya.	2
+Ịhe ahụ kachasị mma n'ime ntụziaka iwu German mgbe agha kwụsịrị, yanu, bụ nọọ ịhe kachasị kpalite ọchịchị Nazi ahụ.	Ọchịchị Nazi gburu onye ọbụla so na ya.	1
+Ịhe ahụ kachasị mma n'ime ntụziaka iwu German mgbe agha kwụsịrị, yanu, bụ nọọ ịhe kachasị kpalite ọchịchị Nazi ahụ.	Ọchịchị Nazi kwụsịrị ya.	0
+Sonja nwantakịrị ahụ bidoro iñomi íwè íwé ahụ nwa ya nwaanyị. 	Ọ dịghị onye na-ewe iwe.	2
+Sonja nwantakịrị ahụ bidoro iñomi íwè íwé ahụ nwa ya nwaanyị. 	Sonja bụ nwantakịrị.	0
+Sonja nwantakịrị ahụ bidoro iñomi íwè íwé ahụ nwa ya nwaanyị. 	Sonja na-ewe iwe.	1
+6 N'ime áfọ̀ iri ịse na ịse ahụ dubara na Civil War, Court ahụ ejichaghi ikike a rụọ ọrụ. 	Court ahụ mgbe ụfọdụ na-eji ikike a mee ihe na ọtụtụ afọ iri dubara na Civil War.	0
+6 N'ime áfọ̀ iri ịse na ịse ahụ dubara na Civil War, Court ahụ ejichaghi ikike a rụọ ọrụ. 	Court ahụ jiiri ikike a ugboro 4 n'ime áfọ̀ iri ịse na ịse ahụ dubara na Civil War.	1
+6 N'ime áfọ̀ iri ịse na ịse ahụ dubara na Civil War, Court ahụ ejichaghi ikike a rụọ ọrụ. 	Court ahụ jiri ikike  a mee ihe ugboro nde ise n'afọ iri ise na ise dubara na Civil War.	2
+A na m ekwe gị nkwa, nnamukwuu, na a gwara m ihe nile n'ozuzu oke.	Ana m agwa gị na-enyere m ihe ọmụma gbasara ihe nile.	0
+A na m ekwe gị nkwa, nnamukwuu, na a gwara m ihe nile n'ozuzu oke.	Ọ bụ ọnwụ onye nchọpụta ahụ ka a gwara m maka ya.	1
+A na m ekwe gị nkwa, nnamukwuu, na a gwara m ihe nile n'ozuzu oke.	Ọ dị ọtụtụ nkọwa e zonahụrụ m.	2
+Ụda ahụ nyere Captain Blood nsogbụ site echiche iwe ya.	Captain Blood nwere ike ịche echiche iwe ya n'enweghị nkwụsị.	2
+Ụda ahụ nyere Captain Blood nsogbụ site echiche iwe ya.	Echiche ndị Captain Blood na-eche bụ nke e ji ụfọdụ mkpọtụ mesaa.	0
+Ụda ahụ nyere Captain Blood nsogbụ site echiche iwe ya.	Mkpu nwa nkita ahụ kụjara onyeisi agha site n'echiche ya	1
+Mana agaghị m echefu na mgbe m nọ dịka ohu n'ezinụlọ nwannenna gi nke nwoke na Barbados, ị ji obiọma were leeta m.	I jiri obiọma meso m mgbe m bụ ohu na Barbados.	0
+Mana agaghị m echefu na mgbe m nọ dịka ohu n'ezinụlọ nwannenna gi nke nwoke na Barbados, ị ji obiọma were leeta m.	Ị taara m nnukwu ahụhụ, ma metọọ m karịa unyi.	2
+Mana agaghị m echefu na mgbe m nọ dịka ohu n'ezinụlọ nwannenna gi nke nwoke na Barbados, ị ji obiọma were leeta m.	Nwanne nna gị nke nwoke na-etisi m ihe ike kwa ụbọchị mgbe ọ bụ ya nwe m.	1
+Ebe ahụ, ọ dịka ịhe na-akarịghị mailụ atọ, bụ ala - - mgbịdị ahịhịa ndụ na-anọkọghị ọnụ nke jupụtara n'ebe nlepụ anya ọdịda anyanwụ ahụ.	Ala mara mma nke ukwuu dị nso n'ilepụ anya.	0
+Ebe ahụ, ọ dịka ịhe na-akarịghị mailụ atọ, bụ ala - - mgbịdị ahịhịa ndụ na-anọkọghị ọnụ nke jupụtara n'ebe nlepụ anya ọdịda anyanwụ ahụ.	Agwaetiti ahụ ha na-abịakute nso bụ nke a na-enweghị onye bi na ya.	1
+Ebe ahụ, ọ dịka ịhe na-akarịghị mailụ atọ, bụ ala - - mgbịdị ahịhịa ndụ na-anọkọghị ọnụ nke jupụtara n'ebe nlepụ anya ọdịda anyanwụ ahụ.	Ha enweghị ike ịhụ ala ọ bụla ruo miles, nanị osimiri enweghị ngwụcha.	2
+Abụ m ojee ozi nke His Majesty n'akụkụ ebe ndị a na-emepechabeghi anya, ma Lord Sunderland nke m n'akụkụ nwanna.	His Majesty nwere ndị envoi, ma abụ m otu n'ime ha.	0
+Abụ m ojee ozi nke His Majesty n'akụkụ ebe ndị a na-emepechabeghi anya, ma Lord Sunderland nke m n'akụkụ nwanna.	His Majesty zitere m ebe a ịhe dịka izu ụka gaara aga.	1
+Abụ m ojee ozi nke His Majesty n'akụkụ ebe ndị a na-emepechabeghi anya, ma Lord Sunderland nke m n'akụkụ nwanna.	Anaghị a nara ntuziaka sitere na His Majesty.	2
+Eji m gị ya n'ụgwọ - - maọbụ echere m na m ji ya, ka ọ sịrị. 	Ọ dịghị mgbe o chere na o ji gị ụgwọ  Íhé ọ bula.	2
+Eji m gị ya n'ụgwọ - - maọbụ echere m na m ji ya, ka ọ sịrị. 	O ji gị ụgwọ maka aka nille ị nyere ya dịka ogbenye ọnụ ntụ na-arịọ arịrịọ.	1
+Eji m gị ya n'ụgwọ - - maọbụ echere m na m ji ya, ka ọ sịrị. 	O chere na o ji gị ụgwọ Íhé.	0
+E kwesịrị m ịma na ọ dịghị mma ị bịa nso na Jamaica n'abalị.	Emere m njem nso Jamaica mgbe anyanwụ dachara.	0
+E kwesịrị m ịma na ọ dịghị mma ị bịa nso na Jamaica n'abalị.	E meere m njem gaa Jamaica site na nnukwu ụgbọ mmiri.	1
+E kwesịrị m ịma na ọ dịghị mma ị bịa nso na Jamaica n'abalị.	Mụ na nwunye m rutere Jamaica n'ehihie .	2
+Echiche Blood nọ na nke a nakwa ịhe ndị ọzọ dịka ọ tọgbọrọ n'ebe ahụ n'elu àkwà ndina. 	Blood rahụrụ nrọ echeghị maka ndi ọzọ n'elu àkwà ndina ya.	2
+Echiche Blood nọ na nke a nakwa ịhe ndị ọzọ dịka ọ tọgbọrọ n'ebe ahụ n'elu àkwà ndina. 	Blood nọ na-echebara echiche ịme dịka o dịna ala.	0
+Echiche Blood nọ na nke a nakwa ịhe ndị ọzọ dịka ọ tọgbọrọ n'ebe ahụ n'elu àkwà ndina. 	Blood n'echesi echiche ike gbasara mgbe ikpeazụ ọ hụrụ nne ya.	1
+N'ezie, mgbe ahụ, aga m na-agwa unu.	Ọ dịkwa mma, aga m agwa gị gbasara ya.	0
+N'ezie, mgbe ahụ, aga m na-agwa unu.	Agaghị m agwa gị otu mkpụrụ okwu.	2
+N'ezie, mgbe ahụ, aga m na-agwa unu.	Ọ bu nanị maka na ị kwere nkwa na-ịgaghị e kwugharịa nke a ka m n'agwa gị.	1
+Ah! Ma kedụ ụzọ nke ahụ ga-esi mee?	Onwere onye na-ajụ ụzọ ọ ga-eso.	0
+Ah! Ma kedụ ụzọ nke ahụ ga-esi mee?	Onye ajụjụ ahụ nọ naanị ya na o nweghị onye nọ nso ọ ga-agbasa izu.	2
+Ah! Ma kedụ ụzọ nke ahụ ga-esi mee?	Onye na-ajụ ajụjụ na-eme ọsọ ọsọ ma chọọ ịmata ozugbo ụzọ ọ ga-eso.	1
+Anaghị m eji ike enye ọ́kwá  Ézè.	Ịnye ọ́kwá  Ézè na-emegide omume m.	1
+Anaghị m eji ike enye ọ́kwá  Ézè.	Echebarago m  ọ́kwá  Ézè ezigbote echiche.	0
+Anaghị m eji ike enye ọ́kwá  Ézè.	E binyere m aka n'ikikere iji nye ọ́kwá Ézè na-enweghi echiche abụọ. 	2
+Ọ chọpụtara na o nwere ị́ké ị ji ọsọ laghachi azụ.	Ọ ghọtara na ọ nwere ụbọchị nile iji laghachi azụ.	2
+Ọ chọpụtara na o nwere ị́ké ị ji ọsọ laghachi azụ.	Ọ chọpụtara na ọ ga-emerịrị ọsịsọ.	0
+Ọ chọpụtara na o nwere ị́ké ị ji ọsọ laghachi azụ.	Ọ bụrụ na ọ nọrọ n'otu ebe ahụ, a ga-achọpụta ya.	1
+Ma n'agbanyeghị ọ ka na-abụ ịhe ka bụ ma mee ịhe ịhe o megoro n'àfọ́ atọ ikpeazụ ndị a, ọ sịrị, mana ọ sịrị ya n'ụdị nwute ugbu a, na-enweghị ịkọ ọnụ ọbụla dịka oge mbụ. 	Ọ masịghị ya na-ogbuola ọtụtụ umu-nwoke n'afọ atọ gara aga.	1
+Ma n'agbanyeghị ọ ka na-abụ ịhe ka bụ ma mee ịhe ịhe o megoro n'àfọ́ atọ ikpeazụ ndị a, ọ sịrị, mana ọ sịrị ya n'ụdị nwute ugbu a, na-enweghị ịkọ ọnụ ọbụla dịka oge mbụ. 	O kwuru n'obi ụtọ gbasara ịhe ndị o mere na agwa ya.	2
+Ma n'agbanyeghị ọ ka na-abụ ịhe ka bụ ma mee ịhe ịhe o megoro n'àfọ́ atọ ikpeazụ ndị a, ọ sịrị, mana ọ sịrị ya n'ụdị nwute ugbu a, na-enweghị ịkọ ọnụ ọbụla dịka oge mbụ. 	O kwuru okwu n'olu dị mwute.	0
+Ana m eche na ọ bụ ka e mechara n'ụdị nke gị.	Ana m ewe n'ọbụ ihe a ka ụdị gị na-eme.	0
+Ana m eche na ọ bụ ka e mechara n'ụdị nke gị.	A gụọla m maka ụdị mmadụ gị, na omenaala ha.	1
+Ana m eche na ọ bụ ka e mechara n'ụdị nke gị.	Ana m ewere ya na ihe a adịghị nkịtị n'etiti ụdị gị.	2
+Mgbarụ ịhụ gbagwojuru ya nku anya.	Nnukwu ọchị gbasara n'ihu ya.	2
+Mgbarụ ịhụ gbagwojuru ya nku anya.	O nwere mmetụta ilu agbọọ n'ime áfọ̀ ya. 	1
+Mgbarụ ịhụ gbagwojuru ya nku anya.	E nwere iwe nọ n'ihu ya.	0
+O jiri anya ndị na-emuke emuke na-ele ya, mana ka ọ na-ele ịhụ ị sụọ ngọngọ ya, na nnukwu ịhụ mgbaru na-akawa nkụ anya ya, ịhụ nke ya gbanwere.	Nzipụta ya gbanwere mgbe ọ hụchara ihu ya.	0
+O jiri anya ndị na-emuke emuke na-ele ya, mana ka ọ na-ele ịhụ ị sụọ ngọngọ ya, na nnukwu ịhụ mgbaru na-akawa nkụ anya ya, ịhụ nke ya gbanwere.	Ịhụ ya gbasapụrụ mgbe ọ hụrụ mgbaru ịhụ ya.	2
+O jiri anya ndị na-emuke emuke na-ele ya, mana ka ọ na-ele ịhụ ị sụọ ngọngọ ya, na nnukwu ịhụ mgbaru na-akawa nkụ anya ya, ịhụ nke ya gbanwere.	Ọ maghị ma ọ na-ewesere ya iwe.	1
+N'aga nwayọọ, ọ gaara gburugburu mgbịdị nsogbu ahụ, ma gafee ọnụ ụzọ ámá ukwuu ahụ banye n'ime ogige.	Ebe ọnụ ụzọ ámá ukwuu gbachiri agbachi, o mafere ihe mgbochi, banye n'ime ogige.	2
+N'aga nwayọọ, ọ gaara gburugburu mgbịdị nsogbu ahụ, ma gafee ọnụ ụzọ ámá ukwuu ahụ banye n'ime ogige.	Ọnụ ụzọ ámá ukwuu ahụ bụ naanị ụzọ esi abanye n'ime ogige ahụ. 	1
+N'aga nwayọọ, ọ gaara gburugburu mgbịdị nsogbu ahụ, ma gafee ọnụ ụzọ ámá ukwuu ahụ banye n'ime ogige.	E nwere nnukwu ọnụ ụzọ ámá n'edubanye n'ime ogige.	0
+Ị ga-emecha gaa n'ebe nkwugbu mmadụ ahụ, e nweghị mgbaha, ọ si n'iwe.	O chere na o nwere onye ga-aga n'ebe nkwugbu mmadụ ahụ.	0
+Ị ga-emecha gaa n'ebe nkwugbu mmadụ ahụ, e nweghị mgbaha, ọ si n'iwe.	Ọ bụ onye ọkaịkpe nke jidere onye ohi.	1
+Ị ga-emecha gaa n'ebe nkwugbu mmadụ ahụ, e nweghị mgbaha, ọ si n'iwe.	O jiri olu nwayọ kwue ụzọ aga-esi gbapụ n'obodo ka ọ wee zere ịje nga.	2
+Kedụ ka m gaara esi n'ikwu eziokwu kpọchie ha? Ọ nọ n'ime ihe a kpara.	Enweghị m ike ịweta onwe m ikpọchi ha.	0
+Kedụ ka m gaara esi n'ikwu eziokwu kpọchie ha? Ọ nọ n'ime ihe a kpara.	Akpọchiri m ha ozugbo ozugbo mụ hụrụ ha.	2
+Kedụ ka m gaara esi n'ikwu eziokwu kpọchie ha? Ọ nọ n'ime ihe a kpara.	Agaraghị m ịgbaghara onwe m, ma ọ bụrụ na m akpọchighị ha.	1
+Anọ m na-achụ ya kemgbe áfọ̀ a gaara aga.	Ana m eso ya nso nso kemgbe otu afọ ma ọ maghị.	1
+Anọ m na-achụ ya kemgbe áfọ̀ a gaara aga.	Ana m eso ya nso nso naanị ịhe ruru otu izu ụka. 	2
+Anọ m na-achụ ya kemgbe áfọ̀ a gaara aga.	N'ime afọ gara aga ana m esoghari ya.	0
+Ebe ngosi nkà na ọdịnala esichaghi ị́ké na katalọgụ maọbụ ịmado aha.	Ebe ihe ngosi ńká na ọdịnala adịghị enwe mmasị n'ihe ịmado aha.	1
+Ebe ngosi nkà na ọdịnala esichaghi ị́ké na katalọgụ maọbụ ịmado aha.	Ebe ngosi nkà na ọdịnala ahụ abụghị nke nwere mmasị n'akwụkwọ ngosi ịhe.	0
+Ebe ngosi nkà na ọdịnala esichaghi ị́ké na katalọgụ maọbụ ịmado aha.	Ịsi ihe di ike nke ụlọ ihe ngosi ńká na ọdịnala bụ katalọgụ.	2
+Ahịa ézì ndị a bụkwa ebe ndị nwekarịsịrị mmasị ịzụ ahịa na Beijing. 	Beijing nwere ahịa èzí nke gụnyere ụlọ ahịa na- enye mmasị nke ukwuu.	0
+Ahịa ézì ndị a bụkwa ebe ndị nwekarịsịrị mmasị ịzụ ahịa na Beijing. 	Ahịa ézì ndị ahụ nọ na Beijing bụ ọkacha nwee mmasị n'ụwa.	1
+Ahịa ézì ndị a bụkwa ebe ndị nwekarịsịrị mmasị ịzụ ahịa na Beijing. 	Iwu nke siri ike na Beijing machiri ahịa èzí n'ime ókè obodo.	2
+Ebe ọwa mmiri kachasị n'ikpere mmiri nọtwest dị mma iji mere ọdọ ụgbọ mmiri, mana ma mmiri ahụ na ájá dị ya nwere ị́ké iru unyi. 	Mmiri na osimiri ahụ na-adị ọcha mgbe niile.	2
+Ebe ọwa mmiri kachasị n'ikpere mmiri nọtwest dị mma iji mere ọdọ ụgbọ mmiri, mana ma mmiri ahụ na ájá dị ya nwere ị́ké iru unyi. 	Mmiri ahụ na ájá dị ya nwere ị́ké iru inyi.	0
+Ebe ọwa mmiri kachasị n'ikpere mmiri nọtwest dị mma iji mere ọdọ ụgbọ mmiri, mana ma mmiri ahụ na ájá dị ya nwere ị́ké iru unyi. 	Mmiri ahụ ruru inyi maka ihe mmetọ.	1
+Ụlọelu ukwuu ndị ahụ bụ ụlọakụ, na striit ahụ ha na-eguzo bụ nke enyere aha otutu Milla de Oro maọbụ Golden Mile.	Ọ dịghị nke ọ bụla n'ime Ụlọelu ukwuu ndị nọ na Golden Mile bụ ụlọakụ.	2
+Ụlọelu ukwuu ndị ahụ bụ ụlọakụ, na striit ahụ ha na-eguzo bụ nke enyere aha otutu Milla de Oro maọbụ Golden Mile.	Ụlọelu ukwuu ndị nọ na Golden Mile bụ ụlọakụ. 	0
+Ụlọelu ukwuu ndị ahụ bụ ụlọakụ, na striit ahụ ha na-eguzo bụ nke enyere aha otutu Milla de Oro maọbụ Golden Mile.	Ụlọelu ukwuu ndị nọ na Golden Mile bụ azụmahịa dị iche iche, gụnyere ụlọakụ.	1
+N'ụdị doro anya, mgbe ahụ, na ịsonye na World War II bidoro na British Commonwealth Air Training Plan, jiri eluigwe nwere nchekwa nke Canada gwado ndị ọkwọ ụgbọelu maka agha.	Canada nwere eluigwe nwere nchekwa.	0
+N'ụdị doro anya, mgbe ahụ, na ịsonye na World War II bidoro na British Commonwealth Air Training Plan, jiri eluigwe nwere nchekwa nke Canada gwado ndị ọkwọ ụgbọelu maka agha.	Eluigwe Canada enweghị ogbunigwe.	1
+N'ụdị doro anya, mgbe ahụ, na ịsonye na World War II bidoro na British Commonwealth Air Training Plan, jiri eluigwe nwere nchekwa nke Canada gwado ndị ọkwọ ụgbọelu maka agha.	Eluigwe Canada dị ize ndụ karịa.	2
+Na ha nọ na-enye nsọpụrụ na ịnye aka, agbanyeghị na ha matara na ikpere mmiri ọma ha abụghị kwa nke ha ọzọ.	Ha na-enwe obi ilu na-ewesara onye ọbula ha na ha ga-eke ikpere mmiri  iwe ugbu a.	2
+Na ha nọ na-enye nsọpụrụ na ịnye aka, agbanyeghị na ha matara na ikpere mmiri ọma ha abụghị kwa nke ha ọzọ.	Ha na ndị ọzọ ga-ekezi ikpere mmiri ahụ ugbu a.	0
+Na ha nọ na-enye nsọpụrụ na ịnye aka, agbanyeghị na ha matara na ikpere mmiri ọma ha abụghị kwa nke ha ọzọ.	Ha nwebụrụ narị miles ise nke ihu ikpere mmiri 	1
+Kublai Khan wuru isi obodo nke ya na 1279 n'ikpere mmiri Beihai Lake nke Beijing, ebe a na-egosi ụfọdụ akụ alaeze ya taa.	Kublai Khan wuru isi obodo na Taiwan.	2
+Kublai Khan wuru isi obodo nke ya na 1279 n'ikpere mmiri Beihai Lake nke Beijing, ebe a na-egosi ụfọdụ akụ alaeze ya taa.	Kublai Khan nwere akụ ga na Beijing.	0
+Kublai Khan wuru isi obodo nke ya na 1279 n'ikpere mmiri Beihai Lake nke Beijing, ebe a na-egosi ụfọdụ akụ alaeze ya taa.	Kublai Khan bụ nwoke a na-akwanyere ùgwù nke ọma.	1
+Ị na-anọ n'ime ndị obodo Anglo naanị ụlọ akwụkwọ Protestant ha na-anabata ụmụaka ha ndị Jew si Eastern Europe ndị gụpụtara baa n'ime ụlọakụ Westmount maọbụ kwapụ, ụzọ kwa, gaa Toronto. 	Eastern European Jews na-emekọrịta nke ọma ha na onye ọ bụla.	2
+Ị na-anọ n'ime ndị obodo Anglo naanị ụlọ akwụkwọ Protestant ha na-anabata ụmụaka ha ndị Jew si Eastern Europe ndị gụpụtara baa n'ime ụlọakụ Westmount maọbụ kwapụ, ụzọ kwa, gaa Toronto. 	Ndị Jew abụghị ndị a chọrọ bụ ndị ọzọ fọrọ n'obodo ahụ.	1
+Ị na-anọ n'ime ndị obodo Anglo naanị ụlọ akwụkwọ Protestant ha na-anabata ụmụaka ha ndị Jew si Eastern Europe ndị gụpụtara baa n'ime ụlọakụ Westmount maọbụ kwapụ, ụzọ kwa, gaa Toronto. 	Ndị Jew na ndị obodo Anglo na-emekọrịta n'ụzọ dị mfe.	0
+Ọ bụrụ na-okwere ịme, kwee ka ịghọta izu nzuzo ahụ n'ọdịnihu. 	A banyela n'ime izu nzuzo ahụ tupu oge eruo; ọ ga-emebi obi ụtọ ya ma emechaa.	2
+Ọ bụrụ na-okwere ịme, kwee ka ịghọta izu nzuzo ahụ n'ọdịnihu. 	Gbaa mbọ ka ịghọta izu nzuzo ahụ n'ọdịnihu, ma ọbụrụ na ọ ga-ekwe gị mee.	0
+Ọ bụrụ na-okwere ịme, kwee ka ịghọta izu nzuzo ahụ n'ọdịnihu. 	Ị ga-achọpụta na klassị ahụ ga-adịrị gị mfe ma ọ bụrụ na ị ghọtara usoro akụkọ nke akwụkwọ ahụ.	1
+Ebe olili ozu ya ga, 27 m (88ft) n'okpuru ala, bụ mabulu ka eji mee ya na okpuchitere 1,200 sq m (13,000 sq ft). 	E liri ya karịa 20m n'okpuru ala.	0
+Ebe olili ozu ya ga, 27 m (88ft) n'okpuru ala, bụ mabulu ka eji mee ya na okpuchitere 1,200 sq m (13,000 sq ft). 	Ọ bụ onye ọha dị mkpa ámá àmà.	1
+Ebe olili ozu ya ga, 27 m (88ft) n'okpuru ala, bụ mabulu ka eji mee ya na okpuchitere 1,200 sq m (13,000 sq ft). 	Okpuruala ụlọ ebe olili ozu ya bụ osisi ka eji rụọ ya	2
+Cheta ka ị zoo ịhe onwunwe niile a na-ebupu ebupu pụọ n'ebe enwe nọ.	Zoo ihe onwunwe gị  n'ebe enwe nọ.	0
+Cheta ka ị zoo ịhe onwunwe niile a na-ebupu ebupu pụọ n'ebe enwe nọ.	Enwe ndị ahụ nwere nnukwu mmasị n'ọtutụ ịhe gunyere ịhe onwunwe gị.	1
+Cheta ka ị zoo ịhe onwunwe niile a na-ebupu ebupu pụọ n'ebe enwe nọ.	Ọ dịghị mkpa ka ị zoo ihe onwunwe gị n'ebe enwe nọ.	2
+Ịhe dịka áfọ̀ 1,400 tupu e wue Palace of Estei ahụ, Milreu bụ kwa nnukwu ụlọ obibi onye ámá àmà . 	Milreu jibụ10 miles dị anya n'ihe ọbula.	1
+Ịhe dịka áfọ̀ 1,400 tupu e wue Palace of Estei ahụ, Milreu bụ kwa nnukwu ụlọ obibi onye ámá àmà . 	Milreu anọghị n'obodo ahụ. 	0
+Ịhe dịka áfọ̀ 1,400 tupu e wue Palace of Estei ahụ, Milreu bụ kwa nnukwu ụlọ obibi onye ámá àmà . 	Milreu dịbụ nọọ n'etiti óbì obodo ahụ.	2
+Ọnọdụ okpomọkụ osimiri na anọgharị n'agbata 18e na 24e C (64-75e F). 	Ọnọdụ okpomọkụ osimiri na-agabanwe kwa mgbe, mana ha anaghị agbada ala karịa Ọnọdụ okpomọkụ nke ịjụ oyi.	0
+Ọnọdụ okpomọkụ osimiri na anọgharị n'agbata 18e na 24e C (64-75e F). 	Ọnọdụ okpomọkụ osimiri ahụ na-abụkarị nke na-anọ otu ebe n'áfọ̀ niile. 	2
+Ọnọdụ okpomọkụ osimiri na anọgharị n'agbata 18e na 24e C (64-75e F). 	Ọnọdụ okpomọkụ osimiri na-adi elu n'ụbọchị, mgbe ọ na-ekpokarị ọkụ.	1
+National park Kinabalu bụ otu n'ime mpaghara isii nwere nchekwa na steeti ahu. 	Kinabalu national park nwere ényí iri na rhinos isii.	1
+National park Kinabalu bụ otu n'ime mpaghara isii nwere nchekwa na steeti ahu. 	Steeti ahụ ekpuchitela mpaghara, gụnyere nashọnalu paaki Kinabalu. 	0
+National park Kinabalu bụ otu n'ime mpaghara isii nwere nchekwa na steeti ahu. 	E nwere na mgbakọta mpaghara atọ echekwara n'ime steeti ahụ.	2
+Ị ga-ahụ vidiyo gbasara akụkọ nke Anne na nke Amsterdam mgbe ọ na-arụ ọrụ gunyere foto na ịhe nkà oge ndị ahụ. 	Ị gaghị ahụ foto.	2
+Ị ga-ahụ vidiyo gbasara akụkọ nke Anne na nke Amsterdam mgbe ọ na-arụ ọrụ gunyere foto na ịhe nkà oge ndị ahụ. 	Ị ga-ahụ foto.	0
+Ị ga-ahụ vidiyo gbasara akụkọ nke Anne na nke Amsterdam mgbe ọ na-arụ ọrụ gunyere foto na ịhe nkà oge ndị ahụ. 	Ị ga-ahu ụfọdụ foto esere na mbụ.	1
+Treasure Beach bụ naanị ebe ezumike e nwere ikwu maka ya, na ụlọ nkwari akụ olenaole gafere ọwa mmiri atọ.	E nweghị ọtụtụ nhọrọ ụlọ nkwari akụ maka ndị n'abia Treasure Beach.	0
+Treasure Beach bụ naanị ebe ezumike e nwere ikwu maka ya, na ụlọ nkwari akụ olenaole gafere ọwa mmiri atọ.	E nwere ụlọ nkwari akụ akara kpakpando anọ nọ maka ndị ọbịa bịara Treasure Beach. 	1
+Treasure Beach bụ naanị ebe ezumike e nwere ikwu maka ya, na ụlọ nkwari akụ olenaole gafere ọwa mmiri atọ.	Treasure Beach bụ otu n'ime ọtụtụ ebe ntụrụndụ na mpaghara a.	2
+Oge sọma na-eweta okpomọkụ (mana ọ dịghị ọkụ) ihu eluigwe na ọnọdụ okpomọkụ osimiri, mee ya dị mma iwuba, ịgwu mmiri na egwuregwu mmiri ndị ọzọ.	Ọ na-adịkarị ogo 100 maọbụ dịkarị a ọkụ n'oge sọma.	2
+Oge sọma na-eweta okpomọkụ (mana ọ dịghị ọkụ) ihu eluigwe na ọnọdụ okpomọkụ osimiri, mee ya dị mma iwuba, ịgwu mmiri na egwuregwu mmiri ndị ọzọ.	Ọ na-abụkarị 75 n'oge sọma.	1
+Oge sọma na-eweta okpomọkụ (mana ọ dịghị ọkụ) ihu eluigwe na ọnọdụ okpomọkụ osimiri, mee ya dị mma iwuba, ịgwu mmiri na egwuregwu mmiri ndị ọzọ.	ọ na-adị ọkụ n'ọnọdụ okpomọkụ n'oge sọma.	0
+N'etiti ọdọ mmiri ndị ahụ bụ otu n'ime ndị mmadụ bi nke ndị ọbịa na-atụ mkpụrụ ego buru n'obi na ọ ga-akụ n'isi mbe, ụzọ doro anya e ji enweta ihu ọma.	Ndị mmadụ anaghị atụbata ego n'ime  maka na ọ na-eweta chi ọjọọ.	2
+N'etiti ọdọ mmiri ndị ahụ bụ otu n'ime ndị mmadụ bi nke ndị ọbịa na-atụ mkpụrụ ego buru n'obi na ọ ga-akụ n'isi mbe, ụzọ doro anya e ji enweta ihu ọma.	Ndị mmadụ na-atụbata mkpụrụ ego n'agbanyeghị na ihe ngosi sị mba.	1
+N'etiti ọdọ mmiri ndị ahụ bụ otu n'ime ndị mmadụ bi nke ndị ọbịa na-atụ mkpụrụ ego buru n'obi na ọ ga-akụ n'isi mbe, ụzọ doro anya e ji enweta ihu ọma.	Ndị mmadụ na-atunye mkpụrụ ego n'ime mmiri.	0
+Obodo ụgbọ mmiri nke Nafplio bụ ebe ọkacha mma ịga nleghari anya, maọbụ ikekwe ebe ị ga-eri nri ehihie mgbe ị nọ na njem gị.	Nafplio nwere ezigbo ebe nlepụ anya.	1
+Obodo ụgbọ mmiri nke Nafplio bụ ebe ọkacha mma ịga nleghari anya, maọbụ ikekwe ebe ị ga-eri nri ehihie mgbe ị nọ na njem gị.	Nafplio bụ ajọ ebe obibi.	2
+Obodo ụgbọ mmiri nke Nafplio bụ ebe ọkacha mma ịga nleghari anya, maọbụ ikekwe ebe ị ga-eri nri ehihie mgbe ị nọ na njem gị.	Nafplio bụ ebe obibi enweghi ntụpọ.	0
+Na Prinsengracht, Otto Frank na ezinụlọ ya zoro n'okpuru ụlọ ebe azụmahịa ha ruo ihe karịrị afọ abụọ tupu a chọpụta.	A nwụdere Otto Frank n'ụbọchị nke abụọ.	2
+Na Prinsengracht, Otto Frank na ezinụlọ ya zoro n'okpuru ụlọ ebe azụmahịa ha ruo ihe karịrị afọ abụọ tupu a chọpụta.	Otto Frank zoro ezo ruo ihe karịrị ọnwa iri abụọ na ise 	0
+Na Prinsengracht, Otto Frank na ezinụlọ ya zoro n'okpuru ụlọ ebe azụmahịa ha ruo ihe karịrị afọ abụọ tupu a chọpụta.	Otto Frank zoro ruo mgbe ndị Nazi chọtara ya.	1
+Ọtụtụ ọchịchị steeti na ime obodo nwere mgbakwunye ọchịchọ nnyocha. 	Ndị ọchịchị ime obodo kwesiri ka ha mebe iwu nke ha.	1
+Ọtụtụ ọchịchị steeti na ime obodo nwere mgbakwunye ọchịchọ nnyocha. 	Ndị ọchịchị ime obodo nwere ọchịchọ nke efu. 	2
+Ọtụtụ ọchịchị steeti na ime obodo nwere mgbakwunye ọchịchọ nnyocha. 	E nwere nsogbu mgbakwunye ọchịchọ nnyocha diri ọchịchị ime obodo.	0
+Ndị otu nche ozi na-eme nnọkọ n'etiti 8 na 12 n'otu ọnwa. 	Otu nche ahụ na-enwe  nnọkọ 9 n'otu ọnwa.	1
+Ndị otu nche ozi na-eme nnọkọ n'etiti 8 na 12 n'otu ọnwa. 	Otu ndị nche ahụ mere nnọkọ n'ụbọchị niile n'ọnwa. 	2
+Ndị otu nche ozi na-eme nnọkọ n'etiti 8 na 12 n'otu ọnwa. 	Ndị otu nche na-achikọba ọtụtụ nnọkọ n'afọ.	0
+Kosinadi, mbido ọrụ injinia bụ nke e mere mgbe mbụ.	Injiniarin nwere oge mmalite.	0
+Kosinadi, mbido ọrụ injinia bụ nke e mere mgbe mbụ.	Injiniarin bịara naanị n'oge ikpeazụ.	2
+Kosinadi, mbido ọrụ injinia bụ nke e mere mgbe mbụ.	N'enweghị oge mmalite, Injiniarin nwere ike ịda n'oge nkebi ikpeazụ.	1
+N'ihi ya, ndị mkpebi okwu gọọmenti na ndị njikwa na-anabata ụzọ echiche ọhụrụ, na-ele anya ụzọ dị iche iche esi emezu ebumnuche, na iji ozi ọhụrụ edu mkpebi. 	Ndị nnọchiteanya gọọmenti n'agbanwe usoro ha.	0
+N'ihi ya, ndị mkpebi okwu gọọmenti na ndị njikwa na-anabata ụzọ echiche ọhụrụ, na-ele anya ụzọ dị iche iche esi emezu ebumnuche, na iji ozi ọhụrụ edu mkpebi. 	Ndị nnọchiteanya gọọmentị na-agbali iwelite ikikere ha site n'iche echiche ụzọ ọzọ. 	1
+N'ihi ya, ndị mkpebi okwu gọọmenti na ndị njikwa na-anabata ụzọ echiche ọhụrụ, na-ele anya ụzọ dị iche iche esi emezu ebumnuche, na iji ozi ọhụrụ edu mkpebi. 	Ndị nnọchiteanya gọọmenti ekweghị agbanwe ụzọ ndụ ha.	2
+Faịlụ ikpe nwere ike ikwesị ka atụgharịa ya maka ndị ahịa ahụ ndị gụrụ asụsụ ọzọ n'abụghị Bekee. 	Ana-ekwe ka faịlụ ikpe bụrụ naanị na Bekee.	2
+Faịlụ ikpe nwere ike ikwesị ka atụgharịa ya maka ndị ahịa ahụ ndị gụrụ asụsụ ọzọ n'abụghị Bekee. 	E nwere ike itinye failụ ikpe na Chinese ma ọ bụ Russian. 	1
+Faịlụ ikpe nwere ike ikwesị ka atụgharịa ya maka ndị ahịa ahụ ndị gụrụ asụsụ ọzọ n'abụghị Bekee. 	E nwere ike itinye failụ ikpe na asụsụ ndị ọzọ. 	0
+Mbọ ndị ọzọ a na-agba ugbu a nọ n'ụzọ maọbụ a na-atụ atụmatụ ya gụnyere nke	Ọtụtụ ḿbọ̀ anyị amalitelarị.	1
+Mbọ ndị ọzọ a na-agba ugbu a nọ n'ụzọ maọbụ a na-atụ atụmatụ ya gụnyere nke	Anyị enweghị ihe ọzọ akwadoro maka ọdiniru.	2
+Mbọ ndị ọzọ a na-agba ugbu a nọ n'ụzọ maọbụ a na-atụ atụmatụ ya gụnyere nke	Anyị nwere ihe akwadoro.	0
+Tinye ịhe ndị dịka obere oge, ịhichapụ ịhe ederede mbụ nke kọmputa, na enweghị ohere ịnweta akwụkwọ ndị a chọrọ.	Ha hichapụrụ faịlụ kọmputa ahụ na IBM.	1
+Tinye ịhe ndị dịka obere oge, ịhichapụ ịhe ederede mbụ nke kọmputa, na enweghị ohere ịnweta akwụkwọ ndị a chọrọ.	Ha hichapụrụ failụ kọmputa ndị dị na mmalite.	0
+Tinye ịhe ndị dịka obere oge, ịhichapụ ịhe ederede mbụ nke kọmputa, na enweghị ohere ịnweta akwụkwọ ndị a chọrọ.	Ha dowere faịlụ ndị dị na mmalite.	2
+Mgbe ahụ, otu onye nnọchiteanya nke bịara nzute na mbụ bịa kwara izute onye mweta ọhụrụ ka ọ saa ajụjụ ma kpaa nsogbu ọbụla e gosipụtara n'ime akwụkwọ nnara ego. 	Onye nnọchiteanya bịara nleta n'otu awa. 	1
+Mgbe ahụ, otu onye nnọchiteanya nke bịara nzute na mbụ bịa kwara izute onye mweta ọhụrụ ka ọ saa ajụjụ ma kpaa nsogbu ọbụla e gosipụtara n'ime akwụkwọ nnara ego. 	E nweere nleta onye nnọchiteanya. 	0
+Mgbe ahụ, otu onye nnọchiteanya nke bịara nzute na mbụ bịa kwara izute onye mweta ọhụrụ ka ọ saa ajụjụ ma kpaa nsogbu ọbụla e gosipụtara n'ime akwụkwọ nnara ego. 	Ọ dịghị mgbe anyị nwetara nleta.	2
+Ọ bụghị naanị na ịchekwa ego na-emetụta ọnọdụ akụnụba, mana akụnụba n'onwe ya na-emetụta Ịhọrọ ịhe a ga-echekwa. 	Ịhọrọ ma mmadụ ọ ga-echekwa ego ma ọ gaghị bụ nke akụnaụba ha na-emetuta. 	0
+Ọ bụghị naanị na ịchekwa ego na-emetụta ọnọdụ akụnụba, mana akụnụba n'onwe ya na-emetụta Ịhọrọ ịhe a ga-echekwa. 	Akụnụba na nchekwa ego anaghị enwe mmekọ n'ụzọ ọbụla. 	2
+Ọ bụghị naanị na ịchekwa ego na-emetụta ọnọdụ akụnụba, mana akụnụba n'onwe ya na-emetụta Ịhọrọ ịhe a ga-echekwa. 	Ndị bara ọgaranya nwekarịrị ike ịchekwa akụkụ ka ukwuu nke ego ha na-akpata.	1
+Ị ji maatụ, otu ụlọ ọrụ nke anyị mụrụ maka ya nweere njikọ abụọ ndị nke chọrọ ka ụlọ ọrụ ahụ webata azụmahịa ọhụrụ gasi ma hazigharịa ka o nwee ị́ké rute ịhe ndị na-etolite nke azụmahịa chọrọ.	N'agbanyeghi na-enwere njikọ abụọ, ọ dịghị mkpa ụlọ ọrụ ahụ ime nhazigharị usoro ụlọ ọrụ ha.	2
+Ị ji maatụ, otu ụlọ ọrụ nke anyị mụrụ maka ya nweere njikọ abụọ ndị nke chọrọ ka ụlọ ọrụ ahụ webata azụmahịa ọhụrụ gasi ma hazigharịa ka o nwee ị́ké rute ịhe ndị na-etolite nke azụmahịa chọrọ.	Ịjikọta ụlọ ọrụ abụọ n'ime otu ụlọ ọrụ na nhazigharị na-ebute gburu gburu ebe ọrụ a na-ahazighị ahazi. 	1
+Ị ji maatụ, otu ụlọ ọrụ nke anyị mụrụ maka ya nweere njikọ abụọ ndị nke chọrọ ka ụlọ ọrụ ahụ webata azụmahịa ọhụrụ gasi ma hazigharịa ka o nwee ị́ké rute ịhe ndị na-etolite nke azụmahịa chọrọ.	Anyị nyochara ụlọ ọrụ nke gabigara njikọ abụọ ma ha aghaghị iji ngwa ngwa hazigharia iji zute mkpa azụmahịa ha.	0
+atụmatụ ahụ, anyị nọ n'echiche na a ga-ebu ụzọ nye ikikere ịkwụ ụgwọ tupu a na-enyocha na njem ahụ mere n'ezie.	Anyị mara na-ịkwụ ụgwọ ga-ewe ebighị ebi.	2
+atụmatụ ahụ, anyị nọ n'echiche na a ga-ebu ụzọ nye ikikere ịkwụ ụgwọ tupu a na-enyocha na njem ahụ mere n'ezie.	Anyị cheere na ịkwụ ụgwọ ahụ nwere ike igabiga tụpụ enyochaba.	0
+atụmatụ ahụ, anyị nọ n'echiche na a ga-ebu ụzọ nye ikikere ịkwụ ụgwọ tupu a na-enyocha na njem ahụ mere n'ezie.	Anyị chere na-ịkwụ ụgwọ ga-agaru n'oge ma a ga-aghọgbu anyị.	1
+Tekinọlọji bụ e tinyere nkeọma n'usoro azụmahịa n'ime ụlọ ọrụ ndị a maka na a na-ahụta tekinọlọji dịka ịhe na-akwalite azụmahịa, ọ bụghị so ịhe ọrụ.	Advanced scheduling software bụ otu n'ime isi tekinọlọjị ụlọ ọrụ na-elekwasị anya.	1
+Tekinọlọji bụ e tinyere nkeọma n'usoro azụmahịa n'ime ụlọ ọrụ ndị a maka na a na-ahụta tekinọlọji dịka ịhe na-akwalite azụmahịa, ọ bụghị so ịhe ọrụ.	Tekinọlọji bụ naanị ngwa ọrụ ma ọ bụghị enyemaka ụlọ ọrụ.	2
+Tekinọlọji bụ e tinyere nkeọma n'usoro azụmahịa n'ime ụlọ ọrụ ndị a maka na a na-ahụta tekinọlọji dịka ịhe na-akwalite azụmahịa, ọ bụghị so ịhe ọrụ.	Ndị ụlọ ọrụ a na-etinye nnukwu mkpa na tekinọlọji. 	0
+Okwu abụọ na-apụtakarị n'ihe edere nwere ị́ké ịba uru na nchọputa ọdịnihu.	Ịhe edere nwere ike ịgbanwe otu anyị si anwale ihe àtụ̀.	1
+Okwu abụọ na-apụtakarị n'ihe edere nwere ị́ké ịba uru na nchọputa ọdịnihu.	Ịhe edere nwere ike ịgbanwe nchọputa n'ọdịnihu. 	0
+Okwu abụọ na-apụtakarị n'ihe edere nwere ị́ké ịba uru na nchọputa ọdịnihu.	E nweghị ihe ọzọ a ga-eme n'ihe gbasara ịgbanwe ime nchọputa.	2
+Ahịrị ndị ahụ jupụtara ịgbe na-egosi ọnọdụ ọdịmma ndị niile na-agbasa ozi ejikọrọ ọnụ na ahịrị ndị jupụtara na dayamọndụ na-egosi ntufu sịrị ị́ké dị (ma ọ dị negativu) n'iwere ọrụ nye onye ọzọ.	Ahịrị ahụ na-agabakọ na ogo ọdịmma nke ndị nzipụ ozi bụ 10%.	1
+Ahịrị ndị ahụ jupụtara ịgbe na-egosi ọnọdụ ọdịmma ndị niile na-agbasa ozi ejikọrọ ọnụ na ahịrị ndị jupụtara na dayamọndụ na-egosi ntufu sịrị ị́ké dị (ma ọ dị negativu) n'iwere ọrụ nye onye ọzọ.	Ahịrị ahụ anaghị egosi ihe ọ bụla n'abụghị ụzọ. 	2
+Ahịrị ndị ahụ jupụtara ịgbe na-egosi ọnọdụ ọdịmma ndị niile na-agbasa ozi ejikọrọ ọnụ na ahịrị ndị jupụtara na dayamọndụ na-egosi ntufu sịrị ị́ké dị (ma ọ dị negativu) n'iwere ọrụ nye onye ọzọ.	Ahịrị ahụ na-egosi ọdịmma ole dị n'ime ndị nzipụ ozi niile.	0
+Site na nlecha ọghọm a, Centrelink mapụtara ọtụtụ atụmatụ mgbochi hiwere ịsị na-ikụzi ndị nwere nrite na ndị na-ewe n'ọrụ gbasara ịhe ndị a chọrọ n'igbasa ozi maka mkpata ego.	Centrelink amaghị ka esi edozi nsogbu ahụ.	2
+Site na nlecha ọghọm a, Centrelink mapụtara ọtụtụ atụmatụ mgbochi hiwere ịsị na-ikụzi ndị nwere nrite na ndị na-ewe n'ọrụ gbasara ịhe ndị a chọrọ n'igbasa ozi maka mkpata ego.	Centrelink nweere ọtụtụ atụmatụ esi akuziri ndị mmadụ etu esi enye ozi nweta ego maka na gọọmentị na-atụfu nnukwu ego n'amaghị ama.	1
+Site na nlecha ọghọm a, Centrelink mapụtara ọtụtụ atụmatụ mgbochi hiwere ịsị na-ikụzi ndị nwere nrite na ndị na-ewe n'ọrụ gbasara ịhe ndị a chọrọ n'igbasa ozi maka mkpata ego.	Centrelink nwere ọtụtụ atụmatụ iji kuziere ndị mmadụ otu esi akọ akụkọ ụgwọ ọrụ.	0
+Nke a na-enye ohere ịgosi atụmatụ ahụ tupu ndị ụlọ ọrụ ịmefukwu ego buru ibu n'ịruputa akuru ngwa na ngwa e ji arụpụta ịhe nọchi anya njiribido maka agba nke ngosipụta ịhe. 	Mgbe ahụ ha ga-enwe ike igosi ótú atụmatụ ahụ si rụọ ọrụ.	0
+Nke a na-enye ohere ịgosi atụmatụ ahụ tupu ndị ụlọ ọrụ ịmefukwu ego buru ibu n'ịruputa akuru ngwa na ngwa e ji arụpụta ịhe nọchi anya njiribido maka agba nke ngosipụta ịhe. 	Ha nwere ike igosi ụlọ ọrụ ahụ na o gosighi amamihe ịrụ ụlọ ọrụ mmepụta ihe ndị ọhụrụ. 	1
+Nke a na-enye ohere ịgosi atụmatụ ahụ tupu ndị ụlọ ọrụ ịmefukwu ego buru ibu n'ịruputa akuru ngwa na ngwa e ji arụpụta ịhe nọchi anya njiribido maka agba nke ngosipụta ịhe. 	Ha enweghị echiche otu ha ga-esi gosipụta mmetụta nke ízụ̀kwa ego	2
+Mgbalị imekọ ihe ọnụ South Carolina wepụtara ọganihu ọzọ n'afọ sotere ya. 	Ọdịghị ghị onye nọ na South Carolina rụkọrọ ọrụ ọnụ.	2
+Mgbalị imekọ ihe ọnụ South Carolina wepụtara ọganihu ọzọ n'afọ sotere ya. 	SC rukọtara ọrụ. 	0
+Mgbalị imekọ ihe ọnụ South Carolina wepụtara ọganihu ọzọ n'afọ sotere ya. 	Ndị demokrats na ndị republikan na South Carolina na-arụkọ ọrụ.	1
+Dịka Board ọfisi siri kwuo, n'amaokwu Board nke 605(b) asambodo abụghị nke a na-eweta ịche ịche nye Small Business Administration (SBA) Chief Counsel for Advocacy. 	Ndị Board ahụ enyeghị SBA asambodo ma ha hapuru ya ọfisi onye nyocha.	1
+Dịka Board ọfisi siri kwuo, n'amaokwu Board nke 605(b) asambodo abụghị nke a na-eweta ịche ịche nye Small Business Administration (SBA) Chief Counsel for Advocacy. 	Ndị Board enyeghi asambodo SBA ahụ. 	0
+Dịka Board ọfisi siri kwuo, n'amaokwu Board nke 605(b) asambodo abụghị nke a na-eweta ịche ịche nye Small Business Administration (SBA) Chief Counsel for Advocacy. 	Ndị Board ahụ na-enyefe asambodo SBA kwa ụbọchị maka onye ọ bụla rịọrọ maka ya.	2
+Mgbe asọmpi mere n'ụlọ oriri na nkwari na ego ndị ọzọ eme furu, ịnyocha njem ahụ n'onwe ya ka a ga-eme.	Ọtụtụ ụlọ oriri na nkwari nke mba na-anabata iji kredit kaadị kwụọ ụgwọ	1
+Mgbe asọmpi mere n'ụlọ oriri na nkwari na ego ndị ọzọ eme furu, ịnyocha njem ahụ n'onwe ya ka a ga-eme.	Njem ahụ n'onwe ya ka a ga-enyocha site na ụgwọ ụlọ oriri na nkwari. 	0
+Mgbe asọmpi mere n'ụlọ oriri na nkwari na ego ndị ọzọ eme furu, ịnyocha njem ahụ n'onwe ya ka a ga-eme.	O nweghị ụzọ ọ bụla a ga-eji nyochaa ma enwere njem emere ma ọ bụ na-enweghị.	2
+Iji maa atụ, otu isi steeti anyị gara bụ ebe obibi nye ihe karịrị ụlọ ọrụ software 600. 	Isi obodo bụ ebe kachasị mma maka ụlọ ọrụ software.	1
+Iji maa atụ, otu isi steeti anyị gara bụ ebe obibi nye ihe karịrị ụlọ ọrụ software 600. 	Otu isi obodo nwere ọkà n'ọnụọgụgụ ụlọ ọrụ software. 	0
+Iji maa atụ, otu isi steeti anyị gara bụ ebe obibi nye ihe karịrị ụlọ ọrụ software 600. 	Ụlọ ọrụ software na-ezere isi obodo maka ihe gbasara iwu.	2
+Ị ji gbakọọ ịdị uchu n'ọrụ, ịmetacha ịhe ka o si kwesị abụghị nke a pụrụ ị mee. 	Ị nwere ike izuoke ma ị gbalisie ike.	2
+Ị ji gbakọọ ịdị uchu n'ọrụ, ịmetacha ịhe ka o si kwesị abụghị nke a pụrụ ị mee. 	I nweghị ike izuoke.	0
+Ị ji gbakọọ ịdị uchu n'ọrụ, ịmetacha ịhe ka o si kwesị abụghị nke a pụrụ ị mee. 	Ị nweghị ike izuoke n'ihi na-anyị nile bụ ndị nwere ntụpọ miri emi.	1
+Onyembikọ n'ụlọ ahụ nke kwụrụ Hazmi na Mihdhar ụgwọ n'oge 2000 bụ nwaafọ obodo doro anya n'erubeisi n'iwu nwere ọtụtụ oge, bụrụ enyị ndị uwe ojii ọchịchị ịme obodo na ndị ọrụ FBI. 	Hamzi na Mihdhar zụtara ụlọ ma ọ nweghị onye ọ bụla ha na ha na-emekọrịta.	2
+Onyembikọ n'ụlọ ahụ nke kwụrụ Hazmi na Mihdhar ụgwọ n'oge 2000 bụ nwaafọ obodo doro anya n'erubeisi n'iwu nwere ọtụtụ oge, bụrụ enyị ndị uwe ojii ọchịchị ịme obodo na ndị ọrụ FBI. 	Hazmi na Mihdhar gbazitere otu ọnụ ụlọ maka otu afọ, n'ọnụ ego $500 kwa ụbọchị. 	1
+Onyembikọ n'ụlọ ahụ nke kwụrụ Hazmi na Mihdhar ụgwọ n'oge 2000 bụ nwaafọ obodo doro anya n'erubeisi n'iwu nwere ọtụtụ oge, bụrụ enyị ndị uwe ojii ọchịchị ịme obodo na ndị ọrụ FBI. 	Hamzi na Mihdhar gbazitere otu ọnụ ụlọ.	0
+Maka njem ha ịga Bosnia, lee akụkọ Nyocha, ajụjụ nke onye otu Saudi al Qaeda, Oct. 3, 2001.	Onye otu al Qaeda gara Bosnia ugboro 18 na 2001.	1
+Maka njem ha ịga Bosnia, lee akụkọ Nyocha, ajụjụ nke onye otu Saudi al Qaeda, Oct. 3, 2001.	Onye otu al Qaeda gara Bosnia. 	0
+Maka njem ha ịga Bosnia, lee akụkọ Nyocha, ajụjụ nke onye otu Saudi al Qaeda, Oct. 3, 2001.	E nweghị ihe akaebe nke onye otu al Quaeda ịga Bosnia.	2
+Jane sịrị onye ọrụ New York e nyere ọchịchọ Mihdhar ka ọ bịanye aka n'akwụkwọ nkwenye FISA na-egosi na onye ọrụ ahụ ghọtara otu o kwesịrị isi mee ozi FISA. 	Jane jụrụ maka akwụkwọ nkwenye FISA nke onye ọka ikpe gọọmenti ukwu ga-ebịnye aka na ya.	1
+Jane sịrị onye ọrụ New York e nyere ọchịchọ Mihdhar ka ọ bịanye aka n'akwụkwọ nkwenye FISA na-egosi na onye ọrụ ahụ ghọtara otu o kwesịrị isi mee ozi FISA. 	Jane jụrụ maka akwụkwọ nkwenye FISA ka a bianye aka. 	0
+Jane sịrị onye ọrụ New York e nyere ọchịchọ Mihdhar ka ọ bịanye aka n'akwụkwọ nkwenye FISA na-egosi na onye ọrụ ahụ ghọtara otu o kwesịrị isi mee ozi FISA. 	Jane kwuru na ọ dịghị nkwenye FISA dị mkpa.	2
+E nweghị ịhe pụtara ìhè gbasara onye ọbụla n'ime ha n'ịhe banyere naanị ụzọ nchekwa nke dị mkpa nye nlele ebe nlele pụtara ìhè.	A chọpụtara ihe akaebe dị ichegbu onwe mgbe a na-eme nlele na-ebe nlele ahụ.	2
+E nweghị ịhe pụtara ìhè gbasara onye ọbụla n'ime ha n'ịhe banyere naanị ụzọ nchekwa nke dị mkpa nye nlele ebe nlele pụtara ìhè.	Nlele ebe nlele ahụ na-agbado ụkwụ niile n'echiche ndị ọrụ kọstọm na-eme nyocha ahụ. 	1
+E nweghị ịhe pụtara ìhè gbasara onye ọbụla n'ime ha n'ịhe banyere naanị ụzọ nchekwa nke dị mkpa nye nlele ebe nlele pụtara ìhè.	Nlele ebe nlele ahụ enweghị ike ịchọpụta ihe akaebe ọ bula megide ha.	0
+Khallad ewepụtala agba nke abụọ, nke bụ na atọ nille mekọrọ njem ọnụ gaa Karachi.	Khallad sịrị na ọ maghị ihe ọ bụla gbasara ha atọ.	2
+Khallad ewepụtala agba nke abụọ, nke bụ na atọ nille mekọrọ njem ọnụ gaa Karachi.	Khallad sịrị na ha atọ kaara imekọta njem ọnụ. 	0
+Khallad ewepụtala agba nke abụọ, nke bụ na atọ nille mekọrọ njem ọnụ gaa Karachi.	Khallad sịrị na e nwere ohere 50% na ha atọ nwere ike iso gaa Karachi n'October.	1
+Ozi nyocha, ajụjụ ọnụ nke a gbara Binalshibh, Oct. 1,2002.	Ndị nta-ọrụ FBI gbara Binalshibh ajụjụ ọnụ.	1
+Ozi nyocha, ajụjụ ọnụ nke a gbara Binalshibh, Oct. 1,2002.	A gbaara Binalshibh ajụjụ ọnụ na 2002.	0
+Ozi nyocha, ajụjụ ọnụ nke a gbara Binalshibh, Oct. 1,2002.	Ọ dịghị mgbe a gwara Binalshibh okwu, ma o wee funarị ha.	2
+Mihdhar nwetara visa U.S. ọhụrụ mgbe ụbọchị abụọ ejiri mee nzukọ CIA-FBI na New York gachara.	Mihdhar nwere Visa US iji banye n'obodo ahụ.	0
+Mihdhar nwetara visa U.S. ọhụrụ mgbe ụbọchị abụọ ejiri mee nzukọ CIA-FBI na New York gachara.	Mihdhar enweghị mgbe o nwetara visa, ya mere o nweghị mgbe ọ bịara n' US.	2
+Mihdhar nwetara visa U.S. ọhụrụ mgbe ụbọchị abụọ ejiri mee nzukọ CIA-FBI na New York gachara.	E nyere Mihdhar Visa n'ihi na ọ bụghị Ihe iyi egwu.	1
+N'agbanyeghị nnyocha afọ abụọ, ndị FBI enweghị ike ichọta onye òtù ọrụ ahụ ma ọ bụ ịchọpụta onye ọ bụ n'ezie.	Ndị FBI enweghị ike maọlị ịchọta nwoke ahụ kemgbe ọ hapụrụ Florida na 2001.	1
+N'agbanyeghị nnyocha afọ abụọ, ndị FBI enweghị ike ichọta onye òtù ọrụ ahụ ma ọ bụ ịchọpụta onye ọ bụ n'ezie.	Ndị FBI enweghị ike ịchọpụta onye nwoke ahụ bụ. 	0
+N'agbanyeghị nnyocha afọ abụọ, ndị FBI enweghị ike ichọta onye òtù ọrụ ahụ ma ọ bụ ịchọpụta onye ọ bụ n'ezie.	Ndị FBI chọpụtara onye ọ bụ ma tubà ya n'ụlọ mpkọrọ.	2
+N'ịme ịkpe American 11,nzikọrita ozi nkịtị ikpeazụ site n'ụgbọelu ahụ bụ na 8:13 A.M. 	E nwere nzikọrịta ozi sitere na American 11.	0
+N'ịme ịkpe American 11,nzikọrita ozi nkịtị ikpeazụ site n'ụgbọelu ahụ bụ na 8:13 A.M. 	E nweere nzikọrita ozi sitere na American 11 na nkeji 5 niile. 	1
+N'ịme ịkpe American 11,nzikọrita ozi nkịtị ikpeazụ site n'ụgbọelu ahụ bụ na 8:13 A.M. 	Ọ dịghị mgbe enwere nzikọrịta ozi ọ bụla sitere na American 11.	2
+Ị chọpụta na ọ gaara ewe mgbaka áká ọnụ buru ezigbo ibu ma dị ọsịsọ sitere n'áká gọọmenti German, nke nwedịrị ị́ké ịsị ị́ké nweta. 	Ọ bụrụ na emezuo ya nyocha ahụ nwere ike ịkpughe ebe ndị ngbalaga atọ ahụ nọ.	1
+Ị chọpụta na ọ gaara ewe mgbaka áká ọnụ buru ezigbo ibu ma dị ọsịsọ sitere n'áká gọọmenti German, nke nwedịrị ị́ké ịsị ị́ké nweta. 	Ndị gọọmenti German nwere ike ha enweela ihe isi ike ime nyocha ngwa ngwa zuru oke. 	0
+Ị chọpụta na ọ gaara ewe mgbaka áká ọnụ buru ezigbo ibu ma dị ọsịsọ sitere n'áká gọọmenti German, nke nwedịrị ị́ké ịsị ị́ké nweta. 	Nyocha ahụ ga-adị mfe ma n'agbagwojughị anya maka gọọmentị ịhazi.	2
+Ịkike ndị a ezughị ezu, mana enweghị nọọ ịhe buru ibu e mere iji mụbaa maọbụ hazie ha.	Ha agbanweghị usoro ihe omume onyunyo ha nke ukwuu.	1
+Ịkike ndị a ezughị ezu, mana enweghị nọọ ịhe buru ibu e mere iji mụbaa maọbụ hazie ha.	Ha emeghị ihe buru ibu iji gbanwee ihe.	0
+Ịkike ndị a ezughị ezu, mana enweghị nọọ ịhe buru ibu e mere iji mụbaa maọbụ hazie ha.	Ha gara ogo dị anya iji megharị ihe nile.	2
+Email onye nyocha, n'agbanyeghị, gosiri na ọ na-enwe gbagwoju anya n'ọtụtụ ịdọáká na ntị na ịhe mgbochi nzikọrita ozi ndị si n'iwu gọọmenti na-akwagide otu ndị ọrụ mgbochi mpụ si eji ozi enwetara n'ụzọ nzuzo eme ịhe.	Onye nyocha ihe ahụ nyere nyocha nke doro anya nke oma.	2
+Email onye nyocha, n'agbanyeghị, gosiri na ọ na-enwe gbagwoju anya n'ọtụtụ ịdọáká na ntị na ịhe mgbochi nzikọrita ozi ndị si n'iwu gọọmenti na-akwagide otu ndị ọrụ mgbochi mpụ si eji ozi enwetara n'ụzọ nzuzo eme ịhe.	Onye nyocha ahụ ekwupụtaghị ịhe doro anya n'ọtụtụ ịhe. 	0
+Email onye nyocha, n'agbanyeghị, gosiri na ọ na-enwe gbagwoju anya n'ọtụtụ ịdọáká na ntị na ịhe mgbochi nzikọrita ozi ndị si n'iwu gọọmenti na-akwagide otu ndị ọrụ mgbochi mpụ si eji ozi enwetara n'ụzọ nzuzo eme ịhe.	Akụkọ onye nyocha ihe ahụ ahazighị nke ọma nke bu na ọ dịghị onye nwere ike ịgụ ya.	1
+Ụfọdụ ndị ọfisa ka e tinyere ka ha nye áká na ịkwapụ ndị nọ n'okpuru steepụ; ndị ọzọ ka e nyere ọrụ ịme ka a kwapụ plaza ahụ, ihu ụlọ, na steeshọn PATH. 	Ndi ọfịsa nwetera ọrụ nke ha.	0
+Ụfọdụ ndị ọfisa ka e tinyere ka ha nye áká na ịkwapụ ndị nọ n'okpuru steepụ; ndị ọzọ ka e nyere ọrụ ịme ka a kwapụ plaza ahụ, ihu ụlọ, na steeshọn PATH. 	Ndị ọfisa gbasasiri nọọ ebe a chọrọ ha.	2
+Ụfọdụ ndị ọfisa ka e tinyere ka ha nye áká na ịkwapụ ndị nọ n'okpuru steepụ; ndị ọzọ ka e nyere ọrụ ịme ka a kwapụ plaza ahụ, ihu ụlọ, na steeshọn PATH. 	E kenyera ndị ọfịsa ọrụ site na onye tọkarịsịrị.	1
+Na Septemba 9, ozi na-agbasasi ahu bịara site n'Afghanistan.	Anyị nwetere ozi si Afghanistan.	0
+Na Septemba 9, ozi na-agbasasi ahu bịara site n'Afghanistan.	E nweghị ihe anyị nụrụ si n'Afghanistan ruo October.	2
+Na Septemba 9, ozi na-agbasasi ahu bịara site n'Afghanistan.	A gwara anyị maka mbuso agha gaje ị bịa na Septemba 9.	1
+E nweghị ị́ké ịzikọrịta ozi bụ otu ịhe pụtara ìhè n'ebe ọdachi ụgbọelu World Trade Center, Pentagon, na Somerset County, Pennsylvania, ebe ọtụtụ ndị ọrụ na ọtụtụ ndị okpuru ọchịchị iwu zaara ọkpụkpọ oku.	Nzikọrịta ozi gara nnọọ nke ọma na 9/11.	2
+E nweghị ị́ké ịzikọrịta ozi bụ otu ịhe pụtara ìhè n'ebe ọdachi ụgbọelu World Trade Center, Pentagon, na Somerset County, Pennsylvania, ebe ọtụtụ ndị ọrụ na ọtụtụ ndị okpuru ọchịchị iwu zaara ọkpụkpọ oku.	Ndị mmadụ nwere nsogbu ịzikọrịta ozi na World Trade Center maka na ígwè ọ́kụ́ nyuru na ígwè ekwentị nyụrụ anyụ.	1
+E nweghị ị́ké ịzikọrịta ozi bụ otu ịhe pụtara ìhè n'ebe ọdachi ụgbọelu World Trade Center, Pentagon, na Somerset County, Pennsylvania, ebe ọtụtụ ndị ọrụ na ọtụtụ ndị okpuru ọchịchị iwu zaara ọkpụkpọ oku.	Ndi mmadụ nwere oge nhiaahụ izikọrịta ozi na World Trade Center.	0
+Ọchịchọ achọrọ ọ́bádátà ndị a ga-enwetanwu nwere ị́ké ịbọlite laisense draiva, akara ụgbọala na ndepụta akara ekwentị. 	Ndị nyocha ahụ riọkwara maka ohere ịga n'ọ́bádátà ọkachamara.	1
+Ọchịchọ achọrọ ọ́bádátà ndị a ga-enwetanwu nwere ị́ké ịbọlite laisense draiva, akara ụgbọala na ndepụta akara ekwentị. 	Ọtụtụ ozi dị ịche ịche bụ nke nọ n'ịme ọ́bádátà nọ anọ. 	0
+Ọchịchọ achọrọ ọ́bádátà ndị a ga-enwetanwu nwere ị́ké ịbọlite laisense draiva, akara ụgbọala na ndepụta akara ekwentị. 	E nweghị ụzọ a ga-esi nweta ozi gbasara isiokwu ndị a n'ijiri ihe ndị dị adị.	2
+Ị kwupụta na o na-enyo otú e siri zụọ ahịa ahụ enyo, onye nchịkwa ahụ wezụgaara onwe ya na Hazmi na Mihdhar, mana ọ bụghị tupu ha enweta enyemaka ha chọrọ. 	Onye nchịkwa kpọtụrụ ndị isi ozigbo ma jụ ịnyeaka n'ọnọdụ nke a.	2
+Ị kwupụta na o na-enyo otú e siri zụọ ahịa ahụ enyo, onye nchịkwa ahụ wezụgaara onwe ya na Hazmi na Mihdhar, mana ọ bụghị tupu ha enweta enyemaka ha chọrọ. 	Onye nchịkwa rọpụtara enyemaka n'agbanyeghị obi ịlọ mmiri o nwere. 	0
+Ị kwupụta na o na-enyo otú e siri zụọ ahịa ahụ enyo, onye nchịkwa ahụ wezụgaara onwe ya na Hazmi na Mihdhar, mana ọ bụghị tupu ha enweta enyemaka ha chọrọ. 	Enyemaka ya gụnyere ego na inye aka inweta akwụkwọ njem.	1
+Na 2003, ọkpụkpọ aha ndị a bụ nke ememilara; ịhe niile gbasara iyi ọha egwu nke mba na mba na a natazi otu ọkpụkpọ ahụ, 315.	Ịhe gbasara iyi ọha egwu niile bụ nke a na-enye ntuaha dị elu maka ịdị mkpa.	1
+Na 2003, ọkpụkpọ aha ndị a bụ nke ememilara; ịhe niile gbasara iyi ọha egwu nke mba na mba na a natazi otu ọkpụkpọ ahụ, 315.	Ihe iyi ọha egwu niile na-enweta otu ụdị aha. 	0
+Na 2003, ọkpụkpọ aha ndị a bụ nke ememilara; ịhe niile gbasara iyi ọha egwu nke mba na mba na a natazi otu ọkpụkpọ ahụ, 315.	A na-ekpe ikpe ihe iyi ọha egwu ọ bụla ma nye ya ọkwa n'onwe ya.	2
+Ọfisa nke a, onye nọ larịị ele ọdịda South Tower, zie ya ndị ngalaba ESU na North Tower dịka South Tower daara.	E nweghị onye fọduru na North Tower mgbe South Tower dachara.	2
+Ọfisa nke a, onye nọ larịị ele ọdịda South Tower, zie ya ndị ngalaba ESU na North Tower dịka South Tower daara.	South Tower dara nkeji 30 tupu onye ọfisa agwa ndị ngalaba ESU na North Tower okwu.	1
+Ọfisa nke a, onye nọ larịị ele ọdịda South Tower, zie ya ndị ngalaba ESU na North Tower dịka South Tower daara.	Onye ọfịsa ahụ hụrụ ọdịda South Tower.	0
+Indianapolis bụ n'ezie otu n'ime ebe kachasị mma ndị na-eme ihe nkiri ịrụ ọrụ ọtụtụ	Ndị na-eme ihe nkiri hụrụ Indianapolis n'anya n'ihi ụlọ ọrụ nachọta ndị n'eme ihe nkiri dị ebe ahụ.	1
+Indianapolis bụ n'ezie otu n'ime ebe kachasị mma ndị na-eme ihe nkiri ịrụ ọrụ ọtụtụ	Ọ bụrụ na ị bụ onye na-eme ihe nkiri, i kwesịrị ịtụle ịkwaga Indianapolis.	0
+Indianapolis bụ n'ezie otu n'ime ebe kachasị mma ndị na-eme ihe nkiri ịrụ ọrụ ọtụtụ	O siri ike ịchọta ọrụ n'Indianapolis ma ọ bụrụ na ị nọ n'ụlọ ọrụ ihe nkiri, n'ihi na ọ bụkarịrị obodo tekinọlọji.	2
+Anyị na-arọpụta enyemaka site n'ekwenti awa 24 n'ụbọchị, mkpụrụ ụbọchị 7 n'izuka site na Prevention Information Resource Center&amp; Parent Help line.	Ndị mmadụ nwere ike izi anyị ozi site na mailụ maọbu iji imelụ.	2
+Anyị na-arọpụta enyemaka site n'ekwenti awa 24 n'ụbọchị, mkpụrụ ụbọchị 7 n'izuka site na Prevention Information Resource Center&amp; Parent Help line.	E nwere ike ịnweta anyị n'ekwenti n'oge ọbụla n'ụbọchị.	0
+Anyị na-arọpụta enyemaka site n'ekwenti awa 24 n'ụbọchị, mkpụrụ ụbọchị 7 n'izuka site na Prevention Information Resource Center&amp; Parent Help line.	Anyị na-enweta oku karịrị otu narị ụbọchị Mọndee na Fraịdee ọbụla. 	1
+Ma igbe ndị a ga-anọ na nkechi ha ọtụtụ oge mgbe e jiri tọhee onyinye ndị ọzọ gara.	Igbe ndị a nwere ogbunigwe ndị dị njọ.	1
+Ma igbe ndị a ga-anọ na nkechi ha ọtụtụ oge mgbe e jiri tọhee onyinye ndị ọzọ gara.	A ga-emepe igbe ndị a tupu a tọpee onyinye ndị ọzọ.	2
+Ma igbe ndị a ga-anọ na nkechi ha ọtụtụ oge mgbe e jiri tọhee onyinye ndị ọzọ gara.	Igbe ndị a ga-adị na-emegheghị emeghe ruo nwa oge.	0
+Ọ bụrụ na anyị dobe ọnụego anyị ala, anyị kwesịrị ịbịakwute gị, ndị otu anyị niIle n'ege anyi ntị, ịriọ ntakịrị onyinye iji nyere anyị aka rụọ ọrụ a.	Ịji wee dewe ọnụ ahịa tiketi anyị n'okpuru $10, anyị ga-achọ ka ndị otu anyị niIle n'ege anyi ntị wee nye $25.	1
+Ọ bụrụ na anyị dobe ọnụego anyị ala, anyị kwesịrị ịbịakwute gị, ndị otu anyị niIle n'ege anyi ntị, ịriọ ntakịrị onyinye iji nyere anyị aka rụọ ọrụ a.	Anyị nwere ike iwetu ọnụ ego anyị ma ọ bụrụ ma anyị ọ chọọrọ, ewezuga ego gị, mana onye isi anyị na-enwe mmasị mkporindụ.	2
+Ọ bụrụ na anyị dobe ọnụego anyị ala, anyị kwesịrị ịbịakwute gị, ndị otu anyị niIle n'ege anyi ntị, ịriọ ntakịrị onyinye iji nyere anyị aka rụọ ọrụ a.	Ịhe ndịi unu tụnyere n'enyere anyi aka idewe ọnụ ahịa ala.	0
+00 nyere aka ime ka okwe anyi irọpụta nduzi, agbamume na ihe aṅụrị nye ụmụaka mpaghara Indianapolis 400.	Ekene diri onyinye nkwado afọ-ofufo anyị, anyị nwere ike ịkpọ Beyonce òkù ka o mebe mmemmé agụm egwu maka umu mgbei Indianapolis.	1
+00 nyere aka ime ka okwe anyi irọpụta nduzi, agbamume na ihe aṅụrị nye ụmụaka mpaghara Indianapolis 400.	Anyị tụrụ anya imere ụmụaka oriri Christmas, ma anyị enwebeghi ike imere ha ihe ọbụla.	2
+00 nyere aka ime ka okwe anyi irọpụta nduzi, agbamume na ihe aṅụrị nye ụmụaka mpaghara Indianapolis 400.	Anyị nwere ike inyere ọtụtụ ụmụaka Indianapolis aka.	0
+Na mbido, ndị mmadụ nwere ike ị sonye site n'inye onyinye $1000 enweghị mmachi kwa afọ ma ọ bụ karịa maka Chancellor's Circle, ma ọ bụ nke $500 ma ọ bụ karịa maka ndị Chancellors Associates.	Ndị mmadụ nwere ike isonye n'otu n'otu mgbe ha nyechara obere onyinye $50.	2
+Na mbido, ndị mmadụ nwere ike ị sonye site n'inye onyinye $1000 enweghị mmachi kwa afọ ma ọ bụ karịa maka Chancellor's Circle, ma ọ bụ nke $500 ma ọ bụ karịa maka ndị Chancellors Associates.	Ndị mmadụ nwere ike isonye ma ọ bụrụ na ha nye nnukwu onyinye zuru okè.	0
+Na mbido, ndị mmadụ nwere ike ị sonye site n'inye onyinye $1000 enweghị mmachi kwa afọ ma ọ bụ karịa maka Chancellor's Circle, ma ọ bụ nke $500 ma ọ bụ karịa maka ndị Chancellors Associates.	Ọtụtụ ndị mmadụ na-ahọrọ inye ndị otu Chancellors Associates onyinye nkwado.	1
+Onyinye gị n'oge ugbu a nwere ike irọpụtara gị mgbakwunye uru ụtụ ị́sị́ ọgwụgwụ àfọ́.	Ọ bụrụ na ịmee onyinye ma opekata mpe $1000, ị ga enwe ike inweta uru ụtụ ị́sị́ n'ezie.	1
+Onyinye gị n'oge ugbu a nwere ike irọpụtara gị mgbakwunye uru ụtụ ị́sị́ ọgwụgwụ àfọ́.	Na nwute, ndị ndụmọdụ ụtụ anyị ga-adụ gị ọdụ ka ịhapụ inye onyinye ọbụla.	2
+Onyinye gị n'oge ugbu a nwere ike irọpụtara gị mgbakwunye uru ụtụ ị́sị́ ọgwụgwụ àfọ́.	Ị nwere ike ịwere mwepu ụtụ isi n'onyinye gị.	0
+Dị ka ị maara, ndị otu nzukọ a gụnyere ndị enyi na ndị gụsiri akwụkwọ ndị na-atụ karịa $1,000 ma ọ bụ karịa kwa afọ nye ụlọakwụkwọ iwu.	Ụfọdụ ndị ngalaga otu a enyela ụlọ akwụkwọ ihe karịrị $100k.	1
+Dị ka ị maara, ndị otu nzukọ a gụnyere ndị enyi na ndị gụsiri akwụkwọ ndị na-atụ karịa $1,000 ma ọ bụ karịa kwa afọ nye ụlọakwụkwọ iwu.	Anyị nwere ndị mmadụ n'otu a ndị tụụrụ karịa $1,000 nye ụlọakwụkwọ iwu.	0
+Dị ka ị maara, ndị otu nzukọ a gụnyere ndị enyi na ndị gụsiri akwụkwọ ndị na-atụ karịa $1,000 ma ọ bụ karịa kwa afọ nye ụlọakwụkwọ iwu.	Anyị nwere atụmatụ ịrịọ ndị otu a ka ha nye ụlọ akwụkwọ onyinye ego, mana o dighị mgbe nwere mbụ.	2
+Dị ka nwata n'eto eto n'oge 50's, otu n'ime ihe ncheta kacha nwee obi ụtọ bụ ịga ihe ngosi Civic Theatre.	Akpọrọ m ịga ihe nkiri asị dị ka nwantakịrị, ya mere m ji wee bụrụ ọkà mmụta sayensị.	2
+Dị ka nwata n'eto eto n'oge 50's, otu n'ime ihe ncheta kacha nwee obi ụtọ bụ ịga ihe ngosi Civic Theatre.	Ahụrụ m ịga ebe ihe nkiri n'anya mgbe m bụ nwantakịrị.	0
+Dị ka nwata n'eto eto n'oge 50's, otu n'ime ihe ncheta kacha nwee obi ụtọ bụ ịga ihe ngosi Civic Theatre.	Mmepụta Civic Theatre m kacha amasị m bụ Beauty and the Beast.	1
+Ma ọ bụrụ na otu onye na-ede leta a na-enye naanị $18.	Onye ọ bula natara leta a: enyekwala onyinye ego gị, ọ bụ wayo.	2
+Ma ọ bụrụ na otu onye na-ede leta a na-enye naanị $18.	Ọ bụrụ na ị nye $18, anyị ga-enye gị onyinye.	1
+Ma ọ bụrụ na otu onye na-ede leta a na-enye naanị $18.	Anyị nwere olile anya na ndị niile natara leta a ga-enye onyinye $18.	0
+Wezụga nọọ okpuru akụkụ, lee akụkụ nke sonyere, mee mgbanwe ọbụla ịji mezie ya ma ọ bụrụ na achọọ ma zigaa ya n'ịme envelopu ahụ e tinyere.	Biko agbanwekwala ihe ọ bula n'adreesị gị.	2
+Wezụga nọọ okpuru akụkụ, lee akụkụ nke sonyere, mee mgbanwe ọbụla ịji mezie ya ma ọ bụrụ na achọọ ma zigaa ya n'ịme envelopu ahụ e tinyere.	E nwere envelopu ọcha ekechiri, nwere adreesị gị na ya.	1
+Wezụga nọọ okpuru akụkụ, lee akụkụ nke sonyere, mee mgbanwe ọbụla ịji mezie ya ma ọ bụrụ na achọọ ma zigaa ya n'ịme envelopu ahụ e tinyere.	Ị nwere ike ime ngbanwe n'adreesị gị, ọ bụrụ na ị hụ ọ dị mma ya.	0
+Ụlọ Akwụkwọ ndị Nọọsụ nọ na mkpa onyinye mmesapụ aka gị iji gaa n'ihu ma jisie ọkà mmụta agụmakwụkwọ.	Biko nye onyinye nde $100 n'Ụlọ Akwụkwọ ndị Nọọsụ, ma ọ bụ ihe oyiyi ncheta gị efunahụ gị.	1
+Ụlọ Akwụkwọ ndị Nọọsụ nọ na mkpa onyinye mmesapụ aka gị iji gaa n'ihu ma jisie ọkà mmụta agụmakwụkwọ.	Ụlọ Akwụkwọ ndị Nọọsụ zutere atụmatụ ego ha niile, ya mere ọ nọghịzi na mkpa ego ọzọ.	2
+Ụlọ Akwụkwọ ndị Nọọsụ nọ na mkpa onyinye mmesapụ aka gị iji gaa n'ihu ma jisie ọkà mmụta agụmakwụkwọ.	Anyị nwere olileanya na ị ga enye Ụlọ Akwụkwọ ndị Nọọsụ onyinye.	0
+80% ndị sonyere ga-enye akụkọ mbawanye nkà mkpezi esemokwu.	Ihe karịrị ọkara ndị sonyere ga-enye akụkọ ụbara nkà idozi esemokwu.	0
+80% ndị sonyere ga-enye akụkọ mbawanye nkà mkpezi esemokwu.	Naanị otu ụzọ n'ime ụzọ anọ ndị sonyere ga-enye ozi mbawanye mkpezi esemokwu.	2
+80% ndị sonyere ga-enye akụkọ mbawanye nkà mkpezi esemokwu.	E nwere ihe karịrị mmadụ 100 ndị sonyere.	1
+Biko adabala n'ịme ndepụta ndị ná-anaghị enye ego. 	Ọ ga-abụ ihe ihere ma ị kwụsị inye onyinye.	0
+Biko adabala n'ịme ndepụta ndị ná-anaghị enye ego. 	Ndepụta ndị anaghị enye ego anyị ka a ga-ebiputa ka ụwa niile leere, ya mere kwenyere m, ị gaghị achọ ka emenye gị ihere otu a.	1
+Biko adabala n'ịme ndepụta ndị ná-anaghị enye ego. 	Anyị nwere ọtụtụ ndị na-enye onyinye, ya mere biko kwụsị inye onyinye.	2
+Ohere ịba n'ịme ala anyị ga ka a ga-emepe nye onye ọbụla nwere kọmputa na mọdem.	Ndị mmadụ achọghị ihe ọ bula maka nkpọbata..	2
+Ohere ịba n'ịme ala anyị ga ka a ga-emepe nye onye ọbụla nwere kọmputa na mọdem.	Ndị mmadụ chọrọ ma kọmputa ma mọdem iji nweta banye. 	0
+Ohere ịba n'ịme ala anyị ga ka a ga-emepe nye onye ọbụla nwere kọmputa na mọdem.	Ndị mmadụ kwesịrị ịburu kọmpụta ha na modem ha ma ha n'abanye n'ala ahụ, iji nwee nkpọbata.	1
+Ahịa tiketi na ndebanye aha enweghị ike ịkwụ ụgwọ oge zuru okè. 	Ọ bụrụhaala na anyị ree ahia tiketi, o ga-akwụ ụgwọ oge nke afọ anyị niile.	2
+Ahịa tiketi na ndebanye aha enweghị ike ịkwụ ụgwọ oge zuru okè. 	Oge anyị zuru okè chọkwuru karịa iji kwụọ ụgwọ ya karịa naanị ahịa tiketi na ndebanye aha. 	0
+Ahịa tiketi na ndebanye aha enweghị ike ịkwụ ụgwọ oge zuru okè. 	Ahia tiketi na ịdebanye aha na-ekpuchi naanị 70% ego aga-emefu  maka oge nke afọ zuru ezu.	1
+AHỊA ỌHỤRỤ ONYINYE ỌBỤLA NA-EME IHE DỊ ICHE!	A na-edekọ onyinye niile ma n'ekwupụta ya na akwụkwọ nta akụkọ anyị kwa ọnwa. 	1
+AHỊA ỌHỤRỤ ONYINYE ỌBỤLA NA-EME IHE DỊ ICHE!	Onyinye ọ bụla na-agụkọ maka otu ihe. 	0
+AHỊA ỌHỤRỤ ONYINYE ỌBỤLA NA-EME IHE DỊ ICHE!	Naanị onyinye karịrị $100 n'eweta ihe dị iche.	2
+Anyị nwere ọtụtụ ihe a ga-eme tụpụ anyị enweta ebumnuche anyị bụ $365,000 site n'aka ndị enyi na ndị mbianye aka dị ka gị onwe gị. 	Ebumnuche ego anyị karịrị $300,000.	0
+Anyị nwere ọtụtụ ihe a ga-eme tụpụ anyị enweta ebumnuche anyị bụ $365,000 site n'aka ndị enyi na ndị mbianye aka dị ka gị onwe gị. 	Anyị na-atụ anya ikwalite atụmatụ ego anyị ụzọ atọ. 	1
+Anyị nwere ọtụtụ ihe a ga-eme tụpụ anyị enweta ebumnuche anyị bụ $365,000 site n'aka ndị enyi na ndị mbianye aka dị ka gị onwe gị. 	Anyị enweghị ebe nrụtụ aka ọ bụla n'ihe gbasara ego.	2
+Civil Practice Clinic anyị arụola ọrụ ọtụtụ afọ, ma ọhụrụ ọhụrụ a anyị gbakwunyere Criminal Defense Clinic. 	Civil Practice Clinic anyị arụọla ọrụ afọ asatọ.	1
+Civil Practice Clinic anyị arụola ọrụ ọtụtụ afọ, ma ọhụrụ ọhụrụ a anyị gbakwunyere Criminal Defense Clinic. 	Civil Practice Clinic anyị na-eme ememme otu afọ ya n'ọrụ n'ọnwa na-abịa abịa. 	2
+Civil Practice Clinic anyị arụola ọrụ ọtụtụ afọ, ma ọhụrụ ọhụrụ a anyị gbakwunyere Criminal Defense Clinic. 	The Civil Practice Clinic anọla n'ọrụ ihe karịrị otu afọ.	0
+Ego tiketi anaghị ebido ikpuchite ọnụ mmemme ndị a. 	Ọ dị ka ego tiketi agaghị ekpuchi ọnụ ahịa mmemme ndị a.	0
+Ego tiketi anaghị ebido ikpuchite ọnụ mmemme ndị a. 	Ọnụ ego mmemme ndị a dị oké elu. 	1
+Ego tiketi anaghị ebido ikpuchite ọnụ mmemme ndị a. 	Ego tiketi ga-ekpuchi ọnụ ahịa mmemme ndị a.	2
+Omnia vincit amor (ọbu naanị ma ị na-arụrụ Weekly Standard ọrụ) +: Brit Hume (Fox News Sunday) na-ekwu ịhe o chere mere na Lewinsky enweghị ị́ké. Ọ ka nwere mmasị siri ị́ké n'ebe onyeisi ala nọ.	Brit Hume bụ onye isi ndị nta akụkọ na Fox.	1
+Omnia vincit amor (ọbu naanị ma ị na-arụrụ Weekly Standard ọrụ) +: Brit Hume (Fox News Sunday) na-ekwu ịhe o chere mere na Lewinsky enweghị ị́ké. Ọ ka nwere mmasị siri ị́ké n'ebe onyeisi ala nọ.	Brit Hume na-arụrụ CNN ọrụ 	2
+Omnia vincit amor (ọbu naanị ma ị na-arụrụ Weekly Standard ọrụ) +: Brit Hume (Fox News Sunday) na-ekwu ịhe o chere mere na Lewinsky enweghị ị́ké. Ọ ka nwere mmasị siri ị́ké n'ebe onyeisi ala nọ.	Brit Hume na-arụrụ Fox ọrụ	0
+Emeela ọtụtụ ihe ịkpọ Michael Apted ka o webata mkpatụ aka mmadụ n'usoro ahụ. 	Michael Apted mebiri usoro ahụ site n'ikwusi ike ka ewepụ ihe nnabata ọ bụla, gbasara mmadụ.	2
+Emeela ọtụtụ ihe ịkpọ Michael Apted ka o webata mkpatụ aka mmadụ n'usoro ahụ. 	A kpọrọ Michael Apted ka o tinye ogo nke onwe n'usoro ahụ. 	0
+Emeela ọtụtụ ihe ịkpọ Michael Apted ka o webata mkpatụ aka mmadụ n'usoro ahụ. 	Usoro ahụ bụ nke e chere na o jụrụ nnọọ oyi ma na-agwụ ike, ya mere o ji dị mkpa ịgoro Michael Apted ka o tinye okpomọkụ, mmetụ arụ onwe iji melite ọkwa ya.	1
+ile nwata nwaanyị yi ajị anụ ọcha parka na boot. 	Nwata nwaanyị jiri ejiji maka ịwuda n'ugwu.	1
+ile nwata nwaanyị yi ajị anụ ọcha parka na boot. 	Nwata nwaanyị na-eyi uwe ọcha. 	0
+ile nwata nwaanyị yi ajị anụ ọcha parka na boot. 	Njike nwata nwaanyị ahụ niile na-acha uhie uhie.	2
+Ịhe ị́he nkiri ahụ leghara anya ịkpọpụta bụ na Kaufman kwuuru ọtụtụ mgbe otu ọ ga-achọ ime ọnwụ nke ya. 	Ihe nkiri ahụ ekwughị maka Kaufman n'akparịtaụka maka ọnwụ nke ya.	0
+Ịhe ị́he nkiri ahụ leghara anya ịkpọpụta bụ na Kaufman kwuuru ọtụtụ mgbe otu ọ ga-achọ ime ọnwụ nke ya. 	Ihe nkiri ahụ nweere ajụjụ ọnụ bara ime n'aka Kaufman maka ọnwụ ya. 	2
+Ịhe ị́he nkiri ahụ leghara anya ịkpọpụta bụ na Kaufman kwuuru ọtụtụ mgbe otu ọ ga-achọ ime ọnwụ nke ya. 	Ihe nkiri ahụ bụ ihe gara nke ọma, n'agbanyeghi na ịhapụ ụfọdụ nkọwa dị oke mkpa gbasara Kaufman.	1
+A nwụchiri Rockefeller n'ịme ahụhụ nke a gụnyere mgbe Avenging Angel Tarbell bidoro ịdọkasị anụ ahụ ya n'ụlọ McClure.	Rockefeller nyere nyocha kansa.	1
+A nwụchiri Rockefeller n'ịme ahụhụ nke a gụnyere mgbe Avenging Angel Tarbell bidoro ịdọkasị anụ ahụ ya n'ụlọ McClure.	Rockefeller nọ na-enye.	0
+A nwụchiri Rockefeller n'ịme ahụhụ nke a gụnyere mgbe Avenging Angel Tarbell bidoro ịdọkasị anụ ahụ ya n'ụlọ McClure.	Rockefeller bụ onye aka ntagide.	2
+Na oge ugbu a, n'okwu ahịa na New York, Klayman nwetara onye ya n'ofe nke ọzọ n'ebubo ikpa ókè n'agbụrụ.	Klayman welitere n'ebubo ịkpa ókè n'agbụrụ na California.	2
+Na oge ugbu a, n'okwu ahịa na New York, Klayman nwetara onye ya n'ofe nke ọzọ n'ebubo ikpa ókè n'agbụrụ.	Klayman atụghi anya na a ga-ebo ya ebubo ịkpa ókè n'agbụrụ.	1
+Na oge ugbu a, n'okwu ahịa na New York, Klayman nwetara onye ya n'ofe nke ọzọ n'ebubo ikpa ókè n'agbụrụ.	E nwere ebubo nke ịkpa ókè n'agburu megide Klayman.	0
+Mmadụ agaghị dị ebu n'obi ịhụ ụlọ jupụtara ndị nnọchite anya ụlọ ọrụ ka ama ọsụ, chịa ọchị, ma tie mkpụ̀ iberiibe megide onye nọ n'ọkwa dịka odeakwụkwọ ọrụ U. S. 	Ndị nnọchite anya ụlọ ọrụ na-eyi suut.	1
+Mmadụ agaghị dị ebu n'obi ịhụ ụlọ jupụtara ndị nnọchite anya ụlọ ọrụ ka ama ọsụ, chịa ọchị, ma tie mkpụ̀ iberiibe megide onye nọ n'ọkwa dịka odeakwụkwọ ọrụ U. S. 	Mmadụ ga-atụ anya ndị nnọchite anya ịma ọsụ. 	2
+Mmadụ agaghị dị ebu n'obi ịhụ ụlọ jupụtara ndị nnọchite anya ụlọ ọrụ ka ama ọsụ, chịa ọchị, ma tie mkpụ̀ iberiibe megide onye nọ n'ọkwa dịka odeakwụkwọ ọrụ U. S. 	Ọ dịghị onye n'atụ anya na ndị nnọchite anya ụlọ ọrụ ga-ama ọsụ. 	0
+Naanị maka na ọzụzụ nwere mmetụta buru ibu n'ịhe ndị egwuregwu ịgba ọsọ apụtaghị na mburu pụta ụwa arụghị ọrụ, n'agbanyeghị. 	A mụrụ ndị egwuregwu igba ọsọ na-ịnwetacha ike arụmọrụ ha niile.	2
+Naanị maka na ọzụzụ nwere mmetụta buru ibu n'ịhe ndị egwuregwu ịgba ọsọ apụtaghị na mburu pụta ụwa arụghị ọrụ, n'agbanyeghị. 	Arụmọrụ egwuregwu ịgba ọsọ na a ka enwe mmetụta site na jinu karịa ọzụzụ.	0
+Naanị maka na ọzụzụ nwere mmetụta buru ibu n'ịhe ndị egwuregwu ịgba ọsọ apụtaghị na mburu pụta ụwa arụghị ọrụ, n'agbanyeghị. 	Ọtụtụ ndị ọgba ọsọ na-enwe ọzụzụ ma opekata mpe awa asatọ izu ụka ọbula.	1
+Ozugbo m rutere ụlọ, a chọpụtara m na United States wepụrụ inye ihe oriri n'ụzọ abụọ. 	Enwere m mmasị na ndọrọ ndọrọ ọchịchị.	1
+Ozugbo m rutere ụlọ, a chọpụtara m na United States wepụrụ inye ihe oriri n'ụzọ abụọ. 	Amụtara m maka United States. 	0
+Ozugbo m rutere ụlọ, a chọpụtara m na United States wepụrụ inye ihe oriri n'ụzọ abụọ. 	A mụtara m na United States na-ebepụ inye ihe oriri n'ụzọ abụọ tupu ha abịa ruo ụlọ.	2
+ Ndị akụkọ mahadum kachasị ochie na ibu n'ụwa--Oxford--e kwupụtala ugbu a na ọ na-akagbu ndepụta uri ya. 	Ndepụta uri n'Oxford adịghị agazi n'ihu.	0
+ Ndị akụkọ mahadum kachasị ochie na ibu n'ụwa--Oxford--e kwupụtala ugbu a na ọ na-akagbu ndepụta uri ya. 	Mahadum ahụ nwere ùgwù enweghị ego idobe ndepụta uri ahụ na-arụ ọrụ. 	1
+ Ndị akụkọ mahadum kachasị ochie na ibu n'ụwa--Oxford--e kwupụtala ugbu a na ọ na-akagbu ndepụta uri ya. 	Mahadum ahụ raara onwe ya nye n'ichekwa ndepụta uri ma n̄ụọ iyi n'agaghi akagbu ya.	2
+E nwere ihe nrite nkasi obi maka ndị mmadụ, agbanyeghị. 	Ihe nrite nkasi obi bụ ihe efu abuo na-akwọ ihe ọsọ ọsọ maka onye ọ bụla.	1
+E nwere ihe nrite nkasi obi maka ndị mmadụ, agbanyeghị. 	E nweghị ụzọ elu dịrị ndị mmadụ nọ n'ọnọdụ a. 	2
+E nwere ihe nrite nkasi obi maka ndị mmadụ, agbanyeghị. 	Nke a abụghị akụkọ ọjọọ ma ọlị maka mmadụ.	0
+Egwuregwu abụghị naanị ihe ndị eji agba chaa na saịtị ndị a. 	A na-anabatakwa igbu chaa chaa na asọmpi ndọrọ ndọrọ ọchịchị na ntuli aka na saịtị ndị a.	1
+Egwuregwu abụghị naanị ihe ndị eji agba chaa na saịtị ndị a. 	Saịtị ndị a na-anabata naanị ịgba chaa na ihe omume egwuregwu. 	2
+Egwuregwu abụghị naanị ihe ndị eji agba chaa na saịtị ndị a. 	Saịtị ndị a were nke kachasị mma na-otụtụ ihe omume.	0
+Na Aug. 25, mgbe ọgbakọ Democratic mepechara na Atlantic City, N.J., Johnson, mgbe ahụ gbara afọ 56, yiri egwu na mkparịtaụka atọ edekọrọ na ọ ga-ewepụ onwe ya n'ịzọ maka ọkwa onyeisi ala. 	Johnson na-enwe mmetụta enweghị nkwado.	1
+Na Aug. 25, mgbe ọgbakọ Democratic mepechara na Atlantic City, N.J., Johnson, mgbe ahụ gbara afọ 56, yiri egwu na mkparịtaụka atọ edekọrọ na ọ ga-ewepụ onwe ya n'ịzọ maka ọkwa onyeisi ala. 	Johnson enweghị mgbe o chere echiche iwepụ  onwe ya. 	2
+Na Aug. 25, mgbe ọgbakọ Democratic mepechara na Atlantic City, N.J., Johnson, mgbe ahụ gbara afọ 56, yiri egwu na mkparịtaụka atọ edekọrọ na ọ ga-ewepụ onwe ya n'ịzọ maka ọkwa onyeisi ala. 	Johnson yiri egwu iwepụ onwe ya.	0
+Lamar Alexander wepụrụ aka n'ịzọ maka ọchịchị onye isi ala. 	Opekata mpe otu onye hapụrụ mgbalị ya ị bụ onye isi ala.	0
+Lamar Alexander wepụrụ aka n'ịzọ maka ọchịchị onye isi ala. 	Lamar Alexander jụrụ ịkwụsị mgbasa ozi ya maka ọkwa onyeisi ala. 	2
+Lamar Alexander wepụrụ aka n'ịzọ maka ọchịchị onye isi ala. 	A manyere Mr Alexander ka ọ pụọ mgbe ebipụtara foto ya na-emenye ihere. 	1
+N'elu ndekọ ịhe gbasara ikike ndị mmadụ a na-anaghị enye ọñụ bụ ịji FBI arụ ọrụ na-ekwesịghị na nchọputa njem-ọfis mbụ nke White House, na ịhe bịara bụrụ ịhe ama dịka Filegate. 	White House mere ka FBI ledo ndị nazọ ndọrọ ndọrọ ọchịchị anya.	1
+N'elu ndekọ ịhe gbasara ikike ndị mmadụ a na-anaghị enye ọñụ bụ ịji FBI arụ ọrụ na-ekwesịghị na nchọputa njem-ọfis mbụ nke White House, na ịhe bịara bụrụ ịhe ama dịka Filegate. 	White House na-eji ndị FBI arụ ọrụ n'ụzọ ekwesịghị ekwesị. 	0
+N'elu ndekọ ịhe gbasara ikike ndị mmadụ a na-anaghị enye ọñụ bụ ịji FBI arụ ọrụ na-ekwesịghị na nchọputa njem-ọfis mbụ nke White House, na ịhe bịara bụrụ ịhe ama dịka Filegate. 	White House na-eji FBI eme ihe nke ọma.	2
+Tung a ṅụọla iyi ịnwụchi ndị na-etinye ego n'ihe onwunwe, mana ọtụtụ cheere na ụja ọ na-agbọ karịrị arụ ọ na-ata. 	Tung achọghị ịma maka ndị na-etinye ego n'ihe onwunwe.	2
+Tung a ṅụọla iyi ịnwụchi ndị na-etinye ego n'ihe onwunwe, mana ọtụtụ cheere na ụja ọ na-agbọ karịrị arụ ọ na-ata. 	Tung na-eche na ndị na-etinye ego n'ihe onwunwe na-arụ ọrụ n'ụzọ ezighị ezi. 	1
+Tung a ṅụọla iyi ịnwụchi ndị na-etinye ego n'ihe onwunwe, mana ọtụtụ cheere na ụja ọ na-agbọ karịrị arụ ọ na-ata. 	Tung chọrọ ịmetụta ndị na-etinye ego n'ihe onwunwe.	0
+Mkpesa ahụ gụnyere nsogbu maka akpa, n'ezie ndị ọrụ enyemaka ụgbọelu, n'ụzọ dị omimi kagburu njem ụgbọelu, ihe ọjọọ gbasara ụgwọ. 	Mmadụ 10 nwere akpa furu efu.	1
+Mkpesa ahụ gụnyere nsogbu maka akpa, n'ezie ndị ọrụ enyemaka ụgbọelu, n'ụzọ dị omimi kagburu njem ụgbọelu, ihe ọjọọ gbasara ụgwọ. 	Ndị mmadụ mere mkpesa maka akpa. 	0
+Mkpesa ahụ gụnyere nsogbu maka akpa, n'ezie ndị ọrụ enyemaka ụgbọelu, n'ụzọ dị omimi kagburu njem ụgbọelu, ihe ọjọọ gbasara ụgwọ. 	Enweghị mkpesa ọ bụla ma ọlị.	2
+Lawrence Singleton, onye na-kwaso mmadu iko n'ike ama ama onye gbupuchara ogwe aka o mere ihe ma nọọ naanị afọ asatọ n'ụlọ mkpọrọ, anwụchiela ya maka iji mma amagbu nwaanyị ọzọ na Florida. 	Mgbe o gbupuchara ogwe aka ndị o mere ihe ọ gbalịrị izo ha na ihe eji ekponye ahịhịa.	1
+Lawrence Singleton, onye na-kwaso mmadu iko n'ike ama ama onye gbupuchara ogwe aka o mere ihe ma nọọ naanị afọ asatọ n'ụlọ mkpọrọ, anwụchiela ya maka iji mma amagbu nwaanyị ọzọ na Florida. 	Ọ pụtara ihe n'anya onye ọbụla na ọnụnọ ya n'ụlọ mkpọrọ agbanweela ya kpam kpam. 	2
+Lawrence Singleton, onye na-kwaso mmadu iko n'ike ama ama onye gbupuchara ogwe aka o mere ihe ma nọọ naanị afọ asatọ n'ụlọ mkpọrọ, anwụchiela ya maka iji mma amagbu nwaanyị ọzọ na Florida. 	Mr Singleton bụ onye a mara ikpe maka ịkwaso mmadụ iko n'ike na Florida.	0
+Ndị New Republic Charles Lane na-asị na Ozi Ntụ na-ewelite ndekọ nta akụkọ ụgha nke Gabriel Garcaa Marquez. 	Charles Lane bụ onye nta akụkọ.	0
+Ndị New Republic Charles Lane na-asị na Ozi Ntụ na-ewelite ndekọ nta akụkọ ụgha nke Gabriel Garcaa Marquez. 	Charles Lane reere ụgbọala. 	2
+Ndị New Republic Charles Lane na-asị na Ozi Ntụ na-ewelite ndekọ nta akụkọ ụgha nke Gabriel Garcaa Marquez. 	Charles Lane ritere Pulitzer.	1
+Ụlọikpe abụghị naanị maka circus ndọrọ ndọrọ ọchịchị na Washington n'ụtụtụ a. 	Ụlọikpe abụghị naanị ebe ndọrọ ndọrọ ọchịchị na Washington.	0
+Ụlọikpe abụghị naanị maka circus ndọrọ ndọrọ ọchịchị na Washington n'ụtụtụ a. 	Ụbọchị ndọrọ ndọrọ ọchịchị na-ebido karị n'ụtụtụ. 	1
+Ụlọikpe abụghị naanị maka circus ndọrọ ndọrọ ọchịchị na Washington n'ụtụtụ a. 	E nwere ihe ngosi ọchị di n'ụlọikpe ha na ndị na-akpa ọchị.	2
+Mmadụ nwere ike iche maka onye ọrụ bulldozer dị ka ọ na-egbu ụzọ maka mmepe ọhụrụ a na-etiri onye ọrụ mmepe  Hey, Loyd... 	Ị nwere ike iche maka onye ọrụ bulldozer ịgbanye bulldozer.	1
+Mmadụ nwere ike iche maka onye ọrụ bulldozer dị ka ọ na-egbu ụzọ maka mmepe ọhụrụ a na-etiri onye ọrụ mmepe  Hey, Loyd... 	Ị nwere ike iche maka onye ọrụ bulldozer. 	0
+Mmadụ nwere ike iche maka onye ọrụ bulldozer dị ka ọ na-egbu ụzọ maka mmepe ọhụrụ a na-etiri onye ọrụ mmepe  Hey, Loyd... 	Ị nweghi ike iche maka onye ọrụ bulldozer.	2
+Enyere m ozi a na leta nye Dr. Ọ dị ka ọ tọrọ ya ọchị ma o ziteere m ntakịrị achịcha bekee nke mkpụrụ osisi n'Ekeresimesi ahụ. 	O doro m anya na dọkịta ahụ nwetere akwukwọ-ozi m zigara ya.	0
+Enyere m ozi a na leta nye Dr. Ọ dị ka ọ tọrọ ya ọchị ma o ziteere m ntakịrị achịcha bekee nke mkpụrụ osisi n'Ekeresimesi ahụ. 	Ataghi m achịcha bekee ahụ dọkịta zitere m n'Ekeresimesi ahụ. 	1
+Enyere m ozi a na leta nye Dr. Ọ dị ka ọ tọrọ ya ọchị ma o ziteere m ntakịrị achịcha bekee nke mkpụrụ osisi n'Ekeresimesi ahụ. 	Dọkịta ahụ zitere m karama manya-vine n'Ekeresimesi ahụ.	2
+Ndị otu ọrụ ahụ e buru larịị ụzọ maara maka ọkpụkpọ aha Beaneaters, nke, n'ụzọ dị nyocha, ị bụ kwa ịhe a ga-ahụta dịka aha otutu nke India.	Otu ahụ gbanwere aha ha n'ihi na ọ dịghị ewuewu.	1
+Ndị otu ọrụ ahụ e buru larịị ụzọ maara maka ọkpụkpọ aha Beaneaters, nke, n'ụzọ dị nyocha, ị bụ kwa ịhe a ga-ahụta dịka aha otutu nke India.	Otu ahụ nwere aha tupu nke a enwere ike iche dịka aha otutu nke India.	0
+Ndị otu ọrụ ahụ e buru larịị ụzọ maara maka ọkpụkpọ aha Beaneaters, nke, n'ụzọ dị nyocha, ị bụ kwa ịhe a ga-ahụta dịka aha otutu nke India.	Otu a enweela naanị otu aha.	2
+Ahụghị m nkọwa dị etu ahụ na ọba mkpụrụokwu.	Achọtara m nkọwa ya na ọba mkpụrụokwu.	2
+Ahụghị m nkọwa dị etu ahụ na ọba mkpụrụokwu.	Elere m na ọba mkpụrụokwu ma ahụghị m nkọwa. 	0
+Ahụghị m nkọwa dị etu ahụ na ọba mkpụrụokwu.	Ọba mkpụrụokwu m jiri mee ihe bụ mkpụrụokwu ọkọlọtọ.	1
+Kedụ etu mmadụ si eme ihe ahụ? 	Kedu ka ọtụtụ mmadụ ga-esi ghara ime ihe ọ bụla?	2
+Kedụ etu mmadụ si eme ihe ahụ? 	Kedụ etu mmadụ si eme ụdị ihe ọjọọ a? 	1
+Kedụ etu mmadụ si eme ihe ahụ? 	Kedu ka o si kwe omume mmadụ ime ihe ahụ?	0
+Ọzọkwa, o bu naanị mkpụrụ okwu ndị a maara si na Century nke iri abuo pụta, dịka okwu mmalite , ma wepụ slang militiri nke mbido 20th century. 	Dịka okwu mmalite ahu si dị, o nwere okwu nke na-ebilite na century nke iri abuo ma na-ahapụ slang ndị bilitere na mbụ	0
+Ọzọkwa, o bu naanị mkpụrụ okwu ndị a maara si na Century nke iri abuo pụta, dịka okwu mmalite , ma wepụ slang militiri nke mbido 20th century. 	O nwere slang niile nọ n'ime ya site na mmalite oge. 	2
+Ọzọkwa, o bu naanị mkpụrụ okwu ndị a maara si na Century nke iri abuo pụta, dịka okwu mmalite , ma wepụ slang militiri nke mbido 20th century. 	Enwere ọtụtụ slang dị iche iche si tupu century nke iri abụọ.	1
+Ma ọ bụrụ na mmadụ nwere mbipụta nke 1984, ọ kaara iwe iwe ịzụ akwụkwọ a karịa nke dị nkenke (ma dị obere ọnụ) mgbakwunye. 	Mbipụta nke 1984 bụ nke kachasị mma na ha.	1
+Ma ọ bụrụ na mmadụ nwere mbipụta nke 1984, ọ kaara iwe iwe ịzụ akwụkwọ a karịa nke dị nkenke (ma dị obere ọnụ) mgbakwunye. 	Akwụkwọ ahụ abụghị maka orire. 	2
+Ma ọ bụrụ na mmadụ nwere mbipụta nke 1984, ọ kaara iwe iwe ịzụ akwụkwọ a karịa nke dị nkenke (ma dị obere ọnụ) mgbakwunye. 	Ihe mgbakwụnye ahụ dị ọnụ ala karịa akwụkwọ ahụ.	0
+Bernstein na-akọwa naanị n'okwu mmalite	Bernstein anaghị akọwa ya na-omimi.	1
+Bernstein na-akọwa naanị n'okwu mmalite	Bernstein kọwara ya naanị na n'ebe nchịkọta. 	2
+Bernstein na-akọwa naanị n'okwu mmalite	Okwu mmeghe ahụ nwere nkọwa.	0
+Ọ bụghị ihe inye uche ka iwu machie isiokwu ndị a, naanị maka ọ rara ahụ, ma mgbe afọ iri abụọ nke nnabata omume ọzọ gachara, ka onye ofesi chọpụta ihe na-atọ ọchị maka ha. 	Ọbụna ndị na-asụ asụsụ obodo na-enwe nsogbụ mgbe ụfọdụ n'ihe ọchị.	1
+Ọ bụghị ihe inye uche ka iwu machie isiokwu ndị a, naanị maka ọ rara ahụ, ma mgbe afọ iri abụọ nke nnabata omume ọzọ gachara, ka onye ofesi chọpụta ihe na-atọ ọchị maka ha. 	Ịhe ọchị bụ otu n'ime ihe na-akachasị ndị mba ọzọ mfe nghọta n'ozuzu. 	2
+Ọ bụghị ihe inye uche ka iwu machie isiokwu ndị a, naanị maka ọ rara ahụ, ma mgbe afọ iri abụọ nke nnabata omume ọzọ gachara, ka onye ofesi chọpụta ihe na-atọ ọchị maka ha. 	Isiokwu ndị a na-esiri ndị mba ọzọ ike ịghọta.	0
+Na mmechi, mmadụ ga-akpachapụ anya maka mgbatị nke bu otu mpụta dị nọọ ịche. 	A na-ewekarị ndị editọ n'ọrụ ka ha chọpụta ụdị mmejọ a.	1
+Na mmechi, mmadụ ga-akpachapụ anya maka mgbatị nke bu otu mpụta dị nọọ ịche. 	Mgbatị bụ nnukwu ụzọ e si eme ka ịhe okwu pụtara doo anya.	2
+Na mmechi, mmadụ ga-akpachapụ anya maka mgbatị nke bu otu mpụta dị nọọ ịche. 	Ihe ọ pụtara nwere ike ịgbanwe mgbe ị na-agbalị ime ka okwu dị ogologo.	0
+Mee ka ịsị gị jiri okpomọkụ bute ajụ ibu. 	Itinye okpomọkụ n'isi mmadụ bụ ụzọ dị mma iji kwalite nlekwasị anya na itinye uche.	2
+Mee ka ịsị gị jiri okpomọkụ bute ajụ ibu. 	Oké okpomọkụ nwere ị́ké ịme ka ajụ buo mmadụ oge ụfọdụ. 	0
+Mee ka ịsị gị jiri okpomọkụ bute ajụ ibu. 	Taa, o ji ogo ise karịa nkezi oge.	1
+O nweghị ọrụ ọzọ na omenala buru ibu n'iweda onwe ala. 	Ọtụtụ ọrụ na-akwanyere onwe ha ùgwù.	1
+O nweghị ọrụ ọzọ na omenala buru ibu n'iweda onwe ala. 	Ọtụtụ ndị ọrụ nwere omenala nke iweda onye ha ala. 	2
+O nweghị ọrụ ọzọ na omenala buru ibu n'iweda onwe ala. 	O nweghị ọrụ ọzọ nwere omenala siri ike nke nkwutọ gbasara onwe ya.	0
+N'olu nwere ịnya ịsị, nkịrịka nke ahụ nwetagoro aha mkparị n'ime akụkọ ndị nọ n'obodo na-eji echichi ndị ahụ ekwu okwu na mkparịta ụka nke onwe, n'ebe a na-eme ísí na akwụkwọ njiri mara a na-egosibeghi. 	Akwụkwọ ndị ahụ enweghị aha ọma ma ọlị.	2
+N'olu nwere ịnya ịsị, nkịrịka nke ahụ nwetagoro aha mkparị n'ime akụkọ ndị nọ n'obodo na-eji echichi ndị ahụ ekwu okwu na mkparịta ụka nke onwe, n'ebe a na-eme ísí na akwụkwọ njiri mara a na-egosibeghi. 	Akwụkwọ ndị ahụ enweghị  aha ọma. 	0
+N'olu nwere ịnya ịsị, nkịrịka nke ahụ nwetagoro aha mkparị n'ime akụkọ ndị nọ n'obodo na-eji echichi ndị ahụ ekwu okwu na mkparịta ụka nke onwe, n'ebe a na-eme ísí na akwụkwọ njiri mara a na-egosibeghi. 	Akwụkwọ ndị ahụ nwere ọtụtụ asịrị sitere na ndị nwunye ụlọ.	1
+Ọ bụrụ na lite/light na-akọwa nọọ ụdịdị biya ahụ (dịka	Biya nwere ike ịnwe ntunye aha lite maọbụ light.	0
+Ọ bụrụ na lite/light na-akọwa nọọ ụdịdị biya ahụ (dịka	Lite na light bụ ihe e ji akọwa mmanya vine na mmanya ọ́kụ́. 	2
+Ọ bụrụ na lite/light na-akọwa nọọ ụdịdị biya ahụ (dịka	Lite biya enweghị pasentị ihe na-aba n'anya dị elu 	1
+Mkpọaha ahụ arugbugoro arugbu bụ nke e jiri rụọ ọrụ ebe a achọghị ma ya maọbụ ọzọ. 	Ndị mmadụ na-agbali ịchọta mkpọaha ọzọ.	1
+Mkpọaha ahụ arugbugoro arugbu bụ nke e jiri rụọ ọrụ ebe a achọghị ma ya maọbụ ọzọ. 	E jiri mkpọaha ahụ mee ihe nke ukwuu. 	0
+Mkpọaha ahụ arugbugoro arugbu bụ nke e jiri rụọ ọrụ ebe a achọghị ma ya maọbụ ọzọ. 	Ekwesịrị iji mkpọaha ahụ mee ihe karịa.	2
+N'elu ịhe niile ndị a, anyị nwere ihe mwute nke bụ na edemede na-akọwa ihe nkeọma na-anọ n'uche n'ezie nke na-eme ka nsogbu ahụ karịa. 	Ndị mmadụ nwekariri ike ichetakarị aka edemede adịghị  mma.	2
+N'elu ịhe niile ndị a, anyị nwere ihe mwute nke bụ na edemede na-akọwa ihe nkeọma na-anọ n'uche n'ezie nke na-eme ka nsogbu ahụ karịa. 	Akwụkwọ e dere nkeọma ga-ekwe ncheta karịa ịhe edejọrọ edejọ. 	0
+N'elu ịhe niile ndị a, anyị nwere ihe mwute nke bụ na edemede na-akọwa ihe nkeọma na-anọ n'uche n'ezie nke na-eme ka nsogbu ahụ karịa. 	Edemede edere nke ọma dị oké ọnụ ịmeputa.	1
+Nke agwa nke a chere ha n'ihu ma jutu ha anya, ndị Britain kwetara ịnye ha úgwù site n'iji mkpụrụ edemede ukwu e depụta mkpụrụ okwu ahụ.	Ndị Britain enweghị nkwanye ùgwù.	2
+Nke agwa nke a chere ha n'ihu ma jutu ha anya, ndị Britain kwetara ịnye ha úgwù site n'iji mkpụrụ edemede ukwu e depụta mkpụrụ okwu ahụ.	Ndị Britain weghara ọnọdụ ego mba ụwa. 	1
+Nke agwa nke a chere ha n'ihu ma jutu ha anya, ndị Britain kwetara ịnye ha úgwù site n'iji mkpụrụ edemede ukwu e depụta mkpụrụ okwu ahụ.	Ndị Britain nāzu ahịa nke ukwuu na gburugburu ụwa.	0
+Mgbe ụfọdụ ọ na-abụkarị nke kacha aghọ ahụghọ, kwa. 	Ọ nwere ike isiezigbo ike ịchọpụta mgbe ụfọdụ.	0
+Mgbe ụfọdụ ọ na-abụkarị nke kacha aghọ ahụghọ, kwa. 	Ọ na-eme ezigbo obere mkpọtụ n'ihi ịhe ejiri nwayọọ fachie injinu. 	1
+Mgbe ụfọdụ ọ na-abụkarị nke kacha aghọ ahụghọ, kwa. 	Ọ na-adịbụ mfe nke ọma mgbe niile ịchọpụta site n'ebe ọ bụla dị anya.	2
+Ka o siri mee, n'ezie, e nwere olu asụsụ bekee pụrụ iche n'ime Britain karịa n'ime North America, na onye ọbụla wepụtagoro oge gee ha ma na ụfọdụ abụghị a na-aghọtakọ ọnụ. 	Britain nwere ọtụtụ asụsụ Bekee dị iche iche, na-akari ndị nọ na North America n'ọnụ ọgụgụ.	0
+Ka o siri mee, n'ezie, e nwere olu asụsụ bekee pụrụ iche n'ime Britain karịa n'ime North America, na onye ọbụla wepụtagoro oge gee ha ma na ụfọdụ abụghị a na-aghọtakọ ọnụ. 	Asụsụ North America na Britain bụ nọọ otu ịhe, na ndị mmadụ enweghị ị́ké ịchọpụta ndịche ọbụla n'etiti ha. 	2
+Ka o siri mee, n'ezie, e nwere olu asụsụ bekee pụrụ iche n'ime Britain karịa n'ime North America, na onye ọbụla wepụtagoro oge gee ha ma na ụfọdụ abụghị a na-aghọtakọ ọnụ. 	Ndị si na North America na-enwe oge mhia ahụ ịghọta ọkara ihe a sụrụ na asụsụ Britain.	1
+Onye na-asa ajụjụ na Tennessee jiri ihu igwe nkịta kọwaa 'n'oge, mgbe eluigwe na-enweghị mmiri ozuzo', nke nwere ị́ké ịpụta n'okwu ihu igwe nkịta nke na-arụtu aka n'oge ọkọchị nke Ọgọọst. 	Dika onye na-asa ajụjụ ahụ si kwuo, ihu igwe nkịta bụ ihe eji akọwa oge udu mmiri.	2
+Onye na-asa ajụjụ na Tennessee jiri ihu igwe nkịta kọwaa 'n'oge, mgbe eluigwe na-enweghị mmiri ozuzo', nke nwere ị́ké ịpụta n'okwu ihu igwe nkịta nke na-arụtu aka n'oge ọkọchị nke Ọgọọst. 	Juun na Julaị na-ekpokwa ọ́kụ́ nke ukwuu na Tennessee. 	1
+Onye na-asa ajụjụ na Tennessee jiri ihu igwe nkịta kọwaa 'n'oge, mgbe eluigwe na-enweghị mmiri ozuzo', nke nwere ị́ké ịpụta n'okwu ihu igwe nkịta nke na-arụtu aka n'oge ọkọchị nke Ọgọọst. 	Ihu igwe na-ekpo ọ́kụ́ ma enweghi mmiri ozuzo ọtụtụ ụbọchị n'Ọgọọst.	0

@@ -1,0 +1,604 @@
+premise	hypothesis	label
+Hongu, ndakanga ndisingafunge nezvazvo,asi ndainge ndasvotwa, uye, ndokapedzisira ndisisataure naye.	Handisati ndataura naye zvakare.	2
+Hongu, ndakanga ndisingafunge nezvazvo,asi ndainge ndasvotwa, uye, ndokapedzisira ndisisataure naye.	Ndakange ndakagumbuka zvekuti ndakazoerekana ndotaura naye zvekare.	0
+Hongu, ndakanga ndisingafunge nezvazvo,asi ndainge ndasvotwa, uye, ndokapedzisira ndisisataure naye.	Takava nenhaurirano yakanaka chose.	1
+Vakandiudza kuti, uh, kuti vaizondidanira mumwe munhu wandaizosangana naye zvese zvapera. 	Hapana chandakaudzwa pamusoro pekusangana kwangu nemumwe munhu	2
+Vakandiudza kuti, uh, kuti vaizondidanira mumwe munhu wandaizosangana naye zvese zvapera. 	Ndakaudzwa kuti ndaizoshevedzerwa mumwe murume kuti tisangane .	0
+Vakandiudza kuti, uh, kuti vaizondidanira mumwe munhu wandaizosangana naye zvese zvapera. 	Murume wacho wakati nonokei kusvika .	1
+Pane zvakawanda zvaunogona kutaura nezvazvo pane izvozvo asi ndichazvidarikira .	Ndoda kukudzai zvose zvandoziva pamusoro pazvo!	2
+Pane zvakawanda zvaunogona kutaura nezvazvo pane izvozvo asi ndichazvidarikira .	Handitaure nezvazvo, kunyangwe paine zvakawanda zvekutaura.	0
+Pane zvakawanda zvaunogona kutaura nezvazvo pane izvozvo asi ndichazvidarikira .	Handisi kuzotaura nezvenhoroondo yeguta nekuti pane zvakawandisa nezvekutaura.	1
+Nekudaro handinyatsozive kuti nemhaka yei.	Ndine chokwadi kuti nemhaka yei.	2
+Nekudaro handinyatsozive kuti nemhaka yei.	Handizive chikonzero chakaita kuti atame zvikoro.	1
+Nekudaro handinyatsozive kuti nemhaka yei.	Handizive kuti sei izvi zvakaitika	0
+Ndini ndoga, ah, ndaigaro shandisa michina yekudzora mwero wekushanda kwemimwe michina yemukamba kanoona mafambiro endege	Handifariri kuva inin ndoga ndinoona zvemichina kudzora mwero wekushanda kwemimwe michina  kano tsvakurudza mafambiro akakodzera muchadenga.	1
+Ndini ndoga, ah, ndaigaro shandisa michina yekudzora mwero wekushanda kwemimwe michina yemukamba kanoona mafambiro endege	Wongororo dzaiitwa mukamba kano tsvakurudza mafambiro akakodzera muchadenga	0
+Ndini ndoga, ah, ndaigaro shandisa michina yekudzora mwero wekushanda kwemimwe michina yemukamba kanoona mafambiro endege	Taingova vashoma vaingorora michina yekudzora mwero wekushanda kwemimwe michina.	2
+Ini ndiri uh , Chief Master Sergeant, ndiri pamudyandigere, sekutaura kwaRick.	Ini ndichiri kushanda nanhasi	2
+Ini ndiri uh , Chief Master Sergeant, ndiri pamudyandigere, sekutaura kwaRick.	Ndakainda pamudya ndigere mugore ra2002.	1
+Ini ndiri uh , Chief Master Sergeant, ndiri pamudyandigere, sekutaura kwaRick.	Rick akakuudzai kuti ndave pamudya ndigere	0
+Pane mutarisiro wemari irikungopinda patafura pangu uye, um uh, ndeya ndingi nanhingi  Cutty, ndirozita rake remutengi.	Mutengi anonzi Cutty anoita $10000 pamwedzi	1
+Pane mutarisiro wemari irikungopinda patafura pangu uye, um uh, ndeya ndingi nanhingi  Cutty, ndirozita rake remutengi.	Pane mutengi anonzi Cutty.	0
+Pane mutarisiro wemari irikungopinda patafura pangu uye, um uh, ndeya ndingi nanhingi  Cutty, ndirozita rake remutengi.	Hatina mutengi anonzi Cutty.	2
+Musikana anokwanisa kundibatsira anogara kuzasi kwedhorobha.	Musikana wandinoda kuti andibatsire anogara kure uko.	0
+Musikana anokwanisa kundibatsira anogara kuzasi kwedhorobha.	Musikana achandibatsira anogara mamaira mashanu kubva pano .	1
+Musikana anokwanisa kundibatsira anogara kuzasi kwedhorobha.	Hakuna munhu anokwanisa kundibatsira .	2
+Asi vainge vakapatsanurwa mukufunga kuti ndevapi vashandi vekumunda kana kuti vashandi vemumba, zvaive zvakaita sekudero	Vose vakatenderana kuti vainoshanda kuminda .	2
+Asi vainge vakapatsanurwa mukufunga kuti ndevapi vashandi vekumunda kana kuti vashandi vemumba, zvaive zvakaita sekudero	Havana kukwanisa kutenderana kuti ndiyani mushandi wemumunda uye mushandi wemumba .	0
+Asi vainge vakapatsanurwa mukufunga kuti ndevapi vashandi vekumunda kana kuti vashandi vemumba, zvaive zvakaita sekudero	Havana kukwanisa kutenderana kuti ndiyani afanirwa kushanda mumunda  wedonje uye waizo korobha mumba.	1
+Ndinoreva kuti vaingove, sokuti, vaive nevana vashanu, mumwe pavana ava akafa.	Vana vavo vose vakararama .	2
+Ndinoreva kuti vaingove, sokuti, vaive nevana vashanu, mumwe pavana ava akafa.	Pavana vashanu mumwe akashaya .	0
+Ndinoreva kuti vaingove, sokuti, vaive nevana vashanu, mumwe pavana ava akafa.	Mwana akashaya akazvarwa ari murwere .	1
+Mukadzi akati yaingova misodzi yaiyerera kubva mumaziso ake uye akabva ati, ndobva azoti Joe akakwira kuuya kuvharanda.	Paakamuudza kuti auye kuvharanda mukadzi aive nemisodzi mumaziso ake.	0
+Mukadzi akati yaingova misodzi yaiyerera kubva mumaziso ake uye akabva ati, ndobva azoti Joe akakwira kuuya kuvharanda.	Mukadzi akapukuta misodzi nekukurumidza paange achangobva kusundidzira Joe kubva pavheranda 	2
+Mukadzi akati yaingova misodzi yaiyerera kubva mumaziso ake uye akabva ati, ndobva azoti Joe akakwira kuuya kuvharanda.	Mukadzi akafara kuona Joe zvokuti akabva atanga kuchema.	1
+Nyangwe zvazvo ndege yaibvira, asi, yaitsva ichinyungudika nemuchibandi chesimbi yaita kuti mwaranzi ibvinze	Mwaranzi anogona kudzivirirwa panodzivirirwa moto zvakare	1
+Nyangwe zvazvo ndege yaibvira, asi, yaitsva ichinyungudika nemuchibandi chesimbi yaita kuti mwaranzi ibvinze	Mwaranzi aibvinza kubva musimbi apo ndege yatsva	0
+Nyangwe zvazvo ndege yaibvira, asi, yaitsva ichinyungudika nemuchibandi chesimbi yaita kuti mwaranzi ibvinze	Mwaranzi aisabvinza panguva yekupisa kwemoto	2
+Ndini Chief Master Sergeant Clem Francis ari pamudyandigere we US AIR Force	Chief vari pamudyandigere wemauto emuchadenga eUS .	0
+Ndini Chief Master Sergeant Clem Francis ari pamudyandigere we US AIR Force	Chief vachangoenda pamudyandigere masvondo mashoma apfuura .	1
+Ndini Chief Master Sergeant Clem Francis ari pamudyandigere we US AIR Force	Chief vemauto emuchadenga ekuUS vachangotanga basa ravo  svondo rino .	2
+Zvakasvika pakuti ndege mbiri kana nhatu dzaisvika musvondo rimwe uye handaiziva kwadzinoenda .	Ndege dzinopfuura imwe dzinosvika svondo rimwe nerimwe .	0
+Zvakasvika pakuti ndege mbiri kana nhatu dzaisvika musvondo rimwe uye handaiziva kwadzinoenda .	Kuwedzerwa kwendege dzinofamba kunokonzeresa matambudziko.	1
+Zvakasvika pakuti ndege mbiri kana nhatu dzaisvika musvondo rimwe uye handaiziva kwadzinoenda .	Hakuna ndege dziri kumbosvika .	2
+Vakanga vadzidzira basa vakapfeka mbatya dzemhepo yakamanikidzirwa, uye zvikanditorera nguva ndapfeka mbatya dzemhepo. yakamanikidzirwa	Zvinotora mwedzi inosvika mitatu kudzidzira nezvenhumbi dzevatyairi vendege dzekudzivirira kupisisa kana kutonhoresa kana vari kubhururuka .  	1
+Vakanga vadzidzira basa vakapfeka mbatya dzemhepo yakamanikidzirwa, uye zvikanditorera nguva ndapfeka mbatya dzemhepo. yakamanikidzirwa	Zvinotora nguva kudzidzira nezvenhumbi dzemuchadenga dzinoshandiswa nevatyairi  vendege .	0
+Vakanga vadzidzira basa vakapfeka mbatya dzemhepo yakamanikidzirwa, uye zvikanditorera nguva ndapfeka mbatya dzemhepo. yakamanikidzirwa	Pakupera kwezuva tinogona kunge takudzidzisa mashandisirwe enhumbi dzemuchadenga dzinopfekwa nevatyairi vendege.	2
+Ndinoda kutaura kuti kwakanga kusina njodzi kupinda nechimbambaira nekuti hachaizoputika kunyangwe chairova pasi zvine simba .	Chimbambaira chainge chaparadzwa simba rekuputika nemutyairi wendege .	1
+Ndinoda kutaura kuti kwakanga kusina njodzi kupinda nechimbambaira nekuti hachaizoputika kunyangwe chairova pasi zvine simba .	Chimbambaira chainge chisina mukana wekuputika .	0
+Ndinoda kutaura kuti kwakanga kusina njodzi kupinda nechimbambaira nekuti hachaizoputika kunyangwe chairova pasi zvine simba .	Pakange pane njodzi huru yekuputika kwechimbambaira.	2
+Ko zvazvinotaridzika chaizvo kuti ndizvo zvandiri kuedza kuita.	Handizive kuti zvinotaridzika sei kwauri .	2
+Ko zvazvinotaridzika chaizvo kuti ndizvo zvandiri kuedza kuita.	Ndiri kuedza kuita izvi ,zviri pachena .	0
+Ko zvazvinotaridzika chaizvo kuti ndizvo zvandiri kuedza kuita.	Ndiri kuedza kupedzisa basa rangu muvhiki rinotevera.	1
+Kunyangwe zvakadaro ,mhuka dzinorasika nguva dzose ,kunyanya mbudzi .	Mbudzi dzaipoya kubva muchirugwi zuva roga roga .	1
+Kunyangwe zvakadaro ,mhuka dzinorasika nguva dzose ,kunyanya mbudzi .	Mbudzi dzaipoya kazhinji .	0
+Kunyangwe zvakadaro ,mhuka dzinorasika nguva dzose ,kunyanya mbudzi .	Mbudzi dzaive dzakachengetedzwa  uye dzakachengeteka .	2
+Mikova yaive yakakiyiwa patakapinda .	Mikova yose yaive yakavhurika .	2
+Mikova yaive yakakiyiwa patakapinda .	Svumbunuro ndisu taive nadzo .	1
+Mikova yaive yakakiyiwa patakapinda .	Takapinda mukati kunyangwe zvazvo mikova yaive yakakiiwa .	0
+Nekudaro ndakaedza kutora uwandu hwedziripo zve ndoedza kuhutora saizvozvo .	Ndine chivimbo chekuti uwandu hwacho hwese ndihwo hwandinoda kuti izvi zvioneke .	1
+Nekudaro ndakaedza kutora uwandu hwedziripo zve ndoedza kuhutora saizvozvo .	Ini handina kana ruzivo rwezvekuita nehuwandu hwega ndapota ndipei ruzivo rwakawanda kuti ndigoona pasina kumira zvakanaka . 	2
+Nekudaro ndakaedza kutora uwandu hwedziripo zve ndoedza kuhutora saizvozvo .	Ndichaverenga ndichashandisa huwandu huripo .	0
+uye kazhinji kacho zvinokonzerwa nekuti vana mai vacho vanenge vachitora zvinodhaka .	Madzimai apindwa nezvinodhaka muropa .	1
+uye kazhinji kacho zvinokonzerwa nekuti vana mai vacho vanenge vachitora zvinodhaka .	Vana mai havasi pazvirongwa zvekupiwa mishonga kana zvinodhaka .	2
+uye kazhinji kacho zvinokonzerwa nekuti vana mai vacho vanenge vachitora zvinodhaka .	Vana amai vari kutora zvinodhaka	0
+Ehe kwakanaka chose kwakuchinaya here.	Ini handina basa nekunaya.	1
+Ehe kwakanaka chose kwakuchinaya here.	Kuno kwakanaka uye kuri kunaya.	0
+Ehe kwakanaka chose kwakuchinaya here.	Kunobhowa zvikurusei nezuva raramba ropisa.	2
+Hupenyu hwemunhu hwakakosha uye nyangwe uchida kana kusada kubatsira mumwe	Hupenyu hwose hwakakodzera kugadziriswa nekuumbwa pahunhu uye kuwana mukana wechipiri.	1
+Hupenyu hwemunhu hwakakosha uye nyangwe uchida kana kusada kubatsira mumwe	Hapana munhu akakodzera kubatsirwa nekuumbwa pahunhu.	2
+Hupenyu hwemunhu hwakakosha uye nyangwe uchida kana kusada kubatsira mumwe	Nyangwezvazvo pane kubatsirwa nekuumbwa pahunhu hupenyu hwaka kodzerawo.	0
+Iwe mukomana une dambudziko rewaya ipapo.	Handisati ndawona dambudziko rewaya rakadai	1
+Iwe mukomana une dambudziko rewaya ipapo.	Nyaya yewaya handiro dambudziko.	2
+Iwe mukomana une dambudziko rewaya ipapo.	Pane dambudziko rinokonzerwa nekusava newaya dzirimugwara.	0
+Zvinoratidza sekuti kunonakidza ehe zvinoshamisa kwandiri kuti vanobvumira zvakawanda.	Handishamisike kuti vaive netsitsi	2
+Zvinoratidza sekuti kunonakidza ehe zvinoshamisa kwandiri kuti vanobvumira zvakawanda.	Ndashamisika kuti vakubvumirai kutora chikafu nezvinwiwa imomo.	1
+Zvinoratidza sekuti kunonakidza ehe zvinoshamisa kwandiri kuti vanobvumira zvakawanda.	Ndashamisika nezvavanokwanisa kutiza nazvo vasinga sungwe.	0
+oh zvisinei zvisinei vana vangu umwe anemakore makumi maviri nerimwe mumwe makore makumi maviri anemana saka handidaro	Handingadero nekuti vana vangu vadarika makore makumi maviri ekuberekwa.	0
+oh zvisinei zvisinei vana vangu umwe anemakore makumi maviri nerimwe mumwe makore makumi maviri anemana saka handidaro	Ndingangodero nekuti nemakore avo ari pedyo nepedyo.	1
+oh zvisinei zvisinei vana vangu umwe anemakore makumi maviri nerimwe mumwe makore makumi maviri anemana saka handidaro	Ndinofanira kuita sekudaro nekuti vese vanoti umwe ane makore gumi umwe gumi nerimwe ekuberekwa.	2
+Ehe vanhu vanogona kuva kumabasa cheronguva kana kuita pfungwao dzisina kumira zvakanaka kana vakapiwa simba rekupa pfungwa dzavo.	Ehe, vanhu vasingagoni kuita pfungwa dzinobatsira padzinodiwa.	0
+Ehe vanhu vanogona kuva kumabasa cheronguva kana kuita pfungwao dzisina kumira zvakanaka kana vakapiwa simba rekupa pfungwa dzavo.	Ehe, vanhu vangave vasina nzara.	1
+Ehe vanhu vanogona kuva kumabasa cheronguva kana kuita pfungwao dzisina kumira zvakanaka kana vakapiwa simba rekupa pfungwa dzavo.	Ehe, vanhu vasina pfungwa dzakaremara.	2
+Aiwa, vachingori mukushanya sezvo vanongori vashanyi kubvira makore ekupera kwema1960.	 Ivo vanga vari vashanyi kubva 1970 asati asvika .	0
+Aiwa, vachingori mukushanya sezvo vanongori vashanyi kubvira makore ekupera kwema1960.	Vanofarira kushanya .	1
+Aiwa, vachingori mukushanya sezvo vanongori vashanyi kubvira makore ekupera kwema1960.	Vachangobva kupedza kushanya kwavo .	2
+Unoita sei aerobics.	Ungatsanangure here maitiro aungaite aerobics?	0
+Unoita sei aerobics.	 Ndinofarira aerobics nekuti ndinoda kusimbisa mwoyo wangu .	1
+Unoita sei aerobics.	Ndapota regai kutaura nezveaerobics.	2
+Aiwa izvo zvakanaka ndanga ndisina kumbofunga nezvazvo .	 Idzo ipfungwa dzisina maturo dzandakaramba svondo rapera .	2
+Aiwa izvo zvakanaka ndanga ndisina kumbofunga nezvazvo .	Iyo ipfungwa yakanaka .	0
+Aiwa izvo zvakanaka ndanga ndisina kumbofunga nezvazvo .	Gangaidzo ramataura ipfungwa yakanaka .	1
+Dambanevana mazuva maviri pasvondo vakaatumidza kuti izuva rekuchengetwa kwevagari vechikuru asi mukadzi anoenda kunzvimbo yevagari vechikuru  .	Dambanevana rinovhurwa zuva rega rega kuvana vanemakore ari pasi pemashanu chete .	2
+Dambanevana mazuva maviri pasvondo vakaatumidza kuti izuva rekuchengetwa kwevagari vechikuru asi mukadzi anoenda kunzvimbo yevagari vechikuru  .	Vanovatendera kuenda kanopfuura kaviri pasvondo kana vagari vechikuru vachitenderana nazvo .	1
+Dambanevana mazuva maviri pasvondo vakaatumidza kuti izuva rekuchengetwa kwevagari vechikuru asi mukadzi anoenda kunzvimbo yevagari vechikuru  .	Vanoritora sezuva rekuchengetwa kwevagari vechikuru asi inonzi nzvimbo yevagari vechikuru .	0
+ Iri ndoraive donzvo ravo oh.	Izvi ndizvo zvavaishingairira.	0
+ Iri ndoraive donzvo ravo oh.	Hazvisizvo zvaivamboda.	2
+ Iri ndoraive donzvo ravo oh.	Vakabudirira kuzadzikisa chinangwa chavo.	1
+Kugona kubata pfuti zvakanaka kushandisa maoko maviri	Hafu dzepfuti dzinopotsa pakupfura inobva pakushandiswa kweruoko rumwe .	1
+Kugona kubata pfuti zvakanaka kushandisa maoko maviri	Nzira yakanaka kuenderera mberi nayo pakudzora pfuti kushandisa makumbo ose.	2
+Kugona kubata pfuti zvakanaka kushandisa maoko maviri	Shandisa maoko ose kana uchidzidzira kudzora pfuti.	0
+Uh zvakangouyawo zvichibva kumwe asi handina kuziva kwazvaibva asi	Handizivi kwainobva asi inomhanyisa.	0
+Uh zvakangouyawo zvichibva kumwe asi handina kuziva kwazvaibva asi	Inouya ichi mhanyisa asi ndinekakuziva kwainenge ichibva.	1
+Uh zvakangouyawo zvichibva kumwe asi handina kuziva kwazvaibva asi	Inouya semasvisvinwa enzimbe uye ndonyatsoziva kuti inouya nguvai	2
+Kwete handinyatsozivi nezvayo handifungi kudaro	Handizive zvakanyanya nezvazvo.	0
+Kwete handinyatsozivi nezvayo handifungi kudaro	Handina chandinoziva nezvenyaya dzerudo.	1
+Kwete handinyatsozivi nezvayo handifungi kudaro	Ndangandichiverenga nezvazvo kwemakore	2
+Ehe anga ari musikana ane mukurumbira unozviziva	Ndinofunga kuti anozviziva kuti ainakidza	1
+Ehe anga ari musikana ane mukurumbira unozviziva	Aiwa aisembura	2
+Ehe anga ari musikana ane mukurumbira unozviziva	Ehe mukadzi ainyatsogona.	0
+Ehe akafunga kutsvaka uh um uh chikorobho chokuti ushandise.	 Murume akakurudzira  kutengwa kwe (vacuum) mutsvairo unoita zvekusveta marara .	2
+Ehe akafunga kutsvaka uh um uh chikorobho chokuti ushandise.	Murume akakurudzira kutsvagwa kwechikorobho.	0
+Ehe akafunga kutsvaka uh um uh chikorobho chokuti ushandise.	Murume aida kupukuta ropa nechikorobho.	1
+Kuno zvinhu hazvina kumira zvakanaka tichangobva mukupfurwa kwevanhu mumugwagwa mablock matatu kubva pamba pedu .	Kupfuurwa kwakaitika tingati mamaera  zana kubva pandogara .	2
+Kuno zvinhu hazvina kumira zvakanaka tichangobva mukupfurwa kwevanhu mumugwagwa mablock matatu kubva pamba pedu .	 Kupfuurwa kwaive pedyo nemba yangu uye kunoita kuti nditye kubuda panze . 	1
+Kuno zvinhu hazvina kumira zvakanaka tichangobva mukupfurwa kwevanhu mumugwagwa mablock matatu kubva pamba pedu .	 Kwakave nekupfuurwa pedyo nemusha wangu ,hakuna kutombomira zvakanaka munzvimbo muno .	0
+uh-huh ndezvechokwadi inochinja chinja.	Handiwirirani newe, haigaro chinja chinja.	2
+uh-huh ndezvechokwadi inochinja chinja.	Ndinofunga kuti unogona kunge uine chokwadi nezve kuchinja chinja kwacho.	1
+uh-huh ndezvechokwadi inochinja chinja.	Unechokwadi nenyaya yekuchinja chinja kwacho.	0
+ Ini ndiri kuedza kushingirira kunyangwe zvakaoma .	Ndiri kuedza kushingirira.	0
+ Ini ndiri kuedza kushingirira kunyangwe zvakaoma .	Ini zvechokwadi ndiri kuedza nepandogona  .	1
+ Ini ndiri kuedza kushingirira kunyangwe zvakaoma .	Ndichazviregera ndorega kufunga zveshure .	2
+Tinowana pokupinda napo mutekinoroji yeramangwana.	Tiri kuvaka zvinodiwa kugadzirira ramangawana retekinoroji.	0
+Tinowana pokupinda napo mutekinoroji yeramangwana.	Tinovaka matansistor kuitira ramangwana rifambiswe ne AI.	1
+Tinowana pokupinda napo mutekinoroji yeramangwana.	Tinoda kudzivirira kubudirira kwetekinoroji.	2
+Semuenzaniso, pokupedzisira, majini ose ano chinjakuita pepuru	Pokupedzisira, chikamu chiri pakati nepakati chemajini chino chinja kuita pepuru.	2
+Semuenzaniso, pokupedzisira, majini ose ano chinjakuita pepuru	Zvinoitika kuti majini achinje ruvara.	0
+Semuenzaniso, pokupedzisira, majini ose ano chinjakuita pepuru	Dzimwe nguva majini kuita ruvara rwe bhuruu	1
+ Daniei Yamins inyanzvi yechidiki ine ruzivo rwesvomhu.	VaYamins inyanzvi pasvomhu.	0
+ Daniei Yamins inyanzvi yechidiki ine ruzivo rwesvomhu.	Chinangwa chava Yamins ialgebraic geometry.	1
+ Daniei Yamins inyanzvi yechidiki ine ruzivo rwesvomhu.	VaYamins inyanzvi mukuimba asi havagone zvachose svomhu .	2
+ Kana zvakaita saizvozvo ,vanowanzonge vari pedyo nemuganhu here.	Ini ndinoziva havafambe vari pedyo nemuganhu.	2
+ Kana zvakaita saizvozvo ,vanowanzonge vari pedyo nemuganhu here.	 Ndinoda kuziva ,vanowanzonge vari muEngland?	1
+ Kana zvakaita saizvozvo ,vanowanzonge vari pedyo nemuganhu here.	 Mutauri aida kujekeserwa kuti rungani rwavanoenda pedyo nemuganhu.	0
+Ndinofunga kuti pane zano rema mamolecular rinoti bioshere igaro zvigadziridza mumararamiro ayo mukuzvisumudzira mukugara nekugara	Biosphere inochinja zvikuru.	0
+Ndinofunga kuti pane zano rema mamolecular rinoti bioshere igaro zvigadziridza mumararamiro ayo mukuzvisumudzira mukugara nekugara	Biosphere inochinja nemamiriro ekupisa kana kutonhora.	1
+Ndinofunga kuti pane zano rema mamolecular rinoti bioshere igaro zvigadziridza mumararamiro ayo mukuzvisumudzira mukugara nekugara	Biosphere haimbochinji.	2
+Nekusvetuka uku, makirisitaru enguva dzose haagoni kuita ruzivo rwakawanda.	MaKirisitari enguva dzose midziyo inochengetedza ruzivo rwakawanda.	2
+Nekusvetuka uku, makirisitaru enguva dzose haagoni kuita ruzivo rwakawanda.	Makirisitari enguva dzose midziyo isingashandisike kuchengetedza ruzivo. 	0
+Nekusvetuka uku, makirisitaru enguva dzose haagoni kuita ruzivo rwakawanda.	Kune mamwe marudzi emakirisitari akakoshesesa mukuchengetedza ruzivo rwezvimiro zvepasi rino ichishandisa miseve ye Laser	1
+Naizvozvo, vanhu vakuru havagoni kudzidzisa vana vaduku vachinyepedzera, sezvanoisiita kana vachivabatsira kunzwisisa dambanemazwi kana mamwe mabasa anoenderana.	Vana vasati voinda kuchikoro vakazvarwa vachigona kugadzirisa dambanemazwi pane kutamba mitambo yekutevedzera	2
+Naizvozvo, vanhu vakuru havagoni kudzidzisa vana vaduku vachinyepedzera, sezvanoisiita kana vachivabatsira kunzwisisa dambanemazwi kana mamwe mabasa anoenderana.	Vana vasati voinda kuchikoro havadi rubatsiro rwakanyanya pakudzidzira zvekunyepedzera.	0
+Naizvozvo, vanhu vakuru havagoni kudzidzisa vana vaduku vachinyepedzera, sezvanoisiita kana vachivabatsira kunzwisisa dambanemazwi kana mamwe mabasa anoenderana.	Vana vasati voinda kuchikoro vanoshaya unyanzvi hokutevedzera madambanemazwi vari vega.	1
+[Nyika ino] yakazvarwa murusununguko nemukuzvipira kuti vanhu vese vakazvarwa vakafanana.	Zvinyorwa pamusoro pechirevo ichi akanyorwa mumagwaro akawanda aitevera.	1
+[Nyika ino] yakazvarwa murusununguko nemukuzvipira kuti vanhu vese vakazvarwa vakafanana.	Vamwe vanhu vaitenda kuti vanhu vese vakaenzana . 	0
+[Nyika ino] yakazvarwa murusununguko nemukuzvipira kuti vanhu vese vakazvarwa vakafanana.	 Nyika ino yakavambwa padzidziso yokuti vamwe vanhu vanozvarwa varinani kupfuura vamwe.	2
+Ndinofanira kumurumbidza zvakanyanya here?	 Ndine chokwadi chekuti ndinoda kumurova nekuda kwekukanganisa kwake.	2
+Ndinofanira kumurumbidza zvakanyanya here?	 Ndiri kufunga kana achida kuvongwa zvakanyanya kubva kwandiri	0
+Ndinofanira kumurumbidza zvakanyanya here?	 Ndinofanirwa kumurumbidza zvakanyanya here nemurudziro waaita piano? 	1
+Dzidziso yemaSpin network inogona inogadzirwa mumativi akasiyana.	Mamwe mativi anogona kushandiswa kuvaka dzidziso yemaSpin Network.	0
+Dzidziso yemaSpin network inogona inogadzirwa mumativi akasiyana.	MaSpin networks anoshandiswa zvikuru mumatekinoroji ekuchengetedzwa kweruzivo.	1
+Dzidziso yemaSpin network inogona inogadzirwa mumativi akasiyana.	MaSpin networks haagoni kufungwa nezvawo mumativi akasiyana.	2
+(achimhanya mhanya) Kwete, kwete, handidi kuti ufe!	Handidi kuti ufe!	0
+(achimhanya mhanya) Kwete, kwete, handidi kuti ufe!	Handina hanya kana ukafa!	2
+(achimhanya mhanya) Kwete, kwete, handidi kuti ufe!	Ndingashatirwe kana iwe ukafa!	1
+Akasungirirwa pachena musi wa 19 Kurume, gore ra1875, ku San Jose, muCalifonia.	California yakanga ichitendera kuurayiwa kwevanhu pajekerer kubva  muna 1875.	0
+Akasungirirwa pachena musi wa 19 Kurume, gore ra1875, ku San Jose, muCalifonia.	Akaregererwa zvaaipomerwa kuita akabva aendeswa kwake.	2
+Akasungirirwa pachena musi wa 19 Kurume, gore ra1875, ku San Jose, muCalifonia.	Aka sungurirwa pamusoro urira vanhu kuti vapandukire vatongi nekuba mahachi.	1
+Mumhirizhonga yehutongi, gungwa rakasvibira rinoonekwa.	Gungwa rainge rakadzika nekusvibira uye yakatsetseka kunge magirazi	2
+Mumhirizhonga yehutongi, gungwa rakasvibira rinoonekwa.	Gungwa rainge rakazara nehove diki dzaiungana pachikepe	1
+Mumhirizhonga yehutongi, gungwa rakasvibira rinoonekwa.	Gungwa raive riri girinhi uye richiratidzika kufashukira	0
+Mutemo mutsva wainge urikuda kushandiswa kubva mukutambudzwa kwekuma 1860.	Pakazosvika makore ekuma 1870 mitemo yose yakanga isingachashandi nenyika yakanga isingachatongeki.	2
+Mutemo mutsva wainge urikuda kushandiswa kubva mukutambudzwa kwekuma 1860.	Yaive nguva yairwadza yekuma 1860.	0
+Mutemo mutsva wainge urikuda kushandiswa kubva mukutambudzwa kwekuma 1860.	Mutemo mutsva waida kuwedzera kodzero dzevashandi.	1
+Kumwe kufunga kwepamusoro, akataura, kunotanga kubuda mumataurirano evanhu, pakati pemwana nevanomumirira murudzi rwake panoitwa mubatanidzwa webasa.	Vana vadiki havagoni kupa mafungiro epamusoro.	2
+Kumwe kufunga kwepamusoro, akataura, kunotanga kubuda mumataurirano evanhu, pakati pemwana nevanomumirira murudzi rwake panoitwa mubatanidzwa webasa.	Kuredza hove ndicho chezvinhu chinhu chinembiri chinowanikwa mundudzi dzevanhu dzakasiyana siyana.	1
+Kumwe kufunga kwepamusoro, akataura, kunotanga kubuda mumataurirano evanhu, pakati pemwana nevanomumirira murudzi rwake panoitwa mubatanidzwa webasa.	Kupanana zviitwa dzimwe nguva zvinobatsira kupanana kufunga kwakakwirira.	0
+Dzimwe nharaunda dzaive nemarezadores kana kuti rezadoras, vari vakuru vechitendero vaitungamirira minamato pandufu kana pamabiko ekupemberera zuva resaints nepese mupirisita paanenge asipo.	Hapana nharaunda yakanga ine vatugamiriri vechitendero vakanga vasiri mapirisita.	2
+Dzimwe nharaunda dzaive nemarezadores kana kuti rezadoras, vari vakuru vechitendero vaitungamirira minamato pandufu kana pamabiko ekupemberera zuva resaints nepese mupirisita paanenge asipo.	Dzimwe nharaunda dzanga dzine vatungamiriri vechitendero vanga vasiri mapirisita.	0
+Dzimwe nharaunda dzaive nemarezadores kana kuti rezadoras, vari vakuru vechitendero vaitungamirira minamato pandufu kana pamabiko ekupemberera zuva resaints nepese mupirisita paanenge asipo.	Vamwe vatungamiriri vechitendero vaive nevhudzi dema.	1
+Mumitambo inoitwa nevanhu futi, pane mukana wokutamba kana kubatanidza mashandirwo zvichibatsira vana kunzwisisa kufananana nekusiyana kwevanhu munezvavanoda, mafungiro, kana kunzwa.	Vana vadiki vanogona dzidza kufanana kana kusiyana kwevanhu.	0
+Mumitambo inoitwa nevanhu futi, pane mukana wokutamba kana kubatanidza mashandirwo zvichibatsira vana kunzwisisa kufananana nekusiyana kwevanhu munezvavanoda, mafungiro, kana kunzwa.	Vana vadiki vanoona kusiyana kwemarudzi evanhu.	1
+Mumitambo inoitwa nevanhu futi, pane mukana wokutamba kana kubatanidza mashandirwo zvichibatsira vana kunzwisisa kufananana nekusiyana kwevanhu munezvavanoda, mafungiro, kana kunzwa.	Vana vadiki hapana chavanodzidza.	2
+Tsika yakanaka yepamusoro mukupera kwehondo yekuGerman mubumbiro remutemo, ipapo, yaive pachokwadi honzero yekuwa kuweumatongero eNazi.	Hutongi hweNazi hwaizvitendera.	2
+Tsika yakanaka yepamusoro mukupera kwehondo yekuGerman mubumbiro remutemo, ipapo, yaive pachokwadi honzero yekuwa kuweumatongero eNazi.	Hutongi hweNazi hwakauraya munhu wose akanga atora chikamu.	1
+Tsika yakanaka yepamusoro mukupera kwehondo yekuGerman mubumbiro remutemo, ipapo, yaive pachokwadi honzero yekuwa kuweumatongero eNazi.	Hutongi hweNazi hwakazvimisa.	0
+Sonja akatanga kutevedzera mawanasikana wake kuputika kusingadzoreki kwehasha.	Hapana  munhu kuputika kusingadzoreki kwehasha.	2
+Sonja akatanga kutevedzera mawanasikana wake kuputika kusingadzoreki kwehasha.	Sonja mwana .	0
+Sonja akatanga kutevedzera mawanasikana wake kuputika kusingadzoreki kwehasha.	Sonja akange akagumbuka .	1
+Mumakore matanhatu pa makore makumi mashanu aka konzera kurwa pachavo, Dare raisango shandisa mutemo uyu.	Dare raiwanzo shandisa simbararo iri mumakumi emakore zvizovasvitsa mukurwisana pachavo.	0
+Mumakore matanhatu pa makore makumi mashanu aka konzera kurwa pachavo, Dare raisango shandisa mutemo uyu.	Dare rakashandisa masimba aya kanokwana runa mumakore makumi mashanu nemashanu zvizovasvitsa mukurwisana pachavo.	1
+Mumakore matanhatu pa makore makumi mashanu aka konzera kurwa pachavo, Dare raisango shandisa mutemo uyu.	Dare rakashandisa masimba aya kanokwana mamiriyoni mashanu zvizovasvitsa mukurwisana pachavo.	2
+ Ndinokuvimbisai, vakuru, kuti ndakaudzwa zvizere nezvazvo.	 Ndiri kukutaurirai kuti ndakapiwa ruzivo pamusoro pezvose.	0
+ Ndinokuvimbisai, vakuru, kuti ndakaudzwa zvizere nezvazvo.	Rufu rwemutikitivha rwandakaudzwa nezvarwo .	1
+ Ndinokuvimbisai, vakuru, kuti ndakaudzwa zvizere nezvazvo.	Pane zvitaurwa zvakawanda izvo ndakavanzirwa.	2
+Mutinhimira wakakanganisa Captain Blood mumafungiro akadzama ekusagutsikana.	Captain Blood vakakwanisa kufunga nezvekusagutsikana kwavo pasina anovakanganisa.	2
+Mutinhimira wakakanganisa Captain Blood mumafungiro akadzama ekusagutsikana.	Pfungwa dzaCaptain Blood dzakakanganiswa nemhere mhere .	0
+Mutinhimira wakakanganisa Captain Blood mumafungiro akadzama ekusagutsikana.	Kuchema kwekambwanana kwakasimudza Captain kubva mukudzeya kwawavaita.	1
+Asi handikanganwi kuti pandakanga ndichishandiswa semuranda mumba masekuru vako kuBarbados vaindishandisa neimwe nzira murudo,	Makandibata zvakanaka pandaive muhuranda kuBarbados. 	0
+Asi handikanganwi kuti pandakanga ndichishandiswa semuranda mumba masekuru vako kuBarbados vaindishandisa neimwe nzira murudo,	Wakaita utsinye hwakanyanya kwandiri uye wakandibata setsvina.	2
+Asi handikanganwi kuti pandakanga ndichishandiswa semuranda mumba masekuru vako kuBarbados vaindishandisa neimwe nzira murudo,	Sekuru vako vaindirova zvikuru pavaive tenzi wangu .	1
+Apo, hapasviki mamaira matatu kubva pano,ndopaive nenyika -chidziro chisina kuinzana cheruvara rwegirinhi chaizadza kurutivi rwekumaviirira.	Nyika ineuswa nemiti yakanga yowoneka mberi.	0
+Apo, hapasviki mamaira matatu kubva pano,ndopaive nenyika -chidziro chisina kuinzana cheruvara rwegirinhi chaizadza kurutivi rwekumaviirira.	Chitsuwa chavaive vosvika chaive chisina anogara .	1
+Apo, hapasviki mamaira matatu kubva pano,ndopaive nenyika -chidziro chisina kuinzana cheruvara rwegirinhi chaizadza kurutivi rwekumaviirira.	Havana kukwanisa kuona kana nyika kwemamaira akati kuti, richingove zienda nakuenda regungwa chete.	2
+Ndiri mutumwa wamambo kunzvimbo dzino dzakashata, uye nehama dzepadyo dzaMambo wangu Sunderland.	Mambo vangu vane vatumwa, uye ini ndirimumwe wavo.	0
+Ndiri mutumwa wamambo kunzvimbo dzino dzakashata, uye nehama dzepadyo dzaMambo wangu Sunderland.	Mambo vangu vakandituma kuno ndingati svondo rapfuura.	1
+Ndiri mutumwa wamambo kunzvimbo dzino dzakashata, uye nehama dzepadyo dzaMambo wangu Sunderland.	Handitore mirairo kubva kuna Mambo wangu.	2
+Ndanga ndine chikwereti newe-kana kuti ndaifunga sekudaro, akataura.	Aisambofunga kuti  anechikwereti newe.	2
+Ndanga ndine chikwereti newe-kana kuti ndaifunga sekudaro, akataura.	Aiava anechikwereti newe cherubatsiro rwawakamupa paakange ari mupemhi asina kana kobiri zvaro.	1
+Ndanga ndine chikwereti newe-kana kuti ndaifunga sekudaro, akataura.	Aifunga kuti ane chikwereti newe.	0
+Ndingadai ndakaziva pane kuuya pedyo pedyo neJamaica husiku.	Ndakaenda pedyo nekuJamaica zuva raive ratodoka kare.	0
+Ndingadai ndakaziva pane kuuya pedyo pedyo neJamaica husiku.	Ndakaenda kuJamaica ndiri mungarava huru .	1
+Ndingadai ndakaziva pane kuuya pedyo pedyo neJamaica husiku.	Mudzimai wangu neni takasvika muJamaica zuva rakacheka nyika .	2
+Pfungwa dzwa Blood dzaive pamusoro pezvizvi nezvimwewo zvinhu paakanga arara pamubhedha	Blood haana kurota hope dzinepfungwa paive akarara pamubhedha.	2
+Pfungwa dzwa Blood dzaive pamusoro pezvizvi nezvimwewo zvinhu paakanga arara pamubhedha	Blood aifunga zvakadzama akarara.	0
+Pfungwa dzwa Blood dzaive pamusoro pezvizvi nezvimwewo zvinhu paakanga arara pamubhedha	Blood akanga achifungisisa nezvezuva raakapedzisira kuona mai vake.	1
+Chokwadi, ndichamuudza.	Zvakanaka hazvo, ndichakuudza nezvazvo.	0
+Chokwadi, ndichamuudza.	Handitombotaure kana shoko kwauri.	2
+Chokwadi, ndichamuudza.	Ndirikukuudza chete nekuti wakavimbisa kusazodzokorodza izvi. 	1
+Ah! Kuti chingaita chii?	Mumwe arikubvunza nzira yokuenda nayo.	0
+Ah! Kuti chingaita chii?	Anobvunza ariega uye haana wokutaura naye.	2
+Ah! Kuti chingaita chii?	Anobvunza ari kumhanya mhanya uye anoda kuziva nzira yokutora izvozvi.	1
+Handipe murairo wamabo zvirinyore.	Kungopa murairo waMambo hazvizi mutsika dzangu.	1
+Handipe murairo wamabo zvirinyore.	Ndapa pfungwa dzakadzama kumurairo waMambo.	0
+Handipe murairo wamabo zvirinyore.	Ndaka sayina chibvumirano chokupa murairo wamambo pasina kufunga kaviri.	2
+Akazviona kuti angango dzokera mumasure nekukurumidza.	Akazviona kuti aive nezuva rose rokudzokera mumasure.	2
+Akazviona kuti angango dzokera mumasure nekukurumidza.	Akazviona kuti aifanira kufunga nekurumidza.	0
+Akazviona kuti angango dzokera mumasure nekukurumidza.	Dai akagara panzvimbo imwechete, aizowanikwa.	1
+Huye  angoramba ari zvaaive ne kuita zvaaita mumakore matatu apfuura, akadero musikana, asi  akazvitaura achinzwisa urombo panguva ino, asisina kusvora kwaaimbenge achiita	Akanga asingafariri kuti murume akanga auraya varume vakawanda muma makore matatu apfuura.	1
+Huye  angoramba ari zvaaive ne kuita zvaaita mumakore matatu apfuura, akadero musikana, asi  akazvitaura achinzwisa urombo panguva ino, asisina kusvora kwaaimbenge achiita	Akataura achifarira ushingi nehunhu hwemurume.	2
+Huye  angoramba ari zvaaive ne kuita zvaaita mumakore matatu apfuura, akadero musikana, asi  akazvitaura achinzwisa urombo panguva ino, asisina kusvora kwaaimbenge achiita	Akautura nemazwi ekusuruvara.	0
+Ndinofunga kuti zvaive nechekuita nemapfekeroako ake.	Ndinofunngira kuti ndizvo zvinoita vamwe vakafanana newe.	0
+Ndinofunga kuti zvaive nechekuita nemapfekeroako ake.	Ndakaverenga nezve vakafanana newe, netsika dzavo.	1
+Ndinofunga kuti zvaive nechekuita nemapfekeroako ake.	Ndozvitora kuti hazvisi zvakajairika pane vakafanana newe.	2
+Kufinyama kwakaunyanisa mhanza yake.	Kunyemwerera kukuru kwakazadza chiso chake	2
+Kufinyama kwakaunyanisa mhanza yake.	Musikana akanzwa marwadzo mudumbu make.	1
+Kufinyama kwakaunyanisa mhanza yake.	Pameso pake paive pakafinyama.	0
+Musikana akanga achimutarisa nemaziso anopenya, asi paakaona chiso chakasuruvara, nekuunyana kwemhanza kwakanyanya akabva ashandura chiso chake.	Chiso chake chakashanduka paakaona chiso chemurume.	0
+Musikana akanga achimutarisa nemaziso anopenya, asi paakaona chiso chakasuruvara, nekuunyana kwemhanza kwakanyanya akabva ashandura chiso chake.	Chiso chemusikana chaka jeka paakaona kufinyama kwechiso chemurume.	2
+Musikana akanga achimutarisa nemaziso anopenya, asi paakaona chiso chakasuruvara, nekuunyana kwemhanza kwakanyanya akabva ashandura chiso chake.	Musikana aisaziva kana murume anga akamutsamwira.	1
+Akafamba sembozha, achitevedza madziro akavakwa munguva yehondo, uye ndokupfuura nepamikova mikuru achipinda muchivanze.	Sezvo mikova mikuru yainge yakakiyiwa, akasvetuka waya achipinda muchivanze	2
+Akafamba sembozha, achitevedza madziro akavakwa munguva yehondo, uye ndokupfuura nepamikova mikuru achipinda muchivanze.	Mikova mikuro ndiyo yaiva yoga yokupinda nayo muchivanze.	1
+Akafamba sembozha, achitevedza madziro akavakwa munguva yehondo, uye ndokupfuura nepamikova mikuru achipinda muchivanze.	Paive nemikova mikuru yaipinda muchivanze.	0
+Unoindiswa mukufa, pasina mubvunzo, akataura achizvidza.	Akafunga kuti mumwe munhu achanourayiwa.	0
+Unoindiswa mukufa, pasina mubvunzo, akataura achizvidza.	Akanga  ari sherifi akanga abata mbavha.	1
+Unoindiswa mukufa, pasina mubvunzo, akataura achizvidza.	Akazevezera nzira  yokutiza nayo munyika kuti usapinde mujeri.	2
+Ndaizviitasei pachokwadi kuti ndivasunge, zvanga zviri mukutaurirana	Handaigona kuuya kuzovavharira mujeri	0
+Ndaizviitasei pachokwadi kuti ndivasunge, zvanga zviri mukutaurirana	Ndakavasunga pandakangovaona.	2
+Ndaizviitasei pachokwadi kuti ndivasunge, zvanga zviri mukutaurirana	Handaizviregerera dai ndakavasunga.	1
+Ndanga ndichimutsvaka gore rose rapfuura.	Ndanga ndichimuteverera padhuze naye kwegore rose iye asinga zvizive.	1
+Ndanga ndichimutsvaka gore rose rapfuura.	Ndanga ndichimuteverera chete kuda kusvika kupera kwesvondo	2
+Ndanga ndichimutsvaka gore rose rapfuura.	Mukufamba kwegore rapfuura ndanga ndichimuteverera.	0
+Miziyamu haina kusimba pama katarogu kana pakunyora mazita.	Miziyamu haidi kupiwa mazita.	1
+Miziyamu haina kusimba pama katarogu kana pakunyora mazita.	Miziyamu haifariri tubhuku twokushambadza	0
+Miziyamu haina kusimba pama katarogu kana pakunyora mazita.	Nzvimbo yakasimba muMiziyamu mabhuku aneondedzero yakazara yezvinhu.	2
+Misika yeku Beijing ndiyo yedzimwe nzvimbo dziinonakidza kutenga zvinhu kupfura kumwe.	Beijing ine misika ine zvitoro zvinonakidza.	0
+Misika yeku Beijing ndiyo yedzimwe nzvimbo dziinonakidza kutenga zvinhu kupfura kumwe.	Misika yeku Beijing ndiyo yedzimwe nzvimbo dziinonakidza pasi rino rese.	1
+Misika yeku Beijing ndiyo yedzimwe nzvimbo dziinonakidza kutenga zvinhu kupfura kumwe.	Mitemo yakaoma yakagadzwa kuBeijing inorambidza misika kuva mudhorobha.	2
+Bheyi rakakurisa kumhenderekedzo yegungwakuri kuchambembe kwakadziva kumavirira kunoita nzvimbo yakanaka inomira ngarava, asi mvura nemhenderekedzo yegungwa zvinogona  kunge zvakasviba	Mvura nema hombekombe zvinogara zvakachena	2
+Bheyi rakakurisa kumhenderekedzo yegungwakuri kuchambembe kwakadziva kumavirira kunoita nzvimbo yakanaka inomira ngarava, asi mvura nemhenderekedzo yegungwa zvinogona  kunge zvakasviba	Mvura nemahombekombe zvogona kunge zviine tsvina.	0
+Bheyi rakakurisa kumhenderekedzo yegungwakuri kuchambembe kwakadziva kumavirira kunoita nzvimbo yakanaka inomira ngarava, asi mvura nemhenderekedzo yegungwa zvinogona  kunge zvakasviba	Mvura yakasviba nepamusana pokurasirwa marara.	1
+Idzo nhurikidzwa dzedzimba mabhanga, ne mugwagwa wadzakavakirwa wakatumidzwa zita remadunhurirwa rokuti Milla de Oro kana kuti Golden Mile	Hapana nhurikidzwa dzedzimba dziri muna Golden Mile dziri maBhanga.	2
+Idzo nhurikidzwa dzedzimba mabhanga, ne mugwagwa wadzakavakirwa wakatumidzwa zita remadunhurirwa rokuti Milla de Oro kana kuti Golden Mile	Nhurikidzwa dzedzimba dziri muGolden Mile maBhanga.	0
+Idzo nhurikidzwa dzedzimba mabhanga, ne mugwagwa wadzakavakirwa wakatumidzwa zita remadunhurirwa rokuti Milla de Oro kana kuti Golden Mile	Nhurikidzwa dzedzimba dziri muGolden Mile dzine zvitoro zvakasiyana siyana, zvinosanganisira maBhangi	1
+Semasikirwo azvo, nekudaro, kuwanikwa muhondo yechipiri yepasi rino rose kwakatanga ne Briitish Commonwealth Air TrainingPlan, ichishandisa matenga  akachengetedzeka ekuCanada kudzidzisa vanotyaira ndege kuti vanorwa.	Canada yaive nematenga akachengetedzeka.	0
+Semasikirwo azvo, nekudaro, kuwanikwa muhondo yechipiri yepasi rino rose kwakatanga ne Briitish Commonwealth Air TrainingPlan, ichishandisa matenga  akachengetedzeka ekuCanada kudzidzisa vanotyaira ndege kuti vanorwa.	Matenga eCanada anga akasununguka kubva muzvombo zvemuchadenga.	1
+Semasikirwo azvo, nekudaro, kuwanikwa muhondo yechipiri yepasi rino rose kwakatanga ne Briitish Commonwealth Air TrainingPlan, ichishandisa matenga  akachengetedzeka ekuCanada kudzidzisa vanotyaira ndege kuti vanorwa.	Matenga eCanada aiva nenjodzi.	2
+Vakaramba vaine mwoyo murefu nekubatsira, nyangwe zvazvo vaiziva kuti mhenherekedzo yavo yegungwa yakanaka yakanga isisiri yavo voga.	Varikurwadziwa  nekutsamwira munhu wese sezvo ikozvino vave kugovana mhenderekedzo dzegungwa	2
+Vakaramba vaine mwoyo murefu nekubatsira, nyangwe zvazvo vaiziva kuti mhenherekedzo yavo yegungwa yakanaka yakanga isisiri yavo voga.	Vave kugovana mhenderekedzo dzegungwa nevamwe vanhu ikozvino.	0
+Vakaramba vaine mwoyo murefu nekubatsira, nyangwe zvazvo vaiziva kuti mhenherekedzo yavo yegungwa yakanaka yakanga isisiri yavo voga.	Vaisimbove varidzi vemhenderekedzo dzegungwa dzakareba mamaira mazana mashanu.	1
+Kublai Khani akavaka dhorobha rake muna 1279 pamhenderekedzo ye Beihal Lake ku Beijing, kunowanika hupfumi hwake huchiri kuratidzwa nanhasi	Kublai Khani akavaka guta guru rekuTaiwan.	2
+Kublai Khani akavaka dhorobha rake muna 1279 pamhenderekedzo ye Beihal Lake ku Beijing, kunowanika hupfumi hwake huchiri kuratidzwa nanhasi	Kublai Khan  ane hupfumi ku Beijing	0
+Kublai Khani akavaka dhorobha rake muna 1279 pamhenderekedzo ye Beihal Lake ku Beijing, kunowanika hupfumi hwake huchiri kuratidzwa nanhasi	kublai Khani aiva munhu airemekedzwa	1
+Kukwana mumagariro nenharaunda ye Anglo zvakaita kuti zvikoro zve Protestant zvibvume vana vavo, Va Judha veku Eastern Europe vakadzidza vakabudirira  kuupfumi hwe Westmount vamwe vakatama vakaenda kunogara kuToronto.	Vajudha vekumabvazuva kweEurope vanogarisana nevamwe munharaunda zvakanaka	2
+Kukwana mumagariro nenharaunda ye Anglo zvakaita kuti zvikoro zve Protestant zvibvume vana vavo, Va Judha veku Eastern Europe vakadzidza vakabudirira  kuupfumi hwe Westmount vamwe vakatama vakaenda kunogara kuToronto.	MaJudha haadikanwe nenharaunda dzose.	1
+Kukwana mumagariro nenharaunda ye Anglo zvakaita kuti zvikoro zve Protestant zvibvume vana vavo, Va Judha veku Eastern Europe vakadzidza vakabudirira  kuupfumi hwe Westmount vamwe vakatama vakaenda kunogara kuToronto.	MaJudha akakwanisa kugarisana nyore vanhu vechiAnglo.	0
+Kanazvichibvira, ziva nezvebangano kutanga.	Usapinde bangano pakutanga; zvinozokanganisa zvinofadza gare gare.	2
+Kanazvichibvira, ziva nezvebangano kutanga.	Edza kunzwisise bangano kutanga, kana uchikwanisa.	0
+Kanazvichibvira, ziva nezvebangano kutanga.	Uchawana chidzidzo chakanyevenuka kana ukanzwisisa chinangwa chebhuku.	1
+Maanovigira vanhu vakafa, 27m(88ft) kubva pasi, makagadzirwa nedombo remarble uye rakakura 1,200sm(13.000sm)	Akavigwa muguva rakadzika mamita anopfuura makumi maviri.	0
+Maanovigira vanhu vakafa, 27m(88ft) kubva pasi, makagadzirwa nedombo remarble uye rakakura 1,200sm(13.000sm)	Aive munhu wevanhu ane mukurumbira	1
+Maanovigira vanhu vakafa, 27m(88ft) kubva pasi, makagadzirwa nedombo remarble uye rakakura 1,200sm(13.000sm)	Zvivharo zvake zvemakuva zvakagadzirwa nematanda.	2
+Yeuka kuviga zvinhu zvako zvose zvinotakurika kubva kutsoko.	Viga zvinhu zvako kubva kutsoko.	0
+Yeuka kuviga zvinhu zvako zvose zvinotakurika kubva kutsoko.	Tsoko dzinofadzwa nezvinhu zvakawanda, kusanganisira zvinhu zvako	1
+Yeuka kuviga zvinhu zvako zvose zvinotakurika kubva kutsoko.	Unogona kusaviga zvinhu zvako kubva kutsoko.	2
+Makore churu chimazana mana, imba yeumambo hwaEstei isati yavakwa, Milreu yakanga iri imba hombe yemunhu ane mukurumbira kumaruva.	Milreu yanga iri mamaira gumi kubva panezvimwe.	1
+Makore churu chimazana mana, imba yeumambo hwaEstei isati yavakwa, Milreu yakanga iri imba hombe yemunhu ane mukurumbira kumaruva.	Milreu yanga iri  kunze kumaruva	0
+Makore churu chimazana mana, imba yeumambo hwaEstei isati yavakwa, Milreu yakanga iri imba hombe yemunhu ane mukurumbira kumaruva.	Milreu yaive iri pakati pedhorobha.	2
+Kupisa kana kutonhora kwegungwa kunowanzo kunge kuri pakati pe18e ne 24eC(64-75eF)	Kupisa kana kutonhora kwemugungwa kunogara kuchichinja, asi hakutonhora pakusvika  pamazaya echando	0
+Kupisa kana kutonhora kwegungwa kunowanzo kunge kuri pakati pe18e ne 24eC(64-75eF)	Kupisa kana kutonhora kwemugungwa kunogara kuri panzvimbo imwe gore rose.	2
+Kupisa kana kutonhora kwegungwa kunowanzo kunge kuri pakati pe18e ne 24eC(64-75eF)	Ona kunoti pisei nguva dzemasikati kana kuchidziya	1
+KInabalu National Park ndiyo yedzimwe nzvimbo nhatu dzinochenegetedzwa mudunhu.	KInabalu National Park ine nzou gumi nezvipembere zvitanhatu.	1
+KInabalu National Park ndiyo yedzimwe nzvimbo nhatu dzinochenegetedzwa mudunhu.	Dunhu rinenzvimbo dzakachengetedzwa, dzinosanganisira Kinabalu National Park.	0
+KInabalu National Park ndiyo yedzimwe nzvimbo nhatu dzinochenegetedzwa mudunhu.	Panenzvimbo nhatu dzakachengetedzwa mudunhu.	2
+Uchawona mavhidhiyo enhorowondo yaAnne ne eAmsterdam payakange yakabvutwa nemifananidzo nezviumbwa zvenguva iyoyo	Hausi kuzoona mifananidzo.	2
+Uchawona mavhidhiyo enhorowondo yaAnne ne eAmsterdam payakange yakabvutwa nemifananidzo nezviumbwa zvenguva iyoyo	Uchawona mifananidzo.	0
+Uchawona mavhidhiyo enhorowondo yaAnne ne eAmsterdam payakange yakabvutwa nemifananidzo nezviumbwa zvenguva iyoyo	Uchawona mimwe mifananidzo yekutanga.	1
+Treasure Beach ndiyo nzvimbo yega yekushanyira ingataurwa nezvayo, iine mahotera matatu anowanika mumajecha ekumahombekombe	Hakauna mahotera ekusarudza akawanda kune vanhu vanoshanyira Treasure Beach.	0
+Treasure Beach ndiyo nzvimbo yega yekushanyira ingataurwa nezvayo, iine mahotera matatu anowanika mumajecha ekumahombekombe	Kune hotera imwe yenyeredzi ina inowanikwa kune vashanyi vanoshanyira Treasure Beach.	1
+Treasure Beach ndiyo nzvimbo yega yekushanyira ingataurwa nezvayo, iine mahotera matatu anowanika mumajecha ekumahombekombe	Treasure Beach ndiyo imwe yenzvimbo yekushanyira munzvimbo iyi.	2
+Zhizha rinounza kudziya (asi kwete kupisa) nekudziya kwemakungwa, izvo zvinenge zvakanakira kusvetukira mumvura, snorkelling uye mimwe mitambo yemvura.	Inogara iri 100 dhigirizi kana kupfuura muzhizha.	2
+Zhizha rinounza kudziya (asi kwete kupisa) nekudziya kwemakungwa, izvo zvinenge zvakanakira kusvetukira mumvura, snorkelling uye mimwe mitambo yemvura.	Inowanzoita 75 muzhizha.	1
+Zhizha rinounza kudziya (asi kwete kupisa) nekudziya kwemakungwa, izvo zvinenge zvakanakira kusvetukira mumvura, snorkelling uye mimwe mitambo yemvura.	Kunodziya munguva yezhizha.	0
+Pamadziva panerimwe rakatorwa nevashanyi ravanopota vachikandira mari vaine shuwiro yokuti rimwe ringabhamba pamusoro wekamba, vaine tariro yekuita rombo rakanaka.	Vanhu havambokandi mari  nekuti zvinoitisa rushambwa.	2
+Pamadziva panerimwe rakatorwa nevashanyi ravanopota vachikandira mari vaine shuwiro yokuti rimwe ringabhamba pamusoro wekamba, vaine tariro yekuita rombo rakanaka.	Vanhu vano kanda mari ye ndarama mumvura chero pakanyorwa kuti musakanda.	1
+Pamadziva panerimwe rakatorwa nevashanyi ravanopota vachikandira mari vaine shuwiro yokuti rimwe ringabhamba pamusoro wekamba, vaine tariro yekuita rombo rakanaka.	Vanhu vano kanda mari ye ndarama mumvura.	0
+Dhorobha reNafplio inzvimbo yakanaka kushanyira kana nzvimbo yekuda masikati uchishanya.	Nafplio ine nzvimbo inoyevedza kuona.	1
+Dhorobha reNafplio inzvimbo yakanaka kushanyira kana nzvimbo yekuda masikati uchishanya.	Nafplio inzvimbo yakashata.	2
+Dhorobha reNafplio inzvimbo yakanaka kushanyira kana nzvimbo yekuda masikati uchishanya.	Nafplio inzvimbo yakanaka	0
+Ku Prinsengracht, otto Frank nemhuri yake vakahwnda mudengaremba ye bhizimisi ravo kwemakore maviri vasati vawanikwa.	Otto Frank akabatwa pazuva rechipiri.	2
+Ku Prinsengracht, otto Frank nemhuri yake vakahwnda mudengaremba ye bhizimisi ravo kwemakore maviri vasati vawanikwa.	Otto Frank akahwanda kupfuura mwedzi makumi maviri nemashanu.	0
+Ku Prinsengracht, otto Frank nemhuri yake vakahwnda mudengaremba ye bhizimisi ravo kwemakore maviri vasati vawanikwa.	Otto Frank akahwanda kusvika maNazi amuwana.	1
+Hutungamiriri huzhinji hwenyika kana kuti hwenzvimbo hune zvakare ongororo dzemabhuku emari dzinotarisirwa.	Hutungamiri hwemunzvimbo hunozoita kuti hugadzire mitemo yahwo.	1
+Hutungamiriri huzhinji hwenyika kana kuti hwenzvimbo hune zvakare ongororo dzemabhuku emari dzinotarisirwa.	Hutungamiri hwenzvimbo hahuna chahunotarisirwa.	2
+Hutungamiriri huzhinji hwenyika kana kuti hwenzvimbo hune zvakare ongororo dzemabhuku emari dzinotarisirwa.	Pane dzimwe ongororo dzemabhuku emari dzinotarisirwa muhutungamiri hwenzvimbo.	0
+Boka rinoita nezvekuchengetedzwa kwemashoko rinoita zvimisangano zvinoita  pakati pezvisere negumi nezviviri pamwedzi.	Boka rezvekuchengetedza rinowanzoita zvimisangano pfumbamwe pamwedzi.	1
+Boka rinoita nezvekuchengetedzwa kwemashoko rinoita zvimisangano zvinoita  pakati pezvisere negumi nezviviri pamwedzi.	Boka rinoita nezvekuchengetedza rinoita chimusangano chimwe pazuva rega rega repamwedzi.	2
+Boka rinoita nezvekuchengetedzwa kwemashoko rinoita zvimisangano zvinoita  pakati pezvisere negumi nezviviri pamwedzi.	Boka rinoita nezvekuchengetedza rinoita zvimisangano zvakawanda pagore.	0
+Asi, gadziro ineunyanzvi yekumavambo yangayatopedzwa kare.	Gadziro ine unyanzvi yaive nenguva yekumavambo.	0
+Asi, gadziro ineunyanzvi yekumavambo yangayatopedzwa kare.	Gadziro ine unyanzvi yakangoitika muchikamu chekupedzisira.	2
+Asi, gadziro ineunyanzvi yekumavambo yangayatopedzwa kare.	Pasina nguva yekumavambo yamboitwa, gadziriro ine unyanzvi ine mukana wakakura wekusazobuda zvakanaka muzvikamu zvekumberi.	1
+"Nekudaro, vagadziri vezvisungo zvehururmende nevakuru vemabasa vaakutora nzira itsva dzekufunga, vachitarisa nzira dzakasiyana dzekuzadzisa zvinangwa, nekushandisa ruzivo rutsva kugadzira zvisungo zvitsva.
+"	Vamiriri vehurumende vari kushandura nzira dzavo dzavanga vachishanda nadzo.	0
+"Nekudaro, vagadziri vezvisungo zvehururmende nevakuru vemabasa vaakutora nzira itsva dzekufunga, vachitarisa nzira dzakasiyana dzekuzadzisa zvinangwa, nekushandisa ruzivo rutsva kugadzira zvisungo zvitsva.
+"	Vamiriri vehurumende vari kuedza kuwedzera simba ravo nekufunga zvakasiyana.	1
+"Nekudaro, vagadziri vezvisungo zvehururmende nevakuru vemabasa vaakutora nzira itsva dzekufunga, vachitarisa nzira dzakasiyana dzekuzadzisa zvinangwa, nekushandisa ruzivo rutsva kugadzira zvisungo zvitsva.
+"	Vamiriri vehurumende vanoramba kushandura nzira dzemararamiro avo.	2
+Magwaro edzimhosva anogona kuda kushandurwa mutauro kuitira vanoda kubatsirwa vanoverenga mimwe mitauro isiri chirungu. 	Magwaro edzimhosva anotenderwa chete kuva kuchirungu.	2
+Magwaro edzimhosva anogona kuda kushandurwa mutauro kuitira vanoda kubatsirwa vanoverenga mimwe mitauro isiri chirungu. 	Magwaro edzimhosva anogona kuiswa mumutauro wechiChinese kana chiRussian.	1
+Magwaro edzimhosva anogona kuda kushandurwa mutauro kuitira vanoda kubatsirwa vanoverenga mimwe mitauro isiri chirungu. 	Magwaro edzimhosva anogona kuiswa mune mimwe mitauro.	0
+Zvimwe zvatiri kuedza parizvino zviri kuuya kana kuti zvakarongwa zvinosanganisira	Zvakawanda zvezvatiri kuedza zvava kutoitwa.	1
+Zvimwe zvatiri kuedza parizvino zviri kuuya kana kuti zvakarongwa zvinosanganisira	Hatina chimwezve chakarongerwa ramangwana.	2
+Zvimwe zvatiri kuedza parizvino zviri kuuya kana kuti zvakarongwa zvinosanganisira	Tine chimwe chakarongwa.	0
+Isaiwo zvinhu zvakaita senguva diki dzinopiwa, kudzimwa kwemafaira ekutanga nekushaikwa kwemikana yekuwana zvinyorwa zvinodikwa.	Vakadzima mafaira ekombiyuta kubva muIBM.	1
+Isaiwo zvinhu zvakaita senguva diki dzinopiwa, kudzimwa kwemafaira ekutanga nekushaikwa kwemikana yekuwana zvinyorwa zvinodikwa.	Vakadzima mafaira ekombiyuta emhando yekutanga.	0
+Isaiwo zvinhu zvakaita senguva diki dzinopiwa, kudzimwa kwemafaira ekutanga nekushaikwa kwemikana yekuwana zvinyorwa zvinodikwa.	Vakachengeta ese mafaira emhando yekutanga.	2
+Zvino, mumiriri mumwecheteye akamboshanya pekutanga anoshanyairazve purovhaidha mutsva kuti apindure mivhunzo nekuita hurukuro dzematambudziko anenge aonekwa mumasemburu emakiremu.	Mumiriri akashanya kweawa rimwe chete.	1
+Zvino, mumiriri mumwecheteye akamboshanya pekutanga anoshanyairazve purovhaidha mutsva kuti apindure mivhunzo nekuita hurukuro dzematambudziko anenge aonekwa mumasemburu emakiremu.	Kwaiva nekushanya kwemumiriri.	0
+Zvino, mumiriri mumwecheteye akamboshanya pekutanga anoshanyairazve purovhaidha mutsva kuti apindure mivhunzo nekuita hurukuro dzematambudziko anenge aonekwa mumasemburu emakiremu.	Hatina kumboshanyirwa.	2
+Kuchengetedza upfumi hakungovi nechekuita nekuwanda kweupfumi, asi upfumiwo hunepesvedzero yahunoita kusarudzo yekuhuchengetedza.	Sarudzo yekuti munhu anochengetedza here kana kusachengetedza mari inokonzerwa neupfumi hwavo.	0
+Kuchengetedza upfumi hakungovi nechekuita nekuwanda kweupfumi, asi upfumiwo hunepesvedzero yahunoita kusarudzo yekuhuchengetedza.	Upfumi nezvichengetedzwa zvemari hazvina kumbofanana neipi zvayo nzira nguva zhinji.	2
+Kuchengetedza upfumi hakungovi nechekuita nekuwanda kweupfumi, asi upfumiwo hunepesvedzero yahunoita kusarudzo yekuhuchengetedza.	Vapfumi vanogona kuita mukana wakawanda wekuchengetedza chikamu chakakura chezvavanowana.	1
+Semuenzaniso, rimwe sangano ratakaongorora raiva rabatanidzwa nemabhizimusi maviri raida kuti kambani ikasire kubatanidza mabhizinesi matsva uye kuronga patsva zvakare kuitira kuti zvipindirane nezvinodikwa pakuti bhizinesi rikure.	Kunyanwe panga pabatanidzwa mabhizimusi maviri, panga pasina chikonzero chekuti kambani iite muronga mutsva wehutungamiriri hwayo.	2
+Semuenzaniso, rimwe sangano ratakaongorora raiva rabatanidzwa nemabhizimusi maviri raida kuti kambani ikasire kubatanidza mabhizinesi matsva uye kuronga patsva zvakare kuitira kuti zvipindirane nezvinodikwa pakuti bhizinesi rikure.	Kubatanidza makambani maviri kuumba sangano rimwe nekuronga patsva zvakakonzera mhirizhonga panzvimbo yepabasa.	1
+Semuenzaniso, rimwe sangano ratakaongorora raiva rabatanidzwa nemabhizimusi maviri raida kuti kambani ikasire kubatanidza mabhizinesi matsva uye kuronga patsva zvakare kuitira kuti zvipindirane nezvinodikwa pakuti bhizinesi rikure.	Takaongorora kambani yanga yabatanidza mabhizimusi maviri tikatozokasira kuronga patsva kuti tiite zvinoenderana nezvinoda bhizinesi ravo.	0
+Magadzirirwo, taive nekushungurudzika kuti mubhadharo utenderwe tisati tanyatsoona kuti vanhu vafamba.	Taiziva kuti kubhadhara kuchanonokesa.	2
+Magadzirirwo, taive nekushungurudzika kuti mubhadharo utenderwe tisati tanyatsoona kuti vanhu vafamba.	Taifunga kuti kubhadhara kuchaitwa pasati paita cherechedzo yekuti ndizvo here.	0
+Magadzirirwo, taive nekushungurudzika kuti mubhadharo utenderwe tisati tanyatsoona kuti vanhu vafamba.	Taifunga kuti mari yatakabhadhara inokasira kuenda tikazobirwa.	1
+Tekinoroji yakanyanyopindana nematanho ebhizinesi mumasangano aya nekuti tekinoroji inoonekwa seinoita kuti bhizinesi riite, kwete semudziyo wekushandisa.	Chirongwa chemakombiyuta chekuronga zviri mberi chemhando yepamusoro ndiyo imwe yetekinoroji dzakakosha dzinonyanyodiwa nemabhizinesi. 	1
+Tekinoroji yakanyanyopindana nematanho ebhizinesi mumasangano aya nekuti tekinoroji inoonekwa seinoita kuti bhizinesi riite, kwete semudziyo wekushandisa.	Tekinoroji ungori mudziyo kwete chinoitisa kuti bhizinesi riite.	2
+Tekinoroji yakanyanyopindana nematanho ebhizinesi mumasangano aya nekuti tekinoroji inoonekwa seinoita kuti bhizinesi riite, kwete semudziyo wekushandisa.	Mabhizinesi aya anoisa tsinhidziro yakawanda patekinoroji.	0
+Pfungwa mbiri dzinobuda zvakanyanya muzvinyorwa dzinogona kuzobatsira kupamazano mutsvakurudzo dzemangwana.	Zvinyorwa zvinogona kushandura maongororero atinoita masemburu edu.	1
+Pfungwa mbiri dzinobuda zvakanyanya muzvinyorwa dzinogona kuzobatsira kupamazano mutsvakurudzo dzemangwana.	Zvinyorwa zvinogona kushandura tsvakurudzo dzekumberi.	0
+Pfungwa mbiri dzinobuda zvakanyanya muzvinyorwa dzinogona kuzobatsira kupamazano mutsvakurudzo dzemangwana.	Hapana zvimwe zvekuita munyaya dzekushandura tsvakurudzo.	2
+Maraini akaita mabhokisi anoratidza nzvimbo yehutano hwevatumiri vetsamba zvakabatanidzwa uye maraini ane ngoda anoratidza kurasika kwekuenda kunoshandira kune rimwe bato.	Maraini anohwerengedza kuti magariro evatumiri vematsamba ari panzvimbo yezvikamu gumi kubva muzana.	1
+Maraini akaita mabhokisi anoratidza nzvimbo yehutano hwevatumiri vetsamba zvakabatanidzwa uye maraini ane ngoda anoratidza kurasika kwekuenda kunoshandira kune rimwe bato.	Maraini haaratidze chimwe chinhu kunze kwenzira.	2
+Maraini akaita mabhokisi anoratidza nzvimbo yehutano hwevatumiri vetsamba zvakabatanidzwa uye maraini ane ngoda anoratidza kurasika kwekuenda kunoshandira kune rimwe bato.	Maraini anoratidza huwandu hwehutano huri muvatumiri vematsamba	0
+Zvichienderana nekuongorora kwenjodzi uku, Centrelink yakagadzira nzira dzakasiyana dzekudzivirira dzakanangana nekudzidzisa vanobatsirwa nevashandirwi nezvezvinodiwa zvekuzivisa mari.	Centrelink yaisaziva nzira yekugadzirisa dambudziko.	2
+Zvichienderana nekuongorora kwenjodzi uku, Centrelink yakagadzira nzira dzakasiyana dzekudzivirira dzakanangana nekudzidzisa vanobatsirwa nevashandirwi nezvezvinodiwa zvekuzivisa mari.	Centrelink yaive nenzira dzakawanda dzekudzidzisa vanhu kuripota mari yaipinda nekuti hurumende yairasikirwa nemari yakawanda nekuda kwemhosho.	1
+Zvichienderana nekuongorora kwenjodzi uku, Centrelink yakagadzira nzira dzakasiyana dzekudzivirira dzakanangana nekudzidzisa vanobatsirwa nevashandirwi nezvezvinodiwa zvekuzivisa mari.	Centerlink yaive nenzira dzakawanda dzekudzidzisa vanhu kuripota mari yaipinda.	0
+Vakatendera ratidziro dzedesign kambani isati yaisa mari yakawanda mumidziyo nematurusi ekugadzira mapurototaipi apachinhanho cheratidziro. 	Zvino vaigona kuratidza mashandiro aiita design.	0
+Vakatendera ratidziro dzedesign kambani isati yaisa mari yakawanda mumidziyo nematurusi ekugadzira mapurototaipi apachinhanho cheratidziro. 	Vaigona kuratidza kambani kuti yanga isina ruzivo kuvaka mafekitari matsva.	1
+Vakatendera ratidziro dzedesign kambani isati yaisa mari yakawanda mumidziyo nematurusi ekugadzira mapurototaipi apachinhanho cheratidziro. 	Vanga vasina ruzivo rwekuratidzira kukosha kwekushandisa upfumi kuti hugobudisa humwe hwakawanda.	2
+Kushandira pamwe kweSouth Carolina  kwakabudisa imwe budiriro gore rakatevera.	Hapana muSouth Carolina vakashanda pamwe.	2
+Kushandira pamwe kweSouth Carolina  kwakabudisa imwe budiriro gore rakatevera.	SC yakashanda pamwe.	0
+Kushandira pamwe kweSouth Carolina  kwakabudisa imwe budiriro gore rakatevera.	Mademocrat nemarepublican ku South Carolina ari kushanda pamwe.	1
+Sekureva kwemumwe ari paBhodi,  zvitupa zvechikamu 605(b) zveBhodi hazvina kupihwa pakasiyana kune Small Business Administration (SBA) Chief Counsel for Advocacy.	Bhodhi harina kupa SBA mapepa emvumo uye vakazvisiira hofisi yevaongorori.	1
+Sekureva kwemumwe ari paBhodi,  zvitupa zvechikamu 605(b) zveBhodi hazvina kupihwa pakasiyana kune Small Business Administration (SBA) Chief Counsel for Advocacy.	Bhodhi harina kupa SBA mapepa emvumo.	0
+Sekureva kwemumwe ari paBhodi,  zvitupa zvechikamu 605(b) zveBhodi hazvina kupihwa pakasiyana kune Small Business Administration (SBA) Chief Counsel for Advocacy.	Bhodhi raipa SBA mapepa emvumo zuva rega rega kune wese aikumbira rimwe.	2
+Kana paita kupindirana kwemitengo yemahotera nezvimwewo ongororo yemafambiro acho ndopainozoitwa.	Midodo yemahotera mazhinji enyika inotambira macard ezvikwereti pakubhadhara.	1
+Kana paita kupindirana kwemitengo yemahotera nezvimwewo ongororo yemafambiro acho ndopainozoitwa.	Rwendo pachezvarwo rwunozoongororwa kuchishandiswa mari dzinobhadharwa muhotera.	0
+Kana paita kupindirana kwemitengo yemahotera nezvimwewo ongororo yemafambiro acho ndopainozoitwa.	Hapana nzira yekuongorora kuti rwendo rwakaendwa here kana kuti kwete.	2
+Semuenzaniso, rimwe guta guru redunhu ratakashanyira ine makambani eSoftware anodarika mazana matanhatu.	Madhorobha mahombe ndiwo nzvimbo dzakanakisa dzemakambani eSoftware.	1
+Semuenzaniso, rimwe guta guru redunhu ratakashanyira ine makambani eSoftware anodarika mazana matanhatu.	Dhorobha rimwe rine churu chemakambani eSoftware.	0
+Semuenzaniso, rimwe guta guru redunhu ratakashanyira ine makambani eSoftware anodarika mazana matanhatu.	Makambani eSoftware anowanzosada madhorobha nezvikonzero zvemitemo.	2
+Mukupima kunyatsokuita kwazvo, kugona zvese hakuitike.	Unogona kugona zvese ukanyatsoshingirira chaizvo.	2
+Mukupima kunyatsokuita kwazvo, kugona zvese hakuitike.	Haungambogoni zvese.	0
+Mukupima kunyatsokuita kwazvo, kugona zvese hakuitike.	Haungagoni zvese nekuti tese tiri vanhu vekutadza .	1
+Waaigara naye mumba airendesa imba kuna Hazmi naMihdar nguva ya2000 chizvarwa chemunyika chinochengetedza mutemo chichinozikanwa chose, ane ushamwari nevamwe kumapurisa nevashandi veFBI.	Hazmi na Mihdar vakatenga imba uye havana wavakazotaura naye..	2
+Waaigara naye mumba airendesa imba kuna Hazmi naMihdar nguva ya2000 chizvarwa chemunyika chinochengetedza mutemo chichinozikanwa chose, ane ushamwari nevamwe kumapurisa nevashandi veFBI.	Hazmi na Mihdar vairenda kamuri kwegore rese nemari inota madhora mazana mashanu pazuva.	1
+Waaigara naye mumba airendesa imba kuna Hazmi naMihdar nguva ya2000 chizvarwa chemunyika chinochengetedza mutemo chichinozikanwa chose, ane ushamwari nevamwe kumapurisa nevashandi veFBI.	Hazmi na Mihdar vairenda kamuri.	0
+Nezvemafambire avakaita kuenda kuBosnia, tarisai chinyorwa chezvechenjedzo , kubvunzurudzwa kwenhengo ye Saudi al Qaeda, munaGumiguru zuva rechitatu muna 2001.	Nhengo ye al Qaeda yakaenda kuBosnia nzendo dzinoita gumi nesere muna 2001.	1
+Nezvemafambire avakaita kuenda kuBosnia, tarisai chinyorwa chezvechenjedzo , kubvunzurudzwa kwenhengo ye Saudi al Qaeda, munaGumiguru zuva rechitatu muna 2001.	Nhengo yeal Qaeda yakaenda kuBosnia.	0
+Nezvemafambire avakaita kuenda kuBosnia, tarisai chinyorwa chezvechenjedzo , kubvunzurudzwa kwenhengo ye Saudi al Qaeda, munaGumiguru zuva rechitatu muna 2001.	Hapana umbowo hwenhengo yeal Qaeda ichienda kuBosnia.	2
+Jane akakumbira mushandi weNew York akaiswa kune zvekutsvaka Mihdar  kusaina fomu remvumo reFISA zvichiratidza kuti mushandi ainzwisisa mabatiro aaifanira kuzoita nyaya dzeFISA.	Jane akakumbira kuti fomu remvumo reFISA  risainwe nemutongi.	1
+Jane akakumbira mushandi weNew York akaiswa kune zvekutsvaka Mihdar  kusaina fomu remvumo reFISA zvichiratidza kuti mushandi ainzwisisa mabatiro aaifanira kuzoita nyaya dzeFISA.	Jane akakumbira kusainirwa fomu remvumo reFISA.	0
+Jane akakumbira mushandi weNew York akaiswa kune zvekutsvaka Mihdar  kusaina fomu remvumo reFISA zvichiratidza kuti mushandi ainzwisisa mabatiro aaifanira kuzoita nyaya dzeFISA.	Jane akati hakuna fomu remvumo reFISA rine basa.	2
+Hapana chiri kubuda sechisina kumira zvakanaka pane chainyatsocherekedzwa chiine basa maererano neongororo yepagedhe .	Umboo hunovhundutsa hwakabatwa paiitwa ongororo yepagedhi repaongororo.	2
+Hapana chiri kubuda sechisina kumira zvakanaka pane chainyatsocherekedzwa chiine basa maererano neongororo yepagedhe .	Ongororo dzepagedhi rekusecha dzinosimbiswa chete  nekugona kunyumwa  kwemushandi anoongorora mikwende inopinda munyika paanenge achiita ongororo.	1
+Hapana chiri kubuda sechisina kumira zvakanaka pane chainyatsocherekedzwa chiine basa maererano neongororo yepagedhe .	Ongororo yepagedhe reongororo haina kuwana umbowo hunovabata.	0
+Khallad azopa nhoroondo yechipiri, inoti vese vatatu vakaenda pamwe chete  kuKarachi.	Khallad akati hapana zvaaiziva nezvevatatu ava.	2
+Khallad azopa nhoroondo yechipiri, inoti vese vatatu vakaenda pamwe chete  kuKarachi.	Khallad akati vatatu ava vanogona kunge vakaenda pamwe chete.	0
+Khallad azopa nhoroondo yechipiri, inoti vese vatatu vakaenda pamwe chete  kuKarachi.	Khallad akati paive nemukana wemakumi mashanu muzana wekuti vatatu ava vakaenda pamwe chete kuKarachi muna Gumiguru	1
+Mhangaro yenjere, kubvunzurudzwa kwaBimalshibh, mwedzi waGumiguru zuva rekutanga gore ra2002.	Binalshibh akabvunzurudzwa nebato reFBI.	1
+Mhangaro yenjere, kubvunzurudzwa kwaBimalshibh, mwedzi waGumiguru zuva rekutanga gore ra2002.	Binalshibh  akabvunzurudzwa mugore ra2002.	0
+Mhangaro yenjere, kubvunzurudzwa kwaBimalshibh, mwedzi waGumiguru zuva rekutanga gore ra2002.	Binalshibh haana kumbotaurwa naye, ndobva atoshayikwa.	2
+Mihdar akawana vhiza idzva reku U.S mazuva maviri musangano we CIA-FBI wapera muNewYork.	Mihdar aiva ne vhiza rekuUS rekupinda munyika.	0
+Mihdar akawana vhiza idzva reku U.S mazuva maviri musangano we CIA-FBI wapera muNewYork.	Mihdar haana kumbowana vhiza saka haana kuuya kuUS.	2
+Mihdar akawana vhiza idzva reku U.S mazuva maviri musangano we CIA-FBI wapera muNewYork.	Mihdar akapiwa vhiza nekuti anga asina chaangatyisa .	1
+Zvisinei nemakore maviri akapera kuchiitwa tsvagiridzo, FBI yakatadza kuwana mumwe aaishanda naye kana kuziva kuti aive ani chaiye .	FBI yakatadza chero kuwana murume uyu paakabuda muFlorida muna2001.	1
+Zvisinei nemakore maviri akapera kuchiitwa tsvagiridzo, FBI yakatadza kuwana mumwe aaishanda naye kana kuziva kuti aive ani chaiye .	FBI yakatadza kuziva kuti murume uyu anga ari ani.	0
+Zvisinei nemakore maviri akapera kuchiitwa tsvagiridzo, FBI yakatadza kuwana mumwe aaishanda naye kana kuziva kuti aive ani chaiye .	FBI yakaziva kuti murume aiva ani ikamuisa mujeri.	2
+Pari panya  yeAmerican 11, kufambiswa kwemashoko kune musoro kwekupedzisira  kubva kundege kwakaitwa nenguva dzemaawa masere nemaminiti gumi nematatu mangwanani.	Paifambiswa mashoko kubva kuAmerican11.	0
+Pari panya  yeAmerican 11, kufambiswa kwemashoko kune musoro kwekupedzisira  kubva kundege kwakaitwa nenguva dzemaawa masere nemaminiti gumi nematatu mangwanani.	Paifambiswa mashoko  kubva kuAmerican 11 mushure memaminitsi mashanu ega ega.	1
+Pari panya  yeAmerican 11, kufambiswa kwemashoko kune musoro kwekupedzisira  kubva kundege kwakaitwa nenguva dzemaawa masere nemaminiti gumi nematatu mangwanani.	Hapana kumbofambiswa mashoko kubva ku American 11.	2
+Kuri kuzviwana, zvaizoda kubatana nekukasira uye kune udzamu kubva kuhurumende ye German, kunova kwaizogona kunetsa kuwana.	Kana ikapedzwa ongororo, inogona kuratidza nzvimbo ine vasungwa vatatu vakatiza.	1
+Kuri kuzviwana, zvaizoda kubatana nekukasira uye kune udzamu kubva kuhurumende ye German, kunova kwaizogona kunetsa kuwana.	Hurumende yeGerman inogona kunge yakanetseka nekuita tsvakurudzo nekukasira uye ine udzamu.	0
+Kuri kuzviwana, zvaizoda kubatana nekukasira uye kune udzamu kubva kuhurumende ye German, kunova kwaizogona kunetsa kuwana.	Tsvagurudzo inenge isina kugozha uye iri nyore chose  kuti hurumende iite.	2
+Zvinoita kuti zvibudirire izvi zvaive zvisina kukwana asi hapana zvakawanda zvakaitwa kuzviwedzera kana kuzvigadzirisa. 	Havana kushandura chirongwa chavo chekuongorora zvakanyanya.	1
+Zvinoita kuti zvibudirire izvi zvaive zvisina kukwana asi hapana zvakawanda zvakaitwa kuzviwedzera kana kuzvigadzirisa. 	Hapana zvavakanyanyoita kushandura zvinhu.	0
+Zvinoita kuti zvibudirire izvi zvaive zvisina kukwana asi hapana zvakawanda zvakaitwa kuzviwedzera kana kuzvigadzirisa. 	Vakaita zvakawanda kushandura zvinhu zvese.	2
+Email yemuongorori, asi inoratidza kuti aivhiringidza  tumitemo netumhingamupinyi twemutemo  twakawanda kunyaya dzekugovera mashoko uye mitemo inotungamiririra kushandiswa kwemashoko nevanoita mhosva dzechitsotsi atsvakwa kubudikidza nenzira dzeuchenjerii..	Muongorori akapa ongororo yakanyatsojeka	2
+Email yemuongorori, asi inoratidza kuti aivhiringidza  tumitemo netumhingamupinyi twemutemo  twakawanda kunyaya dzekugovera mashoko uye mitemo inotungamiririra kushandiswa kwemashoko nevanoita mhosva dzechitsotsi atsvakwa kubudikidza nenzira dzeuchenjerii..	Muongorori haana kujekesa zvinhu zvakawanda.	0
+Email yemuongorori, asi inoratidza kuti aivhiringidza  tumitemo netumhingamupinyi twemutemo  twakawanda kunyaya dzekugovera mashoko uye mitemo inotungamiririra kushandiswa kwemashoko nevanoita mhosva dzechitsotsi atsvakwa kubudikidza nenzira dzeuchenjerii..	Ripoti yemuongorori yanga yakakanganisika zvekuti hapana akakwanisa kuiverenga.	1
+Vamwe vashandi vemuhofisi vakapiwa basa rekubetsera kubvisa vaiva kustairwell vamwe vakaiswa kunobvisa vaiva muPlaza, Concourse nechitesh chePath.	Vashandi vemuhofisi vakapiwa zvekuita.	0
+Vamwe vashandi vemuhofisi vakapiwa basa rekubetsera kubvisa vaiva kustairwell vamwe vakaiswa kunobvisa vaiva muPlaza, Concourse nechitesh chePath.	Vashandi vemuhofisi vaingomhanya chero kwavaidikwa.	2
+Vamwe vashandi vemuhofisi vakapiwa basa rekubetsera kubvisa vaiva kustairwell vamwe vakaiswa kunobvisa vaiva muPlaza, Concourse nechitesh chePath.	Vashandi vemuhofisi vaipiwa kwekuenda zvichibva nehukuru hwavo.	1
+Musi wa9 Chikunguru, nhau dzinoshamisa dzakasvika kubva kuAfganistan.	Takwana nhau kubva kuAfghanistan.	0
+Musi wa9 Chikunguru, nhau dzinoshamisa dzakasvika kubva kuAfganistan.	Hatina chatakanzwa kubva ku Afganstan kusvika muna Gumiguru	2
+Musi wa9 Chikunguru, nhau dzinoshamisa dzakasvika kubva kuAfganistan.	Takaudzwa nezvekuuya kwekurwiswa kwemuna Chikunguru zuva repfumbamwe. 	1
+Kutadza kufambisa mashoko changa chiri chinhu chakakosha kuWorld Trade Center, Pentagon, neSomerset County, Pennsylvania, nzvimbo dzakaitikira tsaona kunova kune mapato anomiririra nehutongi hwakasiyana siyana hwakatirimuka. 	Mashoko akafambiswa zvakanyatsonaka zuva regumi nerimwe mwedzi wepfumbamwe.	2
+Kutadza kufambisa mashoko changa chiri chinhu chakakosha kuWorld Trade Center, Pentagon, neSomerset County, Pennsylvania, nzvimbo dzakaitikira tsaona kunova kune mapato anomiririra nehutongi hwakasiyana siyana hwakatirimuka. 	Vanhu vakava nenguva yakaoma kufambisa mashoko paWorld Trade center nekuti magetsi anga aenda tambo dzenhare dzadonha.	1
+Kutadza kufambisa mashoko changa chiri chinhu chakakosha kuWorld Trade Center, Pentagon, neSomerset County, Pennsylvania, nzvimbo dzakaitikira tsaona kunova kune mapato anomiririra nehutongi hwakasiyana siyana hwakatirimuka. 	Vanhu vakava nenguva yakaoma kufambisa mashoko paWorld Trade center.	0
+Tsvakurudzo yemadhatabhesi aripo ingadai yakabudisa zvitambi zvekudhiraivha, nhamba dzemota, nedzenhare.	Vaongorori vakakumbirawo kuti vaone madhatabhesi ezvebasa.	1
+Tsvakurudzo yemadhatabhesi aripo ingadai yakabudisa zvitambi zvekudhiraivha, nhamba dzemota, nedzenhare.	Marudzi akawanda eruzivo aivamo mumadhatabhesi agara aripo.	0
+Tsvakurudzo yemadhatabhesi aripo ingadai yakabudisa zvitambi zvekudhiraivha, nhamba dzemota, nedzenhare.	Panga pasina nzira yekuwana ruzivo pamusoro pezvidzidzo uchishandisa zvinyorwa zviripo.	2
+Achiti aive asingagutsikani nezvese zvakaitwa, mutungamiri akazviparadzanisa kubva kunaHazmi and Mihdhar, asi kwete vasati vawana rubatsiro rwavaida.	Mutungamiri akabva angobata vakuru vemutemo ipapo ndokuramba kubatsira munyaya iyi.	2
+Achiti aive asingagutsikani nezvese zvakaitwa, mutungamiri akazviparadzanisa kubva kunaHazmi and Mihdhar, asi kwete vasati vawana rubatsiro rwavaida.	Mutungamiri wesangano akapa rubatsiro zvisinei nekusagutsikana kwake.	0
+Achiti aive asingagutsikani nezvese zvakaitwa, mutungamiri akazviparadzanisa kubva kunaHazmi and Mihdhar, asi kwete vasati vawana rubatsiro rwavaida.	Rubatsiro rwaive rwe mari nekubetsera kuwana mapepa ekufambisa.	1
+Mugore ra2003, mazita aya akabviswa; nyaya dzose dzeutororo munyika dzose dzaakupiwa zita rimwe, 315.	Nyaya dzese dzeutororo dzinopiwa chitambi chepamusoro kuti dzekukosha.	1
+Mugore ra2003, mazita aya akabviswa; nyaya dzose dzeutororo munyika dzose dzaakupiwa zita rimwe, 315.	Nyaya dzese dzeutororo dzinowana chitambi chimwe.	0
+Mugore ra2003, mazita aya akabviswa; nyaya dzose dzeutororo munyika dzose dzaakupiwa zita rimwe, 315.	Nyaya yese yeutororo inotongwa yoerwa pachezvayo.	2
+Mushandi wemuhofisi akanga aona South Tower ichidonha, akamhangara kuzvikamu zve ESU mu North Tower murayiro yake yekuti vanhu vabude.	Hapana akasara ari muNorth Tower mushure mekunge South Tower yadonha.	2
+Mushandi wemuhofisi akanga aona South Tower ichidonha, akamhangara kuzvikamu zve ESU mu North Tower murayiro yake yekuti vanhu vabude.	South Tower yakadonha maminiti makumi matatu mushandi wemuhofisi asati ataura kuzvikwata zveESU muNorth Tower.	1
+Mushandi wemuhofisi akanga aona South Tower ichidonha, akamhangara kuzvikamu zve ESU mu North Tower murayiro yake yekuti vanhu vabude.	Mushandi wemuhofisi akaona kudonha kweSouth tower.	0
+Indianapolis ndiyo pachokwadi imwe yenzvimbo dzakanakisisa dzekuti vatambi vashandire vakawanda.	Vatambi vanoda Indianapolis nekuda  kwevese vanoita zvekusarudza vatambi variko.	1
+Indianapolis ndiyo pachokwadi imwe yenzvimbo dzakanakisisa dzekuti vatambi vashandire vakawanda.	Kana urimutambi, unofanira kufunga nezvekunogara kuIndianapolis.	0
+Indianapolis ndiyo pachokwadi imwe yenzvimbo dzakanakisisa dzekuti vatambi vashandire vakawanda.	Zvakaoma kuwana basa muIndianapolis kana uri mumafirimu kana bhizinesi remitambo sekuti inzvimbo kunyanya yetekinoroji. 	2
+Tinopa rubatsiro nenhare maawa makumi maviri nemana pazuva, mazuva manomwe pavhiki kubudikidza ne Prevention Information Resource Center &amp; Parent Help line.	Vanhu vanongogona kutibata kubudikidza netsamba kana vachishandisa email.	2
+Tinopa rubatsiro nenhare maawa makumi maviri nemana pazuva, mazuva manomwe pavhiki kubudikidza ne Prevention Information Resource Center &amp; Parent Help line.	Tinobatika nerunhare chero nguva pazuva.	0
+Tinopa rubatsiro nenhare maawa makumi maviri nemana pazuva, mazuva manomwe pavhiki kubudikidza ne Prevention Information Resource Center &amp; Parent Help line.	Tinogashira nhare dzinodarika zana muvhuro nechishanu chega chega .	1
+Nekuti mabhokisi aya achagara mumaputiro awo zvimwe zvipo zvese zvavhurwa,	Mabhokisi ane mabhomba anokuvadza.	1
+Nekuti mabhokisi aya achagara mumaputiro awo zvimwe zvipo zvese zvavhurwa,	Mabhokisi awa achatanga kuvhurwa zvimwe zvipo zvisati zvavhurwa	2
+Nekuti mabhokisi aya achagara mumaputiro awo zvimwe zvipo zvese zvavhurwa,	Mabhokisi aya achambogara akavharwa kwenguva yakati rebei.	0
+Tikachengeta mitengo yedu iri pasi, tinofanira kuuya kwamuri, vateereri vedu, kukumbira zvamungakwanisa kupa kuti zvitibetsere kubudisa chinangwa ichi.	Kuti tiite kuti mutengo wematikiti edu uve pasi pemadhora gumi, tinoda vese vevateereri vedu kupa rubatsito rwemadhora makumi maviri nemashanu.	1
+Tikachengeta mitengo yedu iri pasi, tinofanira kuuya kwamuri, vateereri vedu, kukumbira zvamungakwanisa kupa kuti zvitibetsere kubudisa chinangwa ichi.	Taigona kuita kuti mitengo yedu irambe yakadzikira kana tainyatsoda, tisina mari yenyu, asi shefu vedu vanoda zvinhu zvakavanakira.	2
+Tikachengeta mitengo yedu iri pasi, tinofanira kuuya kwamuri, vateereri vedu, kukumbira zvamungakwanisa kupa kuti zvitibetsere kubudisa chinangwa ichi.	Zvamunogona kutipa zvinotibetsera kuti mitengo yedu irambe yakadzika.	0
+00 akabatsira kuti zvigoneke kuti tipe gwara, kurudziro, nemufaro kuvana vanovavarira mazana mana venzvimbo yeIndianapolis.	Tinopa rutendo kune vakatipa rubatsiro rwakasununguka , takakwanisa kukoka Beyonce kuti aite konzeti yenherera dzemuIndianapolis.	1
+00 akabatsira kuti zvigoneke kuti tipe gwara, kurudziro, nemufaro kuvana vanovavarira mazana mana venzvimbo yeIndianapolis.	Taive netariro yekuitira vana mutambo wekisimisi asi hatina kumbobvira tagona kuvaitira chinhu.	2
+00 akabatsira kuti zvigoneke kuti tipe gwara, kurudziro, nemufaro kuvana vanovavarira mazana mana venzvimbo yeIndianapolis.	Takakwanisa kubetsera vana vakawanda vemuIndianapolis.	0
+Pekutanga, vanhu vaitora chikamu nekupa chipo chechuru chemadhora kana kudarika pagore  cheChancellor's Circle kana chemazana mashanu emadhora kana kudarika cheChancellors Associates.	Vanhu vanogona kutora chikamu kana vaparubatsiro rudiki rwemadhora makumi mashanu.	2
+Pekutanga, vanhu vaitora chikamu nekupa chipo chechuru chemadhora kana kudarika pagore  cheChancellor's Circle kana chemazana mashanu emadhora kana kudarika cheChancellors Associates.	Vanhu vanogona kutora chikamu kana vapa rubatsiro rwakakura zvinokodzera.	0
+Pekutanga, vanhu vaitora chikamu nekupa chipo chechuru chemadhora kana kudarika pagore  cheChancellor's Circle kana chemazana mashanu emadhora kana kudarika cheChancellors Associates.	Vanhu vazhinji vanowanzosarudza kupa rubatsiro ku Chancellors Associates.	1
+Chipo chako panguva dzino chinogona kukupa rumwe rubatsiro pamutero wekupera kwegore.	Ukaita chipo chinotangira pachuru chemadhora, unokwanisa kubatsirika nekubvisirwa mutero.	1
+Chipo chako panguva dzino chinogona kukupa rumwe rubatsiro pamutero wekupera kwegore.	Kushata kwazvo, vanotiparuzivo nezvemitero vanokupai yambiro kuti usapa zvipo.	2
+Chipo chako panguva dzino chinogona kukupa rumwe rubatsiro pamutero wekupera kwegore.	Munogona kubvisirwa mitero kubva kurubatsiro rwenyu.	0
+Sezvamunoziva, kuvanhengo yeboka rino zvinosanganisira idzo shamwari nevakambodzidza pano vanopa churu chemadhora kana kupfuura pagore rega rega kuchikoro chemutemo.	Vamwe vanhu veboka vakapa rubatsiro rwemazana ezvuru kuchikoro.	1
+Sezvamunoziva, kuvanhengo yeboka rino zvinosanganisira idzo shamwari nevakambodzidza pano vanopa churu chemadhora kana kupfuura pagore rega rega kuchikoro chemutemo.	Tine vanhu vari muboka rino vakapa madhora anodarika churu kuchikoro chemutemo.	0
+Sezvamunoziva, kuvanhengo yeboka rino zvinosanganisira idzo shamwari nevakambodzidza pano vanopa churu chemadhora kana kupfuura pagore rega rega kuchikoro chemutemo.	Tiri kuronga kukumbira boka rino kupa mari kuchikoro, asi hatina kumbobvira takadaro.	2
+Semwana aikura mumakore emakumi mashanu, imwe yendangariro dzangu dzinofadza kuenda kumitambo yaibudiswa neCIvic Theatre. 	Ndaivenga kuenda kuzviratidzwa zvekudandaro semwana mudiki, ndosaka ndakazoita saindisiti. 	2
+Semwana aikura mumakore emakumi mashanu, imwe yendangariro dzangu dzinofadza kuenda kumitambo yaibudiswa neCIvic Theatre. 	Ndaifarira kuenda kudandaro ndiri mudiki.	0
+Semwana aikura mumakore emakumi mashanu, imwe yendangariro dzangu dzinofadza kuenda kumitambo yaibudiswa neCIvic Theatre. 	Mutambo weCivic Theatre wandaifarira wainzi Beauty and the Beast.	1
+Kana wese anowana tsamba iyi akangopa chero madhora gumi nemasere.	Wese achawana tsamba iyi: usape mari yako, ndezvechitsotsi.	2
+Kana wese anowana tsamba iyi akangopa chero madhora gumi nemasere.	Ukabvisa mari yerubatsiro madhora gumi nemasere, tinokupa chipo.	1
+Kana wese anowana tsamba iyi akangopa chero madhora gumi nemasere.	Tinovimba vese vakapiwa matsamba vachatipa rubatsiro rwemadhora gumi nemasere.	0
+Chingobvisa chepasi, wona zviripo zvinogona kupindapo, chinja kero yako kana zvichikodzera wotumira muhamvuropu yakavharwa.	Tapota musachinja chinhu pakero dzenyu.	2
+Chingobvisa chepasi, wona zviripo zvinogona kupindapo, chinja kero yako kana zvichikodzera wotumira muhamvuropu yakavharwa.	Mune hamvuropu chena mukati ine kero yako.	1
+Chingobvisa chepasi, wona zviripo zvinogona kupindapo, chinja kero yako kana zvichikodzera wotumira muhamvuropu yakavharwa.	Munogona kuchinja kero yenyu kana muchiona paine kodzero.	0
+Chikoro cheukoti chinoda rubatsiro rwenyu rwakasununguka kuti chienderere mberi uye kusimudzira ushasha hwacho mudzidzo.	Tapota ipai rubatsiro rwemadhora mamiriyoni zana kuchikoro cheukoti, kana kuti munorashikirwa nekuratidzika kunoyemurika.	1
+Chikoro cheukoti chinoda rubatsiro rwenyu rwakasununguka kuti chienderere mberi uye kusimudzira ushasha hwacho mudzidzo.	Chikoro cheukoti chakazadzisa chinangwa chayo chemari, saka haichdi imwe mari zvakare.	2
+Chikoro cheukoti chinoda rubatsiro rwenyu rwakasununguka kuti chienderere mberi uye kusimudzira ushasha hwacho mudzidzo.	Tinovimba muchapa rubatsiro kuchikoro cheukoti.	0
+Zvikamu zvisere muzana yevakapinda muchirongwa vachazivisa nezvekuwedzera kweunyanzvi hwekugadzirisa kupokana.	Vanodarika hafu yevakapinda muchirongwa vachazivisa kuwedzera kweunyanzvi hwekugadzirisa kupokana.	0
+Zvikamu zvisere muzana yevakapinda muchirongwa vachazivisa nezvekuwedzera kweunyanzvi hwekugadzirisa kupokana.	Chikamu chimwe muzvina chete chevakapinda muchirongwa chichazivisa nezvekuwedzera kweunyanzvi hwezvekugadzirisa kupokana.	2
+Zvikamu zvisere muzana yevakapinda muchirongwa vachazivisa nezvekuwedzera kweunyanzvi hwekugadzirisa kupokana.	Kwaive nevanopfuura zana vakapinda muchirongwa vakazvimirira.	1
+Tapota musadzokera kumashure kupinda mumazita evaipa rubatsiro vakazomira.	Zvinozonyadzisa ukamira kupa rubatsiro. 	0
+Tapota musadzokera kumashure kupinda mumazita evaipa rubatsiro vakazomira.	Mazita evaitipa rubatsiro vakazomira anotsikiswa kuti pasi rose rione, saka vimbai neni, haudi kuzonyadziswa zvakadaro!	1
+Tapota musadzokera kumashure kupinda mumazita evaipa rubatsiro vakazomira.	Tine vapi verubatsiro vakawanda, tapota mirai kuparubatsiro.	2
+Mukana wekupinda munhandare dzedu unovhurirwa kune munhu wese ane kombiyuta nemodhemu. 	Vanhu havana chavanoda kuti vakwanise kupinda munhandare.	2
+Mukana wekupinda munhandare dzedu unovhurirwa kune munhu wese ane kombiyuta nemodhemu. 	Vanhu vanoda zvese kombiyuta nemodhemu kuti vapinde munhandare.	0
+Mukana wekupinda munhandare dzedu unovhurirwa kune munhu wese ane kombiyuta nemodhemu. 	Vanhu vanofanira kutakura kombiyuta nemodhemu dzavo vachipinda munhandare, kuitira kuti vawane mukana wekupinda.	1
+Kutengesa matikiti nemari dzekunyoresa hazvigoni kutipa mari inopedza mwaka wakazara.	Kana tingori nemari dzekutengesa matikiti nemari dzekunyoresa mwaka wedu wese unenge uine mari yakakwana.	2
+Kutengesa matikiti nemari dzekunyoresa hazvigoni kutipa mari inopedza mwaka wakazara.	Mwaka wedu wakazara unoda mari yakawanda kudarika mari yekutengesa matikiti neyekunyoresa chete.	0
+Kutengesa matikiti nemari dzekunyoresa hazvigoni kutipa mari inopedza mwaka wakazara.	Kutengesa matikiti uye mari dzekunyoresa dzinongokwana zvikamu makumi manomwe muzana zvemari inodiwa kuti tipedze mwaka.	1
+ZVITSVA ZVICHANGOSVIKA CHIPO CHESE CHINOPA MUSIYANO!	Chipo chega chega chinonyorwa choziviswa mujenari redu remwedzi.	1
+ZVITSVA ZVICHANGOSVIKA CHIPO CHESE CHINOPA MUSIYANO!	Chipo chose chapiwa chinobetsera chimwe chinhu.	0
+ZVITSVA ZVICHANGOSVIKA CHIPO CHESE CHINOPA MUSIYANO!	Zvipo zvinodarika madhora zana chete ndizvo zvinoitisa mutsauko.	2
+Tine rwendo rwakakura tisati tasvika pachinangwa chedu chemadhora mazana matatu, nemakumi matanhatu nemashanu kubva kushamwari nevateveri vedu semi.	Chinangwa chedu chemari chinodarika madhora mazana matatu ezvuru.	0
+Tine rwendo rwakakura tisati tasvika pachinangwa chedu chemadhora mazana matatu, nemakumi matanhatu nemashanu kubva kushamwari nevateveri vedu semi.	Tirikutarisira kuvirika rutatu zvinangwa zvedu zvemari.	1
+Tine rwendo rwakakura tisati tasvika pachinangwa chedu chemadhora mazana matatu, nemakumi matanhatu nemashanu kubva kushamwari nevateveri vedu semi.	Hatina miganhu yatingaenzanisa nayo nenyaya dzemari.	2
+Civil Practice Clinic yedu yashanda kwemakore akawanda, uye manje manje takawedzera Criminal defence Clinic.	Civil Practice Clinic yedu yaana nemakore masere ichishanda.	1
+Civil Practice Clinic yedu yashanda kwemakore akawanda, uye manje manje takawedzera Criminal defence Clinic.	Civil practice Clinic yedu iri kupemberera gore rayo rekutanga rakazara ichishanda mwedzi unouya.	2
+Civil Practice Clinic yedu yashanda kwemakore akawanda, uye manje manje takawedzera Criminal defence Clinic.	Civil practice Clinic yashanda kwenguva inodarika gore.	0
+Mari inobva kumatikiti haikwani kubhadhara mitengo yezvirongwa izvi zvese.	Zvinoratidza sekuti mutengo wezvirongwa izvi haugoni kubhadharwa wese nemari inobva kumatikiti.	0
+Mari inobva kumatikiti haikwani kubhadhara mitengo yezvirongwa izvi zvese.	Mutengo wezvirongwa izvi wakakwirira zvakanyanya.	1
+Mari inobva kumatikiti haikwani kubhadhara mitengo yezvirongwa izvi zvese.	Mutengo wetikiti unosanganisira mutengo wezvirongwa izvi.	2
+Rudo runokunda zvose (kunze kwekuti uchishandira  Weekly Standard): Brit Hume ( Nhau dze Fox Svondo ) anofungidzira pakuti nemhaka yei  Lewinsky angarega.  Achiri nerudo kumutungamiri wenyika zvakanyanya zvisina tariro.	Brit Hume ndiye mutauri mukuru wenhau kuFox.	1
+Rudo runokunda zvose (kunze kwekuti uchishandira  Weekly Standard): Brit Hume ( Nhau dze Fox Svondo ) anofungidzira pakuti nemhaka yei  Lewinsky angarega.  Achiri nerudo kumutungamiri wenyika zvakanyanya zvisina tariro.	Brit Hume anoshandira CNN..	2
+Rudo runokunda zvose (kunze kwekuti uchishandira  Weekly Standard): Brit Hume ( Nhau dze Fox Svondo ) anofungidzira pakuti nemhaka yei  Lewinsky angarega.  Achiri nerudo kumutungamiri wenyika zvakanyanya zvisina tariro.	Brit Hume anoshandira Fox.	0
+Zvakawanda zvaitwa nezvekupinzwa basa kwa Michael Apted kuti pave nekahunhu kanonzikwa mukurongwa wemitambo.	Michael Apted akakanganisa firimu nekumanikidzira kuti pabviswe zvese zvairatidza mwoyo wekunzwira wehunhu.	2
+Zvakawanda zvaitwa nezvekupinzwa basa kwa Michael Apted kuti pave nekahunhu kanonzikwa mukurongwa wemitambo.	Michael Apted akapinzwa basa kuti pave nekahunhu mumuronga wemitambo.	0
+Zvakawanda zvaitwa nezvekupinzwa basa kwa Michael Apted kuti pave nekahunhu kanonzikwa mukurongwa wemitambo.	Firimu rakaonekwa sekuti rairatidza kutonhora uye kusvota, saka zvanga zvakakosha kupinza basa Michael Apted kuwedzera kahunhu nekudiwa kwaro	1
+Kuyeva  musikana akapfeka jasi jena rine mamvere nebhutsu.	Musikana apfekera kunotsvedza muchando.	1
+Kuyeva  musikana akapfeka jasi jena rine mamvere nebhutsu.	Musikana anopfeka hembe chena.	0
+Kuyeva  musikana akapfeka jasi jena rine mamvere nebhutsu.	Musikana akapfeka zvitsvuku.	2
+Chisina kuitwa nefirimu  kutaura kuti Kaufman anga agara achitaura kubvisa kwaaida kuzoita rufu rwake. 	Firimu haritauri Kaufman achikurukura nezvekufa kwake.	0
+Chisina kuitwa nefirimu  kutaura kuti Kaufman anga agara achitaura kubvisa kwaaida kuzoita rufu rwake. 	Firimu raive nebvunzurudzo yakadzika naKaufman nezvekufa kwake.	2
+Chisina kuitwa nefirimu  kutaura kuti Kaufman anga agara achitaura kubvisa kwaaida kuzoita rufu rwake. 	Firimu range rinembiri, kunyangwe raisiya nhoroondo yakakosha nezvaKaufman.	1
+Rockfeller akabatwa mukupa zvinoshungurudza pakatanga Avenging Angel Tarbell kubvarura nyama yake munaMcClure.	Rockfeller akapa kutsvagiridzo yegomarara.	1
+Rockfeller akabatwa mukupa zvinoshungurudza pakatanga Avenging Angel Tarbell kubvarura nyama yake munaMcClure.	Rockfeller aipa.	0
+Rockfeller akabatwa mukupa zvinoshungurudza pakatanga Avenging Angel Tarbell kubvarura nyama yake munaMcClure.	Rockfeller ainyima.	2
+Manjemanje, munyaya yezvekutengeserana muNew York, Klayman akazviwana ari rimwe divi rekupomerwa rusarura rudzi.	Klayman akapomerwa mhosva nenyaya yerusarura rudzi kuCalifornia.	2
+Manjemanje, munyaya yezvekutengeserana muNew York, Klayman akazviwana ari rimwe divi rekupomerwa rusarura rudzi.	Klayman haana kutarisira kutongwa nemhosva yekusarura rudzi.	1
+Manjemanje, munyaya yezvekutengeserana muNew York, Klayman akazviwana ari rimwe divi rekupomerwa rusarura rudzi.	Paive nekupomerwa mhosva dzekusarura rudzi kuna Klayman.	0
+Munhu haanganyanyotarisira vamiriri vamakambani vakazadza imba kuridza mheterwa, kusvora nekudaidzira bhuratishiti kumunyori ari panzvimbo wezvemabasa weUS.	Vamiriri vemakambani vanopfeka masutu.	1
+Munhu haanganyanyotarisira vamiriri vamakambani vakazadza imba kuridza mheterwa, kusvora nekudaidzira bhuratishiti kumunyori ari panzvimbo wezvemabasa weUS.	Munhu angatarisira vamiriri vemakambani kuridza mheterwa.	2
+Munhu haanganyanyotarisira vamiriri vamakambani vakazadza imba kuridza mheterwa, kusvora nekudaidzira bhuratishiti kumunyori ari panzvimbo wezvemabasa weUS.	Munhu haangatarisiri vamiriri vemakambani kuridza mheterwa.	0
+Nekuda kwekuti mukudzirwo wemunhu unonyanyoonekera pahunyanzvi wemutambi, hazvirevi kuti kuzvarwa zviri munyama hakubatsiri.	Vanhu vanomhanya vanozvarwa vaine kugona kwavo kwese.	2
+Nekuda kwekuti mukudzirwo wemunhu unonyanyoonekera pahunyanzvi wemutambi, hazvirevi kuti kuzvarwa zviri munyama hakubatsiri.	Kumhanya kunonyanyokonzerwa nekudzidzira pane kuzvarwa zviri mumunhu.	0
+Nekuda kwekuti mukudzirwo wemunhu unonyanyoonekera pahunyanzvi wemutambi, hazvirevi kuti kuzvarwa zviri munyama hakubatsiri.	Vamhanyi vazhinji vanozvikoshesa vanodzidzira maawa masere pazuva.	1
+Ndasvika kumba, ndakanzwa kuti United States inorega kupa zvainositumira nenzira mbiri.	Ndinofarira zvematongerwo enyika.	1
+Ndasvika kumba, ndakanzwa kuti United States inorega kupa zvainositumira nenzira mbiri.	Ndakadzidza pamusoro peUnited Sates.	0
+Ndasvika kumba, ndakanzwa kuti United States inorega kupa zvainositumira nenzira mbiri.	Ndakanzwa kuti United States inorega kupa zvainositumira nenzira mbiri ndisati ndasvika kumba.	2
+Yunivhesiti  yekutsikisa yekaresa uye hombe pasi rese  -Oxford- ichangobva mukuzivisa kuti yavakurega nhetembo dzehurongwa hwezvinhu.	Nhetembo dzehurongwa hwezvinhu  paOxford hadzichacharambi dzichiitwa.	0
+Yunivhesiti  yekutsikisa yekaresa uye hombe pasi rese  -Oxford- ichangobva mukuzivisa kuti yavakurega nhetembo dzehurongwa hwezvinhu.	Yunivhesiti inembiri haina mari yekuti nhetembo dzehurongwa hwezvinhu dzirambe dzichienderera. 	1
+Yunivhesiti  yekutsikisa yekaresa uye hombe pasi rese  -Oxford- ichangobva mukuzivisa kuti yavakurega nhetembo dzehurongwa hwezvinhu.	Yunivhesiti inozvipira kuchengetedza nhetembo dzehurongwa hwezvinhu uye inopika kusadziregedza.	2
+Pane mubairo wekunyaradza vanhu hapo. 	Mubairo wekunyaradza itwo speed blender inopiwa pachena kumunhu wese.	1
+Pane mubairo wekunyaradza vanhu hapo. 	Hapana divi ririnane kuvanhu muchiitiko chakadai.	2
+Pane mubairo wekunyaradza vanhu hapo. 	Idzi hadzisi nyaya dzakangoipa dzega  kuvanhu.	0
+Mitambo haisiyo yega inobhejerwa panzvimbo dzino.	Kubheja nezvematongerwo enyika nesarudzo zvinobvumirwawo panzvimbo idzi. 	1
+Mitambo haisiyo yega inobhejerwa panzvimbo dzino.	Nzvimbo dzino dzinobvuma kubhejera zvemitambo chete. 	2
+Mitambo haisiyo yega inobhejerwa panzvimbo dzino.	Nzvimbo dzino dzinoitirwa zvekubheja pazvinhu zvakawanda.	0
+Musi wa25 Nyamavhuvhu, mushure mekunge Democratic convention yavhurwa muAtlantic City, N.J., Johnson aive nemakore makumi mashanu nematanhatu panguva iyoyo, akatyisidzira munhaurwa nhatu dzakatapwa kuti anobuda musarudzo dzekuva mukuru wenyika	Johnson akanzwa kushaya vanomutsigira. 	1
+Musi wa25 Nyamavhuvhu, mushure mekunge Democratic convention yavhurwa muAtlantic City, N.J., Johnson aive nemakore makumi mashanu nematanhatu panguva iyoyo, akatyisidzira munhaurwa nhatu dzakatapwa kuti anobuda musarudzo dzekuva mukuru wenyika	Johnson haana kumbofunga zvekubuda mazviri.	2
+Musi wa25 Nyamavhuvhu, mushure mekunge Democratic convention yavhurwa muAtlantic City, N.J., Johnson aive nemakore makumi mashanu nematanhatu panguva iyoyo, akatyisidzira munhaurwa nhatu dzakatapwa kuti anobuda musarudzo dzekuva mukuru wenyika	Johnson akatyisidzira achiti anobuda mazviri.	0
+Lamar Alexander akabuda mukwikwidzo yekuva mutungamiri mukuru wenyika.	Pane  mumwe mumwe zvichikwidza akaregedza zvekuedza kuita mutungamiri mukuru	0
+Lamar Alexander akabuda mukwikwidzo yekuva mutungamiri mukuru wenyika.	Lama Alexander akaramba kurega kukwikwidza kuva mutungamiri mukuru.	2
+Lamar Alexander akabuda mukwikwidzo yekuva mutungamiri mukuru wenyika.	VaAlexander vakamanikidzwa kubuda mushure mekunge mifananidzo yavo inonyadzisa yakabudiswa pachena. 	1
+Pamusoro penyaya inosvoresa yekushandisa masimba eruzhinji  zvisizvo, pane kushandiswa zvisina kodzero kweFBI muofffice yetsvakurudzo dzezvekufamba yekutanga yeWhite House uye chaakuzivikanwa se Filegate.	Whitehouse yakatumira vasori veFBI kune vari kukwikwidza zvematongerwo enyika.	1
+Pamusoro penyaya inosvoresa yekushandisa masimba eruzhinji  zvisizvo, pane kushandiswa zvisina kodzero kweFBI muofffice yetsvakurudzo dzezvekufamba yekutanga yeWhite House uye chaakuzivikanwa se Filegate.	Whitehouse inoshandisa FBI zvisizvo.	0
+Pamusoro penyaya inosvoresa yekushandisa masimba eruzhinji  zvisizvo, pane kushandiswa zvisina kodzero kweFBI muofffice yetsvakurudzo dzezvekufamba yekutanga yeWhite House uye chaakuzivikanwa se Filegate.	Whitehouse inoshandisa FBI zvakanaka.	2
+Tung akapika kutevera vanoita nezvekutenga nekutengeswa kwedzimba asi vazhinji vanofunga kuti kutaura kwake kuchadarika kuita kwake basa.	Tung haanei nevanoita zvekutenga nekutengesa dzimba.	2
+Tung akapika kutevera vanoita nezvekutenga nekutengeswa kwedzimba asi vazhinji vanofunga kuti kutaura kwake kuchadarika kuita kwake basa.	Tung ari kufunga kuti vanoongorora nezvekutenga nelkutengesa dzimba vari kuita zvisingatenderwi	1
+Tung akapika kutevera vanoita nezvekutenga nekutengeswa kwedzimba asi vazhinji vanofunga kuti kutaura kwake kuchadarika kuita kwake basa.	Tung anoda kupesvedzera vanoita zvekutenga nekutengesa dzimba	0
+Nyunyuto yaisanganisira matambudziko emitundu mundege, vashandi vemundege vakavanongosunyaira, nenzendo dzendege dzinongokanzurwa uye matambudziko ari munhanho dzokubhadhara.	Vanhu gumi vakashayiwa mitundu yavo.	1
+Nyunyuto yaisanganisira matambudziko emitundu mundege, vashandi vemundege vakavanongosunyaira, nenzendo dzendege dzinongokanzurwa uye matambudziko ari munhanho dzokubhadhara.	Vanhu vakanyunyutira mitundu.	0
+Nyunyuto yaisanganisira matambudziko emitundu mundege, vashandi vemundege vakavanongosunyaira, nenzendo dzendege dzinongokanzurwa uye matambudziko ari munhanho dzokubhadhara.	Panga pasina nyunyuto zvachose.	2
+Lawrence Singleton, bhinya rinozivikanwa akagura umwe weakauraya maoko uye akapedza makore masere ari mujere, asungwa nenyaya yekuuraya nekubaya mumwe mukadzi muFlorida.	Apedza kucheka maoko emumwe wevanhu vaakauraya akaedza kuaviga mumugomo wekuchengetera marara.	1
+Lawrence Singleton, bhinya rinozivikanwa akagura umwe weakauraya maoko uye akapedza makore masere ari mujere, asungwa nenyaya yekuuraya nekubaya mumwe mukadzi muFlorida.	Zvaiva pachena kumunhu wese kuti nguva yavakagara mujere yakamushandura chose.	2
+Lawrence Singleton, bhinya rinozivikanwa akagura umwe weakauraya maoko uye akapedza makore masere ari mujere, asungwa nenyaya yekuuraya nekubaya mumwe mukadzi muFlorida.	VaSingleton munhu akabatwa nemhosva yekubata chibharo KuFlorida.	0
+Charles Lane we New Republic anoti nhau yekutapwa inongowedzera chete mbiri yaGarcaa Marquez yekusavimbika pakubidisa nhau.	Charles Lane mutori wenhau.	0
+Charles Lane we New Republic anoti nhau yekutapwa inongowedzera chete mbiri yaGarcaa Marquez yekusavimbika pakubidisa nhau.	Charles Lane aitengesa mota.	2
+Charles Lane we New Republic anoti nhau yekutapwa inongowedzera chete mbiri yaGarcaa Marquez yekusavimbika pakubidisa nhau.	Charles Lane akahwina Pulitzer.	1
+Kukoti hakusiko kwega kurikuitwa  nhambe tambe yezvematongero enyika muWashington mangwanani ano	Kukoti hakusiko chete kunoitirwa zvematongerao enyika muWashington.	0
+Kukoti hakusiko kwega kurikuitwa  nhambe tambe yezvematongero enyika muWashington mangwanani ano	Zuva rekuita zvemasimba nezvekutongwa kwenyika rinotanga mangwanani.	1
+Kukoti hakusiko kwega kurikuitwa  nhambe tambe yezvematongero enyika muWashington mangwanani ano	Kune nhambe tambe kudare redzimhosva nevanhu varikuita zvisina tsarukano.	2
+Funga hako mutyairi webhurudhoza achicheka nzira munzvimbo itsva achirumbidzwa nemukuru wezvekuvaka. Ndeipi, Loyd ...	Funga hako mutyairi  webhurudhoza achirimutsa.	1
+Funga hako mutyairi webhurudhoza achicheka nzira munzvimbo itsva achirumbidzwa nemukuru wezvekuvaka. Ndeipi, Loyd ...	Funga hako mutyairi webhurudhoza.	0
+Funga hako mutyairi webhurudhoza achicheka nzira munzvimbo itsva achirumbidzwa nemukuru wezvekuvaka. Ndeipi, Loyd ...	Haugoni kufungidzira mutyairi webhurudhoza.	2
+Ndakataura izvi mutsamba yandakanyorera chiremba. Zvakaita sekumunakidza. Ndobva anditumira chikeke chine michero paKisimusi.	Ndine chokwadi kuti chiremba vakawana tsamba yandakavatumira.	0
+Ndakataura izvi mutsamba yandakanyorera chiremba. Zvakaita sekumunakidza. Ndobva anditumira chikeke chine michero paKisimusi.	Handina kudya keke rakatumirwa nachiremba pakirisimasi iyoyo.	1
+Ndakataura izvi mutsamba yandakanyorera chiremba. Zvakaita sekumunakidza. Ndobva anditumira chikeke chine michero paKisimusi.	Chiremba vakanditumira bhodhoro rewaini pakirisimasi.	2
+Chikwata ichi chaimbozikanwa nekudaidzwa zita rekuti Beaneaters, rinogona,  nenzira inoshamisa, kutorwa sezita remadunhurirwa rechiIndian.	Chikwata chakachinja zita racho nekuti ranga risina mbiri.	1
+Chikwata ichi chaimbozikanwa nekudaidzwa zita rekuti Beaneaters, rinogona,  nenzira inoshamisa, kutorwa sezita remadunhurirwa rechiIndian.	Chikwata chaive nezita mumashure meiri raigona kuonekwa sezita remadunhurirwa rechi India.	0
+Chikwata ichi chaimbozikanwa nekudaidzwa zita rekuti Beaneaters, rinogona,  nenzira inoshamisa, kutorwa sezita remadunhurirwa rechiIndian.	Chikwata ichi chakangoita zita rimwe chete.	2
+Ndakashaya  tsanangudzo yakadaro muduramanzwi.	Ndakawana tsanangudzo muduramanzwi.	2
+Ndakashaya  tsanangudzo yakadaro muduramanzwi.	Ndakatarisa muduramanzwi ndikasaona tsanangudzo.	0
+Ndakashaya  tsanangudzo yakadaro muduramanzwi.	Duramanzwi randakashandisa ndiro rine tsanangudzo dzakabvumiranwa.	1
+Munhu anoita zvakadaro sei?	Vanhu vakawanda kudaro vanotadza kuita chinhu sei?	2
+Munhu anoita zvakadaro sei?	Munhu anoita zvakashata kudaro sei?	1
+Munhu anoita zvakadaro sei?	Zvinogoneka sei kuti munhu aite zvakadaro?	0
+Huye, rine manzwi anongozikanwa seakabva mumakore makumi maviri ezvuru,sezviri muchinyorwa chekutanga, asi rinosiya mutauro wakareruka waishandiswa nemasoja enguva yemakumi maviri ezvuru zvemakore.	Sezviri muchinyorwa chekutanga, rine mazwi akasimuka mumakore emakore makumi maviri ezvuru asi hamuna mazwi akareruka akatanga kuuya..	0
+Huye, rine manzwi anongozikanwa seakabva mumakore makumi maviri ezvuru,sezviri muchinyorwa chekutanga, asi rinosiya mutauro wakareruka waishandiswa nemasoja enguva yemakumi maviri ezvuru zvemakore.	Rine mitauro yakareruka yese kubva kutanga kwenguva.	2
+Huye, rine manzwi anongozikanwa seakabva mumakore makumi maviri ezvuru,sezviri muchinyorwa chekutanga, asi rinosiya mutauro wakareruka waishandiswa nemasoja enguva yemakumi maviri ezvuru zvemakore.	Kune mitauro yakareruka yakawanda yekubva kumashure kwe makumi maviri ezvuru.	1
+Kana munhu anga aine dzokorodzo ya1984 anogona kungoitumira zvakare  achifanira kuzotenga bhuku iri pane muwedzeredwa wacho usingadhuri uye usina kurebesa.	Dzokorodzo yemuna1984 ndiyo yakanaka kupfuura dzimwe.	1
+Kana munhu anga aine dzokorodzo ya1984 anogona kungoitumira zvakare  achifanira kuzotenga bhuku iri pane muwedzeredwa wacho usingadhuri uye usina kurebesa.	Bhuku harisi kutengeswa.	2
+Kana munhu anga aine dzokorodzo ya1984 anogona kungoitumira zvakare  achifanira kuzotenga bhuku iri pane muwedzeredwa wacho usingadhuri uye usina kurebesa.	Muwedzeredzwa wacho wakachipa pane bhuku racho.	0
+Bernstein anotsanangudza munhanganyaya.	Bernstein haazvitsananguri zvineudzamu.	1
+Bernstein anotsanangudza munhanganyaya.	Bernstern akangozvitsanangura mumhedziso.	2
+Bernstein anotsanangudza munhanganyaya.	Nhanganyaya ine tsanangudzo.	0
+Hazvisi kukurudzirwa kuti vasungwa ava vamiswe, nekuda kwengoti zvinonetsa, chero kwapera makore makumi maviri  vari mukati medzimwe tsika nemagariro kuti vanhu vekunze vanzwisise kuti chii chinonakidza pazviri.	Kunyangwe vene vemutauro chaivo vanonetseka nekunakidza vanhu.	1
+Hazvisi kukurudzirwa kuti vasungwa ava vamiswe, nekuda kwengoti zvinonetsa, chero kwapera makore makumi maviri  vari mukati medzimwe tsika nemagariro kuti vanhu vekunze vanzwisise kuti chii chinonakidza pazviri.	Mutaura unosetsa ndechimwe chezvinhu zviri nyore kuti vanhu vekunze vanzwisise.	2
+Hazvisi kukurudzirwa kuti vasungwa ava vamiswe, nekuda kwengoti zvinonetsa, chero kwapera makore makumi maviri  vari mukati medzimwe tsika nemagariro kuti vanhu vekunze vanzwisise kuti chii chinonakidza pazviri.	Zvidzidzo izvi zvakagozha kunzwisiswa nemunhu wekunze.	0
+Chekupedzisira, munhu anofana kuchenjerera rebeso yemutsara inoreva zvakanyatsosiyana.	Vapepeti vanowanzopinzwa basa kuti vabate mhosho yakaita seiyi.	1
+Chekupedzisira, munhu anofana kuchenjerera rebeso yemutsara inoreva zvakanyatsosiyana.	Kunyora mutsetse wakareba inzira yekuti uve nechokwadi chekuti zvirikurehwa nechirevo zvabuda.	2
+Chekupedzisira, munhu anofana kuchenjerera rebeso yemutsara inoreva zvakanyatsosiyana.	Zvinorehwa nemutsara zvinogona kuchinja mukuedza kuurebesa.	0
+Ita kuti musoro wako nekupisa  uite dzungu.	Kuwedzera kupisa mumusoro wemunhu inzira yakanaka yekuwedzera kudzikama uye kuisa pfungwa pamwe chete.	2
+Ita kuti musoro wako nekupisa  uite dzungu.	Kunyanyopisisa kunogona kukonzera dzungu nedzimwe nguva.	0
+Ita kuti musoro wako nekupisa  uite dzungu.	Nhasi madhigirii anga ari mashanu pasi peanowanzotarisirwa pamwaka.	1
+Hakuna imwe mhando yebasa ine nhoroondo yekuzvidzikisira kudai.	Mamwe mapato emabasa anozvionera pamusoro chose.	1
+Hakuna imwe mhando yebasa ine nhoroondo yekuzvidzikisira kudai.	Mapato emabasa mazhinji ane nhoroondo dzekuzvitarisira pasi	2
+Hakuna imwe mhando yebasa ine nhoroondo yekuzvidzikisira kudai.	Hakuna rimwe basa rine nhoroondo yekuzvishora.	0
+Nerudadiso, madhende akazviwanira mazita erusvoro mungano dzemuno anoshandisa mazita iwayo emadunhurirwa munhauro dzakahwanda, hurukuro dzemunogadzirwa musoro nemunheketeke dzekumba.	Mapepa acho haana mbiri zvachose.	2
+Nerudadiso, madhende akazviwanira mazita erusvoro mungano dzemuno anoshandisa mazita iwayo emadunhurirwa munhauro dzakahwanda, hurukuro dzemunogadzirwa musoro nemunheketeke dzekumba.	Mapepa iwayo haana mbiri yakanaka.	0
+Nerudadiso, madhende akazviwanira mazita erusvoro mungano dzemuno anoshandisa mazita iwayo emadunhurirwa munhauro dzakahwanda, hurukuro dzemunogadzirwa musoro nemunheketeke dzekumba.	Mapepa aya ane makuhwa akanyanya kubva kumadzimai.	1
+Kana Lite nalight vachingoshandisirwa kutsanangura maitire edoro(sokuti	Doro rinogona kunyorwa kuti Lite kana kuti light.	0
+Kana Lite nalight vachingoshandisirwa kutsanangura maitire edoro(sokuti	Lite ne light mazwi anoshandiswa kutsanangura mawaini nemawhiskey.	2
+Kana Lite nalight vachingoshandisirwa kutsanangura maitire edoro(sokuti	Doro reLite harina chikamu chakakura chezvinodhaka	1
+Zita iri rakanyanyoshandiswa kunyangwe paraisakwana uye paigona kuda rimwe.	Vanhu vanonetseka kuwana rimwe zita.	1
+Zita iri rakanyanyoshandiswa kunyangwe paraisakwana uye paigona kuda rimwe.	Zita iri rinonyanyoshandiswa.	0
+Zita iri rakanyanyoshandiswa kunyangwe paraisakwana uye paigona kuda rimwe.	Zita rinofanira kunyanyoshandiswa.	2
+Pamusoro peizvi, tine chimwe chokwadi chisingafadzi chekuti kunyora kwakanaka kazhinji kunoita kuti munhu arangarire, zvichiwedzera dambudziko.	Vanhu vakateya kunyanyorangarira runyoro rwakashata.	2
+Pamusoro peizvi, tine chimwe chokwadi chisingafadzi chekuti kunyora kwakanaka kazhinji kunoita kuti munhu arangarire, zvichiwedzera dambudziko.	Zvinhu zvakanyorwa zvakanaka kazhinji zviri nyore kurangarira pane zvakanyorwa zvakaipa.	0
+Pamusoro peizvi, tine chimwe chokwadi chisingafadzi chekuti kunyora kwakanaka kazhinji kunoita kuti munhu arangarire, zvichiwedzera dambudziko.	Zvinyorwa zvakanaka zvinodhura kugadzira nehuwandu.	1
+Vasangana nemaitire awa uye vakaita kushamisika, maBhiritishi akaratidza ruremekedzo rwavo nekuisa vara guru pashoko racho.	Ma Bhiritishi anga asina ruremekedzo.	2
+Vasangana nemaitire awa uye vakaita kushamisika, maBhiritishi akaratidza ruremekedzo rwavo nekuisa vara guru pashoko racho.	MaBhiritishi akatora utongi hweupfumi hwepasi rose.	1
+Vasangana nemaitire awa uye vakaita kushamisika, maBhiritishi akaratidza ruremekedzo rwavo nekuisa vara guru pashoko racho.	MaBhiritishi akatengesa zvakanyanya pasi rose.	0
+Dzimwe nguva ndicho chinonyanyonzvenga zvakare.	Chinogona kunetsa kuoneka dzimwe nguva.	0
+Dzimwe nguva ndicho chinonyanyonzvenga zvakare.	Inoita ruzha rushoma tinotenda  injini yakanyatsoputirwa.	1
+Dzimwe nguva ndicho chinonyanyonzvenga zvakare.	Zvakagara zviri nyore kuona chero uri kure.	2
+ Sezvazvinoita, kune mhando dzemutauro dzinonyatsonzikwa dzechirungu dzakawanda muBritain kudarika kuNorth America,  uye chero munhu apedza nguva yakawanda achiterera kwadziri anoziva kuti dzimwe dzinopindirana.	Britain inemhando dzemutauro wechirungu dzinonyatsonzwika dzakawanda kudarika dzekuNorth America.	0
+ Sezvazvinoita, kune mhando dzemutauro dzinonyatsonzikwa dzechirungu dzakawanda muBritain kudarika kuNorth America,  uye chero munhu apedza nguva yakawanda achiterera kwadziri anoziva kuti dzimwe dzinopindirana.	Mhando dzemitauro dzeNorth America nedzechiBritish dzakanyatsofanana, uye vanhu vazhinji vanonetseka kuzvipatsanura..	2
+ Sezvazvinoita, kune mhando dzemutauro dzinonyatsonzikwa dzechirungu dzakawanda muBritain kudarika kuNorth America,  uye chero munhu apedza nguva yakawanda achiterera kwadziri anoziva kuti dzimwe dzinopindirana.	Vanhu vanobva kuNorth America vanonetseka kunzwa hafu yemhando dzemitauro yemaBritish.	1
+Mumwe muTennesssee akatiudza akashandisa manzwi ekuti dog weather kureva 'kunze kunopisa kusina mvura', zvinogona kubva pachirevo chekuti dog days kureva kunze kusina mvura kwemuna Nyamavhuvhu.	Sematauriro ewakatiudza, dog weather yaishandiswa kutsanagudza mvura inouya mwaka wega wega nemhepo.	2
+Mumwe muTennesssee akatiudza akashandisa manzwi ekuti dog weather kureva 'kunze kunopisa kusina mvura', zvinogona kubva pachirevo chekuti dog days kureva kunze kusina mvura kwemuna Nyamavhuvhu.	Chikumi na chikunguru vanopisawo zvekuti ku Tennessee.	1
+Mumwe muTennesssee akatiudza akashandisa manzwi ekuti dog weather kureva 'kunze kunopisa kusina mvura', zvinogona kubva pachirevo chekuti dog days kureva kunze kusina mvura kwemuna Nyamavhuvhu.	Kunze kunenge kuchipisa kusina mvura mazuva mazhinji muna Nyamavhuvhu.	0

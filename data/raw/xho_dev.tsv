@@ -1,0 +1,451 @@
+premise	hypothesis	label
+Kwaye wathi, Mama, ndisekhaya. 	Ufowunele umama wakhe emveni kokuba ibhasi imohlisile.	1
+Kwaye wathi, Mama, ndisekhaya. 	Akazange athethe nelimdaka.	2
+Kwaye wathi, Mama, ndisekhaya. 	Wamxelela umama wakhe ukuba ufikile ekhaya.	0
+Bendingazi ukuba bendiyela ntoni okanye kwathini, kodwa bekufuneka ndinike ingxelo kwindawo ekhethiweyo eWashington.	Andizange ndakha ndalubeka eWashington, ngoko xa ndabelwe apho ndalahleka ndizama ukufumana indawo.	1
+Bendingazi ukuba bendiyela ntoni okanye kwathini, kodwa bekufuneka ndinike ingxelo kwindawo ekhethiweyo eWashington.	Ndandiyazi kakuhle into endidinga ukuyenza ngethuba ndihamba ndisiya eWashington.  	2
+Bendingazi ukuba bendiyela ntoni okanye kwathini, kodwa bekufuneka ndinike ingxelo kwindawo ekhethiweyo eWashington.	Ndandingaqinisekanga ncam into endandiza kuyenza, ngoko ndaya eWashington apho ndabelwa ukuba ndibike khona.	0
+Akazange ahambe.	Wayengowokuqala ukumenywa kwaye walonwabela elo thuba.	2
+Akazange ahambe.	Akazange avunyelwe ukuzimasa.	0
+Akazange ahambe.	Akazange avunyelwe ukuzimasa umsitho wokuvulwa kwemyuziyam.	1
+Kwaye ndathi kulungile, yaphelela apho.	Emveni kokuba ndithe kulungile, yaphela.	0
+Kwaye ndathi kulungile, yaphelela apho.	Andizange ndivume kwaye yatsala ixesha.	2
+Kwaye ndathi kulungile, yaphelela apho.	Ukuvuma kwam, sagqiba ekubeni siza kutshata ngala mini.	1
+Ndandikho nje ndizama ukuyiqonda.	Ndandiyiqonda kakuhle kwasekuqaleni.	2
+Ndandikho nje ndizama ukuyiqonda.	Ndandizama ukuqonda ukuba imali iyephi	1
+Ndandikho nje ndizama ukuyiqonda.	Ndandizama ukuqonda 	0
+Kwaye umakhulu wayedla ngokubalisa ibali lokuba udade wabo nomyeni kadade wabo bagqiba kwelokuba bafudukele edolophini eAugusta, badlulele ebalungwini.	Usisi kamakhulu wayemhlophe kwaye wafudukela eTexas.	2
+Kwaye umakhulu wayedla ngokubalisa ibali lokuba udade wabo nomyeni kadade wabo bagqiba kwelokuba bafudukele edolophini eAugusta, badlulele ebalungwini.	Usisi kamakhulu wayengekho mhlophe.	0
+Kwaye umakhulu wayedla ngokubalisa ibali lokuba udade wabo nomyeni kadade wabo bagqiba kwelokuba bafudukele edolophini eAugusta, badlulele ebalungwini.	Usisi kamakhulu wangekho mhlophe kodwa wayefuna ukubanjalo ukuze aye esikolweni.	1
+Kodwa uyazi, ngeendlela ezininzi, wayefana nomnini mlimi, kuba wayengunyana waloo mfo wayenempahla eninzi.	Utata wakhe akazange wabananto ebomini bakhe.	2
+Kodwa uyazi, ngeendlela ezininzi, wayefana nomnini mlimi, kuba wayengunyana waloo mfo wayenempahla eninzi.	Utata wakhe wayenomhlaba oziihektare ezingama2000.	1
+Kodwa uyazi, ngeendlela ezininzi, wayefana nomnini mlimi, kuba wayengunyana waloo mfo wayenempahla eninzi.	Utata wakhe wayenomhlaba omninzi.	0
+Kodwa umsebenzi wam yayikukufaka iiparashute kunye nezinto zokukhusela ubomi xa siza kuyilayisha kwaye siqale kwindawo engaphesheya kolwandle.	Ndindingenawo umsebenzi, ngoko ke ndazigcina zonke iibhokisi ekhaya.	2
+Kodwa umsebenzi wam yayikukufaka iiparashute kunye nezinto zokukhusela ubomi xa siza kuyilayisha kwaye siqale kwindawo engaphesheya kolwandle.	Ndathumela iibhokisi eJapan.	1
+Kodwa umsebenzi wam yayikukufaka iiparashute kunye nezinto zokukhusela ubomi xa siza kuyilayisha kwaye siqale kwindawo engaphesheya kolwandle.	Ndazithumela ngaphandle.	0
+Nantso indlela, uh, endihlala ndibotshwe ngaphakathi.	Ndandiqinisekisa ukuba ibhanti liqinile ukuze ndikhuseleke.	1
+Nantso indlela, uh, endihlala ndibotshwe ngaphakathi.	Kungolo hlobo ngqo endakhululeka ngalo.	2
+Nantso indlela, uh, endihlala ndibotshwe ngaphakathi.	Kungoko hlobo ngqo endaliqinisa ngalo.	0
+Kwaye wayengumhlengikazi, kwaye ewe, wayefana naphaya. Kwaye ah, ke, uyazi ndandingamthandi, kodwa nangona kunjalo, ngamabali am lawo.	Wayethembekile kwaye elungile.	2
+Kwaye wayengumhlengikazi, kwaye ewe, wayefana naphaya. Kwaye ah, ke, uyazi ndandingamthandi, kodwa nangona kunjalo, ngamabali am lawo.	Ndandimchaphukela kuba wayenekratshi.	1
+Kwaye wayengumhlengikazi, kwaye ewe, wayefana naphaya. Kwaye ah, ke, uyazi ndandingamthandi, kodwa nangona kunjalo, ngamabali am lawo.	Ndandingengomlandeli wakhe.	0
+Xa nditsala, xa enditsalela ikhenophi ukuba ndiqalise ukumkhupha, walatha kwizixhobo ezibini kwicala lasekhohlo lenqwelomoya eziye zanyibilika ngokwenene ngexesha lokubhabha.	Zonke izixhobo kwinqwelomoya zazidibene.	2
+Xa nditsala, xa enditsalela ikhenophi ukuba ndiqalise ukumkhupha, walatha kwizixhobo ezibini kwicala lasekhohlo lenqwelomoya eziye zanyibilika ngokwenene ngexesha lokubhabha.	Kwakunzima ukumkhupha.	1
+Xa nditsala, xa enditsalela ikhenophi ukuba ndiqalise ukumkhupha, walatha kwizixhobo ezibini kwicala lasekhohlo lenqwelomoya eziye zanyibilika ngokwenene ngexesha lokubhabha.	Kwakukhona izixhobo kwinqwelomoya ezanyibilikayo.	0
+Kwaye, wayengaqondi.	UAlas, wayengakwazi ukuqonda kakuhle ngenxa yemiqobo yolwimi.	1
+Kwaye, wayengaqondi.	Nyani, wayengaqondi.	0
+Kwaye, wayengaqondi.	Wayeyazi kakuhle ukuba sithetha ngantoni.	2
+Inokuba uxelele wonke umntu, ndabe ndingahoyanga ngelo xesha.	Andikhange ndimve xa ebexelela wonke umntu.	0
+Inokuba uxelele wonke umntu, ndabe ndingahoyanga ngelo xesha.	Ndive yonke into ebeyithetha.	2
+Inokuba uxelele wonke umntu, ndabe ndingahoyanga ngelo xesha.	Bendithetha nomnye umntu ngelo xesha.	1
+Kuphela silahlekelwe zezimbini, zezintathu iinqwelomoya ngeli xesha sasilapho, kwaye, eh, isigaba sovavanyo.	Ezimbalwa iinqwelomoya ziye zalahleka ngenxa yemozulu.	1
+Kuphela silahlekelwe zezimbini, zezintathu iinqwelomoya ngeli xesha sasilapho, kwaye, eh, isigaba sovavanyo.	Ezimbalwa iinqwelomoya ziye zalahleka.	0
+Kuphela silahlekelwe zezimbini, zezintathu iinqwelomoya ngeli xesha sasilapho, kwaye, eh, isigaba sovavanyo.	Asizange salahlekelwa yinqwelomoya.	2
+Ndifuna undenzele enye into.	Andifuni kwancedo.	2
+Ndifuna undenzele enye into.	Ngumsebenzi omkhulu endifuna wenziwe.	1
+Ndifuna undenzele enye into.	Kukho into endifuna yenziwe. 	0
+oh ibingumlambo wenyoka, oh umlambo wenyoka uneenyoko ezininzi.	Ngaphandle kwegama layo, iSnake Rive ayiqulathanga naziphi na iinyoka; ithiywe ngohlobo lwayo luka-S.	2
+oh ibingumlambo wenyoka, oh umlambo wenyoka uneenyoko ezininzi.	iSnake River inamafudo amaninzi ahlumayo.	1
+oh ibingumlambo wenyoka, oh umlambo wenyoka uneenyoko ezininzi.	iSnake River izaliswe ziinyoka.	0
+kanye yimeko esebenzayo asiyonto onokuthi uyithande uyazi ukuba ungenzi nto kwaye ulindele nantoni na entle ngokwenene andicingi.	Ndicinga ukuba kufuneka ubekele bucala iiyure ezili10 ngosuku ukuze ugqwese kuyo.	1
+kanye yimeko esebenzayo asiyonto onokuthi uyithande uyazi ukuba ungenzi nto kwaye ulindele nantoni na entle ngokwenene andicingi.	Ndicinga ukuba kufuneka uzinikezele kuyo ukuze wenze kakuhle.	0
+kanye yimeko esebenzayo asiyonto onokuthi uyithande uyazi ukuba ungenzi nto kwaye ulindele nantoni na entle ngokwenene andicingi.	Kulungile xa ungatyithatheli ngqalelo.	2
+kwaye into endicinga ukuba iya kuba nomdla kakhulu yinto esiyenzayo ngayo, ndithetha ukuba kuya kufuneka sibatshintshe abantu abasimeleyo.	Ndiyazi nje ukuba kuya kudika kwaye kungafanelanga ukutshintsha abo basimeleyo, ngoko ke akufuneki sizame ukutshintsha.	2
+kwaye into endicinga ukuba iya kuba nomdla kakhulu yinto esiyenzayo ngayo, ndithetha ukuba kuya kufuneka sibatshintshe abantu abasimeleyo.	Ndicinga ukuba kuya kuba ngumngeni ukutshintsha abo basimeleyo, kodwa kuya kuba lulutho ekugqibeleni.	1
+kwaye into endicinga ukuba iya kuba nomdla kakhulu yinto esiyenzayo ngayo, ndithetha ukuba kuya kufuneka sibatshintshe abantu abasimeleyo.	Kufuneka senze utshintsho kwabo basimeleyo.	0
+kwaye banokulunga kakhulu emveni kokuba beqeqeshiwe.	babalukhuni kwaye babande xa belugqibile uqeqesho.	2
+kwaye banokulunga kakhulu emveni kokuba beqeqeshiwe.	Batshintsha ngokukhawuleza ngeli xesha basaqeqeshwayo.	1
+kwaye banokulunga kakhulu emveni kokuba beqeqeshiwe.	Xa beqeqeshwa banokulunga kakhulu.	0
+kwaye inokuqhuba iminyaka eli10 engama20, ndicinga ukuba noko ibaxekile.	Ndicinga ukuba yimpambano ukuba ityala elinye liqhube iminyaka emininzi kangaka.	1
+kwaye inokuqhuba iminyaka eli10 engama20, ndicinga ukuba noko ibaxekile.	Ndicinga ukuba kukuphambana ukuba ingathabatha ixesha elingaka.	0
+kwaye inokuqhuba iminyaka eli10 engama20, ndicinga ukuba noko ibaxekile.	Ithabatha iveki kuphela.	2
+Ewe ndiqinisekile ukuba ube nentambo ezihambelayo.	Unyanisile, le ubunayo ibingenantambo.	0
+Ewe ndiqinisekile ukuba ube nentambo ezihambelayo.	Le ubunayo ngokuqinisekileyo ibiluhlobo olunentambo kuphela.	2
+Ewe ndiqinisekile ukuba ube nentambo ezihambelayo.	Kusenokwenzeka ukuba eyakho ibinentambo ozikhethelayo.	1
+uzama ukuthi ootitshala okanye abazali	Uzama ukuthi abafundi okanye uncedo lootitshala luyenzile?	2
+uzama ukuthi ootitshala okanye abazali	Ingaba ngootitshala okanye ngabazali?	0
+uzama ukuthi ootitshala okanye abazali	Uzama ukuthini ngabazali nootitshala?	1
+kulungile ndiyaqikelela ukuba ndingaqikelela kakuhle andazi ukuba khange ndilungise zonke iimvakalelo zam kuvavanyo lwechiza  ndithe tye ngokupheleleyo andinakuze ndicinge ukusebenzisa iziyobisi.	Ndichasene kakhulu nokuhlolwa kweziyobisi, akukho kuthandabuza engqondweni yam ngoko.	2
+kulungile ndiyaqikelela ukuba ndingaqikelela kakuhle andazi ukuba khange ndilungise zonke iimvakalelo zam kuvavanyo lwechiza  ndithe tye ngokupheleleyo andinakuze ndicinge ukusebenzisa iziyobisi.	Ndiyacinga ukuba ndingakulungela ukuvavanyelwa iziyobisi.	1
+kulungile ndiyaqikelela ukuba ndingaqikelela kakuhle andazi ukuba khange ndilungise zonke iimvakalelo zam kuvavanyo lwechiza  ndithe tye ngokupheleleyo andinakuze ndicinge ukusebenzisa iziyobisi.	Ndicinga njalo kodwa andikazigocagoci iimvakalelo zam malunga nokuvavanywa kweziyobisi.	0
+inkathalo malunga nokuba iindaba zelizwe ziyichaphazela njani indawo yasekuhlaleni	Ixhalabe ngeendawo zasekuhlaleni ezichatshazelwa ziindaba zelizwe.	0
+inkathalo malunga nokuba iindaba zelizwe ziyichaphazela njani indawo yasekuhlaleni	Bendingakhathali nokuba iindaba zelizwe zithetha ngantoni malunga neengingqi zethu.	2
+inkathalo malunga nokuba iindaba zelizwe ziyichaphazela njani indawo yasekuhlaleni	Amajelo eendaba esizwe enza ukuba iindawo zethu zasekuhlaleni zibonakale zisemva.	1
+hayi kodwa siqhele ukuba uyasazi isiketi nebhlawuzi okanye isuti okanye ilokhwe yile uyibona apha ezantsi, ngako oko kumnandi xa ndiphangela ekhaya kuba ndiyakwazi ukunxiba ibhlukhwe	Andinxibi kakuhle xa ndisebenzela ekhaya.	0
+hayi kodwa siqhele ukuba uyasazi isiketi nebhlawuzi okanye isuti okanye ilokhwe yile uyibona apha ezantsi, ngako oko kumnandi xa ndiphangela ekhaya kuba ndiyakwazi ukunxiba ibhlukhwe	Andinxibi kwanto ngaphandle kwetreksuti xa ndisebenzela ekhaya.	1
+hayi kodwa siqhele ukuba uyasazi isiketi nebhlawuzi okanye isuti okanye ilokhwe yile uyibona apha ezantsi, ngako oko kumnandi xa ndiphangela ekhaya kuba ndiyakwazi ukunxiba ibhlukhwe	Ndisanxiba iilokhwe xa ndisebenzela ekhaya kuba ndiziva ndiphucukile.	2
+Ewe ikho into endingayaziyo malunga nokuba nendawo yokuhlala.	Ukuba nendawo yokuhlala liphupha elizalisekileyo.	1
+Ewe ikho into endingayaziyo malunga nokuba nendawo yokuhlala.	Andikhathali nokuba ndinendawo yokuhlala.	2
+Ewe ikho into endingayaziyo malunga nokuba nendawo yokuhlala.	Kumnandi ukuba nendawo yokuhlala.	0
+ewe, ewe ndiyazi ngendingenangxaki kangako ukuba bebenenkampani exhaswa ngemali.	Bekuya kuba lula ukufumanisa ukuba inkampani ixhaswe ngemali.	1
+ewe, ewe ndiyazi ngendingenangxaki kangako ukuba bebenenkampani exhaswa ngemali.	Bekuya kundicaphukisa ukufumanisa ukuba bebeyixhasa ngemali le nkampani.	2
+ewe, ewe ndiyazi ngendingenangxaki kangako ukuba bebenenkampani exhaswa ngemali.	Bekungazukundikhathaza ukuba inkampani ibixhaswa ngemali.	0
+Ewe kukweyethu apha phezulu sinoqhagamshelwano lwethu ezilalini lubi nyani.	Uqhagamshelwano apha ngamanye amaxesha lulungile.	1
+Ewe kukweyethu apha phezulu sinoqhagamshelwano lwethu ezilalini lubi nyani.	Asifumani qhagamshelwano lulungileyo apha.	0
+Ewe kukweyethu apha phezulu sinoqhagamshelwano lwethu ezilalini lubi nyani.	Sinoqhagamshelwano oluhle kakhulu apha.	2
+Enye yeenzuzo esizifumanayo luhambo.	Ukuhamba yinxalenye endiyithandayo.	1
+Enye yeenzuzo esizifumanayo luhambo.	Ukuhamba yenye yenzuzo esiyifumanayo.	0
+Enye yeenzuzo esizifumanayo luhambo.	Asifumani kwanzuzo.	2
+Imbi kakhulu loo nto.	Ndivile ukuba ayikho ntle.	1
+Imbi kakhulu loo nto.	Imbi kakhulu.	0
+Imbi kakhulu loo nto.	Ayimbanga kakhulu olo hlobo.	2
+Ezi zixhobo zodidi oluphezulu lwezixhobo zemolekyuli zivela ngenxa yokuba ukhetho lwendalo luyakwazi ukusebenza kwiipropati ezidityanisiweyo zeeagrigeythi zemolekyuli xa ezo mpawu zidibeneyo zandisa ukomelela okulungelelanisiweyo.	Zonke izixhobo zemolekyuli zintsonkothe ​​ngokulinganayo.	2
+Ezi zixhobo zodidi oluphezulu lwezixhobo zemolekyuli zivela ngenxa yokuba ukhetho lwendalo luyakwazi ukusebenza kwiipropati ezidityanisiweyo zeeagrigeythi zemolekyuli xa ezo mpawu zidibeneyo zandisa ukomelela okulungelelanisiweyo.	Izixhobo ezintsonkothileyo zeemolekyuli zinokuvela phantsi kweemeko ezithile.	0
+Ezi zixhobo zodidi oluphezulu lwezixhobo zemolekyuli zivela ngenxa yokuba ukhetho lwendalo luyakwazi ukusebenza kwiipropati ezidityanisiweyo zeeagrigeythi zemolekyuli xa ezo mpawu zidibeneyo zandisa ukomelela okulungelelanisiweyo.	Ezi zixhobo zemolekyuli zisetyenziselwa ukuvelisa iityhefu ezahlukeneyo ukuze zikhuseleke.	1
+Kodwa andikholelwa ukuba nasiphi na isixhobo esinjalo sealgorithmic sinokugqitywa.	Ialgorithm ayikwazi ukwenza isigqibo malunga nendlela yokwenza isangweji egqibeleleyo ngaphandle kobuchule bomntu.	1
+Kodwa andikholelwa ukuba nasiphi na isixhobo esinjalo sealgorithmic sinokugqitywa.	Akukho sixhobo esinokusombulula ngokupheleleyo le ngxaki ngokwaso.	0
+Kodwa andikholelwa ukuba nasiphi na isixhobo esinjalo sealgorithmic sinokugqitywa.	Ezi zixhobo zisebenza ngokugqibeleleyo phantsi kwazo naziphi na iimeko.	2
+Umthetho awukhululi mntu kodwa uluntu okanye isizwe siphela.	Ukufumana intlawulelo, umntu ngamnye kufuneka abhenele kumthetho.	2
+Umthetho awukhululi mntu kodwa uluntu okanye isizwe siphela.	Umthetho uya kukhulula iMelika.	1
+Umthetho awukhululi mntu kodwa uluntu okanye isizwe siphela.	Umthetho uya kusindisa uluntu kunye nesizwe.	0
+Umbhalo womgaqosiseko wowe1787 wawuchazile ilungelo labanini makhoboka lokubuyisela amakhoboka awayebalekele kwindawo ekhululekileyo.	Ngowe1787 kwawiswa umthetho owawuyekisa abantu ukuba bangaphindi bathabathe amakhoboka awayesele ebuyele kumazwe akhululekileyo.	2
+Umbhalo womgaqosiseko wowe1787 wawuchazile ilungelo labanini makhoboka lokubuyisela amakhoboka awayebalekele kwindawo ekhululekileyo.	Inxalenye yombhalo womgaqosiseko yabhalwa ngowe1787.	0
+Umbhalo womgaqosiseko wowe1787 wawuchazile ilungelo labanini makhoboka lokubuyisela amakhoboka awayebalekele kwindawo ekhululekileyo.	Ilungelo lokubuyisela amakhoboka kwimimandla ekhululekileyo yayingelolungelo elixhaphakileyo.	1
+USteve Harris, isazi ngebhayoloji yemolekyuli evela eTexas wayetyelele.	USteve Harris wala ukushiya indlu yakhe nangasiphi na isizathu.	2
+USteve Harris, isazi ngebhayoloji yemolekyuli evela eTexas wayetyelele.	USteve wayeyingcali yebhayoloji evela ngaphandle kwedolophu.	0
+USteve Harris, isazi ngebhayoloji yemolekyuli evela eTexas wayetyelele.	USteve wayetyelele eCalifornia ukuya kufunda isampula entsha.	1
+Ubulungu benziwe ngamadoda aphakathi kwamashumi amathathu namashumi amahlanu kwisahluko ngasinye (esibizwa ngokuba yimoradas) kwaye ahlulwa abe ngamalungu amabini aqhelekileyo, abizwa ngokuba yihermanos disciplantes (abazalwana abohlwaya), kunye namagosa, abizwa ngokuba yihermanos de luz (abazalwana bokukhanya).	Amagosa angaphezu kwekhulu asebenza kwisahluko ngasinye.	2
+Ubulungu benziwe ngamadoda aphakathi kwamashumi amathathu namashumi amahlanu kwisahluko ngasinye (esibizwa ngokuba yimoradas) kwaye ahlulwa abe ngamalungu amabini aqhelekileyo, abizwa ngokuba yihermanos disciplantes (abazalwana abohlwaya), kunye namagosa, abizwa ngokuba yihermanos de luz (abazalwana bokukhanya).	Izahluko zaziqulathe amalungu gabalala kunye namagosa.	0
+Ubulungu benziwe ngamadoda aphakathi kwamashumi amathathu namashumi amahlanu kwisahluko ngasinye (esibizwa ngokuba yimoradas) kwaye ahlulwa abe ngamalungu amabini aqhelekileyo, abizwa ngokuba yihermanos disciplantes (abazalwana abohlwaya), kunye namagosa, abizwa ngokuba yihermanos de luz (abazalwana bokukhanya).	Ezi yunithi zazinoxanduva lokuguqula abemi bomthonyama kuMbindi Merika.	1
+Kubantwana abaneminyaka emi4 kunye ne5 ubudala, imibuzo ihlala ijongana nentlangano ebalisayo (Yintoni eyenzekayo emva koko?	Abantwana abadli ngokufunda ukunxibelelana bade babe neminyaka emithandathu ubudala.	2
+Kubantwana abaneminyaka emi4 kunye ne5 ubudala, imibuzo ihlala ijongana nentlangano ebalisayo (Yintoni eyenzekayo emva koko?	Abantwana abaneminyaka emihlanu baxhalabile oko kwenzekayo emva koko.	0
+Kubantwana abaneminyaka emi4 kunye ne5 ubudala, imibuzo ihlala ijongana nentlangano ebalisayo (Yintoni eyenzekayo emva koko?	Abantwana abaneminyaka emihlanu ubudala bajongwa njengabantu abangakwaziyo ukuncokola.	1
+Ngokuqondakalayo, ukuhamba okuguquguqukayo kancinane kwisithuba sikarhulumente kuvumela ulwahlulo, kuba xa amazwe amabini edibana kwilizwe elinye elilandela, ezo zizwe zibini ziye zahlelwa njengezilinganayo yinethiwekhi.	Ukuhamba okudibeneyo kuvumela ulwahlulo.	0
+Ngokuqondakalayo, ukuhamba okuguquguqukayo kancinane kwisithuba sikarhulumente kuvumela ulwahlulo, kuba xa amazwe amabini edibana kwilizwe elinye elilandela, ezo zizwe zibini ziye zahlelwa njengezilinganayo yinethiwekhi.	Ukuhamba okudibeneyo kuphenjelelwe luluntu.	1
+Ngokuqondakalayo, ukuhamba okuguquguqukayo kancinane kwisithuba sikarhulumente kuvumela ulwahlulo, kuba xa amazwe amabini edibana kwilizwe elinye elilandela, ezo zizwe zibini ziye zahlelwa njengezilinganayo yinethiwekhi.	Ukuhamba okudibeneyo kuthintela ulwahlulo.	2
+Ke ngoko, bathe gqolo bedala ilizwe elingamisiyo apho kuphela ixa elidlulileyo lamva nje linedatha esebenzayo.	Ihlabathi elingekho ngqiqweni alinqweneleki kwabanye ukuba kufuneka liphendule ngenkcazelo yembali yamandulo.	0
+Ke ngoko, bathe gqolo bedala ilizwe elingamisiyo apho kuphela ixa elidlulileyo lamva nje linedatha esebenzayo.	Yonke idatha evela kulo lonke ixesha ivumelekile kulo naliphi na ilizwe.	2
+Ke ngoko, bathe gqolo bedala ilizwe elingamisiyo apho kuphela ixa elidlulileyo lamva nje linedatha esebenzayo.	Eli hlabathi licingelwayo lisetyenziselwa ukuqikelela iipatheni zemozulu.	1
+Kwaye, ke ngoko, urhulumente wayengenaxanduva kwaba bantu babucala bakhanyela amalungelo oluntu kubemi abaNtsundu.	Abanye abantu babucala bawavimbele amalungelo asekuhlaleni kubemi abaNtsundu.	0
+Kwaye, ke ngoko, urhulumente wayengenaxanduva kwaba bantu babucala bakhanyela amalungelo oluntu kubemi abaNtsundu.	Abantu babucala babemhlophe.	1
+Kwaye, ke ngoko, urhulumente wayengenaxanduva kwaba bantu babucala bakhanyela amalungelo oluntu kubemi abaNtsundu.	Urhulumente wayenoxanduva ngokupheleleyo lokuziphatha kwabantu babucala.	2
+Akukho mahluko ukhoyo phakathi kwabafundi abancinci nabadala kumanqaku ovavanyo lokuphumelela.	Ngelixa iziphumo zovavanyo zabantwana abancinci nabadala zifana, abo bafunda nabo abancinci balugqiba ngokukhawuleza uvavanyo	1
+Akukho mahluko ukhoyo phakathi kwabafundi abancinci nabadala kumanqaku ovavanyo lokuphumelela.	Abafunda nabo abancinci nabadala bafumana iziphumo ezifanayo kumanqaku ovavanyo.	0
+Akukho mahluko ukhoyo phakathi kwabafundi abancinci nabadala kumanqaku ovavanyo lokuphumelela.	Abantwana abancinci nabakhulileyo eklasini baneziphumo zovavanyo ezahlukeneyo njengoko ubudala bungunobangela	2
+UDarwin uqala ngobomi obusele bulapha.	UDarwin waqala ngokugxila kwiintlanzi.	1
+UDarwin uqala ngobomi obusele bulapha.	UDarwin waqala ngobomi obabusele bukho.	0
+UDarwin uqala ngobomi obusele bulapha.	UDarwin wayegxile kuphela ekufundeni izinto ezifileyo.	2
+Esona sizathu sixhaphakileyo ngexesha lobuncinci kunye neminyaka yokukhulisa kukuphindaphindwa kweotitis media, okanye usulelo lwendlebe ephakathi.	Usulelo lwendlebe ephakathi ngoyena nobangela uxhaphakileyo kubantwana abasafundayo okanye abancinci kakhulu.	0
+Esona sizathu sixhaphakileyo ngexesha lobuncinci kunye neminyaka yokukhulisa kukuphindaphindwa kweotitis media, okanye usulelo lwendlebe ephakathi.	Iotitis media inqabe kakhulu ngexesha leminyaka yomntwana osesikolweni.	2
+Esona sizathu sixhaphakileyo ngexesha lobuncinci kunye neminyaka yokukhulisa kukuphindaphindwa kweotitis media, okanye usulelo lwendlebe ephakathi.	Uninzi lwabantwana abaselula baya kufumana usulelo lwendlebe ephakathi.	1
+Xa imibutho yoluntu ingabazi ndlebe, iingcamango eziphambeneyo zilahlekelwa ngumqobo wazo.	Iingcamango eziphambeneyo azibi mbi xa zingahoywa ngabahlali.	0
+Xa imibutho yoluntu ingabazi ndlebe, iingcamango eziphambeneyo zilahlekelwa ngumqobo wazo.	Iingcamango eziphambeneyo ziye zithandeke ngakumbi kuluntu xa zingahoywa ngabahlali.	2
+Xa imibutho yoluntu ingabazi ndlebe, iingcamango eziphambeneyo zilahlekelwa ngumqobo wazo.	Uninzi lwezimvo eziphambeneyo azihoywa luluntu.	1
+Ngokwenene, inxalenye yento esiyidingayo yindlela yokubonakalisa ulungelelwaniso lweenkqubo zokwenyani kwihlabathi elingavisisaniyo.	Sifuna iileybhile ukuze sibone apho umbutho uqhuba kakuhle.	1
+Ngokwenene, inxalenye yento esiyidingayo yindlela yokubonakalisa ulungelelwaniso lweenkqubo zokwenyani kwihlabathi elingavisisaniyo.	Kufuneka sileybhele umbutho.	0
+Ngokwenene, inxalenye yento esiyidingayo yindlela yokubonakalisa ulungelelwaniso lweenkqubo zokwenyani kwihlabathi elingavisisaniyo.	Akufunekanga sileybhele nantoni na.	2
+Wabhenela kwiNkosi uJulian.	Wayefuna ukubuza into ethile kwiNkosi uJulian.	0
+Wabhenela kwiNkosi uJulian.	Wayefuna ukucela uNkosi uJulian ukuba asindise umfazi wakhe.	1
+Wabhenela kwiNkosi uJulian.	INkosi uJulian yayingabonakali ndawo.	2
+UJeremy Pitt waphendula ehleka ngesifungo.	UJeremy Pitt waphendula intsini ngokugigitheka kwaye ephosa into engaphezulu ebusweni bomhlekayo.	2
+UJeremy Pitt waphendula ehleka ngesifungo.	UJeremy Pitt wafunga ukulwela ilizwe lakhe kunye nokumkanikazi wakhe.	1
+UJeremy Pitt waphendula ehleka ngesifungo.	Omnye umntu wahleka kufutshane noJeremy Pitt.	0
+UPitt, owayebukele lo mboniso ekwikota dekh kaloliwe, usixelela ukuba ubukhosi bakhe babufana nengcwaba njengomfundisi oxhonywe.	UPitt wayengazange abubone ubukhosi bakhe njengengcwaba njengoko wayenjalo ngelo xesha.	1
+UPitt, owayebukele lo mboniso ekwikota dekh kaloliwe, usixelela ukuba ubukhosi bakhe babufana nengcwaba njengomfundisi oxhonywe.	UPitt wafunga ukuba akazange ayibone le ndawo.	2
+UPitt, owayebukele lo mboniso ekwikota dekh kaloliwe, usixelela ukuba ubukhosi bakhe babufana nengcwaba njengomfundisi oxhonywe.	UPitt wabona indlela ubukhosi bakhe obunzulu ngayo ngexesha lomcimbi.	0
+IKoloneli yayamkela, yaza emva kwexesha yaqubuda, isusa umnqwazi wayo obanzi.	IKoloneli yamkela imbasa kusodolophu wesixeko saseNew York.	1
+IKoloneli yayamkela, yaza emva kwexesha yaqubuda, isusa umnqwazi wayo obanzi.	IKoloneli yakukhaba oko yayinikwa yaza yagcina umnqwazi wayo ibonakalisa ukuchasa.	2
+IKoloneli yayamkela, yaza emva kwexesha yaqubuda, isusa umnqwazi wayo obanzi.	IKoloneli yayithwele umnqwazi.	0
+Unoburhalarhume bokundingcikiva kuba andizukuzibamba izandla zakho xa ndisazi ukuba zidyojwe njani; xa ndikwazile ngombulali kwaye okungamandla? Wamjonga ekhamisile.	Wayekholelwa ukuba ulwaphulomthetho olwenziweyo lunokuba yimbubhiso.	1
+Unoburhalarhume bokundingcikiva kuba andizukuzibamba izandla zakho xa ndisazi ukuba zidyojwe njani; xa ndikwazile ngombulali kwaye okungamandla? Wamjonga ekhamisile.	Wakhetha ukungazibambi izandla zakhe kuba zidyojwe lulwaphulomthetho.	0
+Unoburhalarhume bokundingcikiva kuba andizukuzibamba izandla zakho xa ndisazi ukuba zidyojwe njani; xa ndikwazile ngombulali kwaye okungamandla? Wamjonga ekhamisile.	Wakhetha ukumbamba izandla kuba zazincinci, zibuthathaka, kwaye ngaphezu kwazo zonke, zicocekile.	2
+Wavunyelwa ngokucacileyo ukuba abone ukuba yayiyintombazana entle, ebukekayo yaseSt. James's, iNkosi uJulian Wade, awayezinikele kuyo ngalo lonke ixesha.	Inkosi uJuliam isuka eSt. James.	0
+Wavunyelwa ngokucacileyo ukuba abone ukuba yayiyintombazana entle, ebukekayo yaseSt. James's, iNkosi uJulian Wade, awayezinikele kuyo ngalo lonke ixesha.	Yena kunye neNkosi uJulian Wade babelane ngokumanga phezolo.	1
+Wavunyelwa ngokucacileyo ukuba abone ukuba yayiyintombazana entle, ebukekayo yaseSt. James's, iNkosi uJulian Wade, awayezinikele kuyo ngalo lonke ixesha.	Uthabathekile yiNkosi uJulian Wade, ngaphandle kwemeko yakhe ebuhlungu.	2
+Kodwa ... kodwa ... ngaphakathi kule nqanawa ...? Igosa lenze umqondiso wokungabi nakuzinceda, laza lanikezela ekubhidekeni kwalo, lathi cwaka ngequbuliso.	Iofisi yakhala imizuzu, icatshukiswa buburheletyo obukwidesika yakhe.	2
+Kodwa ... kodwa ... ngaphakathi kule nqanawa ...? Igosa lenze umqondiso wokungabi nakuzinceda, laza lanikezela ekubhidekeni kwalo, lathi cwaka ngequbuliso.	Igosa lalibhidekile koko kwakusenzeka enqanaweni.	0
+Kodwa ... kodwa ... ngaphakathi kule nqanawa ...? Igosa lenze umqondiso wokungabi nakuzinceda, laza lanikezela ekubhidekeni kwalo, lathi cwaka ngequbuliso.	Eli gosa lothuswa kukuzigabha kwidekhi.	1
+UyiNkosi uJulian Wade, ndiyaqonda, ibingumbuliso wakhe wobubele.	INkosi uJulian Wade inike umbuliso ofudumeleyo nowamkelekileyo.	2
+UyiNkosi uJulian Wade, ndiyaqonda, ibingumbuliso wakhe wobubele.	UNkosi uJulian Wade wamkele abanye ngendlela eya kuthathwa njengeyongamileyo.	0
+UyiNkosi uJulian Wade, ndiyaqonda, ibingumbuliso wakhe wobubele.	Nangona abaninzi babezamile ukusondela kuye, uLord Wade wayesoloko ebanda kwaye engenazimvakalelo.	1
+UMary Trail uya kukuxelela ngayo.	UMary Traill unokukuxelela ngedonki.	1
+UMary Trail uya kukuxelela ngayo.	UMary Traill uyayazi loo nto.	0
+UMary Trail uya kukuxelela ngayo.	Ndim kuphela owaziyo ngayo.	2
+Kukho isigawuli esilinde esi sigebenga sasePort Royal. IGazi ngebelingenelele kuloo nto, kodwa uNkosi uJulian wamnqanda.	IGazi ngumbutho wamazwe ngamazwe wolwaphulo mthetho osekelwe ePort Royal apho uLord Julian akhontrakthe kunye nawo ngeenjongo ezingekho mthethweni.	2
+Kukho isigawuli esilinde esi sigebenga sasePort Royal. IGazi ngebelingenelele kuloo nto, kodwa uNkosi uJulian wamnqanda.	Indawo yeNkosi uJulian ibandakanya iPort Royal, isixeko sorhwebo esiyindawo yokusebenza kulo mmandla.	1
+Kukho isigawuli esilinde esi sigebenga sasePort Royal. IGazi ngebelingenelele kuloo nto, kodwa uNkosi uJulian wamnqanda.	IPort Royal inamaziko okohlwaya izaphuli mthetho.	0
+Ayizukuba nguBhishophu ngokwakhe, utshilo uWolverstone, phakathi kombuzo kunye nobungqina.	UWolverstone waye wabuza umbuzo owawubonisa ukunyaniseka kwakhe kwabanye.	0
+Ayizukuba nguBhishophu ngokwakhe, utshilo uWolverstone, phakathi kombuzo kunye nobungqina.	UWolverstone wayethe uBhishophu wayemhle kakhulu.	1
+Ayizukuba nguBhishophu ngokwakhe, utshilo uWolverstone, phakathi kombuzo kunye nobungqina.	UWolverstone akazange athethe nto ngoBhishophu.	2
+Ngaba uya kuyeka ukutyhola uvukelo kunye nokungcatsha umbuso kunye neenkundla zokulwa? IGazi labeka umnqwazi wakhe, wahlala phantsi engabizwanga.	IGazi lalinomnqwazi alaliwunxiba phambi kokuba lihlale phantsi.	0
+Ngaba uya kuyeka ukutyhola uvukelo kunye nokungcatsha umbuso kunye neenkundla zokulwa? IGazi labeka umnqwazi wakhe, wahlala phantsi engabizwanga.	IGazi labeka umnqwazi walo, laphuma egumbini lingakhange lithethe nto.	2
+Ngaba uya kuyeka ukutyhola uvukelo kunye nokungcatsha umbuso kunye neenkundla zokulwa? IGazi labeka umnqwazi wakhe, wahlala phantsi engabizwanga.	Umnqwazi wegazi wawumnyama, uneentsiba ezintathu zokhozi kuwo.	1
+Izinto azikhange zimhambele kakuhle kwaphela kwezi veki zimbini zidlulileyo ukusukela oko amkele uthumo lukaKumkani.	Walala kamnandi ebusuku esazi ukuba uyalukhaba uthumo lukaKumkani.	2
+Izinto azikhange zimhambele kakuhle kwaphela kwezi veki zimbini zidlulileyo ukusukela oko amkele uthumo lukaKumkani.	Ukumgcina ebusuku yayikukuba walwamkela uthumo lukaKumkani.	0
+Izinto azikhange zimhambele kakuhle kwaphela kwezi veki zimbini zidlulileyo ukusukela oko amkele uthumo lukaKumkani.	Uthumo lukaKumkani yayisiwongo esihloniphekileyo esineembopheleleko ezininzi.	1
+Bakuluhlu, wakhala uOgle.	UOgle uthe bayafikeleleka.	0
+Bakuluhlu, wakhala uOgle.	UOgle uthe bangaphakathi ezindlebeni zabo.	1
+Bakuluhlu, wakhala uOgle.	Nangona wayesazi ukuba baphakathi koluhlu, uOgle wayigcina kuye.	2
+Ndikuthumele, Kapteni Blood, ngenxa yeendaba ezithile ezisanda kufika kum.	Khange ndive iindaba, Kapteni Blood. Ukhe wa?	2
+Ndikuthumele, Kapteni Blood, ngenxa yeendaba ezithile ezisanda kufika kum.	Ndifumene iindaba phambi kokuba ndikuthumelele, Kapteni Blood.	0
+Ndikuthumele, Kapteni Blood, ngenxa yeendaba ezithile ezisanda kufika kum.	Ezo ndaba ndizifumanayo zandothusa kakhulu.	1
+Emva kokujonga ezi ngqokelela, khwela induli ukuya kwiNdlu yoMkomishinala, apho uya kufumana iimbono ezintle zonxweme olujikelezileyo kunye nenxalenye yesakhiwo sedockyard.	Ungawabona amaphenyane encotsheni yenduli.	1
+Emva kokujonga ezi ngqokelela, khwela induli ukuya kwiNdlu yoMkomishinala, apho uya kufumana iimbono ezintle zonxweme olujikelezileyo kunye nenxalenye yesakhiwo sedockyard.	Ungawabona amaphenyane encotsheni yenduli.	0
+Emva kokujonga ezi ngqokelela, khwela induli ukuya kwiNdlu yoMkomishinala, apho uya kufumana iimbono ezintle zonxweme olujikelezileyo kunye nenxalenye yesakhiwo sedockyard.	Awunakulubona unxweme encotsheni yenduli.	2
+Emva kommandla waseMzantsi Melika uya kufumana umzi mveliso weziqholo, apho unokuzenzela esakho esinevumba elimnandi.	Umzi mveliso weziqholo kudala esenza iimveliso ukusukela ngonyaka we1954	1
+Emva kommandla waseMzantsi Melika uya kufumana umzi mveliso weziqholo, apho unokuzenzela esakho esinevumba elimnandi.	Umzi mveliso weziqholo usemva koMmandla woMzantsi Afrika.	0
+Emva kommandla waseMzantsi Melika uya kufumana umzi mveliso weziqholo, apho unokuzenzela esakho esinevumba elimnandi.	Umzi mveliso weziqholo uphambi kommandla waseMzantsi Afrika.	2
+Amathemba aphakanyisiwe, kwaye aphinde aphazamiseka, phezu kwesitras yaseBahamian kunye nepayinapile.	Nangona amapayina emnandi kakhulu, iindleko zokuwathumela ngenqanawe zaziphezulu kakhulu ukuba azise emarikeni.	1
+Amathemba aphakanyisiwe, kwaye aphinde aphazamiseka, phezu kwesitras yaseBahamian kunye nepayinapile.	Isitras yaseBahamian yayiyimpumelelo enkulu, njengoko wonke umntu wayeqikelele.	2
+Amathemba aphakanyisiwe, kwaye aphinde aphazamiseka, phezu kwesitras yaseBahamian kunye nepayinapile.	Isitras yaseBahamian yayingeyona inkulu njengoko wonke umntu wayenethemba.	0
+Esi sandi, esiziikhilomitha ezi3 ububanzi, kucingelwa ukuba yingxolo enkulu eyavela emva kogqabhukodubulo olukhulu lwentabamlilo.	Isandi seekhilomitha ezimbini sinokubangelwa zizinto ezininzi, kuquka ukuqhuma kwevolkhano.	1
+Esi sandi, esiziikhilomitha ezi3 ububanzi, kucingelwa ukuba yingxolo enkulu eyavela emva kogqabhukodubulo olukhulu lwentabamlilo.	Isandi seekhilomitha ezimbini ngokuqinisekileyo asibangelwanga ukuqhuma kwentabamlilo.	2
+Esi sandi, esiziikhilomitha ezi3 ububanzi, kucingelwa ukuba yingxolo enkulu eyavela emva kogqabhukodubulo olukhulu lwentabamlilo.	Isandi seekhilomitha ezimbini mhlawumbi sibangelwa kukuqhuma kwentabamlilo.	0
+Apho lo mboniso uphumle kancinci kwaye ingxaki yolwimi inokukothusa, kodwa ubuncinci uya kukwazi ukubamba ikroba kuluntu lwabathengi baseTshayina.	Kungumbono olungileyo ukuba nomguquleli kunye nawe.	1
+Apho lo mboniso uphumle kancinci kwaye ingxaki yolwimi inokukothusa, kodwa ubuncinci uya kukwazi ukubamba ikroba kuluntu lwabathengi baseTshayina.	Kukho ingxaki yolwimi enokukoyikisa.	0
+Apho lo mboniso uphumle kancinci kwaye ingxaki yolwimi inokukothusa, kodwa ubuncinci uya kukwazi ukubamba ikroba kuluntu lwabathengi baseTshayina.	Awunaxhala malunga nemiba yolwimi apho, kuba wonke umntu ethetha isiNgesi.	2
+Phakathi kowe1936 no1940 iGrisi yayiphantsi kolawulo lobuzwilakhe lomkhosi kaLoannis Metaxas, ekhunjulwa nge-echi evakalayo ( hayi ) awayinikelayo ekuphenduleni isigqibo sikaMussolini sokunikezela ngowe1940.	IGrisi ayizange iphathwe nguzwilakhe wasemkhosini.	2
+Phakathi kowe1936 no1940 iGrisi yayiphantsi kolawulo lobuzwilakhe lomkhosi kaLoannis Metaxas, ekhunjulwa nge-echi evakalayo ( hayi ) awayinikelayo ekuphenduleni isigqibo sikaMussolini sokunikezela ngowe1940.	IGrisi lelinye lamazwe ehlabathini ebenozwilakhe.	0
+Phakathi kowe1936 no1940 iGrisi yayiphantsi kolawulo lobuzwilakhe lomkhosi kaLoannis Metaxas, ekhunjulwa nge-echi evakalayo ( hayi ) awayinikelayo ekuphenduleni isigqibo sikaMussolini sokunikezela ngowe1940.	Uqoqosho lwaseGrisi aluzange luqhube kakuhle kangako phantsi kolawulo lobuzwilakhe baseMetaxas.	1
+Ubulula bemigca yeRomanesque yaseSant Pau lutshintsho olwamkelekileyo olusuka kugqithiso lwemeko yangoku yaseBarcelona kunye nobugocigoci boyilo lweGothic.	ISant Pau ayinayo imigca yeRomanesque.	2
+Ubulula bemigca yeRomanesque yaseSant Pau lutshintsho olwamkelekileyo olusuka kugqithiso lwemeko yangoku yaseBarcelona kunye nobugocigoci boyilo lweGothic.	ISant Pau inemigca yeRomanesque.	0
+Ubulula bemigca yeRomanesque yaseSant Pau lutshintsho olwamkelekileyo olusuka kugqithiso lwemeko yangoku yaseBarcelona kunye nobugocigoci boyilo lweGothic.	ISant Pau ineecawe.	1
+Ukuqhwanyaza komsila okanye ukuphaphazela, iyemka.	Kulula ukoyikiswa nakuphi na ukunyakaza ngequbuliso.	1
+Ukuqhwanyaza komsila okanye ukuphaphazela, iyemka.	Ayinaloyiko, kwaye ayisayi kushukunyiswa nayintoni na.	2
+Ukuqhwanyaza komsila okanye ukuphaphazela, iyemka.	Eyona ntshukumo incinci; ayisekho.	0
+Inkqubo ebanzi yokuhlaziya iza kugqitywa ngasekupheleni kowama2001.	Inkqubo yokuhlaziya iza kuphela ngaphambi kokuba unyaka wama2001 uqalise.	2
+Inkqubo ebanzi yokuhlaziya iza kugqitywa ngasekupheleni kowama2001.	Inkqubo yokuhlaziya ayizukwenziwa de kube semva kokuphela konyaka kowama2000.	0
+Inkqubo ebanzi yokuhlaziya iza kugqitywa ngasekupheleni kowama2001.	Xa inkqubo yokuhlaziya iphelile, iya kuba ithathe iminyaka emihlanu.	1
+Abasebenzi basebenza kwinkqubo yokwandisa amanani eeflamingo kwiZiqithi zaseVirgin zaseUS, kwaye uya kufumana umhlambi omncinane apha ngokuzalana ngempumelelo ngonyaka ngamnye.	Abasebenzi basebenzela ukuphelisa iiflamingo.	2
+Abasebenzi basebenza kwinkqubo yokwandisa amanani eeflamingo kwiZiqithi zaseVirgin zaseUS, kwaye uya kufumana umhlambi omncinane apha ngokuzalana ngempumelelo ngonyaka ngamnye.	Abasebenzi basebenzela ukwandisa ukuba zingaphi iiflamingo ezikwesi siqithi ukuze zikwazi ukuchacha xa ziphantse zatshabalala.	1
+Abasebenzi basebenza kwinkqubo yokwandisa amanani eeflamingo kwiZiqithi zaseVirgin zaseUS, kwaye uya kufumana umhlambi omncinane apha ngokuzalana ngempumelelo ngonyaka ngamnye.	Abasebenzi basebenzela ukwandisa inani leeflamingo ezikwisiqithi.	0
+Iintaba ezimagqagala zeSerra de Tramuntana zitshayela ukuya elwandle ngomnqantsa apha kangangokuba kukho iindawo ezimbalwa zokufikelela kwaye izibuko elinye kunye nezibuko lalo naluphi na ubungakanani ecaleni konxweme.	Iintaba zihlala zinendawo yokudilika komhlaba kuba amazibuko awakhiwanga lula apho.	1
+Iintaba ezimagqagala zeSerra de Tramuntana zitshayela ukuya elwandle ngomnqantsa apha kangangokuba kukho iindawo ezimbalwa zokufikelela kwaye izibuko elinye kunye nezibuko lalo naluphi na ubungakanani ecaleni konxweme.	Iintaba zenza kube nzima ukwakha amazibuko.	0
+Iintaba ezimagqagala zeSerra de Tramuntana zitshayela ukuya elwandle ngomnqantsa apha kangangokuba kukho iindawo ezimbalwa zokufikelela kwaye izibuko elinye kunye nezibuko lalo naluphi na ubungakanani ecaleni konxweme.	Kukho amazibuko angama27 ecaleni kweentaba	2
+ICulebra yaziwa ngokuba yiSpanish Virgin Island yade yathathwa yiMelika ilele phakathi kwePuerto Rico kunye neSt Thomas kwiZiqithi zaseVirgin zaseUS.	ICulebra iphakathi kwePuerto Rico kunye neSt. Thomas kwiiVirgin Islands zaseUS.	0
+ICulebra yaziwa ngokuba yiSpanish Virgin Island yade yathathwa yiMelika ilele phakathi kwePuerto Rico kunye neSt Thomas kwiZiqithi zaseVirgin zaseUS.	ICulebra ayikho ndawo kufuphi nePuerto Rico kunye neSt. Thomas kwiiVirgin Islands zaseUS.	2
+ICulebra yaziwa ngokuba yiSpanish Virgin Island yade yathathwa yiMelika ilele phakathi kwePuerto Rico kunye neSt Thomas kwiZiqithi zaseVirgin zaseUS.	ICulebra yindawo ethile phakathi kwePuerto Rico kunye neSt. Thomas kwiiVirgin Islands zaseUS.	1
+IUmeda iphawula isiphelo esisemantla sesithili soshishino kunye nokuzonwabisa esidume njengeKita (ithetha nje ukuba nguMntla ), kwaye yeyona nto iphambili kwisiphithiphithi seOsaka yanamhlanje.	IUmeda ayiyonxalenye yesithili sokuzonwabisa.	2
+IUmeda iphawula isiphelo esisemantla sesithili soshishino kunye nokuzonwabisa esidume njengeKita (ithetha nje ukuba nguMntla ), kwaye yeyona nto iphambili kwisiphithiphithi seOsaka yanamhlanje.	IUmeda yeyona ndawo inkulu kwisithili solonwabo.	1
+IUmeda iphawula isiphelo esisemantla sesithili soshishino kunye nokuzonwabisa esidume njengeKita (ithetha nje ukuba nguMntla ), kwaye yeyona nto iphambili kwisiphithiphithi seOsaka yanamhlanje.	IUmeda yindawo esentla yesithili sokuzonwabisa.	0
+Ilungu lesithathu lobathathu emnye wamaHindu nguBrahma, okuphela komsebenzi wakhe yayikukudala ihlabathi.	UBrahma ngumpostile ongumKristu.	2
+Ilungu lesithathu lobathathu emnye wamaHindu nguBrahma, okuphela komsebenzi wakhe yayikukudala ihlabathi.	IBrahma yinxalenye yobathathu emnye wamaHindu.	0
+Ilungu lesithathu lobathathu emnye wamaHindu nguBrahma, okuphela komsebenzi wakhe yayikukudala ihlabathi.	IBrahma yeyona nto ibalulekileyo kubathathu emnye.	1
+UPedro wathatha itrone, nangona umzabalazo wezigalo waqhubeka kangangeenyanga kunye nobukrakra obude emva koko.	Abantu abali10000 bafa emfazweni.	1
+UPedro wathatha itrone, nangona umzabalazo wezigalo waqhubeka kangangeenyanga kunye nobukrakra obude emva koko.	Imfazwe yathabatha iinyanga.	0
+UPedro wathatha itrone, nangona umzabalazo wezigalo waqhubeka kangangeenyanga kunye nobukrakra obude emva koko.	Imfazwe yaphela ngosuku nje olunye.	2
+Inkqubo yezabasebenzi yadityaniswa kwaye ulwakhiwo lwentsebenzisano olutsha lwakhawuleziswa lachazwa ukuqinisekisa ukuqhubeka kwenkxaso yesandisiweyo isiseko sothengiso.	Ngokudityaniswa kwenkqubo yezabasebenzi, igumbi elitsha lezakhiwo zentsebenziswano lenziwa. 	1
+Inkqubo yezabasebenzi yadityaniswa kwaye ulwakhiwo lwentsebenzisano olutsha lwakhawuleziswa lachazwa ukuqinisekisa ukuqhubeka kwenkxaso yesandisiweyo isiseko sothengiso.	Ulwakhiwo lwentsebenzisano lwenziwa. 	0
+Inkqubo yezabasebenzi yadityaniswa kwaye ulwakhiwo lwentsebenzisano olutsha lwakhawuleziswa lachazwa ukuqinisekisa ukuqhubeka kwenkxaso yesandisiweyo isiseko sothengiso.	Inkqubo yezabasebenzi yandisiwe ngaphezu kwendlela ibiyiyo kuqala. 	2
+Nangona izicwangciso  zenkxaso mali zingaphuculwa, inkxaso mali ikho yalo msebenzi 	Zikho izixhobo ezifumanekayo zale misebenzi. 	0
+Nangona izicwangciso  zenkxaso mali zingaphuculwa, inkxaso mali ikho yalo msebenzi 	Ayikho inkxaso mali yalo msebenzi 	2
+Nangona izicwangciso  zenkxaso mali zingaphuculwa, inkxaso mali ikho yalo msebenzi 	Akukho nkxaso mali yaneleyo yalo msebenzi 	1
+Izibalo zeendlela zasemaphandleni ezikweli phepha zisekelwe kwidatha yeNational Mail Count yango 1989.	Izibalo ezikweli phepha zisekelwe kwingxelo yonyaka wama2001.	2
+Izibalo zeendlela zasemaphandleni ezikweli phepha zisekelwe kwidatha yeNational Mail Count yango 1989.	Izibalo ezikweli phepha ziphelelwe lixesha. 	1
+Izibalo zeendlela zasemaphandleni ezikweli phepha zisekelwe kwidatha yeNational Mail Count yango 1989.	Eli liqulathe ulwazi kwiindlela zasemaphandleni.	0
+Isigqeba naso singafumana ukuphonongwa okanye ukalo ngokwephondo okanye sidodobale kwinto nganye.	Isiqalelo ngasinye apho isigqeba siyavavanywa khona kungabangela iziphumo ezahlukeneyo.	0
+Isigqeba naso singafumana ukuphonongwa okanye ukalo ngokwephondo okanye sidodobale kwinto nganye.	Isigqeba asikwazi ukusilela.	2
+Isigqeba naso singafumana ukuphonongwa okanye ukalo ngokwephondo okanye sidodobale kwinto nganye.	Isigqeba masifumane amanqaku amahle ukuze siqhube.	1
+Umxholo oqulunkqwe ngexesha longeno lodliwano ndlebe yintshukumo yendlu ukubhengeza emeyile	Ukuphikisana kudliwano-ndlebe lokungena akusokuze kukufumanele umsebenzi.	1
+Umxholo oqulunkqwe ngexesha longeno lodliwano ndlebe yintshukumo yendlu ukubhengeza emeyile	Udliwano-ndlebe lokungena aluchazi kwanto ngokubhengeza imeyile.	2
+Umxholo oqulunkqwe ngexesha longeno lodliwano ndlebe yintshukumo yendlu ukubhengeza emeyile	Udliwano-ndlebe lokungena lukwachaza kancinci malunga nendlela abantu abasabela ngayo kwisibhengezo semayile.	0
+Ikhulu elinashumi asibhozo anethoba kunye nomsebenzisi ndleko baqikeleleka kwindlela efanayo 	Baqikeleleka iindleko zomsebenzisi.	0
+Ikhulu elinashumi asibhozo anethoba kunye nomsebenzisi ndleko baqikeleleka kwindlela efanayo 	Baqikelela iindleko zomsebenzisi zeedola ezingama-10000. 	1
+Ikhulu elinashumi asibhozo anethoba kunye nomsebenzisi ndleko baqikeleleka kwindlela efanayo 	Babezazi ngqo iindleko zomsebenzisi 	2
+Umzekelo, kwiGGD isifundo soyilo senziwa njengomsebenzi osecaleni, isiphelo	Isifundo soyilo asizange senzeka.	2
+Umzekelo, kwiGGD isifundo soyilo senziwa njengomsebenzi osecaleni, isiphelo	Isifundo soyilo sasiqhutyelwa bucala.	0
+Umzekelo, kwiGGD isifundo soyilo senziwa njengomsebenzi osecaleni, isiphelo	Isifundo soyilo asizange sabayimpumelelo.	1
+ZoliThoba iiArhente ziphendula kwingxelo nkxaxheba. 	KweziliThoba iiArhente zimbini kuphela ezazihluphayo ngokuphendula imibuzo yethu malunga nokuthaba inxaxheba.	2
+ZoliThoba iiArhente ziphendula kwingxelo nkxaxheba. 	ZaziliThoba iiArhente ezaphendula ngokuqinisekileyo ukuba bathabathe inxaxheba.	0
+ZoliThoba iiArhente ziphendula kwingxelo nkxaxheba. 	Ezi arhente zonwabile kuba zifumane inxaxheba ekwizinga eliphezulu.	1
+Ukusekela ngo1999, ingeniso yomlinganiselo wobutyebi wemizi unyuke waphakama ngokukhawuleza ukuya ku-6.4 ngowama1999. 	Imizi yonke irhole ama-10000 eedola ngaphezulu kunyaka ophelileyo.	1
+Ukusekela ngo1999, ingeniso yomlinganiselo wobutyebi wemizi unyuke waphakama ngokukhawuleza ukuya ku-6.4 ngowama1999. 	Imizi ilahlekelwe bubutyebi obuninzi.	2
+Ukusekela ngo1999, ingeniso yomlinganiselo wobutyebi wemizi unyuke waphakama ngokukhawuleza ukuya ku-6.4 ngowama1999. 	Imizi ifumene ungeniso yomlinganiselo wobutyebi omninzi kakhulu. 	0
+Kwindlela yodidi oluphantsi, isiseko kunye necandelo lokwabelana ngomsebenzi banikwe uyinge lokuphawula ngaphezu kweendleko, ukuze bafumane ukalo lwabo uluphakathi	Icandelo lesiseko lingaphezu kwendleko.	0
+Kwindlela yodidi oluphantsi, isiseko kunye necandelo lokwabelana ngomsebenzi banikwe uyinge lokuphawula ngaphezu kweendleko, ukuze bafumane ukalo lwabo uluphakathi	Ixabiso linyuswe lakumyinge weshumi ngaphezu kwendleko. 	1
+Kwindlela yodidi oluphantsi, isiseko kunye necandelo lokwabelana ngomsebenzi banikwe uyinge lokuphawula ngaphezu kweendleko, ukuze bafumane ukalo lwabo uluphakathi	Ixabiso lihlala lingaphantsi kwendleko. 	2
+IShumi elineThoba elingela iinyanga ezine zomsebenzi ngaphambili kwembasa yesivumelwano, ixesha lonke liphelile leenyanga ezilishumi elinesithathu ngeyibe sisidingo ukubuyisela le 675 MWe bhoyila	Kuthathe iinyanga ezimbini kuphela ukuyibuyisela.	2
+IShumi elineThoba elingela iinyanga ezine zomsebenzi ngaphambili kwembasa yesivumelwano, ixesha lonke liphelile leenyanga ezilishumi elinesithathu ngeyibe sisidingo ukubuyisela le 675 MWe bhoyila	Kuthathe iinyanga ezili-13 ukubuyisela ibhoyila ukwenzela umkhumbi wamanzi.	1
+IShumi elineThoba elingela iinyanga ezine zomsebenzi ngaphambili kwembasa yesivumelwano, ixesha lonke liphelile leenyanga ezilishumi elinesithathu ngeyibe sisidingo ukubuyisela le 675 MWe bhoyila	Kuthathe iinyanga ezili-13 ngokupheleleyo ukubuyisela ibhoyila.	0
+Unqongophalo lwabasebenzi be-IT abanezakhono kwindawo yentengiso yangoku ihlala ingunobangela omkhulu ophembelela iinkampani zifune abasebenzi ngaphandle. 	Baninzi kakhulu abasebenzi be-IT.	2
+Unqongophalo lwabasebenzi be-IT abanezakhono kwindawo yentengiso yangoku ihlala ingunobangela omkhulu ophembelela iinkampani zifune abasebenzi ngaphandle. 	Abonelanga abasebenzi be-IT kuba bonke baya eIndia	1
+Unqongophalo lwabasebenzi be-IT abanezakhono kwindawo yentengiso yangoku ihlala ingunobangela omkhulu ophembelela iinkampani zifune abasebenzi ngaphandle. 	Abonelanga abasebenzi be-IT ukuvala izikhewu zemisebenzi.	0
+Akwenzeki ukuba wazi ubungakanani okanye isalathiso somkhethe ngokupheleleyo kwisiganeko sotshintsho ngokusekelwe kwisicelo ngobubanzi benye yomsebenzi we C-R kuyo yonke indawo. 	Ucacile mninzi kangakanani umkhethe okhoyo.	2
+Akwenzeki ukuba wazi ubungakanani okanye isalathiso somkhethe ngokupheleleyo kwisiganeko sotshintsho ngokusekelwe kwisicelo ngobubanzi benye yomsebenzi we C-R kuyo yonke indawo. 	Awunako ukwazi mngakanani umkhethe okhoyo ngokuba kunzima ukwehlula kwiimpembelelo zangaphandle.	1
+Akwenzeki ukuba wazi ubungakanani okanye isalathiso somkhethe ngokupheleleyo kwisiganeko sotshintsho ngokusekelwe kwisicelo ngobubanzi benye yomsebenzi we C-R kuyo yonke indawo. 	Awunako ukwazi mngakanani umkhethe okhoyo. 	0
+Iziphumo zeendleko bugcisa, ngenxa yomsebenzi owenziwa lelinye iqela, abangawenza kwizinga elixhome umngangatho ndleko, zibalwa ngendlela efanayo nakuqala. 	Iziphumo zeendleko bugcisa, ziqonde indlela enye.	0
+Iziphumo zeendleko bugcisa, ngenxa yomsebenzi owenziwa lelinye iqela, abangawenza kwizinga elixhome umngangatho ndleko, zibalwa ngendlela efanayo nakuqala. 	Abakaziqondi indlela zokubala iziphumo zeendleko zobugcisa.	2
+Iziphumo zeendleko bugcisa, ngenxa yomsebenzi owenziwa lelinye iqela, abangawenza kwizinga elixhome umngangatho ndleko, zibalwa ngendlela efanayo nakuqala. 	Basebenzise ulwazi lwembali ukubala iziphumo zeendleko zobugcisa.	1
+Ukuqhelanisa kwesine:lawula umngcipheko ngokuqhubekayo.	Isahluko sesine siqulathe ukuziqhelanisa kokuzilolonga kulawulo longcipheko.	0
+Ukuqhelanisa kwesine:lawula umngcipheko ngokuqhubekayo.	Incwadi ayiqulathanga ulwazi ngexesha elide lolawulo longcipheko.	2
+Ukuqhelanisa kwesine:lawula umngcipheko ngokuqhubekayo.	Lo  msebenzi ufanele ugqitywe ungeniswe ekupheleni kweveki.	1
+Intshukumo yamasilamsi, yazalwa ngonyaka wa1940, sisiqhamo selizwe yale mihla, ngempembelelo yemibono ka Marxist-Leninist yovukelo mbuso. 	Imibono yeMarxist-Leninist yayibandakanyiwe kwintshukumo yamaSilamsi.	0
+Intshukumo yamasilamsi, yazalwa ngonyaka wa1940, sisiqhamo selizwe yale mihla, ngempembelelo yemibono ka Marxist-Leninist yovukelo mbuso. 	Intshukumo yama Silamsi yaqala kwinkulungwane yesithandathu. 	2
+Intshukumo yamasilamsi, yazalwa ngonyaka wa1940, sisiqhamo selizwe yale mihla, ngempembelelo yemibono ka Marxist-Leninist yovukelo mbuso. 	Intshukumo yamasilamsi yasekwa ekuqaleni njengombutho wokuhlanganisa uluntu. 	1
+Abanye abacebisi babonakalise inkxalabo.	Ngazwinye bonke abacebisi bavuma ukuba mabangazikhathazi nganto.	2
+Abanye abacebisi babonakalise inkxalabo.	Mnye kuphela umncebisi ongazange abonise inkxalabo kweli cebo.	1
+Abanye abacebisi babonakalise inkxalabo.	Le nkxalabo ivakaliswe ngabacebisi abaninzi abahlukeyo.	0
+Inkqubo ikwakhethe abakhweli ngokungalindelekanga ukuze bafumane ukhuseleko olongesmzelelweyo lozihlola	Bonke abakhweli bafumana nje ukuzihambela ngaphandle kwengxaki.	2
+Inkqubo ikwakhethe abakhweli ngokungalindelekanga ukuze bafumane ukhuseleko olongesmzelelweyo lozihlola	Abanye abakhweli bafumana uhlolo lomzimba wonke.	1
+Inkqubo ikwakhethe abakhweli ngokungalindelekanga ukuze bafumane ukhuseleko olongesmzelelweyo lozihlola	Abanye abakhweli bajongwa kakhulu ngocoselelo ngonoogada.	0
+Asibonanga nto ebonakalisa ukuba umbono ubushwankathelwe kumabhalane omtsha okanye la Claeke wagqithisa iphepha lakhe kubo, nangona abezomsebenzi  ebandise bobabini oomabhalana. 	Sinesiqinisekiso esingumyinge wekhulu wokuba uClarke akakhange alinike mntu iphepha lakhe. 	1
+Asibonanga nto ebonakalisa ukuba umbono ubushwankathelwe kumabhalane omtsha okanye la Claeke wagqithisa iphepha lakhe kubo, nangona abezomsebenzi  ebandise bobabini oomabhalana. 	Asinako ukufumana ubungqina bokuba uClarke wamnika iphepha lakhe. 	0
+Asibonanga nto ebonakalisa ukuba umbono ubushwankathelwe kumabhalane omtsha okanye la Claeke wagqithisa iphepha lakhe kubo, nangona abezomsebenzi  ebandise bobabini oomabhalana. 	Siyayazi ngokuqinisekileyo ukuba uClarke wabanika iphepha lakhe kweyeKhala ngomhla we-2. 	2
+Ayicacanga inkqubo ingafakwa ngaphambi konyaka wama2010, kodwa nesi sigcini maxesha singacotha kakuhle xa sinokwenza ubungozi bokhuseleko. 	Kunzima ukufaka inkqubo ngokuba abagqekezi bayayihlasela ubusuku nobusuku.	1
+Ayicacanga inkqubo ingafakwa ngaphambi konyaka wama2010, kodwa nesi sigcini maxesha singacotha kakuhle xa sinokwenza ubungozi bokhuseleko. 	Akukho ukufaka inkqubo ngenxa yeengozi zokhuseleko.	0
+Ayicacanga inkqubo ingafakwa ngaphambi konyaka wama2010, kodwa nesi sigcini maxesha singacotha kakuhle xa sinokwenza ubungozi bokhuseleko. 	Inkqubo yokhuseleko izakufakwa kwiiveki ezisithandathu, ndiyathembisa.	2
+Ngoko ke, ngethuba sikhusela umhlaba, AmaMelika mabazigade izigrogriso abazenzayo kuluntu olubalulekileyo nenkululeko yabantu. 	AmaMelika akukho sidingo sokuba azikhathaze ngenkululeko yoluntu-bazakuhlala bekhuselekile.	2
+Ngoko ke, ngethuba sikhusela umhlaba, AmaMelika mabazigade izigrogriso abazenzayo kuluntu olubalulekileyo nenkululeko yabantu. 	AmaMelika mawenze isiqinisekiso sokuba imipu yabo ayithathwa.	1
+Ngoko ke, ngethuba sikhusela umhlaba, AmaMelika mabazigade izigrogriso abazenzayo kuluntu olubalulekileyo nenkululeko yabantu. 	AmaMelika mawabaze iindlebe kwizigrogriso zenkululeko yethu. 	0
+Ukuyithumela iphinda phindwa  akukhange kuyenze isebenze ngakumbi.	Ukuyithumela akukhange kuphucule indlela ebisebenza ngayo. 	0
+Ukuyithumela iphinda phindwa  akukhange kuyenze isebenze ngakumbi.	Ukuyithumela kuyenze yasebenza ngokuncomekayo.	2
+Ukuyithumela iphinda phindwa  akukhange kuyenze isebenze ngakumbi.	Ayikhange iyenze isebenze ngokugqwesileyo xa sasiyithumela eWhite House. 	1
+Omnye umngangatho phantsi, Umqulunqi we-al Qaeda yunitji eCIA ngexesha wakhumbula kwaye akazange acinge ukuba ayingomsebenzi wakhe ukuqulunqa ekufanele kwenziwe, nokungafanelekang kwenziwe. 	Umlawuli akakhange afune ukuzibandakanya ngokuba ebesele ekufuphi ukuba atye umhlala phantsi. 	1
+Omnye umngangatho phantsi, Umqulunqi we-al Qaeda yunitji eCIA ngexesha wakhumbula kwaye akazange acinge ukuba ayingomsebenzi wakhe ukuqulunqa ekufanele kwenziwe, nokungafanelekang kwenziwe. 	Umlawuli wecandelo akakhange afune ukuzibandakanya ekulawuleni oko bekusenziwa. 	0
+Omnye umngangatho phantsi, Umqulunqi we-al Qaeda yunitji eCIA ngexesha wakhumbula kwaye akazange acinge ukuba ayingomsebenzi wakhe ukuqulunqa ekufanele kwenziwe, nokungafanelekang kwenziwe. 	Umlawuli wayecinga konke kuxhomekeke kuye.	2
+UPickard uyayikhukhumbula ingxelo etyholayo eyenziwa kushwankathelo kweyeKhala ngomhla we-12. 	UPickard wayengakhumbuli kwasa nto  ababeyithethile.	2
+UPickard uyayikhukhumbula ingxelo etyholayo eyenziwa kushwankathelo kweyeKhala ngomhla we-12. 	UPickard wakhumbula ushwankathelo lwaquka iinyaniso ngontlitheko.	1
+UPickard uyayikhukhumbula ingxelo etyholayo eyenziwa kushwankathelo kweyeKhala ngomhla we-12. 	UPickard wayikhumbula into eyayithethwa kushwankathelo.	0
+Wahambela ePakistane kodwa wakhathazeka xa wabuzwayo ukuba wayekhe waya kumazwe akufuphi ngethuba wayesePakistan (iPakistan yayiyindlela eqhelekileyo eya kwiinkampu zoqeqesho eAfghanistan).	Yayingaqheleka kubanqolobi ukuba basebenzise iPakistani ukuya eAfiganistani.	0
+Wahambela ePakistane kodwa wakhathazeka xa wabuzwayo ukuba wayekhe waya kumazwe akufuphi ngethuba wayesePakistan (iPakistan yayiyindlela eqhelekileyo eya kwiinkampu zoqeqesho eAfghanistan).	IPakistan kunye neAfghanistan zime kude kakhulu enye kwenye. 	2
+Wahambela ePakistane kodwa wakhathazeka xa wabuzwayo ukuba wayekhe waya kumazwe akufuphi ngethuba wayesePakistan (iPakistan yayiyindlela eqhelekileyo eya kwiinkampu zoqeqesho eAfghanistan).	Uqeqesho olwafumaneka eAfghanistan lwaquka umlo wasandla nesandla.	1
+Ngoshwankathelo olifutshane ezi ndlela kunye nezizathu zobuba zingquzulana mhlawumbi zazingazingazinzisanga, jonga Graham Allison kunye nePhillip Zelikow, Essence of ed. 	Abahlalutyi baphathwa ngokugqibeleleyo	2
+Ngoshwankathelo olifutshane ezi ndlela kunye nezizathu zobuba zingquzulana mhlawumbi zazingazingazinzisanga, jonga Graham Allison kunye nePhillip Zelikow, Essence of ed. 	Abahlalutyi bathunyelwa emntwini ongenguye ukumhlalutya	1
+Ngoshwankathelo olifutshane ezi ndlela kunye nezizathu zobuba zingquzulana mhlawumbi zazingazingazinzisanga, jonga Graham Allison kunye nePhillip Zelikow, Essence of ed. 	Abahlalutyi babengaphathwa ngokugqibeleleyo	0
+Benza kubenzima kakhulu kwezo kujoliswe kuzo ukuba bazihlasele ngokupheleleyo, kwaye bathintele uhlaselo ngokwenza  ukubanjwa kubenokwenzeka ngakumbi. 	Babeyazi ukwenza nzima kwezoo kujoliswe kuzo kungakhokhelela kwizinga eliphezulu lokuzibamba.	1
+Benza kubenzima kakhulu kwezo kujoliswe kuzo ukuba bazihlasele ngokupheleleyo, kwaye bathintele uhlaselo ngokwenza  ukubanjwa kubenokwenzeka ngakumbi. 	Benza kubelula kwazo kujoliswe kuzo zabanjwa ngomzuzu nje omnye. 	2
+Benza kubenzima kakhulu kwezo kujoliswe kuzo ukuba bazihlasele ngokupheleleyo, kwaye bathintele uhlaselo ngokwenza  ukubanjwa kubenokwenzeka ngakumbi. 	Bazenzela ngokwabo ubunzima obukhulu kwezo kwakujoliswe kuzo ukuze bazakukwazi ukwenza ukubamba kwenzeke ngakumbi.	0
+ISouth Air Defence Sector yaziswa ngesiganeko ngo9:55,emveni kwimizuziu eyi28. 	Emveni kwimizuziu eyi28 ebunyanisweni iSoutheast Air Defence Sector yafumana isaziso.	0
+ISouth Air Defence Sector yaziswa ngesiganeko ngo9:55,emveni kwimizuziu eyi28. 	Icandelo alizange lifumane izaziso kwangethuba ngenxa yobambezeleko kunxibelelwano.	1
+ISouth Air Defence Sector yaziswa ngesiganeko ngo9:55,emveni kwimizuziu eyi28. 	ISoutheast Air Defence Sector yaziswa ngesiganeko  nje ngemizuzu eyi28 sesisehlile.	2
+Sijonge kwingxoxo yelizwe lonke kwabafaneleke kule nto besiyicebisile, kwaye sizakuthaba inkxaxheba ngamandla kule ngxoko 	Akukho sizathu sokuxoxa lombandela.	2
+Sijonge kwingxoxo yelizwe lonke kwabafaneleke kule nto besiyicebisile, kwaye sizakuthaba inkxaxheba ngamandla kule ngxoko 	Sifuna ukubanengxoxo ngokuba siyazazi ezi ngcebiso zibalulekile.	1
+Sijonge kwingxoxo yelizwe lonke kwabafaneleke kule nto besiyicebisile, kwaye sizakuthaba inkxaxheba ngamandla kule ngxoko 	Singathanda ukuxoxa iingcebiso. 	0
+Emveni kokuba uMihdhar ehambile, abanye abafundi bafudukela endlwini. 	UMihdhar wayeyazi ukuba abafundi babelinde kuye ukuze bahambe 	1
+Emveni kokuba uMihdhar ehambile, abanye abafundi bafudukela endlwini. 	Abafundi baya kwelikhaya emveni kokuhamba kukaMidhar. 	0
+Emveni kokuba uMihdhar ehambile, abanye abafundi bafudukela endlwini. 	Abafundi baqhankqalaza ngaphandle kwendlu awayehla kuyo uMihdhar. 	2
+Isipho sakho sibalulelile kubhiyozo lwethu lwesizini yama-85.	Isipho nesipho esisifumanayo asibalulekanga kunesakho.	1
+Isipho sakho sibalulelile kubhiyozo lwethu lwesizini yama-85.	 Asisikhathalelanga konke konke Isipho sakho.	2
+Isipho sakho sibalulelile kubhiyozo lwethu lwesizini yama-85.	Besiyenza le nto iminyaka engaphaya kwama-80. 	0
+Kuthatha intsebenziswano yenkxaso ebucala  nenkxaso mali yedyunivesithi ukuze isikolo sethu somthetho siqhubekeke sikhule kubume nakwifuthe.	Isikolo sethu somthetho sixhomekeke kwinkxaso mali ebucala kuphela. 	2
+Kuthatha intsebenziswano yenkxaso ebucala  nenkxaso mali yedyunivesithi ukuze isikolo sethu somthetho siqhubekeke sikhule kubume nakwifuthe.	Isikolo sethu somthetho sixhaswa yinxalenye nguMelinda kunye nesiseko sikaBill Gate. 	1
+Kuthatha intsebenziswano yenkxaso ebucala  nenkxaso mali yedyunivesithi ukuze isikolo sethu somthetho siqhubekeke sikhule kubume nakwifuthe.	Isikolo sethu somthetho sidinga imali ukuqhubeka sikhule.	0
+Ngoncedo kuphela lwabencedi kuphela siye sakwazi ukuphumelela kakhulu.	Bill gates unikele ngeeDola ezintlanu zesigidi. 	1
+Ngoncedo kuphela lwabencedi kuphela siye sakwazi ukuphumelela kakhulu.	Ngokokunikwa ubume ntengiso kwezezimali, abancedi bethu babuyise unyawo kwinkxaso mali yabo.	2
+Ngoncedo kuphela lwabencedi kuphela siye sakwazi ukuphumelela kakhulu.	Siye saphumelela kakhulu, ngenxa yoncedo esiye salufumana. 	0
+Siyakubulela ngokuxhasa Indianapolis Musiyam yobugcisa kunyaka wa1999. 	Siyakubulela ngokunikela ngeDola ezili100 kwiIndianapolis musiyam yobugcisa. 	1
+Siyakubulela ngokuxhasa Indianapolis Musiyam yobugcisa kunyaka wa1999. 	Enkosi kodwa hayi siyabulelai ngokuphelelwa komnikelo wakho ngowama1999. 	2
+Siyakubulela ngokuxhasa Indianapolis Musiyam yobugcisa kunyaka wa1999. 	Siyavuya kakhulu wanceda waxhasa umusiyam. 	0
+Ithemba lam uye wasikeleleka kakhulu kwaye wakhuthazeka ngulo mba. 	Ndiyathemba ukuba lo mba ukunike umdla omtsha. 	0
+Ithemba lam uye wasikeleleka kakhulu kwaye wakhuthazeka ngulo mba. 	Ndiyayazi lomba uzakubangela ukuba uphelelwe lithemba, kodwa jonga kuhambo lwakho. 	2
+Ithemba lam uye wasikeleleka kakhulu kwaye wakhuthazeka ngulo mba. 	Ndiyayazi uzokwenza ngako konke ekusemandleni ukulwa umhlaza webele	1
+Kubalulekile ukuba sive kuwe malunga nethuba lokugqibela lephulo lokunyusa imali. 	Liphulo lethu lonikelo lokugqibela eli, esizakubanalo kweli xesha, ngoko ke sidinga uncedo lwakho. 	0
+Kubalulekile ukuba sive kuwe malunga nethuba lokugqibela lephulo lokunyusa imali. 	Sinamaphulo amabini okukhulisa imali kulo nyaka. 	2
+Kubalulekile ukuba sive kuwe malunga nethuba lokugqibela lephulo lokunyusa imali. 	Sidinga iiDola ezingama100,000 ukwenza izabelo zokhuliso mali kwelu xesha.	1
+P. S isipho sakho sibalulekile kumbhiyozo wethu wama85 yeminyaka, senza Indianapolis Civic eyona thiyetha indala ngokuqhubekayo esebenza elizweni.	Bekukho elinye iholo leqonga  ebelibhoyozela isikhumbuzio seminyaka engama84, kodwa ke siye satsha. 	1
+P. S isipho sakho sibalulekile kumbhiyozo wethu wama85 yeminyaka, senza Indianapolis Civic eyona thiyetha indala ngokuqhubekayo esebenza elizweni.	Sibhiyozela ukuvulwa okukhulu kweIndianapolis elona holo litsha lomdlalo weqonda.	2
+P. S isipho sakho sibalulekile kumbhiyozo wethu wama85 yeminyaka, senza Indianapolis Civic eyona thiyetha indala ngokuqhubekayo esebenza elizweni.	Siyavuya kakhulu ukuba iholo lomdlalo weqonga iIndianapolisi Civic isebenze iminyaka engama85.	0
+Abo bathabatha inkxaxheba bazakunikwa amagama abahloli, indawo abahlala kuzo kwakunye neembolo zomnxeba, njengemvelaphi yolwazi kwisidingo sesikolo.	Abathabathi nkxaxheba bazakunikwa inkcuchacha zokuqhakamshelana nabahloli kwaye nemvelaphi yolwazi	0
+Abo bathabatha inkxaxheba bazakunikwa amagama abahloli, indawo abahlala kuzo kwakunye neembolo zomnxeba, njengemvelaphi yolwazi kwisidingo sesikolo.	Abathabathi nkxaxheba bazakwenza intshayino yesivumelwano sokungavezwa kolwazi, ngaphambi kokufumabana inkcuchacha zomhloli. 	1
+Abo bathabatha inkxaxheba bazakunikwa amagama abahloli, indawo abahlala kuzo kwakunye neembolo zomnxeba, njengemvelaphi yolwazi kwisidingo sesikolo.	Abo bathabathe inkxaxheba bamazi kuphela igama lomhloli, kodwa hayi indawo ahlala kuyo.	2
+Umziwethu wogcino zilwanyana wenziwa kusetyenziswa umbono weebhayomzi, elinganisa ngokwendalo yeendawo zokuhlala apho izilwanyana zihlala khona.	Iibhayomzi zilinganisa indawo yendalo yokuhlala izilwanyana.	0
+Umziwethu wogcino zilwanyana wenziwa kusetyenziswa umbono weebhayomzi, elinganisa ngokwendalo yeendawo zokuhlala apho izilwanyana zihlala khona.	Kumzi wethu wezilwanyana sikholelwa ukuba indawo yokuhlala eyenziweyo yeyona ingcono kunale idaliweyo	2
+Umziwethu wogcino zilwanyana wenziwa kusetyenziswa umbono weebhayomzi, elinganisa ngokwendalo yeendawo zokuhlala apho izilwanyana zihlala khona.	Iibhayomzi kwindlu yokungcina izilwanyana yethu bezinexabiso eliphezulu kakhulu. 	1
+Inkxaso yakho kaGoodwill izakuquku uqeqesho lomsebenzi kunye nobeka iinkozo ukunceda ubunzima ukunika umbindi weIndiyana bafumane imisebenzi ebhadlileyo. 	Abantu abakumbindi weIndiyana abazange balufumana uqeqesho lomsebenzi.	2
+Inkxaso yakho kaGoodwill izakuquku uqeqesho lomsebenzi kunye nobeka iinkozo ukunceda ubunzima ukunika umbindi weIndiyana bafumane imisebenzi ebhadlileyo. 	Ukuxhasa uGoodwill kuzakwenza bazuze abantu baseIndiyana.	0
+Inkxaso yakho kaGoodwill izakuquku uqeqesho lomsebenzi kunye nobeka iinkozo ukunceda ubunzima ukunika umbindi weIndiyana bafumane imisebenzi ebhadlileyo. 	Ukuxhasa uGoodwill kuzakuthoba izinga lentswelo ngqesho.	1
+Ukusuka kokuqala ngokuthozama kwinqanaba layo namhlanje njengenye yeendawo yesikolo sokufunda ezobhugqirha esigqwesileyo kwisizwe, yiIndiyana kuphela eqhayisa ngesikolo sobugqirha nokuzidla ngikwenkcubeko. 	IIndiyana inezikolo zokufundela ubugqirha ezingamashumi amabini ubuncinane.	2
+Ukusuka kokuqala ngokuthozama kwinqanaba layo namhlanje njengenye yeendawo yesikolo sokufunda ezobhugqirha esigqwesileyo kwisizwe, yiIndiyana kuphela eqhayisa ngesikolo sobugqirha nokuzidla ngikwenkcubeko. 	Ilizwe laseIndiyana linesekolo esinye sokufunda ubugqirha. 	0
+Ukusuka kokuqala ngokuthozama kwinqanaba layo namhlanje njengenye yeendawo yesikolo sokufunda ezobhugqirha esigqwesileyo kwisizwe, yiIndiyana kuphela eqhayisa ngesikolo sobugqirha nokuzidla ngikwenkcubeko. 	Akuzukubakho sikolo sokufundela ubugqirha kwilizwe laseIndiyana, kule minyaka imihlanu izayo.	1
+Ngokunjalo ukunyuka okungaqhelekanga kwiindleko zeencwadi yemithetho, iijenalsi kunye needatha beyisi, ngokulula kuthetha ukuba ukugcina ingqokolela yethu yangoku kudlulile kuhlahlo mali. 	Ukugcina ingqokolela yethu yangoku ibiza kuphela isithathu sohlahlo lwabiwo mali lonyaka. 	2
+Ngokunjalo ukunyuka okungaqhelekanga kwiindleko zeencwadi yemithetho, iijenalsi kunye needatha beyisi, ngokulula kuthetha ukuba ukugcina ingqokolela yethu yangoku kudlulile kuhlahlo mali. 	Uhlahlo lwabiwo mali lwethu lwangoku alisivumeli ukugcina ingqokolela yethu yangoku. 	0
+Ngokunjalo ukunyuka okungaqhelekanga kwiindleko zeencwadi yemithetho, iijenalsi kunye needatha beyisi, ngokulula kuthetha ukuba ukugcina ingqokolela yethu yangoku kudlulile kuhlahlo mali. 	Sidinga umnikelo weDola engama10, 000 ubuncinane ukuze sikwazi ukugcina ingqokolela yethu yangoku. 	1
+Sizakuzama ukuqhakamshelana nomntu ngamnye kwabangathabathanga nkxaxheba kulo nyaka kwiinsuku ezingama45 zizayo ukuze injongo yethu izokuphumezeka ngomhla obekiweyo ongam-30 Juni. 	Azinanjongo zokuphinda sinxulumane nabo bangazange banikele kulo nyaka mali. 	2
+Sizakuzama ukuqhakamshelana nomntu ngamnye kwabangathabathanga nkxaxheba kulo nyaka kwiinsuku ezingama45 zizayo ukuze injongo yethu izokuphumezeka ngomhla obekiweyo ongam-30 Juni. 	Zizokuqhakamshelana ngokwemeyile kwiinsuku elingama45 ezizayo, kwabo banganikelanga kulo nyaka mali. 	1
+Sizakuzama ukuqhakamshelana nomntu ngamnye kwabangathabathanga nkxaxheba kulo nyaka kwiinsuku ezingama45 zizayo ukuze injongo yethu izokuphumezeka ngomhla obekiweyo ongam-30 Juni. 	Sizakuzama ukuqhakamshelana nabo banganikelanga kulo nyaka mali kwiinsuku ezingama45 ezizayo.	0
+Njengelungu lesikolo somthetho, ndiyakwazi uyayazi inkqubela phambile yethu.	Ndililungu le sikolo somthetho.	1
+Njengelungu lesikolo somthetho, ndiyakwazi uyayazi inkqubela phambile yethu.	Akekho umntu ongowasesikolweni somthetho. 	2
+Njengelungu lesikolo somthetho, ndiyakwazi uyayazi inkqubela phambile yethu.	Isikolo somthetho sibamkele abantu.	0
+Ixabiso lokwenziwa kwamakhaya ligqithe kakhulu kwixabiso elingabhatalwa ngabathengi, ngoko ke sixhomekeke kwindodla nakumnikelo womntu ngamnye ukuze zikwazi ukufikeleleka. 	Ukwenza amakhaya kwakungabizi mali.	2
+Ixabiso lokwenziwa kwamakhaya ligqithe kakhulu kwixabiso elingabhatalwa ngabathengi, ngoko ke sixhomekeke kwindodla nakumnikelo womntu ngamnye ukuze zikwazi ukufikeleleka. 	Amakhaya afuna izixhobo ukuze enziwe.	0
+Ixabiso lokwenziwa kwamakhaya ligqithe kakhulu kwixabiso elingabhatalwa ngabathengi, ngoko ke sixhomekeke kwindodla nakumnikelo womntu ngamnye ukuze zikwazi ukufikeleleka. 	Amakhaya ebebiza imali eninzi ukwenziwa ngaphezu kokuba bekulindelekile.	1
+Umogqumo pakethe wenewsweeklies libonelela abazali abaxhalabileyo.	Abazali abaxhalabileyo bangabanye bemakethe ejongiweyo yenewsweeklies.	0
+Umogqumo pakethe wenewsweeklies libonelela abazali abaxhalabileyo.	INewsweeklies ziyila umogqumo pakethe zazo ukuze zibenomtsalane kubantwana abancinane kunye nabantu abadala. 	2
+Umogqumo pakethe wenewsweeklies libonelela abazali abaxhalabileyo.	Abazali bavamise ngakumbi ukuchitha imali  kwiimoto ezintsha, nto leyo eyenza ingeniso mali yokubhengeza kwicandelo leemagazini.	1
+Ulwegqumo lwebali  lweTime ngamanyathelo ali-12 kwenkqubo kaBill gates ukuze aphumelele kwiminyaka yedijithali. 	UKim Kardashian wabhala umogqumo bali kwiTime magazine malunga namanyathelo ali-12 adingeka kwimpumelelo kwiminyaka yedijithali.	2
+Ulwegqumo lwebali  lweTime ngamanyathelo ali-12 kwenkqubo kaBill gates ukuze aphumelele kwiminyaka yedijithali. 	Imagazini yakwaTime inomfanekiso kaBill gates kwisogqumo sayo. 	1
+Ulwegqumo lwebali  lweTime ngamanyathelo ali-12 kwenkqubo kaBill gates ukuze aphumelele kwiminyaka yedijithali. 	Imagazini yakwaTime yenza ibali ngoBill gates nempumelelo yakhe kwiminyaka yedijithali. 	0
+Baleka uthule,baleka nzulu, baleka impendulo.	Baleka ngethuba usenza ingxolo. 	2
+Baleka uthule,baleka nzulu, baleka impendulo.	Baleka iingalo zivulekile. 	1
+Baleka uthule,baleka nzulu, baleka impendulo.	Baleka ngaphandle kokuviwa. 	0
+UPaul ubonakala ethatha uAlan Greenspan njenge-ayidiyoloji enqanda izinga lentswela ngqesho nanje ngengxelo yethiyori yezoqoqosho. 	Alan Greenspan uneethiyori  yezoqoqosho malunga nezinga lentswelo ngqesho.	0
+UPaul ubonakala ethatha uAlan Greenspan njenge-ayidiyoloji enqanda izinga lentswela ngqesho nanje ngengxelo yethiyori yezoqoqosho. 	UPaul akazange weva ngoAlan Greenspan okanye ngeethiyori zakhe zoqoqosho. 	2
+UPaul ubonakala ethatha uAlan Greenspan njenge-ayidiyoloji enqanda izinga lentswela ngqesho nanje ngengxelo yethiyori yezoqoqosho. 	UPaul ucinga ukuba uGreenspan  yeyona ngcali yezoqoqosho ekrelekrele ayaziyo.	1
+Ngokoncedo lweMayikhrosofuti ndifumanise ukuba iCD-ROM yam, mhlawumbi ibingafakwanga kakuhle kwisandi sakhe sekhadi, kwaye hayi kwiIDE pothi, ngaloo ndlela yamxaka uLinux. 	Andizange ndasebenzisana noLinux. 	2
+Ngokoncedo lweMayikhrosofuti ndifumanise ukuba iCD-ROM yam, mhlawumbi ibingafakwanga kakuhle kwisandi sakhe sekhadi, kwaye hayi kwiIDE pothi, ngaloo ndlela yamxaka uLinux. 	Ndandinengxaki yokufumana uLinux ukuze aqhagamshelane kwimodem yam. 	1
+Ngokoncedo lweMayikhrosofuti ndifumanise ukuba iCD-ROM yam, mhlawumbi ibingafakwanga kakuhle kwisandi sakhe sekhadi, kwaye hayi kwiIDE pothi, ngaloo ndlela yamxaka uLinux. 	Ndandifumana iingxaki noLinux.	0
+Steve, andikhange ndikwazi nokusiphakamisa isipaji sakho, watsho UHatch. 	Ngomsindo uHatch wathi akakwazi nokusiphakamisa isipaji sikaSteve.	1
+Steve, andikhange ndikwazi nokusiphakamisa isipaji sakho, watsho UHatch. 	UHatch wayenalo uluvo ngesipaji sikaSteve. 	2
+Steve, andikhange ndikwazi nokusiphakamisa isipaji sakho, watsho UHatch. 	UHatch wadlala ngokuthi wayengakwazi nokusiphakamisa isipaji sikaSteve.	0
+Iingqondi, ezizimele kwezoqoqosho kunye namagumbi ekhompuyutha, bazifumana bekwizikhundla ezingenathemba ngakumbi. 	Iingqondi azinathemba. 	0
+Iingqondi, ezizimele kwezoqoqosho kunye namagumbi ekhompuyutha, bazifumana bekwizikhundla ezingenathemba ngakumbi. 	Iingqondi azikhontle kwintsebenziswano yoluntu. 	1
+Iingqondi, ezizimele kwezoqoqosho kunye namagumbi ekhompuyutha, bazifumana bekwizikhundla ezingenathemba ngakumbi. 	Iingqondi zinekamva. 	2
+Engaphezulu kwesithembiso esingenziwa yiNews Quiz ngoFox. 	Ingaphantsi kwesithembiso esingenziwa yiNews Quiz ngoFox. 	2
+Engaphezulu kwesithembiso esingenziwa yiNews Quiz ngoFox. 	Ingaphezu kwesiqinisekiso esingenziwa yiNews Quiz ngoFox. 	0
+Engaphezulu kwesithembiso esingenziwa yiNews Quiz ngoFox. 	Mhlawumbi ingaphezulu kokungatshiwo yiNews Quiz ngoFox. 	1
+Ukukhula kwabantu ehlabathini kufana nongcoliseko oluya emva.	Ungcoliseko yeyona nto enqanda ukukhula kwabantu ehlabathini.	1
+Ukukhula kwabantu ehlabathini kufana nongcoliseko oluya emva.	Ukukhula kwabantu ehlabathini kufana nongcoliseko oluphambeneyo.	0
+Ukukhula kwabantu ehlabathini kufana nongcoliseko oluya emva.	Abukho ubudlelwane ubophakathi kokukhula kwabantu ehlabathini nongcoliseko.	2
+Ke, makuthiwe UBill Bradley wakhulela eSt.Louis yima, uxolo, lo nto ingahlekisa kuphela ukuba  uAl Gore ebekhulele eTennessee. 	Bradley waye ngowase Arkansas. 	2
+Ke, makuthiwe UBill Bradley wakhulela eSt.Louis yima, uxolo, lo nto ingahlekisa kuphela ukuba  uAl Gore ebekhulele eTennessee. 	UBradley waye ngowase Missourt. 	0
+Ke, makuthiwe UBill Bradley wakhulela eSt.Louis yima, uxolo, lo nto ingahlekisa kuphela ukuba  uAl Gore ebekhulele eTennessee. 	UBradley wayengo wasebucala lasekholo laseSt Louis. 	1
+USabol wathi, ngamanye amaxesha kufuneka athathe ikhefu elifutshane, kodwa kwa oko kuhlenga hlengiswe ngokufanelekileyo. 	USabol akakudingi ukuthatha onke la makhefu mafutshane. 	1
+USabol wathi, ngamanye amaxesha kufuneka athathe ikhefu elifutshane, kodwa kwa oko kuhlenga hlengiswe ngokufanelekileyo. 	USabol waveza ukuba ngoku kwaye kwakhona , kufuneka athathe ikhefu elifutshane.	0
+USabol wathi, ngamanye amaxesha kufuneka athathe ikhefu elifutshane, kodwa kwa oko kuhlenga hlengiswe ngokufanelekileyo. 	USabol waphawula ukuba akakudingi ukuthabatha ikhefu. 	2
+Kutheni le nto ingafakwa kwiWebhu?	Le nto iyafakwa kwiWebhu. 	2
+Kutheni le nto ingafakwa kwiWebhu?	Le nto ayisafakwa ngoku kwiWebhu. 	0
+Kutheni le nto ingafakwa kwiWebhu?	Le nto ingafakwa kwiWebhu kwezinye iimeko. 	1
+Abakwantsasana benza ingxelo yokuba bamkhuphile usisi kaJon Benet Ramsey kunye nobhuti wakhe, ngobugqina bokuba babengekho kwidolophu ngethuba ulwaphulo mthetho lusenzeka. 	Ubhuti kaJon Benet Ramsey wayengekho sedolophi ngethuba kusehla, isehlo sukubulawa. 	0
+Abakwantsasana benza ingxelo yokuba bamkhuphile usisi kaJon Benet Ramsey kunye nobhuti wakhe, ngobugqina bokuba babengekho kwidolophu ngethuba ulwaphulo mthetho lusenzeka. 	Usisi kaJon Benet Ramsey unengqina elingamadla alizakungqina ukuba wayeyengekho kwidolophu xa kwakusenzeka ukubulawa	1
+Abakwantsasana benza ingxelo yokuba bamkhuphile usisi kaJon Benet Ramsey kunye nobhuti wakhe, ngobugqina bokuba babengekho kwidolophu ngethuba ulwaphulo mthetho lusenzeka. 	Kukho ubungqina obaneleyo bokubamba ubhuti kaJon Banet Ramsey njengombulali. 	2
+Awuqinisekanga ngokuba ucacalwe ngokuba ukwelikabani na icala. 	Icacile ukuba uxhasa bani 	2
+Awuqinisekanga ngokuba ucacalwe ngokuba ukwelikabani na icala. 	Asikwazi ukuba uxhasa bani kuvoto	1
+Awuqinisekanga ngokuba ucacalwe ngokuba ukwelikabani na icala. 	Asikwazi uxhasa bani	0
+Ngenye imini, le iteknoloji eyenza imakethe zokuboniswa, izakufana nqwa nezibane. 	Iteknoloji iye idine emveni kwethuba. 	0
+Ngenye imini, le iteknoloji eyenza imakethe zokuboniswa, izakufana nqwa nezibane. 	Iteknoloji ihlala isonwabisa. 	2
+Ngenye imini, le iteknoloji eyenza imakethe zokuboniswa, izakufana nqwa nezibane. 	Iteknoloji iyadika ukuba awuhlali uyitshintsha. 	1
+ Akufanelekanga asetyenziswe enye indlela endaweni yenye . 	Akulunganga ukusebenzisa enye indlela endaweni yenye kuba ufuna ukutolika enye 	0
+ Akufanelekanga asetyenziswe enye indlela endaweni yenye . 	Kuvumelekile ukutshintsha enye indlela endaweni yenye. 	2
+ Akufanelekanga asetyenziswe enye indlela endaweni yenye . 	Uninzi lwabantu abakwazi ukusebenzisa enye indlela kunye nokutshintsha. 	1
+Ngexesha egqiba iminyaka engamashumi amathathu ngowama1895 , USkeat wabonakalisa umbono wokuthatha ezi ngxaki kancinane ekuqaleni. 	Njengokuba USkeat wayengenga kwiminyaka yakhe engamashumi amathandathu, wayengabonakalisi ukuba kukho nanye  into ayicingayo. 	2
+Ngexesha egqiba iminyaka engamashumi amathathu ngowama1895 , USkeat wabonakalisa umbono wokuthatha ezi ngxaki kancinane ekuqaleni. 	Njengokuba wayesiya ekhula uSkeat wabonakalisa imvakalelo yokuba wazithatha kancinci iingxaki. 	0
+Ngexesha egqiba iminyaka engamashumi amathathu ngowama1895 , USkeat wabonakalisa umbono wokuthatha ezi ngxaki kancinane ekuqaleni. 	USkeat waqalisa ukukhathala ngezinto ezohlukileyo ngokuba esiya ekhula. 	1
+Kodwa kwindibano yesibini wayebanjwe phakathi, phakathi kwabahlobo bakhe ababini. 	Akazazi ukuba makathathe eliphi icala, phakathi kwabahlobo bakhe ababini.	1
+Kodwa kwindibano yesibini wayebanjwe phakathi, phakathi kwabahlobo bakhe ababini. 	Wayenendibano enye kuphela, eyayiquka umhlobo wakhe. 	2
+Kodwa kwindibano yesibini wayebanjwe phakathi, phakathi kwabahlobo bakhe ababini. 	Indibano yakhe yesibini iquka abantu abathathu. 	0
+Yeyiphi oyithanda ngcono, izobalo okanye ezobunzulu lwazi? 	Ingaba uyakhetha phakathi kwezibalo okanye ezobunzulu lwazi? 	0
+Yeyiphi oyithanda ngcono, izobalo okanye ezobunzulu lwazi? 	Yeyiphi oyicaphukela kakhulu, sisiNgesi okanye ifilosofi? 	2
+Yeyiphi oyithanda ngcono, izobalo okanye ezobunzulu lwazi? 	Ungazithanda ezinye izinto ngaphandle kwezibalo nezobunzulu lwazi. 	1
+Xa kunonikwa  ixesha neteknoloji ephuculiweyo. Zonke iiselula ezingenawo unomathotholo, iiselula zingaphawulwa njengeeselula zocingo. 	Iiselula ezingenaye unomathotholo zizakuphetha iiselula zocingo. 	0
+Xa kunonikwa  ixesha neteknoloji ephuculiweyo. Zonke iiselula ezingenawo unomathotholo, iiselula zingaphawulwa njengeeselula zocingo. 	Iiselula zikakuphuculwa yiteknoloji. 	1
+Xa kunonikwa  ixesha neteknoloji ephuculiweyo. Zonke iiselula ezingenawo unomathotholo, iiselula zingaphawulwa njengeeselula zocingo. 	Iiselula zocingo zisisiseko ngakumbi ukodlula iiselula ezingenaye unomathotholo. 	2
+Isivakalisi sokugqibela, sicingela ukuba ngokunjalo awusifakanga kwenye indawo esi sincoko.	Siyithatha ngokuba awukhange usinikele komnye umntu esi sincoko 	0
+Isivakalisi sokugqibela, sicingela ukuba ngokunjalo awusifakanga kwenye indawo esi sincoko.	Siyayiqonda ukuba  wasipapasha ngaphambili esi sincoko kumaphepha ndaba amahlanu. 	2
+Isivakalisi sokugqibela, sicingela ukuba ngokunjalo awusifakanga kwenye indawo esi sincoko.	Singathanda ukuba utyikitye kwiimpepha wamkela ukuba sithi kuphela onikele kubo esi sincoko. 	1
+Bhuti olungileyo--olu vakalelo lesiqhelo sangoku sosetyenziso lufumaneka KuJulius Caesar (iv.	KuJulius Caesar, igama ubhuti olungileyo liyasetyenziswa.	0
+Bhuti olungileyo--olu vakalelo lesiqhelo sangoku sosetyenziso lufumaneka KuJulius Caesar (iv.	Eli gama lithi bhuti olungileyo, belisetyenziswa kuphela ukusekela kwi20th senitshuri.	2
+Bhuti olungileyo--olu vakalelo lesiqhelo sangoku sosetyenziso lufumaneka KuJulius Caesar (iv.	Eli gama lithi bhuti olungileyo, lisetyenziswa ukubhekisa kusibari.	1
+Ukuba kunjalo, bangaqhubeka ukuthenga le nguqulelo ngokuba iqulathe amaphepha,anamagama angama-55, iinkcaza magama kunye nocaphulo olungapapashwanga ngaphambili. 	Le ncwadi inamagama amaninzi angazange apapashwe ngaphambili.	0
+Ukuba kunjalo, bangaqhubeka ukuthenga le nguqulelo ngokuba iqulathe amaphepha,anamagama angama-55, iinkcaza magama kunye nocaphulo olungapapashwanga ngaphambili. 	Le nguqulelo ifana nenguqulelo yangaphambili.	2
+Ukuba kunjalo, bangaqhubeka ukuthenga le nguqulelo ngokuba iqulathe amaphepha,anamagama angama-55, iinkcaza magama kunye nocaphulo olungapapashwanga ngaphambili. 	Le nguqulelo yathengisa amakhulu amahlanu amawaka okhuphelo kunyaka wayo wokuqala.	1
+Kwasoyikisa noko ukujongeka kwayo, kodwa saye sayitya-- ngaphandle kwentshiseko, kodwa ngomlebe uphezulu oqinileyo saye sasela, ngoko ukuthetha, ubisi lukamama wethu. 	Wonke umntu watya isidlo sakhe ngomdla kwaye waphawula ukuba sibakhumbuza izidlo zabo abazithandayo zeholide.	2
+Kwasoyikisa noko ukujongeka kwayo, kodwa saye sayitya-- ngaphandle kwentshiseko, kodwa ngomlebe uphezulu oqinileyo saye sasela, ngoko ukuthetha, ubisi lukamama wethu. 	Saziva sinyanzelekile ukutya loo nto yayibekwe phambi kwethu ngokuba sasingafuni ukukhubekisa abamkeli zindwendwe bethu. 	1
+Kwasoyikisa noko ukujongeka kwayo, kodwa saye sayitya-- ngaphandle kwentshiseko, kodwa ngomlebe uphezulu oqinileyo saye sasela, ngoko ukuthetha, ubisi lukamama wethu. 	Satya sithandabuza loo nto yayibekwe phambi kwethu, nangona nje sasingayithandi indlela eyayibukeka ngayo. 	0
+Badala kanganani abantu abancinane? 	Ndiyazi ngqo ukuba badala kanganani abantu abancinane. 	2
+Badala kanganani abantu abancinane? 	Abantu abancinane baliqela abanye labantu abenengxaki yokulahlulahlula ngokweminyaka.	0
+Badala kanganani abantu abancinane? 	Bonke abantu abancinane baneminyaka engaphantsi kwama-25 ubudala.	1
+Ngaphandle koko, umbono wabo wexesha usetyhula, awungqalanga, ngoko ke ukuphawula ukugqitha kwexesha akubakulekanga njengokubhiyozela ukubuya kwemicimbi yexesha lonyaka. 	Njengokuba umbono wabo wexesha ungqalile, ukugqitha kwexesha kubaluleke kakhulu okogqitha ukubuya kwamaxesha onyaka emicimbi. 	2
+Ngaphandle koko, umbono wabo wexesha usetyhula, awungqalanga, ngoko ke ukuphawula ukugqitha kwexesha akubakulekanga njengokubhiyozela ukubuya kwemicimbi yexesha lonyaka. 	Ngokuba balibona ixesha njenge setyhula, umjikelo wombhiyozo wemicimbi yamaxesha onyaka lubalulekile Kubo. 	0
+Ngaphandle koko, umbono wabo wexesha usetyhula, awungqalanga, ngoko ke ukuphawula ukugqitha kwexesha akubakulekanga njengokubhiyozela ukubuya kwemicimbi yexesha lonyaka. 	Babhiyozela imicimbi yexesha yonyaka ngokuba bakholelwa ukuba ixesha liyajikeleza	1
+Umzekelo, ezinye zazinentsusa esusiweyo ngokucacileyo  kwizixhobo ezasetyenziswayo okanye kumabala ekudlalelwa kuwo. 	Zonke ezemidlalo zithiywa amagama emveni kwecezwana lesixhobo esisetyenziswa kumdlalo.	2
+Umzekelo, ezinye zazinentsusa esusiweyo ngokucacileyo  kwizixhobo ezasetyenziswayo okanye kumabala ekudlalelwa kuwo. 	Eminye yemidlalo ayinikwanga magama emveni kwezixhobo okanye kwebala. 	0
+Umzekelo, ezinye zazinentsusa esusiweyo ngokucacileyo  kwizixhobo ezasetyenziswayo okanye kumabala ekudlalelwa kuwo. 	Le nto yenzeka rhoqo xa ezemidlalo zisenziwa kusetyenziswa izixhobo ebezihleli zikho zisuka kweminye imidlalo.	1
+Ngokwemiceli mingeni, ndikhangela igama elingacazululwa kabini kancinane ngokuyimpumelelo.	Ndifumane  amagama amathathu anokucazululeka kabini kancinane ngokuyimpumelelo.	2
+Ngokwemiceli mingeni, ndikhangela igama elingacazululwa kabini kancinane ngokuyimpumelelo.	Bendingena xesha lilula ekufumaneni igama elinokucazululeka kabini ngokuncinane kubeyimpumelelo. 	0
+Ngokwemiceli mingeni, ndikhangela igama elingacazululwa kabini kancinane ngokuyimpumelelo.	Ndibe nomdla kulwimi ukusukela oko ndathatha izifundo zentshayelelo kunyaka ophelileyo. 	1
+Kodwa le nkcazelo ekunikezelo ishiyiwe kuphononongo, ishiya Umfundi engahlakaniphanga kunaqala.	Incwadi yayibhalelwe umama wombhali.	1
+Kodwa le nkcazelo ekunikezelo ishiyiwe kuphononongo, ishiya Umfundi engahlakaniphanga kunaqala.	Uphononongo lunalo lonke ulwazi olubalulekileyo olungadingwa ukwaziwa ngumfundi.	2
+Kodwa le nkcazelo ekunikezelo ishiyiwe kuphononongo, ishiya Umfundi engahlakaniphanga kunaqala.	Uphononongo alunalo olunye lolwazi kulembalelwano. 	0
+Kuvalo lweminyaka lokuphela kwesentshuri engama19 kwakukho iingxoxo ezininzi malunga neli gama	Ekugqibeleni kwagqitywa ekubeni eli gama alamnkelekanga phakathi kwabantu abathobekileyo.	1
+Kuvalo lweminyaka lokuphela kwesentshuri engama19 kwakukho iingxoxo ezininzi malunga neli gama	Igama lalisekwele kwingxoxo iminyaka emininzi eyadlulayo.	0
+Kuvalo lweminyaka lokuphela kwesentshuri engama19 kwakukho iingxoxo ezininzi malunga neli gama	Igama lalilahliwe kwaye lilityelwe ngaphambi kokuphela kwesentshuri engama19.	2

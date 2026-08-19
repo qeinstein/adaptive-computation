@@ -1,0 +1,451 @@
+premise	hypothesis	label
+Ya ba o re mme ke lapeng	O ile a letsetsa mme wa hae hang ha bese ya sekolo e mo theola.	1
+Ya ba o re mme ke lapeng	Ha a ka a bua letho.	2
+Ya ba o re mme ke lapeng	O ile a bolella mme wa hae hore o fihlile hae.	0
+Ke ne ke sa tsebe ke ilo etsa eng, jwale ka iswa sebakeng seo ke neng ke se kgethetswe Washington.	Ha ke so ka ke ya Washington, jwale ha ke iswa moo, ke ile ka lahleha ke batlana le sebaka seo ke yang ho sona.	1
+Ke ne ke sa tsebe ke ilo etsa eng, jwale ka iswa sebakeng seo ke neng ke se kgethetswe Washington.	Ke ne ke tseba hantle seo ke neng ke tshwanela ho se etsa ha ke ne ke ya Washington.	2
+Ke ne ke sa tsebe ke ilo etsa eng, jwale ka iswa sebakeng seo ke neng ke se kgethetswe Washington.	Ke ne ke se na bonnete ba hore ke ilo etsa eng, jwale ke ile ka ya Washington moo ke neng ke kgethetswe ho ya teng.	0
+Ha a ka ba a ya.	E ne e le motho wa pele wa ho mengwa mme a thabela phihlelo eo.	2
+Ha a ka ba a ya.	O ne a sa dumellwa ho ba teng.	0
+Ha a ka ba a ya.	O ne a sa dumellwa ho ya pulong ya museamo.	1
+Yaba ke re holokile, yaba e fella moo.	Kamora hore ke dumele, ya fela.	0
+Yaba ke re holokile, yaba e fella moo.	Ke ile ka hana yaba e tswela pele ha e fele.	2
+Yaba ke re holokile, yaba e fella moo.	Eitse ha ke dumela, ra nka qeto ya hore re tla nyalana letsatsing lona leo.	1
+Ke ne ke le moo ke leka feela ho utlwisisa se etsahalang.	Ke ne ke e utlwisisa hantle ho tloha qalong.	2
+Ke ne ke le moo ke leka feela ho utlwisisa se etsahalang.	Ke ne ke leka ho utlwisisa hore tjhelete e ile kae.	1
+Ke ne ke le moo ke leka feela ho utlwisisa se etsahalang.	Ke ne ke leka ho utlwisisa.	0
+Nkgono o ne a rata ho re qoqela ka ka moo ausi wa hae le monna wa hae ba ileng ba nka qeto ya hore ba tla fallela toropong, Augusta, ba phele le makgowa.	Ausi wa nkgono o ne a le mosweu mme a fallela Texas.	2
+Nkgono o ne a rata ho re qoqela ka ka moo ausi wa hae le monna wa hae ba ileng ba nka qeto ya hore ba tla fallela toropong, Augusta, ba phele le makgowa.	Ausi wa nkgono e ne e se lekgowa.	0
+Nkgono o ne a rata ho re qoqela ka ka moo ausi wa hae le monna wa hae ba ileng ba nka qeto ya hore ba tla fallela toropong, Augusta, ba phele le makgowa.	Ausi wa nkgono e ne e se lekgowa, efela o ne a batla ho ba lekgowa hore feela a kene sekolo.	1
+Nkgono o ne a rata ho re qoqela ka hore ausi wa hae le monna wa hae ba ile ba nka qeto ya hore ba tla fallela toropong, Augusta, ba phele le makgowa.	Ntate wa hae o ne a se na letho bophelong.	2
+Nkgono o ne a rata ho re qoqela ka hore ausi wa hae le monna wa hae ba ile ba nka qeto ya hore ba tla fallela toropong, Augusta, ba phele le makgowa.	Ntate wa hae o ne a ena le dihektara tse 2000 tsa masimo.	1
+Nkgono o ne a rata ho re qoqela ka hore ausi wa hae le monna wa hae ba ile ba nka qeto ya hore ba tla fallela toropong, Augusta, ba phele le makgowa.	Ntate wa hae o ne a ena le thepa e ngata.	0
+Empa mosebetsi wa ka e ne e le ho beha dipharatjhute ho yona le dintho tse pholosang bophelo ha re laetjha mme re ya mose ho mawatle. 	Ke ne ke sa sebetse, jwale ke ile ka boloka mabokose ohle lapeng.	2
+Empa mosebetsi wa ka e ne e le ho beha dipharatjhute ho yona le dintho tse pholosang bophelo ha re laetjha mme re ya mose ho mawatle. 	Ke ile ka romella mabokose Japane.	1
+Empa mosebetsi wa ka e ne e le ho beha dipharatjhute ho yona le dintho tse pholosang bophelo ha re laetjha mme re ya mose ho mawatle. 	Ke ile ka a romella.	0
+Jwale, ke ka moo ke dulang ke itlamme ka lebanta.	Ke ile ka netefatsa hore lebanta le ntlamme ka tsela e tiileng hore ke bolokehe.	1
+Jwale, ke ka moo ke dulang ke itlamme ka lebanta.	Ke yona hantle tsela eo ke ileng ka tlamollwa ka yona.	2
+Jwale, ke ka moo ke dulang ke itlamme ka lebanta.	Eo ke tsela eo ke neng ke tlanngwe ka yona hantle.	0
+E ne e le rabasadi, ebile a phethesela. Hape, o a tseba, ke ne ke sa mothabele, efela tseo ke pale tsa ka.	O ne a tshepahala ebile a lokile.	2
+E ne e le rabasadi, ebile a phethesela. Hape, o a tseba, ke ne ke sa mothabele, efela tseo ke pale tsa ka.	Ke ne ke mohloile hobane o ne a ikgohomosa.	1
+E ne e le rabasadi, ebile a phethesela. Hape, o a tseba, ke ne ke sa mothabele, efela tseo ke pale tsa ka.	Ke ne ke se molatedi wa hae.	0
+Ha ke hula, le yena a nkgulela kanoping hore ke montshe, o supa disebediswa tse pedi ka lehlakoreng le letshehadi la sefofane tse qhebedihileng ha sefofane se ntse se fofa.	Disebediswa tsohle tsa sefofane di ne di le maemong a hantle.	2
+Ha ke hula, le yena a nkgulela kanoping hore ke montshe, o supa disebediswa tse pedi ka lehlakoreng le letshehadi la sefofane tse qhebedihileng ha sefofane se ntse se fofa.	Ho ne ho le boima ho mo ntsha.	1
+Ha ke hula, le yena a nkgulela kanoping hore ke montshe, o supa disebediswa tse pedi ka lehlakoreng le letshehadi la sefofane tse qhebedihileng ha sefofane se ntse se fofa.	Ho ne ho na le disebediswa tse qhebedihileng sefofaneng.	0
+O ne a sa utlwisisi.	Alas o ne a sa utlwisisi hantle ka lebaka la bothata ba puo.	1
+O ne a sa utlwisisi.	Le jwale, o ne a sa utlwisisi.	0
+O ne a sa utlwisisi.	O ne a tseba hantle hore re bua ka eng.	2
+Mohlomong o bolelletse batho kaofela, mme ke ne ke sa mamela ka nako eo.	Ha ke a mo utlwa ha a ne a bolella batho kaofela.	0
+Mohlomong o bolelletse batho kaofela, mme ke ne ke sa mamela ka nako eo.	Ke utlwile ntho e nngwe le e nngwe a e buileng.	2
+Mohlomong o bolelletse batho kaofela, mme ke ne ke sa mamela ka nako eo.	Ke ne ke bua le motho e mong ka nako eo.	1
+Ho lahlehile difofane tse pedi, tse tharo ha re ntse re le moo, le nako ya ditekolo.	Difofafe tse mmalwa di lahlehile ka lebaka la maemo a lehodimo.	1
+Ho lahlehile difofane tse pedi, tse tharo ha re ntse re le moo, le nako ya ditekolo.	Ho lahlehile difofane tse mmalwa.	0
+Ho lahlehile difofane tse pedi, tse tharo ha re ntse re le moo, le nako ya ditekolo.	Ha re so ka re lahlehelwa ke sefofane.	2
+Ke hloka hore o nketsetse ho itseng.	Ha ke hloke thuso.	2
+Ke hloka hore o nketsetse ho itseng.	Ke mosebetsi o moholo oo ke hlokang hore o etswe.	1
+Ke hloka hore o nketsetse ho itseng.	Ho na le seo ke hlokang hore se etswe.	0
+Oho, e ne e le Snake River, oho Snake River e nang le dinoha tse ngata.	Ntle le lebitso la yona, Snake River ha e na dinoha, e bitswa tjena ka lebaka la sebopeho sa yona.	2
+Oho, e ne e le Snake River, oho Snake River e nang le dinoha tse ngata.	Snake River e na le dikolopata tse ngata.	1
+Oho, e ne e le Snake River, oho Snake River e nang le dinoha tse ngata.	Snake River e tletse ka dinoha.	0
+Lejwale, ke boemo bo mahlahahlaha, ha se ntho eo o ka ikenyang ho yona mme wa lebella mosebetsi o kgabane, kannete ha ke nahane jwalo.	Ke nahana hore o tlameha ho inehela ka dihora tse 10 ka letsatsi hore o etse mosebetsi o tswileng matsoho ho yona.	1
+Lejwale, ke boemo bo mahlahahlaha, ha se ntho eo o ka ikenyang ho yona mme wa lebella mosebetsi o kgabane, kannete ha ke nahane jwalo.	Ke nahana hore o tshwanela ho inehela ho yona hore o e tsebe hantle.	0
+Lejwale, ke boemo bo mahlahahlaha, ha se ntho eo o ka ikenyang ho yona mme wa lebella mosebetsi o kgabane, kannete ha ke nahane jwalo.	Ha ho na bothata ha o sa e nkele hloohong.	2
+ke nahana hore se tlo kgahlisa ke seo re tla se etsa, re tlo tlameha ho kgetha batho ba tla re emela hape	Ke a tseba hore ho tla be ho sa kgahlise ebile ho sa hlokahale hore re kgethe baemedi ba bang, jwale ha re a tshwanela le hore re leke ho ba fetola.	2
+ke nahana hore se tlo kgahlisa ke seo re tla se etsa, re tlo tlameha ho kgetha batho ba tla re emela hape	Ke nahana e tla ba phephetso ho fetola baemedi efela e tla ba ntho e molemo qetellong.	1
+ke nahana hore se tlo kgahlisa ke seo re tla se etsa, re tlo tlameha ho kgetha batho ba tla re emela hape	Re tlameha ho etsa phethoho baemeding ba rona.	0
+mme e ka ba batho ba hantle hape kamora hore ba rupellwe.	Ba a tiha kamora hore ba qete thupello ya bona.	2
+mme e ka ba batho ba hantle hape kamora hore ba rupellwe.	Ba fetoha kapele ha ba ntse ba le thupellong.	1
+mme e ka ba batho ba hantle hape kamora hore ba rupellwe.	Ha ba le thupellong, e ka ba batho ba thabisang.	0
+e ka tswela pele dilemo tse mashome a mabedi mme ke nahana hore ke ntho e senang kelello	Ke nahana ke bohlanya hore nyewe e le nngwe e ka nka dilemo tse telele tjena.	1
+e ka tswela pele dilemo tse mashome a mabedi mme ke nahana hore ke ntho e senang kelello	Ke nahana ke bohlanya hore e ka nka nako e telele tjena.	0
+e ka tswela pele dilemo tse mashome a mabedi mme ke nahana hore ke ntho e senang kelello	E nka bene fela.	2
+mohlomong o ne o na le e senang mohala	Ke nnete, eo o neng o na le yona e ne e se na mohala.	0
+mohlomong o ne o na le e senang mohala	Eo o neng o na le yona e ne e na le mohala.	2
+mohlomong o ne o na le e senang mohala	Mohlomong o ne o na le e nang le kgetho ya mohala.	1
+O re matitjhere kapa batswadi?	Na o re ke mothusi wa baithuti kapa wa matitjhere a e entseng?	2
+O re matitjhere kapa batswadi?	Ke matitjhere kapa batswadi?	0
+O re matitjhere kapa batswadi?	O reng ka batswadi le matitjhere?	1
+tjhehe ke nahana e ka ba jwalo, ke nahana jwalo, ha ke tsebe, ke ke ke, ha ke tsebe maikutlo a ka a eme kae ka teko ya dithethefatsi, eh, ha ke sebedise dithethefatsi, ha ke di nahane le ho di nahana	Ke kgahlanong le teko ya dithethefatsi, ha ke na le qeyaqeyo.	2
+tjhehe ke nahana e ka ba jwalo, ke nahana jwalo, ha ke tsebe, ke ke ke, ha ke tsebe maikutlo a ka a eme kae ka teko ya dithethefatsi, eh, ha ke sebedise dithethefatsi, ha ke di nahane le ho di nahana	Ke nahana hore ke tla dumela ho nkuwa teko ya dithethefatsi.	1
+tjhehe ke nahana e ka ba jwalo, ke nahana jwalo, ha ke tsebe, ke ke ke, ha ke tsebe maikutlo a ka a eme kae ka teko ya dithethefatsi, eh, ha ke sebedise dithethefatsi, ha ke di nahane le ho di nahana	Ke nahana jwalo empa ha ke so nahanesisi taba ya teko ya dithethefatsi.	0
+o kgathalla ka kamoo ditaba tsa naha di amang sebaka sa selehae	O ngongoreha ka hore dibaka tsa mahae di angwa jwang ke ditaba tsa naha.	0
+o kgathalla ka kamoo ditaba tsa naha di amang sebaka sa selehae	Ha ke kgathalle hore ditaba tsa naha di hlahisa eng ka dibaka tsa mahae.	2
+o kgathalla ka kamoo ditaba tsa naha di amang sebaka sa selehae	Ditsi tsa ditaba tsa naha di etsa ekare dibaka tsa mahae di morao.	1
+tjhehe, fela re a tseba ke sekete, sekete le bolousu kapa sutu kapa mose ke tseo o di bona tlase mona, jwale ho monate ho nna ho sebeletsa hae hobane nka apara marikgwe	Ha ke apare diaparo tsa mosebetsing ha ke sebeletsa hae.	0
+tjhehe, fela re a tseba ke sekete, sekete le bolousu kapa sutu kapa mose ke tseo o di bona tlase mona, jwale ho monate ho nna ho sebeletsa hae hobane nka apara marikgwe	Ha ke apare letho ntle le diterekesutu ha ke sebeletsa hae.	1
+tjhehe, fela re a tseba ke sekete, sekete le bolousu kapa sutu kapa mose ke tseo o di bona tlase mona, jwale ho monate ho nna ho sebeletsa hae hobane nka apara marikgwe	Ke ntse ke apara mese le ha ke sebeletsa hae hobane ke ipona ke le motle.	2
+eya, hona le ho hong ka ho ba le sebaka seo o dulang ho sona ha ke tsebe	Ho ba le sebaka seo o dulang ho sona ke toro e phethahalang.	1
+eya, hona le ho hong ka ho ba le sebaka seo o dulang ho sona ha ke tsebe	Ha ke kgathalle hore na ke na le sebaka sa ho dula na.	2
+eya, hona le ho hong ka ho ba le sebaka seo o dulang ho sona ha ke tsebe	Ho monate ho ba le sebaka seo o dulang ho sona.	0
+eya ke a tseba nkeke ka ba ka kgathalla hakaalo ha e ne eba ba ne ba na le khamphani e tshehetswang ka ditjhelete	Ho ka ba bonolo ho fumana hore khamphani e tshehetswa ka ditjhelete na.	1
+eya ke a tseba nkeke ka ba ka kgathalla hakaalo ha e ne eba ba ne ba na le khamphani e tshehetswang ka ditjhelete	Ho ka nkwatisa ho tseba hore ba ile ba fa khamphani  thuso ya tjhelete.	2
+eya ke a tseba nkeke ka ba ka kgathalla hakaalo ha e ne eba ba ne ba na le khamphani e tshehetswang ka ditjhelete	Nkeke ka kgathatseha ha e le hore khamphani e ne e thuswa ka ditjhelete.	0
+eya ke ya rona mona re na le dikgokahano tsa mahaeng tse mpe haholo	Dikgokahano tsa mona di hantle ka nako e nngwe.	1
+eya ke ya rona mona re na le dikgokahano tsa mahaeng tse mpe haholo	Ha re na dikgokahano tse hantle mona.	0
+eya ke ya rona mona re na le dikgokahano tsa mahaeng tse mpe haholo	Re na le dikgokahano tse tswang pele mona.	2
+melemo e meng eo re e fumang ke ho hahlaula	Ho hahlaula ke karolo eo ke e ratang.	1
+melemo e meng eo re e fumang ke ho hahlaula	Ho hahlaula ke e nngwe ya melemo eo re e fumanang.	0
+melemo e meng eo re e fumang ke ho hahlaula	Ha re fumane melemo efe kapa efe.	2
+e e mpe haholo e eh ke	Ke utlwile ha ho monate.	1
+e e mpe haholo e eh ke	Ho hobe.	0
+e e mpe haholo e eh ke	Ho hobe ho hang.	2
+Disebediswa tsena tse nang le dimolekhule tsa maemo a hodimo di fumaneha hobane kgetho ya tlhaho e kgona ho ba teng thepeng ya dimolekhule tse jwalo ha thepa e kopaneng e eketsa bokgoni	Disebediswa kaofela tse nang le dimolekhule ha ho bonolo ho di sebedisa.	2
+Disebediswa tsena tse nang le dimolekhule tsa maemo a hodimo di fumaneha hobane kgetho ya tlhaho e kgona ho ba teng thepeng ya dimolekhule tse jwalo ha thepa e kopaneng e eketsa bokgoni	Disebediswa tsa dimolekhule tseo ho seng bonolo ho di sebedisa di ka ba teng tlasa maemo a itseng.	0
+Disebediswa tsena tse nang le dimolekhule tsa maemo a hodimo di fumaneha hobane kgetho ya tlhaho e kgona ho ba teng thepeng ya dimolekhule tse jwalo ha thepa e kopaneng e eketsa bokgoni	Disebediswa tsena tsa dimolekhule di sebediswa haholo ho hlahisa tjhefu bakeng sa tshireletso.	1
+Empa ha ke kgolwe hore sesebediswa se fe kapa sefe sa algorithm se ka fella.	Algorithm e ke ke ya kgona ho nka qeto ya ho etsa borotho bo hlabosang ntle le hore motho a thuse.	1
+Empa ha ke kgolwe hore sesebediswa se fe kapa sefe sa algorithm se ka fella.	Ha hona sesebediswa se tla rarolla bothata bona ka bo sona.	0
+Empa ha ke kgolwe hore sesebediswa se fe kapa sefe sa algorithm se ka fella.	Disebediswa tsena di sebetsa hantle tlasa maemo a fe kapa a fe.	2
+Molao ha o lopolle motho ya le mong fela, empa le setjhaba kapa naha ka kakaretso.	Bakeng sa topollo, batho ba tshwanela ho tshepa molao.	2
+Molao ha o lopolle motho ya le mong fela, empa le setjhaba kapa naha ka kakaretso.	Molao o tla lopolla Amerika.	1
+Molao ha o lopolle motho ya le mong fela, empa le setjhaba kapa naha ka kakaretso.	Molao o tla pholosa setjhaba le naha.	0
+Molaetsa wa molaotheo wa 1787 o ne o re beng ba makgoba ba na le tokelo ya ho lata makgoba a bona a balehetseng sebakeng sa tokoloho.	Ka 1787 ho bile le molao wa ho kgaotsa batho ho kgutlisa makgoba a balehetseng dinaheng tse ding tse lokolohileng.	2
+Molaetsa wa molaotheo wa 1787 o ne o re beng ba makgoba ba na le tokelo ya ho lata makgoba a bona a balehetseng sebakeng sa tokoloho.	Karolo e nngwe ya molaetsa wa molaotheo e ne e ngotswe ka 1787.	0
+Molaetsa wa molaotheo wa 1787 o ne o re beng ba makgoba ba na le tokelo ya ho lata makgoba a bona a balehetseng sebakeng sa tokoloho.	Tokelo ya ho lata makgoba dibakeng tsa tokoloho e ne e sa tuma.	1
+Steve Harris, setsebi sa baeloji ya dimolekhule ya tswang Texas o ne a etile.	Steve Harris o ne a hana ho tsamaya ha hae tlasa mabaka a fe kapa e fe.	2
+Steve Harris, setsebi sa baeloji ya dimolekhule ya tswang Texas o ne a etile.	Steve e ne e le rabaeloji ya tswang toropong e nngwe.	0
+Steve Harris, setsebi sa baeloji ya dimolekhule ya tswang Texas o ne a etile.	Steve o ne a etetse California ho lo hlwela sampole e ntjha.	1
+Botho bo ne bo kenyeletsa banna ba pakeng tsa mashome a mararo le a mahlano karolo ka nngwe (ba bitswa moradas) mme ba arolwa ka ditho tse pedi, tse neng di bitswa hermanos disciplantes (banna ba neng ba kgalema), le bahlanka, ba neng ba bitswa hermanos de luz (banna ba lesedi).	Bahlanka ba fetang lekgolo ba ne ba sebetsa karolong ka nngwe. 	2
+Botho bo ne bo kenyeletsa banna ba pakeng tsa mashome a mararo le a mahlano karolo ka nngwe (ba bitswa moradas) mme ba arolwa ka ditho tse pedi, tse neng di bitswa hermanos disciplantes (banna ba neng ba kgalema), le bahlanka, ba neng ba bitswa hermanos de luz (banna ba lesedi).	Karolo e ne e na le ditho tse tlwaelehileng le bahlanka.	0
+Botho bo ne bo kenyeletsa banna ba pakeng tsa mashome a mararo le a mahlano karolo ka nngwe (ba bitswa moradas) mme ba arolwa ka ditho tse pedi, tse neng di bitswa hermanos disciplantes (banna ba neng ba kgalema), le bahlanka, ba neng ba bitswa hermanos de luz (banna ba lesedi).	Diyuniti tsena di ne di ikarabella ho fetoleng batho ba batsho Amerika e Bohareng.	1
+Bakeng sa bana ba dilemo tse 4 le tse 5, dipotso hangata di bua ka tsela eo dipale di phetwang ka yona ( Ho etsahala eng kamora moo?	Bana hangata ha ba ithute puo ho fihlela ba ba dilemo tse tsheletseng.	2
+Bakeng sa bana ba dilemo tse 4 le tse 5, dipotso hangata di bua ka tsela eo dipale di phetwang ka yona ( Ho etsahala eng kamora moo?	Bana ba dilemo tse hlano ba ngongoreha ka hore ke eng e latelang e tlo etsahalang eng.	0
+Bakeng sa bana ba dilemo tse 4 le tse 5, dipotso hangata di bua ka tsela eo dipale di phetwang ka yona ( Ho etsahala eng kamora moo?	Bana ba dilemo tse hlano ba nkuwa e le batho ba sa kgoneng ho bua hantle.	1
+Ha re nahana hantle, phallo e kopaneng sebakeng se tsitsitseng e etsa hore ho be le tlhophiso, hobane ha dibaka tse pedi di kopanela sebakeng se le seng dibaka tse di se di hlophiswa jwaloka dibaka tse lekanang ke tselatshebetso.	Phallo e kopaneng e etsa hore ho be le tlhophiso.	0
+Ha re nahana hantle, phallo e kopaneng sebakeng se tsitsitseng e etsa hore ho be le tlhophiso, hobane ha dibaka tse pedi di kopanela sebakeng se le seng dibaka tse di se di hlophiswa jwaloka dibaka tse lekanang ke tselatshebetso.	Phallo e kopaneng e susumetswa ke setjhaba.	1
+Ha re nahana hantle, phallo e kopaneng sebakeng se tsitsitseng e etsa hore ho be le tlhophiso, hobane ha dibaka tse pedi di kopanela sebakeng se le seng dibaka tse di se di hlophiswa jwaloka dibaka tse lekanang ke tselatshebetso.	Phallo e kopaneng e thibela tlhophiso.	2
+Leha ho le jwalo, ba tswela pele ho etsa hore lefatshe le sa tsitsang moo bophelo bo fetileng e leng bona bo nang le lesedi le utlwahalang.	Lefatshe le sa tsitsang ha le kgahlise bathong ba bang haeba le tshwanela ho nka maikarabelo leseding la nako e fetileng.	0
+Leha ho le jwalo, ba tswela pele ho etsa hore lefatshe le sa tsitsang moo bophelo bo fetileng e leng bona bo nang le lesedi le utlwahalang.	Lesedi lohle la nako yohle e fetileng le bohlokwa lefatsheng le fe kapa le fe.	2
+Leha ho le jwalo, ba tswela pele ho etsa hore lefatshe le sa tsitsang moo bophelo bo fetileng e leng bona bo nang le lesedi le utlwahalang.	Mafatshe ana a inahanelwang a sebediswa ho sheba hore maemo a lehodimo a tla ba jwang.	1
+Mme, leha ho le jwalo, mmuso o ne o se na boikarabelo bakeng sa batho bana ba poraefete ba neng ba hanetsa batho ba batsho ditokelo tsa bophelo.	Batho ba bang ba poraefete ba ne ba hanetsa batho ba batsho ditokelo tsa bophelo.	0
+Mme, leha ho le jwalo, mmuso o ne o se na boikarabelo bakeng sa batho bana ba poraefete ba neng ba hanetsa batho ba batsho ditokelo tsa bophelo.	Batho ba poraefete e ne e le makgowa.	1
+Mme, leha ho le jwalo, mmuso o ne o se na boikarabelo bakeng sa batho bana ba poraefete ba neng ba hanetsa batho ba batsho ditokelo tsa bophelo.	Mmuso o ne o nka boikarabelo ka maitshwaro a batho ba poraefete.	2
+Ha hona phapang pakeng tsa baithutimmoho ba banyane le ba baholo ha ho tluwa ho diphetho.	Le ha diphetho tsa baithutimmoho ba banyane le ba baholo di tshwana, ba banyane ba qeta ho ngola teko ka pele	1
+Ha hona phapang pakeng tsa baithutimmoho ba banyane le ba baholo ha ho tluwa ho diphetho.	Baithutimmoho ba banyane le ba baholo ba tlelase e le nngwe ba fumana diphetho tse tshwanang.	0
+Ha hona phapang pakeng tsa baithutimmoho ba banyane le ba baholo ha ho tluwa ho diphetho.	Baithutimmoho ba banyane le ba baholo ba na le diphetho tse fapaneng hobane dilemo di bapala karolo	2
+Darwin o qala ka bophelo mona.	Darwin o qadile ka ho tsepamisa maikutlo ditlhaping.	1
+Darwin o qala ka bophelo mona.	Darwin o qadile ka bophelo bo neng bo se bo le teng.	0
+Darwin o qala ka bophelo mona.	Darwin o ne a tsepamisitse maikutlo ho ithuteng ka ntho tse shweleng.	2
+Sesosa se tlwaelehileng bongwaneng le dilemong tse qalang tsa sekolo ke otitis media e iphetang, kapa tshwaetso ya tsebe e bohareng.	Tshwaetso ya tsebe e bohareng ke sesosa se tlwaelehileng baneng. 	0
+Sesosa se tlwaelehileng bongwaneng le dilemong tse qalang tsa sekolo ke otitis media e iphetang, kapa tshwaetso ya tsebe e bohareng.	Otitis media ke ntho e sa tlwaelehang haholo ngwaneng ya dilemong tse qalang tsa sekolo.	2
+Sesosa se tlwaelehileng bongwaneng le dilemong tse qalang tsa sekolo ke otitis media e iphetang, kapa tshwaetso ya tsebe e bohareng.	Bana ba bangata ba tla ba le tshwaetso ya tsebe e bohareng.	1
+Ha setjhaba se sa mamele, mehopolo e hlwahlwa e a lahleha.	Mehopolo e hlwahlwa e a lahleha ha e sa natswe ke setjhaba.	0
+Ha setjhaba se sa mamele, mehopolo e hlwahlwa e a lahleha.	Mehopolo e hlwahlwa e tuma haholo setjhabeng ha e sa natswe ke setjhaba.	2
+Ha setjhaba se sa mamele, mehopolo e hlwahlwa e a lahleha.	Mehopolo e mengata e hlwahlwa ha e kgathallwe ke setjhaba.	1
+Kannete, karolo ya seo re se hlokang ke tsela ya ho hlophisa ditshebetso tsa mokgatlo tsa nnete lefatsheng le sa tsitsang.	Re hloka matshwao hore re bone hore ke kae moo mokgatlo o sebetsang hantle teng.	1
+Kannete, karolo ya seo re se hlokang ke tsela ya ho hlophisa ditshebetso tsa mokgatlo tsa nnete lefatsheng le sa tsitsang.	Re hloka ho tshwaya mokgatlo.	0
+Kannete, karolo ya seo re se hlokang ke tsela ya ho hlophisa ditshebetso tsa mokgatlo tsa nnete lefatsheng le sa tsitsang.	Ha re a tshwanela ho tshwaya eng kapa eng.	2
+O batlile thuso ho Morena Julian.	O ne a batla ho kopa Morena Julian ho hong.	0
+O batlile thuso ho Morena Julian.	O ne a batla ho kopa Morena Julian hore a boloke mosadi wa hae.	1
+O batlile thuso ho Morena Julian.	Morena Julian o ne a sa bonahale.	2
+Jeremy Pitt o ile a araba setsheho ka kano.	Jeremy Pitt o ile a araba setsheho ka ho tsheha ha nyane le ho betsa motho ya neng a tsheha ka feisi sefahlehong.	2
+Jeremy Pitt o ile a araba setsheho ka kano.	Jeremy Pitt o ile a ikana hore o tla lwanela naha ya habo le mofumahadi wa hae.	1
+Jeremy Pitt o ile a araba setsheho ka kano.	Ho na le motho a tshehileng pela Jeremy Pitt.	0
+Pitt, ya neng a shebelletse ketsahalo ho tswa sekepeng, o re bolella hore morena wa hae o ne a nkelwa hloohong.	Pitt o ne a so ka a bona morena wa hae a nkelwa hloohong jwalo ka nako eo.	1
+Pitt, ya neng a shebelletse ketsahalo ho tswa sekepeng, o re bolella hore morena wa hae o ne a nkelwa hloohong.	Pitt o ile a ikana hore ha a bona ketsahalo le ha nayane.	2
+Pitt, ya neng a shebelletse ketsahalo ho tswa sekepeng, o re bolella hore morena wa hae o ne a nkelwa hloohong.	Pitt o ile a bona ka moo morena wa hae a neng a nkela dintho hloohong ka nako eo ya ketsahalo.	0
+Kolonele o ile a e amohela, mme a inama hanyane, a tlosa katiba ya hae e sephara.	Kolonele o ile a amohela kgau ya medale ho tswa ho majoro wa New York City.	1
+Kolonele o ile a e amohela, mme a inama hanyane, a tlosa katiba ya hae e sephara.	Kolonele o hanne seo a neng a se fuwa mme a se role katiba e le letshwao la ho hanana le se etsahalang.	2
+Kolonele o ile a e amohela, mme a inama hanyane, a tlosa katiba ya hae e sephara.	Kolonele o ne a rwetse katiba.	0
+O na le sebete sa ho nkgalema hobane ke sa batle ho tshwara matsoho a hao a ditshila; ke tseba hantle hore o mmolai ebile o etsa tse fetang moo? O ile a mo sheba a ahlame.	O ne a dumela hore tlolo ya molao e entsweng e ka nna ya eba ke poloa e sehloho.	1
+O na le sebete sa ho nkgalema hobane ke sa batle ho tshwara matsoho a hao a ditshila; ke tseba hantle hore o mmolai ebile o etsa tse fetang moo? O ile a mo sheba a ahlame.	O kgethile hore a se ke a tshwara matsoho a hae hobane a ne a kganathetse tlolo ya molao.	0
+O na le sebete sa ho nkgalema hobane ke sa batle ho tshwara matsoho a hao a ditshila; ke tseba hantle hore o mmolai ebile o etsa tse fetang moo? O ile a mo sheba a ahlame.	O kgethile ho mo tshwara matsoho hobane a ne a le manyane, a fokola, mme ntho ya bohlokwa ke hore a ne a hlwekile.	2
+O ne a bona hore Morena Julian Wade ya tswang St. James eo e leng mohlankana ya kgahlisang ya tletseng papadi, o ne a hohetse mosadi e mong.	Morena Julian o tswa St. James.	0
+O ne a bona hore Morena Julian Wade ya tswang St. James eo e leng mohlankana ya kgahlisang ya tletseng papadi, o ne a hohetse mosadi e mong.	Yena le Morena Julian Wade ba ile ba sunana bosiu bo fetileng.	1
+O ne a bona hore Morena Julian Wade ya tswang St. James eo e leng mohlankana ya kgahlisang ya tletseng papadi, o ne a hohetse mosadi e mong.	O kgahluwe ke Morena Julian Wade, ho sa natswe bohlaswa ba hae.	2
+Empa… empa… ke palame sekepe se…? Mohlanka wa molao o ne a bonahala a kgathetse matla, hape, a inehela pherekanong ya hae, a kgutsa hang-hang.	Ofisi e ile ya baka lerata metsotsonyana, e halefisitswe ke maitshwaro a hae a hlephileng sekepeng.	2
+Empa… empa… ke palame sekepe se…? Mohlanka wa molao o ne a bonahala a kgathetse matla, hape, a inehela pherekanong ya hae, a kgutsa hang-hang.	Mohlanka wa molao o ne a ferekantswe ke se neng se etsahala sekepeng.	0
+Empa… empa… ke palame sekepe se…? Mohlanka wa molao o ne a bonahala a kgathetse matla, hape, a inehela pherekanong ya hae, a kgutsa hang-hang.	Mohlanka wa molao o ne a tshositswe ke ka moo ho neng ho hlatswa ka teng sekepeng.	1
+O Morena Julian Wade, ke a utlwisisa, e ne e le tumediso ya hae e mabifi.	Morena Julian Wade o ile a fana ka tumediso e mofuthu.	2
+O Morena Julian Wade, ke a utlwisisa, e ne e le tumediso ya hae e mabifi.	Morena Julian Wade o ile a amohela ba bang ka mokgwa o ka hlaloswang o le mabifi. 	0
+O Morena Julian Wade, ke a utlwisisa, e ne e le tumediso ya hae e mabifi.	Leha ba bangata ba ile ba leka ho bua le yena, Morena Wade o ne a sa bontshe maikutlo hangata.	1
+Mary Traill o tla o bolella ka yona.	Mary Traill a ka o bolella ka tonki.	1
+Mary Traill o tla o bolella ka yona.	Mary Traill o a tseba ka yona.	0
+Mary Traill o tla o bolella ka yona.	Ke nna feela ke tsebang ka yona.	2
+Setlokotsebe sena se emetswe ke ho fanyehwa kwana Port Royal. Blood e ka be e itshuntse, empa Morena Julian a emisa se neng se tla etsahala.	Blood ke mokgatlo wa matjhaba wa dinokwane o Port Royal oo Morena Julian a o sebedisang bakeng sa diketso tse seng molaong.	2
+Setlokotsebe sena se emetswe ke ho fanyehwa kwana Port Royal. Blood e ka be e itshuntse, empa Morena Julian a emisa se neng se tla etsahala.	Puso ya Morena Julian e kenyeletsa Port Royal, toropo ya kgwebo eo e leng sebaka sa diketsahalo lebatoweng.	1
+Setlokotsebe sena se emetswe ke ho fanyehwa kwana Port Royal. Blood e ka be e itshuntse, empa Morena Julian a emisa se neng se tla etsahala.	Port Royal e na le setsi sa ho ahlola dinokwane.	0
+E ke ke ya e ba Bishopo ka bo yena, ho bolela Wolverstone, nakong ya dipotso le boitlamo.	Wolverstone o ne a botsitse potso e bontshitseng boikemelo ho ba bang.	0
+E ke ke ya e ba Bishopo ka bo yena, ho bolela Wolverstone, nakong ya dipotso le boitlamo.	Wolverstone o ne a boletse hore Bishopo ke e mong wa ba batle haholo.	1
+E ke ke ya e ba Bishopo ka bo yena, ho bolela Wolverstone, nakong ya dipotso le boitlamo.	Wolverstone ha a ka ba a bua letho ka Bishopo.	2
+Na o tla lesa ho bua ka moferefere le boipelaetso le makgotla a masole? Blood o ile a rwala katiba ya hae, mme a dula fatshe a sa bitswa.	Blood o ne a na le katiba eo a ileng a e rwala pele a dula fatshe.	0
+Na o tla lesa ho bua ka moferefere le boipelaetso le makgotla a masole? Blood o ile a rwala katiba ya hae, mme a dula fatshe a sa bitswa.	Blood o rwetse katiba ya hae, mme a tswa ntle a sa re letho.	2
+Na o tla lesa ho bua ka moferefere le boipelaetso le makgotla a masole? Blood o ile a rwala katiba ya hae, mme a dula fatshe a sa bitswa.	Katiba ya Blood e ne e le ntsho, e na le masiba a mararo a ntsu.	1
+Dintho ha di a mo tsamaela hantle dibekeng tse pedi tse fetileng haesale hoba a amohelwe khomishemeng ya Morena.	O robetse hantle bosiu a tseba hore o hanne thomo ya Morena.	2
+Dintho ha di a mo tsamaela hantle dibekeng tse pedi tse fetileng haesale hoba a amohelwe khomishemeng ya Morena.	Ntho e neng e mo hlobaetsa ke taba ya hore o amohetse thomo ya Morena.	0
+Dintho ha di a mo tsamaela hantle dibekeng tse pedi tse fetileng haesale hoba a amohelwe khomishemeng ya Morena.	Thomo ya morena e ne e le maemo a phahameng haholo a nang le maikarabelo a mangata.	1
+Ba haufinyana, ke Ogle ya llang.	Ogle o itse ba ka kgona ho fihla ho bona.	0
+Ba haufinyana, ke Ogle ya llang.	Ogle o itse ba sebakeng seo o kgonang ho ba utlwa ha ba bua.	1
+Ba haufinyana, ke Ogle ya llang.	Leha a ne a tseba hore ba haufinyana, Ogle ha a ka ba a bua.	2
+Ke romme motho ho wena, Mokapotene Blood, ka lebaka la ditaba tseo ke qetang ho di utlwa.	Ha ke so ka ke utlwa ditaba dife kapa dife, Mokapotene Blood. Wena?	2
+Ke romme motho ho wena, Mokapotene Blood, ka lebaka la ditaba tseo ke qetang ho di utlwa.	Ke utlwile ditaba pele ke romela motho ho wena, Mokapotene Blood.	0
+Ke romme motho ho wena, Mokapotene Blood, ka lebaka la ditaba tseo ke qetang ho di utlwa.	Ditaba tseo ke di utlwileng di ntshositse haholo.	1
+Kamora ho sheba dipokello tsena, o palame thaba o ye Ntlong ya Mokhomishenara, moo ho nang le lebopo le letle le dibaka tse le potapotileng mmoho le sebaka seo sekepe se leng ho sona.	O kgona ho bona dikepe hodima thaba.	1
+Kamora ho sheba dipokello tsena, o palame thaba o ye Ntlong ya Mokhomishenara, moo ho nang le lebopo le letle le dibaka tse le potapotileng mmoho le sebaka seo sekepe se leng ho sona.	O bona lebopo ha o le hodima thaba.	0
+Kamora ho sheba dipokello tsena, o palame thaba o ye Ntlong ya Mokhomishenara, moo ho nang le lebopo le letle le dibaka tse le potapotileng mmoho le sebaka seo sekepe se leng ho sona.	Ha o bone lebopo ha o le hodima thaba.	2
+Kamora Borwa ba Amerika o tla fumana Feme ya Dinkgisa Monate, moo o tla iketsetsa senkgisa monate sa hao.	Feme ya Dinkgisa Monate haesale e sebetse ho tloha 1954.	1
+Kamora Borwa ba Amerika o tla fumana Feme ya Dinkgisa Monate, moo o tla iketsetsa senkgisa monate sa hao.	Feme ya Dinkgisa Monate e kamora Sebaka sa Afrika Borwa.	0
+Kamora Borwa ba Amerika o tla fumana Feme ya Dinkgisa Monate, moo o tla iketsetsa senkgisa monate sa hao.	Feme ya Dinkgisa Monate e ka pela sebaka sa Afrika Borwa.	2
+Tshepo e ne e phahame ka lamunu le penapole tsa Bahamia.	Leha dipenapole di ne di le monate, tjhelete ya ho di posa hore di tlo rekiswa e ne e phahame haholo.	1
+Tshepo e ne e phahame ka lamunu le penapole tsa Bahamia.	Dilamunu tsa Bahamia di ile tsa e ba katleho e kgolo, jwaloka ka ha ho ne ho lebelletswe .	2
+Tshepo e ne e phahame ka lamunu le penapole tsa Bahamia.	Dilamunu tsa Bahamia di ne di se ntle ka moo batho ba neng ba tshepile kateng.	0
+Ho thwe modumo o utlwahetseng bohole ba 3km (dimaele tse 2), e ka ba sekoti se hlahileng ha ho ne ho qhoma seretse se tjhesang.	Modumo o utlwahetseng bohole ba dimaele tse 2 o ka be o bakuwe ke ntho tse ngata, ho akga ho qhoma ha seretse se tjhesang.	1
+Ho thwe modumo o utlwahetseng bohole ba 3km (dimaele tse 2), e ka ba sekoti se hlahileng ha ho ne ho qhoma seretse se tjhesang.	Modumo o utlwahetseng bohole ba dimaele tse 2 ha o a bakwa ke ho qhoma ha seretse se tjhesang.	2
+Ho thwe modumo o utlwahetseng bohole ba 3km (dimaele tse 2), e ka ba sekoti se hlahileng ha ho ne ho qhoma seretse se tjhesang.	Modumo o utlwahetseng bohole ba dimaele tse 2 mohlomong o bakuwe ke ho qhoma ha seretse se tjhesang.	0
+Moo ho batla ho sa phethesele leha puo e ka o fa bothata, efela bonyane o tla tseba ka tsela eo Matjhaena a etsang kgwebo ka teng.	Ke mohopolo o motle ho tsamaya le mofetoledi.	1
+Moo ho batla ho sa phethesele leha puo e ka o fa bothata, efela bonyane o tla tseba ka tsela eo Matjhaena a etsang kgwebo ka teng.	Ho na le bothata ba puo bo ka o tshosang.	0
+Moo ho batla ho sa phethesele leha puo e ka o fa bothata, efela bonyane o tla tseba ka tsela eo Matjhaena a etsang kgwebo ka teng.	Ha ho hlokahale hore o kgathatsehe ka mathata ba puo, ka ha batho kaofela ba bua Senyesemane.	2
+Pakeng tsa 1936 le 1940 Greece e ne e le tlasa kgatello ya sesole sa Ioannis Metaxas, ya neng a hopolwa ka ho araba qeto ya Mussolini ya ho inehela ka 1940 ka (tjhehe) e neng e utlwahala.	Greece ha e so ka e buswa ke mohatelli wa sesole.	2
+Pakeng tsa 1936 le 1940 Greece e ne e le tlasa kgatello ya sesole sa Ioannis Metaxas, ya neng a hopolwa ka ho araba qeto ya Mussolini ya ho inehela ka 1940 ka (tjhehe) e neng e utlwahala.	Greece ke e nngwe ya dinaha tse nang le mohatelli.	0
+Pakeng tsa 1936 le 1940 Greece e ne e le tlasa kgatello ya sesole sa Ioannis Metaxas, ya neng a hopolwa ka ho araba qeto ya Mussolini ya ho inehela ka 1940 ka (tjhehe) e neng e utlwahala.	Moruo wa Greece o ne o se hantle tlasa kgatello ya sesole se hatellang sa Metaxas.	1
+Bonolo ba mela ya Sant Pau’s Romanesque ke phetoho e ntle e tswang majabajabeng a Barcelona le dintlha tsa moaho wa Gothic.	Sant Pau ha e na mela ya Romanesque.	2
+Bonolo ba mela ya Sant Pau’s Romanesque ke phetoho e ntle e tswang majabajabeng a Barcelona le dintlha tsa moaho wa Gothic.	Sant Pau e na le mela ya Romanesque.	0
+Bonolo ba mela ya Sant Pau’s Romanesque ke phetoho e ntle e tswang majabajabeng a Barcelona le dintlha tsa moaho wa Gothic.	Sant Pau e na le dikereke.	1
+Ka panyo ya leeihlo feela, e ile.	E tshoswa ha bonolo ke metsamao ya tshohanyetso.	1
+Ka panyo ya leeihlo feela, e ile.	Ha e tshabe letho, mme ha e tshoswe ke letho.	2
+Ka panyo ya leeihlo feela, e ile.	Motsamao o monyane feela, e ile.	0
+Lenaneo le leholo la ntjhafatso le tla phethelwa ha 2001 e fela.	Lenaneo la ntjhafatso le tla fela pele 2001 e thwasa.	2
+Lenaneo le leholo la ntjhafatso le tla phethelwa ha 2001 e fela.	Lenaneo la ntjhafatso le ke ke la fela pele 2000 e fela.	0
+Lenaneo le leholo la ntjhafatso le tla phethelwa ha 2001 e fela.	Ha lenaneo la ntjhafatso le fela, le tla be le nkile dilemo tse hlano.	1
+Basebetsi ba sebetsana le lenaneo la ho eketsa difolaminko US Virgin Islands, mme o tla fumana mohlape o monyane mona o ntseng o qhotsa ka katleho selemo le selemo.	Basebetsi ba sebetsana le ho fedisa difolaminko. 	2
+Basebetsi ba sebetsana le lenaneo la ho eketsa difolaminko US Virgin Islands, mme o tla fumana mohlape o monyane mona o ntseng o qhotsa ka katleho selemo le selemo.	Basebetsi ba sebetsana le ho eketsa difolaminko tse sehlekehlekeng hore di se ke tsa fela.	1
+Basebetsi ba sebetsana le lenaneo la ho eketsa difolaminko US Virgin Islands, mme o tla fumana mohlape o monyane mona o ntseng o qhotsa ka katleho selemo le selemo.	Basebetsi ba sebetsana le ho eketsa difolaminko tse sehlekehlekeng.	0
+Dithaba tse majwe tsa Serra de Tramuntana di hohola ho ya fihla lewatleng mme ka lebaka leo ho na le dibaka tse mmalwa tseo o ka kenang lewatleng ka tsona le boemakepe bo le bong lebopong.	Dithaba di dula di e na le ho ritsa ha mobu ebile ha ho bonolo ho aha boemakepe moo.	1
+Dithaba tse majwe tsa Serra de Tramuntana di hohola ho ya fihla lewatleng mme ka lebaka leo ho na le dibaka tse mmalwa tseo o ka kenang lewatleng ka tsona le boemakepe bo le bong lebopong.	Dithaba ha di etse hore kaho ya maemakepe e be bonolo.	0
+Dithaba tse majwe tsa Serra de Tramuntana di hohola ho ya fihla lewatleng mme ka lebaka leo ho na le dibaka tse mmalwa tseo o ka kenang lewatleng ka tsona le boemakepe bo le bong lebopong.	Ho na le maemakepe a 27 a iphaphithang le dithaba.	2
+Culebra e ne e tsejwa e le Spanish Virgin Island ho fihlela Amerika e e nka, e bohareng pakeng tsa Puerto Rico le St. Thomas ho la US Virgin Islands.	Culebra e pakeng tsa Puerto Rico le St. Thomas ho la US Virgin Islands.	0
+Culebra e ne e tsejwa e le Spanish Virgin Island ho fihlela Amerika e e nka, e bohareng pakeng tsa Puerto Rico le St. Thomas ho la US Virgin Islands.	Culebra ha e pela Puerto Rico le St. Thomas ho la US Virgin Islands.	2
+Culebra e ne e tsejwa e le Spanish Virgin Island ho fihlela Amerika e e nka, e bohareng pakeng tsa Puerto Rico le St. Thomas ho la US Virgin Islands.	Culebra e kae kae pakeng tsa Puerto Rico le St. Thomas ho la US Virgin Islands.	1
+Umeda e tshwaya pheletso ya leboya ya setereke sa kgwebo le boithabiso se tsebahalang ka Kita (e bolelang Leboya), mme ke yona e bontshang sephethephethe sa Osaka.	Umeda ha se karolo ya setereke sa boithabiso.	2
+Umeda e tshwaya pheletso ya leboya ya setereke sa kgwebo le boithabiso se tsebahalang ka Kita (e bolelang Leboya), mme ke yona e bontshang sephethephethe sa Osaka.	Umeda ke karolo e kgolo ya setereke sa boithabiso.	1
+Umeda e tshwaya pheletso ya leboya ya setereke sa kgwebo le boithabiso se tsebahalang ka Kita (e bolelang Leboya), mme ke yona e bontshang sephethephethe sa Osaka.	Umeda ke pheletso ya leboya ya setereke sa boithabiso.	0
+Setho sa boraro ba terone ba Hindu ke Brahma, eo mosebetsi wa hae e neng e le ho bopa lefatshe. 	Brahma ke mopostola wa Mokreste.	2
+Setho sa boraro ba terone ba Hindu ke Brahma, eo mosebetsi wa hae e neng e le ho bopa lefatshe. 	Brahma ke karolo ya boraro ba terone ba Hindu.	0
+Setho sa boraro ba terone ba Hindu ke Brahma, eo mosebetsi wa hae e neng e le ho bopa lefatshe. 	Brahma ke karolo ya bohlokwa ya boraro bo terone.	1
+Pedro o ile a nka terone, leha ntwa ya dipolotiki e ile ya tswela pele dikgwedi le kgalefo nako e telele kamora moo.	Batho ba 10000 ba shwele ntweng.	1
+Pedro o ile a nka terone, leha ntwa ya dipolotiki e ile ya tswela pele dikgwedi le kgalefo nako e telele kamora moo.	Ntwa e nkile dikgwedi tse telele.	0
+Pedro o ile a nka terone, leha ntwa ya dipolotiki e ile ya tswela pele dikgwedi le kgalefo nako e telele kamora moo.	Ntwa e fedile kamora letsatsi.	2
+Tsamaiso ya disebediswa tsa batho e ile ya matlafatswa mme meralo e metjha e ile ya lokiswa kapele ho netefatsa tshehetso e tswelletseng ho bareki.	Ka ho matlafatsa ditsamaiso tsa disebediswa tsa batho, ho ile ha thehwa meralo e metjha ya kgwebo.	1
+Tsamaiso ya disebediswa tsa batho e ile ya matlafatswa mme meralo e metjha e ile ya lokiswa kapele ho netefatsa tshehetso e tswelletseng ho bareki.	Meralo ya dikgwebo e ile ya thehwa.	0
+Tsamaiso ya disebediswa tsa batho e ile ya matlafatswa mme meralo e metjha e ile ya lokiswa kapele ho netefatsa tshehetso e tswelletseng ho bareki.	Tsamaiso ya disebediswa tsa batho e ile ya atoloswa ho feta ya mmuso wa bona o fetilelng.	2
+Leha leano la tshehetso ya ditjhelete le ka ntlafatswa, tshehetso ya tjhelete e a fumaneha bakeng sa mosebetsi ona.	Ho na le disebediswa tse fumanehang bakeng sa mesebetsi ena.	0
+Leha leano la tshehetso ya ditjhelete le ka ntlafatswa, tshehetso ya tjhelete e a fumaneha bakeng sa mosebetsi ona.	Ha ho na tshehetso ya ditjhelete bakeng sa mosebetsi.	2
+Leha leano la tshehetso ya ditjhelete le ka ntlafatswa, tshehetso ya tjhelete e a fumaneha bakeng sa mosebetsi ona.	Ha ho na tshehetso ya ditjhelete e lekaneng bakeng sa mosebetsi.	1
+Dipalopalo tse tekuweng pampiring ena ka ditsela tsa mahae di itshetlehile leseding la 1989 la National Mail Count.	Dipalopalo tse pampiring ena di itshetlehile tlalehong ya 2001.	2
+Dipalopalo tse tekuweng pampiring ena ka ditsela tsa mahae di itshetlehile leseding la 1989 la National Mail Count.	Dipalopalo tse pampiring ena ke tsa kgale.	1
+Dipalopalo tse tekuweng pampiring ena ka ditsela tsa mahae di itshetlehile leseding la 1989 la National Mail Count.	Pampiri ena e kenyeletsa le data ho ditsela tsa mahae.	0
+Ba baholo ba ka amohela tekanyetso kapa ho se atlehe ha karolo e nngwe le e nngwe. 	Karolo e nngwe le e nngwe e lekuweng ke ba baholo e ka qetella tekanyetsong e fapaneng. 	0
+Ba baholo ba ka amohela tekanyetso kapa ho se atlehe ha karolo e nngwe le e nngwe. 	Ba baholo ba ke ke ba feila.	2
+Ba baholo ba ka amohela tekanyetso kapa ho se atlehe ha karolo e nngwe le e nngwe. 	Ba baholo ba lokela ho lekanyetswa hantle hore ba tswele pele.	1
+Taba e buuwang dipuisanong tsa pele ke maiikutlo a lengolo la papatso. 	Ho se dumellane dipuisanong tsa pele ho ka se o fumanele mosebetsi.	1
+Taba e buuwang dipuisanong tsa pele ke maiikutlo a lengolo la papatso. 	Dipuisanong tsa pele ha di bolele letho ka lengolo la papatso.	2
+Taba e buuwang dipuisanong tsa pele ke maiikutlo a lengolo la papatso. 	Dipuisanong tsa pele di kenyeletsa hanyane kamoo batho ba ikutlwang ka lengolo la papatso. 	0
+189 le ditjeo tsa mosebedisi di akantswe ka tsela e tshwanang.	Ba lepile ka ditjeo tsa mosebedisi.	0
+189 le ditjeo tsa mosebedisi di akantswe ka tsela e tshwanang.	Ba nehanne hore ditjeho ke $10000	1
+189 le ditjeo tsa mosebedisi di akantswe ka tsela e tshwanang.	Ba tsebile hantle ditjeo tsa mosebedisi.	2
+Ka mohlala, GGD, thuto ya moralo e entswe jwalo ka mosebetsi o arohaneng, pheletsong.	Thuto ya moralo ha e a etsahala.	2
+Ka mohlala, GGD, thuto ya moralo e entswe jwalo ka mosebetsi o arohaneng, pheletsong.	Thuto ya moralo e ile ya etswa ka ho arohana.	0
+Ka mohlala, GGD, thuto ya moralo e entswe jwalo ka mosebetsi o arohaneng, pheletsong.	Thuto ya moralo ha e a atleha.	1
+Mekgatlo yohle e robong e nka karolo ho	Mekgatlo e mmedi fela ho e robong e ikgathaditse ho arabela dipotso tsa rona mabapi le ho nka karolo. 	2
+Mekgatlo yohle e robong e nka karolo ho	Ho ne ho na le mekgatlo e robong e arabileng hantle hore ba nkile karolo.	0
+Mekgatlo yohle e robong e nka karolo ho	Mekgatlo ena e robong e thabetse hore ba bile le ho nka karolo ho phahameng.	1
+Ho tloha ka 1996, kabo ya moruo wa malapa e eketsehile haholo ka 6.4 ka 1999. 	Malapa ohle a amohetse $10000 kahodimo selemo se fetileng.	1
+Ho tloha ka 1996, kabo ya moruo wa malapa e eketsehile haholo ka 6.4 ka 1999. 	Malapa a ne a lahlehelwa ke moruo o mongata.	2
+Ho tloha ka 1996, kabo ya moruo wa malapa e eketsehile haholo ka 6.4 ka 1999. 	Malapa a fumane kabo e kgolo ya moruo.	0
+Ka katamelo e ntle, motheo le sehlopha sa workshare di fuwa karolo ya peresente  hodima tjeo, e le ho fumana sekgahla se lekaneng.	Motheo wa sehlopha o kahodimo ho tjeo.	0
+Ka katamelo e ntle, motheo le sehlopha sa workshare di fuwa karolo ya peresente  hodima tjeo, e le ho fumana sekgahla se lekaneng.	Theko ke 10% kahodimo ho tjeo.	1
+Ka katamelo e ntle, motheo le sehlopha sa workshare di fuwa karolo ya peresente  hodima tjeo, e le ho fumana sekgahla se lekaneng.	Theko e dula e le kahodimo ho tjeo.	2
+Ka ho nka dikgwedi tse nne tsa mosebetsi pele ho konteraka, palohare ya nako e fetileng ya dikgwedi tse 13 e ne e ka ba ho eketsa 675 MWe  ho boilara ena.	Ho nkile dikgwedi tse pedi fela ho e kenya.	2
+Ka ho nka dikgwedi tse nne tsa mosebetsi pele ho konteraka, palohare ya nako e fetileng ya dikgwedi tse 13 e ne e ka ba ho eketsa 675 MWe  ho boilara ena.	Ho nkile dikgwedi tse 13 ho kenya boilara bakeng sa submarine. 	1
+Ka ho nka dikgwedi tse nne tsa mosebetsi pele ho konteraka, palohare ya nako e fetileng ya dikgwedi tse 13 e ne e ka ba ho eketsa 675 MWe  ho boilara ena.	Ho nkile palohare ya dikgwedi tse leshome le metso e meraro ho kenya boilara. 	0
+Ho haella ha basebetsi ba rupetsweng ba IT mmarakeng wa jwale hangata ke lebaka le leholo le qobellang mekgatlo ho aba tshebetso ya bona. 	Ho na le basebetsi ba bangata haholo ba IT.	2
+Ho haella ha basebetsi ba rupetsweng ba IT mmarakeng wa jwale hangata ke lebaka le leholo le qobellang mekgatlo ho aba tshebetso ya bona. 	Ha ho na basebetsi ba lekaneng ba IT hoba kaofela ba ile India.	1
+Ho haella ha basebetsi ba rupetsweng ba IT mmarakeng wa jwale hangata ke lebaka le leholo le qobellang mekgatlo ho aba tshebetso ya bona. 	Ha ho na basebetsi ba lekaneng ba IT ho ka tlatsa dikgeo tsa mesebetsi.	0
+Ha ho kgonahale ho tseba katoloso kapa lehlakore la kgethollo phethohong ya ketsahalo o itshetlehile ho kopo ya kakaretso ya C-R function e le nngwe.	Ho hlakile hore ho na le kgethollo e kae.	2
+Ha ho kgonahale ho tseba katoloso kapa lehlakore la kgethollo phethohong ya ketsahalo o itshetlehile ho kopo ya kakaretso ya C-R function e le nngwe.	O ka se tsebe hore ke kgethollo e kae e teng hobane ho thata ho e arola ho tswa dikgahlamelong tse ding.	1
+Ha ho kgonahale ho tseba katoloso kapa lehlakore la kgethollo phethohong ya ketsahalo o itshetlehile ho kopo ya kakaretso ya C-R function e le nngwe.	O ka se tsebe hore ho na le kgethollo e kae.	0
+Ditshusumetso tsa tekgeniki tsa ditjeo, ho ya ka mosebetsi o entsweng ke mokgatlo o ka di etsang ka tjeo e hodimo, di boetse di balwa ka tsela e tshwanang le pele. 	Ditshusumetso tsa tjeo ya tekgeniki di etswa ka tsela e le nngwe.	0
+Ditshusumetso tsa tekgeniki tsa ditjeo, ho ya ka mosebetsi o entsweng ke mokgatlo o ka di etsang ka tjeo e hodimo, di boetse di balwa ka tsela e tshwanang le pele. 	Ha ba so tsebe hore ditshusumetso tsa tjeo ya tekgeniki di balwa jwang. 	2
+Ditshusumetso tsa tekgeniki tsa ditjeo, ho ya ka mosebetsi o entsweng ke mokgatlo o ka di etsang ka tjeo e hodimo, di boetse di balwa ka tsela e tshwanang le pele. 	Ba sebedisa palo ya hisitori ho bala ditshusumetso tsa ditjeo ya tekgeniki.	1
+Tlhakiso ya 4: Laola kotsi motheong o tswellang.	Kgaolo ya bone e na le kwetliso ya ho laola kotsi.	0
+Tlhakiso ya 4: Laola kotsi motheong o tswellang.	Buka ha e na lesedi ka taolo ya kotsi ya nako e telele.	2
+Tlhakiso ya 4: Laola kotsi motheong o tswellang.	Kwetliso ena e lokela ho qetwa ho be ho fanwe ka yona ha beke e fela.	1
+Mokgatlo wa Islam o thehilweng ka bo 1940, ke sephetho sa lefatshe la jwale, o hlohleleditswe ke mohopolo wa Marxist-Leninist wa phetoho ya puso.	Mehopolo ya Marxist-Leninist e ile ya kopanngwa ho mokgatlo wa Islam.	0
+Mokgatlo wa Islam o thehilweng ka bo 1940, ke sephetho sa lefatshe la jwale, o hlohleleditswe ke mohopolo wa Marxist-Leninist wa phetoho ya puso.	Mokgatlo wa Islam o ile wa qalwa ka dilemokgolo tsa botshelela.	2
+Mokgatlo wa Islam o thehilweng ka bo 1940, ke sephetho sa lefatshe la jwale, o hlohleleditswe ke mohopolo wa Marxist-Leninist wa phetoho ya puso.	Mokgatlo wa Islam o ile wa qalwa e le mokgatlo wa ho kopanya setjhaba. 	1
+Baeletsi ba bang ba hlahisitse ngongoreho ena.	Baeletsi kaofela ba dumetse ntle ho kganyetso hore ha ho letho le kgathatsang.	2
+Baeletsi ba bang ba hlahisitse ngongoreho ena.	Ke moeletsi a le mong fela a sa kang a hlahisa ngongoreho ka leano lena.	1
+Baeletsi ba bang ba hlahisitse ngongoreho ena.	Ngongoreho ena e arolwa ke baeletsi ba mmalwa ba fapaneng.	0
+Tsamaiso e boetse e ikgethile bapalami ba tlamehang ho lekodisiswa bakeng sa tshireletso e eketsehileng. 	Bapalami bohle ba itsamaela ntle ho bothata.	2
+Tsamaiso e boetse e ikgethile bapalami ba tlamehang ho lekodisiswa bakeng sa tshireletso e eketsehileng. 	Bapalami ba bang ba fumana sekene sa mmele kaofela.	1
+Tsamaiso e boetse e ikgethile bapalami ba tlamehang ho lekodisiswa bakeng sa tshireletso e eketsehileng. 	Bapalami ba bang ba lekodisiswa ke bahlanka ba tshireletso.	0
+Ha re a fumana tshupiso ya hore mohopolo o ile wa tshetlehelwa tsamaiso e ntjha kapa hore Clarke o fetiseditse dipampiri ho bona, le hoja sehlopha se tshwanang sa tsamaiso	Re na le bonnete ba 100% hore Clarke ha a fa mang kapa mang pampiri ya hae.	1
+Ha re a fumana tshupiso ya hore mohopolo o ile wa tshetlehelwa tsamaiso e ntjha kapa hore Clarke o fetiseditse dipampiri ho bona, le hoja sehlopha se tshwanang sa tsamaiso	Ha re fumane bopaki ba hore Clarke o mo file pampiri ya hae.	0
+Ha re a fumana tshupiso ya hore mohopolo o ile wa tshetlehelwa tsamaiso e ntjha kapa hore Clarke o fetiseditse dipampiri ho bona, le hoja sehlopha se tshwanang sa tsamaiso	Re tseba hantle hore Clarke o ba file pampiri ya hae ka Phupu 2.	2
+Ha ho a hlaka hore tsamaiso e tla kenngwa pele ho 2010, empa le lenane lena la nako le monyebe haholo, ho ya ka dikotsi tsa tshireletso. 	Ho thata ho kenya tsamaiso hobane di-hackers di e hlasela bosiu bo bong le bo bong.	1
+Ha ho a hlaka hore tsamaiso e tla kenngwa pele ho 2010, empa le lenane lena la nako le monyebe haholo, ho ya ka dikotsi tsa tshireletso. 	Ha ho bonolo ho kenya tsamaiso ka lebaka la dikotsi tsa tshireletso.	0
+Ha ho a hlaka hore tsamaiso e tla kenngwa pele ho 2010, empa le lenane lena la nako le monyebe haholo, ho ya ka dikotsi tsa tshireletso. 	Tsamaiso ya tshireletso e tla kenngwa dibekeng tse tsheletseng, ke a tshepisa. 	2
+Kahoo, ha re sireletsa motse wa rona, maAmerika a lokela ho ela hloko ka ditshoso bathong ba bohlokwa le ditokelong tsa botho.	MaAmerika ha a hloke ho kgathatseha ka ditokelo tsa bona tsa botho -ba tla dula ba sireleditswe.	2
+Kahoo, ha re sireletsa motse wa rona, maAmerika a lokela ho ela hloko ka ditshoso bathong ba bohlokwa le ditokelong tsa botho.	MaAmerika a lokela ho etsa bonnete ba hore dithunya tsa bona ha di nkuwe.	1
+Kahoo, ha re sireletsa motse wa rona, maAmerika a lokela ho ela hloko ka ditshoso bathong ba bohlokwa le ditokelong tsa botho.	MaAmerika a lokela ho tsepamisa maikutlo ka ditshoso ho tokoloho tsa rona.	0
+Ho e tsamaisa kgafetsa ha ho a etsa e atlehe haholo.	Tsamaiso ha e a ntlafatsa ka moo e neng e atlehile ka teng.	0
+Ho e tsamaisa kgafetsa ha ho a etsa e atlehe haholo.	Ho tsamaisa ho e atlehisitse haholo.	2
+Ho e tsamaisa kgafetsa ha ho a etsa e atlehe haholo.	Ha ke a e etsa ebe le katleho e kalo ha re ne re e isa White House.	1
+Boemo bo tlase bo latelang, molaodi wa yuniti ya al Qaeda CIA ka nako eo a hopola hore ha a ka a nahana hore e ne e le mosebetsi wa hae ho laola se lokelang ho etswa kapa ho se etswe. 	Molaodi o ne a sa batle ho itshunya hoba o ne a se a tlo beha meja fatshe.	1
+Boemo bo tlase bo latelang, molaodi wa yuniti ya al Qaeda CIA ka nako eo a hopola hore ha a ka a nahana hore e ne e le mosebetsi wa hae ho laola se lokelang ho etswa kapa ho se etswe. 	Molaodi wa yuniti o ne a sa batle ho itshunya ho taolong ya se neng se se se entswe.	0
+Boemo bo tlase bo latelang, molaodi wa yuniti ya al Qaeda CIA ka nako eo a hopola hore ha a ka a nahana hore e ne e le mosebetsi wa hae ho laola se lokelang ho etswa kapa ho se etswe. 	Molaodi o ne a nahana hore tsohle di matleng a hae.	2
+Pickard o hopola polelo e entsweng kopanong ka Phupu 12.	Pickard ha a ka a hopola letho le buuweng.	2
+Pickard o hopola polelo e entsweng kopanong ka Phupu 12.	Pickard o ile a hopola hore kopano e kwetse dintlha tsa kotsi.	1
+Pickard o hopola polelo e entsweng kopanong ka Phupu 12.	Pickard o ile a hopola se buuweng kopanong.	0
+O ile a ya Pakistan empa a se ke a phuthuloha ha a botswa hore o ile dinaheng tse haufi ha a ne a le Pakistan (Pakistan e ne e le tsela ya e tlwaelehileng dikampong tsa boikwetliso Afghanistan) 	Ho ne ho sa makatse hore marabele a paroletse Pakistan ho ya Afghanistan.	0
+O ile a ya Pakistan empa a se ke a phuthuloha ha a botswa hore o ile dinaheng tse haufi ha a ne a le Pakistan (Pakistan e ne e le tsela ya e tlwaelehileng dikampong tsa boikwetliso Afghanistan) 	Pakistan le Afghanistan di arohane haholo.	2
+O ile a ya Pakistan empa a se ke a phuthuloha ha a botswa hore o ile dinaheng tse haufi ha a ne a le Pakistan (Pakistan e ne e le tsela ya e tlwaelehileng dikampong tsa boikwetliso Afghanistan) 	Kwetliso e entsweng Afghanistan e ne e kenyeletsa ntwa ya haufi.	1
+Bakeng sa kakaretso ya mekgwa ena le mabaka a hore hobaneng ditshitiso di sa nahanwa hantle, bona Graham Allison le Phillip Zelikow. 	Ditshitiso di ile tsa tshwarwa hantle haholo.	2
+Bakeng sa kakaretso ya mekgwa ena le mabaka a hore hobaneng ditshitiso di sa nahanwa hantle, bona Graham Allison le Phillip Zelikow. 	Ditshitiso di ile tsa romelwa ho motho a fosahetseng bakeng sa tlhahlobo.	1
+Bakeng sa kakaretso ya mekgwa ena le mabaka a hore hobaneng ditshitiso di sa nahanwa hantle, bona Graham Allison le Phillip Zelikow. 	Ditshitiso ha di a ka tsa tshwarwa ka mokgwa o nepahetseng.	0
+Ba etsa ho be thata ho hlasela diphofu ka katleho, mme ba thibela ditlhaselo ka ho etsa tshwaro ntho e bobebe. 	Ba tsebile hore ho thatafatsa diphofu ho tla lebisa ho sekgahleng se phahameng sa batshwaruwa.	1
+Ba etsa ho be thata ho hlasela diphofu ka katleho, mme ba thibela ditlhaselo ka ho etsa tshwaro ntho e bobebe. 	Ba bebofaleditse diphofu hoo di ileng tsa tshwara ka metsotso fela.	2
+Ba etsa ho be thata ho hlasela diphofu ka katleho, mme ba thibela ditlhaselo ka ho etsa tshwaro ntho e bobebe. 	Ba etsa diqholotso di be le phephetso haholo, jwale ba etsa ho tshwara ho etsahale hangata. 	0
+Southeast Air Defense Sector e ile ya tsebiswa ka ketsahalo kamora metsotso e 9:55,28. 	Metsotso e 28 kamora ntlha Southeast Air Defense Sector e ile ya fumana tsebiso. 	0
+Southeast Air Defense Sector e ile ya tsebiswa ka ketsahalo kamora metsotso e 9:55,28. 	Setsi ha se a ka sa fumana ditsebiso ka nako ka lebaka la tieho ya puisano. 	1
+Southeast Air Defense Sector e ile ya tsebiswa ka ketsahalo kamora metsotso e 9:55,28. 	Southeast Air Defense Sector e ile ya fumana lentswe la ketsahalo kamora metsotswana e 28 fela kamora hore e etsahale. 	2
+Re shebela pele phehisano ya naha ka diphetho tsa hore ho entswe qeto efe, mme re tla nka karolo haholo phehisanong eo. 	Ha ho na lebaka la ho phehisana ka sehlooho sena.	2
+Re shebela pele phehisano ya naha ka diphetho tsa hore ho entswe qeto efe, mme re tla nka karolo haholo phehisanong eo. 	Re batla ho ba le phehisano hobane re a tseba ditshisinyo tsena di bohlokwa. 	1
+Re shebela pele phehisano ya naha ka diphetho tsa hore ho entswe qeto efe, mme re tla nka karolo haholo phehisanong eo. 	Re ne re ka rata ho phehisa ditshisinyo.	0
+Kamora hore Mihdhar a tsamaye, baithuti ba bang ba ile ba kena ntlong.	Mihdhar o tsebile hore baithuti ba ne ba mo emetse a tsamaye.	1
+Kamora hore Mihdhar a tsamaye, baithuti ba bang ba ile ba kena ntlong.	Bana ba sekolo ba ile ba ya hae kamora hore Mihdhar a tsamaye.	0
+Kamora hore Mihdhar a tsamaye, baithuti ba bang ba ile ba kena ntlong.	Baithuti ba ile ba ipelaetsa kantle ho ntlo eo Mihdhar a neng a dula ho yona.	2
+Mpho ya hao e bohlokwa ketekong ya rona ya sehla sa bo 85.	Mpho e nngwe le e nngwe eo re e tholang ha e bohlokwa jwalo ka ya hao.	1
+Mpho ya hao e bohlokwa ketekong ya rona ya sehla sa bo 85.	Ha re kgathalle mpho ya hao.	2
+Mpho ya hao e bohlokwa ketekong ya rona ya sehla sa bo 85.	Esale re etsa sena ho feta dilemo tse mashome a robedi.	0
+Ho nka tshwarisano ya tshehetso e ikemetseng le tshehetso ya tjhelete ya Yunivesithi hore sekolo sa rona sa molao se tswelle pele ho hola ka boemo le kgahlamelo.	Sekolo sa rona sa molao se tshepetse ho tshehetso ya tjhelete e ikemetseng fela. 	2
+Ho nka tshwarisano ya tshehetso e ikemetseng le tshehetso ya tjhelete ya Yunivesithi hore sekolo sa rona sa molao se tswelle pele ho hola ka boemo le kgahlamelo.	Sekolo sa rona sa molao se tshehetswa karolong e nngwe ke Setheo sa Melinda le Bill Gates . 	1
+Ho nka tshwarisano ya tshehetso e ikemetseng le tshehetso ya tjhelete ya Yunivesithi hore sekolo sa rona sa molao se tswelle pele ho hola ka boemo le kgahlamelo.	Sekolo sa rona sa molao se hloka tjhelete ho tswela pele ho hola.	0
+Ka thuso fela ya batshehetsi ba rona ba thusang re kgonne ho fihlela tse kgolo. 	Bill Gates o re nehetse $5 milione.	1
+Ka thuso fela ya batshehetsi ba rona ba thusang re kgonne ho fihlela tse kgolo. 	Ho latela boemo ba mebaraka ya ditjhelete, batshehetsi ba rona ba thusang ba ikguletse morao ka ditshehetso tsohle tsa bona tsa ditjhelete. 	2
+Ka thuso fela ya batshehetsi ba rona ba thusang re kgonne ho fihlela tse kgolo. 	Re kgonne ho fihlela tse ngata, ka lebaka la dithuso tseo re di fumaneng.	0
+Re a o leboha ka ho tshehetsa Indianapolis Museum of Art ka 1999.	Re a o leboha ka monehelo wa $100 ho Indianapolis Museum of Art.	1
+Re a o leboha ka ho tshehetsa Indianapolis Museum of Art ka 1999.	Re a leboha ebile ha re lebohe ho fela ha menehelo ya hao ka 1999.	2
+Re a o leboha ka ho tshehetsa Indianapolis Museum of Art ka 1999.	Re thabile haholo ka thuso ya ho tshehetsa museamo.	0
+Tshepo ya ka ke hore o ne o hlohonolofaditswe haholo le ho kgothatswa ke taba eo. 	Ke tshepa hore taba ena e o file mafolofolo a matjha.	0
+Tshepo ya ka ke hore o ne o hlohonolofaditswe haholo le ho kgothatswa ke taba eo. 	Ke a tseba taba ena e o bakela ho kgathatseha, empa thabela leeto la hao.	2
+Tshepo ya ka ke hore o ne o hlohonolofaditswe haholo le ho kgothatswa ke taba eo. 	Ke a tseba o tla etsa tsohle tse matleng a hao ho lwantsha kankere ya ho nyantsha.. 	1
+Ho bohlokwa hore re utlwe ho tswa ho wena ka nako ena ya ho qetela ya letsholo la pokello ya tjhelete la sehla. 	Hona ke letsholo la monehelo la ho qetela leo re tla ba le lona sehleng sena, jwale re hloka thuso ya hao. 	0
+Ho bohlokwa hore re utlwe ho tswa ho wena ka nako ena ya ho qetela ya letsholo la pokello ya tjhelete la sehla. 	Re na le matsholo a mabedi a pokello ya tjhelete selemong sena.	2
+Ho bohlokwa hore re utlwe ho tswa ho wena ka nako ena ya ho qetela ya letsholo la pokello ya tjhelete la sehla. 	Re hloka $100,000 e eketsehileng ho etsa karolo ya rona ya pokello ya tjhelete sehleng sena.	1
+P.S. Mpho ya hao e bohlokwa ho keteko ya rona ya dilemo tse 85 e etsang Indianapolis Civic Theatre ebe theatre e kgolo e tswellang ho sebetsa setjhabeng. 	Ho ne ho na le kalana e nngwe e sa tswa keteka dilemo tsa yona tse 84 e theuwe, empa e ile ya tjha.	1
+P.S. Mpho ya hao e bohlokwa ho keteko ya rona ya dilemo tse 85 e etsang Indianapolis Civic Theatre ebe theatre e kgolo e tswellang ho sebetsa setjhabeng. 	Re keteka pulo ya kalana e ntjha ya Indianapolis.	2
+P.S. Mpho ya hao e bohlokwa ho keteko ya rona ya dilemo tse 85 e etsang Indianapolis Civic Theatre ebe theatre e kgolo e tswellang ho sebetsa setjhabeng. 	Re thabile haholo hore Indianapolis Civic Theater esale e sebetsa ka dilemo tse 85.	0
+Bao ba nkang karolo ba tla fuwa mabitso a lebeletsweng, diaterese le dinomoro tsa mohala, hammoho le tlhahisoleseding ka ditlhoko tsa sekolo.	Bankakarolo ba tla fuwa dinomoro tsa bahwebi le tlhahisoleseding.	0
+Bao ba nkang karolo ba tla fuwa mabitso a lebeletsweng, diaterese le dinomoro tsa mohala, hammoho le tlhahisoleseding ka ditlhoko tsa sekolo.	Bankakarolo ba tla lokela ho saena tumellano e patang lesedi, pele ba ka fumana dintlha tsa bahwebi.	1
+Bao ba nkang karolo ba tla fuwa mabitso a lebeletsweng, diaterese le dinomoro tsa mohala, hammoho le tlhahisoleseding ka ditlhoko tsa sekolo.	Bao ba nkang karolo ba ka tseba fela mabitso a bahwebi, empa eseng diaterese tsa bona. 	2
+Serapa sa rona sa diphoofolo se entswe ho sebediswa kgopolo ya di-biome, tse susumelletsang bodulo ba tlhaho moo diphoofolo di dulang.	Di-biome di susumelletsa diphoofolo bodulo ba tlhaho.	0
+Serapa sa rona sa diphoofolo se entswe ho sebediswa kgopolo ya di-biome, tse susumelletsang bodulo ba tlhaho moo diphoofolo di dulang.	Serapeng sa rona sa diphoofolo, re dumela hore madulo ao eseng a nnete a ka kwano ho feta a tlhaho.	2
+Serapa sa rona sa diphoofolo se entswe ho sebediswa kgopolo ya di-biome, tse susumelletsang bodulo ba tlhaho moo diphoofolo di dulang.	Di-biomes serapeng sa rona sa diphoofolo di ne di le theko e hodimo.	1
+Tshehetso ya hao ya Goodwill e tla fana ka kwetliso ya mosebetsi le ditshebeletso tsa ho beha ho thusa ho sebetsa bohareng ba Indiana ho fumana mosebetsi o utlwahalang.	Batho bohareng ba Indiana ha ba ka ba fumana kwetliso ya mosebetsi.	2
+Tshehetso ya hao ya Goodwill e tla fana ka kwetliso ya mosebetsi le ditshebeletso tsa ho beha ho thusa ho sebetsa bohareng ba Indiana ho fumana mosebetsi o utlwahalang.	Ho tshehetsa Goodwill ho tla tswela batho ba Indiana molemo.	0
+Tshehetso ya hao ya Goodwill e tla fana ka kwetliso ya mosebetsi le ditshebeletso tsa ho beha ho thusa ho sebetsa bohareng ba Indiana ho fumana mosebetsi o utlwahalang.	Ho tshehetsa Goodwill ho tla fokotsa sekgahla sa ho hloka mosebetsi.	1
+Ho tloha qalong ya yona e nyenyane ho ya ho maemo a yona kajeno, jwalo ka setsi se tswileng matsoho sa kalafo setjhabeng, sekolo sa Indiana sa kalafo se ikgantsha ka ..... 	Indiana e na le bonyane dikolo tse mashome a mabedi tsa kalafo.	2
+Ho tloha qalong ya yona e nyenyane ho ya ho maemo a yona kajeno, jwalo ka setsi se tswileng matsoho sa kalafo setjhabeng, sekolo sa Indiana sa kalafo se ikgantsha ka ..... 	Mmuso wa Indiana o na le sekolo se le seng fela sa kalafo.	0
+Ho tloha qalong ya yona e nyenyane ho ya ho maemo a yona kajeno, jwalo ka setsi se tswileng matsoho sa kalafo setjhabeng, sekolo sa Indiana sa kalafo se ikgantsha ka ..... 	Ha ho na ba le sekolo se seng sa kalafo Indiana dilemong tse hlano tse tlang.	1
+Le ha ho le jwalo, keketseho e tshosang ditjeong tsa dibuka tsa molao, dijenale, le ditshebeletso tsa dipalopalo di bolela hore ho hlokomela pokello ya rona ya jwale ho feta tekanyetso ya rona	Ho hlokomela pokello ya rona ya jwale ho qosa fela boraro ba tekanyetso ya rona ya selemo.	2
+Le ha ho le jwalo, keketseho e tshosang ditjeong tsa dibuka tsa molao, dijenale, le ditshebeletso tsa dipalopalo di bolela hore ho hlokomela pokello ya rona ya jwale ho feta tekanyetso ya rona	Tekanyetso ya rona ya jwale ha e re dumelle hore re lokise pokello ya rona ya jwale.	0
+Le ha ho le jwalo, keketseho e tshosang ditjeong tsa dibuka tsa molao, dijenale, le ditshebeletso tsa dipalopalo di bolela hore ho hlokomela pokello ya rona ya jwale ho feta tekanyetso ya rona	Re hloka bonyane $10,000 ya menehelo ho re dumella hore re lokise pokello ya rona ya jwale. 	1
+Re tla leka ho letsetsa e mong le e mong wa lona a sa nkang karolo selemong sena sa lekgetho matsatsing a 45 a tlang e le hore sepheo sa rona se ka fihlelwa ka nako ya qetelo ya Phupjane 30.	Ha re na maikemisetso a ho ka letsetsa bao ba sa kang ba nehela selemong sena sa lekgetho.	2
+Re tla leka ho letsetsa e mong le e mong wa lona a sa nkang karolo selemong sena sa lekgetho matsatsing a 45 a tlang e le hore sepheo sa rona se ka fihlelwa ka nako ya qetelo ya Phupjane 30.	Re tla buisana ka mangolo matsatsing a 45 a tlang ho bao ba sa nehelang selemong sena sa lekgetho. 	1
+Re tla leka ho letsetsa e mong le e mong wa lona a sa nkang karolo selemong sena sa lekgetho matsatsing a 45 a tlang e le hore sepheo sa rona se ka fihlelwa ka nako ya qetelo ya Phupjane 30.	Re tla leka ho letsetsa bao ba sa kang ba nehela selemong sena sa lekgetho matsatsing a 45 a tlang. 	0
+Jwalo ka setho sa sekolo sa molao, ke a tseba hore o etse hloko kgatelopele ya rona. 	Ke setho sa sekolo sa molao.	1
+Jwalo ka setho sa sekolo sa molao, ke a tseba hore o etse hloko kgatelopele ya rona. 	Ha ho motho a sekolong sa molao.	2
+Jwalo ka setho sa sekolo sa molao, ke a tseba hore o etse hloko kgatelopele ya rona. 	Sekolo sa molao se amohetse batho.	0
+Tjeo ya ho theha matlo ana e feta hole seo bareki ba rona ba ka se patalang, jwale re tshepetse ho ditjhelete tsa mphuwafela le dinehelo tsa motho ka mong.	Ho theha matlo e ne e le mahala.	2
+Tjeo ya ho theha matlo ana e feta hole seo bareki ba rona ba ka se patalang, jwale re tshepetse ho ditjhelete tsa mphuwafela le dinehelo tsa motho ka mong.	Matlo a ne a hloka disebediswa hore a thehwe.	0
+Tjeo ya ho theha matlo ana e feta hole seo bareki ba rona ba ka se patalang, jwale re tshepetse ho ditjhelete tsa mphuwafela le dinehelo tsa motho ka mong.	Matlo a ne a tura haholo ho a aha ho feta kamoo ho neng ho lebeletswe.	1
+Dipakana tsa bokantle ba dikoranta tsa beke e thabisa batswadi ba kgathatsehileng.	Batswadi ba kgathatsehileng ke bona ba kgethwang dipapatsang tsa dikoranta tse beke.	0
+Dipakana tsa bokantle ba dikoranta tsa beke e thabisa batswadi ba kgathatsehileng.	Dikoranta tsa beke di rala dipakana tsa bokantle ba tsona hore di hohele ho bana ba banyane kapa batho ba baholo. 	2
+Dipakana tsa bokantle ba dikoranta tsa beke e thabisa batswadi ba kgathatsehileng.	Batswadi ba na le kgonahalo ya sebedisa tjhelete ho reka dikoloi tse ntjha, ho ba etsa ebe babapatsi ba bohlokwa ba makasine.	1
+Pale e ka sehloohong ya Time ke mehato e 12 ya Bill Gates bakeng sa ho atleha dilemong tsa digital.	Kim Kardashian o ngotse pale e ka sehloohong bakeng sa makasine wa Time ka mehato e 12 e hlokahalang hore o atlehe ho dilemo tsa digital. Solly Letuka 	2
+Pale e ka sehloohong ya Time ke mehato e 12 ya Bill Gates bakeng sa ho atleha dilemong tsa digital.	Makasine ya Time e na le setshwantsho sa Bill Gates ka ntle.	1
+Pale e ka sehloohong ya Time ke mehato e 12 ya Bill Gates bakeng sa ho atleha dilemong tsa digital.	Makasine ya Time e na le pale ka Bill Gates le katleho dilemong tsa dijithale.	0
+Matha o thotse, Matha ka ho teba, Mathisa Karabo	Matha o etsa lerata.	2
+Matha o thotse, Matha ka ho teba, Mathisa Karabo	Matha ka diphaka di fapakana.	1
+Matha o thotse, Matha ka ho teba, Mathisa Karabo	Matha ntle le ho utluwa.	0
+Paul o shebahala a nka Alan Greenspan e le motho a dumelang mohopolong o itseng ya  laolang sekgahla sa ho hloka mosebetsi ho ya ka balaodi ba mehopolo ya ikhonomi.	Alan Greenspan o na le mehopolo ya ikhonomi mabapi le ka sekgahla sa tlhokeho ya mosebetsi. 	0
+Paul o shebahala a nka Alan Greenspan e le motho a dumelang mohopolong o itseng ya  laolang sekgahla sa ho hloka mosebetsi ho ya ka balaodi ba mehopolo ya ikhonomi.	Paul ha a so ka a utlwela ka Alan Greenspan kapa mehopolo ya hae ya ikhonomi . 	2
+Paul o shebahala a nka Alan Greenspan e le motho a dumelang mohopolong o itseng ya  laolang sekgahla sa ho hloka mosebetsi ho ya ka balaodi ba mehopolo ya ikhonomi.	Paul o nahana Alan Greenspan ke raikhonomi e bohlale a e tsebang.	1
+Ka thuso ya Microsoft Helpdesk ke hlokometse hore CD-ROM drive ya ka e ne e hoketswe ho sound card eseng ho IDE port, mme jwalo le ho thibela Linux. 	Ha ke so sebetsane le Linux.	2
+Ka thuso ya Microsoft Helpdesk ke hlokometse hore CD-ROM drive ya ka e ne e hoketswe ho sound card eseng ho IDE port, mme jwalo le ho thibela Linux. 	Ke ne ke na le bothata ba ho fumana Linux ho hokela ho modem wa ka.	1
+Ka thuso ya Microsoft Helpdesk ke hlokometse hore CD-ROM drive ya ka e ne e hoketswe ho sound card eseng ho IDE port, mme jwalo le ho thibela Linux. 	Ke ne ke na le bothata ka Linux.	0
+Steve, ke ne ke sa kgone le ho phahamisa mokotlana wa hao wa tjhelete, Hatch a kgutlisetsa.	Hatch o buile ka kgalefo hore o ne a sa kgone le ho pahamisa walete ya Steve.	1
+Steve, ke ne ke sa kgone le ho phahamisa mokotlana wa hao wa tjhelete, Hatch a kgutlisetsa.	Hatch o ne a se na maikutlo mabapi le mokotlana wa tjhelete wa Steve.	2
+Steve, ke ne ke sa kgone le ho phahamisa mokotlana wa hao wa tjhelete, Hatch a kgutlisetsa.	Hatch o ile a swaswa ka hore o ne a sa kgone le ho phahamisa walete ya Steve.	0
+Di-nerds, tse dulang phaposing ya thuto ya ikhonomi le khomputha, ba boetse ba na le boemo bo sa tshepiseng.	Ditsebi ha di na tshepo.	0
+Di-nerds, tse dulang phaposing ya thuto ya ikhonomi le khomputha, ba boetse ba na le boemo bo sa tshepiseng.	Ditsebi di hlwahlwa ka ho buisana le batho.	1
+Di-nerds, tse dulang phaposing ya thuto ya ikhonomi le khomputha, ba boetse ba na le boemo bo sa tshepiseng.	Ditsebi di na le bokamoso.	2
+E ka fetang seo News Quiz e se tshepisang mabapi le Fox.	Ke tlase ho seo News Quiz e se tshepisang mabapi le Fox.	2
+E ka fetang seo News Quiz e se tshepisang mabapi le Fox.	Ke ho fetang News Quiz ho ka tshepisang mabapi le Fox.	0
+E ka fetang seo News Quiz e se tshepisang mabapi le Fox.	E ka fetang seo News Quiz e se buang ka Fox.	1
+Kgolo ya setjhaba ekare ke ho kgutlela morao ha tshilafatso.	Tshilafatso ke ntlha e thibelang kgolo ya setjhaba.	1
+Kgolo ya setjhaba ekare ke ho kgutlela morao ha tshilafatso.	Kgolo ya setjhaba e tshwana le inverse pollution.	0
+Kgolo ya setjhaba ekare ke ho kgutlela morao ha tshilafatso.	Ha ho na kamano mahareng a kgolo ya setjhaba le tshilafatso.	2
+Jwale, ho latela hore Bill Bradley o holetse St. Louis, tshwarelo, hoo ho tla thabisa haeba Al Gore a ne a holetse Tennessee.	Bradley o ne a tswa Arkansas.	2
+Jwale, ho latela hore Bill Bradley o holetse St. Louis, tshwarelo, hoo ho tla thabisa haeba Al Gore a ne a holetse Tennessee.	Bradley o ne a tswa Missouri.	0
+Jwale, ho latela hore Bill Bradley o holetse St. Louis, tshwarelo, hoo ho tla thabisa haeba Al Gore a ne a holetse Tennessee.	Bradley o ne a tswa karolong e ka botjhabela ya St Louis.	1
+Sabol o ile a re o lokela ho nkakgafetsa, empa le hoo ho hlophisitswe ka mokgwa o kgodisang. 	Sabol ha a hloke ho nka kgefutso tseo tsohle.	1
+Sabol o ile a re o lokela ho nkakgafetsa, empa le hoo ho hlophisitswe ka mokgwa o kgodisang. 	Sabol o boletse hore hona jwale le kamehla o lokela ho etsa pit stop.	0
+Sabol o ile a re o lokela ho nkakgafetsa, empa le hoo ho hlophisitswe ka mokgwa o kgodisang. 	Sabol o tshwahile hore ha a hloke ho ka nka dikgefu.	2
+Hobaneng sena se sa etsahale websaeteng?	Sena se etsahala websaeteng	2
+Hobaneng sena se sa etsahale websaeteng?	Sena ha se etsahale websateng ha jwale.	0
+Hobaneng sena se sa etsahale websaeteng?	Sena se ka etsahala diketsahalong tse ding ho Web.	1
+Mapolesa a tsebisitse hore ba qheletse ka thoko hore abuti wa Ramsey le ausi wa hae ke le babelaelwa polaong ya hae, hobane bobedi ba ne ba le siyo  topropong ha bokebekwa bo etsahala. 	Abuti wa Jon Benet Ramsey o ne a le siyo toropong ha polao e ne e etswa.	0
+Mapolesa a tsebisitse hore ba qheletse ka thoko hore abuti wa Ramsey le ausi wa hae ke le babelaelwa polaong ya hae, hobane bobedi ba ne ba le siyo  topropong ha bokebekwa bo etsahala. 	Ausi wa Jon Benet Ramsey o na le bopaki bo matla ba hore o ne a le siyo toropong ha bokebekwa bo ne bo etsahala. 	1
+Mapolesa a tsebisitse hore ba qheletse ka thoko hore abuti wa Ramsey le ausi wa hae ke le babelaelwa polaong ya hae, hobane bobedi ba ne ba le siyo  topropong ha bokebekwa bo etsahala. 	Ho na le bopaki bo lekaneng ho ka tshwara abuti wa Jon Benet Ramsey jwalo ka mmolai.	2
+Ha o na bonnete ba hore o ne o hlakile ka hore o lehlakoreng la mang.	Ho hlakile hore o tshehetsa mang.	2
+Ha o na bonnete ba hore o ne o hlakile ka hore o lehlakoreng la mang.	Ha re tsebe hore o tshehetsa mang dikgethong. 	1
+Ha o na bonnete ba hore o ne o hlakile ka hore o lehlakoreng la mang.	Ha re tsebe hore o tshehetsa mang.	0
+Ka letsatsi le leng, thekenoloji eo kajeno e thehang mmaraka bakeng sa ba shebelang pele, e tla ba hloka thahasello jwaloka lebone. Solly Letuka 	Thekenoloji e a tena kamora nako.	0
+Ka letsatsi le leng, thekenoloji eo kajeno e thehang mmaraka bakeng sa ba shebelang pele, e tla ba hloka thahasello jwaloka lebone. Solly Letuka 	Thekenoloji e dula e le monate!	2
+Ka letsatsi le leng, thekenoloji eo kajeno e thehang mmaraka bakeng sa ba shebelang pele, e tla ba hloka thahasello jwaloka lebone. Solly Letuka 	Thekenoloji e a tena ha o sa e fetole kgafetsa.	1
+Alternative ha e a lokela ho sebediswa sebakeng sa alternate.	Ha ho a loka ho sebedisa alternative ho bolela alternate.	0
+Alternative ha e a lokela ho sebediswa sebakeng sa alternate.	Ho dumelletswe ho kenya alternate bakeng sa alternative.	2
+Alternative ha e a lokela ho sebediswa sebakeng sa alternate.	Batho ba bangata ha ba tsebe hore o sebedisa jwang ka nepo alternative le alternate.	1
+Ka nako eo a kenang dilemong tsa hae tsa bo mashome a tsheletseng, ka 1985, Skeat o fanne ka pontsho ya hore o ne a qala ho se tsotelle ditaba. 	Ha Skeat a kena dilemong tsa hae tsa bo mashome a tsheletseng, ha a ka a fana ka pontsho ya hore o ne a nahana ka sefe kapa sefe.	2
+Ka nako eo a kenang dilemong tsa hae tsa bo mashome a tsheletseng, ka 1985, Skeat o fanne ka pontsho ya hore o ne a qala ho se tsotelle ditaba. 	Ha Skeat a tsofala o ile a ntsha pontsho ya hore o nkile dintho hanyane.	0
+Ka nako eo a kenang dilemong tsa hae tsa bo mashome a tsheletseng, ka 1985, Skeat o fanne ka pontsho ya hore o ne a qala ho se tsotelle ditaba. 	Skeat o ile a qala ho kgathalla ka dintho tse fapaneng ha a tsofala.	1
+...empa lekgetlo la bobedi la ketsahalo o ne tshwarehile dipakeng tsa metswalle e mmedi.	Ha a tsebe a kgethe lehlakore lefe pakeng tsa metswalle ya hae e mmedi.	1
+...empa lekgetlo la bobedi la ketsahalo o ne tshwarehile dipakeng tsa metswalle e mmedi.	O na le ketsahalo e le nngwe fela, e amang motswalle wa hae.	2
+...empa lekgetlo la bobedi la ketsahalo o ne tshwarehile dipakeng tsa metswalle e mmedi.	Lekgetlong la bobedi ketsahalo e ama batho ba bararo.	0
+O rata efe haholo, Math kapa Science?	O na le seo o se ratang ho Math kapa Science?	0
+O rata efe haholo, Math kapa Science?	O hloile eng haholo, English kapa Philosophy?	2
+O rata efe haholo, Math kapa Science?	O ka rata dintho tse ding ntle ho Math le Science.	1
+Ho ya ka nako le thekenoloji e ntlafetseng, difouno tsohle tseo eseng tsa radio di tla ngolwa e le difouno tsa mohala.	Difouno tse eseng tsa radio tsohle di tla qetela e le di wire phones.	0
+Ho ya ka nako le thekenoloji e ntlafetseng, difouno tsohle tseo eseng tsa radio di tla ngolwa e le difouno tsa mohala.	Difouno di tla ntlafala ka thekenoloji.	1
+Ho ya ka nako le thekenoloji e ntlafetseng, difouno tsohle tseo eseng tsa radio di tla ngolwa e le difouno tsa mohala.	Difounu tsa mehala di tlwaelehile ho feta difouno tseo eseng tsa radio.	2
+Polelo ya ho qetela: Re akanya hore ha o so nehelane ka moqoqo ona nqa e nngwe	Re nka hore ha o a fana ka moqoqo ona ho mang kapa mang.	0
+Polelo ya ho qetela: Re akanya hore ha o so nehelane ka moqoqo ona nqa e nngwe	Re a utlwisisa hore o phatlaladitse moqoqo ona nako e fetileng dikoranteng tse hlano.	2
+Polelo ya ho qetela: Re akanya hore ha o so nehelane ka moqoqo ona nqa e nngwe	Re tla rata ho saena foromo e amohelang hore ke rona fela bao o fanneng ka moqoqo ho bona. 	1
+abuti a lokileng- polelo ena ya common present usage e fumanwa ho Julius Caesar iv.	Ho Julius Caesar, lentswe lena abuti a lokileng le a sebediswa.	0
+abuti a lokileng- polelo ena ya common present usage e fumanwa ho Julius Caesar iv.	Lentswe abuti a lokileng le sebedisitswe fela ho tloha ka mongwahakgolo wa bo 20.	2
+abuti a lokileng- polelo ena ya common present usage e fumanwa ho Julius Caesar iv.	Lentswe abuti a lokileng le sebediswa ho bolela sware.	1
+Haeba ho le jwalo, ba ka nna ba hlohleletswa ho reka kgatiso hobane e na le maqephe a 55 a mantswe, ditlhaloso, le diqotso tse sa kang tsa phatlalatswa pele.	Buka ena e na le mantswe a mangata a matjha a neng a sa phatlalatswa pele.	0
+Haeba ho le jwalo, ba ka nna ba hlohleletswa ho reka kgatiso hobane e na le maqephe a 55 a mantswe, ditlhaloso, le diqotso tse sa kang tsa phatlalatswa pele.	Kgatiso ena e tshwana le kgatiso e fetileng.	2
+Haeba ho le jwalo, ba ka nna ba hlohleletswa ho reka kgatiso hobane e na le maqephe a 55 a mantswe, ditlhaloso, le diqotso tse sa kang tsa phatlalatswa pele.	Kgatiso ena e rekisitse ho feta di-copy tse diketse tse makgolo a mahlano selemong sa yona sa pele. 	1
+Re ile ra tshoswa ke tjhebahalo ya yona ka tsela e itseng, empa re ile ra e ja-kantle ho thahasello, empa ka pou e tiileng ya katlase re nwele, ka ho tjho jwalo, ka lebese la Mme wa rona.                                                                                                               	Bohle ka motlotlo ba ile ba ja dijo tsa bona mme ba bolela hore di ba hopotsa dijo tsa bona tseo ba di ratang tsa matsatsi a phomolo.	2
+Re ile ra tshoswa ke tjhebahalo ya yona ka tsela e itseng, empa re ile ra e ja-kantle ho thahasello, empa ka pou e tiileng ya katlase re nwele, ka ho tjho jwalo, ka lebese la Mme wa rona.                                                                                                               	Re ile ra ikutlwa re qobellehile ho ja se neng se beuwe kapele ho rona, hobane re ne re sa batle ho kgopisa baamohedi ba rona	1
+Re ile ra tshoswa ke tjhebahalo ya yona ka tsela e itseng, empa re ile ra e ja-kantle ho thahasello, empa ka pou e tiileng ya katlase re nwele, ka ho tjho jwalo, ka lebese la Mme wa rona.                                                                                                               	Re ile ra ja se neng se beuwe kapele ho rona ka lesisitheho, leha re ne re sa rate tjhebeho ya sona.	0
+Batho ba banyane ba dilemo di kae?	Ke tseba hantle hore batho ba banyane ba bakae ka dilemo.	2
+Batho ba banyane ba dilemo di kae?	Batho ba banyane ke sehlopha seo batho ba bang ba nang le bothata ba ho se arola ka dilemo.	0
+Batho ba banyane ba dilemo di kae?	Batho ba banyane kaofela ba katlase ho dilemo tse mashome a mabedi le metso e mehlano.	1
+Ntle ho moo, mohopolo wa bona wa nako o sedikadikwe. ha o a otloloha, jwale ho tshwaya nako ha se ho bohlokwa ho feta ho keteka ho kgutla ha mekete ya sehla.	Jwalo kaha mohopolo wa bona wa nako o otlolohile, nako ya bona e bohlokwa haholo ho feta ho kgutla ha mekete ya sehla.	2
+Ntle ho moo, mohopolo wa bona wa nako o sedikadikwe. ha o a otloloha, jwale ho tshwaya nako ha se ho bohlokwa ho feta ho keteka ho kgutla ha mekete ya sehla.	Hobane ba sheba nako jwaloka sedikadikwe, ho kgutla ha mekete ya sehla ho bohlokwa haholo ho bona	0
+Ntle ho moo, mohopolo wa bona wa nako o sedikadikwe. ha o a otloloha, jwale ho tshwaya nako ha se ho bohlokwa ho feta ho keteka ho kgutla ha mekete ya sehla.	Ba keteka mekete ya sehla hobane ba dumela hore nako e sebopeho sa s.	1
+Ka mohlala, tse ding di na le dikarolwana tse tlositsweng ho sebediswa disebediswa  kapa lebala leo ho bapallwang papadi. 	Dipapadi kaofela di rehelletswe ka disebediswa tse sebediswang papading.	2
+Ka mohlala, tse ding di na le dikarolwana tse tlositsweng ho sebediswa disebediswa  kapa lebala leo ho bapallwang papadi. 	Dipapadi tse ding ha di a rehellwa ka disebediswa kapa lebala.	0
+Ka mohlala, tse ding di na le dikarolwana tse tlositsweng ho sebediswa disebediswa  kapa lebala leo ho bapallwang papadi. 	Sena se etsahala hangata ha papadi e qaduwe ho sebediswa disebediswa tse ntseng di le teng ho tswa dipapading tse ding.	1
+Bakeng sa diphephetso, ke sa batlana le lentswe le ka arolwang ka tatelano ka dikarolo tse pedi tse nyane.	Ke fumane mantswe a mararo a ka arolwang ka tatelano dikarolo tse pedi tse nyane.	2
+Bakeng sa diphephetso, ke sa batlana le lentswe le ka arolwang ka tatelano ka dikarolo tse pedi tse nyane.	Ha ke a ba le nako e bonolo ya ho fumana lentswe le ka arolwang ka tatelano dikarolo tse nyane tse pedi.	0
+Bakeng sa diphephetso, ke sa batlana le lentswe le ka arolwang ka tatelano ka dikarolo tse pedi tse nyane.	Ke bile le thahasello ho puo, ho tloha ke nkile tlelase ya ho qala selemo se fetileng.	1
+Empa kganya ho dedication e siuwe tshekatshekong, ho siyang mmadi a se bohlale ho feta pele.	Buka e ne e nehetswe ho Mme wa mongodi.	1
+Empa kganya ho dedication e siuwe tshekatshekong, ho siyang mmadi a se bohlale ho feta pele.	Tshekatsheko e akareditse lesedi kaofela leo mmadi a ka hlokang ho le tseba.	2
+Empa kganya ho dedication e siuwe tshekatshekong, ho siyang mmadi a se bohlale ho feta pele.	Tshekatsheko ha e akaretse lesedi le leng le bohlokwa ho tswa ho dedication.	0
+Dilemong tsa ho qetela tsa mongwahakgolo wa 19, ho ne ho na le puisano e ngata mabapi le the word.	Ho ile ha qetellwa ho nkuwe qeto ya hore the word e ne e sa amohelehe ho polite company.	1
+Dilemong tsa ho qetela tsa mongwahakgolo wa 19, ho ne ho na le puisano e ngata mabapi le the word.	The word e bile ntlha ya ngangisano dilemo tse ngata tse fetileng.	0
+Dilemong tsa ho qetela tsa mongwahakgolo wa 19, ho ne ho na le puisano e ngata mabapi le the word.	The word e ile ya nyahlatswa le ho lebalwa pele ho mafelo a mongwahakgolo wa bo-19.	2

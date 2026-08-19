@@ -1,0 +1,451 @@
+premise	hypothesis	label
+N'agamba, maama ndi waka.	Yakubira maama we amangu ddala nga bbaasi y'essomero yaakamutuusa.	1
+N'agamba, maama ndi waka.	Teyayogera kigambo kyonna.	2
+N'agamba, maama ndi waka.	Yategeeza nnyina nti yali amufunye.	0
+Nali simanyi kye nnali ng'enda kukola oba ekintu konna, era bwe kyali ne ku kuloopa mu kifo ekivunaanyizibwa kyonna mu Washington.	Sigendangako mu Washington era bwe bantuma okukolayo omulimu nnabula nga ngezaako okunoonya we kisangibwa.	1
+Nali simanyi kye nnali ng'enda kukola oba ekintu konna, era bwe kyali ne ku kuloopa mu kifo ekivunaanyizibwa kyonna mu Washington.	Nali mmanyi ekyo kyennyini kye nali nneetaaga okukola we nnyingira mu Washington.	2
+Nali simanyi kye nnali ng'enda kukola oba ekintu konna, era bwe kyali ne ku kuloopa mu kifo ekivunaanyizibwa kyonna mu Washington.	Nali sseekakasa kye nali ngenda kukola kwe kugenda mu Washington gye baali bandagidde okunnyonnyola ebyali bibaddewo.	0
+Teyamukkiriza kugenda.	Ye yasooka okuyitibwa era yanyumirwa nnyo.	2
+Teyamukkiriza kugenda.	Yali takkirizibwa kwetabamu.	0
+Teyamukkiriza kugenda.	Teyakkirizibwa kugenda kwetaba ku mukolo ogw'okuggulawo ekkaddiyizo.	1
+Era nze nnagamba nti tewali buzibu, era bwe kyali!	Bwe nnamala okugamba nti yee, ne kiggwa.	0
+Era nze nnagamba nti tewali buzibu, era bwe kyali!	Nagamba nti nedda ne kisigala nga kigenda mu maaso emirundi n'emirundi.	2
+Era nze nnagamba nti tewali buzibu, era bwe kyali!	Bwe nnakkiriza, twasalawo okufumbiriganywa kw'olwo lwennyini. 	1
+Nali awo, nga ngezaako okuzuula kye nnalina okukola.	Nnakitegeera bulungi okuviira ddala ku ntandikwa.	2
+Nali awo, nga ngezaako okuzuula kye nnalina okukola.	Nali ngezaako okuzuula ssente gye zaali ziraze.	1
+Nali awo, nga ngezaako okuzuula kye nnalina okukola.	Nali ngezaako okutegeera.	0
+Ne Jjajja omukyala yateranga okunyumya emboozi ku ngeri muganda we ne bba wa muganda we bwe baasalawo nti baali bagenda kutandika kubeera mu kibuga Augusta batandike okutwalibwa ng'Abazungu.	Muganda wa jjajja omukyala yali muzungu era yagenda n'atandika okubeera e Texas.	2
+Ne Jjajja omukyala yateranga okunyumya emboozi ku ngeri muganda we ne bba wa muganda we bwe baasalawo nti baali bagenda kutandika kubeera mu kibuga Augusta batandike okutwalibwa ng'Abazungu.	Muganda wa jjajja omukyala teyali muzungu.	0
+Ne Jjajja omukyala yateranga okunyumya emboozi ku ngeri muganda we ne bba wa muganda we bwe baasalawo nti baali bagenda kutandika kubeera mu kibuga Augusta batandike okutwalibwa ng'Abazungu.	Muganda wa jjajja omukyala teyali muzungu naye yali ayagala afuuke muzungu asobole okugenda ku somero.	1
+Naye yali, okimanyi mu ngeri nnyingi, nga mutabani wa nnannyini musiri kubanga ye yali mutabani w'omusajja ono eyalina ebyobugagga ebingi.	Taata we yali tabeerangako na kintu kyonna mu bulamu bwe.	2
+Naye yali, okimanyi mu ngeri nnyingi, nga mutabani wa nnannyini musiri kubanga ye yali mutabani w'omusajja ono eyalina ebyobugagga ebingi.	Taata we yalina ettaka eririko ffaamu ya yiika 2000.	1
+Naye yali, okimanyi mu ngeri nnyingi, nga mutabani wa nnannyini musiri kubanga ye yali mutabani w'omusajja ono eyalina ebyobugagga ebingi.	Taata yalina ebyobugagga nfofoolo. 	0
+Omulimu gwange gwali gwa kuteekako palacuuti n'ebintu ebiyambako abantu okubeera abalala buli lwe twabanga tukitikka okugenda emitala w'amayanja.	Saalina mulimu era nnakuumira bukuumizi bookisi zonna ewaka.	2
+Omulimu gwange gwali gwa kuteekako palacuuti n'ebintu ebiyambako abantu okubeera abalala buli lwe twabanga tukitikka okugenda emitala w'amayanja.	Bbookisi zonna nnazitikka ku mmeeri ne nzitwala e Japan.	1
+Omulimu gwange gwali gwa kuteekako palacuuti n'ebintu ebiyambako abantu okubeera abalala buli lwe twabanga tukitikka okugenda emitala w'amayanja.	Nnabitikka ku mmeeri ne mbifulumya eggwanga.	0
+Eyo y'engeri, uh gye nnakisigalamu.	Nnagezaako okulaba nti mbuza obujulizi mu ngeri yonna nneme kuba mu katyabaga.	1
+Eyo y'engeri, uh gye nnakisigalamu.	Eyo y'engeri yennyini gye nnaggyibwa mu mutawaana.	2
+Eyo y'engeri, uh gye nnakisigalamu.	Mu bufunze eyo y'engeri gye nnanokolwayo.	0
+Yali musajja mwenzi nnyo, era oh yaeh, nga akikolera ddala. Era ah, okimanyi nti nali simwagala, naye munnange ezo z'emboozi zange. 	Yali musajja mwesigwa nnyo era nga mulungi.	2
+Yali musajja mwenzi nnyo, era oh yaeh, nga akikolera ddala. Era ah, okimanyi nti nali simwagala, naye munnange ezo z'emboozi zange. 	Yantama kubanga yali talina njogera.	1
+Yali musajja mwenzi nnyo, era oh yaeh, nga akikolera ddala. Era ah, okimanyi nti nali simwagala, naye munnange ezo z'emboozi zange. 	Yali tamunyumirwa nnyo.	0
+Bwe nsika, bw'asika akabikkako nsobole okutandika okumusikayo, asonga ku buuma bubiri obuli ku mukono gw'ennyonyi ogwa kkono ogwali gusaanuuse bwe yali ekyali mu bbanga.	Ebyuma byonna mu nnyonyi byali tebifunye buzibu bwonna.	2
+Bwe nsika, bw'asika akabikkako nsobole okutandika okumusikayo, asonga ku buuma bubiri obuli ku mukono gw'ennyonyi ogwa kkono ogwali gusaanuuse bwe yali ekyali mu bbanga.	Kyali kizibu okumufulumya.	1
+Bwe nsika, bw'asika akabikkako nsobole okutandika okumusikayo, asonga ku buuma bubiri obuli ku mukono gw'ennyonyi ogwa kkono ogwali gusaanuuse bwe yali ekyali mu bbanga.	Waliwo ebyuma by'ennyonyi ebyali bisaanuuse.	0
+Era, amazima teyabitegeera bulungi.	Kyannaku, teyasbola kubitegeera bulungi olw'okukaluubirizibwa mu olulimi.	1
+Era, amazima teyabitegeera bulungi.	Mazima ddala, teyategeera.	0
+Era, amazima teyabitegeera bulungi.	Yali amanyi bulungi kye twali twogerako.	2
+Osanga yagamba abantu bonna era nali sikifaako mu budde obwo.	Ssaamuwulira we yagambira abantu abalala bonna.	0
+Osanga yagamba abantu bonna era nali sikifaako mu budde obwo.	Nawulira buli kintu kye yayogera.	2
+Osanga yagamba abantu bonna era nali sikifaako mu budde obwo.	Nali nina gwe njogera naye mu kiseera ekyo.	1
+Twafiirwa ennyonyi bbiri zokka oba ssatu, bwe twali eyo nga uh, tuzigezesa.	Ennyonyi eziwerako zaabula olw'ensonga y'embeera y'obudde.	1
+Twafiirwa ennyonyi bbiri zokka oba ssatu, bwe twali eyo nga uh, tuzigezesa.	Ennyonyi eziwerako zaayonooneka.	0
+Twafiirwa ennyonyi bbiri zokka oba ssatu, bwe twali eyo nga uh, tuzigezesa.	Tetubulwangako nnyonyi n'emu.	2
+Nneetaaga obeeko ky'onkolera.	Sseetaaga buyambi bwonna.	2
+Nneetaaga obeeko ky'onkolera.	Mulimu munene gwe nneetaaga okukolebwa guggwe.	1
+Nneetaaga obeeko ky'onkolera.	Waliwo ekintu kye njagala kikolebwe era kiggwe.	0
+Oh gwali mugga gwa Snake River oba omugga gwa Snake River nga gulimu emisota emingi.	Newankubadde guyitibwa gutyo, omugga gwa Snake River teguliimu musota n'ogumu, wabula baagutuuma batyo olw'engeri gye gwakulamu nga gwegota ng'omusota.	2
+Oh gwali mugga gwa Snake River oba omugga gwa Snake River nga gulimu emisota emingi.	Omugga Snake River gulimu enfudu nnyingi ezimasamasa.	1
+Oh gwali mugga gwa Snake River oba omugga gwa Snake River nga gulimu emisota emingi.	Omugga Snake River gujjudde emisota.	0
+Bwekiri, y'engeri gye kibaamu nga kikola, si kye kintu kyosobola okukola ng'okiri bbali n'obaako ekirungi ky'okikolako, si kirowooza.	Ndowooza nti olina okukiwa obudde bwa ssaawa 10 mu lunaku okusobola okukikola obulungi.	1
+Bwekiri, y'engeri gye kibaamu nga kikola, si kye kintu kyosobola okukola ng'okiri bbali n'obaako ekirungi ky'okikolako, si kirowooza.	Ndowooza nti olina okukiwa obudde obumala okusobola okukikola obulungi.	0
+Bwekiri, y'engeri gye kibaamu nga kikola, si kye kintu kyosobola okukola ng'okiri bbali n'obaako ekirungi ky'okikolako, si kirowooza.	Kirungi, ne bw'otokitwala nyi kya makulu.	2
+N'ekiralala nze kye ndowooza kigenda kuba kisesa kwe kufuna ekyokukikolera era nze kye ntegeeza kiri nti tufuneyo abantu abalala abatukiikirira.	Nkimanyi bumanya nti kijja kuba kitama era tekyetaagisa kukyusa batukiikirira naye nga ku nkomerero kiba kyetaagisa.	2
+N'ekiralala nze kye ndowooza kigenda kuba kisesa kwe kufuna ekyokukikolera era nze kye ntegeeza kiri nti tufuneyo abantu abalala abatukiikirira.	Ndowooza nti kijja kuba kisoomooza ffe okukyusa abakiise baffe, wabula gye binaggweera kijja kuba kisaanidde	1
+N'ekiralala nze kye ndowooza kigenda kuba kisesa kwe kufuna ekyokukikolera era nze kye ntegeeza kiri nti tufuneyo abantu abalala abatukiikirira.	Tulina okukola enkyukakyuka mu abo abatukiikirira.	0
+Era basobola okubeera abalungi ennyo ssinga babeera batendekeddwa.	Zifuuka nkalubo era nga nnyinnyogovu mu kiseera nga zimalirizza okutendekebwa.	2
+Era basobola okubeera abalungi ennyo ssinga babeera batendekeddwa.	Zikyukakyuka mangu nga ziri mu kutendekebwa.	1
+Era basobola okubeera abalungi ennyo ssinga babeera batendekeddwa.	Bwe bayita mu kutendekebwa babeera zisanyusa.	0
+Era kisobola okutwala emyaka emirala 20, kye ndowooza nti kisesa.	Ndowooza nti kyakiralu nti emisango egimu gisobola okuwangaala mu kkooti okumala emyaka egiwera.	1
+Era kisobola okutwala emyaka emirala 20, kye ndowooza nti kisesa.	Ndowooza nti kya kiralu okuba nti kisobola okuwangaala.	0
+Era kisobola okutwala emyaka emirala 20, kye ndowooza nti kisesa.	Kimala ebbanga lya wiiki emu yokka	2
+Yee, wandibadde olina essimu eteriiko lukoba.	Tereeza, gye walina yali teriiko lukoba	0
+Yee, wandibadde olina essimu eteriiko lukoba.	Gye walina mu buli ngeri yali eyo ateriiko lukoba.	2
+Yee, wandibadde olina essimu eteriiko lukoba.	Wandiba nga walina eyo erina olukoba olulala.	1
+Ogamba basomesa oba abazadde?	Ogamba ntibayizi oba omuyambi w'omusomesa ye yakukula.	2
+Ogamba basomesa oba abazadde?	Bazadde oba basomesa?	0
+Ogamba basomesa oba abazadde?	Otegeeza ki ku bazadde n'abasomesa?	1
+Ekituufu simanyi, kubanga sinnasalawo kye mpulira ku kya kukeberwa oba nnali nkozesezza ku biragalalagala naye  uh, kye nkakasiza ddala sandiyagadde kukeberebwa.	Mpakanyiza ddala ekyokukeberebwa oba nnali nkozesezza ku biragalalagala, mu ndowooza yange temuliimu kubuusabuusa ku nsonga eyo.	2
+Ekituufu simanyi, kubanga sinnasalawo kye mpulira ku kya kukeberwa oba nnali nkozesezza ku biragalalagala naye  uh, kye nkakasiza ddala sandiyagadde kukeberebwa.	Nteebereza nga sijja kukibaako na buzibu ekyokukeberwa oba mbadde nkozesa ebiragalalagala.	1
+Ekituufu simanyi, kubanga sinnasalawo kye mpulira ku kya kukeberwa oba nnali nkozesezza ku biragalalagala naye  uh, kye nkakasiza ddala sandiyagadde kukeberebwa.	Ndowooza kye kituufu, naye mbadde sinnaba kwerowooza ku ky'okukeberebwa ebiragalalagala.	0
+Faayo ku ngeri amawulire mu ggwanga gye gakosaamu ekitundu.	Nkwatibwako engeri ebitundu by'eggwanga eby'enjawulo gye bikosebwa amawulire gaalyo.	0
+Faayo ku ngeri amawulire mu ggwanga gye gakosaamu ekitundu.	Nandifuddeyo kitono ku ebyo amawulire g'eggwanga bye gawandiika ssinga gafaayo ku ngeri gye gakosa ebitundu byalyo eby'enjawulo.	2
+Faayo ku ngeri amawulire mu ggwanga gye gakosaamu ekitundu.	Emikutu gy'amawulire egy'eggwanga gireetawo embeera eraga nti ebitundu byaffe eby'enjawulo bikyasigalidde emabega. 	1
+Naye nedda, omanyi sikaati na bulawuzi oba ng'olaba kiteeteeyi wano, naye kirungi gyendi okukolera awaka kubanga mba nsobola n'okwambala engoye z'omunda.	Bwe nkolera awaka ssambala ngoye.	0
+Naye nedda, omanyi sikaati na bulawuzi oba ng'olaba kiteeteeyi wano, naye kirungi gyendi okukolera awaka kubanga mba nsobola n'okwambala engoye z'omunda.	Ssambala kintu kirala kyonna okuggyako essweta bwe nkolera ewaka.	1
+Naye nedda, omanyi sikaati na bulawuzi oba ng'olaba kiteeteeyi wano, naye kirungi gyendi okukolera awaka kubanga mba nsobola n'okwambala engoye z'omunda.	Ne bwemba nkoledde waka nsigala nnyambala ebiteeteeyi kubanga mbeera mpulira nga nkyagala nnyo.	2
+Kituufu, waliwo ekyenjawulo kye simanyi ku ky'omuntu okubeera n'ekifo w'abeera. 	Okubeera n'ekifo w'obeera kiba kirooto ekituukiridde.	1
+Kituufu, waliwo ekyenjawulo kye simanyi ku ky'omuntu okubeera n'ekifo w'abeera. 	Nze sifaayo oba nnina ekifo we mbeera oba nedda.	2
+Kituufu, waliwo ekyenjawulo kye simanyi ku ky'omuntu okubeera n'ekifo w'abeera. 	Kirungi ddala okubeera n'ekifo w'obeera.	0
+Yee yee, sandikifuddeko n'akatono singa nnakizuula nti um, baalina ekibiina ekivujjirirwa ssente. 	Kyandibadde kyangu okumanya oba ekibiina kivujjirirwa.	1
+Yee yee, sandikifuddeko n'akatono singa nnakizuula nti um, baalina ekibiina ekivujjirirwa ssente. 	Kyandinnyiizizza okukizuula nti baali bavujjirira ekibiina.	2
+Yee yee, sandikifuddeko n'akatono singa nnakizuula nti um, baalina ekibiina ekivujjirirwa ssente. 	Tekyandikutteko ssinga ekibiina kyabwe kyali kivujjirirwa.	0
+Yee, kyaffe, wano mu kitundu amasannyalaze gaffe gavaavaako nnyo.	Amasannyalaze mu kitundu wano tegatera kututawaanya.	1
+Yee, kyaffe, wano mu kitundu amasannyalaze gaffe gavaavaako nnyo.	Amasannyalaze gaffe mu kitundu si mayunge bulungi.	0
+Yee, kyaffe, wano mu kitundu amasannyalaze gaffe gavaavaako nnyo.	Tulina ennyunga y'amasannyalaze esinga obulungi mu kitundu.	2
+Ekimu ku birungi bye tukifunamu kwe kutambulako.	Okutambulako kye kimu ku bye nsinga okukyagalako.	1
+Ekimu ku birungi bye tukifunamu kwe kutambulako.	Okutambulako kye kimu ku mikisa gye tukifunamu.	0
+Ekimu ku birungi bye tukifunamu kwe kutambulako.	Tewali kirungi kye  tukifunamu.	2
+Kibi ddala, uh.	Mpulidde nti si kirungi.	1
+Kibi ddala, uh.	Kyamutawaaa nnyo.	0
+Kibi ddala, uh.	Si kibi n'akatono.	2
+Obusimu obw'eddaala erya waggulu busituka kubanga obutonde bubeera n'obusobozi okukikola bwe bumanyiira okukikola.	Obusimu bwonna bwa ddaala lya waggulu.	2
+Obusimu obw'eddaala erya waggulu busituka kubanga obutonde bubeera n'obusobozi okukikola bwe bumanyiira okukikola.	Obusimu obw'eddaala erya waggulu bungi bulina obusobozi okulinnya mu mbeera ez'enjawulo.	0
+Obusimu obw'eddaala erya waggulu busituka kubanga obutonde bubeera n'obusobozi okukikola bwe bumanyiira okukikola.	Obusimu obw'enjawulo businga kukozesebwa okukola obutwa obukuuma omubiri.	1
+Naye sikirowooza nti ebibalo ebikolebwa kompyuta byonna bibeera bituukiridde.	Ebibalo ebikolebwa kompyuta tebisobola kufumba kyakulya kya sandwich nga tebiyambiddwaako bwongo bwa muntu.	1
+Naye sikirowooza nti ebibalo ebikolebwa kompyuta byonna bibeera bituukiridde.	Tewaliiwo kyuma kiyinza kuyamba kumalawo kizibu kino.	0
+Naye sikirowooza nti ebibalo ebikolebwa kompyuta byonna bibeera bituukiridde.	Ebyuma bino bikola kinnawadda mu buli mbeera.	2
+Etteeka terikoma kununula muntu ssekinnoomu, wabula ekitundu kyonna oba eggwanga lyonna.	Okusobola okutaasibwa, omuntu alina kudda mu mateeka.	2
+Etteeka terikoma kununula muntu ssekinnoomu, wabula ekitundu kyonna oba eggwanga lyonna.	Amateeka gajja kununula America.	1
+Etteeka terikoma kununula muntu ssekinnoomu, wabula ekitundu kyonna oba eggwanga lyonna.	Amateeka gajja kununula abantu n'eggwanga okutwaliza awamu.	0
+Ekiwandiiko kya Ssemateeka wa 1787 kyalambulula ku ddembe ly'abannanyi baddu okuzza abaddu abo abaali batolose okuva mu buddu.	Mu 1787 etteeka lyayisibwa okuyimiriza abo baali bakayanira okuzza abaddu abaali batolose okuva mu buddu.	2
+Ekiwandiiko kya Ssemateeka wa 1787 kyalambulula ku ddembe ly'abannanyi baddu okuzza abaddu abo abaali batolose okuva mu buddu.	Ekitundu ky'ekiwandiiko kya Ssemateeka kyawandiikibwa mu 1787.	0
+Ekiwandiiko kya Ssemateeka wa 1787 kyalambulula ku ddembe ly'abannanyi baddu okuzza abaddu abo abaali batolose okuva mu buddu.	Eddembe ly'okununula abaddu okuva mu kitundu ekyetongodde teryali kya ttutumu.	1
+Steve Harris mukugu mu Kannabiramu okuva e Texas yali wa kukyalayo.	Steve Harris yagaana okuva mu nnyumba ye ku nsonga yonna	2
+Steve Harris mukugu mu Kannabiramu okuva e Texas yali wa kukyalayo.	Steve yali mukugu mu Kannabiramu okuva bweru wa kibuga.	0
+Steve Harris mukugu mu Kannabiramu okuva e Texas yali wa kukyalayo.	Steve yali wa kukyalako e California okubaako sampolo ze yekkaanya.	1
+Bammemba baalimu abasajja abali wakati w'emyaka asatu okutuuka ku ataano mu buli muteeko nga bagabanyiziddwaamu emiteeko ebiri omuli abakwasisa empisa n'abeekitangaala.	Abasirikale abasoba mu kikumi be baaweereza mu kiseera ekyo.	2
+Bammemba baalimu abasajja abali wakati w'emyaka asatu okutuuka ku ataano mu buli muteeko nga bagabanyiziddwaamu emiteeko ebiri omuli abakwasisa empisa n'abeekitangaala.	Emiteeko egyo mwalimu abantu ba bulijjo n'abasirikale.	0
+Bammemba baalimu abasajja abali wakati w'emyaka asatu okutuuka ku ataano mu buli muteeko nga bagabanyiziddwaamu emiteeko ebiri omuli abakwasisa empisa n'abeekitangaala.	Ebibinja bino byali bivunaanyizibwa ku kukyusa abantu abazaaliranwa mu America ey'Amasekkati.	1
+Ku baana ab'emyaka 4 ku 5, ebibuuzo byabwe byabanga biri ku kibiina ki nnansangwa (kiki ekiddako?)	Abaana tebatera kuyiga mangu kwogera okutuusa nga bawezezza emyaka mukaaga.	2
+Ku baana ab'emyaka 4 ku 5, ebibuuzo byabwe byabanga biri ku kibiina ki nnansangwa (kiki ekiddako?)	Abaana ab'emyaka etaano babeera bakwatibwako ku kiki ekiddako.	0
+Ku baana ab'emyaka 4 ku 5, ebibuuzo byabwe byabanga biri ku kibiina ki nnansangwa (kiki ekiddako?)	Abaana ab'emyaka etaano batwalibwa nti baba tebamanyi bulungi kunyumya.	1
+Mu ngeri ey'obutonde, enkulugguka y'amazzi entonotono nga gadda mu kifo ekimu kiyambako okugawa ettuluba, kubanga ssinga emikutu ebiri gyetatta ku mukutu omukulu, gyombi gitwalibwa okuba nga gyenkanankana.	Enkulugguka y'amazzi eyambako mu kugawa ettuluba.	0
+Mu ngeri ey'obutonde, enkulugguka y'amazzi entonotono nga gadda mu kifo ekimu kiyambako okugawa ettuluba, kubanga ssinga emikutu ebiri gyetatta ku mukutu omukulu, gyombi gitwalibwa okuba nga gyenkanankana.	Enkulugguka y'amazzi esinziira ku bungi bwago.	1
+Mu ngeri ey'obutonde, enkulugguka y'amazzi entonotono nga gadda mu kifo ekimu kiyambako okugawa ettuluba, kubanga ssinga emikutu ebiri gyetatta ku mukutu omukulu, gyombi gitwalibwa okuba nga gyenkanankana.	Enkulugguka y'amazzi etangira okugawa ettuluba.	2
+Noolwekyo bigenda mu maaso n'okutondawo embeera ey'obwetaaye ng'ekiseera ekyakayita kyokka kye kirina obubaka obubikwatako.	Embeera ey'obwetaaye si nnungi mu mbeera ng'olina okuleeta obubaka obw'emaga ennyo.	0
+Noolwekyo bigenda mu maaso n'okutondawo embeera ey'obwetaaye ng'ekiseera ekyakayita kyokka kye kirina obubaka obubikwatako.	Ebyagwawo mu bbanga lyonna bibeera bya mugaso eri ensi yonna.	2
+Noolwekyo bigenda mu maaso n'okutondawo embeera ey'obwetaaye ng'ekiseera ekyakayita kyokka kye kirina obubaka obubikwatako.	Ebiteeberezo b'omu nsi bikozesebwa okuteebereza embeera y'obudde.	1
+Noolwekyo, Gavumenti yali tevunaanyizibwa ku bantu abalinnyirira eddembe ly'abatuuze Abaddugavu.	Waliwo abantu ssekinnoomu abaalinnyirira eddembe ly'abatuuze Abaddugavu.	0
+Noolwekyo, Gavumenti yali tevunaanyizibwa ku bantu abalinnyirira eddembe ly'abatuuze Abaddugavu.	Abantu bano ssekinnoomu baali Bazungu.	1
+Noolwekyo, Gavumenti yali tevunaanyizibwa ku bantu abalinnyirira eddembe ly'abatuuze Abaddugavu.	Gavumenti yeetikka obuvunaanyizibwa bwonna ku nneeyisa y'abantu ssekinnoomu .	2
+Tewaliiwo njawulo wakati w'abayizi abato n'abakadde mu bubonero bwe bafuna mu bigezo.	Newankubadde tewali njawulo wakati w'abayizi abato n'abakadde mu bubonero bwe bafuna mu bigezo, abayizi abato bamaliriza mangu okukola ekigezo.	1
+Tewaliiwo njawulo wakati w'abayizi abato n'abakadde mu bubonero bwe bafuna mu bigezo.	Abayizi abato n'abakadde bafuna obubonero bwe bu mu bigezo.	0
+Tewaliiwo njawulo wakati w'abayizi abato n'abakadde mu bubonero bwe bafuna mu bigezo.	Abato n'abakadde bafuna obubonero obwenjawulo mu kibiina kubanga emyaka nsonga nkulu.	2
+Darwin atandika n'obulamu obuli wano.	Darwin yatandika ng'essira alitadde ku byenyanja.	1
+Darwin atandika n'obulamu obuli wano.	Darwin yatandika n'obulamu obwaliwo.	0
+Darwin atandika n'obulamu obuli wano.	Darwin essira yali alitadde ku kusoma ebintu ebyafa.	2
+Ekisinga okukireeta ng'omwana akyali muto oba ng'ali mu myaka egitannatuuka kugenda ku ssomero kwe kulwala obulwadde obwengeza n'okuzimbya akawulukutu.	Obulwadde obwengeza n'okuzimbya akawulukutu bwe butera okukireeta mu baana abato.	0
+Ekisinga okukireeta ng'omwana akyali muto oba ng'ali mu myaka egitannatuuka kugenda ku ssomero kwe kulwala obulwadde obwengeza n'okuzimbya akawulukutu.	Obulwadde obwengeza n'okuzimbya akawulukutu bugenda bwongera okukendeera mu baana abali mu myaka egitannatandika kusoma.	2
+Ekisinga okukireeta ng'omwana akyali muto oba ng'ali mu myaka egitannatuuka kugenda ku ssomero kwe kulwala obulwadde obwengeza n'okuzimbya akawulukutu.	Abaana abato abasinga bajja kulwala obulwadde obwengeza n'okuzimbya akawulukutu.	1
+Ebibiina by'obwannakyewa bwe bitabaako kye binyega, ebirowoozo ebyekiralu bifuna ekkubo.	Ebirowoozo ebitaggiddwayo bulungi bifuuka bya bulabe ssinga ebibiina by'obwannakyewa bibyesamba.	0
+Ebibiina by'obwannakyewa bwe bitabaako kye binyega, ebirowoozo ebyekiralu bifuna ekkubo.	Ebirowoozo ebitaggiddwayo bulungi bifuuka bya ttutumu eri ebibiina by'obwannakyewa ssinga bibyesamba.	2
+Ebibiina by'obwannakyewa bwe bitabaako kye binyega, ebirowoozo ebyekiralu bifuna ekkubo.	Ebirowoozo ebyekiralu bingi tebifiibwako bibiina bya bwannakyewa.	1
+Kituufu, ekimu ku bye twetaaga y'engeri ey'okuteekawo emitendera emiteeketeeke obulungi mu nsi eno etenkanankana.	Twetaaga obulambe tusobole okulaba wa ekitongole we kikola obulungi.	1
+Kituufu, ekimu ku bye twetaaga y'engeri ey'okuteekawo emitendera emiteeketeeke obulungi mu nsi eno etenkanankana.	Twetaaga okulamba ekitongole.	0
+Kituufu, ekimu ku bye twetaaga y'engeri ey'okuteekawo emitendera emiteeketeeke obulungi mu nsi eno etenkanankana.	Tetulina kulamba kintu kyonna.	2
+Yawaayo okujulira kwe eri omulamuzi Julian.	Yali alina ky'ayagala okusaba omulamuzi. 	0
+Yawaayo okujulira kwe eri omulamuzi Julian.	Yali ayagala kusaba Omulamuzi yeggyeereze mukyala we.	1
+Yawaayo okujulira kwe eri omulamuzi Julian.	Ow'ekitiibwa Julian yali takubibwako ky'amulubaale.	2
+Jeremy Pitt yayanukula enseko n'ekirayiro.	Jeremy Pitt enseko yazaanukula na kikonde kye yakuba mu kyenyi ky'oyo eyali asese.	2
+Jeremy Pitt yayanukula enseko n'ekirayiro.	Jeremy Pitt yalayira okulwanirira ensi ye ne Nnaabagereka we.	1
+Jeremy Pitt yayanukula enseko n'ekirayiro.	Waliwo eyasekera okumpi ne Jeremy Pitt.	0
+Pitt eyalaba n'amaaso ge nga bino nigwawo ku luguudo lw'eggaali y'omukka atugamba nti omulamuzi yali muvumu nnyo ng'omuntu agenda okwetuga.	Ptt yali talabangako mulamuzi nga'lemedde ku nsonga nga bwe kyali ku olwo.	1
+Pitt eyalaba n'amaaso ge nga bino nigwawo ku luguudo lw'eggaali y'omukka atugamba nti omulamuzi yali muvumu nnyo ng'omuntu agenda okwetuga.	Pitt yalayira nti yali talabye kyaliwo ng'enjega egwawo.	2
+Pitt eyalaba n'amaaso ge nga bino nigwawo ku luguudo lw'eggaali y'omukka atugamba nti omulamuzi yali muvumu nnyo ng'omuntu agenda okwetuga.	Pitt yawa obujulizi ku bwe yalaba ng'omulamuzi afunvubidde mu kifo awaagwa enjega.	0
+Koloneeri yakkiriza era newankubadde ekiseera kyali tekinnatuuka, yavunnama nga bwaggyako enkofiira ye.	Koloneeri yakkiriza omudaali okuva ewa Meeya w'ekibuga New York.	1
+Koloneeri yakkiriza era newankubadde ekiseera kyali tekinnatuuka, yavunnama nga bwaggyako enkofiira ye.	Koloneeri yagaana ekyo ekyali kimuweebwa era yasigazaako enkofiira ye ku mutwe nga akabonero ak'okukiwakanya.	2
+Koloneeri yakkiriza era newankubadde ekiseera kyali tekinnatuuka, yavunnama nga bwaggyako enkofiira ye.	Kkano yali ayambadde enkofiira.	0
+Oli waddembe okunteekako omusango gw'oyagala kubanga sijja kukukwata mu ngalo nga mmanyi nti zivulubanye omusaayi: Nga nkumanyi nti oli mutemu? Bwatyo bwe yamwatulira liiso ku liiso.	Yalina okukkiriza nti omusango gwe yali akoze gw'ali gwa nnaggomola.	1
+Oli waddembe okunteekako omusango gw'oyagala kubanga sijja kukukwata mu ngalo nga mmanyi nti zivulubanye omusaayi: Nga nkumanyi nti oli mutemu? Bwatyo bwe yamwatulira liiso ku liiso.	Yagaana okumukwata mu ngalo kubanha yali akimanyi nti zijjudde obuzzi bw'emisango.	0
+Oli waddembe okunteekako omusango gw'oyagala kubanga sijja kukukwata mu ngalo nga mmanyi nti zivulubanye omusaayi: Nga nkumanyi nti oli mutemu? Bwatyo bwe yamwatulira liiso ku liiso.	Yasalawo okumukwata mu ngalo olw'ensonga nti zaali ntono, n'ekisinga mu byonna nnyonjo.	2
+Yakkirizibwa okukitwala nti olw'ekisa, omulamuzi Julian Wade okuva mu St James ye yali amukwasiddwa.	Omulamuzi Julian ava mu St. James.	0
+Yakkirizibwa okukitwala nti olw'ekisa, omulamuzi Julian Wade okuva mu St James ye yali amukwasiddwa.	Ye n'omulamuzi Julian Wade baanwegeraganye ekiro ekiyise.	1
+Yakkirizibwa okukitwala nti olw'ekisa, omulamuzi Julian Wade okuva mu St James ye yali amukwasiddwa.	Ayagala nnyo omulamuzi Julian Wade nawankubadde embeera ze tezitegeerekeka.	2
+Naye... naye ku mmeeri kuno..? Omuserikale bwe yayogera mu ngeri eraga nti yali talina ayamba era mu kadde katono kasiriikiriro ke kaddirira.	Omuserikale ono yalaajana okumala eddakiika eziwera, olw'ettamiiro n'agwa wansi ku kitanda ky'emmeeri.	2
+Naye... naye ku mmeeri kuno..? Omuserikale bwe yayogera mu ngeri eraga nti yali talina ayamba era mu kadde katono kasiriikiriro ke kaddirira.	Omuserikale yali tamanyi kigenda mu maaso ku mmeeri.	0
+Naye... naye ku mmeeri kuno..? Omuserikale bwe yayogera mu ngeri eraga nti yali talina ayamba era mu kadde katono kasiriikiriro ke kaddirira.	Omuserikale yatya nnyo olw'engeri gye yali asesema ku mmeeri.	1
+Engeri gye yamubuuzaamu yali nti, ye ggwe Lord Julian Wade, ekyo nkomanyi.	Lord Julian Wade yamwaniriza mu ngeri ennungi.	2
+Engeri gye yamubuuzaamu yali nti, ye ggwe Lord Julian Wade, ekyo nkomanyi.	Abalala Lord Julian Wade yabaaniriza mu ngeri etabassaamu kitiibwa.	0
+Engeri gye yamubuuzaamu yali nti, ye ggwe Lord Julian Wade, ekyo nkomanyi.	Newankubadde bangi baagezaako okwogera naye, Lord Wade yasigala nga muyongobevu era nga tafaayo gye bali.	1
+Mary Traill ajja kukikugambako.	Mary Traill asobola okukubuulira ku by'endogoyi.	1
+Mary Traill ajja kukikugambako.	Mary Traill akimanyiiko.	0
+Mary Traill ajja kukikugambako.	Nkimanyiiko.	2
+Akalabba akalindiridde omwonoonyi oyo kali Port Royal. Ekitongole kya Blood kyandibadde kibiyingiddemu naye Lord Julian yakikomako. 	Ekitongole kya Blood kiya nsi yonna nga kikola ku bazzi b'emisango nga kisinziira Port Royal nga kikola ne Lord Julian ky'akola nakyo amagendo.	2
+Akalabba akalindiridde omwonoonyi oyo kali Port Royal. Ekitongole kya Blood kyandibadde kibiyingiddemu naye Lord Julian yakikomako. 	Amatwale ga Lord Julian mwe muli ne Port Royal, akibuga ky'ebyobusuubuzi entabiro y'ebikolwa ebyo mu kitundu.	1
+Akalabba akalindiridde omwonoonyi oyo kali Port Royal. Ekitongole kya Blood kyandibadde kibiyingiddemu naye Lord Julian yakikomako. 	Port Royal erina ebifo omubonerezebwa abazzi b'emisango. 	0
+Wolverstone bwe yali mu kaseera k'ebibuuzo yagamba nti tajja kuba Mulabirizi yennyini.	Wolverstone yali abuuzizza ekibuuzo ekyalaga nti yalina obuvumu eri abalala.	0
+Wolverstone bwe yali mu kaseera k'ebibuuzo yagamba nti tajja kuba Mulabirizi yennyini.	Wolverstone yali ayogedde nti Omulanbirizi ye yali alabika obulungi ennyo.	1
+Wolverstone bwe yali mu kaseera k'ebibuuzo yagamba nti tajja kuba Mulabirizi yennyini.	Wolverstone talina kye yayogera ku Mulabirizi.	2
+Onoggyawo emisango gyo okuli ogw'okugezaako okuvuunika Gavumenti, okulya mu nsi yo olukwe ne mu kkooti y'amagye? Blood yassaako enkoofiira ye n'atuula wansi nga takubiddwa.	Blood yalina enkofiira gye yali ayambadde nga tannatuula.	0
+Onoggyawo emisango gyo okuli ogw'okugezaako okuvuunika Gavumenti, okulya mu nsi yo olukwe ne mu kkooti y'amagye? Blood yassaako enkoofiira ye n'atuula wansi nga takubiddwa.	Blood yateekako enkofiira ye n'oluvanyuma n'ava mu kasenge nga tayogedde kintu kyonna.	2
+Onoggyawo emisango gyo okuli ogw'okugezaako okuvuunika Gavumenti, okulya mu nsi yo olukwe ne mu kkooti y'amagye? Blood yassaako enkoofiira ye n'atuula wansi nga takubiddwa.	Enkofiira ya Blood yali nzirugavu ng'eriko ebyoya bya kamunye bisatu.	1
+Ebintu byali tebimwanguyidde n'akatono mu wiiki ebbiri ezaali zaakayitawo bukya akkiriza obuvunaanyizibwa Kabaka bwe yamuwa.	Yeebaka mboleera ekiro ng'akimanyi nti yali akubye Kabaka Obwami.	2
+Ebintu byali tebimwanguyidde n'akatono mu wiiki ebbiri ezaali zaakayitawo bukya akkiriza obuvunaanyizibwa Kabaka bwe yamuwa.	Okumusigaza ekiro ekyo kyava ku kuba nti yali akkirizza Obwami obwamuweebwa Kabaka.	0
+Ebintu byali tebimwanguyidde n'akatono mu wiiki ebbiri ezaali zaakayitawo bukya akkiriza obuvunaanyizibwa Kabaka bwe yamuwa.	Obwami Kabaka bwe yamuwa bwali bujjudde ekitiibwa n'obuvunaanyizibwa nfofoolo.	1
+Ogle yakaaba ng'agamba nti baali tebiri wala nnyo.	Ogle yagamba nti baali bituukikako.	0
+Ogle yakaaba ng'agamba nti baali tebiri wala nnyo.	Ogle yagamba nti baali kumpi ddala.	1
+Ogle yakaaba ng'agamba nti baali tebiri wala nnyo.	Newankubadde yali akimanyi nti baali kumpi, yakisirikira.	2
+Nkuweerezza Captain Blood, olw'amawulire agamu agaakantuukako.  	Sinnawulirayo mawulire gonna, Captain Blood, olina g'owulidde?	2
+Nkuweerezza Captain Blood, olw'amawulire agamu agaakantuukako.  	Nafunyeeyo amawulire nga sinnaba kukuwerezaayo, Captain Blood.	0
+Nkuweerezza Captain Blood, olw'amawulire agamu agaakantuukako.  	Amawulire gennafuna ga nkuba enkyukwe.	1
+Bwomaliriza okukung'aanya ebyetooloddewo, yambuka ku nnyumba ya kamisona wokka okusanga ekifo ekituufu w'osobolera okulengera obulungi olubalama lw'ennyanja n'awasimbibwa amaato.	Osobola okulengera amaato ng'oli ku ntikko y'olusozi.	1
+Bwomaliriza okukung'aanya ebyetooloddewo, yambuka ku nnyumba ya kamisona wokka okusanga ekifo ekituufu w'osobolera okulengera obulungi olubalama lw'ennyanja n'awasimbibwa amaato.	Osobola okulaba ebiri ku lubalama lw'ennyanja ng'oli waggulu ku lusozi.	0
+Bwomaliriza okukung'aanya ebyetooloddewo, yambuka ku nnyumba ya kamisona wokka okusanga ekifo ekituufu w'osobolera okulengera obulungi olubalama lw'ennyanja n'awasimbibwa amaato.	Tosobola kulaba lubalama lwa nnyanja ng'oli waggulu ku lusozi.	2
+Emabega w'ekitundu kya South America, ojja kulaba ekkolero ly'obuloosa w'osobola okukolera akako.	Ekkolero ly'obuwoowo libadde mu nsiike okuva mu 1954.	1
+Emabega w'ekitundu kya South America, ojja kulaba ekkolero ly'obuloosa w'osobola okukolera akako.	Ekkolero ly'obuwoowo liri mabega w'ekitundu kya South Africa.	0
+Emabega w'ekitundu kya South America, ojja kulaba ekkolero ly'obuloosa w'osobola okukolera akako.	Ekkolero ly'obuwoowo liri mu maaso g'ekitundu kya South Africa.	2
+Essuubi lyali waggulu ku bibala by'e Baham omuli emicungwa n'ennaanansi.	Newankubadde ennaanansi zaali ziwooma nnyo, okuzeetikka okuzireeta mu katale kyali kya bbeeyi nnyo.	1
+Essuubi lyali waggulu ku bibala by'e Baham omuli emicungwa n'ennaanansi.	Emicungwa gy'e Baham gyakola bulungi nnyo nga bwe kyali kisuubiddwa buli omu.	2
+Essuubi lyali waggulu ku bibala by'e Baham omuli emicungwa n'ennaanansi.	Emicungwa gy'e Baham tegyayitamu bulungi nga buli omu bwe yali akisuubidde.	0
+Eddoboozi ennene eriwulikika mu kkiro mmita nga 3 (oba mmayiro 2) lirowoozebwa okubeera ery'olusozi olwasaanuukidde mu maanyi amayitirivu ne luwanda omuliro.	Ekiwoggana mu mmayiro nga 2 kyandiba nga kivudde ku nsonga ez'enjawulo omuli n'olusozi oluwanda omuliro.	1
+Eddoboozi ennene eriwulikika mu kkiro mmita nga 3 (oba mmayiro 2) lirowoozebwa okubeera ery'olusozi olwasaanuukidde mu maanyi amayitirivu ne luwanda omuliro.	Ekiwoggana mu mmayiro nga 2 kyeraga lwatu nti si lusozi oluwanda omuliro.	2
+Eddoboozi ennene eriwulikika mu kkiro mmita nga 3 (oba mmayiro 2) lirowoozebwa okubeera ery'olusozi olwasaanuukidde mu maanyi amayitirivu ne luwanda omuliro.	Eddoboozi ennene eriwulikika mu mayiro 2 lirowoozebwa nti liva mu lusozi oluwanda omuliro.	0
+Ekifo si kiteefu nnyo n'olulimi olwogerwa lwandikutawaanya, naye waakiri ojja kufuna omukisa okulaba ku katale k'e China.	Kirowoozo kirungi okubeera n'omuvvuunuzi.	1
+Ekifo si kiteefu nnyo n'olulimi olwogerwa lwandikutawaanya, naye waakiri ojja kufuna omukisa okulaba ku katale k'e China.	Waliwo obutakwatagana mu nnimi obuyinza okukutawaanya.	0
+Ekifo si kiteefu nnyo n'olulimi olwogerwa lwandikutawaanya, naye waakiri ojja kufuna omukisa okulaba ku katale k'e China.	Tolina kweraliikirira ku nsonga za nnimi kubanga buli omu asobola okwogera Olungereza.	2
+Wakati wa 1936 ne 1940 Greece yali wansi w'obufuzi obwa nnakyemalira  Ioannis Metaxas, ajjukirwa ennyo olw'enziramu ya 'Nedda' gye yayanukula Mussolini bwe yali amuwadde nsalessale w'okuwanika nga awanguddwa mu 1940.	Greece tefugibwangako nnaakyemalira.	2
+Wakati wa 1936 ne 1940 Greece yali wansi w'obufuzi obwa nnakyemalira  Ioannis Metaxas, ajjukirwa ennyo olw'enziramu ya 'Nedda' gye yayanukula Mussolini bwe yali amuwadde nsalessale w'okuwanika nga awanguddwa mu 1940.	Greece y'emu ku nsi ezifugiddwaako nnaakyemalira.	0
+Wakati wa 1936 ne 1940 Greece yali wansi w'obufuzi obwa nnakyemalira  Ioannis Metaxas, ajjukirwa ennyo olw'enziramu ya 'Nedda' gye yayanukula Mussolini bwe yali amuwadde nsalessale w'okuwanika nga awanguddwa mu 1940.	Ebyenfuna bya Greece tebyatambula bulungi mu kiseera ng'eri wansi wa nnaakyemalira Metaxas.	1
+Obwangu bw'enzimba ya lutikko ya Sant Pau nkyukakyuka akkaanyizibwako mu kibuga Barcelona n'enzimba eya Gothic.	Sant Pau teriiko nzimba ya kasolya akeetooloovu.	2
+Obwangu bw'enzimba ya lutikko ya Sant Pau nkyukakyuka akkaanyizibwako mu kibuga Barcelona n'enzimba eya Gothic.	Sant Pau eriko enzimba ya kasolya akeetooloovu.	0
+Obwangu bw'enzimba ya lutikko ya Sant Pau nkyukakyuka akkaanyizibwako mu kibuga Barcelona n'enzimba eya Gothic.	Sant Pau erina amakanisa.	1
+Kunyeenyaamu katono mu mukira, ng'ewedde.	Nnyangu nnyo okutiisibwatiibwa ekintu kyonna ekiyitawo ku misinde egy'amaanyi.	1
+Kunyeenyaamu katono mu mukira, ng'ewedde.	Terina kutya kwonna era teyinza kunyenyezebwa kintu kyonna.	2
+Kunyeenyaamu katono mu mukira, ng'ewedde.	Okwekyusa okusingayo obutono ddala, ng'ewedde.	0
+Pulogulaamu y'okuddaabiriza ekifo ejja kuba ewedde 2001 n'anaggweerako.	Omulimu ogw'okuddaabiriza gujja kuggwa nga 2001 tannatandika.	2
+Pulogulaamu y'okuddaabiriza ekifo ejja kuba ewedde 2001 n'anaggweerako.	Omulimu ogw'okuddaabiriza si gwa kukolebwa okutuusa nga 2000 aweddeko.	0
+Pulogulaamu y'okuddaabiriza ekifo ejja kuba ewedde 2001 n'anaggweerako.	Omulimu gw'okuddaabiriza we gunaggweera gujja kuba gumaze emyaka etaano.	1
+Abakozi bakola ku pulogulaamu ey'okulaba ng'ebinyonyi bya Flamingo byeyongerako mu bizinga bya US Island era mujja kusanganga ebimu ku byo nga tubyaluza wano. 	Abakozi bakola butaweera okulaba nga bamalawo ebinyonyi bya flamingo.	2
+Abakozi bakola ku pulogulaamu ey'okulaba ng'ebinyonyi bya Flamingo byeyongerako mu bizinga bya US Island era mujja kusanganga ebimu ku byo nga tubyaluza wano. 	Abakozi bakola ku pulogulaamu ey'okulaba ng'ebinyonyi bya Flamingo byeyongerako mu bizinga kibitaase akatyabaga k'okuggweerawo ddala.	1
+Abakozi bakola ku pulogulaamu ey'okulaba ng'ebinyonyi bya Flamingo byeyongerako mu bizinga bya US Island era mujja kusanganga ebimu ku byo nga tubyaluza wano. 	Abakozi bakola butaweera okwongera ku binyonyi bya flamingo ku kizinga.	0
+Ensozi za Serra de Tramuntana ezijjudde ebisooto ebikkirira okutuusa ku nnyanja era watono nnyo awayinza okuyitibwa era waliwo eryato limu lyokka erisobola okutuuka ku mwalo.	Ensozi zibeera n'okubumbulukuka kw'ettaka era ekyo kikaluubiriza okuzimba kw'emyalo.	1
+Ensozi za Serra de Tramuntana ezijjudde ebisooto ebikkirira okutuusa ku nnyanja era watono nnyo awayinza okuyitibwa era waliwo eryato limu lyokka erisobola okutuuka ku mwalo.	Ensozi zikaluubiriza mu kuzimba emyalo.	0
+Ensozi za Serra de Tramuntana ezijjudde ebisooto ebikkirira okutuusa ku nnyanja era watono nnyo awayinza okuyitibwa era waliwo eryato limu lyokka erisobola okutuuka ku mwalo.	Waliwo emyalo 27 okwetoloola ensozi.	2
+Culebra kyali kimanyiddwa ng'ekizinga ky'e Spain okutuusa America lwe yakatwala, nga kati kigabanyizibwamu wakati Puerto Rico ne St. Thomas.	Culebra ali mu makkati ga Puerto Rico ne St, Thomas mu bizinga bya America.	0
+Culebra kyali kimanyiddwa ng'ekizinga ky'e Spain okutuusa America lwe yakatwala, nga kati kigabanyizibwamu wakati Puerto Rico ne St. Thomas.	Ekizinga kya Culebra tekiriraanye kya Puerto Rico ne St. Thomas ebya America.	2
+Culebra kyali kimanyiddwa ng'ekizinga ky'e Spain okutuusa America lwe yakatwala, nga kati kigabanyizibwamu wakati Puerto Rico ne St. Thomas.	Ekizinga kya Culebra kisangibwa wakati w'ekizinga kya Puerto Rico ne St. Thomas ebya America.	1
+Ekitundu kya Umeda kye kisimbayo mu bukiikakkono nga kisalagana ne Disitulikiti y'ebyakatemba ne Firimu emanyiddwa ennyo nga Kita (ekiyitibwa Obukiikakkono), era kya mugaso nnyo mu kitundu kati ekiyitibwa Osaka.	Ekitundu kya Umeda si kitundu ku Disitulikiti y'ebyakatemba ne firimu.	2
+Ekitundu kya Umeda kye kisimbayo mu bukiikakkono nga kisalagana ne Disitulikiti y'ebyakatemba ne Firimu emanyiddwa ennyo nga Kita (ekiyitibwa Obukiikakkono), era kya mugaso nnyo mu kitundu kati ekiyitibwa Osaka.	Umeda ky'ekitundu ekisinga obunene mu Disitulikiti y'ebyakatemba.	1
+Ekitundu kya Umeda kye kisimbayo mu bukiikakkono nga kisalagana ne Disitulikiti y'ebyakatemba ne Firimu emanyiddwa ennyo nga Kita (ekiyitibwa Obukiikakkono), era kya mugaso nnyo mu kitundu kati ekiyitibwa Osaka.	Ekitundu kya Umeda kisangibwa mu mukiikakkono bwa Disitulikiti ya y'ebyakatemba.	0
+Mmemba owookusatu mu busatu mu nzikiriza ya Hindu ye Brahma, ng'omulimu gwe gwali gwa kutonda nsi.	Brahma mutume Omuktulisitaayo.	2
+Mmemba owookusatu mu busatu mu nzikiriza ya Hindu ye Brahma, ng'omulimu gwe gwali gwa kutonda nsi.	Brahma kitundu ku nzikiriza y'aba Hindu eya Bakatonda abasatu.	0
+Mmemba owookusatu mu busatu mu nzikiriza ya Hindu ye Brahma, ng'omulimu gwe gwali gwa kutonda nsi.	Brahma y'asinga omugaso mu Bakatonda abasatu ab'enzikiriza.	1
+Pedro yezza Nnamulondo newankubadde olutalo lw'eyongerayo okumala ebbanga.	Abantu 10000 baafiira mu lutalo.	1
+Pedro yezza Nnamulondo newankubadde olutalo lw'eyongerayo okumala ebbanga.	Olutalo lwamala emwyezi egiwera.	0
+Pedro yezza Nnamulondo newankubadde olutalo lw'eyongerayo okumala ebbanga.	Olutalo lwali luwedde mu lunaku lumu.	2
+Amakungaanyizo g'obubaka obukwata ku bakozi gaanywezebwa era n'emiyungano gy'ebitongole emiggya ne gitondebwawo mu bwangu okukakasa nti obuyambi eri bakasitoma abaali beeyongedde obungi tebwesalako. 	Ng'amakungaanyizo g'obubaka obukwata ku bakozi gamaze okunywezebwa, waatondebwawo omukisa g'okugunjaawo emiyungano emiggya wakati w'ebitongole eby'enjawulo. 	1
+Amakungaanyizo g'obubaka obukwata ku bakozi gaanywezebwa era n'emiyungano gy'ebitongole emiggya ne gitondebwawo mu bwangu okukakasa nti obuyambi eri bakasitoma abaali beeyongedde obungi tebwesalako. 	Emiyungano wakati w'ebitongole eby'enjawulo gyatondebwawo. 	0
+Amakungaanyizo g'obubaka obukwata ku bakozi gaanywezebwa era n'emiyungano gy'ebitongole emiggya ne gitondebwawo mu bwangu okukakasa nti obuyambi eri bakasitoma abaali beeyongedde obungi tebwesalako. 	Amakungaanyizo g'obubaka obukwata ku bakozi gaagaziyizibwa okusukka ku mbeera mwe gaali okusooka.	2
+Newankubadde ng'empenda z'obuvujjirizi zisobola okwongerwako omutindo, ensimbi ez'okuvujjirira  omulimu guno weeziri.	Waliwo ebikozesebwa ebiriwo eby'okukozesa mu mirimu gino. 	0
+Newankubadde ng'empenda z'obuvujjirizi zisobola okwongerwako omutindo, ensimbi ez'okuvujjirira  omulimu guno weeziri.	Tewaliiwo nsimbi za kuvujjirira mulimu. 	2
+Newankubadde ng'empenda z'obuvujjirizi zisobola okwongerwako omutindo, ensimbi ez'okuvujjirira  omulimu guno weeziri.	Tewaliiwo nsimbi zimala kuvujjirira mulimu. 	1
+Ebibalo ku mikutu gy'omu byalo ebiragiddwa mu lupapula luno byesigamiziddwa ku bubaka bwa National Mail Count data.c	Ebibalo ebiri mu lupapula luno byesigamiziddwa ku alipoota ya 2001. 	2
+Ebibalo ku mikutu gy'omu byalo ebiragiddwa mu lupapula luno byesigamiziddwa ku bubaka bwa National Mail Count data.c	Ebibalo ebiri mu lupapula luno byayitako.	1
+Ebibalo ku mikutu gy'omu byalo ebiragiddwa mu lupapula luno byesigamiziddwa ku bubaka bwa National Mail Count data.c	Olupapula luno lulimu obubaka obukwata ku mikutu egy'omu byalo.	0
+Abookuntikko era basobola okufuna obubaka ku nkola ya buli kintu etali ya nkomeredde oba engeri gye kiremereddwamu. 	Buli kintu abookuntikko kye bagezesa kisobola okuwa obubaka obwawukana ku nkola yaakyo. 	0
+Abookuntikko era basobola okufuna obubaka ku nkola ya buli kintu etali ya nkomeredde oba engeri gye kiremereddwamu. 	Abookuntikko tebasobola kulemererwa.	2
+Abookuntikko era basobola okufuna obubaka ku nkola ya buli kintu etali ya nkomeredde oba engeri gye kiremereddwamu. 	Abookuntikko bateekeddwa okuweebwako obujulizi obulungi okusobola okweyongerayo. 	1
+Ensonga ekubaganyizibwako ebirowoozo mu yintaviyu eyookuyingira ye ngeri abaamaka agamu gye bawuliramu eri mmeyiro ennanzi.	Obutakkaanya mu yintaviyu eyookuyingira tebujja kukuleetera kufuna mulimu. 	1
+Ensonga ekubaganyizibwako ebirowoozo mu yintaviyu eyookuyingira ye ngeri abaamaka agamu gye bawuliramu eri mmeyiro ennanzi.	Yintaviyu eyookuyingira teyogera ku mmeyiro nnanzi yadde.	2
+Ensonga ekubaganyizibwako ebirowoozo mu yintaviyu eyookuyingira ye ngeri abaamaka agamu gye bawuliramu eri mmeyiro ennanzi.	Yintaviyu eyookuyingira ekoonako katono ku ngeri abantu gye bawuliramu eri mmeyiro ennanzi.	0
+189 n'ebisale by'omukozesa byombi bipimibwa mu ngeri y'emu.	Baateebereza ebisale by'omukozesa. 	0
+189 n'ebisale by'omukozesa byombi bipimibwa mu ngeri y'emu.	Baateebereza nti ebisale by'omukozesa byali $ 10000	1
+189 n'ebisale by'omukozesa byombi bipimibwa mu ngeri y'emu.	Baali bamanyidde ddala bisale bya mukozesa ebituufu.	2
+Okugeza, mu GGD, okunoonyereza ku ntonaatona kwakolebwa ng'omulimu ogweotongodde, ogw'oku ntikko, 	Okunoonyereza ku ntona tekwabaawo.	2
+Okugeza, mu GGD, okunoonyereza ku ntonaatona kwakolebwa ng'omulimu ogweotongodde, ogw'oku ntikko, 	Okunoonyereza ku ntonaatona kwakolebwa mu bwesudde.	0
+Okugeza, mu GGD, okunoonyereza ku ntonaatona kwakolebwa ng'omulimu ogweotongodde, ogw'oku ntikko, 	Okunoonyereza ku ntonaatona tekwayitamu.	1
+Ebitongole byonna omwenda ebyaynukula byalaga nti byetabamu	Ebitongole bibiri byokka ku bitongole omwenda bye byafaayo okwanukula ebibuuzo byaffe ebikwata ku nneetabamu.	2
+Ebitongole byonna omwenda ebyaynukula byalaga nti byetabamu	Ebitongole mwenda bye byayanukula nga bikkiriza nti byetabamu.	0
+Ebitongole byonna omwenda ebyaynukula byalaga nti byetabamu	Ebitongole bino omwenda bisanyufu nti byetabamu ku mutendera ogwa waggulu bwe gutyo.	1
+Okuva mu 1966, olugerero lw'obukwatane kinnamuwendo wakati w'obugagga n'ennyingiza y'amaka luzze lulinnyira ku misinde gya waggulu okutuuka ku 6.4 mu 1999	Ensimbi amaka gonna ze gaayingiza omwaka oguwedde zeeyongeramu $10000 	1
+Okuva mu 1966, olugerero lw'obukwatane kinnamuwendo wakati w'obugagga n'ennyingiza y'amaka luzze lulinnyira ku misinde gya waggulu okutuuka ku 6.4 mu 1999	Amaka gabaddenga gafiirwa obugagga bungi nnyo.	2
+Okuva mu 1966, olugerero lw'obukwatane kinnamuwendo wakati w'obugagga n'ennyingiza y'amaka luzze lulinnyira ku misinde gya waggulu okutuuka ku 6.4 mu 1999	Olugerero lw'obukwatane kinnamuwendo wakati w'obugagga n'ennyingiza mu maka lweyongeddeko okulinnya. 	0
+Mu nkola ey'okusegeka mu bibinja ebiddiringana, ekibinja ekya bulijjo wamu n'ekyo abakozi mwe bagabanira obudde bw'okukola byombi biweebwa omuwendo ogw'essalira ku kikumi, okusobola okufuna ekipimo ky'omuwendo ogwa wakati.	Omutendera ogusookerwako gusingako ku muwendo.	0
+Mu nkola ey'okusegeka mu bibinja ebiddiringana, ekibinja ekya bulijjo wamu n'ekyo abakozi mwe bagabanira obudde bw'okukola byombi biweebwa omuwendo ogw'essalira ku kikumi, okusobola okufuna ekipimo ky'omuwendo ogwa wakati.	Ebisale bisinga ku muwendo ebitundu 10%	1
+Mu nkola ey'okusegeka mu bibinja ebiddiringana, ekibinja ekya bulijjo wamu n'ekyo abakozi mwe bagabanira obudde bw'okukola byombi biweebwa omuwendo ogw'essalira ku kikumi, okusobola okufuna ekipimo ky'omuwendo ogwa wakati.	Ebisale bulijjo bibeera bisinga ku muwendo.	2
+19 Kitwale nti emyezi ena egy'okukola gye gikulembera okuweebwa kontulakiti, omugatte gw'obudde obwaliyiseewo obw'emyezi 13 bwe bwalibadde bwetaagisa okuyungako ekitundu kino ekitokosa amazzi ekya 675 MWe.	Kyatwala emyezi ebiri gyokka okukiyungako ekitundu ekitaaliko..	2
+19 Kitwale nti emyezi ena egy'okukola gye gikulembera okuweebwa kontulakiti, omugatte gw'obudde obwaliyiseewo obw'emyezi 13 bwe bwalibadde bwetaagisa okuyungako ekitundu kino ekitokosa amazzi ekya 675 MWe.	Kyatwala emyezi 13 okwongera ekitundu ekitokosa amazzi ku mmeeri ennwanyi.	1
+19 Kitwale nti emyezi ena egy'okukola gye gikulembera okuweebwa kontulakiti, omugatte gw'obudde obwaliyiseewo obw'emyezi 13 bwe bwalibadde bwetaagisa okuyungako ekitundu kino ekitokosa amazzi ekya 675 MWe.	Kyatwala emyezi 13 okwongerako ekyuma ekitokosa amazzi.	0
+Ebbula ly'abakozi abalina obukugu mu TEKINOLOGIYA W'EBYEMPULIZIGANYA mu mbeera y'akatale akaliwo kati ye nsonga enkulu eviiriddeko ebitongole okusaka abakozi okuva wabweru.	Abakozi ba TEKINOLOGIYA W'EBYEMPULIZIGANYA bangi nnyo.	2
+Ebbula ly'abakozi abalina obukugu mu TEKINOLOGIYA W'EBYEMPULIZIGANYA mu mbeera y'akatale akaliwo kati ye nsonga enkulu eviiriddeko ebitongole okusaka abakozi okuva wabweru.	Tewaliiwo bakozi ba TEKINOLOGIYA W'EBYEMPULIZIGANYA bamala kubanga bonna baagenda India.	1
+Ebbula ly'abakozi abalina obukugu mu TEKINOLOGIYA W'EBYEMPULIZIGANYA mu mbeera y'akatale akaliwo kati ye nsonga enkulu eviiriddeko ebitongole okusaka abakozi okuva wabweru.	Tewaliiwo bakozi ba TEKINOLOGIYA WA BYAMPULIZIGANYA bamala kujjuza bifo bya mirimu biriwo.	0
+Tekisobola kumanya kipimo oba ludda lwa kyekubiira mu nkyukakyuka ttwalirawamu eyeesigama ku nkozesa eyaawamu ey'ekikozeso kya C-R buli wamu. 	Obungi bwa kyekubiira aliwo bulabikirawo.	2
+Tekisobola kumanya kipimo oba ludda lwa kyekubiira mu nkyukakyuka ttwalirawamu eyeesigama ku nkozesa eyaawamu ey'ekikozeso kya C-R buli wamu. 	Tosobola kumanya bungi bwa kyekubiira aliwo kubanga kizibu okumwawula ku bisindiikirizi ebirala ebiva wabweru.	1
+Tekisobola kumanya kipimo oba ludda lwa kyekubiira mu nkyukakyuka ttwalirawamu eyeesigama ku nkozesa eyaawamu ey'ekikozeso kya C-R buli wamu. 	Tosobola kumanya bungi bwa kyekubiira aliwo.	0
+Ebiva mu ngereka y'omuwendo ey'ekikugu, singa omulimu gubeera nga gukolebwa kibiina, ekyo kiyinza okugukolera omuwendo omuneneko, era nga nagwo gubalibwa mu ngeri y'emu nga waggulu. 	Ebiva mu ngereka y'omuwendo ey'ekikugu bimanyibwa mu ngeri emu.	0
+Ebiva mu ngereka y'omuwendo ey'ekikugu, singa omulimu gubeera nga gukolebwa kibiina, ekyo kiyinza okugukolera omuwendo omuneneko, era nga nagwo gubalibwa mu ngeri y'emu nga waggulu. 	Tebannaba kutegeera ngeri ya kubalamu ebiva mu ngereka y'omuwendo.	2
+Ebiva mu ngereka y'omuwendo ey'ekikugu, singa omulimu gubeera nga gukolebwa kibiina, ekyo kiyinza okugukolera omuwendo omuneneko, era nga nagwo gubalibwa mu ngeri y'emu nga waggulu. 	Bakozesa obubaka obw'ebyayita okubala ebiva mu ngereka y'omuwendo. 	1
+Omulimu 4: Weerinde Akatyabaga buli Kiseera	Essuula eyookuna erimu omulimu kw'okegezaamu ku ngeri y'okwerindamu akatyabaga.	0
+Omulimu 4: Weerinde Akatyabaga buli Kiseera	Ekitabo kino tekiriimu bubaka bukwata ku ngeri ya kwerindamu katyabaga kumala bbanga ggwanvu.	2
+Omulimu 4: Weerinde Akatyabaga buli Kiseera	Omulimu guno guteekeddwa okumalirizibwa era ne guweebwayo ku nkomerero ya wiiki. 	1
+Omugendo gw'enkola ey'Ekiyisiraamu, ogwagunjibwawo mu 1940, kye kyava mu nsi ey'omulembe, eyatondebwawo ebirowoozo by'enkola y'Ekimakisi ekwata ku nteekateeka y'enkyukakyuka.	Ebirowoozo by'Ekimakisi byayingizibwa mu mugendo gw'Ekiyisiraamu.	0
+Omugendo gw'enkola ey'Ekiyisiraamu, ogwagunjibwawo mu 1940, kye kyava mu nsi ey'omulembe, eyatondebwawo ebirowoozo by'enkola y'Ekimakisi ekwata ku nteekateeka y'enkyukakyuka.	Omugendo gw'Ekiyisiraamu gwatandika mu kyasa ky'omukaaga.	2
+Omugendo gw'enkola ey'Ekiyisiraamu, ogwagunjibwawo mu 1940, kye kyava mu nsi ey'omulembe, eyatondebwawo ebirowoozo by'enkola y'Ekimakisi ekwata ku nteekateeka y'enkyukakyuka.	Omugendo gw'Ekiyisiraamu mu kusooka gwatandikibwawo ng'ekitongole ky'okukungiramu abantu.	1
+Abawi b'amagezi abalala baddinganyenga ensonga eno.	Abawi b'amagezi bonna wamu bakkaanya nti tewaaliwo kya kweraliikirira. 	2
+Abawi b'amagezi abalala baddinganyenga ensonga eno.	Omuwi w'amagezi omu yekka y'ataawa ndowooza ye ku nteekateeka eno. 	1
+Abawi b'amagezi abalala baddinganyenga ensonga eno.	Endowooza eno egabanibwa abawi b'amagezi ab'enjawulo.	0
+Enkola eno era yalondanga abasaabaze omukisa be gwagwangako ne baazibwa okusingako ku balala. 	Abasaabaze bonna bayitamu buyisi awatali kibaziyiza.	2
+Enkola eno era yalondanga abasaabaze omukisa be gwagwangako ne baazibwa okusingako ku balala. 	Abasaabaze abamu bakeberebwa emibiri gyabwe gyonna mu kyuma ekitangaaza mu mubiri.	1
+Enkola eno era yalondanga abasaabaze omukisa be gwagwangako ne baazibwa okusingako ku balala. 	Abasaabaze abamu bakebererwa ddala abeebyokwerinda okusinga ku balala.	0
+Tetusanze bujulizi bumala bulaga nti ekirowoozo kyasooka kuyitirwamu obukulembeze obuggya oba nti Kkiraaka yabaweereza olupapula, newankubadde nga ttiimu y'emu ey'abakungu abalungamya ku by'emirimu abaali ku bukulembeze bwombi.	Tuli bakakafu 100% nti Kkiraaka teyawa lupapula lwe eri muntu yenna.	1
+Tetusanze bujulizi bumala bulaga nti ekirowoozo kyasooka kuyitirwamu obukulembeze obuggya oba nti Kkiraaka yabaweereza olupapula, newankubadde nga ttiimu y'emu ey'abakungu abalungamya ku by'emirimu abaali ku bukulembeze bwombi.	Tetusobola kuzuula bujulizi bulaga nti Kkiraaka yawa omwami olupapula lwe.	0
+Tetusanze bujulizi bumala bulaga nti ekirowoozo kyasooka kuyitirwamu obukulembeze obuggya oba nti Kkiraaka yabaweereza olupapula, newankubadde nga ttiimu y'emu ey'abakungu abalungamya ku by'emirimu abaali ku bukulembeze bwombi.	Tukimanyi bulungi ddala nti Kkiraaka yabawa olupapula lwe nga 2 Ogwomusanvu.	2
+Tekimanyiddwa oba ng'enkola esobola okutandika okukozesebwa ng'omwaka gwa 2010 tegunnatuuka, naye era n'engereka y'obudde eyinza okulwawo ennyo, engeri ne gye kiri nti waliwo obulabe mu byokwerinda obuteeberezebwa okuba nga busobola okutuukawo.	Kizibu okutandika okukozesa enkola eyo kubanga abatamanyangamba bagirumbagana buli kiro.	1
+Tekimanyiddwa oba ng'enkola esobola okutandika okukozesebwa ng'omwaka gwa 2010 tegunnatuuka, naye era n'engereka y'obudde eyinza okulwawo ennyo, engeri ne gye kiri nti waliwo obulabe mu byokwerinda obuteeberezebwa okuba nga busobola okutuukawo.	Si kyangu kutandika kukozesa nkola eyo olw'obulabe mu byokwerinda. 	0
+Tekimanyiddwa oba ng'enkola esobola okutandika okukozesebwa ng'omwaka gwa 2010 tegunnatuuka, naye era n'engereka y'obudde eyinza okulwawo ennyo, engeri ne gye kiri nti waliwo obulabe mu byokwerinda obuteeberezebwa okuba nga busobola okutuukawo.	Nsuubiza nti omuyungo gw'ebyokwerinda gwa kuteekebwawo mu wiiki 6.	2
+Noolwekyo, nga bwe tukuuma obutaka bwaffe, Abamerika balina okufaayo eri ebintu ebityoboola eddembe ly'abantu ssekinnoomu wamu n'eryabantu ba bulijjo ery'enkizo.	Abamerika tebeetaaga kweraliikirira ku ddembe lyabwe ng'abantu ba bulijjo- bulijjo lijja kukuumibwanga. 	2
+Noolwekyo, nga bwe tukuuma obutaka bwaffe, Abamerika balina okufaayo eri ebintu ebityoboola eddembe ly'abantu ssekinnoomu wamu n'eryabantu ba bulijjo ery'enkizo.	Abamerika balina okukakasa nti emmundu zaabwe tezitwalibwa.	1
+Noolwekyo, nga bwe tukuuma obutaka bwaffe, Abamerika balina okufaayo eri ebintu ebityoboola eddembe ly'abantu ssekinnoomu wamu n'eryabantu ba bulijjo ery'enkizo.	Abamerika balina okussaayo omwoyo ku miziziko eri eddembe lyaffe ery'obwebange.	0
+Okukifulumya emirundi n'emirundi tekwaleetera nkola yaakyo kweyongerako.	Okufulumizibwa tekwayongera ku mutindo gwa nkola yaakyo okusingako bwe yali.	0
+Okukifulumya emirundi n'emirundi tekwaleetera nkola yaakyo kweyongerako.	Okufulumizibwa kwakireetera okukolera ddala obulungi	2
+Okukifulumya emirundi n'emirundi tekwaleetera nkola yaakyo kweyongerako.	Enkola yaakyo teyeeyongerako bwe twakitwala mu White House.	1
+Mu mutendera oguddako wansi, ddayirekita w'akabinja ka al Qaeda mu kitongole kya CIA mu kiseera ekyo yajjukira nti yali talowooza nti gwali mulimu gwe okulagira ekirina okukolebwa oba obutakolebwa.  	Ddayirekita teyayagala kwenyigiramu kubanga yali anaatera okuwummula emirimu.	1
+Mu mutendera oguddako wansi, ddayirekita w'akabinja ka al Qaeda mu kitongole kya CIA mu kiseera ekyo yajjukira nti yali talowooza nti gwali mulimu gwe okulagira ekirina okukolebwa oba obutakolebwa.  	Ddayirekita w'ekitundu ekyo yali tayagala kwenyigira mu kuddukanya ekyo ekyali kikolebwa.	0
+Mu mutendera oguddako wansi, ddayirekita w'akabinja ka al Qaeda mu kitongole kya CIA mu kiseera ekyo yajjukira nti yali talowooza nti gwali mulimu gwe okulagira ekirina okukolebwa oba obutakolebwa.  	Ddayirekita yalowooza nti buli kimu kyali ku ye.	2
+Pickard ajjukira ebyigambo ebyayogerwa ku kulungamya okwa nga 12 Ogwomusanvu.	Pickard tasobola kujjukira kintu na kimu kye baali boogedde.	2
+Pickard ajjukira ebyigambo ebyayogerwa ku kulungamya okwa nga 12 Ogwomusanvu.	Pickard ajjukira nti okulungamya kwalimu amazima agakwata ku kugwa	1
+Pickard ajjukira ebyigambo ebyayogerwa ku kulungamya okwa nga 12 Ogwomusanvu.	Pickard yajjukira ebyayogerwa ku kulungamya.	0
+Yali agenze Pakistan naye yava mu mbeera bwe yabuuzibwa oba nga yatambulako okugenda mu mawanga agaliraanyeewo bwe yali mu Pakistan (Pakistan lye lyali ekkubo erya bulijjo erigenda mu nkambi eziri mu Afghanistan).	Tekyali nti si kya bulijjo balumiramwoyo okuyita mu Pakistan nga bagenda mu Afghanistan.	0
+Yali agenze Pakistan naye yava mu mbeera bwe yabuuzibwa oba nga yatambulako okugenda mu mawanga agaliraanyeewo bwe yali mu Pakistan (Pakistan lye lyali ekkubo erya bulijjo erigenda mu nkambi eziri mu Afghanistan).	Pakistan ne Afghanistan buli limu lyesudde okuva ku linnaalyo.	2
+Yali agenze Pakistan naye yava mu mbeera bwe yabuuzibwa oba nga yatambulako okugenda mu mawanga agaliraanyeewo bwe yali mu Pakistan (Pakistan lye lyali ekkubo erya bulijjo erigenda mu nkambi eziri mu Afghanistan).	Okutendekebwa okwaweebwanga mu Afghanistan kwalimu okulwanagana wakati w'abantu abasembereganye okutaliimu kukozesa migemerawala.	1
+Okufuna ekifunze ekikwata ku byakolebwa n'ensonga lwaki emiziziko egyalimu tegyamulungulwa, laba Graham Allison ne Phillip Zelikow, Essence of Decision, olufulumya Olwokubiri. 	Emiziziko gyakolebwako bulungi.	2
+Okufuna ekifunze ekikwata ku byakolebwa n'ensonga lwaki emiziziko egyalimu tegyamulungulwa, laba Graham Allison ne Phillip Zelikow, Essence of Decision, olufulumya Olwokubiri. 	Emiziziko gyaweerezebwa eri omuntu omukyamu okugyekenneenya.	1
+Okufuna ekifunze ekikwata ku byakolebwa n'ensonga lwaki emiziziko egyalimu tegyamulungulwa, laba Graham Allison ne Phillip Zelikow, Essence of Decision, olufulumya Olwokubiri. 	Emiziziko tegyakolebwako bulungi.	0
+Bakola ennumba enzibu okwenganga n'oziwangula, ate ne balemesa okwenganga nga bateekawo embeera y'okuba ng'okuwambibwa kwalinga kwangu nnyo.	Baakimanya nti okukola ennumba enzibumu kujja kutondawo emikisa mingi egy'okuwambibwa.	1
+Bakola ennumba enzibu okwenganga n'oziwangula, ate ne balemesa okwenganga nga bateekawo embeera y'okuba ng'okuwambibwa kwalinga kwangu nnyo.	Ennumba baazikola nga nnyangu nnyo era ng'okuwambibwa kyatwalanga ddakiika budakiika.	2
+Bakola ennumba enzibu okwenganga n'oziwangula, ate ne balemesa okwenganga nga bateekawo embeera y'okuba ng'okuwambibwa kwalinga kwangu nnyo.	Baddira ennumba ne bazikola nga zirimu obulippo bungiko olwo mu luvannyuma ne bakola okuwambibwa okuba nga kubaawo emirundi egiwerako. 	0
+Ekitongole kya Southwest Air Defense Sector kyategeezebwako ku kyali kigenda okutuukawo ku ssaawa 3:55, oluvannyuma lw'eddakiika 28.	Eddakiika 28 oluvannyuma lw'amazima ago ekitongole kya Southwest Air Defense Sector kyafuna obubaka obubukibagulizaako. 	0
+Ekitongole kya Southwest Air Defense Sector kyategeezebwako ku kyali kigenda okutuukawo ku ssaawa 3:55, oluvannyuma lw'eddakiika 28.	Ekitongole tekyafuna bubaka bukibagulizaako mu budde olw'okulwawo mu byempuliziganya. 	1
+Ekitongole kya Southwest Air Defense Sector kyategeezebwako ku kyali kigenda okutuukawo ku ssaawa 3:55, oluvannyuma lw'eddakiika 28.	Ekitongole kya Southwest Air Defense Sector kyafuna ekigambo ku kirina okubaawo oluvannyuma lw'obutikitiki 28 nga kimaze okubaawo. 	2
+Tulindiridde okukubaganya ebirowoozo kw'eggwanga lyonna ku birungi bye tusembye era tujja kwetabamu n'amaanyi gaffe gonna mu kukubaganya ebirowoozo okwo. 	Tewali makulu gali mu kukubaganya birowoozo ku mulamwa guno. 	2
+Tulindiridde okukubaganya ebirowoozo kw'eggwanga lyonna ku birungi bye tusembye era tujja kwetabamu n'amaanyi gaffe gonna mu kukubaganya ebirowoozo okwo. 	Twagala okukubaganya ebirowoozo kubanga tumanyi nti ebisembebwa bino bya mugaso.	1
+Tulindiridde okukubaganya ebirowoozo kw'eggwanga lyonna ku birungi bye tusembye era tujja kwetabamu n'amaanyi gaffe gonna mu kukubaganya ebirowoozo okwo. 	Twandyagadde okukubaganya ebirowoozo ku bisembebwa. 	0
+Oluvannyuma lwa Mihdhar okugenda, abayizi abalala baayingira mu nnyumba.	Mihdhar yakimanya nti abayizi baali bamulinda agende.	1
+Oluvannyuma lwa Mihdhar okugenda, abayizi abalala baayingira mu nnyumba.	Abayizi baayingira mu maka oluvannyuma lwa Mihdhar okugenda. 	0
+Oluvannyuma lwa Mihdhar okugenda, abayizi abalala baayingira mu nnyumba.	Abayizi beekalakaasiza wabweru w'ennyumba Mihdhar gye yali asulamu.	2
+Ekirabo kyo kya mugaso eri okujaguza kwaffe okwa sizoni y'ekinaana mu ettaano.	Buli kirabo kye tufuna tekiba kya mugaso kwenkana ekyo ky'otuwa.	1
+Ekirabo kyo kya mugaso eri okujaguza kwaffe okwa sizoni y'ekinaana mu ettaano.	Tetufaayo ku kirabo kyo wadde n'akatono.	2
+Ekirabo kyo kya mugaso eri okujaguza kwaffe okwa sizoni y'ekinaana mu ettaano.	Tubaddenga tukola kino okumala emyaka kinaana.	0
+Kitwala obwegassi bw'obuyambi okuva mu bantu ssekinnoomu wamu n'obuvujjirizi bwa Yunivasite okusobozesa ettendekero lyaffe ery'ebyamateeka okugenda mu maaso n'okuyitimuka mu kitiibwa n'okubeera ekyokulabirako.	Ettendekero lyaffe ery'amateeka liyimirawo ku buvujjirizi bw'abantu ssekinnoomu bwokka.	2
+Kitwala obwegassi bw'obuyambi okuva mu bantu ssekinnoomu wamu n'obuvujjirizi bwa Yunivasite okusobozesa ettendekero lyaffe ery'ebyamateeka okugenda mu maaso n'okuyitimuka mu kitiibwa n'okubeera ekyokulabirako.	Ekitundu ku buyambi ettendekero lyaffe ery'ebyamateeka bwe lifuna buliweebwa Melinda and Bill Gates Foundation. 	1
+Kitwala obwegassi bw'obuyambi okuva mu bantu ssekinnoomu wamu n'obuvujjirizi bwa Yunivasite okusobozesa ettendekero lyaffe ery'ebyamateeka okugenda mu maaso n'okuyitimuka mu kitiibwa n'okubeera ekyokulabirako.	Ettendekero lyaffe ery'ebyamateeka lyetaaga ensimbi okusobola okukula.	0
+Nga tukozesa obuyambi bwe tufuna okuva mu banywanyi baffe abaluubirira okukyusa obulamu bw'abalala nga bayita mu bugabirizi ye ngeri yokka gye tusobodde okutuuka ku byamaanyi.	Bill Gates yatutonera obukadde butaano obwa Ddoola.	1
+Nga tukozesa obuyambi bwe tufuna okuva mu banywanyi baffe abaluubirira okukyusa obulamu bw'abalala nga bayita mu bugabirizi ye ngeri yokka gye tusobodde okutuuka ku byamaanyi.	Olw'embeera eri mu butale bw'ebyensimbi, banywanyi baffe abaluubirira okukyusa obulamu bw'abalala nga bayita mu bugabirizi baggyeewo obuvujjirizi bwonna bwe babadde batuwa.	2
+Nga tukozesa obuyambi bwe tufuna okuva mu banywanyi baffe abaluubirira okukyusa obulamu bw'abalala nga bayita mu bugabirizi ye ngeri yokka gye tusobodde okutuuka ku byamaanyi.	Tusobodde okutuuka ku bintu bingi nnyo, olw'obwagazi obw'okwagala okukyusa obulamu bw'abantu abalala bwe tufunye. 	0
+Weebale kuwagira kkaddiyizo lya Indianapolis Meuseum of Art mu 1999.	Weebale ku lwa $100 ze watona eri ekkaddiyizo lya Indianapolis Meuseum of Art.	1
+Weebale kuwagira kkaddiyizo lya Indianapolis Meuseum of Art mu 1999.	Weebale naye nedda olw'obutawaayo obuyambi bwo mu budde mu 1999. 	2
+Weebale kuwagira kkaddiyizo lya Indianapolis Meuseum of Art mu 1999.	Tuli basanyufu nnyo nti wayamba okuyimirizaawo ekkaddiyizo.	0
+Essuubi lyange liri nti wali waweebwa omukisa ogwamaanyi era ng'ensonga eno ekuzzaamu amaanyi.	Nsuubira nti ensonga eno yakuleetera okwezuulamu omwoyo gw'okuyaayaana omuggya.	0
+Essuubi lyange liri nti wali waweebwa omukisa ogwamaanyi era ng'ensonga eno ekuzzaamu amaanyi.	Mmanyi ensonga eno ekuleetera okuwankawanka, naye tunula mu maaso ng'olindiria oluwummula lwo.	2
+Essuubi lyange liri nti wali waweebwa omukisa ogwamaanyi era ng'ensonga eno ekuzzaamu amaanyi.	Mmanyi nti ojja kukola kyonna ekisoboka mu maanyi go okulwanyisa kookolo w'amabeere.	1
+Kya mugaso okuba nga tukuwuliza mu sizoni eno ey'omugendo gw'okusonda ensimbi .	Guno gwe mugendo gw'okusonda ensimbi gwe tujja okusembayo nagwo sizoni eno, noolwekyo twetaaga obuyambi bwammwe!	0
+Kya mugaso okuba nga tukuwuliza mu sizoni eno ey'omugendo gw'okusonda ensimbi .	Tulinayo emigendo gy'okusonda ensimbi emirala ebiri omwaka guno. 	2
+Kya mugaso okuba nga tukuwuliza mu sizoni eno ey'omugendo gw'okusonda ensimbi .	Twetaaga $100,000 n'okusingawo okusobola okutegeka ensonda zaffe ez'ensimbi sizoni eno.	1
+P. S. Ekirabo kyo kya mugaso nnyo eri ebijaguzo byaffe eby'emyaka 85 egifuula Indianapolis Civic Theatre okuba ssweta esinga obukadde ebaddengawo ng'enkola mu ggwanga awatali kuwummulamu.	Waaliwo ssweta endala eyali yakajaguza okuweza emyaka 84, wabula yasirikkira mu muliro.	1
+P. S. Ekirabo kyo kya mugaso nnyo eri ebijaguzo byaffe eby'emyaka 85 egifuula Indianapolis Civic Theatre okuba ssweta esinga obukadde ebaddengawo ng'enkola mu ggwanga awatali kuwummulamu.	Tujaguza okuggulibwawo kwa sseta ya Indianapolis esingayo obupya.	2
+P. S. Ekirabo kyo kya mugaso nnyo eri ebijaguzo byaffe eby'emyaka 85 egifuula Indianapolis Civic Theatre okuba ssweta esinga obukadde ebaddengawo ng'enkola mu ggwanga awatali kuwummulamu.	Tuli basanyufu nnyo nti ssweta ya Indianapolis Civic Theatre ebaddengawo ng'ekola okumala emyaka 85.	0
+Abo abeetabamu bajja kuweebwa amannya g'abo abaluubirirwa, endagiriro zaabwe n'ennamba z'amasimu, wamu n'ebikwata ku byetaago by'essomero.	Abeetabi bajja kuweebwa endagiriro wamu n'obubaka obunnyonnyola.	0
+Abo abeetabamu bajja kuweebwa amannya g'abo abaluubirirwa, endagiriro zaabwe n'ennamba z'amasimu, wamu n'ebikwata ku byetaago by'essomero.	Abeetabi bajja kusooka okussa omukono ku ndagaano ekkiriza obutaasanguza bubaka, nga tebannaweebwa kyanya kufuna bikwata ku baluubirirwa. 	1
+Abo abeetabamu bajja kuweebwa amannya g'abo abaluubirirwa, endagiriro zaabwe n'ennamba z'amasimu, wamu n'ebikwata ku byetaago by'essomero.	Abo abeetabi kye basobola okumanyaako lye linnya ly'oyo aluubirirwa naye si ndagiriro zaabwe.	2
+Ekkumiro lyaffe ery'ebisolo twaliteekateeka nga twesigamba ku kitegeero ky'ebimera n'ebintu ebisangibwa mu kitundu ekimu era nga bisobola okugumira embeera y'omu kitundu ekyo, era nga bino bye bikolanga amaka g'ebitonde ebibeera mu bifo ebyo. 	Ebimera n'ebintu ebisangibwa mu kitundu ekimu era nga bisobola okugumira embeera y'omu kitundu ekyo biyambako okuteekawo embeera ey'obutonde ebisolo mwe biwangaalira. 	0
+Ekkumiro lyaffe ery'ebisolo twaliteekateeka nga twesigamba ku kitegeero ky'ebimera n'ebintu ebisangibwa mu kitundu ekimu era nga bisobola okugumira embeera y'omu kitundu ekyo, era nga bino bye bikolanga amaka g'ebitonde ebibeera mu bifo ebyo. 	Mu kkuumiro lyaffe ery'ebisolo, tukkiriza nti amaka g'ebitonde ago agagunjibwawo abantu gabeera gasinga ku ago ag'obutonde obulungi. 	2
+Ekkumiro lyaffe ery'ebisolo twaliteekateeka nga twesigamba ku kitegeero ky'ebimera n'ebintu ebisangibwa mu kitundu ekimu era nga bisobola okugumira embeera y'omu kitundu ekyo, era nga bino bye bikolanga amaka g'ebitonde ebibeera mu bifo ebyo. 	Ebimera n'ebintu ebisangibwa mu kitundu ekimu era nga bisobola okugumira embeera y'omu kitundu ekyo ebiri mu kkuumiro lyaffe ery'ebisolo bya bbeeyi nnene nnyo.	1
+Obuwagizi bwo eri Goodwill bujja kutuusa obuweereza bw'okutendekebwa wamu n'emirimu okusobola okuyamba abo abakaluubirizibwa okuweereza mu masekkati ga Indiana okufuna emirimu egyegasa. 	Abantu mu masekkati ga Indiana tebafuna kutendekebwa ku mirimu. 	2
+Obuwagizi bwo eri Goodwill bujja kutuusa obuweereza bw'okutendekebwa wamu n'emirimu okusobola okuyamba abo abakaluubirizibwa okuweereza mu masekkati ga Indiana okufuna emirimu egyegasa. 	Okuwagira Goodwill kujja kuganyula abantu b'omu Indiana.	0
+Obuwagizi bwo eri Goodwill bujja kutuusa obuweereza bw'okutendekebwa wamu n'emirimu okusobola okuyamba abo abakaluubirizibwa okuweereza mu masekkati ga Indiana okufuna emirimu egyegasa. 	Okuwagira Goodwill kujja kukendeeza ku bungi bw'ebbula ly'emirimu	1
+Okuva ku ntandikwa yaakyo eyali eya wansi okutuuka olwaleero we kitwalibwa okubeera ekifo ekitendekerwamu eby'ekisawo ekikyasinze mu ggwanga, ettendekero ly'ebyekisawo lyokka mu Indiana lyenyumiriza mu nnono yaalyo ey'ekitiibwa.	Indiana erina waakiri amatendekero gy'ebyekisawo amalungi ddala amakumi abiri. 	2
+Okuva ku ntandikwa yaakyo eyali eya wansi okutuuka olwaleero we kitwalibwa okubeera ekifo ekitendekerwamu eby'ekisawo ekikyasinze mu ggwanga, ettendekero ly'ebyekisawo lyokka mu Indiana lyenyumiriza mu nnono yaalyo ey'ekitiibwa.	Essaza lya Indiana lirina ettendekero ly'ebyekisawo limu lyokka.	0
+Okuva ku ntandikwa yaakyo eyali eya wansi okutuuka olwaleero we kitwalibwa okubeera ekifo ekitendekerwamu eby'ekisawo ekikyasinze mu ggwanga, ettendekero ly'ebyekisawo lyokka mu Indiana lyenyumiriza mu nnono yaalyo ey'ekitiibwa.	Tewajja kubaaawo ttendekero lya bya kisawo mu Indiana mu myaka etaano egiggya. 	1
+Wabula, enneeyongera eyeewuunyisa ey'emiwendo gy'ebitabo by'amateeka, ebiwandiiko by'oku mutimbagano n'empeereza endala etegeeza nti okukuuma obukuumi ebikungaanye byaffe kusukka ku mbalirira yaffe.	Okukuuma ebikungaanye bye tulinawo kati kitwala omuwendo gwa kitundu kimu kyakusatu eky'embalirira yaffe ey'omwaka omulamba.	2
+Wabula, enneeyongera eyeewuunyisa ey'emiwendo gy'ebitabo by'amateeka, ebiwandiiko by'oku mutimbagano n'empeereza endala etegeeza nti okukuuma obukuumi ebikungaanye byaffe kusukka ku mbalirira yaffe.	Embalirira yaffe gye tulina kati tetukkiriza kukuuma bikungaanye bye tulinawo kati. 	0
+Wabula, enneeyongera eyeewuunyisa ey'emiwendo gy'ebitabo by'amateeka, ebiwandiiko by'oku mutimbagano n'empeereza endala etegeeza nti okukuuma obukuumi ebikungaanye byaffe kusukka ku mbalirira yaffe.	Twetaaga waakiri $10000 mu bagabi b'obuyambi okutusobozesa okukuuma ebikungaanye bye tulinawo kati.	1
+Tujja kugezaako okwogera na buli kinnoomu ku mmwe abateetabyemu omwaka gw'ebyensimbi guno mu nnaku 45 okusobola okulaba ng'ekiruubirirwa kyaffe kisobola okutuukirira olunaku olw'essalira we lunaatuukira olwa nga 30 Ogwomukaaga. 	Tetulina kigendererwa kya kwogera n'abo abatawaddeeyo buyambi omwaka gw'ebyensimbi guno.	2
+Tujja kugezaako okwogera na buli kinnoomu ku mmwe abateetabyemu omwaka gw'ebyensimbi guno mu nnaku 45 okusobola okulaba ng'ekiruubirirwa kyaffe kisobola okutuukirira olunaku olw'essalira we lunaatuukira olwa nga 30 Ogwomukaaga. 	Tujja kwogerezeganya okuyita ku mmeyiro mu nnaku 45 n'abo abatawaddeeyo buyambi mu mwaka gw'ebyensimbi guno.	1
+Tujja kugezaako okwogera na buli kinnoomu ku mmwe abateetabyemu omwaka gw'ebyensimbi guno mu nnaku 45 okusobola okulaba ng'ekiruubirirwa kyaffe kisobola okutuukirira olunaku olw'essalira we lunaatuukira olwa nga 30 Ogwomukaaga. 	Tujja kugezaako okukwatagana n'abo abawaddeyo obuyambi mu mwaka gw'ebyensimbi guno mu nnaku 45 eziddako.	0
+Nga mmemba w'ettendekero ly'ebyamateeka__, Mmanyi nti omanyi enseetuka yaffe.	Ndi mmemba mu ttendekero ly'ebyamateeka.	1
+Nga mmemba w'ettendekero ly'ebyamateeka__, Mmanyi nti omanyi enseetuka yaffe.	Tewali muntu agwa mu ttendekero lya byamateeka.	2
+Nga mmemba w'ettendekero ly'ebyamateeka__, Mmanyi nti omanyi enseetuka yaffe.	Ettendekero ly'ebyamateeka lyali likkirizza abantu.	0
+Omuwendo gw'okutondawo amaka gano gusukkira ddala ku ogwo abaguzi gwe basobola okusasula, noolwekyo twesigama ku bugabirizi n'okuweebwa kw'abantu ssekinnoomu okuzikola nga zisoboka.	Okutondawo amaka kwali kwa bwereere.	2
+Omuwendo gw'okutondawo amaka gano gusukkira ddala ku ogwo abaguzi gwe basobola okusasula, noolwekyo twesigama ku bugabirizi n'okuweebwa kw'abantu ssekinnoomu okuzikola nga zisoboka.	Amaka gaali geetaaga ebikozesebwa okusobola okutondebwawo.	0
+Omuwendo gw'okutondawo amaka gano gusukkira ddala ku ogwo abaguzi gwe basobola okusasula, noolwekyo twesigama ku bugabirizi n'okuweebwa kw'abantu ssekinnoomu okuzikola nga zisoboka.	Okutondebwawo kw'amaka kwali kwa buseere n'okusinga bwe kyali kisuubirwa.	1
+Empaoula z'amawulire ezifuluma buli wiiki zettanirwa nnyo abazadde abatatebenkedde mu birowoozo.	Abazadde abatatebenkedde mu birowoozo be bamu ku baluubirirwa mu mpapula z'amawulire ezifuluma buli wiiki.	0
+Empaoula z'amawulire ezifuluma buli wiiki zettanirwa nnyo abazadde abatatebenkedde mu birowoozo.	Empapula z'amawulire ezifuluma buli wiiki zitonaatona emiko gyazo egyokungulu mu ngeri esikiriza abaana abato n'abantu abakulu. 	2
+Empaoula z'amawulire ezifuluma buli wiiki zettanirwa nnyo abazadde abatatebenkedde mu birowoozo.	Abazadde basobolera ddala okusaasaanya ensimbi nga bagula amamotoka ag'ebbeeyi , ekigaleetera okulangibwa mu butabo bw'amawulire ku bbeeyi eyawaggulu ddala. 	1
+Emboozi y'akatabo ka Times eyookungulu eyogera ku Pulogulaamu ya Bill Gates ey'emitendera 12 egy'okuwangulamu mu mulembe gwa ddigito. 	Kim Kardashian yawandiika emboozi eyookungulu mu katabo ka Time Magazine ekwata ku mitendera 12 gye weetaaga okuwangulamu mu mulembe gwa ddigito.	2
+Emboozi y'akatabo ka Times eyookungulu eyogera ku Pulogulaamu ya Bill Gates ey'emitendera 12 egy'okuwangulamu mu mulembe gwa ddigito. 	Akatabo ka Time Magazine kaliko ekifaananyi kya Bill Gates ku ddiba. 	1
+Emboozi y'akatabo ka Times eyookungulu eyogera ku Pulogulaamu ya Bill Gates ey'emitendera 12 egy'okuwangulamu mu mulembe gwa ddigito. 	Akatabo ka Time Magazine kalina emboozi gye kali mu kuwandiikako ekwata ku Bill Gates n'obuwanguzi bwe mu mulembe ogwa ddigito.	0
+Dduka Kasirise, Dduka Nnyo, Dduka mu ngeri ey'Okwanukula. 	Dduka nga bw'oleekaana.	2
+Dduka Kasirise, Dduka Nnyo, Dduka mu ngeri ey'Okwanukula. 	Dduka nga bw'osuulasuula emikono.	1
+Dduka Kasirise, Dduka Nnyo, Dduka mu ngeri ey'Okwanukula. 	Dduka kasoobo nga towuliddwa.	0
+Paul alabika ng'atwala Alan Greenspan okubeera munnandowooza afuga embeera y'ebbula ly'emirimu okusinziira ku bigobererwa ebyesigamizibwa ku nnyinyonnyolero emu. 	Alan Greenspan alina ennyinyonnyolero z'ebyenfuna ezikwata ku bungi bw'ebbula ly'emirimu. 	0
+Paul alabika ng'atwala Alan Greenspan okubeera munnandowooza afuga embeera y'ebbula ly'emirimu okusinziira ku bigobererwa ebyesigamizibwa ku nnyinyonnyolero emu. 	Paul tawulirangako ku Alan Greenspan oba ennyinyonnyolero ze ez'ebyenfuna. 	2
+Paul alabika ng'atwala Alan Greenspan okubeera munnandowooza afuga embeera y'ebbula ly'emirimu okusinziira ku bigobererwa ebyesigamizibwa ku nnyinyonnyolero emu. 	Paul alowoooza nti Alan Greensapan ye munnabyanfuna asinga obugezi gw'amanyi.	1
+N'obuyambi okuva mu Microsft Helpdesk nakizuula nti ekifo omugenda enterekabubaka eyitibwa CD-ROM ku kompyuta yali eyungiddwa ku kkaadi y'eddoboozi sso si ku kakutu ka IDE, era nga kyali kiremesa LInux okukola.	Sikolangako na Linux.	2
+N'obuyambi okuva mu Microsft Helpdesk nakizuula nti ekifo omugenda enterekabubaka eyitibwa CD-ROM ku kompyuta yali eyungiddwa ku kkaadi y'eddoboozi sso si ku kakutu ka IDE, era nga kyali kiremesa LInux okukola.	Nnalinamu obuzibu okuyunga Linux ku modeemu yange. 	1
+N'obuyambi okuva mu Microsft Helpdesk nakizuula nti ekifo omugenda enterekabubaka eyitibwa CD-ROM ku kompyuta yali eyungiddwa ku kkaadi y'eddoboozi sso si ku kakutu ka IDE, era nga kyali kiremesa LInux okukola.	Nnalinamu obuzibu ne Linux.	0
+Steve, sisobola yadde n'okusitula waleti yo, Hatch bwe yazzaayo omuliro.	Hatch mu busungu yagamba nti tasobola yadde n'okusitula waleti ya Steve.	1
+Steve, sisobola yadde n'okusitula waleti yo, Hatch bwe yazzaayo omuliro.	Hatch teyalina kirowoozo ku waleti ya Steve. 	2
+Steve, sisobola yadde n'okusitula waleti yo, Hatch bwe yazzaayo omuliro.	Hatch yakudaala nti tasobola na kusitula waleti ya Steve.	0
+Abantu abatalina bukugu mu kubeerana na balala abanoonya obubudamu mu bibiina by'amasomo g'ebyenfuna oba ebya kompyuta, ate bo basingawo mu kubeera mu mbeera y'obutaba na ssuubi.	Abantu abatalina bukugu mu kubeerana na balala tebalina ssuubi.	0
+Abantu abatalina bukugu mu kubeerana na balala abanoonya obubudamu mu bibiina by'amasomo g'ebyenfuna oba ebya kompyuta, ate bo basingawo mu kubeera mu mbeera y'obutaba na ssuubi.	Abantu abatalina bukugu mu kubeerana na balala si balungi mu kukolaganira awamu n'abantu abalala.	1
+Abantu abatalina bukugu mu kubeerana na balala abanoonya obubudamu mu bibiina by'amasomo g'ebyenfuna oba ebya kompyuta, ate bo basingawo mu kubeera mu mbeera y'obutaba na ssuubi.	Abantu abatalina bukugu mu kubeerana na balala balina ebiseera by'omu maaso. .	2
+Kiki ekisinga ku ekyo News Quiz ky'esobola okusuubiza ku bikwata ku Fox.	Kitono ku ekyo News Quiz ky'esobola okusuubiza ku bikwata ku Fox.	2
+Kiki ekisinga ku ekyo News Quiz ky'esobola okusuubiza ku bikwata ku Fox.	Kisukka ku News Quiz ky'esobola okukakasa ku bikwata ku Fox.	0
+Kiki ekisinga ku ekyo News Quiz ky'esobola okusuubiza ku bikwata ku Fox.	Kirabika okuba nga kisukka ku News Quiz by'esobola okwogera ku Fox/	1
+Okweyongera kw'obungi bw'abantu kulinga ekyennyume ky'okukyafuwaza obutonde bw'ensi. 	Okukyafuwaza obutonde bw'ensi nsonga eziyiza okweyongera kw'obungi bw'abantu.	1
+Okweyongera kw'obungi bw'abantu kulinga ekyennyume ky'okukyafuwaza obutonde bw'ensi. 	Okweyongera kw'obungi bw'abantu kafaanaganako n'okukyafuwaza obutonde bw'ensi okw'ekyennyume. 	0
+Okweyongera kw'obungi bw'abantu kulinga ekyennyume ky'okukyafuwaza obutonde bw'ensi. 	Tewaliiwo bukwatane wakati w'okweyongera kw'obungi bw'abantu n'okukyafuwaza obutonde bw'ensi.	2
+Kaakano, engeri gye kiri nti Bill Bradley yakulira mu St. Louis, sooka olinde, nsonyiwaamu, ekyo engeri yokka gye kisobola okuba nga kisesa singa kiba nti AI Gore yali yakulira mu Tennessee. 	Bradley yali ava mu Arkansas.	2
+Kaakano, engeri gye kiri nti Bill Bradley yakulira mu St. Louis, sooka olinde, nsonyiwaamu, ekyo engeri yokka gye kisobola okuba nga kisesa singa kiba nti AI Gore yali yakulira mu Tennessee. 	Bradley yali ava mu Missouri.	0
+Kaakano, engeri gye kiri nti Bill Bradley yakulira mu St. Louis, sooka olinde, nsonyiwaamu, ekyo engeri yokka gye kisobola okuba nga kisesa singa kiba nti AI Gore yali yakulira mu Tennessee. 	Bradley yali ava mu kitundu ky'obuvanjuba ekya St. Louis.	1
+Sabol yagamba nti alina okuwummulamukko kw'afuna ng'ali ku lugendo, wabula nga nakwo kuteekebwateekebwa bulungi ddala.	Sabol teyetaaga mpummula ezo zonna zaafuna ng'ali ku lugendo.	1
+Sabol yagamba nti alina okuwummulamukko kw'afuna ng'ali ku lugendo, wabula nga nakwo kuteekebwateekebwa bulungi ddala.	Sabol yakikoonako nti buli kiseera aba alina okuwummulamukko ng'ali ku lugendo.	0
+Sabol yagamba nti alina okuwummulamukko kw'afuna ng'ali ku lugendo, wabula nga nakwo kuteekebwateekebwa bulungi ddala.	Sabol yagamba nti teyeetaaga kuwummulamu yadde.	2
+Lwaki kino tekikola ku Mutimbagano?	Kino kikola ku mutimbagano.	2
+Lwaki kino tekikola ku Mutimbagano?	Kino mu kiseera kino tekikola ku mutimbagano.	0
+Lwaki kino tekikola ku Mutimbagano?	Kino mu mbeera ezimu kiyinza okukola ku mutimbagano. 	1
+Poliisi yalangirira nti yali eggye mwannyina wa Jon Benet Ramsey ne muganda we bwe batagatta bazadde bombi ku lukalala lw'abateeberezebwa okubeera nga be baamutemula, nga yeesigama ku bujulizi obulaga nti bombi baali wabweru wa kibuga mu kiseera omusango mwe gwazzibwa. 	Mwannyina wa Jon Benet Ramsey bwe batagatta bazadde bombi teyali mu kibuga mu kiseera omusango mwe gwazzibwa. 	0
+Poliisi yalangirira nti yali eggye mwannyina wa Jon Benet Ramsey ne muganda we bwe batagatta bazadde bombi ku lukalala lw'abateeberezebwa okubeera nga be baamutemula, nga yeesigama ku bujulizi obulaga nti bombi baali wabweru wa kibuga mu kiseera omusango mwe gwazzibwa. 	Muganda wa Jon Benet Ramsey bwe batagatta bazadde bombi alina obujulizi obw'enkukunala obulaga amazima nti yali wabweru wa kibuga mu kiseera omusango mwe gwazzibwa.	1
+Poliisi yalangirira nti yali eggye mwannyina wa Jon Benet Ramsey ne muganda we bwe batagatta bazadde bombi ku lukalala lw'abateeberezebwa okubeera nga be baamutemula, nga yeesigama ku bujulizi obulaga nti bombi baali wabweru wa kibuga mu kiseera omusango mwe gwazzibwa. 	Waliwo obujulizi obumala okusiba mwannyina wa Jon Benet Ramsey bwe batagatta bazadde bombi ng'omutemu. 	2
+Teweekakasa oba ng'obadde mulambulukufu ku ludda lwa muntu ki lw'oliko.	Kirabikirawo ani gw'owagira. 	2
+Teweekakasa oba ng'obadde mulambulukufu ku ludda lwa muntu ki lw'oliko.	Tetumanyi ani gw'owagira mu kulonda kuno.	1
+Teweekakasa oba ng'obadde mulambulukufu ku ludda lwa muntu ki lw'oliko.	Tetumanyi ani gw'owagira.	0
+Olunaku lumu, tekinologiya anoonyeza ebirowoozo ebitasoboka kuteekebwa mu nkola akatale ajja kuba takyettanirwa okufaananako n'ettaala y'amasannyalaze.	Tekinologiya atuuka n'awuubaaza oluvannyama lw'ekiseera. 	0
+Olunaku lumu, tekinologiya anoonyeza ebirowoozo ebitasoboka kuteekebwa mu nkola akatale ajja kuba takyettanirwa okufaananako n'ettaala y'amasannyalaze.	Tekinologiya ebiseera byonna anyuma.	2
+Olunaku lumu, tekinologiya anoonyeza ebirowoozo ebitasoboka kuteekebwa mu nkola akatale ajja kuba takyettanirwa okufaananako n'ettaala y'amasannyalaze.	Tekinologiya awuubaaza singa tomukyusakyusa buli kiseera.	1
+Ekyokulondako tekirina kukozesebwa mu kifo kya kyanjawulo.	Tekisaanidde kukozesa kyakulondako okutegeeeza ekyenjawulo.	0
+Ekyokulondako tekirina kukozesebwa mu kifo kya kyanjawulo.	Tekikkirizibwa kuwaanyisa kyakulondako na kyanjawulo.	2
+Ekyokulondako tekirina kukozesebwa mu kifo kya kyanjawulo.	Abantu bangi tebamanyi kukozesa ekyokulondako n'ekyenjawulo.	1
+Mu kiseera we yawereza emyaka enkaaga, mu 1895, Skeat yalaga nti yali atandise ensonga zino obutazifaako kiri awo.	Skeat bwe yatuuka mu myaka gye egy'enkaaga teyalina kabonero konna kalaga nti yali alina ky'alowoozaako. 	2
+Mu kiseera we yawereza emyaka enkaaga, mu 1895, Skeat yalaga nti yali atandise ensonga zino obutazifaako kiri awo.	Skeat bwe yagenda akula yalaga empulira y'okubeera nti ensonga zino tazifaako kiri awo.	0
+Mu kiseera we yawereza emyaka enkaaga, mu 1895, Skeat yalaga nti yali atandise ensonga zino obutazifaako kiri awo.	Skeat yatandika okufaayo ku bintu eby'enjawulo buli lwe yeeyongeranga okukula.	1
+..., naye ku mulundi ogwokubiri mu kubbiinsanya, akwatibwa wakati wa mikwano gye ebiri.	Tamanyi ludda ki lwakulondako, ku mikwano gye ebiri.	1
+..., naye ku mulundi ogwokubiri mu kubbiinsanya, akwatibwa wakati wa mikwano gye ebiri.	Alina olubbiinsanya lumu lwokka, olubeeramu mukwano gwe.	2
+..., naye ku mulundi ogwokubiri mu kubbiinsanya, akwatibwa wakati wa mikwano gye ebiri.	Omulundi ogwokusatu, okubbiinsanya kubeeramu abantu babiri.	0
+Kiki ky'osinga okwagala, kubala oba saayansi?	Olina ky'oyagala ku Kubala oba Saayansi?	0
+Kiki ky'osinga okwagala, kubala oba saayansi?	Kiki ky'osinga okukyawa, Lungereza oba Kannakumanya?	2
+Kiki ky'osinga okwagala, kubala oba saayansi?	Osobola okwagala ebintu ebirala ng'oggyeeko okubala ne ssaayansi.	1
+Nga kiweereddwamu obudde n'okukula kwa tekinologiya, amasimu gonna agatalina leediyo gayinza okukolebwa nga ga waya. 	Amasimu agatalina leediyo gonna gajja kukomekkereza nga galinga masimu ga waya.	0
+Nga kiweereddwamu obudde n'okukula kwa tekinologiya, amasimu gonna agatalina leediyo gayinza okukolebwa nga ga waya. 	Amasimu gajja kweyongerako omutindo okuyita mu kukozesa tekinologiya.	1
+Nga kiweereddwamu obudde n'okukula kwa tekinologiya, amasimu gonna agatalina leediyo gayinza okukolebwa nga ga waya. 	Amasimu aga waya gaabulijjo nnyo okusinga ku masimu agatalina leediyo.	2
+Sentensi esembayo Tulowooza, kituufu, nti ekiwandiiko kino tokigabangako wantu walala wonna. 	Tukitwala nti ekiwandiiko kino tokiwaddeeko muntu n'omu.	0
+Sentensi esembayo Tulowooza, kituufu, nti ekiwandiiko kino tokigabangako wantu walala wonna. 	Tutegeera nti gye buvuddeko ekiwandiiko kino wakifulumizaako mu mpapula z'amawulire za mirundi etaano.	2
+Sentensi esembayo Tulowooza, kituufu, nti ekiwandiiko kino tokigabangako wantu walala wonna. 	Twandyagadde okuteeka omukono ku foomu ekkiriza nti ffe ffekka b'owadde ku kiwandiiko kino.	1
+mwannyina-omulungi - ekyoleko kino ekiri mu nkozesa eya bulijjo kisangibwa mu Julius Caesar (iv.	Mu Julius Caesar, ekimiimo mwannyina-omulungi kikozesebwa.	0
+mwannyina-omulungi - ekyoleko kino ekiri mu nkozesa eya bulijjo kisangibwa mu Julius Caesar (iv.	Ekimiimo mwannyina-omulungi kibadde kikozesebwa okuva mu kyasa ky'amakumi abiri mwokka.	2
+mwannyina-omulungi - ekyoleko kino ekiri mu nkozesa eya bulijjo kisangibwa mu Julius Caesar (iv.	Ekimiimo mwannyina-omulungi kikozesebwa okutegeeza omukoddomi.	1
+Bwe kiba kityo, bayinza okuwalirizibwa okugula olufulumya luno kubanga lulimu emiko gy'ebigambo amakumi ataano mu etaano, ensonjola wamu n'ebijuliziddwamu ebitaafulumizibwamu mu kusooka. 	Ekitabo kino kirimu ebigambo ebipya bingi ebitaafulumizibwamu mu kusooka.	0
+Bwe kiba kityo, bayinza okuwalirizibwa okugula olufulumya luno kubanga lulimu emiko gy'ebigambo amakumi ataano mu etaano, ensonjola wamu n'ebijuliziddwamu ebitaafulumizibwamu mu kusooka. 	Olufulumya luno lwe lumu n'olufulumya olwayita.	2
+Bwe kiba kityo, bayinza okuwalirizibwa okugula olufulumya luno kubanga lulimu emiko gy'ebigambo amakumi ataano mu etaano, ensonjola wamu n'ebijuliziddwamu ebitaafulumizibwamu mu kusooka. 	Olufulumya luno lwatunda kkopi ezisukka mu mitwalo amakumi ataano mu mwaka ogusooka. 	1
+Twali tutiddemu olw'endabika yaakyo, naye twakirya nga twetwesiseemu, wabula ng'emimwa gyaffe egya waggulu gigumye olw'okunywa, katugambe, olw'amata ga nnyaffe. 	Buli omu yalya ebyokulya bye n'okwagala okuyitirivu era ne bagamba nga bwe byabajjukiza emmere yaabwe gye basinga okwagala gye balya mu luwummula. 	2
+Twali tutiddemu olw'endabika yaakyo, naye twakirya nga twetwesiseemu, wabula ng'emimwa gyaffe egya waggulu gigumye olw'okunywa, katugambe, olw'amata ga nnyaffe. 	Twawulira nga kitukakatako okulya ekyo ekyali kituweereddwa kubanga twali tetwagala kunyiiza bakatukyaza.	1
+Twali tutiddemu olw'endabika yaakyo, naye twakirya nga twetwesiseemu, wabula ng'emimwa gyaffe egya waggulu gigumye olw'okunywa, katugambe, olw'amata ga nnyaffe. 	Twamala galya ekyo ekyali kituweereddwa, newankubadde nga twali tetwagala ngeri gye kyali kirabikamu. 	0
+Abantu abato babeera n'emyaka emeka?	Mmanyidde ddala emyaka abantu abato gye balina.	2
+Abantu abato babeera n'emyaka emeka?	Abantu abato kye kibinja abantu abamu kye bakaluubirirwa okwawulamu okusinziira ku myaka. 	0
+Abantu abato babeera n'emyaka emeka?	Abantu abato bonna bali wansi w'emyaka amakumi abiri mu etaano egy'obukulu.	1
+Ate era, bo endaba yaabwe ey'obudde ye y'okubulabanga omwetooloolo , sso si ng'olugenderero, noolwekyo empisa y'obudde gye bali si ya mugaso kutuuka kujaguza kwa kudda kw'ebiseera by'ebikujjuko. 	Olw'okuba nga bo obudde babulaba nga olugenderero, okuyisa obudde si kwa makulu gye bali ng'okujaguza okudda kw'ebiseera by'ebikujjuko bwe kuli. 	2
+Ate era, bo endaba yaabwe ey'obudde ye y'okubulabanga omwetooloolo , sso si ng'olugenderero, noolwekyo empisa y'obudde gye bali si ya mugaso kutuuka kujaguza kwa kudda kw'ebiseera by'ebikujjuko. 	Olw'ensonga nti obudde babulaba ng'omwetooloolo, okudda kw'ebiseera by'ebikujjuko kwa makulu nnyo gye bali.	0
+Ate era, bo endaba yaabwe ey'obudde ye y'okubulabanga omwetooloolo , sso si ng'olugenderero, noolwekyo empisa y'obudde gye bali si ya mugaso kutuuka kujaguza kwa kudda kw'ebiseera by'ebikujjuko. 	Bajaguza ebiseera by'ebikujjuko kubanga bakkiriza nti obudde muddingano.	1
+Okugeza, egimu girina amannya agaggyibwa obutereevu ku kintu ekikozesebwa oba ekisaawe omuzannyo we guzannyirwa.	Emizannyo egimu gituumibwa amannya kuva ku kikozesebwa okugizannya.	2
+Okugeza, egimu girina amannya agaggyibwa obutereevu ku kintu ekikozesebwa oba ekisaawe omuzannyo we guzannyirwa.	Emizannyo egimu tegituumibwa mannya kuva ku kikozesebwa okugizannya.	0
+Okugeza, egimu girina amannya agaggyibwa obutereevu ku kintu ekikozesebwa oba ekisaawe omuzannyo we guzannyirwa.	Kino kitera okutuukawo singa omuzannyo gutondebwawo n'ebintu ebikozesebwa okuzannya emizannyo emirala.	1
+Ku bisoomooza, mu kaseera kano nnoonya ekigambo ekisobola okusalibwamu ebitundu bibiri ebitonoko ebyeddiringana.	Nzudde ebigambo bisatu ebisobola okusalibwamu ebitundu bibiri ebitonoko ebyeddiringana.	2
+Ku bisoomooza, mu kaseera kano nnoonya ekigambo ekisobola okusalibwamu ebitundu bibiri ebitonoko ebyeddiringana.	Nsanze akaseera akazibu okufuna ekigambo ekisobola okusalibwamu ebitundu bibiri ebitonoko ebyeddiringana.	0
+Ku bisoomooza, mu kaseera kano nnoonya ekigambo ekisobola okusalibwamu ebitundu bibiri ebitonoko ebyeddiringana.	Nfunye obwagazi eri Kayigalulimi okuva lwe nneetaba mu ssomo eryamunnyanjulira omwaka oguwedde.	1
+Naye amakulu gano mu kuwonga gaasiimuulwamu mu kwekenneenya, ne kireka omusomi nga talina kye yeeyongeddeko mu kumanya okusukka bwe yali mu kusooka. 	Ekitabo kyawongebwayo eri maama w'omuwandiisi.	1
+Naye amakulu gano mu kuwonga gaasiimuulwamu mu kwekenneenya, ne kireka omusomi nga talina kye yeeyongeddeko mu kumanya okusukka bwe yali mu kusooka. 	Okwekenneenya kwatwaliramu obubaka bwonna omusomi bw'ayinza okwetaaga okumanya.	2
+Naye amakulu gano mu kuwonga gaasiimuulwamu mu kwekenneenya, ne kireka omusomi nga talina kye yeeyongeddeko mu kumanya okusukka bwe yali mu kusooka. 	Okwekenneenya tekutwaliramu bubaka obw'enkizo obuli ku kuwonga.	0
+Mu myaka egyafundikira ekyasa ky'ekkumi n'omwenda, gyalimu okukubaganya ebirowoozo kungi okukwata ku kigambo.	Oluvannyuma kyasalibwawo nti ekigambo ekyo kyali tekikkirizibwa mu bantu abeetwala okuba abawaggulu mu kitundu. 	1
+Mu myaka egyafundikira ekyasa ky'ekkumi n'omwenda, gyalimu okukubaganya ebirowoozo kungi okukwata ku kigambo.	Ekigambo kyakubaganyizibwako ebirowoozo emyaka mingi egiyise.	0
+Mu myaka egyafundikira ekyasa ky'ekkumi n'omwenda, gyalimu okukubaganya ebirowoozo kungi okukwata ku kigambo.	Ekigambo kyasuulibwa era ne kyerabirwa ng'ekyasa ky'ekkumi n'omwenda tekinnaggwaako.	2

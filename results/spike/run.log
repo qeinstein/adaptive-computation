@@ -1,0 +1,96 @@
+calibration set: eng/dev n=450
+spike sample: n=800 across ['eng', 'swa', 'amh', 'yor']
+running rung minilm_l6
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Traceback (most recent call last):
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/modeling_utils.py", line 677, in _get_resolved_checkpoint_files
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/utils/hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/utils/hub.py", line 535, in cached_files
+    raise e
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/utils/hub.py", line 438, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/huggingface_hub/file_download.py", line 1019, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+        # Destination
+    ...<15 lines>...
+        dry_run=dry_run,
+    )
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/huggingface_hub/file_download.py", line 1242, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        incomplete_path=Path(blob_path + ".incomplete"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/huggingface_hub/file_download.py", line 1961, in _download_to_tmp_and_move
+    xet_get(
+    ~~~~~~~^
+        incomplete_path=tmp_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/huggingface_hub/file_download.py", line 565, in xet_get
+    with session.new_file_download_group(
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        token_refresh_url=xet_file_data.refresh_route,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        progress_callback=progress.update_progress,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as group:
+    ^
+RuntimeError: Task error: File reconstruction error: CAS Client Error: Format error: I/O error: error decoding response body
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/src/spike.py", line 268, in <module>
+    main()
+    ~~~~^^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/src/spike.py", line 188, in main
+    cal_logits = run_nli(name, repo, cal_rows)
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/src/spike.py", line 63, in run_nli
+    model = AutoModelForSequenceClassification.from_pretrained(repo).to(DEVICE).eval()
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/models/auto/auto_factory.py", line 402, in from_pretrained
+    return model_class.from_pretrained(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/modeling_utils.py", line 4248, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        pretrained_model_name_or_path=pretrained_model_name_or_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/toheeb.ogunade/Workspace/adaptive-computation/.venv/lib/python3.14/site-packages/transformers/modeling_utils.py", line 757, in _get_resolved_checkpoint_files
+    raise OSError(
+    ...<4 lines>...
+    ) from e
+OSError: Can't load the model for 'MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli' is the correct path to a directory containing a file named pytorch_model.bin.

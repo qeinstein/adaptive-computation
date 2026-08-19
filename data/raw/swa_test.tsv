@@ -1,0 +1,601 @@
+premise	hypothesis	label
+Naam, sikukuwa nafikiri juu ya hilo, lakini nilichanganyikiwa sana, na, hatimaye nikaendelea kuzungumza naye tena.	Sijaongea na yeye tena.	2
+Naam, sikukuwa nafikiri juu ya hilo, lakini nilichanganyikiwa sana, na, hatimaye nikaendelea kuzungumza naye tena.	Nilikasirika sana kwamba nikaanza kuzungumza naye tena.	0
+Naam, sikukuwa nafikiri juu ya hilo, lakini nilichanganyikiwa sana, na, hatimaye nikaendelea kuzungumza naye tena.	Tulikuwa na majadiliano mazuri.	1
+Walinieleza ya kwamba mwishowe ningeitiwa jamaa fulani ambaye tungepatana naye.	Sikuambiwa chochote kuhusu kukutana na mtu yeyote.	2
+Walinieleza ya kwamba mwishowe ningeitiwa jamaa fulani ambaye tungepatana naye.	Niliambiwa mtu angeitwa aje ili nikutane naye.	0
+Walinieleza ya kwamba mwishowe ningeitiwa jamaa fulani ambaye tungepatana naye.	Alikuja akiwa amechelewa.	1
+Kuna mengi ambayo unaweza kuzungumzia kuhusu hilo lakini  nitaachana nayo tu.	Nataka kukuambia kila kitu ninachokijua kuhusu mambo hayo	2
+Kuna mengi ambayo unaweza kuzungumzia kuhusu hilo lakini  nitaachana nayo tu.	Sitaongelea mambo hayo, ingawa kuna mengi ya kuficha.	0
+Kuna mengi ambayo unaweza kuzungumzia kuhusu hilo lakini  nitaachana nayo tu.	Siwezi ongelea histroria ya mji maana kuna mengi ya kusema.	1
+Hivyo, sijui kwa kweli nu kwa nini.	Nina uhakika wa sababu.	2
+Hivyo, sijui kwa kweli nu kwa nini.	Sijui kwa nini alihamisha shule.	1
+Hivyo, sijui kwa kweli nu kwa nini.	Sijui ni kwa nini hilo lilitendeka.	0
+Ni mimi pekee nilikua nayo uh, ushawahi endeleza dhibiti za majaribio katika chumba cha 'miniature altitude'.	Sikupenda kuwa wa pekee kwa kuendesha wasimamizi wa vipimo.	1
+Ni mimi pekee nilikua nayo uh, ushawahi endeleza dhibiti za majaribio katika chumba cha 'miniature altitude'.	Majaribio yalifanyiwa kwa miniature altitude chambers.	0
+Ni mimi pekee nilikua nayo uh, ushawahi endeleza dhibiti za majaribio katika chumba cha 'miniature altitude'.	Kulikuwa na wachache wetu waliokimbiza wasimamizi kwa ajili ya mtihani.	2
+Mstaafu sergenti mkuu, kama alivyosma Rick.	Bado nafanya kazi hadi leo hii.	2
+Mstaafu sergenti mkuu, kama alivyosma Rick.	Nilistaafu mwaka wa 2002.	1
+Mstaafu sergenti mkuu, kama alivyosma Rick.	Rick alikuambia kuwa nilikuwa nimestaafu.	0
+Kuna makadirio ya mtiririko wa fedha kwenye dawati yangu na, um, uh, ni kwa na kama vile Cutty, ndiyo jina la mteja.	Mteja aitwaye Cutty hufanya $ 10000 kwa mwezi.	1
+Kuna makadirio ya mtiririko wa fedha kwenye dawati yangu na, um, uh, ni kwa na kama vile Cutty, ndiyo jina la mteja.	Kuna mteja aitwaye Cutty.	0
+Kuna makadirio ya mtiririko wa fedha kwenye dawati yangu na, um, uh, ni kwa na kama vile Cutty, ndiyo jina la mteja.	Hatuna wateja wowote walioitwa Cutty.	2
+Huyu msichana anaweza kukusaidia kuenda popote utakapo mjini.	Msichana ninayehitaji msaada kutoka kwake anaishi mbali.	0
+Huyu msichana anaweza kukusaidia kuenda popote utakapo mjini.	Msichana ambaye atanisaidia ako maili 5 mbali.	1
+Huyu msichana anaweza kukusaidia kuenda popote utakapo mjini.	Hakuna mtu anayeweza kunisaidia.	2
+walipingana kuhusa ni akina nani walikuwa vijana wa mikono na ni akina nani walikuwa vijana wa kushinda nyumbani. Ilikuwa...	Walikubaliana wote watafanya kazi kwenye viwanja	2
+walipingana kuhusa ni akina nani walikuwa vijana wa mikono na ni akina nani walikuwa vijana wa kushinda nyumbani. Ilikuwa...	Hawakukubalia nani alikuwa kwenye ukumbi na nyumbali.	0
+walipingana kuhusa ni akina nani walikuwa vijana wa mikono na ni akina nani walikuwa vijana wa kushinda nyumbani. Ilikuwa...	Hawakuweza kukubaliana nani anayetakiwa kufanya kazi katika shamba la pamba na nani anapaswa kupiga sakafu deki.	1
+Namaanisha kwamba walikuwa na wana watano, mmoja wao akafa.	Watoto wao wote walinusurika.	2
+Namaanisha kwamba walikuwa na wana watano, mmoja wao akafa.	Mtoto mmoja alikiufa kati ya wale watano.	0
+Namaanisha kwamba walikuwa na wana watano, mmoja wao akafa.	Mtoto aliyekufa alizaliwa akiwa mgonjwa-mgonjwa.	1
+Alisema kwamba machozi ylikuwa yanamtiririka kutoka usoni. Alafu akasema pia Joe alishuka kutoka ukumbini.	Alipokuwa akimwambia aje kwenye ukumbi alikuwa na machozi machoni mwake.	0
+Alisema kwamba machozi ylikuwa yanamtiririka kutoka usoni. Alafu akasema pia Joe alishuka kutoka ukumbini.	Kwa haraka alipanguza machozi baada ya kumtupa Joe kutoka kwenye ukumbi.	2
+Alisema kwamba machozi ylikuwa yanamtiririka kutoka usoni. Alafu akasema pia Joe alishuka kutoka ukumbini.	Alifurahi sana kuona Joe kwamba alianza kulia.	1
+Hata kama ndege ile ilikuwa inateketea, kwa nini, ingekuwa uh, teketea and ingeweza kuyeyuka kwa sehemu ya risasi ili mionzi kuvuja.	Mionzi inaweza dhibitiwa wakati wa moto pia.	1
+Hata kama ndege ile ilikuwa inateketea, kwa nini, ingekuwa uh, teketea and ingeweza kuyeyuka kwa sehemu ya risasi ili mionzi kuvuja.	Mionzi ingeweza kuvuja kutoka sehemu ya uongozi baada ya ndege kuchomeka.	0
+Hata kama ndege ile ilikuwa inateketea, kwa nini, ingekuwa uh, teketea and ingeweza kuyeyuka kwa sehemu ya risasi ili mionzi kuvuja.	Mionzi haiwezi kuvuja wakati wa moto.	2
+Mkuu wa Jeshi Clem Francis astaafu kutoka kitengo cha majeshi ya hewani ya Marekani.	Chifu amestaafu kutoka Jeshi la Anga la Marekani.	0
+Mkuu wa Jeshi Clem Francis astaafu kutoka kitengo cha majeshi ya hewani ya Marekani.	Chifu alistaafu hivi karibuni wiki kadhaa zilizopita	1
+Mkuu wa Jeshi Clem Francis astaafu kutoka kitengo cha majeshi ya hewani ya Marekani.	Mkuu wa Jeshi la Jeshi la US amenza kazi yake wiki hii.	2
+Basi ilifikia mahali kuna ndege mbili ama tatu zinazofika kila wiki na sikujua kwenye zinapaa zikienda.	Zaidi ya ndege moja huwasili kila wiki.	0
+Basi ilifikia mahali kuna ndege mbili ama tatu zinazofika kila wiki na sikujua kwenye zinapaa zikienda.	Ujao wa ndege ni shida tupu.	1
+Basi ilifikia mahali kuna ndege mbili ama tatu zinazofika kila wiki na sikujua kwenye zinapaa zikienda.	Hakuna ndege yoyote inayowasili.	2
+Na tayari walikuwa na mazoezi yao katika mkazo mkuu wa suti na imenichukua muda kama utaenda kwa mkazo mzima wa suti.	Inachukua miezi mitatu kukamilisha mafunzo juu ya matumizi ya suti kamili ya shinikizo.	1
+Na tayari walikuwa na mazoezi yao katika mkazo mkuu wa suti na imenichukua muda kama utaenda kwa mkazo mzima wa suti.	Mafunzo ya kutumia suti kamili ya shinikizo huchukua muda.	0
+Na tayari walikuwa na mazoezi yao katika mkazo mkuu wa suti na imenichukua muda kama utaenda kwa mkazo mzima wa suti.	Tungeweza kukufunza kutumia suti kamili ya shinikizo mwishoni mwa siku.	2
+Nataka kusema ya kwamba hakuwa na hatari yoyote ya kuingia na bomu kwa sababu haiwezi kulipuka, licha ya vile ingeanguka kwenye ardhi.	Bomu hilo lilikuwa limezimwa na rubani.	1
+Nataka kusema ya kwamba hakuwa na hatari yoyote ya kuingia na bomu kwa sababu haiwezi kulipuka, licha ya vile ingeanguka kwenye ardhi.	Bomu hiyo haikuwa na nafasi ya kulipuka.	0
+Nataka kusema ya kwamba hakuwa na hatari yoyote ya kuingia na bomu kwa sababu haiwezi kulipuka, licha ya vile ingeanguka kwenye ardhi.	Kulikuwa na hatari kubwa ya kulipuka bomu.	2
+Na jinsi gani inavyofanana hasa na ninachojaribu kufanya.	Sina yakini hii inaonekana kama nini kwako.	2
+Na jinsi gani inavyofanana hasa na ninachojaribu kufanya.	Najaribu kufanya hivi, kwa wazi.	0
+Na jinsi gani inavyofanana hasa na ninachojaribu kufanya.	Ninajaribu kumaliza mradi wangu kwenye wiki ijayo.	1
+Lakini hata hivyo, wanyama wangekuwa huru wakati wote, hasa mbuzi.	,Mbuzi alitoroka alipofungiwa kila siku.	1
+Lakini hata hivyo, wanyama wangekuwa huru wakati wote, hasa mbuzi.	Mbuzi zilitoroka mara kwa mara.	0
+Lakini hata hivyo, wanyama wangekuwa huru wakati wote, hasa mbuzi.	Mbuzi walikuwa wamewekwa salama.	2
+Milango ilifungwa wakati tuliingia.	Milango yote ilikuwa wazi.	2
+Milango ilifungwa wakati tuliingia.	Tulikuwa na funguo nasi.	1
+Milango ilifungwa wakati tuliingia.	Tuliingia hata ingawa milango ilifungwa.	0
+Kwa hivyo nilihitaji tu kuchukua jumla na kujaribu na kuiona kama hiyo.	Ninahisi tumaini kwamba jumla ni yote ninayohitaji kutatua hili.	1
+Kwa hivyo nilihitaji tu kuchukua jumla na kujaribu na kuiona kama hiyo.	Sina kidokezo cha kufanya na jumla pekee tafadhali nipatie maelezo zaidi ya kutatua fujo hili.	2
+Kwa hivyo nilihitaji tu kuchukua jumla na kujaribu na kuiona kama hiyo.	Mimi nitahesabu kwa msingi wa jumla.	0
+Mengi yanasababaishwa na kwamba mama mzazi ni mlevi wa dawa za kulevya.	Mama zao ni waraibu wa midadharati.	1
+Mengi yanasababaishwa na kwamba mama mzazi ni mlevi wa dawa za kulevya.	Mama hatatumii maagizo yoyote ya dawa au madawa ya kulevya	2
+Mengi yanasababaishwa na kwamba mama mzazi ni mlevi wa dawa za kulevya.	Wamama hutumia madawa ya kulevya.	0
+Ni vizuri mno kwamba kumekuwa kukinyesha.	Sijali mvua.	1
+Ni vizuri mno kwamba kumekuwa kukinyesha.	Ni kuzuri na kunanyesha.	0
+Ni vizuri mno kwamba kumekuwa kukinyesha.	Kunatisha kutokomeshwa kwa miale ya jua.	2
+Kuhusu hamini ya moyo wa binadamu na kama kwamba waweza kurekebisha mtu.	Maisha yote yahitaji kurekebishwa nakupatiwa nafasi ya pili.	1
+Kuhusu hamini ya moyo wa binadamu na kama kwamba waweza kurekebisha mtu.	Hakuna binadamu wanaostahili kurekebishwa.	2
+Kuhusu hamini ya moyo wa binadamu na kama kwamba waweza kurekebisha mtu.	Bila kujali ukarabati ni maisha gani yenye thamana.	0
+Jameni, uko na shinda ya pekee ulivyoundwa.	Sijawahi kuona tatizo la uunganishaji wa nyaya kama hili.	1
+Jameni, uko na shinda ya pekee ulivyoundwa.	Mwandiko siyo hoja.	2
+Jameni, uko na shinda ya pekee ulivyoundwa.	Kuna tatizo lililosababishwa namtandao huu usio wa kawaida.	0
+Inaonekana kama ni furaha sana, ndio ni ajabu kwangu jinsi ni mambo mengi waliyoyaruhusu.	Sijashangazwa hata kidogo kuwa walikuwa na huruma.	2
+Inaonekana kama ni furaha sana, ndio ni ajabu kwangu jinsi ni mambo mengi waliyoyaruhusu.	Nilishangaa kwa kuwa walikuruhusu ule na unywe humo ndani.	1
+Inaonekana kama ni furaha sana, ndio ni ajabu kwangu jinsi ni mambo mengi waliyoyaruhusu.	Nashangaa nini wanaweza kufanya bila ya kuulizwa.	0
+oh lakini hata hivyo watoto wangu sasa wana miaka ishirini na ishirini na nne, hivyo sihitaji	Sihitaji kwa sababu watoto wangu wana zaidi ya umri wa miaka ishirini.	0
+oh lakini hata hivyo watoto wangu sasa wana miaka ishirini na ishirini na nne, hivyo sihitaji	Inaweza nibidi kwa sababu wamekaribiana kimiaka.	1
+oh lakini hata hivyo watoto wangu sasa wana miaka ishirini na ishirini na nne, hivyo sihitaji	Ni lazima ,sasa vile wako miaka kuni na kuni na moja  wote.	2
+Ndio watu ambao wanaweza kuwa na kazi wakati wowote au ambao maamuzi yao yanaweza kufungwa kama walipaswa kufanya uamuzi	Ndio, watu ambao hawawezi maamuzi bora.	0
+Ndio watu ambao wanaweza kuwa na kazi wakati wowote au ambao maamuzi yao yanaweza kufungwa kama walipaswa kufanya uamuzi	Naam, watu ambao hawana njaa.	1
+Ndio watu ambao wanaweza kuwa na kazi wakati wowote au ambao maamuzi yao yanaweza kufungwa kama walipaswa kufanya uamuzi	Naam, watu ambao ufasaha wao wa maamuzi haujawahi kutiliwa shaka.	2
+Hapana, bado wako, bado wako katika ziara. Wamekuwa katika ziara kuanzia miaka ya 1960 hapo mwisho.	Wamekuwa wakitalii tangu mwaka wa 1970.	0
+Hapana, bado wako, bado wako katika ziara. Wamekuwa katika ziara kuanzia miaka ya 1960 hapo mwisho.	Wanapenda ziara	1
+Hapana, bado wako, bado wako katika ziara. Wamekuwa katika ziara kuanzia miaka ya 1960 hapo mwisho.	Walikamilisha ziara yao hivi karibuni.	2
+Ungefanya tizi vipi?	Unaweza eleza jinsi ya kufanya aerobics?	0
+Ungefanya tizi vipi?	Mimi huvutiwa na aerobics kwa sababu nahitaji mazoezi ya cardiovascular.	1
+Ungefanya tizi vipi?	Tafadhali wacha kuongea juu ya mazoezi.	2
+vyema hivyo ni vyema sikuwa nimefikiria kuhusu hivyo, ndiyo	Hilo ni wazo bubu nililoachana nalo wiki iliyopita.	2
+vyema hivyo ni vyema sikuwa nimefikiria kuhusu hivyo, ndiyo	Hiyo ni hatua nzuri.	0
+vyema hivyo ni vyema sikuwa nimefikiria kuhusu hivyo, ndiyo	Kitengo hicho unachotaja ni hatua nzuri.	1
+huduma ya siku mbili siku mbili kwa wiki wanaiita kuwa huduma ya siku za wazee wa kijiji lakini anaenda kituo cha raia mwandamizi	Huduma ya siku ni wazi kila siku kwa watoto chini ya umri wa miaka mitano tu.	2
+huduma ya siku mbili siku mbili kwa wiki wanaiita kuwa huduma ya siku za wazee wa kijiji lakini anaenda kituo cha raia mwandamizi	Wanaruhusu wanende zaidi ya mara mbili kwa wiki kama wananchi walioedelea na miaka wanataka.	1
+huduma ya siku mbili siku mbili kwa wiki wanaiita kuwa huduma ya siku za wazee wa kijiji lakini anaenda kituo cha raia mwandamizi	Wanasema kama huduma ya siku ya mwandamizi lakini inaitwa kituo cha mwandamizi.	0
+Hilo lilikuwa lengo lao!	Hiyo ndiyo waliyokuwa wakitamania.	0
+Hilo lilikuwa lengo lao!	Hilo halikuwa kamwe walilotaka.	2
+Hilo lilikuwa lengo lao!	Walifikia lengo lao.	1
+Kuzuia utumizi wa bunduki yamaanisha kutumia mikono yote miwili.	Nusu ya makosa yote ya bunduki yanayotokana na matumizi ya mkono mmoja.	1
+Kuzuia utumizi wa bunduki yamaanisha kutumia mikono yote miwili.	Njia bora zaidi ya udhibiti wa bunduki ni kutumia miguu miwili.	2
+Kuzuia utumizi wa bunduki yamaanisha kutumia mikono yote miwili.	Tumia mikono yote ikiwa unataka kujifunza kudhibiti bunduki.	0
+Inatokea mahali ghafla, lakini sijui haswa inatokea wapi.	Sijui kule ambako kimetokea lakini ni haraka.	0
+Inatokea mahali ghafla, lakini sijui haswa inatokea wapi.	Inakuja kwa haraka lakini mimi ninajua wapi inaweza kuwa inatoka.	1
+Inatokea mahali ghafla, lakini sijui haswa inatokea wapi.	Inakuja kama sukuri na najua wakati itakapokuja	2
+Hapana. Sidhani naifahamu vizuri hata.	Sijui zaidi kuihusu.	0
+Hapana. Sidhani naifahamu vizuri hata.	Mimi sina ujuzi katika masuala ya mapenzi.	1
+Hapana. Sidhani naifahamu vizuri hata.	Nimekuwa nikiisoma kwa miaka	2
+Ndio, alikuwa wa ajabu, si unamjua.	Nadhani anajua kwamba alipendeza.	1
+Ndio, alikuwa wa ajabu, si unamjua.	Hapana alikuwa mbaya.	2
+Ndio, alikuwa wa ajabu, si unamjua.	Ndio alikuwa mzuri sana.	0
+Ndio, alitoa wazo la kupata uh um jinsi ungetumia.	Alipendekeza kununua ombwe.	2
+Ndio, alitoa wazo la kupata uh um jinsi ungetumia.	Alipendekeza kutafuta deki.	0
+Ndio, alitoa wazo la kupata uh um jinsi ungetumia.	Anataka kusafisha damu kwa kutumia koroga.	1
+ni mbaya huko nje tulikuwa na ufyatulinaji wa risasi  sehemu tatu kutoka nyumbani kwetu	Mauaji hayo kwa bunduki ilikuwa takriban maili mia kutoka ninakoishi.	2
+ni mbaya huko nje tulikuwa na ufyatulinaji wa risasi  sehemu tatu kutoka nyumbani kwetu	Risasi zilikua karibu na nyumba yangu na sasa nina woga wa kutoka nje.	1
+ni mbaya huko nje tulikuwa na ufyatulinaji wa risasi  sehemu tatu kutoka nyumbani kwetu	Kulikuwa na risasi karibu na nyumba yangu, eneo hili si zuri.	0
+Ni kweli sio thabiti	SIKUbaliani nawe, ni thabiti sana.	2
+Ni kweli sio thabiti	Nadhani unaweza kuwa sahihi juu ya usawa wake.	1
+Ni kweli sio thabiti	Uko sahihi kuhusu jambo hili kutokuwa sambamba.	0
+Ninajaribu kuvumilia tu hapo.	Najaribu kuvumilia.	0
+Ninajaribu kuvumilia tu hapo.	Kwa kweli ninafanya bora.	1
+Ninajaribu kuvumilia tu hapo.	Nitaacha na kamwe sitatazama nyuma.	2
+Tutafungua mlango wetu kwenye teknolojia ya baadaye.	Tunajenga watangulizi muhimu kwa ajili ya siku za usoni zenye teknolojia.	0
+Tutafungua mlango wetu kwenye teknolojia ya baadaye.	Tunajenga transistors, hivyo hali yetu baadaye itatekelezwa na AI.	1
+Tutafungua mlango wetu kwenye teknolojia ya baadaye.	Tunataka kuzuia teknolojia kutofaulu.	2
+Kwa mfano, kwa kiwango cha juu kabisa, jeni zote hugeuka zambarau.	Katika upeo, ni nusu tu ya jeni ambazo zinaweza badilika na kuwa zambarau.	2
+Kwa mfano, kwa kiwango cha juu kabisa, jeni zote hugeuka zambarau.	Kuna uwezekano kwa chembe za urithi kugeuza rangi.	0
+Kwa mfano, kwa kiwango cha juu kabisa, jeni zote hugeuka zambarau.	Wakati mwingine jeni inaweza kugeuka samawati pia.	1
+Daniel Yamins ni mtaalamu mchanga wa hisabati.	Bwana Yamins ni mzuri katika hesabu.	0
+Daniel Yamins ni mtaalamu mchanga wa hisabati.	Lengo la Bwana Yasmin ni jiometri ya algebraic.	1
+Daniel Yamins ni mtaalamu mchanga wa hisabati.	Bw. Yasim ni msanii mzuri lakini mtaalamu mbaya wa hisabati	2
+Na ikiwa ni hivyo, wao huwa mara nyingi huwa karibu na mipaka hiyo?	Najua hawajawi kusafiri kamwe karibu na mipaka.	2
+Na ikiwa ni hivyo, wao huwa mara nyingi huwa karibu na mipaka hiyo?	Nataka kujua, wao huwa mara nyingi Uingereza?	1
+Na ikiwa ni hivyo, wao huwa mara nyingi huwa karibu na mipaka hiyo?	Msemaji alitaka ufafanuzi kuhusu mara ngapi walipokaribia mipaka.	0
+Na kuna, nadhani, kidokezo cha molekuli ambacho hifadhi cha maumbile kinaendelea kujishughulisha na utawala unaoweza kuendeleza kwa seti inayoenea ya mstari.	Bayongahewa yenyewe hubadilika sana.	0
+Na kuna, nadhani, kidokezo cha molekuli ambacho hifadhi cha maumbile kinaendelea kujishughulisha na utawala unaoweza kuendeleza kwa seti inayoenea ya mstari.	Tabaka la uhai hubadilika kulingana na halijoto.	1
+Na kuna, nadhani, kidokezo cha molekuli ambacho hifadhi cha maumbile kinaendelea kujishughulisha na utawala unaoweza kuendeleza kwa seti inayoenea ya mstari.	bayongahewa haijabadilika.	2
+Kwa hilo hatua, chembechembe ya kawaida haiwezi weka habari nyingi.	Fuwele mara kwa mara ni kati ya uhifadhi wa taarifa za juu sana.	2
+Kwa hilo hatua, chembechembe ya kawaida haiwezi weka habari nyingi.	Fuwele za kawaida huwa sio muhimu kwa kupata habari.	0
+Kwa hilo hatua, chembechembe ya kawaida haiwezi weka habari nyingi.	Kuna aina zingine za chembechembe ambazo ni muhimu sana katika kuchambua habari za jiografia kwa kutumia mihimili ya laser.	1
+Kwa hiyo, watu wazima hawana haja ya kufundisha watoto wa shule ya kwanza katika kujifanya, kama wanavyofanya wakati wa kuwasaidia puzzles au kazi nyingine zinazofanana.	Wanachekechea wanajua kutatua mafumbo zaidi ya wanavyojua kucheza michezo ya kujifanya.	2
+Kwa hiyo, watu wazima hawana haja ya kufundisha watoto wa shule ya kwanza katika kujifanya, kama wanavyofanya wakati wa kuwasaidia puzzles au kazi nyingine zinazofanana.	Wanafunzi wa shule ya kwanza hawana haja ya msaada sana kujifunza jinsi ya kujifanya.	0
+Kwa hiyo, watu wazima hawana haja ya kufundisha watoto wa shule ya kwanza katika kujifanya, kama wanavyofanya wakati wa kuwasaidia puzzles au kazi nyingine zinazofanana.	Preschoolers hawana anga muhimu za kuigwa ku master puzzles wenyewe.	1
+[ Hii nchi imekuwa] iliyozaliwa katika Uhuru na kuwekwa wakfu kwa pendekezo kwamba watu wote wameumbwa sawa.	Maelezo juu ya pendekezo hili yalirekodiwa katika nyaraka kadhaa za nyongeza	1
+[ Hii nchi imekuwa] iliyozaliwa katika Uhuru na kuwekwa wakfu kwa pendekezo kwamba watu wote wameumbwa sawa.	Watu wengine waliamini kuwa watu wote ni sawa.	0
+[ Hii nchi imekuwa] iliyozaliwa katika Uhuru na kuwekwa wakfu kwa pendekezo kwamba watu wote wameumbwa sawa.	Hili taifa lilijengwa kwa msingi unaoamini kwamba baadhi ya watu wako sawa kuliko wengine.	2
+Nafaa kumsifu zaidi?	Nina uhakika nahitaji kumpiga kwa sababu ya kushindwa kwake.	2
+Nafaa kumsifu zaidi?	Ninajiuliza kama anahitaji shukrani zaidi kutoka kwangu.	0
+Nafaa kumsifu zaidi?	Je, ni lazima nimsifu zaidi kwa ajili ya utendaji wake kwa piano?	1
+Nadharia za mtandao zinaweza kuundwa kwa vipimo tofauti.	Vipimo vingine vinaweza kutumiwa kujenga nadharia za mtandao wa spin.	0
+Nadharia za mtandao zinaweza kuundwa kwa vipimo tofauti.	Mitandao ya Spin ni muhimu sana kwa teknolojia za kuhifadhi data.	1
+Nadharia za mtandao zinaweza kuundwa kwa vipimo tofauti.	Mitandao ya kusokota haiwezi dhaniwa kwa namna tofauti.	2
+(Kwa hasira) Hapana, hapana, sitaki ufe!	Sitaki ufe!	0
+(Kwa hasira) Hapana, hapana, sitaki ufe!	Sijali hata ukifa!	2
+(Kwa hasira) Hapana, hapana, sitaki ufe!	Nitasikitika mno ikiwa utakufa!	1
+Alinyongwa mbele ya umma mnamo Machi 19, 1875, San Jose, California.	California ilikuwa ikifanya mauaji mbele ya umma hadi mwaka wa 1875.	0
+Alinyongwa mbele ya umma mnamo Machi 19, 1875, San Jose, California.	Alihongewa makosa yake yote na akaambiwa aende zake.	2
+Alinyongwa mbele ya umma mnamo Machi 19, 1875, San Jose, California.	Alinyongwa kwa uchochezi na wizi wa farasi.	1
+Katika utawala wa machafuko, bahari ya kijani ya kumetameta hupungua.	Bahari ilikuwa samawati ya ndani na laini kama kioo.	2
+Katika utawala wa machafuko, bahari ya kijani ya kumetameta hupungua.	Bahari ilijaa samaki wadogo waliopigapiga dau.	1
+Katika utawala wa machafuko, bahari ya kijani ya kumetameta hupungua.	Bahari ilikuwa ya kijani na ilionekana kutoa povu.	0
+Mpangilio mpya wa kisheria ulipenda kutengeneza njia yake wazi kutoka katika mshtuko wa miaka ya 1860.	Katika miaka ya 1870 kila utaratibu wa kisheria alikuwa kuporomoka na nchi ilikuwa katika machafuko kamili.	2
+Mpangilio mpya wa kisheria ulipenda kutengeneza njia yake wazi kutoka katika mshtuko wa miaka ya 1860.	Miaka ya 1860 ulikuwa muda wa kutisha.	0
+Mpangilio mpya wa kisheria ulipenda kutengeneza njia yake wazi kutoka katika mshtuko wa miaka ya 1860.	Mfumo mpya wa sheria unatumai kupanua haki za wafanyakazi.	1
+Aina yoyote ya juu ya kufikiri, alisema, inaonekana katika mawasiliano ya kijamii, kati ya mtoto na wawakilishi wa utamaduni wake wakati wanafanya kazi ya pamoja.	Watoto hawawezi kushiriki aina za juu za kufikiri.	2
+Aina yoyote ya juu ya kufikiri, alisema, inaonekana katika mawasiliano ya kijamii, kati ya mtoto na wawakilishi wa utamaduni wake wakati wanafanya kazi ya pamoja.	uvuvi ni shughuli moja inayofanywa na tamaduni tofauti	1
+Aina yoyote ya juu ya kufikiri, alisema, inaonekana katika mawasiliano ya kijamii, kati ya mtoto na wawakilishi wa utamaduni wake wakati wanafanya kazi ya pamoja.	Kushiriki shughuli za kawaida wakati mwingine kuna manufaa kwa kushiriki aina za juu za kufikiria.	0
+Vijiji vingine vilikuwa na watumishi wa kiroho, viongozi wa kiroho ambao waliongoza jamii kwa sala kwa ajili ya mazishi, sikukuu za watakatifu na wakati wowote kuhani haukupatikana	Hakuna mitaa iliyokuwa na viongozi wa kiroho ambao hawakuwa makuhani.	2
+Vijiji vingine vilikuwa na watumishi wa kiroho, viongozi wa kiroho ambao waliongoza jamii kwa sala kwa ajili ya mazishi, sikukuu za watakatifu na wakati wowote kuhani haukupatikana	Vijiji vingine vilikuwa na viongozi wa kiroho ambao hawakuwa makuhani.	0
+Vijiji vingine vilikuwa na watumishi wa kiroho, viongozi wa kiroho ambao waliongoza jamii kwa sala kwa ajili ya mazishi, sikukuu za watakatifu na wakati wowote kuhani haukupatikana	Baadhi ya viongozi wa kidini walikuwa na nywele nyeusi.	1
+Katika mchezo ya kijamii, fursa za kufanya kazi na kuratibu majukumu mbalimbali huenda yanawasaidia watoto kuelewa kufanana na tofauti kati ya watu katika tamaa, imani na hisia.	Watoto wanaweza kujifunza jinsi watu wanavyofanana na tofauti.	0
+Katika mchezo ya kijamii, fursa za kufanya kazi na kuratibu majukumu mbalimbali huenda yanawasaidia watoto kuelewa kufanana na tofauti kati ya watu katika tamaa, imani na hisia.	Watoto wanaweza kuona jinsi ukoo mbalimbali ni tofauti.	1
+Katika mchezo ya kijamii, fursa za kufanya kazi na kuratibu majukumu mbalimbali huenda yanawasaidia watoto kuelewa kufanana na tofauti kati ya watu katika tamaa, imani na hisia.	Watoto hawawezi kujifunza kitu chochote.	2
+Ubora wa juu wa utaratibu wa kikatiba wa Ujerumani baada ya vita, basi, ulikuwa ni majeruhi makubwa zaidi ya utawala wa Nazi.	Utawala wa Nazi uliiruhusu.	2
+Ubora wa juu wa utaratibu wa kikatiba wa Ujerumani baada ya vita, basi, ulikuwa ni majeruhi makubwa zaidi ya utawala wa Nazi.	Utawala wa Nazi uliuuwa kila mtu aliyehusika.	1
+Ubora wa juu wa utaratibu wa kikatiba wa Ujerumani baada ya vita, basi, ulikuwa ni majeruhi makubwa zaidi ya utawala wa Nazi.	Utawala wa Nazi uliukomesha.	0
+Sonja mtoto huyo alianza kuiga kelele za binti yake.	Hakuna aliyekuwa na tantrum.	2
+Sonja mtoto huyo alianza kuiga kelele za binti yake.	Sonja ni mtoto.	0
+Sonja mtoto huyo alianza kuiga kelele za binti yake.	Sonja alikuwa amekasirika.	1
+Katika miaka hamsini na mitano inayoongoza kwenye vita vya wenyewe kwa wenyewe, Mahakama ilitumia nguvu hii kwa uhaba sana.	Mahakama ilikuwa inatumia hii nguvu katika miaka iliyotangulia vita  vya wenyewe kwa wenyewe.	0
+Katika miaka hamsini na mitano inayoongoza kwenye vita vya wenyewe kwa wenyewe, Mahakama ilitumia nguvu hii kwa uhaba sana.	Mahakama ilitumia mamlaka hii mara 4, kwa kipindi cha miaka hamsini na tano kabla ya vita ya wenyewe kwa wenyewe.	1
+Katika miaka hamsini na mitano inayoongoza kwenye vita vya wenyewe kwa wenyewe, Mahakama ilitumia nguvu hii kwa uhaba sana.	Korti ilitumia mamlaka haya mara milioni 5 kwa miaka hamsini na mitano iliyopelekea vita vya wenyewe kwa wenyewe.	2
+Ninakuhakikishia, bwana, kwamba nilikuwa na taarifa kamili ya wote.	Ninakwambia kuwa nilijulishwa kila kitu.	0
+Ninakuhakikishia, bwana, kwamba nilikuwa na taarifa kamili ya wote.	Ilikuwa kifo cha mpekuzi nilichopata ujumbe kuhusu.	1
+Ninakuhakikishia, bwana, kwamba nilikuwa na taarifa kamili ya wote.	Kuna maelezo mengi yaliyofichwa kutoka kwangu.	2
+Sauti zilisumbua Kapteni Blood kutoka kwa tafakari zake zenye kinyongo.	Nahodha Blood aliweza kufikiria bila  kusumbuliwa.	2
+Sauti zilisumbua Kapteni Blood kutoka kwa tafakari zake zenye kinyongo.	Mafikra ya Captain Blood yaikatizwa na kelele.	0
+Sauti zilisumbua Kapteni Blood kutoka kwa tafakari zake zenye kinyongo.	Kupiga kelele kwa kijibwa kulimsisismua nahodha kutoka kwa ndoto zake.	1
+Lakini siwezi kusahau kuwa wakati nilikuwa si bora kuliko mtumwa katika nyumba ya mjomba wako huko Barbados, ulinitumia kwa fadhili fulani.	Ulinitendea vyema nilipokuwa mtumwa Barbados.	0
+Lakini siwezi kusahau kuwa wakati nilikuwa si bora kuliko mtumwa katika nyumba ya mjomba wako huko Barbados, ulinitumia kwa fadhili fulani.	Ulikuwa katili sana kwangu na ukanifanya vibaya kuliko mchanga.	2
+Lakini siwezi kusahau kuwa wakati nilikuwa si bora kuliko mtumwa katika nyumba ya mjomba wako huko Barbados, ulinitumia kwa fadhili fulani.	Mjomba wako alinichapa sana kila siku aliponimiliki.	1
+Huko, sio zaidi ya maili tatu mbali, ilikuwa ardhi - ukuta usio sawa wa kijani kilichokua wazi ambao ulijaa upeo wa magharibi.	Mandhari tele yalikuwa yameonekana.	0
+Huko, sio zaidi ya maili tatu mbali, ilikuwa ardhi - ukuta usio sawa wa kijani kilichokua wazi ambao ulijaa upeo wa magharibi.	Kisiwa walichokuwa wakikaribia hakikuwa na watu.	1
+Huko, sio zaidi ya maili tatu mbali, ilikuwa ardhi - ukuta usio sawa wa kijani kilichokua wazi ambao ulijaa upeo wa magharibi.	Hawangeweza kuona ardhi kwa maili nyingi. bahari tu isiyoisha.	2
+Mimi ni mjumbe wa Mfalme kwa sehemu hizi zisiyosahilishawa mno, na jamaa wa karibu wa Bwana Sunderland.	Mfalme wake ana wajumbe, na mimi ni mmoja wao.	0
+Mimi ni mjumbe wa Mfalme kwa sehemu hizi zisiyosahilishawa mno, na jamaa wa karibu wa Bwana Sunderland.	Mtukufu allinituma hapa karibu wiki moja iliyopita.	1
+Mimi ni mjumbe wa Mfalme kwa sehemu hizi zisiyosahilishawa mno, na jamaa wa karibu wa Bwana Sunderland.	Sichukui amri kutoka kwa mtukufu.	2
+Ulinidai --au nlidhani nlifanya, alisema.	Yeye hakufikiri alikuwa na deni lako lolote.	2
+Ulinidai --au nlidhani nlifanya, alisema.	Ana deni lako kwa ajili ya msaada ambao ulimpa kama mtu wa kuombaomba asiye na pesa.	1
+Ulinidai --au nlidhani nlifanya, alisema.	alidhani unamdai kitu	0
+Nilipaswa kujua zaidi kuliko kuja karibu sana na Jamaica usiku.	Nilisafiri karibu na Jamaika baada ya machweo.	0
+Nilipaswa kujua zaidi kuliko kuja karibu sana na Jamaica usiku.	nilienda Jamaica kwa mashua kubwa	1
+Nilipaswa kujua zaidi kuliko kuja karibu sana na Jamaica usiku.	tuliwasili Jamaika na mke wangu mchana.	2
+Mawazo ya damu zilikuwa hapa na kule alipokuwa akipumzika  kitandani.	Damu ilitiririka ndotoni isiyofahamika juu ya kitanda chake cha siku.	2
+Mawazo ya damu zilikuwa hapa na kule alipokuwa akipumzika  kitandani.	Damu ilikuwa inacheua akiwa amejilaza chini.	0
+Mawazo ya damu zilikuwa hapa na kule alipokuwa akipumzika  kitandani.	Blood alikua akifikiria  kuhusu mara ya mwisho alimwona mama yake.	1
+Kweli ,watakuambia.	Sawa sawa, nitakuambia kuhusu hilo.	0
+Kweli ,watakuambia.	Sitakuambia neno.	2
+Kweli ,watakuambia.	Ni kwa sababu tu uliahidi hutarudia hii ninayokuambia.	1
+Ah! Na hiyo inaweza kuwa njia gani?	Mtu anauliza njia anayofaa kwenda.	0
+Ah! Na hiyo inaweza kuwa njia gani?	Muulizaji yuko pekee yake na hamna mtu karibu wa kutoa maoni	2
+Ah! Na hiyo inaweza kuwa njia gani?	Anayeuliza ana haraka kujua hivi sasa njia atakayotumia.	1
+Sichulii paki la mfalme kwa urahisi.	Kutoa ruhusa ya komisheni ya mfalme inakwenda kinyume na adili zangu.	1
+Sichulii paki la mfalme kwa urahisi.	NImepatia mawazo mazito utumishi wa mfalme.	0
+Sichulii paki la mfalme kwa urahisi.	Nilitia sahihi agizo la kupea mfalme komisheni bila mawazo ya pili.	2
+Aligundua kuwa anaweza kuepuka kwa haraka.	Alitambua kuwa alikuwa na siku nzima ya kupumzika.	2
+Aligundua kuwa anaweza kuepuka kwa haraka.	Aligundua anahitaji kuamua haraka.	0
+Aligundua kuwa anaweza kuepuka kwa haraka.	Angekaa mahali pamoja angepatikana.	1
+Hata hivyo amekuwa kile alichokuwa  na kufanya kile alichokifanya katika miaka mitatu iliyopita, alisema, lakini alisema kwa huzuni sasa, bila dharau yake ya awali.	Yeye hakupenda kwamba alikuwa ameuawa watu wengi katika miaka mitatu iliyopita.	1
+Hata hivyo amekuwa kile alichokuwa  na kufanya kile alichokifanya katika miaka mitatu iliyopita, alisema, lakini alisema kwa huzuni sasa, bila dharau yake ya awali.	aliongea kwa furaha kuhusu shani zake na utu wake.	2
+Hata hivyo amekuwa kile alichokuwa  na kufanya kile alichokifanya katika miaka mitatu iliyopita, alisema, lakini alisema kwa huzuni sasa, bila dharau yake ya awali.	Alinena kwa sauti za kusikitisha.	0
+Nadhani kwamba ni baada ya mtindo wa aina yako.	nafikiri wenzako hufanya hivi	0
+Nadhani kwamba ni baada ya mtindo wa aina yako.	Nimesoma kuhusu aina yako, na tamaduni zao.	1
+Nadhani kwamba ni baada ya mtindo wa aina yako.	Naichukulia kuwa hii haiko ya kawaida kwa aina yenu.	2
+Ukunjaji wa uso ulikunyanza kipaji chake.	Tabasamu kubwa ilienea kwenye uso wake.	2
+Ukunjaji wa uso ulikunyanza kipaji chake.	Alikuwa na hisia ya ugonjwa tumboni.	1
+Ukunjaji wa uso ulikunyanza kipaji chake.	Kulikuwa  na ukunjaji kipaji ju ya uso wake.	0
+Alikuwa amemtazama kwa macho yenye kuangaza, lakini alipoona uso wake wenye huzini, uliojeruhiwa  na wenye mshangao ,sure yake ilibadilika.	Sura yake ilibadilika baada ya kuona uso wake.	0
+Alikuwa amemtazama kwa macho yenye kuangaza, lakini alipoona uso wake wenye huzini, uliojeruhiwa  na wenye mshangao ,sure yake ilibadilika.	Uso wake ulingaa wakati aliona alivyokuwa amekunja kipaji.	2
+Alikuwa amemtazama kwa macho yenye kuangaza, lakini alipoona uso wake wenye huzini, uliojeruhiwa  na wenye mshangao ,sure yake ilibadilika.	Hakujua kama alikuwa amemkasirikia.	1
+Alipokuwa akitembea kwa raha, aliambaa ukuta wa mviringo, na  kupitia kwenye milango kubwa ndani ya ua.	Kwa kuwa milango kubwa ilikuwa imefungwa, aliruka juu ya uzio, akaingia ndani ya ua.	2
+Alipokuwa akitembea kwa raha, aliambaa ukuta wa mviringo, na  kupitia kwenye milango kubwa ndani ya ua.	Lango kuu huo ndio  ulikuwa eneo wa kipekee wa kuingia kuenda kwenye ua.	1
+Alipokuwa akitembea kwa raha, aliambaa ukuta wa mviringo, na  kupitia kwenye milango kubwa ndani ya ua.	Kulikuwa na lango kubwa zilizokuwa zikielekeza kwa bustani.	0
+Utatingikia kwenye kinyonga, bila shaka, alisema kwa kudharau.	Alidhani mtu angehukumiwa kunyongwa.	0
+Utatingikia kwenye kinyonga, bila shaka, alisema kwa kudharau.	Alikuwa ofisa ambaye alikuwa amemshika mwizi.	1
+Utatingikia kwenye kinyonga, bila shaka, alisema kwa kudharau.	Alinongóna njia ya kuepuka nchi ili kuepuka jela.	2
+Ningewezaje kwa uaminifu kuwazuia? Ilikuwa katika maafikiano.	Sikuweza kuleta mwenyewe kwa kuwashikilia hao	0
+Ningewezaje kwa uaminifu kuwazuia? Ilikuwa katika maafikiano.	Niliwashika punde tu nilivyowaona.	2
+Ningewezaje kwa uaminifu kuwazuia? Ilikuwa katika maafikiano.	Siwezi kujisamehe mwenyewe, ikiwa ningewazuia.	1
+Nimekuwa nikimwinda huu mwaka na uliopita.	Nimekuwa nikimfuata karibu kwa mwaka bila yeye kugundua.	1
+Nimekuwa nikimwinda huu mwaka na uliopita.	Nimekuwa nikimfuatilia kwa karibu wiki hivi.	2
+Nimekuwa nikimwinda huu mwaka na uliopita.	zaida ya kipindi cha mwaka nimemwandama kisirisiri	0
+Makumbusho hayakuwa imara kwenye orodha au lebo	Makavazi hayo hayapendi kuandikwa.	1
+Makumbusho hayakuwa imara kwenye orodha au lebo	Jumba la makumbusho sio shabiki wa vipeperushi.	0
+Makumbusho hayakuwa imara kwenye orodha au lebo	Sehemu yenye nguvu ya makumbusho hayo ni orodha yao.	2
+Masoko haya ya nje Beijing pia ni yakufurahisha sana kununua bihaa.	Beijing ina masoko ya wazi ambayo yanajumuisha maduka ya kuvutia sana.	0
+Masoko haya ya nje Beijing pia ni yakufurahisha sana kununua bihaa.	Soko huru mingi za Beijing hufurahisha sana duniani.	1
+Masoko haya ya nje Beijing pia ni yakufurahisha sana kununua bihaa.	Sheria kali za Beijing zinazuia soko za wazi ndani ya mipaka ya mji.	2
+Bahari kubwa zaidi ya pwani ya kaskazini magharibi hufanya bandari nzuri, lakini maji na pwani zote zinaweza kuwa chafu.	Maji na pwani daima ni safi.	2
+Bahari kubwa zaidi ya pwani ya kaskazini magharibi hufanya bandari nzuri, lakini maji na pwani zote zinaweza kuwa chafu.	Maji na ufuko wenyewe wawezakuwa mchafu.	0
+Bahari kubwa zaidi ya pwani ya kaskazini magharibi hufanya bandari nzuri, lakini maji na pwani zote zinaweza kuwa chafu.	Maji ni chafu kwa sababu ya uchafuzi wa mazingira.	1
+Majengo hayo makubwa ni mabenki, na barabara ambayo yamesimama imeitwa jina la Milla de Oro, au Golden Mile.	Hakuna majumba marefu katika Golden Mile ni mabenki	2
+Majengo hayo makubwa ni mabenki, na barabara ambayo yamesimama imeitwa jina la Milla de Oro, au Golden Mile.	Vijumba vilivyo kwente Golden MIle ni benki.	0
+Majengo hayo makubwa ni mabenki, na barabara ambayo yamesimama imeitwa jina la Milla de Oro, au Golden Mile.	Nyumba ndefu zilizoko katika Golden Mile ni biashara aina aina ikiwapo mabenki.	1
+Asili ya kutosha ya kuhusika kwa Uingereza kwa vita vya dunia vya pili ilianzia na mpango wa mafunzo wa Commonwealth Air wakitumia anga salama za Canada kutayarisha marubani kwa vita.	Canada ilikuwa na anga salama.	0
+Asili ya kutosha ya kuhusika kwa Uingereza kwa vita vya dunia vya pili ilianzia na mpango wa mafunzo wa Commonwealth Air wakitumia anga salama za Canada kutayarisha marubani kwa vita.	Anga ya Canada ilikuwa huru kutoka kwenye misumari.	1
+Asili ya kutosha ya kuhusika kwa Uingereza kwa vita vya dunia vya pili ilianzia na mpango wa mafunzo wa Commonwealth Air wakitumia anga salama za Canada kutayarisha marubani kwa vita.	Anga ya Canada ilikua hatari zaidi.	2
+Wanabaki wavumilivu na wasaidizi ,hata kama wanajua uzuri wa pwani sio wao tena.	Wana uchungu mwingi kwa kila mtu kwani lazima wagawane bei.	2
+Wanabaki wavumilivu na wasaidizi ,hata kama wanajua uzuri wa pwani sio wao tena.	Wanapaswa kushiriki pwani pamoja na watu wengine sasa.	0
+Wanabaki wavumilivu na wasaidizi ,hata kama wanajua uzuri wa pwani sio wao tena.	Walikuwa wanamiliki maili mia tano ya ufuko wa pwani.	1
+Kublai Khan alijenga mji mkuu wake katika mwaka wa 1279 katika pwani ya Ziwa Beihai ya Beijing, ambapo hazina zake za kifalme zimebaki leo.	Kublai Khan alijenga mji mkuu Taiwan.	2
+Kublai Khan alijenga mji mkuu wake katika mwaka wa 1279 katika pwani ya Ziwa Beihai ya Beijing, ambapo hazina zake za kifalme zimebaki leo.	Kublai Khan ana hazina huko Beijing.	0
+Kublai Khan alijenga mji mkuu wake katika mwaka wa 1279 katika pwani ya Ziwa Beihai ya Beijing, ambapo hazina zake za kifalme zimebaki leo.	Kublai Khan alikuwa mtu aliyeheshimiwa sana.	1
+Kuingiana kwa urahisi na wanajamii wa Uingereza , ni mashule ya makanisa yasiyo yakikatoliki ambayo yaliruhusu watoto wa Mashariki Waisraeli kutoka Uropa waliokuwa wamehitimu kuenda sehemu ya utajiri ya Westmount ama kuhama tena, kuenda Toronto.	Wayahudi wa Mashariki mwa Ulaya wanafanyika vizuri na kila mtu.	2
+Kuingiana kwa urahisi na wanajamii wa Uingereza , ni mashule ya makanisa yasiyo yakikatoliki ambayo yaliruhusu watoto wa Mashariki Waisraeli kutoka Uropa waliokuwa wamehitimu kuenda sehemu ya utajiri ya Westmount ama kuhama tena, kuenda Toronto.	Wayahudi hawatakikani na jamii iliyobaki.	1
+Kuingiana kwa urahisi na wanajamii wa Uingereza , ni mashule ya makanisa yasiyo yakikatoliki ambayo yaliruhusu watoto wa Mashariki Waisraeli kutoka Uropa waliokuwa wamehitimu kuenda sehemu ya utajiri ya Westmount ama kuhama tena, kuenda Toronto.	Wayahudi walifanyika rahisi na jumuiya ya Anglo..	0
+Ikiwezekana, Jifunze mchezo mbeleni.	Usingie kwa njama mwanzoni; itaharibu furaha baadae.	2
+Ikiwezekana, Jifunze mchezo mbeleni.	Jaribu kuelewa njama mapema, kama unaweza.	0
+Ikiwezekana, Jifunze mchezo mbeleni.	Utapata darasa rahisi kama utaelewa njama ya kitabu	1
+Vyumba vyake vya mazishi, mita 27 (futi 88) chini ya ardhi, vimetengenezwa kwa mawe ya chokaa na kifuniko 1,200 sq m (futi 13,000 sq).	Amezikwa zaidi ya mita ishirini chini ya ardhi.	0
+Vyumba vyake vya mazishi, mita 27 (futi 88) chini ya ardhi, vimetengenezwa kwa mawe ya chokaa na kifuniko 1,200 sq m (futi 13,000 sq).	Alikuwa mtu muhimu kwa takwimu za umma.	1
+Vyumba vyake vya mazishi, mita 27 (futi 88) chini ya ardhi, vimetengenezwa kwa mawe ya chokaa na kifuniko 1,200 sq m (futi 13,000 sq).	Kuba zake za mazishi hufanywa kwa mbao.	2
+Kumbuka kuzificha vitu vyote vinavyobebwa kutoka kwa  tumbili.	Ficha mali yako kutoka kwa nyani.	0
+Kumbuka kuzificha vitu vyote vinavyobebwa kutoka kwa  tumbili.	Nyani amependezwa na vitu vingi, hadi vitu vyako.	1
+Kumbuka kuzificha vitu vyote vinavyobebwa kutoka kwa  tumbili.	Sio lazima ufichie tumbili vitu vyako.	2
+Kama miaka elfu moja na mia nne iliyo pita kabla ukmbi wa mfalme kuelekwa,Milreu ilikuwa nyumba kubwa nchini ya mtu aliye mungwana.	Milreu alikuwa maili 10 kufikia chochote.	1
+Kama miaka elfu moja na mia nne iliyo pita kabla ukmbi wa mfalme kuelekwa,Milreu ilikuwa nyumba kubwa nchini ya mtu aliye mungwana.	Milreu alikuwa nje kwenye konde.	0
+Kama miaka elfu moja na mia nne iliyo pita kabla ukmbi wa mfalme kuelekwa,Milreu ilikuwa nyumba kubwa nchini ya mtu aliye mungwana.	Milreu ilikuwa sahihi katika moyo wa mji huo.	2
+Bahari ya joto hutofautiana kati ya 18e na 24e C (64-75e F).	Vipimo vya joto katika bahari hubadilika kila wakati lakini haiendi chini ya kiwango cha kuganda.	0
+Bahari ya joto hutofautiana kati ya 18e na 24e C (64-75e F).	Joto ya bahari kila wakati iko katika kipimo fulani mwaka wote.	2
+Bahari ya joto hutofautiana kati ya 18e na 24e C (64-75e F).	Angalia temprecha ni kubwa wakati wa mchana, wakati ni joto.	1
+Mbuga ya wanyama ya Kinabalu ni moja ya maeneo sita yaliyolindwa katika eneo hili	Hifadhi ya Taifa ya Kinabalu ina tembo kumi na kifaru sita.	1
+Mbuga ya wanyama ya Kinabalu ni moja ya maeneo sita yaliyolindwa katika eneo hili	Nchi imelinda meneo , ikiwemo mbuga ya kitaifa ya Kinabalu.	0
+Mbuga ya wanyama ya Kinabalu ni moja ya maeneo sita yaliyolindwa katika eneo hili	Kuna jumla ya maeneo matatu yaliyolindwa kwenye taifa.	2
+Utaona video ya stori ya Anna na Amsterdam chini ya makazi pamoja na picha na shaba za wakati huo.	Hutaona picha.	2
+Utaona video ya stori ya Anna na Amsterdam chini ya makazi pamoja na picha na shaba za wakati huo.	Utaona picha.	0
+Utaona video ya stori ya Anna na Amsterdam chini ya makazi pamoja na picha na shaba za wakati huo.	Utaona mojawapo ya picha za kwanza.	1
+Treasure Beach ni eneo pekee la mapumziko la kuzungumzia, na hoteli kiasi zinazozingatia bahari tatu za mchanga.	Hakuna chagua mingi za hoteli kwa wale wenye wanazuru Treasure Beach.	0
+Treasure Beach ni eneo pekee la mapumziko la kuzungumzia, na hoteli kiasi zinazozingatia bahari tatu za mchanga.	Kuna hoteli moja ya kiwango cha  four star kwa watalii wanaotembelea ufuo wa Treasure.	1
+Treasure Beach ni eneo pekee la mapumziko la kuzungumzia, na hoteli kiasi zinazozingatia bahari tatu za mchanga.	Pwani ya Treasure ni mojawapo ya vivutio vingi katika eneo hilo.	2
+Majira ya joto huleta hali ya hewa joto na joto la bahari na kuifanya hali kuwa sawa kwa michezo ya maji	Daima ni digrii 100 au zaidi wakati wa majira ya joto.	2
+Majira ya joto huleta hali ya hewa joto na joto la bahari na kuifanya hali kuwa sawa kwa michezo ya maji	Hio huwa 75 msimu wa majira ya joto.	1
+Majira ya joto huleta hali ya hewa joto na joto la bahari na kuifanya hali kuwa sawa kwa michezo ya maji	Majira ya joto huwa na halijoto iliyo vuguvugu.	0
+Miongoni mwa mabwawa ni moja ambalo linakaliwa na Wageni kurusha sarafu kwa tumaini la kukata kichwa cha kobe mmoja, njia ya uhakika ya kufikia bahati nzuri.	Watu kamwe hawatupi fedha kwa sababu ni bahati mbaya.	2
+Miongoni mwa mabwawa ni moja ambalo linakaliwa na Wageni kurusha sarafu kwa tumaini la kukata kichwa cha kobe mmoja, njia ya uhakika ya kufikia bahati nzuri.	Watu wanatupa mashilingi ndani ingawa ishara inasema wasifanye hivo.	1
+Miongoni mwa mabwawa ni moja ambalo linakaliwa na Wageni kurusha sarafu kwa tumaini la kukata kichwa cha kobe mmoja, njia ya uhakika ya kufikia bahati nzuri.	Watu hurusha sarafu majini.	0
+Mji wa bandari wa Nifplio unatengeneza msingi kamili kwa ajili ya kutembelea eneo hilo, au labda mahali pa kupata chakula cha mchana wakati wa ziara yako.	Nafplio ina mandhari mazuri.	1
+Mji wa bandari wa Nifplio unatengeneza msingi kamili kwa ajili ya kutembelea eneo hilo, au labda mahali pa kupata chakula cha mchana wakati wa ziara yako.	Nafplio ni eneo mbaya.	2
+Mji wa bandari wa Nifplio unatengeneza msingi kamili kwa ajili ya kutembelea eneo hilo, au labda mahali pa kupata chakula cha mchana wakati wa ziara yako.	Nafplio ni makao kamili.	0
+Katika  Prinsengracht,Otto Frank na familia yake walijificha katika darini za biashara zao kwa miaka miwili kabla hawajagunduliwa.	Otto Frank alitekwa siku ya pili.	2
+Katika  Prinsengracht,Otto Frank na familia yake walijificha katika darini za biashara zao kwa miaka miwili kabla hawajagunduliwa.	Otto Frank alificha kwa zaidi ya miezi 25.	0
+Katika  Prinsengracht,Otto Frank na familia yake walijificha katika darini za biashara zao kwa miaka miwili kabla hawajagunduliwa.	Otto Frank alijificha hadi Wanazi wakampata.	1
+Serikali nyingi za mijii na za mitaa zina mahitaji ya ziada ya ukaguzi.	Serikali za mitaa zinaunda sheria zao wenyewe.	1
+Serikali nyingi za mijii na za mitaa zina mahitaji ya ziada ya ukaguzi.	Serikali za mitaa hazina mahitaji yoyote.	2
+Serikali nyingi za mijii na za mitaa zina mahitaji ya ziada ya ukaguzi.	Kuna masuala ya ziada ya ukaguzi kulingana na serikali za mitaa.	0
+Kundi la usalama wa habari linatengeneza vikao kati ya 8 na 12 kila mwezi.	Kikundi cha usalama kina wastani wa vikao 9 kwa mwezi.	1
+Kundi la usalama wa habari linatengeneza vikao kati ya 8 na 12 kila mwezi.	Kundi la usalama linafanya kikao kila siku ya mwezi.	2
+Kundi la usalama wa habari linatengeneza vikao kati ya 8 na 12 kila mwezi.	Kundi la usalama hufanya vikao mbalimbali kwa mwaka.	0
+Hata hivyo, Uhandisi wa awali ulikamilika mapema.	mhandisi alikuwa na wakati wa awali	0
+Hata hivyo, Uhandisi wa awali ulikamilika mapema.	Uhandisi ilitokea tu katika hatua ya mwisho.	2
+Hata hivyo, Uhandisi wa awali ulikamilika mapema.	Bila wakati wa matayarisho,uhandisi unaweza kuanguaka hatua za baadaye.	1
+Matokeo yake, watunga uamuzi wa serikali na mameneja wanatumia njia mpya za kufikiria, kwa kuzingatia njia tofauti za kufanikisha malengo, na kutumia habari mpya kuongoza maamuzi.	Wawakilishi wa serikali wanabadilisha mbinu zao.	0
+Matokeo yake, watunga uamuzi wa serikali na mameneja wanatumia njia mpya za kufikiria, kwa kuzingatia njia tofauti za kufanikisha malengo, na kutumia habari mpya kuongoza maamuzi.	Wawakilishaji wa serikali wanajaribu kuongeza mamlaka yao kwa kufikiria vitofauti.	1
+Matokeo yake, watunga uamuzi wa serikali na mameneja wanatumia njia mpya za kufikiria, kwa kuzingatia njia tofauti za kufanikisha malengo, na kutumia habari mpya kuongoza maamuzi.	wawakilishi wa serikali wamekatataa kubadili mienendo yao ya maisha	2
+Faili za kesi zinahitajika kutafsiriwa kwa wateja ambao wana soma lugha nyingine isiokua ya Kiingereza.	Faili za kesi zinaruhusiwa kuwa katika Kiingereza.	2
+Faili za kesi zinahitajika kutafsiriwa kwa wateja ambao wana soma lugha nyingine isiokua ya Kiingereza.	Faili za kesi zinaweza kuandikwa kwenye lugha za Kichina au Kirusi.	1
+Faili za kesi zinahitajika kutafsiriwa kwa wateja ambao wana soma lugha nyingine isiokua ya Kiingereza.	Faili za kesi zinaweza kuwekwa katika lugha zingine.	0
+Jitihada zingine zilizopo sasa au zilizopangwa ni pamoja na	jitihatada za wengi ziko njiani	1
+Jitihada zingine zilizopo sasa au zilizopangwa ni pamoja na	Hatujapanga kitu chochote kwa siku zijazo.	2
+Jitihada zingine zilizopo sasa au zilizopangwa ni pamoja na	Tuna kitu kilichopangwa.	0
+Ongeza mambo kama wakati mfupi, kufutwa kwa faili hailisi za kompyuta, na kukosa kufikia hati zinazohitajika.	Walifuta faili za kompyuta kutoka kwa IBM.	1
+Ongeza mambo kama wakati mfupi, kufutwa kwa faili hailisi za kompyuta, na kukosa kufikia hati zinazohitajika.	Walifuta faili asili ya kompyuta.	0
+Ongeza mambo kama wakati mfupi, kufutwa kwa faili hailisi za kompyuta, na kukosa kufikia hati zinazohitajika.	Waliweka faili zote za awali.	2
+Halafu, yuyo huyo mwakilishi aliyetembea mara ya kwanza alitembelea mtoa huduma mpya kujibu maswali and kujadili shida zilizowakilishwa katika sampuli ya madai.	wawakilishi walizuru kwa saa moja	1
+Halafu, yuyo huyo mwakilishi aliyetembea mara ya kwanza alitembelea mtoa huduma mpya kujibu maswali and kujadili shida zilizowakilishwa katika sampuli ya madai.	Kulikuwa na ziara ya mwakilishi.	0
+Halafu, yuyo huyo mwakilishi aliyetembea mara ya kwanza alitembelea mtoa huduma mpya kujibu maswali and kujadili shida zilizowakilishwa katika sampuli ya madai.	hajawai enda kutembea	2
+Si tu kuweka akiba kunaoathiri kiwango cha akiba, bali akiba pia huathiri uchaguzi wa akiba.	Uamuzi wa ikiwa mtu atahifadhi pesa au la inadhiriwa na mali yao.	0
+Si tu kuweka akiba kunaoathiri kiwango cha akiba, bali akiba pia huathiri uchaguzi wa akiba.	utajiri na akiba mara nyingi hazihusunishwi	2
+Si tu kuweka akiba kunaoathiri kiwango cha akiba, bali akiba pia huathiri uchaguzi wa akiba.	Watu tajiri wana uwezekano zaidi wa kuhifahi sehemu kubwa ya mapato yao.	1
+Kwa mfano, shirika moja ambalo tulipeleleza lilikuwa na ushirikiano wa shirika mbili ambao ulitaka kampuni iweze kuunganisha biashara mpya na urekebishaji ili kufikia mahitaji ya biashara inayokua.	Ingawa kulikuwa na miungano miwili, hakukuwa na haja ya kampuni kupitia urekebishaji wa mfumo wa viwango.	2
+Kwa mfano, shirika moja ambalo tulipeleleza lilikuwa na ushirikiano wa shirika mbili ambao ulitaka kampuni iweze kuunganisha biashara mpya na urekebishaji ili kufikia mahitaji ya biashara inayokua.	Kuunganisha kampuni mbili iwe shirika moja na kutengenezwa upya ilileta mazingira ya kazi yenye vurugu.	1
+Kwa mfano, shirika moja ambalo tulipeleleza lilikuwa na ushirikiano wa shirika mbili ambao ulitaka kampuni iweze kuunganisha biashara mpya na urekebishaji ili kufikia mahitaji ya biashara inayokua.	Tulichunguza kampuni iliyopata mashirikiano mawili na ilibidi urekebishaji haraka ili kukidhi mahitaji yao ya biashara.	0
+mpango, tulikuwa na wasiwasi ya kwamba malipo yataidhinishwa kabla ya kuthibitisha ya kwamba usafiri kweli ulifanyika.	Tulijua malipo yangechukua milele.	2
+mpango, tulikuwa na wasiwasi ya kwamba malipo yataidhinishwa kabla ya kuthibitisha ya kwamba usafiri kweli ulifanyika.	Tulidhania malipo yatafanyika kabla ya thibitisho.	0
+mpango, tulikuwa na wasiwasi ya kwamba malipo yataidhinishwa kabla ya kuthibitisha ya kwamba usafiri kweli ulifanyika.	Tulidhania malipo yaweza kuwa mapema na watulaghai.	1
+Teknolojia imeunganishwa sana na mchakato wa biashara katika mashirika haya kwa sababu teknolojia inaonekana kama njia ya kuwezesha biashara, si chombo tu .	Programu ya kupanga ya kiwango cha juu ni mojawapo ya teknolojia muhimu biashara zinazingatia.	1
+Teknolojia imeunganishwa sana na mchakato wa biashara katika mashirika haya kwa sababu teknolojia inaonekana kama njia ya kuwezesha biashara, si chombo tu .	Teknolojia ni kifaa tu wala si kitu cha kuwezesha biashara.	2
+Teknolojia imeunganishwa sana na mchakato wa biashara katika mashirika haya kwa sababu teknolojia inaonekana kama njia ya kuwezesha biashara, si chombo tu .	biashara hii yazingatia zaidi kwa teknolojia	0
+Dhana mbili zinazotokea kwa fasihi zinaweza zikawa za manufaa katika kutoa tarifa kwa utafiti wa wakati ujao.	Maandishi yanaweza badilisha vile tunachunguza sampuli	1
+Dhana mbili zinazotokea kwa fasihi zinaweza zikawa za manufaa katika kutoa tarifa kwa utafiti wa wakati ujao.	Vitabu vinaweza kubadilisha utafiti wa miaka zijazo	0
+Dhana mbili zinazotokea kwa fasihi zinaweza zikawa za manufaa katika kutoa tarifa kwa utafiti wa wakati ujao.	Hakuna kitu kingine cha kufanya katika suala la kubadili utafiti.	2
+Mstari unaoandikwa na masanduku huonyesha kiwango cha ustawi wa barua pepe pamoja na mistari iliyojumuishwa na almasi inaonyesha hasara za kiufundi (kama hasi) ya kuhamisha kazi kwa chama kingine.	Mistari inahesabu kuwa kiwango cha ustawi cha watumaji wa barua ni 10%.	1
+Mstari unaoandikwa na masanduku huonyesha kiwango cha ustawi wa barua pepe pamoja na mistari iliyojumuishwa na almasi inaonyesha hasara za kiufundi (kama hasi) ya kuhamisha kazi kwa chama kingine.	Laini hazionyeshi lolote isipokuwa njia.	2
+Mstari unaoandikwa na masanduku huonyesha kiwango cha ustawi wa barua pepe pamoja na mistari iliyojumuishwa na almasi inaonyesha hasara za kiufundi (kama hasi) ya kuhamisha kazi kwa chama kingine.	Mistari ianonyesha kiasi cha ustawi ulio katika wote wanaosafirisha barua.	0
+Kulingana na tathmini hii ya hatari, Centrelink ilianzisha mikakati maalum ya kuzuia lengo la kuelimisha walengwa na waajiri juu ya mahitaji ya kuripoti mapato.	Centrelink hakujua jinsi ya kushughulikia tatizo hilo.	2
+Kulingana na tathmini hii ya hatari, Centrelink ilianzisha mikakati maalum ya kuzuia lengo la kuelimisha walengwa na waajiri juu ya mahitaji ya kuripoti mapato.	Centrelink ilikuwa na mikakati mingi ya kuwafundisha watu jinsi ya kuripoti mapato kwa sababu serikali ilipoteza pesa nyingi kwa makosa	1
+Kulingana na tathmini hii ya hatari, Centrelink ilianzisha mikakati maalum ya kuzuia lengo la kuelimisha walengwa na waajiri juu ya mahitaji ya kuripoti mapato.	Centrelink ilikuwa na mikakati mingi kufundisha watu jinsi ya kuripoti mapato.	0
+Hii iliruhusu maandamano ya kubuni kabla ya makampuni kufanya uwekezaji wa gharama kubwa katika kutengeneza vifaa na vyombo vya  ili kujenga mwakilishi wa mfano wa uzalishaji wa awamu za maandamo.	Hivyo wangeweza kuonyesha jinsi mtindo huo ulifanya kazi.	0
+Hii iliruhusu maandamano ya kubuni kabla ya makampuni kufanya uwekezaji wa gharama kubwa katika kutengeneza vifaa na vyombo vya  ili kujenga mwakilishi wa mfano wa uzalishaji wa awamu za maandamo.	Wangeweza kuonyesha kampuni kuwa haikuwa busara kujenga karakana mpya.	1
+Hii iliruhusu maandamano ya kubuni kabla ya makampuni kufanya uwekezaji wa gharama kubwa katika kutengeneza vifaa na vyombo vya  ili kujenga mwakilishi wa mfano wa uzalishaji wa awamu za maandamo.	Hawakujua jinsi ya kuonyesha athari za uwekezaji.	2
+Jitihada za kushirikiana za Carolina Kusini zilizalisha mafanikio mengine mwaka uliofuata.	Hakuna mtu huko Carolina Kusini aliyefanya kazi pamoja.	2
+Jitihada za kushirikiana za Carolina Kusini zilizalisha mafanikio mengine mwaka uliofuata.	SC ilifanya kazi pamoja.	0
+Jitihada za kushirikiana za Carolina Kusini zilizalisha mafanikio mengine mwaka uliofuata.	Wanachama wa vyama vya Democratic na Republican wanafanya kazi pamoja.	1
+Kwa mujibu wa afisa wa Bodi, kifungu cha 605 b) cha Bodi utoaji wa hati haukutolewa tofauti kwa Mshauri Mkuu wa Taasisi ya Biashara ndogo (SBA) kwa Utetezi.	Bodi haikumpa SBA hati na waliwachia jambo hilo afisi ya mkaguzi	1
+Kwa mujibu wa afisa wa Bodi, kifungu cha 605 b) cha Bodi utoaji wa hati haukutolewa tofauti kwa Mshauri Mkuu wa Taasisi ya Biashara ndogo (SBA) kwa Utetezi.	Bodi haikutoa vyeti vya SBA.	0
+Kwa mujibu wa afisa wa Bodi, kifungu cha 605 b) cha Bodi utoaji wa hati haukutolewa tofauti kwa Mshauri Mkuu wa Taasisi ya Biashara ndogo (SBA) kwa Utetezi.	Bodi ilitoa vyeti vya SBA kila siku kwa yeyote anayeomba kwa moja.	2
+Mchezo unapofanyika kwa hoteli na malipo mengine, uthibitishaji wa tripu halisi utafanywa.	hoteli mingi zakubali malipo kupitia kadi	1
+Mchezo unapofanyika kwa hoteli na malipo mengine, uthibitishaji wa tripu halisi utafanywa.	Safari yenyewe itatibitishwa kutumia gharama za mkahawa.	0
+Mchezo unapofanyika kwa hoteli na malipo mengine, uthibitishaji wa tripu halisi utafanywa.	Hakuna njia ya kuthibitisha ikiwa safari ya kweli ilitokea au la.	2
+Kwa mfano, mji mkuu mmoja tuliotembelea ni makao ya zaidi ya kampuni 600 za programu.	Miji mikuu ndiyo mahali pazuri zaidi pa kampuni za programu.	1
+Kwa mfano, mji mkuu mmoja tuliotembelea ni makao ya zaidi ya kampuni 600 za programu.	Kuna mji mkuu ambalo lina kampuni nyingi za kutengeneza programu za kompyuta.	0
+Kwa mfano, mji mkuu mmoja tuliotembelea ni makao ya zaidi ya kampuni 600 za programu.	Kampuni za programu hulenga miji mikuu kwa sababu za kisheria.	2
+Katika ufanisi wa kupima, ukamilifu hauwezi kupatikana.	Unaweza kuwa mkamilifu ukijaribu kwa bidii.	2
+Katika ufanisi wa kupima, ukamilifu hauwezi kupatikana.	Hauwezi kuwa mkamilifu.	0
+Katika ufanisi wa kupima, ukamilifu hauwezi kupatikana.	Huwezi kuwa mkamilifu kwa sababu sisi sote tunakasoro zetu.	1
+Aliyekuwa kwenye nyumba na kumkodesha Hazmi na Mihdhar chumba mwaka wa 2000 ni mwananchi anayefuata sheria na liye na uwasiliano wa muda mrefu na polisi.	Hazmi na Mihdhar walinunua nyumba bila mawasiliano na mtu yeyote.	2
+Aliyekuwa kwenye nyumba na kumkodesha Hazmi na Mihdhar chumba mwaka wa 2000 ni mwananchi anayefuata sheria na liye na uwasiliano wa muda mrefu na polisi.	Hazmi na Mihdhar walikodisha chumba kwa mwaka mzima, kwa $500 kwa siku.	1
+Aliyekuwa kwenye nyumba na kumkodesha Hazmi na Mihdhar chumba mwaka wa 2000 ni mwananchi anayefuata sheria na liye na uwasiliano wa muda mrefu na polisi.	Hazmi na Mihdhar walikodisha chumba.	0
+Kwa safari wao kwenda Bosnia, angalia Ripoti ya Upelelezi, kuhojiwa kwa mwanachama wa  al Qaeda kutoka Saudi, Oktoba 3, 2001.	Mwanachama wa al Qaeda ali enda Bosnia mara 18 mwaka 2001.	1
+Kwa safari wao kwenda Bosnia, angalia Ripoti ya Upelelezi, kuhojiwa kwa mwanachama wa  al Qaeda kutoka Saudi, Oktoba 3, 2001.	Mshirika wa al Qaeda alienda hadi Bosnia.	0
+Kwa safari wao kwenda Bosnia, angalia Ripoti ya Upelelezi, kuhojiwa kwa mwanachama wa  al Qaeda kutoka Saudi, Oktoba 3, 2001.	Hakuna ushahidi wa mwanachama wa al Quaeda kwenda Bosnia.	2
+Jane alimuuliza wakala wa New York aliye pewa kazi ya utafutaji wa Mihdhar kutia sahihi fomu ya kukubali FISA inayoonyesha wakala kuelewa jinsi alipaswa kushugulikia habari za FISA.	Jane aliuliza fomu ya kukubali FISA kusainiwa na hakimu wa shirikisho.	1
+Jane alimuuliza wakala wa New York aliye pewa kazi ya utafutaji wa Mihdhar kutia sahihi fomu ya kukubali FISA inayoonyesha wakala kuelewa jinsi alipaswa kushugulikia habari za FISA.	Jane aliomba kwamba fomu ya FISA itiwe saini.	0
+Jane alimuuliza wakala wa New York aliye pewa kazi ya utafutaji wa Mihdhar kutia sahihi fomu ya kukubali FISA inayoonyesha wakala kuelewa jinsi alipaswa kushugulikia habari za FISA.	Jane alisema hakuna kukiri kwa FISA una umuhimu.	2
+Hakuna kitu kinachojulikana kuhusu yeyote kati yao kuhusiana na tu safu ya usalama iliyokuwa muhimu kwa kituo cha uchunguzi halisi wa ukaguzi.	Ushahidi wa kutisha uligunduliwa wakati wa uchunguzi wa ukaguzi.	2
+Hakuna kitu kinachojulikana kuhusu yeyote kati yao kuhusiana na tu safu ya usalama iliyokuwa muhimu kwa kituo cha uchunguzi halisi wa ukaguzi.	Uchunguzi wa mahali pa kuchungulia inategemea sana vile ambavyo ajenti anafikiria.	1
+Hakuna kitu kinachojulikana kuhusu yeyote kati yao kuhusiana na tu safu ya usalama iliyokuwa muhimu kwa kituo cha uchunguzi halisi wa ukaguzi.	Ufuatiliaji wa kuangalia haukuweza kugundua ushahidi wowote dhidi yao.	0
+Khallad ametoa toleo la pili, yaani kwamba wote watatu walisafiri pamoja kuelekea Karachi.	Khallad alisema ya kwamba hakujua chochote kuhusu watatu hao.	2
+Khallad ametoa toleo la pili, yaani kwamba wote watatu walisafiri pamoja kuelekea Karachi.	Khallad alisema hao watatu wangeweza kusafiri pamoja.	0
+Khallad ametoa toleo la pili, yaani kwamba wote watatu walisafiri pamoja kuelekea Karachi.	Khallad alisema kuna nafasi ya 50% hao watatu walikwenda Karachi pamoja mwezi Oktoba.	1
+Ripoti ya upelelezi, uhoji wa Binalshibh, Oktoba 1, 2002.	Binalshibh alihojiwa na kikundi cha kazi cha FBI.	1
+Ripoti ya upelelezi, uhoji wa Binalshibh, Oktoba 1, 2002.	Binalshibh alichunguzwa mwaka wa 2002.	0
+Ripoti ya upelelezi, uhoji wa Binalshibh, Oktoba 1, 2002.	Binalshibh hakuwai ngeleshwa na akatoweka.	2
+Mihdhar alipewa viza jipya , siku mbili baada ya mkutano na CIA-FBI, New York.	Mihdhar alikuwa na viza ya Marekani ili kuingia nchini.	0
+Mihdhar alipewa viza jipya , siku mbili baada ya mkutano na CIA-FBI, New York.	Mihdhar hakupata visa, kwahivyo hakukuja huku Marekani.	2
+Mihdhar alipewa viza jipya , siku mbili baada ya mkutano na CIA-FBI, New York.	Midhari alipewa Visa kwasababu hakuwa tishio.	1
+Licha ya miaka miwili ya uchunguzi, FBI haikuweza kupata mfanyakazi wa ushirikiano au kujua utambulisho wake wa kweli.	FBI hawakuweza ata kumpata yule mwanaume hata baada ya yeye kutoka Florida mnamo mwaka wa 2001.	1
+Licha ya miaka miwili ya uchunguzi, FBI haikuweza kupata mfanyakazi wa ushirikiano au kujua utambulisho wake wa kweli.	FBI hawangeweza kujua jamaa huyo alikuwa nani.	0
+Licha ya miaka miwili ya uchunguzi, FBI haikuweza kupata mfanyakazi wa ushirikiano au kujua utambulisho wake wa kweli.	FBI ilgungua alikuwa nani na kumtupa gerezani.	2
+Katika kesi ya Amerika ya 11, mawasiliano ya mwisho ya kawaida kutoka ndege ilikuwa saa 8:13 asubuhi.	Kulikuwa na mawasiliano kutoka kwa Amerika  11.	0
+Katika kesi ya Amerika ya 11, mawasiliano ya mwisho ya kawaida kutoka ndege ilikuwa saa 8:13 asubuhi.	Kulikuwa na mawasiliano kutoka American 11 kila baada ya dakika 15.	1
+Katika kesi ya Amerika ya 11, mawasiliano ya mwisho ya kawaida kutoka ndege ilikuwa saa 8:13 asubuhi.	Hapakuwa na mawasiliano yoyote kutoka kwa Amerika 11.	2
+Kugundua kuwa ingehitaji usaidizi wa haraka na ushirikiano mkuu wa serikali ya Ujerumani, ambayo ingekuwa ngumu kupata.	Yakikamilishwa, uchunguzi huo unaweza kufichua mahali walipojificha wakimbizi watatu.	1
+Kugundua kuwa ingehitaji usaidizi wa haraka na ushirikiano mkuu wa serikali ya Ujerumani, ambayo ingekuwa ngumu kupata.	Serikali ya Ujerumani huenda ilikuwa na wakati mgumu kufanya uchunguzi wa haraka na hakika.	0
+Kugundua kuwa ingehitaji usaidizi wa haraka na ushirikiano mkuu wa serikali ya Ujerumani, ambayo ingekuwa ngumu kupata.	Uchunguzi utakuwa rahisi kwa serikali kutekeleza.	2
+Uwezo wake haukuwa wa kutosha lakini kidogo kilifanywa kusahihisha hili.	Hawakubadili kwa ukubwa programu yao ya ufuatiliaji.	1
+Uwezo wake haukuwa wa kutosha lakini kidogo kilifanywa kusahihisha hili.	Hawakujitahidi kubadili hali.	0
+Uwezo wake haukuwa wa kutosha lakini kidogo kilifanywa kusahihisha hili.	Walienda viwango vya juu kurekebisha kila kitu.	2
+Barua pepe ya mchambuzi yaonyesha ya kwamba alikuwa anachanganya safu pana la onyo na vizuizi vya kisheria kuhusu kusambazwa kwa habari na sheria kuhusu matumizi ya habari iliyotoka kwa vituo vya uppekuzi na wakala wa wahalifu.	Wachambuzi walitoa uchambuzi wa kueleweka kwa wazi.	2
+Barua pepe ya mchambuzi yaonyesha ya kwamba alikuwa anachanganya safu pana la onyo na vizuizi vya kisheria kuhusu kusambazwa kwa habari na sheria kuhusu matumizi ya habari iliyotoka kwa vituo vya uppekuzi na wakala wa wahalifu.	Mchambuzi hakuwa wazi kwa mambo mengi.	0
+Barua pepe ya mchambuzi yaonyesha ya kwamba alikuwa anachanganya safu pana la onyo na vizuizi vya kisheria kuhusu kusambazwa kwa habari na sheria kuhusu matumizi ya habari iliyotoka kwa vituo vya uppekuzi na wakala wa wahalifu.	Ripoti ya mchambuzi ilikuwa imevurugika sana kwamba hakuna mtu anayeweza kuiisoma.	1
+Baadhi ya maafisa waliteuliwa kusaidia katika uokoaji wa Stairwell; wengine walichaguliwa kuharakisha uokoaji ndani ya plaza, Concourse, na stesheni ya PATH.	Maafisa walipata kazi zao wenyewe.	0
+Baadhi ya maafisa waliteuliwa kusaidia katika uokoaji wa Stairwell; wengine walichaguliwa kuharakisha uokoaji ndani ya plaza, Concourse, na stesheni ya PATH.	Maafisa walikimbia tu bila mpangilio kuelekea mahali walihitajika.	2
+Baadhi ya maafisa waliteuliwa kusaidia katika uokoaji wa Stairwell; wengine walichaguliwa kuharakisha uokoaji ndani ya plaza, Concourse, na stesheni ya PATH.	Maafisa walipewa kazi kulingana na ustadi.	1
+Mnamo Septemba 9, habari kubwa zilifika kutoka Afghanistan.	Tulipata habari kutoka Afghastan.	0
+Mnamo Septemba 9, habari kubwa zilifika kutoka Afghanistan.	Hatukusikia chochote kutoka Afuganistani hadi mwezi wa Oktoba.	2
+Mnamo Septemba 9, habari kubwa zilifika kutoka Afghanistan.	Tuliambiwa kuhusu shambulio ambalo lingefanyika Septemba 9.	1
+Kutokuwa na uwezo wa kuwasiliana ulikuwa kipengele muhimu katika Kituo cha Biashara cha Dunia, Pentagon, na Somerset County, Pennsylvania, maeneo ya kupoteza, ambapo mashirika mengi na mamlaka nyingi waliitikia.	Mawasiliano yalifanya kazi vizuri sana kwenye 9/11.	2
+Kutokuwa na uwezo wa kuwasiliana ulikuwa kipengele muhimu katika Kituo cha Biashara cha Dunia, Pentagon, na Somerset County, Pennsylvania, maeneo ya kupoteza, ambapo mashirika mengi na mamlaka nyingi waliitikia.	Watu walipata wakati mgumu kuwasiliana katika Kituo cha Biashara cha Dunia kwa kuwa nguvu za umeme hazikuwa na laini za simu zilikuwa zimeharibika.	1
+Kutokuwa na uwezo wa kuwasiliana ulikuwa kipengele muhimu katika Kituo cha Biashara cha Dunia, Pentagon, na Somerset County, Pennsylvania, maeneo ya kupoteza, ambapo mashirika mengi na mamlaka nyingi waliitikia.	Watu walikuwa na wakati mgumu kuwasiliana katika kituo cha Dunia cha  biashara.	0
+Utafutaji wa data zilizopo kwa urahisi zinaweza kufungua leseni ya dereva, usajili wa gari, na orodha ya simu.	Wachunguzi pia waliomba ruhusa ya upatikanaji wa hifadhidata za kitaaluma.	1
+Utafutaji wa data zilizopo kwa urahisi zinaweza kufungua leseni ya dereva, usajili wa gari, na orodha ya simu.	Aina kadhaa za habari zilipatikana kwa hifadhidata zilizokuwepo.	0
+Utafutaji wa data zilizopo kwa urahisi zinaweza kufungua leseni ya dereva, usajili wa gari, na orodha ya simu.	Hakukuwa na njia ya kupata taarifa yeyote kuhusu masomo kwa kutumia vyanzo vilivyopo.	2
+Kwa madai kuwa alikua ameshuku shughuli zote, msimamizi alijiondoa na kutojihusisha na Hazmi na Mihdhar, lakini si kabla ya kupokea msaada waliohitaji.	Msimamazi alizungumza na walinda usalama wakati huo na kukataa kusaidia katika kesi.	2
+Kwa madai kuwa alikua ameshuku shughuli zote, msimamizi alijiondoa na kutojihusisha na Hazmi na Mihdhar, lakini si kabla ya kupokea msaada waliohitaji.	Msimamizi alitoa msaada licha ya wasi.	0
+Kwa madai kuwa alikua ameshuku shughuli zote, msimamizi alijiondoa na kutojihusisha na Hazmi na Mihdhar, lakini si kabla ya kupokea msaada waliohitaji.	Msaada ulikuwa na fedha na kusaidiakupata  nyaraka za kusafiri.	1
+Mnamo 2003, hizi jina ziliondolewa,; Ugaidi wa kimataifa sasa unapata jina moja, 315	Maneno yote kuhusu ughaidi unapewa taji la juu kwa umuhimu	1
+Mnamo 2003, hizi jina ziliondolewa,; Ugaidi wa kimataifa sasa unapata jina moja, 315	Mambo yote ya ugaidi hupata lebo sawa.	0
+Mnamo 2003, hizi jina ziliondolewa,; Ugaidi wa kimataifa sasa unapata jina moja, 315	Tukio lolote la ugaidi huhukumiwa tofauti kujitegemea.	2
+Afisa huyu, ambaye aliona kuanguka kwa Mnara wa Kusini (South Tower), aliiambia vitengo vya ESU katika Mnara wa Kaskazini (North Tower) katika mafunzo yake ya uokoaji.	Hakuna aliyebaki katika North Tower baada ya Mnara wa Kusini kuporomoka.	2
+Afisa huyu, ambaye aliona kuanguka kwa Mnara wa Kusini (South Tower), aliiambia vitengo vya ESU katika Mnara wa Kaskazini (North Tower) katika mafunzo yake ya uokoaji.	South Tower ulipungua dakika 30 kabla ya afisa akizungumza na vitengo vya ESU katika North Tower.	1
+Afisa huyu, ambaye aliona kuanguka kwa Mnara wa Kusini (South Tower), aliiambia vitengo vya ESU katika Mnara wa Kaskazini (North Tower) katika mafunzo yake ya uokoaji.	Afisa alishuhudia jumba la South Tower likibomoka.	0
+Indianapolis ni mahali pema zaidi kwa waigizaji kufanya kazi kwa watu wengi	Waigizaji wanapenda Indianapolis kwa sababu ya mashirika yote ya filamu huko.	1
+Indianapolis ni mahali pema zaidi kwa waigizaji kufanya kazi kwa watu wengi	Ikiwa wewe ni muigizaji, unapaswa kuzingatia kuhamia Indianapolis.	0
+Indianapolis ni mahali pema zaidi kwa waigizaji kufanya kazi kwa watu wengi	Ni vigumu kupata kazi Indianapolis kama uko katika sanaa ya uigizaji na filamu, kwasababu Indianapolis ni mji wa kitekinologia.	2
+Tunapeana msaada kupitia simu masaa ishrini na manne, wiki mzima kupigia mtambo wetu wa kuzuia janga mtandaoni, na pia kupitia nambari ya moja kwa moja ya wazazi.	Watu wanaweza tu wasiliana nasi kupitia barua au kutumia barua pepe.	2
+Tunapeana msaada kupitia simu masaa ishrini na manne, wiki mzima kupigia mtambo wetu wa kuzuia janga mtandaoni, na pia kupitia nambari ya moja kwa moja ya wazazi.	Tunapatikana kwa simu, saa yoyote kwa siku.	0
+Tunapeana msaada kupitia simu masaa ishrini na manne, wiki mzima kupigia mtambo wetu wa kuzuia janga mtandaoni, na pia kupitia nambari ya moja kwa moja ya wazazi.	Tunapata zaidi ya simu mia kila Jumatatu hadi Ijumaa.	1
+Kwani masanduku haya yatabaki katika vifungo vyao kwa muda mrefu baada ya zawadi nyingine zote kufunguliwa.	Haya masanduku yako na	1
+Kwani masanduku haya yatabaki katika vifungo vyao kwa muda mrefu baada ya zawadi nyingine zote kufunguliwa.	Masanduku haya yatafunguliwa kabla ya zawadi zingine.	2
+Kwani masanduku haya yatabaki katika vifungo vyao kwa muda mrefu baada ya zawadi nyingine zote kufunguliwa.	Maboksi haya hayatafunguliwa kwa muda.	0
+Tukiweka bei rahisi, tunahitaji usaidizi wenu kama washirika wa msaada kidogo ili tufikie azimio letu.	Ili kuweka bei zetu za tiketi chini ya dola 10, tunahitaji watazamaji wetu wote  kuchangia dola 25.	1
+Tukiweka bei rahisi, tunahitaji usaidizi wenu kama washirika wa msaada kidogo ili tufikie azimio letu.	Tunaweza weka bei zetu chini ikiwa  tulitaka, bila pesa yenu,lakini bosi wetu anapenda anasa zake.	2
+Tukiweka bei rahisi, tunahitaji usaidizi wenu kama washirika wa msaada kidogo ili tufikie azimio letu.	Mchango wenu unatusaidia kuhifadhi bei ya chini.	0
+imesaidia kufanya iwezekanavyo kutupa mwongozo, kuhimiza na kujifurahisha kwa watoto karibu 400 wa eneo la Indianapolis.	Kwa ajili ya ufadhili wetu, tuliweza kumwalika Beyonce aje kwa tamasha ya watoto yatima wa Indianapolis.	1
+imesaidia kufanya iwezekanavyo kutupa mwongozo, kuhimiza na kujifurahisha kwa watoto karibu 400 wa eneo la Indianapolis.	Tulitarajia kuwapa watoto sherehe ya Krismasi, lakini hatujawahi kuweza kuwafanyia chochote.	2
+imesaidia kufanya iwezekanavyo kutupa mwongozo, kuhimiza na kujifurahisha kwa watoto karibu 400 wa eneo la Indianapolis.	Tuliweza kusaidia watoto wengi wa Indianapolis,	0
+Mwanzoni, watu binafsi wanaweza kushiriki kwa kutoa zawadi isiyo na masharti ya dola za Marekani 1,000 au zaidi kwa Chancellor's Circle, au ya zaidi ya dola za Marekani  500 au zaidi kwa Chancellors Associates.	Watu wanaweza kushiriki baada ya kufanya mchango mdogo wa $50 .	2
+Mwanzoni, watu binafsi wanaweza kushiriki kwa kutoa zawadi isiyo na masharti ya dola za Marekani 1,000 au zaidi kwa Chancellor's Circle, au ya zaidi ya dola za Marekani  500 au zaidi kwa Chancellors Associates.	Watu nafsi wanaweza changia kama watapeana pesa mingi.	0
+Mwanzoni, watu binafsi wanaweza kushiriki kwa kutoa zawadi isiyo na masharti ya dola za Marekani 1,000 au zaidi kwa Chancellor's Circle, au ya zaidi ya dola za Marekani  500 au zaidi kwa Chancellors Associates.	Watu wengi binafsi hupendelea kupa msaada kwa Washirika wa Kansela	1
+Zawadi yako kwa sasa inaweza kukutolea faida za kodi za mwisho wa mwaka.	Ukifanya zawadi isiyo chini ya dola 1,000, utapata nafuu ya ushuru.	1
+Zawadi yako kwa sasa inaweza kukutolea faida za kodi za mwisho wa mwaka.	Kwa bahati mbaya, washauri wetu wa ushuru watakushauri usitoe zawadi zozote.	2
+Zawadi yako kwa sasa inaweza kukutolea faida za kodi za mwisho wa mwaka.	Huenda msaada unaopata utozwe kodi.	0
+Kama unavyojua, wajumbe wa kikundi hiki ni pamoja na marafiki na wajumbe ambao wanachangia $ 1,000 au zaidi kwa shule ya sheria.	Baadhi ya wanachama wa kikundi wametoa mchango wa zaidi ya $100 kwa shule.	1
+Kama unavyojua, wajumbe wa kikundi hiki ni pamoja na marafiki na wajumbe ambao wanachangia $ 1,000 au zaidi kwa shule ya sheria.	Tuna watu katika kundi hili ambao wamechangia zaidi ya $ 1,000 kwa shule ya sheria.	0
+Kama unavyojua, wajumbe wa kikundi hiki ni pamoja na marafiki na wajumbe ambao wanachangia $ 1,000 au zaidi kwa shule ya sheria.	Tunapanga kuuliza hiki kikundi kutolea shule mchango wa kifedha, jambo ambayo hatujawahi fanya hapo awali.	2
+Kama mtoto nilopokuwa nikikua miaka ya 5O's, mojawapo ya kumbukumbu zangu zenye furaha ilikuwa kuhudhuria uzalishaji wa Ukumbi wa Civic.	Nilichukia kwenda kwenye maonyesho ya michezo kama mtoto, hiyo ndiyo sababu nilikuwa mwanasayansi.	2
+Kama mtoto nilopokuwa nikikua miaka ya 5O's, mojawapo ya kumbukumbu zangu zenye furaha ilikuwa kuhudhuria uzalishaji wa Ukumbi wa Civic.	Nilipenda kwenda kwenye sinema nikiwa mtoto	0
+Kama mtoto nilopokuwa nikikua miaka ya 5O's, mojawapo ya kumbukumbu zangu zenye furaha ilikuwa kuhudhuria uzalishaji wa Ukumbi wa Civic.	Kipindi changu nilichokipenda sana ilikuwa Beauty and The Beast.	1
+Ikiwa kila mtu anapokea barua hii anatoa $18 tu.	Kila mtu anayepokea barua hii: usitoe mchango wako, ni kashfa	2
+Ikiwa kila mtu anapokea barua hii anatoa $18 tu.	Ikiwa utachanga $18, tutakupa zawadi.	1
+Ikiwa kila mtu anapokea barua hii anatoa $18 tu.	Tunatumai watu wote waliopokea barua wataweza kutoa mchango wa $18.	0
+Futa tu sehemu ya chini, angalia chaguo linalotumika, fanya mabadiliko yoyote kwenye anwani yako ikiwa inahitajika na uitumie katika bahasha iliyofungwa.	Tafadhali usifanye mabadiliko yoyote katika anwani yako.	2
+Futa tu sehemu ya chini, angalia chaguo linalotumika, fanya mabadiliko yoyote kwenye anwani yako ikiwa inahitajika na uitumie katika bahasha iliyofungwa.	Kuna bahasha nyeupe iliyofungwa, na anwani yako juu yake.	1
+Futa tu sehemu ya chini, angalia chaguo linalotumika, fanya mabadiliko yoyote kwenye anwani yako ikiwa inahitajika na uitumie katika bahasha iliyofungwa.	Uko huru kufanya mabadiliko kwenye anwani yako, ikiwa unaona inafaa.	0
+Shule ya Uuguzi inahitaji zawadi zako za ukarimu ili kuendelea na kuendeleza ubora wake wa elimu.	Tafadhali changia $100 millioni kwa Shule ya Uuguzi, au utapoteza sanamu yako ya kumbukumbu.	1
+Shule ya Uuguzi inahitaji zawadi zako za ukarimu ili kuendelea na kuendeleza ubora wake wa elimu.	Shule ya Uuguzi ilitimiza malengo yake yote ya kifedha, kwa hivyo haihitaji fedha zingine zozote.	2
+Shule ya Uuguzi inahitaji zawadi zako za ukarimu ili kuendelea na kuendeleza ubora wake wa elimu.	Tunatarajia utachanga kwa Shule ya Uuguzi.	0
+80% ya washiriki wataripoti kuongezeka kwa ujuzi katika utatuzi wa migogoro.	Zaidi ya nusu ya washirik iwataripoti ongezeko la ujuzi wa azimio la migogoro	0
+80% ya washiriki wataripoti kuongezeka kwa ujuzi katika utatuzi wa migogoro.	Ni robo pekee ya washirika watakao ripoti kuongezeka kwa ujuzi wa kufumbua migogoro.	2
+80% ya washiriki wataripoti kuongezeka kwa ujuzi katika utatuzi wa migogoro.	Kuna zaidi ya washiriki binafsi 100	1
+Tafadhali usisonge kwenye orodha yetu ya wafadhili iliyopotea.	Ingekuwa aibu ikiwa umeacha kuchanga.	0
+Tafadhali usisonge kwenye orodha yetu ya wafadhili iliyopotea.	Orodha ya wafadhili wakale imechapishwa kwa ajili ya dunia kuiona, hivyo niamini hutaki aibu kama hiyo!	1
+Tafadhali usisonge kwenye orodha yetu ya wafadhili iliyopotea.	Tuko na wafadhili wengi, kwa hivo tafadhali wacha kufadhili	2
+Upatikanaji wa viwanja vyetu utafunguliwa kwa mtu yeyote mwenye kompyuta na modem.	Watu hawahitaji chochote ili kupata ardhi.	2
+Upatikanaji wa viwanja vyetu utafunguliwa kwa mtu yeyote mwenye kompyuta na modem.	Watu wanahitaji kompyuta na modem ili kuingia misingi.	0
+Upatikanaji wa viwanja vyetu utafunguliwa kwa mtu yeyote mwenye kompyuta na modem.	Watu wanahitaji kubeba tarakilishi modemu yao wakiingia kwa uwanja ili waruhisiwe kuingia.	1
+Uuzaji wa tiketi na usajili hauwezi tugharamia msimu wetu kamili	Bora tu tukue na mauzo ya tikiti, msimu wetu wote utakuwa umefadhiliwa.	2
+Uuzaji wa tiketi na usajili hauwezi tugharamia msimu wetu kamili	Msimu wetu wote unahitaji zaidi kufadhili kuliko kuuza tikiti na kujisajili pekee.	0
+Uuzaji wa tiketi na usajili hauwezi tugharamia msimu wetu kamili	Uuzaji wa tiketi na uungaji ya wasilisha asilimia sabini ya matumizi msimu mzima	1
+MAPYA YALIYOWASILI, KILA ZAWADI LINALETA TOFAUTI!	Kila zawadi hurekodiwa na kutangazwa katika jarida letu la kila mwezi.	1
+MAPYA YALIYOWASILI, KILA ZAWADI LINALETA TOFAUTI!	Kila zawadi inayotolewa  huhesabiwa kwa kitu	0
+MAPYA YALIYOWASILI, KILA ZAWADI LINALETA TOFAUTI!	Zawadi pekee zipitao $100 zinafanya tofauti.	2
+Tuko na safari ndefu kabla tufikishe lengo la  $365,000 kutoka kwa marafiki na wanachama kama wewe.	Kiwango cha matarajio yetu kimezidi $300,000..	0
+Tuko na safari ndefu kabla tufikishe lengo la  $365,000 kutoka kwa marafiki na wanachama kama wewe.	Tunatarijia kuongezea pesa zetu mara dufu.	1
+Tuko na safari ndefu kabla tufikishe lengo la  $365,000 kutoka kwa marafiki na wanachama kama wewe.	hatuna alama ya kufwatilia kwa upande wa pesa	2
+Kitengo chetu cha sheria ya kikaidi kimekuwa kikifanya kazi kwa umri wa miaka saba, na juzi tuliongeza kitengo cha sheria za jinai.	kliniki yetu ya mazoezi ya kiraia imekuwa ikifanya kazi kwa miaka minane sasa	1
+Kitengo chetu cha sheria ya kikaidi kimekuwa kikifanya kazi kwa umri wa miaka saba, na juzi tuliongeza kitengo cha sheria za jinai.	Kliniki yetu ya Utendaji wa Kiraia ina sheherekea mwaka wake wa kwanza wa utendaji kazi mwezi ujao.	2
+Kitengo chetu cha sheria ya kikaidi kimekuwa kikifanya kazi kwa umri wa miaka saba, na juzi tuliongeza kitengo cha sheria za jinai.	Civil Practice Clinic imekuwa ikifanya kazi kwa mwaka na.	0
+Mapato ya tiketi haikimu gharama za programu hizi.	Inaonekana kwamba gharama ya miradi hizi hazita lipiwa na faida kutoka kwa tiketi.	0
+Mapato ya tiketi haikimu gharama za programu hizi.	Gharama ya mipango hii iko juu zaidi.	1
+Mapato ya tiketi haikimu gharama za programu hizi.	Mapato ya tiketi kwa hakika itashugulikia gharama ya programu hizi.	2
+Omnia Vincit AMor (isipokuwa wewe hufanyia kazi Weekly Standard): Brit Hume (Fox News Sunday) hutamanisha sababu hatofanya Lewinsky. Bado anampenda rais sana.	Brit Hume ndiye mwandishi mkuu wa habari wa Fox.	1
+Omnia Vincit AMor (isipokuwa wewe hufanyia kazi Weekly Standard): Brit Hume (Fox News Sunday) hutamanisha sababu hatofanya Lewinsky. Bado anampenda rais sana.	Brit Hume hufanyia CNN kazi.	2
+Omnia Vincit AMor (isipokuwa wewe hufanyia kazi Weekly Standard): Brit Hume (Fox News Sunday) hutamanisha sababu hatofanya Lewinsky. Bado anampenda rais sana.	Brit Hume anafanyia kazi Fox	0
+Mengi yamefanyika kwa kumuandika kazi Michael Apted kuleta ubinadamu kwenye kipindi.	Michael Apted aliharibu kipindi kwa kusisitiza watoe mambo yoyote ya joto, ya kibinadamu.	2
+Mengi yamefanyika kwa kumuandika kazi Michael Apted kuleta ubinadamu kwenye kipindi.	Michael Apted aliajiriwa kuongeza ubora wa kibinafsi kwenye mfululizo.	0
+Mengi yamefanyika kwa kumuandika kazi Michael Apted kuleta ubinadamu kwenye kipindi.	Mfululizo ulifikiriwa kuwa ni baridi na yenye uchoshi, kwa hiyo ilikuwa muhimu kuajiri Michael Apted kuongeza joto ya binafsi ili kuboresha upimaji.	1
+Kutazama msichana aliyevaa koti nyeupe la manyoya na buti.	Msichana amevaa kwa kuteleza.	1
+Kutazama msichana aliyevaa koti nyeupe la manyoya na buti.	Msichana huvaa nguo nyeupe.	0
+Kutazama msichana aliyevaa koti nyeupe la manyoya na buti.	Msichana amevaa  nyekundu kwote.	2
+Kile ambacho filamu ina upungufu wa kutaja ni kuwa mara mingi Kaufman aliongea kuhusu kutaka kusimamisha kifo chake.	Filamu haitaji Kaufman kujadili kifo chake mwenyewe.	0
+Kile ambacho filamu ina upungufu wa kutaja ni kuwa mara mingi Kaufman aliongea kuhusu kutaka kusimamisha kifo chake.	Filamu hio alikuwa na kina mahojiano na Kaufman kuhusu kifo chake.	2
+Kile ambacho filamu ina upungufu wa kutaja ni kuwa mara mingi Kaufman aliongea kuhusu kutaka kusimamisha kifo chake.	Sinema ilikuwa blockbuster, licha ya kuacha baadhi ya maelezo muhimu kuhusu Kaufman.	1
+Rockefeller alikamatwa na huzuni wakati Avenging Angel Tarbell alianza kurarua mwili wake katika McClure's.	Rockefeller alitoa kwa utafiti wa saratani	1
+Rockefeller alikamatwa na huzuni wakati Avenging Angel Tarbell alianza kurarua mwili wake katika McClure's.	Rockefeller alikuwa akipeana.	0
+Rockefeller alikamatwa na huzuni wakati Avenging Angel Tarbell alianza kurarua mwili wake katika McClure's.	rockefeller alikuwa mchoyo.	2
+Hivi karibuni, katika kesi ya biashara huko New York, Klayman alijikuta kwa upande mwingine wa mashtaka ya ubaguzi wa kikabila.	Klayman alileta mashtaka ya ukabila Calfornia.	2
+Hivi karibuni, katika kesi ya biashara huko New York, Klayman alijikuta kwa upande mwingine wa mashtaka ya ubaguzi wa kikabila.	Klayman hakutarajia kushtakiwa kwa makosa ya ukabila.	1
+Hivi karibuni, katika kesi ya biashara huko New York, Klayman alijikuta kwa upande mwingine wa mashtaka ya ubaguzi wa kikabila.	Kulikuwa na madai ya ukabila kinyume cha Klayman.	0
+Mtu hakutarajia chumba kilichojaa wasimamizi wa ushirika kupiga chata, kuzomea na kupiga kelele ya upuuzi wakiwa katika kikao cha mwandishi wa kazi wa US	Wanaowakilisha kampuni huvaa suti.	1
+Mtu hakutarajia chumba kilichojaa wasimamizi wa ushirika kupiga chata, kuzomea na kupiga kelele ya upuuzi wakiwa katika kikao cha mwandishi wa kazi wa US	Mtu angetarajia wawakilishi wa ushirika kuteta.	2
+Mtu hakutarajia chumba kilichojaa wasimamizi wa ushirika kupiga chata, kuzomea na kupiga kelele ya upuuzi wakiwa katika kikao cha mwandishi wa kazi wa US	Mtu hawezi dhania watu wa kampuni kuzingumza kwa sauti ndogo.	0
+Kwa sababu tu kuwa ukuzaji una athari kubwa zaidi kwenye utendaji wa michezo sio maana kwamba asili imekaa, hata hivyo.	Wanariadha wanazaliwa na uwezo wao wote wa utendaji kikamilifu.	2
+Kwa sababu tu kuwa ukuzaji una athari kubwa zaidi kwenye utendaji wa michezo sio maana kwamba asili imekaa, hata hivyo.	Utendaji wa michezo huathiriwa zaidi na mazoezi kuliko jenetiki.	0
+Kwa sababu tu kuwa ukuzaji una athari kubwa zaidi kwenye utendaji wa michezo sio maana kwamba asili imekaa, hata hivyo.	wachezaji hodari hufanya mazoezi angalau saa nane kila juma	1
+Nilipokuwa nyumbani, nilijifunza Marekani inapunguza kande kwa njia mbili.	Nina nia ya siasa.	1
+Nilipokuwa nyumbani, nilijifunza Marekani inapunguza kande kwa njia mbili.	Nilijifunza kuhusu Marekani	0
+Nilipokuwa nyumbani, nilijifunza Marekani inapunguza kande kwa njia mbili.	Nilijifunza Marekani inapunguza vifaa kwa njia mbili kabla ya kuja nyumbani.	2
+Vyombo vya habari vya chuo kikuu kongwe na kubwa zaidi duniani - Oxford - imetangaza tu kuwa inafuta orodha yake ya mashairi.	Orodha ya mashairi katika Oxford haiendelezwi.	0
+Vyombo vya habari vya chuo kikuu kongwe na kubwa zaidi duniani - Oxford - imetangaza tu kuwa inafuta orodha yake ya mashairi.	chuo hicho cha kifahari hakina fedha za kuendeleza orodha ya kishairi	1
+Vyombo vya habari vya chuo kikuu kongwe na kubwa zaidi duniani - Oxford - imetangaza tu kuwa inafuta orodha yake ya mashairi.	Chuo kikuu imejitolea kulinda orodha ya mashairi na kuapa kuwa haitawahi ipiga marufuku.	2
+Kuna tuzo la faraja kwa utu, ingawa.	Tuzo la faraja ni kifaa cha bure cha kusaga cha spidi mbili kwa kila mtu.	1
+Kuna tuzo la faraja kwa utu, ingawa.	Hakuna upande kwa wanadamu katika hali hii.	2
+Kuna tuzo la faraja kwa utu, ingawa.	Hii siyo habari zote mbaya kwa wanadamu.	0
+Michezo sio tu matukio ya kamari katika maeneo haya.	Kuwekea dau mashindano ya kisiasa na uchaguzi inaruhusiwa pia katika tovuti hizi.	1
+Michezo sio tu matukio ya kamari katika maeneo haya.	Maeneo haya yanakubali pesa za kamari kwa michezo pekee	2
+Michezo sio tu matukio ya kamari katika maeneo haya.	Maeneo haya huchukua bora zaidi kwenye shughuli kadhaa.	0
+Mnamo Agosti 25, baada ya kusanyiko la Kidemokrasia lilifungua mji wa Atlantiki, N.J., Johnson, mwenye umri wa miaka 56, alitishia katika mazungumzo matatu yaliyoandikwa kujiondoa kwenye mashindano ya urais.	Johnson alihisi kukosa msaada.	1
+Mnamo Agosti 25, baada ya kusanyiko la Kidemokrasia lilifungua mji wa Atlantiki, N.J., Johnson, mwenye umri wa miaka 56, alitishia katika mazungumzo matatu yaliyoandikwa kujiondoa kwenye mashindano ya urais.	Johnson hakuwai kufikiria kuhusu kujitoa.	2
+Mnamo Agosti 25, baada ya kusanyiko la Kidemokrasia lilifungua mji wa Atlantiki, N.J., Johnson, mwenye umri wa miaka 56, alitishia katika mazungumzo matatu yaliyoandikwa kujiondoa kwenye mashindano ya urais.	Johnson alitishia kujiondoa.	0
+Lamar Alexander aliangusha jitihada yake ya urais.	Angalau mtu mmoja alikata tamaa kwa lengo lake la kuwa rais.	0
+Lamar Alexander aliangusha jitihada yake ya urais.	Lamar Alexander alikataa kutoa kampeni yake ya urais.	2
+Lamar Alexander aliangusha jitihada yake ya urais.	Bwana Alexander alilazimika kuondoka baada ya picha zake za aibu kuchapishwa.	1
+Juu ya rekodi hii ya uhuru wa kiraia ni matumizi mabaya ya FBI katika uchunguzi wa awali wa ofisi ya White House, na kinachokuja kujulikana kama Filegate.	White House hutumia FBI kupeleleza wagombea wa kisiasa.	1
+Juu ya rekodi hii ya uhuru wa kiraia ni matumizi mabaya ya FBI katika uchunguzi wa awali wa ofisi ya White House, na kinachokuja kujulikana kama Filegate.	Nyumba ya Nyeupe hutumia vibaya FBI.	0
+Juu ya rekodi hii ya uhuru wa kiraia ni matumizi mabaya ya FBI katika uchunguzi wa awali wa ofisi ya White House, na kinachokuja kujulikana kama Filegate.	White House hutumia FBI vizuri.	2
+Tung ameahidi kupunguza zaidi wavumi wa mali, lakini wengi wanafikiri mataamshi yake yatakuwa mabaya kuliko hatua zake.	Tung hajali kuhusu wanabahatisha mali.	2
+Tung ameahidi kupunguza zaidi wavumi wa mali, lakini wengi wanafikiri mataamshi yake yatakuwa mabaya kuliko hatua zake.	Tung anadhani walanguzi wa mali wanafanya mambo bila ufanisi.	1
+Tung ameahidi kupunguza zaidi wavumi wa mali, lakini wengi wanafikiri mataamshi yake yatakuwa mabaya kuliko hatua zake.	Tung anataka kushawizi wabazazi wa mali.	0
+Malalamiko yalilenga matatizo ya mizigo, wahudumu wa ndege, usafiri wa ndege ulioyofutiliwa, ukatili katika kulipisha.	Watu kumi walikuwa wamepoteza mizigo.	1
+Malalamiko yalilenga matatizo ya mizigo, wahudumu wa ndege, usafiri wa ndege ulioyofutiliwa, ukatili katika kulipisha.	Watu walilalamika kuhusu mizigo.	0
+Malalamiko yalilenga matatizo ya mizigo, wahudumu wa ndege, usafiri wa ndege ulioyofutiliwa, ukatili katika kulipisha.	Hakukuwa malalamishi yoyote.	2
+Lawrence Singleton,mwenye sifa mbaya ya ubakaji alivamia mwathiriwa mikono na alizuia miaka nane zelani,alizuiliwa tena kwa kumuuua mwanamke mwingine Florida.	Baada ya kuwapiga waathiriwa mbele yake alijaribu kuwaficha katika takataka ya takataka.	1
+Lawrence Singleton,mwenye sifa mbaya ya ubakaji alivamia mwathiriwa mikono na alizuia miaka nane zelani,alizuiliwa tena kwa kumuuua mwanamke mwingine Florida.	Ilikuwa dhahiri kwa kila mtu kuwa wakati wake gerezani ulikuwa umemrekebisha kabisa.	2
+Lawrence Singleton,mwenye sifa mbaya ya ubakaji alivamia mwathiriwa mikono na alizuia miaka nane zelani,alizuiliwa tena kwa kumuuua mwanamke mwingine Florida.	Mr Singleton ni mhukumiwa mkandamizaji huko Florida.	0
+Charles Lane Jamhuri Jipya anasema kuwa Habari za Ukamataji zinapanua rekodi ya Gabriel Garcaa Marquez ya uandishi wa habari usioaminika.	Charles Lane ni mwandishi.	0
+Charles Lane Jamhuri Jipya anasema kuwa Habari za Ukamataji zinapanua rekodi ya Gabriel Garcaa Marquez ya uandishi wa habari usioaminika.	Charles Lane aliuza magari.	2
+Charles Lane Jamhuri Jipya anasema kuwa Habari za Ukamataji zinapanua rekodi ya Gabriel Garcaa Marquez ya uandishi wa habari usioaminika.	Charles Lane alishinda puliteri.	1
+Halmashauri sio tu pekee ya kisiasa huko Washington asubuhi hii.	Nyumba la sheria si malahi pekee ya siasa kule washington.	0
+Halmashauri sio tu pekee ya kisiasa huko Washington asubuhi hii.	Siku ya kisiasa inawezekana kuanza saa asubuhi.	1
+Halmashauri sio tu pekee ya kisiasa huko Washington asubuhi hii.	wacheshi wa sarakasi wako katika ukumbi wa kijamii	2
+Mtu anaweza kufikiria mwendeshaji wa buldoza kama vile anapokuwa katika barabara ya maendeleo mapya yanayoonyeshwa na msanidi  Vipi, Loyd ...	Unaweza kufikiria opereta wa buldoza akianzisha buldoza.	1
+Mtu anaweza kufikiria mwendeshaji wa buldoza kama vile anapokuwa katika barabara ya maendeleo mapya yanayoonyeshwa na msanidi  Vipi, Loyd ...	tafakari kuhusu dereva wa bulldozer.	0
+Mtu anaweza kufikiria mwendeshaji wa buldoza kama vile anapokuwa katika barabara ya maendeleo mapya yanayoonyeshwa na msanidi  Vipi, Loyd ...	Huwezi fikiria mtuzi wa tinga tinga.	2
+Niliripoti hili kwa barua kwa Daktari, ilionekana kumchekesha, na alinitumia keki ndogo ya matunda Krismasi hio.	Nina hakika kuwa dakitari alipokea barua niliyo mtumia.	0
+Niliripoti hili kwa barua kwa Daktari, ilionekana kumchekesha, na alinitumia keki ndogo ya matunda Krismasi hio.	Sikula keki daktari alituma Krismasi hio.	1
+Niliripoti hili kwa barua kwa Daktari, ilionekana kumchekesha, na alinitumia keki ndogo ya matunda Krismasi hio.	Daktari alinitumia chupa la pombe krismasi hio.	2
+Timu hiyo ilikuwa imejulikana hapo awali na majina ya kukumbukwa ambayo ni Beaneaters, ambayo, kwa njia ya ajabu, inaweza pia kuchukuliwa jina la utani la India.	Timu hio ilibadilisha jina lao kwa sababu haikuwa maarufu.	1
+Timu hiyo ilikuwa imejulikana hapo awali na majina ya kukumbukwa ambayo ni Beaneaters, ambayo, kwa njia ya ajabu, inaweza pia kuchukuliwa jina la utani la India.	Timu ilikuwa na jina kabla ya hii ambayo inaweza pia kufikiriwa kama jina la utani la kihindi.	0
+Timu hiyo ilikuwa imejulikana hapo awali na majina ya kukumbukwa ambayo ni Beaneaters, ambayo, kwa njia ya ajabu, inaweza pia kuchukuliwa jina la utani la India.	Timu hiyo imekuwa tu na jina moja.	2
+Sikuweza kupata ufafanuzi kama huo kamusi ya visawa	Nilipata ufafanuzi kwa thesaurus.	2
+Sikuweza kupata ufafanuzi kama huo kamusi ya visawa	Niliangalia kwenye Thesaurus na sikupata ufafanuzi.	0
+Sikuweza kupata ufafanuzi kama huo kamusi ya visawa	Thesaurus niliyotumia ni ule wa kawaida.	1
+Mtu anawezaje kufanya hivyo.	Itakuwaje kwamba watu wengi hawana cha kufanya?	2
+Mtu anawezaje kufanya hivyo.	Iweje mtu kutenda tendo hilo mbaya.	1
+Mtu anawezaje kufanya hivyo.	Inawezekanaje kwa mtu kufanya hayo?	0
+Zaidi ya hayo, ina maneno tu ambayo yanajulikana kuwa yatokea katika karne ya ishirini, kwa mujibu wa Maandalizi, lakini imetoa matamshi ya kijeshi ya karne ya kwanza ya 20.	Kwa mujibu wa maandishi ya awali, ina maneno ambayo yalitokea karne ya ishirini lakini inacha maneno yaliyotokea mapema.	0
+Zaidi ya hayo, ina maneno tu ambayo yanajulikana kuwa yatokea katika karne ya ishirini, kwa mujibu wa Maandalizi, lakini imetoa matamshi ya kijeshi ya karne ya kwanza ya 20.	Ina lugha isiyo rasmi kuanzia mwanzo hadi mwisho.	2
+Zaidi ya hayo, ina maneno tu ambayo yanajulikana kuwa yatokea katika karne ya ishirini, kwa mujibu wa Maandalizi, lakini imetoa matamshi ya kijeshi ya karne ya kwanza ya 20.	Kumekua na lahaja tofauti kabla ya miaka karne ishirini	1
+Ikiwa mtu alikuwa na toleo la 1984, anaweza kuwa na hasira ya kununua kitabu hiki badala ya cha ziada kifupi (na cha chini).	Toleo la 1984 ndilo nzuri kuliko matoleo yote mengine.	1
+Ikiwa mtu alikuwa na toleo la 1984, anaweza kuwa na hasira ya kununua kitabu hiki badala ya cha ziada kifupi (na cha chini).	Kitabu si cha kuuzwa.	2
+Ikiwa mtu alikuwa na toleo la 1984, anaweza kuwa na hasira ya kununua kitabu hiki badala ya cha ziada kifupi (na cha chini).	Kiongeza ni cha bei nafuu kuliko kitabu.	0
+Bernstein anaelezea katika utangulizi	Bernstein haielezi kwa kina.	1
+Bernstein anaelezea katika utangulizi	Bernstein alielezea tu katika hitimisho	2
+Bernstein anaelezea katika utangulizi	Utangulizi kuna maelezo.	0
+Haishauriwi kuwa masomo haya yamezuiliwa, tu kwamba ni vigumu, hata baada ya miaka ishirini ya kushirikishiwa, kwa ajili ya mgeni kutambua mengi ambayo ni ucheshi juu yao.	Ata wakaazi kamili huwa na shida ya ucheshi.	1
+Haishauriwi kuwa masomo haya yamezuiliwa, tu kwamba ni vigumu, hata baada ya miaka ishirini ya kushirikishiwa, kwa ajili ya mgeni kutambua mengi ambayo ni ucheshi juu yao.	Ucheshi ni mojawapo ya vitu rahisi kwa wana outlander kuelewa.	2
+Haishauriwi kuwa masomo haya yamezuiliwa, tu kwamba ni vigumu, hata baada ya miaka ishirini ya kushirikishiwa, kwa ajili ya mgeni kutambua mengi ambayo ni ucheshi juu yao.	Masomo haya ni magumu kwa watu wa nje kuelewa.	0
+Hatimaye, lazima mtu awe na wasiwasi wa upanuzi ambao hubeba maana yake tofauti kabisa.	Wahariri wameajiriwa ili kuona makosa kama haya.	1
+Hatimaye, lazima mtu awe na wasiwasi wa upanuzi ambao hubeba maana yake tofauti kabisa.	Kuendeleza ni uzuri kuhakikisha jambo limeeleweka vyema.	2
+Hatimaye, lazima mtu awe na wasiwasi wa upanuzi ambao hubeba maana yake tofauti kabisa.	Maana yaweza kubadilika iwapo unarefusha sentensi.	0
+Tengeneza kichwa yako na kuwaka joto kukua jinga.	Kutumia joto kwa kichwa cha mtu ni mbinu nzuri kuimarisha lengo na kumakinika.	2
+Tengeneza kichwa yako na kuwaka joto kukua jinga.	Joto jingi zaidi linaweza kusababisha kizunguzungu wakati mwingine.	0
+Tengeneza kichwa yako na kuwaka joto kukua jinga.	Leo ilikuwa digrii tano zaidi ya kiwango cha kawaida.	1
+Hakuna taaluma nyingine ina tamanduni tajiri sana ya kujitenga.	Kazi zingine nyingi zinajifikiria vikubwa.	1
+Hakuna taaluma nyingine ina tamanduni tajiri sana ya kujitenga.	Taaluma nyinyi zina asili na uhakiri binafsi.	2
+Hakuna taaluma nyingine ina tamanduni tajiri sana ya kujitenga.	Hakuna kazi nyingine ina mila imara ya upinzani kuhusu yenyewe.	0
+Na maandiko ya fahari, vitambaa hivyo vilivyopewa majina yadhihaka katika elimu ya kienyeji hutumia majina ya kubandikwa katika maazungumzo yao kibinafsi , maongezi ya saluni na mtaala usio rasmi	Karatasi hizo hazina sifa kabisa.	2
+Na maandiko ya fahari, vitambaa hivyo vilivyopewa majina yadhihaka katika elimu ya kienyeji hutumia majina ya kubandikwa katika maazungumzo yao kibinafsi , maongezi ya saluni na mtaala usio rasmi	Gazeti hizo hazina sifa nzuri.	0
+Na maandiko ya fahari, vitambaa hivyo vilivyopewa majina yadhihaka katika elimu ya kienyeji hutumia majina ya kubandikwa katika maazungumzo yao kibinafsi , maongezi ya saluni na mtaala usio rasmi	Majarida hayo yana mengi ya uvumi kutoka kwa wamama wa nyumbani.	1
+Ikiwa lite / mwanga inaeleza tu sifa ya bia (kama	Bia inaweza kuwa na jina lite ama light.	0
+Ikiwa lite / mwanga inaeleza tu sifa ya bia (kama	Nuru na nyepesi yanatumika kueleza vin na whiskey	2
+Ikiwa lite / mwanga inaeleza tu sifa ya bia (kama	Bia ya Lite haina asilimia kubwa ya pombe.	1
+Jina la maskini lililokuwa limefanyiwa maskini lilikuwa linatumiwa ambako hakuna lenyewe wala njia yoyote iliyohitajika.	Watu wanajitahidi kupata jina lingine.	1
+Jina la maskini lililokuwa limefanyiwa maskini lilikuwa linatumiwa ambako hakuna lenyewe wala njia yoyote iliyohitajika.	Nomino hii imetumika sana.	0
+Jina la maskini lililokuwa limefanyiwa maskini lilikuwa linatumiwa ambako hakuna lenyewe wala njia yoyote iliyohitajika.	Jina linapaswa kutumika zaidi.	2
+Juu ya haya yote, tuna ukweli usiofurahisha kuwa kuandika kwa ustandi kwa kweli wakati mwingine hukumbukwa, kuchanganya tatizo.	Watu ni rahisi sana kukumbuku uandishi mbaya.	2
+Juu ya haya yote, tuna ukweli usiofurahisha kuwa kuandika kwa ustandi kwa kweli wakati mwingine hukumbukwa, kuchanganya tatizo.	Maandishi yaliyoandikwa vizuri mara nyingi ni rahisi kukumbuka kuliko maandishi yalioandikwa vibaya.	0
+Juu ya haya yote, tuna ukweli usiofurahisha kuwa kuandika kwa ustandi kwa kweli wakati mwingine hukumbukwa, kuchanganya tatizo.	Nakala iliyoandikwa vizuri ni ghali mno kutoa kwa kiasi kikubwa.	1
+Walipokutana na mtazamo huu na kwa sababu fulani, Waingereza walikubali heshima yao kwa kuimarisha neno hilo.	Watu kutoka Britain hawana heshima.	2
+Walipokutana na mtazamo huu na kwa sababu fulani, Waingereza walikubali heshima yao kwa kuimarisha neno hilo.	Waingereza walichukua uchumi wa dunia.	1
+Walipokutana na mtazamo huu na kwa sababu fulani, Waingereza walikubali heshima yao kwa kuimarisha neno hilo.	Waingereza walifanya biashara nyingi duniani kote.	0
+Wakati mwingine ni erevu kabisa, pia	Inaweza kuwa ngumu sana kugundua saa zingine.	0
+Wakati mwingine ni erevu kabisa, pia	Inapiga kelele kidogo sana, shukrani kwa injini iliyowekwa kinga kwa uangalifu.	1
+Wakati mwingine ni erevu kabisa, pia	Mara nyingi Ilikuwa rahisi sana kuchunguza kutoka umbali.	2
+Kama inatokea, bila shaka, kuna lahaja nyingi za Kiingereza katika Uingereza kuliko Amerika Kaskazini, na mtu yeyote ambaye ametumia muda wowote akiwasikiliza anajua kwamba sio rahisi kumeguka	Uingereza ina  lahaja nyingi nzuri za Kiingereza, zenye idadi zaidi kuliko zile za Amerika Kaskazini.	0
+Kama inatokea, bila shaka, kuna lahaja nyingi za Kiingereza katika Uingereza kuliko Amerika Kaskazini, na mtu yeyote ambaye ametumia muda wowote akiwasikiliza anajua kwamba sio rahisi kumeguka	Lahaja za Marekani na Uingereza ni sawa, na watu hawawezi kutofautisha tofauti yoyote kati yao.	2
+Kama inatokea, bila shaka, kuna lahaja nyingi za Kiingereza katika Uingereza kuliko Amerika Kaskazini, na mtu yeyote ambaye ametumia muda wowote akiwasikiliza anajua kwamba sio rahisi kumeguka	Watu kutoka North America huwa na wakati mgumu kuelewa baadhi ya mazungumzo ya Uingereza.	1
+Mpeanaji habari wa Tennesse alitumia hali ya hewa ya mbwa kwa 'hali ya hewa ya joto bila mvua'  ambayo inatokana na msemo wa siku za mbwa inayomaanisha mwezi wa Agosti iliyo na hali ya anga kavu.	Kulingana na mwenye taarifa, hali ya hewa ya mbwa ilitumika kueleza mvua za masika za msimu.	2
+Mpeanaji habari wa Tennesse alitumia hali ya hewa ya mbwa kwa 'hali ya hewa ya joto bila mvua'  ambayo inatokana na msemo wa siku za mbwa inayomaanisha mwezi wa Agosti iliyo na hali ya anga kavu.	Juni na Julai pia zian joto sana Tennessee.	1
+Mpeanaji habari wa Tennesse alitumia hali ya hewa ya mbwa kwa 'hali ya hewa ya joto bila mvua'  ambayo inatokana na msemo wa siku za mbwa inayomaanisha mwezi wa Agosti iliyo na hali ya anga kavu.	Hali ya hewa katika mwezi wa Agosti ni ya joto na yenye mkavu.	0

@@ -1,0 +1,601 @@
+premise	hypothesis	label
+Tole, ani waa'ee sanaa illee yaadaa hin ture, garuu baay'een aare fi, ammas isa waliin haasa'ee xumure.	Isa waliin ammas hin dubbannen ture.	2
+Tole, ani waa'ee sanaa illee yaadaa hin ture, garuu baay'een aare fi, ammas isa waliin haasa'ee xumure.	Baay'ee waanan mufadheef ammas isa waliin haasa'uu jalqabe.	0
+Tole, ani waa'ee sanaa illee yaadaa hin ture, garuu baay'een aare fi, ammas isa waliin haasa'ee xumure.	Haasaa baayyee bareedaa taasifneerra.	1
+Isaanis akkas naan jedhan, ah, akkan wal arguuf dhuma irratti gurbaa tokkoon akkan waamamu natti himan.	Nama kamiinuu wal arguuf homaa natti himamee hin beeku.	2
+Isaanis akkas naan jedhan, ah, akkan wal arguuf dhuma irratti gurbaa tokkoon akkan waamamu natti himan.	Wal arguuf gurbaan tokko gara keessaatti anaaf akka waamamu natti himame.	0
+Isaanis akkas naan jedhan, ah, akkan wal arguuf dhuma irratti gurbaa tokkoon akkan waamamu natti himan.	Gurbaan sun xiqqoo turee mul'ate.	1
+ Waan baay'ee waa’ee sanaa irratti dubbachuu dandeessu ni jira, calliseen irran darba.	Waa'ee sanaa waanan beeku hunda isinitti himuu barbaada!	2
+ Waan baay'ee waa’ee sanaa irratti dubbachuu dandeessu ni jira, calliseen irran darba.	Waanti baay'ee kan jedhamu jiraatus, waa'ee sanaa hin dubbadhu.	0
+ Waan baay'ee waa’ee sanaa irratti dubbachuu dandeessu ni jira, calliseen irran darba.	Waa'ee seenaa magaalattii hin dubbadhu sababni isaas waanti jedhamu baay'ee waan ta'eef.	1
+Kanaafuu ani dhuguma maaliif akka ta'e hin beeku.	Sababni maaliif akka ta'e ani shakkii tokko malee nan beeka.	2
+Kanaafuu ani dhuguma maaliif akka ta'e hin beeku.	Maaliif manneen barnootaa akka geeddare hin beeku.	1
+Kanaafuu ani dhuguma maaliif akka ta'e hin beeku.	Maaliif sun akka ta'e hin beeku.	0
+ Ana qofa ture kan ah, yoomiyyuu qorannaa gola olka'insa xiqqaa qabu keessatti to'ataa kanan banuuf.	Qorannoo kanaaf to'ataa kan banu ana qofa ta'uun natti hin tolle.	1
+ Ana qofa ture kan ah, yoomiyyuu qorannaa gola olka'insa xiqqaa qabu keessatti to'ataa kanan banuuf.	Qorannoowwan gola olka’iinsa xiqqaa qabu keessatti raawwatamaniiru.	0
+ Ana qofa ture kan ah, yoomiyyuu qorannaa gola olka'insa xiqqaa qabu keessatti to'ataa kanan banuuf.	Qorannoo kanaaf to'ataa kan banan muraasa keenya turre.	2
+Ani ah, hoogganaa olaanaa Saajin, soorama ba'eera, akkuma Rick jedhe.	Ammas hanga har'aatti hojjechaan jira.	2
+Ani ah, hoogganaa olaanaa Saajin, soorama ba'eera, akkuma Rick jedhe.	Bara 2002 soorama nan ba'e.	1
+Ani ah, hoogganaa olaanaa Saajin, soorama ba'eera, akkuma Rick jedhe.	Riik soorama akkan ba'e sitti himeera.	0
+Deeskii koo irratti tilmaama dhangala'aa maallaqaa tokko tokkotu jira fi, im, ah, kan akkasii fi akkasiitiif Cutty dha, maqaan maamilaa kanuma.	Maamilli Cutty jedhamu ji'atti doolaara 10000 hojjeta.	1
+Deeskii koo irratti tilmaama dhangala'aa maallaqaa tokko tokkotu jira fi, im, ah, kan akkasii fi akkasiitiif Cutty dha, maqaan maamilaa kanuma.	Maamilli Cutty jedhamu jira.	0
+Deeskii koo irratti tilmaama dhangala'aa maallaqaa tokko tokkotu jira fi, im, ah, kan akkasii fi akkasiitiif Cutty dha, maqaan maamilaa kanuma.	Nuyi maamila Cutty jedhamee waamamu kamiyyu hin qabnu.	2
+Intalli na gargaaruu dandeessu magaalaa gara gama biraatti qaxxaamurteetti.	Intalli ani gargaarsa irraa barbaadu kun fageenya dheeraa irra jiraatti.	0
+Intalli na gargaaruu dandeessu magaalaa gara gama biraatti qaxxaamurteetti.	Intalti na gargaaruuf deemtu kun maayilii 5 fagaatti.	1
+Intalli na gargaaruu dandeessu magaalaa gara gama biraatti qaxxaamurteetti.	Namni na gargaaruu danda'u tokkoyyu hin jiru.	2
+Garuu waa'ee akka eenyu hojjetaa maasii fi eenyu ijoollee manaa akka ta'e addaan qoodamanii turan, gosa-- ture.	Isaan hundinuu maasii irratti akka hojjetan hundi isaanii walii galan.	2
+Garuu waa'ee akka eenyu hojjetaa maasii fi eenyu ijoollee manaa akka ta'e addaan qoodamanii turan, gosa-- ture.	Isaan waa'ee Eenyu hojjetaa maasii akka ta'ee fi eenyu kan manaa akka ture irratti walii galuu hin dandeenye.	0
+Garuu waa'ee akka eenyu hojjetaa maasii fi eenyu ijoollee manaa akka ta'e addaan qoodamanii turan, gosa-- ture.	Eenyuutu maasii suufii keessa hojjechuu akka qabuu fi eenyutu lafa haxaa'uu akka qabu walii galuu hin dandeenye.	1
+Kana jechuun koo qabu turan, akka, isaan ijoollee shan qabu turan, isaan keessaa tokko du'eera.	Ijoolleen isaanii hundi lubbuun hafan.	2
+Kana jechuun koo qabu turan, akka, isaan ijoollee shan qabu turan, isaan keessaa tokko du'eera.	Shanan keessaa daa'imni tokko du'eera.	0
+Kana jechuun koo qabu turan, akka, isaan ijoollee shan qabu turan, isaan keessaa tokko du'eera.	Mucaan du'e dhukkubsataa isaatu dhalate.	1
+Ija ishee irraa imimmaanonni gadi dhufaa akka turan qofa dubbattee, sana booda akkas jette Joo barandaa irratti ol dhufe.	Akkuma barandaa ol ba'uu itti himtu imimmaan ija ishee irraa calalaan.	0
+Ija ishee irraa imimmaanonni gadi dhufaa akka turan qofa dubbattee, sana booda akkas jette Joo barandaa irratti ol dhufe.	Joo barandaa irraa erga buuftee booda daftee imimmaan ishee haxaa'atte.	2
+Ija ishee irraa imimmaanonni gadi dhufaa akka turan qofa dubbattee, sana booda akkas jette Joo barandaa irratti ol dhufe.	Joo argitee baayʼee waan gammaddeef booʼuu eegalte.	1
+Xiyyaarri sun ibiddaan gubataa yoo jiraate illee, maaliif, ni ta'a ture ah, gubuu fi karaa qaama liidiin ni baqa ture akka callaqqeen ifaa sun ba’uuf.	Callaqqeen ifaa kun yeroo ibiddaas illee akkasuma jiraachuu ni danda’a.	1
+Xiyyaarri sun ibiddaan gubataa yoo jiraate illee, maaliif, ni ta'a ture ah, gubuu fi karaa qaama liidiin ni baqa ture akka callaqqeen ifaa sun ba’uuf.	Callaqqeen ifaa kun erga xiyyaarichi gubatee booda qaama liidiin tokko keessaa ba'a ture.	0
+Xiyyaarri sun ibiddaan gubataa yoo jiraate illee, maaliif, ni ta'a ture ah, gubuu fi karaa qaama liidiin ni baqa ture akka callaqqeen ifaa sun ba’uuf.	Callaqqeen ifaa kun yeroo ibiddaa hin ba'u ture.	2
+Kun hoogganaa olaanaa saajin Clem Francis, humna qilleensaa Ameerikaa irraa soorama ba'eedha.	Hoogganaan olaanaa kun humna qilleensaa US irraa soorama ba'aniiru.	0
+Kun hoogganaa olaanaa saajin Clem Francis, humna qilleensaa Ameerikaa irraa soorama ba'eedha.	Hogganaan olaanaa kun torban muraasa dura dhiheenya kana soorama ba'aniiru.	1
+Kun hoogganaa olaanaa saajin Clem Francis, humna qilleensaa Ameerikaa irraa soorama ba'eedha.	Hogganaan olaanaa humna qilleensaa US reefu torban kana keessa hojii isaa eegale.	2
+Tole, torbanitti bakka xiyyaarri lama sadii balali'u jiru ga'ee gara eessaatti akka isaan balali'an hin beeku ture.	Torbanitti xiyyaaronni tokkoo ol ni dhufu.	0
+Tole, torbanitti bakka xiyyaarri lama sadii balali'u jiru ga'ee gara eessaatti akka isaan balali'an hin beeku ture.	Tiraafiki qilleensaa dabaluunis rakkina qaba.	1
+Tole, torbanitti bakka xiyyaarri lama sadii balali'u jiru ga'ee gara eessaatti akka isaan balali'an hin beeku ture.	Xiyyaara dhufan kamiyyu gonkumaa hin jiran.	2
+Isaan duraan leenjii isaanii Uffata dhiibbaa guutuutiin fudhatanii kan turanii fi yoo uffata dhiibbaa guutuu keessa seenan yeroo natti fudhateera.	Itti fayyadama uffata dhiibbaa guutuu irratti leenjii xumuruuf hanga ji'a sadii fudhata.	1
+Isaan duraan leenjii isaanii Uffata dhiibbaa guutuutiin fudhatanii kan turanii fi yoo uffata dhiibbaa guutuu keessa seenan yeroo natti fudhateera.	Leenjiin uffata dhiibbaa guutuu fayyadamuu yeroo fudhata.	0
+Isaan duraan leenjii isaanii Uffata dhiibbaa guutuutiin fudhatanii kan turanii fi yoo uffata dhiibbaa guutuu keessa seenan yeroo natti fudhateera.	Uffata dhiibbaa guutuu akka fayyadamtan dhuma guyyaa sanaatti akka isin leenjifamtan gochuu dandeenya turre.	2
+Boombiin hammam lafa dhawullee waan hin dhoohiniif, boombii sana qabatanii seenuun balaan tokkollee hin turre jechuu barbaada.	Boombiin kun balaliisaa sanaan akka hin hojjenne ta'ee ture.	1
+Boombiin hammam lafa dhawullee waan hin dhoohiniif, boombii sana qabatanii seenuun balaan tokkollee hin turre jechuu barbaada.	Boombiin kun carraa dho'uu hin qabu ture.	0
+Boombiin hammam lafa dhawullee waan hin dhoohiniif, boombii sana qabatanii seenuun balaan tokkollee hin turre jechuu barbaada.	Dhohinsa boonbichaan balaan guddaan ture.	2
+Akkasumas waa'ee waanan gochuuf yaalaa jiru sirriitti maal fakkaata.	Kun sitti maal akka fakkaatu ani sirriitti hin beeku.	2
+Akkasumas waa'ee waanan gochuuf yaalaa jiru sirriitti maal fakkaata.	Ani kana gochuudhaaf yaalaan jira, akkuma beekamu.	0
+Akkasumas waa'ee waanan gochuuf yaalaa jiru sirriitti maal fakkaata.	Torban dhufu keessa pirojektii koo xumuruuf yaalaan jira.	1
+Garuu waanuma fedhes ta'u bineensonni yeroo hunda ni hiikamu turan, keessumaa re'oonni.	Re'oonni kun guyyaa guyyaan mana kuusaa keessaa miliqu.	1
+Garuu waanuma fedhes ta'u bineensonni yeroo hunda ni hiikamu turan, keessumaa re'oonni.	Re’oonni yeroo baay’ee ni miliqu ture.	0
+Garuu waanuma fedhes ta'u bineensonni yeroo hunda ni hiikamu turan, keessumaa re'oonni.	Re’oonni kun nagaa fi tasgabbiidhaan eegamaa turan.	2
+Yeroo seennetti balbaloonni cufamanii turan.	Balbaloonni hundi banaa turan.	2
+Yeroo seennetti balbaloonni cufamanii turan.	Furtuuwwan sana of biraa qabna turre.	1
+Yeroo seennetti balbaloonni cufamanii turan.	Balballoonni cufaa yoo ta'aniyyu ni seenne.	0
+Kanaafuu ida'ama waliigala fudhadhee akkasitti bira ga'uu yaaluun qofa narra ture.	Kana bira ga'uuf kan na barbaachisu waliigala qofa ta'uusaatti ofitti amanamummaatu natti dhagahama.	1
+Kanaafuu ida'ama waliigala fudhadhee akkasitti bira ga'uu yaaluun qofa narra ture.	Waliigala qofaan maal akkan godhu hin beeku mee waliin-dhaha kana bira ga'uuf ibsa dabalata naaf kenna.	2
+Kanaafuu ida'ama waliigala fudhadhee akkasitti bira ga'uu yaaluun qofa narra ture.	Waliigala irratti hundaa'ee nan shallaga.	0
+Akasumas kun immoo baay'ee kan ta'eef sababa dhugaa haadholiin qoricha sammuu hadoochu fudhachuu isaanii irraa kan ka'edha.	Haadholiin fayyadamtoota araada qoricha sammuu namaa hadoochudha.	1
+Akasumas kun immoo baay'ee kan ta'eef sababa dhugaa haadholiin qoricha sammuu hadoochu fudhachuu isaanii irraa kan ka'edha.	Haadholiin ajaja yaalaa ykn qoricha kamiyyu hin fudhatan.	2
+Akasumas kun immoo baay'ee kan ta'eef sababa dhugaa haadholiin qoricha sammuu hadoochu fudhachuu isaanii irraa kan ka'edha.	Haadholiin qoricha sammuu hadoochu fudhatu.	0
+Eeyyen dhuguma namatti tola roobni roobaa turee jira.	Roobni na hin dhibu.	1
+Eeyyen dhuguma namatti tola roobni roobaa turee jira.	Gaariidhaa fi rooba qaba.	0
+Eeyyen dhuguma namatti tola roobni roobaa turee jira.	Aduu dhuma hin qabneen waliin akka malee rifachiisaadha.	2
+oo jireenyi namaa maal gatii qabaa akkasumas nama tokko deebistee dhaabuu dandeessa yookiin hin dandeessu.	Jireenyi hundinuu deebisanii dhaabuuf akkasumas carraa lammaffaaf gatii qabu.	1
+oo jireenyi namaa maal gatii qabaa akkasumas nama tokko deebistee dhaabuu dandeessa yookiin hin dandeessu.	Ilma namaa kamiyyuu deebisanii dhaabuun hin maluuf.	2
+oo jireenyi namaa maal gatii qabaa akkasumas nama tokko deebistee dhaabuu dandeessa yookiin hin dandeessu.	Deebisanii dhaabuun maaliyyu haa ta'u maal jireenyi gatii kan qabudha.	0
+oh yaa gurbaa ati achitti rakkoo hubannaa hin baramne ajaa'ibaa qabda.	Rakkoon hubannaa akkanaa kanaan dura argee hin beeku.	1
+oh yaa gurbaa ati achitti rakkoo hubannaa hin baramne ajaa'ibaa qabda.	Rakkoon hubannaa dhimma hin ta'u.	2
+oh yaa gurbaa ati achitti rakkoo hubannaa hin baramne ajaa'ibaa qabda.	Rakkoon hubannaa adda ta'ef hin baramne kanaan uumame jira.	0
+Waan nama gammachiisu fakkaata eeyyen akkamiin waan meeqa akka hayyamuuf turan anaaf ajaa'ibadha.	Isaan obsa kan qaban ta'uun isaanii tasumaa na hin ajaa'ibu.	2
+Waan nama gammachiisu fakkaata eeyyen akkamiin waan meeqa akka hayyamuuf turan anaaf ajaa'ibadha.	Nyaataa fi dhugaatii achi keessa akka galchitu siif hayyamuun isaanii sun na ajaa'ibeera.	1
+Waan nama gammachiisu fakkaata eeyyen akkamiin waan meeqa akka hayyamuuf turan anaaf ajaa'ibadha.	Waan isaan jalaa bahuu danda'an na ajaa'iba.	0
+Oo, garuu waanuma fedhes ta'u, waanuma fedhes ta'u, uum ijoolleen koo amma digdamii tokkoo fi digdamii afur waan ta'aniifna hin barbaachisu.	Ijoolleen koo umuriin isaanii waggaa digdamaa ol waan ta’aniif na hin barbaachisu.	0
+Oo, garuu waanuma fedhes ta'u, waanuma fedhes ta'u, uum ijoolleen koo amma digdamii tokkoo fi digdamii afur waan ta'aniifna hin barbaachisu.	Umriin isaanii waan walitti dhihoo ta'eef dirqama natti ta'uu danda'a	1
+Oo, garuu waanuma fedhes ta'u, waanuma fedhes ta'u, uum ijoolleen koo amma digdamii tokkoo fi digdamii afur waan ta'aniifna hin barbaachisu.	Lamaanuu umuriin isaanii waggaa kudhanii fi kudha tokkoo waan ta'eef dirqaman qaba.	2
+Eeyyen namoota yeroo kamiyyuu taanaan hojii irra jiraachuu danda'an ykn murtoo murteessuu yoo qabaatan murtoon isaanii duumessa ta'uu danda'u turan.	Eeyyee, namoonni waamichoota murtii hundarra gaarii ta'e gochuu kan hin dandeenye ta'uu danda'u.	0
+Eeyyen namoota yeroo kamiyyuu taanaan hojii irra jiraachuu danda'an ykn murtoo murteessuu yoo qabaatan murtoon isaanii duumessa ta'uu danda'u turan.	Eeyyee namoota beela'uu dhiisuu danda'an.	1
+Eeyyen namoota yeroo kamiyyuu taanaan hojii irra jiraachuu danda'an ykn murtoo murteessuu yoo qabaatan murtoon isaanii duumessa ta'uu danda'u turan.	Eeyyee namoota dandeettiin murtii isaanii gonkumaa hin miidhamne.	2
+Lakki isaan ammallee daawwannaa irra jiru dhuma jaatamaa irraa eegalee daawwannaa taasisaa turan.	Bara 1970 dura irraa eegalee daawwannaa taasisaa turan.	0
+Lakki isaan ammallee daawwannaa irra jiru dhuma jaatamaa irraa eegalee daawwannaa taasisaa turan.	Daawwannaa ni jaallatu.	1
+Lakki isaan ammallee daawwannaa irra jiru dhuma jaatamaa irraa eegalee daawwannaa taasisaa turan.	Dhiheenya kana daawwannaa isaanii xumuraniiru.	2
+Akkamitti erobiksii hojjetta turte.	Akkamitti erobiksii akka hojjettu ibsuu dandeessaa?	0
+Akkamitti erobiksii hojjetta turte.	Sochii onnee fi ujummoolee dhiigaa tokko tokko waan na barbaachisuuf erobiksii irratti fedhiin qaba.	1
+Akkamitti erobiksii hojjetta turte.	Maaloo waa'ee erobiksii dubbachuu dhiisaa.	2
+Tole sun gaarii dha ani waa'ee sanaa hin yaadnen ture eeyyee.	Sun yaada gadhee ani torban darbe gatedha.	2
+Tole sun gaarii dha ani waa'ee sanaa hin yaadnen ture eeyyee.	Sun qabxii gaarii dha.	0
+Tole sun gaarii dha ani waa'ee sanaa hin yaadnen ture eeyyee.	Yaadi wal-faallaa ati kaafte qabxii gaarii dha.	1
+Kunuunsa guyyaa torbanitti guyyaa lama kunuunsa guyyaa angafaa lammii jedhaniiti waamu garuu gara giddugala angafa lammii deemti.	Kunuunsi guyyaa daa'imman umuriin isaanii waggaa shan gadi ta'e qofaaf guyyaa hunda banaadha.	2
+Kunuunsa guyyaa torbanitti guyyaa lama kunuunsa guyyaa angafaa lammii jedhaniiti waamu garuu gara giddugala angafa lammii deemti.	Maanguddoonni lammii yoo danda’an torbanitti al lamaa ol akka deemaniif ni hayyamamaaf.	1
+Kunuunsa guyyaa torbanitti guyyaa lama kunuunsa guyyaa angafaa lammii jedhaniiti waamu garuu gara giddugala angafa lammii deemti.	Kunuunsa guyyaa maanguddootaa jechuun waamu garuu wiirtuu maanguddootaa jedhama.	0
+Sun galma isaanii ture oo.	Wanti isaan carraaqaa turaniif kanuma.	0
+Sun galma isaanii ture oo.	Sun gonkumaa waan isaan barbaadan hin turre.	2
+Sun galma isaanii ture oo.	Kaayyoo isaanii galmaan gahaniiru.	1
+To’annoo qawwee jechuun harka lama fayyadamuu jechuudha.	Dhukaasa qawwee dogoggoraa hunda keessaa walakkaan isaa harka tokkoon fayyadamuu irraa kan maddudha.	1
+To’annoo qawwee jechuun harka lama fayyadamuu jechuudha.	To'annaa Qawweetiif karaan hundarra gaariin miila lamaan fayyadamuudha.	2
+To’annoo qawwee jechuun harka lama fayyadamuu jechuudha.	Yoo to'annoo qawwee shaakaluu barbaadde harka lamaan fayyadami.	0
+Akkasumas ah, garuu battaluma bakka tokko irraa dhufa, garuu eessaa akka dhufe hin beeku.	Eessaa akka dhufe hin beeku garuu saffisaa dha.	0
+Akkasumas ah, garuu battaluma bakka tokko irraa dhufa, garuu eessaa akka dhufe hin beeku.	Saffisaan dhufa garuu eessaa dhufuu akka malu akkanatti beeka.	1
+Akkasumas ah, garuu battaluma bakka tokko irraa dhufa, garuu eessaa akka dhufe hin beeku.	Suutan dhufa yeroo itti dhufu sirriitti nan beeka.	2
+Lakki, dhugaa dubbachuuf ani wantichaan wal hin beeku jedheen hin yaadu.	Waa'ee sanaa waan baay'ee hin beeku.	0
+Lakki, dhugaa dubbachuuf ani wantichaan wal hin beeku jedheen hin yaadu.	Dhimma jaalalaa keessatti ani wallaalaadha.	1
+Lakki, dhugaa dubbachuuf ani wantichaan wal hin beeku jedheen hin yaadu.	Waggootaaf qo'achaan jira.	2
+Eeyyen isheen baayyee gaarii turte ishee beekta.	Isheen nama dinqisiistuu akka turte waan beektu natti fakkaata.	1
+Eeyyen isheen baayyee gaarii turte ishee beekta.	Lakki isheen gara-jabeettii turte.	2
+Eeyyen isheen baayyee gaarii turte ishee beekta.	Eeyyee baayyee gaarii turte.	0
+Eeyyen akkuma ati fayyadamtu uh um a uh um haxooftuu akka argattu yaada dhiheesse.	Iddoo duwwaa bitachuuf yaada dhiheesse.	2
+Eeyyen akkuma ati fayyadamtu uh um a uh um haxooftuu akka argattu yaada dhiheesse.	Innis Haxooftuu barbaaduuf yaada dhiheesse.	0
+Eeyyen akkuma ati fayyadamtu uh um a uh um haxooftuu akka argattu yaada dhiheesse.	Dhiiga sana Haxooftuudhan qulqulleessuu barbaade.	1
+Bakki kun dhugumatti baayyee hamaadha, daandii saffisaa mana keenya irraa gara bilookii sadii fagaatu irratti dhukaasni baname.	Dhukaasni kun yoo xiqqaate bakka ani jiraadhu irraa fageenya maayilii 100 irratti ture.	2
+Bakki kun dhugumatti baayyee hamaadha, daandii saffisaa mana keenya irraa gara bilookii sadii fagaatu irratti dhukaasni baname.	Dhukaasni mana kootti dhihoo waan tureef ala ba'uuf na sodaachisa.	1
+Bakki kun dhugumatti baayyee hamaadha, daandii saffisaa mana keenya irraa gara bilookii sadii fagaatu irratti dhukaasni baname.	Naannoo mana kootti dhukaasni baname, dhuguma naannoo kana keessa gaarii miti.	0
+ah-hah sun dhugaadha dhuguma ah walsimaa miti.	Ani si waliin walii hin galu, baay'ee walsima.	2
+ah-hah sun dhugaadha dhuguma ah walsimaa miti.	Waa'ee walsimannaa isaa sirrii ta'uu dandeessa jedheen yaada.	1
+ah-hah sun dhugaadha dhuguma ah walsimaa miti.	Waa'ee isaa ati sirrii dha wal hin simne.	0
+Achuma obsaan turuuf yaalaan jira	Ani fannifamuu yaalaan jira.	0
+Achuma obsaan turuuf yaalaan jira	Dhuguma waanan danda'u hunda gochaan jira.	1
+Achuma obsaan turuuf yaalaan jira	Ani gadhiisa malee of duuba hin ilaalu.	2
+Seensa karra teeknooloojiitti gara egeree nii seenna.	Dursitoota egeree teeknooloojiif barbaachisan ijaaraa jirra.	0
+Seensa karra teeknooloojiitti gara egeree nii seenna.	Tiraanzistara ni ijaarra, kanaaf egereen keenya sammuu namtolcheen kan hoogganamu ta'a.	1
+Seensa karra teeknooloojiitti gara egeree nii seenna.	Teeknooloojiin akka hin milkoofne ittisuu barbaanna.	2
+Fakkeenyaaf, yoo baay’ate, jiiniiwwan hundinuu diimaa-cuqulisatti jijjiiramu.	Yoo baay’ate, jiiniiwwan walakkaa qofti diimaa-cuqulisatti jijjiiramuu danda’u.	2
+Fakkeenyaaf, yoo baay’ate, jiiniiwwan hundinuu diimaa-cuqulisatti jijjiiramu.	Jiiniiwwaniif halluu jijjiiruun ni danda'ama.	0
+Fakkeenyaaf, yoo baay’ate, jiiniiwwan hundinuu diimaa-cuqulisatti jijjiiramu.	Yeroo tokko tokko jiiniin sunis gara halluu cuqulisaas ta’uu danda’a.	1
+Daani'eel Yaamiins dargaggeessa ogeessa herregaa qaroodha.	Obbo Yamins herrega irratti gaariidha.	0
+Daani'eel Yaamiins dargaggeessa ogeessa herregaa qaroodha.	Xiyyeeffannaan Obbo Yamins ji'oomeetirii aljebraa ti.	1
+Daani'eel Yaamiins dargaggeessa ogeessa herregaa qaroodha.	Kan Obbo Yamins artistii guddaadha, garuu ogeessa herregaa sodaachisaadha..	2
+Akkas yoo taʼe immoo, yeroo baayʼee daangaa sanatti dhihoo jiruu?	Gonkumaa daangaatti dhihoo akka isaan hin imalle nan beeka.	2
+Akkas yoo taʼe immoo, yeroo baayʼee daangaa sanatti dhihoo jiruu?	Ani beekuun barbaada, yeroo baayyee biyya Ingilizii keessa jiruu?	1
+Akkas yoo taʼe immoo, yeroo baayʼee daangaa sanatti dhihoo jiruu?	Dubbi himaan kun yeroo meeqa akka gara daangaatti deeman ibsa barbaadee ture.	0
+Akkasumas, akkan yaadutti, baayoosfiiriin tuuta hidda dhalootaa itti fufiinsaan babal'achaa jiruuf sirna lubbuun jiraachuu keessatti itti fufinsaan of ijaaraa akka jiru kan agarsiisu ragaa xiqqoo molakiyuulaa jira.	Baayoosfiiriin baayyee jijjiirama.	0
+Akkasumas, akkan yaadutti, baayoosfiiriin tuuta hidda dhalootaa itti fufiinsaan babal'achaa jiruuf sirna lubbuun jiraachuu keessatti itti fufinsaan of ijaaraa akka jiru kan agarsiisu ragaa xiqqoo molakiyuulaa jira.	Baayoosfiiriin akkaataa ho’aatti jijjiirama.	1
+Akkasumas, akkan yaadutti, baayoosfiiriin tuuta hidda dhalootaa itti fufiinsaan babal'achaa jiruuf sirna lubbuun jiraachuu keessatti itti fufinsaan of ijaaraa akka jiru kan agarsiisu ragaa xiqqoo molakiyuulaa jira.	Baayoosfiiriin gonkumaa hin jijjiiramu.	2
+Utaalcha sanaan, kiristaalli idilee odeeffannoo baay’ee koodii hin danda’u.	Kiristaalonni idilee meeshaa odeeffannoo kuusaa baay’ee ol’aanaa dha.	2
+Utaalcha sanaan, kiristaalli idilee odeeffannoo baay’ee koodii hin danda’u.	Kiristaalonni idilee odeeffannoo koodii  gochuuf baay’ee faayidaa hin qaban.	0
+Utaalcha sanaan, kiristaalli idilee odeeffannoo baay’ee koodii hin danda’u.	Kiristaalonni gosa biroo kanneen odeeffannoo teessuma lafaa ifa laayizerii fayyadamuun koodii gochuuf baay’ee faayidaa qaban jiru.	1
+Kanarraa kan ka’e, ga’eessonni daa’imman mana barumsaa duraa tapha fakkeessaatiin barsiisuu hin barbaachisan, akkuma yeroo tokko tokko yeroo isaan gargaaran hibboo ykn hojiiwwan kana fakkaatan adda baasuuf godhan.	Daa’imman mana barumsaa duraa uumamaan tapha fakkeessaa taphachuu caalaa hibboo furuu irratti fooyya’oodha.	2
+Kanarraa kan ka’e, ga’eessonni daa’imman mana barumsaa duraa tapha fakkeessaatiin barsiisuu hin barbaachisan, akkuma yeroo tokko tokko yeroo isaan gargaaran hibboo ykn hojiiwwan kana fakkaatan adda baasuuf godhan.	Daa’imman mana barumsaa duraa akkamitti fakkeessuun akka danda'amu barachuuf gargaarsa hamma kanaa isaan hin barbaachisu.	0
+Kanarraa kan ka’e, ga’eessonni daa’imman mana barumsaa duraa tapha fakkeessaatiin barsiisuu hin barbaachisan, akkuma yeroo tokko tokko yeroo isaan gargaaran hibboo ykn hojiiwwan kana fakkaatan adda baasuuf godhan.	Daa’imman mana barumsaa duraa dandeettii moodeela iddoo barbaachisaa ta’e kan ofuma isaaniitiin hibboo qabachuu danda’an hin qaban.	1
+[Sabni kun] bilisummaan keessatti kan ulfaa’ee fi yaada namoonni hundi walqixa uumaman jedhuuf kan of kenne ture.	Yaadannoowwan waa’ee yaada kanaa sanadoota dabalataa hedduu keessatti galmaa’aniiru.	1
+[Sabni kun] bilisummaan keessatti kan ulfaa’ee fi yaada namoonni hundi walqixa uumaman jedhuuf kan of kenne ture.	Namoonni tokko tokko namoonni hundi wal qixa jedhanii amanu turan.	0
+[Sabni kun] bilisummaan keessatti kan ulfaa’ee fi yaada namoonni hundi walqixa uumaman jedhuuf kan of kenne ture.	Sabni kun kan hundeeffame namoonni tokko tokko uumamaan warra kaan caala amantii jedhu irratti.	2
+Caalaatti isa faarsuun qabaa?	Kufaatiilee isaa kanaan isa mo'achuu akkan qabu mirkanaa'aa dha.	2
+Caalaatti isa faarsuun qabaa?	Dinqisiifannaa dabalataa narraa akka isa barbaachisu yaadaa jira.	0
+Caalaatti isa faarsuun qabaa?	Gahumsa piyaanoo isaatiin caalaatti isa faarsuun qabaa?	1
+Yaad-rimeewwaan ispiin neetworkii kallattii adda addaatiin ijaaramuu danda’a.	Yaad-rimeewwan ispiin neetworkii ijaaruuf kallattiiwwan biroo fayyadamuun ni danda’ama.	0
+Yaad-rimeewwaan ispiin neetworkii kallattii adda addaatiin ijaaramuu danda’a.	Neetworkiin ispiin teeknooloojiiwwan kuusaa odeeffannoof baay’ee faayidaa qaba.	1
+Yaad-rimeewwaan ispiin neetworkii kallattii adda addaatiin ijaaramuu danda’a.	Neetworkiin ispiin kallattii adda addaatiin tilmaamamuu hin danda’u.	2
+(Sodaadhaan) Lakki lakki akka ati duutu hin barbaadu!	Akka ati duutu hin barbaadu!	0
+(Sodaadhaan) Lakki lakki akka ati duutu hin barbaadu!	Yoo duute na hin dhibu!	2
+(Sodaadhaan) Lakki lakki akka ati duutu hin barbaadu!	Osoo duutee baay'een aara!	1
+Bitooteessa 19, 1875, Saan Joosee, Kaalifoorniyaatti ifatti fannifame.	Kaalifoorniyaan hanga dhuma bara 1875tti ajjeechaa ummataa raawwachaa turte.	0
+Bitooteessa 19, 1875, Saan Joosee, Kaalifoorniyaatti ifatti fannifame.	Badii hojjete hundarraa bilisa ta'ee gara karaa isaatti ergame.	2
+Bitooteessa 19, 1875, Saan Joosee, Kaalifoorniyaatti ifatti fannifame.	Inni fincilaa fi saamicha fardaa irratti fannifame.	1
+Sirna jeequmsaa kana keessatti galaanni magariisa calaqqisu sun ni dhangala’a.	Galaanni sun cuquliisa gadi fagoo fi akka fuullee kan hin quuqne ture.	2
+Sirna jeequmsaa kana keessatti galaanni magariisa calaqqisu sun ni dhangala’a.	Galaanichi qurxummii xixiqqoo bidiruutti faca'aniin guutame.	1
+Sirna jeequmsaa kana keessatti galaanni magariisa calaqqisu sun ni dhangala’a.	Galaanichi magariisaa fi hoomacha fakkaata ture.	0
+Sirni seeraa guutummaatti haaraan jeequmsa bara 1860moota keessa ture irraa kara bilisa ta'een hojjechuuf hawwaama.	Bara 1870 moota keessa sirni seeraa hundi diigamee biyyattiin guutummaatti seera-maleessummaa keessa turte.	2
+Sirni seeraa guutummaatti haaraan jeequmsa bara 1860moota keessa ture irraa kara bilisa ta'een hojjechuuf hawwaama.	Bara 1860moota keessa yeroo jeequmsaa ture.	0
+Sirni seeraa guutummaatti haaraan jeequmsa bara 1860moota keessa ture irraa kara bilisa ta'een hojjechuuf hawwaama.	Sirni seeraa haaraan kun mirgoota hojjetaa babal'isuu barbaada.	1
+Gosti yaadaa olaanaa kamiyyuu, jalqaba qunnamtii hawaasummaa keessatti ni mul'ata, daa’imaa fi bakka bu’oota aadaa isaa yookiin ishee gidduutti yeroo isaan sochii waloo irratti bobba’an kan mul’atu ta’uu akeekeera.	Ijoolleen gosoota yaada ol’aanaa qooduuf dandeettii hin qaban.	2
+Gosti yaadaa olaanaa kamiyyuu, jalqaba qunnamtii hawaasummaa keessatti ni mul'ata, daa’imaa fi bakka bu’oota aadaa isaa yookiin ishee gidduutti yeroo isaan sochii waloo irratti bobba’an kan mul’atu ta’uu akeekeera.	Qurxummii qabuun gochaa beekamaa aadaa adda addaa hedduu gidduutti qooddatamu keessaa isa tokkodha.	1
+Gosti yaadaa olaanaa kamiyyuu, jalqaba qunnamtii hawaasummaa keessatti ni mul'ata, daa’imaa fi bakka bu’oota aadaa isaa yookiin ishee gidduutti yeroo isaan sochii waloo irratti bobba’an kan mul’atu ta’uu akeekeera.	Sochiiwwan waliinii keessatti qooda qabaachuun yeroo tokko tokko gosoota yaada ol’aanoo qooddachuuf gargaara.	0
+Ollaan tokko tokko kadhannaa ykn kadhannaa, geggeessitoota hafuuraa kanneen hawaasa geggeessan kadhannaa awwaalchaa, ayyaana guyyaa qulqullootaa fi yeroo lubichi hin argamne hundatti qaban turan.	Ollaan keessaan tokkollee geggeessitoota hafuuraa luba hin taane hin qaban ture.	2
+Ollaan tokko tokko kadhannaa ykn kadhannaa, geggeessitoota hafuuraa kanneen hawaasa geggeessan kadhannaa awwaalchaa, ayyaana guyyaa qulqullootaa fi yeroo lubichi hin argamne hundatti qaban turan.	Ollaan tokko tokko geggeessitoota hafuuraa luba hin taane qabu turan.	0
+Ollaan tokko tokko kadhannaa ykn kadhannaa, geggeessitoota hafuuraa kanneen hawaasa geggeessan kadhannaa awwaalchaa, ayyaana guyyaa qulqullootaa fi yeroo lubichi hin argamne hundatti qaban turan.	Geggeessitoota hafuuraa keessaa tokko tokko rifeensa gurraacha qabu turan.	1
+Tapha hawaas-diraamaa keessattis, carraan gahee adda addaa taphachuu fi qindeessuun ijoolleen walfakkeenyaa fi garaagarummaa fedhii, amantaa fi miira uummata gidduu jiru akka hubatan gargaaruu hin oolu.	Ijoolleen akkamitti namoonni akka wal fakkaatanii fi adda ta’an baruu danda’u.	0
+Tapha hawaas-diraamaa keessattis, carraan gahee adda addaa taphachuu fi qindeessuun ijoolleen walfakkeenyaa fi garaagarummaa fedhii, amantaa fi miira uummata gidduu jiru akka hubatan gargaaruu hin oolu.	Ijoolleen sanyiiwwan adda addaa akkamitti akka adda taʼan hubachuu dandaʼu.	1
+Tapha hawaas-diraamaa keessattis, carraan gahee adda addaa taphachuu fi qindeessuun ijoolleen walfakkeenyaa fi garaagarummaa fedhii, amantaa fi miira uummata gidduu jiru akka hubatan gargaaruu hin oolu.	Ijoolleen homaa barachuu hin danda'an.	2
+Gaarummaan olaanaa sirna heera mootummaa Jarmanii waraana boodaa ture, sana booda, sirriitti miidhaa guddaa sirna Naazii irra gahee ture.	Mosaajiin sagantaa sadarkaa olaanaa qopheessuuf dandeessisu teeknooloojiiwwan cimoo daldaltoonni irratti kaayyeffatan keessaa isa tokkodha.	2
+Gaarummaan olaanaa sirna heera mootummaa Jarmanii waraana boodaa ture, sana booda, sirriitti miidhaa guddaa sirna Naazii irra gahee ture.	Bulchiinsi Naazii nama dhimmicha keessa ture hunda ajjeese.	1
+Gaarummaan olaanaa sirna heera mootummaa Jarmanii waraana boodaa ture, sana booda, sirriitti miidhaa guddaa sirna Naazii irra gahee ture.	Bulchiinsi Naazii sana ni dhaabsise.	0
+Sonja mucaan sun aarii intala ishee fakkeessuu jalqabde.	Namni aarii qabu hin turre.	2
+Sonja mucaan sun aarii intala ishee fakkeessuu jalqabde.	Sonjaan daa'ima dha.	0
+Sonja mucaan sun aarii intala ishee fakkeessuu jalqabde.	Sonjaan ni mufatte.	1
+6 Waggoota shantamii shan Waraana Biyya keessaa dura turan keessatti Manni Murtii aangoo kana xiqqoo fayyadameera.	Manni Murtichaa waggoota kurnan Waraana Biyya keessaa dura turan keessatti darbee darbee aangoo kana fayyadamaa ture.	0
+6 Waggoota shantamii shan Waraana Biyya keessaa dura turan keessatti Manni Murtii aangoo kana xiqqoo fayyadameera.	Manni Murtichaa waggoota shantamii shan Waraana Biyya keessaa dura turan keessatti yeroo 4f aangoo kana fayyadameera.	1
+6 Waggoota shantamii shan Waraana Biyya keessaa dura turan keessatti Manni Murtii aangoo kana xiqqoo fayyadameera.	Manni Murtichaa waggoota shantamii shan Waraana Biyya keessaa dura turan keessatti aangoo kana yeroo miliyoona 5niif fayyadameera.	2
+Waan hundisaa guutummaatti akka natti himame ta'uu isaa siif mirkaneessa yaa Gooftaa.	Waa'ee waan hundaa beekumsi akka naaf kenname sitti himaan jira.	0
+Waan hundisaa guutummaatti akka natti himame ta'uu isaa siif mirkaneessa yaa Gooftaa.	Du'a qorataa yakkaa sanaati kan ani waa'ee isaa dhagahe.	1
+Waan hundisaa guutummaatti akka natti himame ta'uu isaa siif mirkaneessa yaa Gooftaa.	Bal'ina na jalaa dhokatanii turan baay'eetu jiru. 	2
+Sagaleewwan sun Kaapteen Blood muuziqummaa isaa isa mufate irraa yaada isaa jeeqe.	Kaapteen Blood yaada isaa isa hin gammachiifne osoo addaan hin kutin yaaduu danda'eera.	2
+Sagaleewwan sun Kaapteen Blood muuziqummaa isaa isa mufate irraa yaada isaa jeeqe.	Yaadni Kaapteen Blood sagalee tokko tokkoon addan cite.	0
+Sagaleewwan sun Kaapteen Blood muuziqummaa isaa isa mufate irraa yaada isaa jeeqe.	Iyyi saree sanaa kaappiteenii sana gad fageenyan yaaduu isaa irraa isa kaase.	1
+Garuu yeroon mana adeera keessanii Baarbaadoositti garba hin caalu turetti gaarummaa murtaa'een akka natti fayyadame dagachuu hin danda'u.	Barbaadoositti yeroon garba ture gaarummaadhaan na qabatte.	0
+Garuu yeroon mana adeera keessanii Baarbaadoositti garba hin caalu turetti gaarummaa murtaa'een akka natti fayyadame dagachuu hin danda'u.	Haala ajaa'ibaa ta'een garaa natti jabaateetta, hanga xuriitti illee nan ilaalle.	2
+Garuu yeroon mana adeera keessanii Baarbaadoositti garba hin caalu turetti gaarummaa murtaa'een akka natti fayyadame dagachuu hin danda'u.	Yeroo eessumni kee akka abbummaatti na qabatee turetti guyyaa guyyaan akka malee na reebaa ture.	1
+Achitti, fageenya maayilii sadii hin caalle irratti, lafti ture--Gidaarri magariisa hin sirroofne ifa ta'ee fi naannoo dhihaa ture.	Taa'umsi lafaa lalisaa taʼe tokko ijaan mulʼata ture.	0
+Achitti, fageenya maayilii sadii hin caalle irratti, lafti ture--Gidaarri magariisa hin sirroofne ifa ta'ee fi naannoo dhihaa ture.	Odola isaan itti dhiyaachaa turan namni jiraatu hin turre.	1
+Achitti, fageenya maayilii sadii hin caalle irratti, lafti ture--Gidaarri magariisa hin sirroofne ifa ta'ee fi naannoo dhihaa ture.	Isaan galaana dhuma hin qabne qofa malee lafa Mayiiii tokkollee arguu hin dandeenye.	2
+Ani ergamaa mootii kutaalee badoo kanaaf ergamaa surraa isaanii, fi fira dhiyoo gooftaa koo Sanderland dha.	Mootiin surraa kun ergamtoota kan qaban yoo ta’u, ani isaan keessaa tokkodha.	0
+Ani ergamaa mootii kutaalee badoo kanaaf ergamaa surraa isaanii, fi fira dhiyoo gooftaa koo Sanderland dha.	Mootiin surraa kun gara torban tokko dura asitti na erganiiru.	1
+Ani ergamaa mootii kutaalee badoo kanaaf ergamaa surraa isaanii, fi fira dhiyoo gooftaa koo Sanderland dha.	Ani ajaja mootii surraa irraa hin fudhadhu.	2
+Hidaa siifan qaba--ykn kanan raawwadhe jedheen yaade jedhe.	Inni homaa hidaan akka sirra jiru yaadee hin beeku.	2
+Hidaa siifan qaba--ykn kanan raawwadhe jedheen yaade jedhe.	Akka kadhataa saantima hin qabne gargaarsa ati isa gooteef siif liqeesse.	1
+Hidaa siifan qaba--ykn kanan raawwadhe jedheen yaade jedhe.	Waan si irraa liqii qabu itti fakkaate.	0
+Halkaniin gara Jaamaayikaatti dhihaachuu caalaa beekuun qaba ture.	Erga aduun lixxee booda gara Jaamaayikaatti dhihoo nan imale.	0
+Halkaniin gara Jaamaayikaatti dhihaachuu caalaa beekuun qaba ture.	Bidiruu guddaa tokkoon gara Jaamaayikaattin deeme.	1
+Halkaniin gara Jaamaayikaatti dhihaachuu caalaa beekuun qaba ture.	Aniifi haati manaakoo guyyaa saafaa Jaamaayikaa geenye.	2
+Yaadni Blood wanta kanaa fi kanneen biroo irratti akkuma achi siree guyyaa irra taa’ee jiru ture.	Blood abjuu hin yaadamne siree guyyaa isa irratti rafe.	2
+Yaadni Blood wanta kanaa fi kanneen biroo irratti akkuma achi siree guyyaa irra taa’ee jiru ture.	Blood yeroo gad ciisetti baayyee yaadaa ture.	0
+Yaadni Blood wanta kanaa fi kanneen biroo irratti akkuma achi siree guyyaa irra taa’ee jiru ture.	Blood yeroo dhumaaf haadha isaa yeroo argetti cimsee yaadaa ture.	1
+Mirkanaa'aadha, egaa, Ani isinitti nan hima.	Tole egaa, ani waa'ee isaa isinitti nan hima.	0
+Mirkanaa'aadha, egaa, Ani isinitti nan hima.	Jecha tokkollee sitti hin dubbadhu.	2
+Mirkanaa'aadha, egaa, Ani isinitti nan hima.	Kana irra akka hin deebine waadaa waan galteef qofa ani sitti himaan jira.	1
+Ah! Sunis karaa akkamii taʼuu dandaʼa?	Namni tokko karaa kamiin akka deemu qabu gaafachaa jira.	0
+Ah! Sunis karaa akkamii taʼuu dandaʼa?	Gaaffii gaafataan kophaa waan ta'eef nama waliin haasa'u hin qabu.	2
+Ah! Sunis karaa akkamii taʼuu dandaʼa?	Gaaffii gaafataan ariifachaa waan jiruuf karaa irra deemuu qabu hatattamaan beekuu qaba.	1
+Ergama Mootichaa salphaatti hin kennu.	Ergama Mootichaa kennuunis safuu koo waliin wal faallaadha.	1
+Ergama Mootichaa salphaatti hin kennu.	Ani ergama mootichaa baayyee itti yaadeera.	0
+Ergama Mootichaa salphaatti hin kennu.	Ani yaada lammaffaa malee ergama mootichaa kennuudhaaf wabii mallatteesseera.	2
+Ariitiidhaan duubatti deebi’uu akka qabu inni hubateera.	Duubatti deebi'uuf guyyaa guutuu akka qabu hubate.	2
+Ariitiidhaan duubatti deebi’uu akka qabu inni hubateera.	Tarkaanfii ariifataa gochuu akka qabu hubate.	0
+Ariitiidhaan duubatti deebi’uu akka qabu inni hubateera.	Osoo iddooma sana turee ta'e ni argama ture.	1
+Akkasuma ta'us inni waan ta'ee ture ta'ee waggoota sadan darban kana keessatti waan hojjete hojjeteera jette, isheen garuu amma gadda guddaadhaan dubbatte, tuffii ishee duraanii tokko malee.	Waggoota sadan darban keessatti dhiirota hedduu ajjeesuu isaa ishee hin jaalanne.	1
+Akkasuma ta'us inni waan ta'ee ture ta'ee waggoota sadan darban kana keessatti waan hojjete hojjeteera jette, isheen garuu amma gadda guddaadhaan dubbatte, tuffii ishee duraanii tokko malee.	Waa'ee cimina isaa fi namooma isaa gammachuudhaan dubbatte.	2
+Akkasuma ta'us inni waan ta'ee ture ta'ee waggoota sadan darban kana keessatti waan hojjete hojjeteera jette, isheen garuu amma gadda guddaadhaan dubbatte, tuffii ishee duraanii tokko malee.	Sagalee gaddisiisaa ta'een dubbatte.	0
+Sun faashinii gosa keessanii booda ta'a jedheen yaada.	Gosti keessan waan kana hojjetu jedheen fudhadha.	0
+Sun faashinii gosa keessanii booda ta'a jedheen yaada.	Waa'ee gosa keessanii, fi aadaa isaanii dubbiseera.	1
+Sun faashinii gosa keessanii booda ta'a jedheen yaada.	Kun gosa keessan biratti waan barame miti jedheen fudhadha.	2
+Gammachuu dhabuun fuula ishee guurte.	Fuula ishee irratti seequun guddaan faca'e.	2
+Gammachuu dhabuun fuula ishee guurte.	Garaa ishee keessatti miira nama dhukkubsutu itti dhaga'ame.	1
+Gammachuu dhabuun fuula ishee guurte.	Fuula ishee irra aariitu ture.	0
+Ija bobaastee isa taajjabaa turte, garuu fuula isaa isa gadda qabu arguudhaan, akkasumas mufannaa gadi fagoon deebii inni kenne yoo argitu ibsi mataa ishee ni jijjiirame.	Fuula isaa erga argitee booda ibsi ishee jijjiirame.	0
+Ija bobaastee isa taajjabaa turte, garuu fuula isaa isa gadda qabu arguudhaan, akkasumas mufannaa gadi fagoon deebii inni kenne yoo argitu ibsi mataa ishee ni jijjiirame.	Fuulli ishee yeroo fuula isaa irraa miira aarii argitu ife.	2
+Ija bobaastee isa taajjabaa turte, garuu fuula isaa isa gadda qabu arguudhaan, akkasumas mufannaa gadi fagoon deebii inni kenne yoo argitu ibsi mataa ishee ni jijjiirame.	Isheen isheetti aaruu fi dhiisuu isaa hin beektu turte.	1
+Boonaa utuu adeemuu dallaa lolaan marfame sana qaxxaamuree, karra gurguddaa sana keessa darbee gara mooraa sanaatti seene.	Karrawwan gurguddoon cufamanii waan jiraniif, inni dallaa sana irraa gara mooraa sanaatti utaalee.	2
+Boonaa utuu adeemuu dallaa lolaan marfame sana qaxxaamuree, karra gurguddaa sana keessa darbee gara mooraa sanaatti seene.	Karrawwan gurguddoon sana qofatu seensa mooraa sanaa ture.	1
+Boonaa utuu adeemuu dallaa lolaan marfame sana qaxxaamuree, karra gurguddaa sana keessa darbee gara mooraa sanaatti seene.	Karrawwan gurguddoon gara mooraa sanaatti nama geessan jiru turan.	0
+Gara fannootti ni yaata, shakkii tokko malee jedhe tuffiidhaan.	Inni namni tokko gara fannootti ni deema jedhee yaadee ture.	0
+Gara fannootti ni yaata, shakkii tokko malee jedhe tuffiidhaan.	 Kan hattuu qabe inni sheriif ture.	1
+Gara fannootti ni yaata, shakkii tokko malee jedhe tuffiidhaan.	Mana hidhaa irraa of qusachuuf jecha karaa itti biyyaa miliqu hasaasan dubbate.	2
+Akkamittan amanamummaadhaan isaan to'achuu dandaʼa ture? Marii irra ture.	Gara isaan to'achuutti ofii koo of fiduu hin dandeenye.	0
+Akkamittan amanamummaadhaan isaan to'achuu dandaʼa ture? Marii irra ture.	Akkuman isaan argeen isaan to'adhe.	2
+Akkamittan amanamummaadhaan isaan to'achuu dandaʼa ture? Marii irra ture.	Silaa ofii kootiif dhiifama hin godhu ture, osoon isaan hidhee.	1
+Bara kana isa adamsaan jira.	Waggaa tokkoof osoo inni hin beekin itti dhiyeenyaan hordofaa jira.	1
+Bara kana isa adamsaan jira.	Gara torban tokkoo qofaf isa hordofaan ture.	2
+Bara kana isa adamsaan jira.	Waggaa darbe keessa isa adamsaan ture.	0
+Muuziyeemichi baafata ykn asxaa irratti cimaa miti.	Muuziyeemichi maqaa itti moggaafamuu hin jaallatu.	1
+Muuziyeemichi baafata ykn asxaa irratti cimaa miti.	Muuziyeemichi dinqisiifataa waraqaa beeksisaa miti.	0
+Muuziyeemichi baafata ykn asxaa irratti cimaa miti.	Qabxiin cimaan muuziyeemichaa baafatoota.	2
+Gabaawwan qilleensa banaa kunneenis Beejiing keessatti daldaluuf iddoowwan bittaa hawwataa ta'anidha.	Beejiing gabaa qilleensa banaa kan suuqiiwwan baayyee hawwataa ta'an of keessaa qabu qabdi.	0
+Gabaawwan qilleensa banaa kunneenis Beejiing keessatti daldaluuf iddoowwan bittaa hawwataa ta'anidha.	Gabaawwan qilleensa banaa Beejiing keessatti argaman addunyaa irratti kanneen hawwataa ta’aniidha.	1
+Gabaawwan qilleensa banaa kunneenis Beejiing keessatti daldaluuf iddoowwan bittaa hawwataa ta'anidha.	Seerri cimaan Beejiing keessatti bahe daangaa magaalattii keessatti gabaa qilleensa banaa dhorka.	2
+Galoo galaanni guddaan qarqara galaanaa kaaba dhihaatti argamu buufata doonii gaarii kan taasisu taʼus, bishaanii fi qarqara galaanaa lamaan isaanii iyyuu xuraaʼuu dandaʼu.	Bishaanii fi qarqarri galaanaa yeroo hunda qulqulluudha.	2
+Galoo galaanni guddaan qarqara galaanaa kaaba dhihaatti argamu buufata doonii gaarii kan taasisu taʼus, bishaanii fi qarqara galaanaa lamaan isaanii iyyuu xuraaʼuu dandaʼu.	Bishaanii fi qarqarri galaanaa xuraa'aa ta'uu malu.	0
+Galoo galaanni guddaan qarqara galaanaa kaaba dhihaatti argamu buufata doonii gaarii kan taasisu taʼus, bishaanii fi qarqara galaanaa lamaan isaanii iyyuu xuraaʼuu dandaʼu.	Sababa faalamaan bishaanichi xuriidha.	1
+Gamoowwan olka'oo sun baankiidha, akkasumas daandiin isaan irra dhaabbaatan immoo maqaa masoo Milla de Oro, yookiin Golden Mile jedhamuun moggaafamee jira.	Gamoowwan  olka'oo Golden Mile irratti argaman keessaa tokkollee baankii miti.	2
+Gamoowwan olka'oo sun baankiidha, akkasumas daandiin isaan irra dhaabbaatan immoo maqaa masoo Milla de Oro, yookiin Golden Mile jedhamuun moggaafamee jira.	Gamoowwan  olka'oo Golden Mile irratti argaman baankiidha.	0
+Gamoowwan olka'oo sun baankiidha, akkasumas daandiin isaan irra dhaabbaatan immoo maqaa masoo Milla de Oro, yookiin Golden Mile jedhamuun moggaafamee jira.	Gamoowwan  olka'oo Golden Mile irratti argaman baankota dabalatee gosa daldalaa adda addaati.	1
+Uumamaan gahaadha, achii, waraana addunyaa 2ffaa keessatti hirmaannaan sun karoora qilleensaa komanwelt Biriteen irraa kan jalqabe si'a ta'u, kunis samii kanaadaa isa nageenya qabutti fayyadamuun balaliistota lolaaf qopheessuudhaan ture.	Kanaadaan irra caalaatti samii nageenya qabu qabdi.	0
+Uumamaan gahaadha, achii, waraana addunyaa 2ffaa keessatti hirmaannaan sun karoora qilleensaa komanwelt Biriteen irraa kan jalqabe si'a ta'u, kunis samii kanaadaa isa nageenya qabutti fayyadamuun balaliistota lolaaf qopheessuudhaan ture.	Samiin Kanaadaa misaa'ela irraa bilisa ture.	1
+Uumamaan gahaadha, achii, waraana addunyaa 2ffaa keessatti hirmaannaan sun karoora qilleensaa komanwelt Biriteen irraa kan jalqabe si'a ta'u, kunis samii kanaadaa isa nageenya qabutti fayyadamuun balaliistota lolaaf qopheessuudhaan ture.	Samiin Kanaadaa caalaatti balaa qaba ture.	2
+Qarqarri galaanaa isaanii inni jaalala qabeessa taʼe kana booda kan isaanii qofa akka hin taane beekanillee, wal dandaʼuu fi gargaarsa gochuudhaan itti fufu.	Amma qarqara galaanaa qooddachuu waan qabaniif nama hundaaf hadhaa fi aarii guddaa qabu.	2
+Qarqarri galaanaa isaanii inni jaalala qabeessa taʼe kana booda kan isaanii qofa akka hin taane beekanillee, wal dandaʼuu fi gargaarsa gochuudhaan itti fufu.	Amma qarqara galaanaa uummata biroo waliin qooddachuu qabu.	0
+Qarqarri galaanaa isaanii inni jaalala qabeessa taʼe kana booda kan isaanii qofa akka hin taane beekanillee, wal dandaʼuu fi gargaarsa gochuudhaan itti fufu.	Duraan fuula qarqara galaanaa maayilii dhibba shan qabu turan.	1
+Kublai Khan bara 1279tti magaala guddoo mataa isaa qarqara haroo Beihai Beejiing irratti kan dhaabe yoo ta'u, qabeenyi impaayera isaa tokko tokko har'as bakka itti mul'atutti jira.	Kublai Khan magaala guddoo Taayiwaan keessatti ijaare.	2
+Kublai Khan bara 1279tti magaala guddoo mataa isaa qarqara haroo Beihai Beejiing irratti kan dhaabe yoo ta'u, qabeenyi impaayera isaa tokko tokko har'as bakka itti mul'atutti jira.	Kublai Khan Beejing keessaatii qabeenya mi'aa ta'e qaba.	0
+Kublai Khan bara 1279tti magaala guddoo mataa isaa qarqara haroo Beihai Beejiing irratti kan dhaabe yoo ta'u, qabeenyi impaayera isaa tokko tokko har'as bakka itti mul'atutti jira.	Kublai Khan nama kabaja guddaa qabu ture.	1
+Hawaasa Anglo wajjiin salphaatti ofiiti makuun manneen barnootaa Pirootestaantii qofti ijoollee isaanii fudhatan Yihudoonni Awurooppaa Bahaa gara dureeyyii Westmount eebbifamaniiru yookiin godaananiiru, ammas, gara Toronto.	Yihudoonni Awurooppaa Bahaa nama hundumaa wajjin akka gaariitti walii galu.	2
+Hawaasa Anglo wajjiin salphaatti ofiiti makuun manneen barnootaa Pirootestaantii qofti ijoollee isaanii fudhatan Yihudoonni Awurooppaa Bahaa gara dureeyyii Westmount eebbifamaniiru yookiin godaananiiru, ammas, gara Toronto.	Yihudoonni hawaasa kaniin hin barbaadaman.	1
+Hawaasa Anglo wajjiin salphaatti ofiiti makuun manneen barnootaa Pirootestaantii qofti ijoollee isaanii fudhatan Yihudoonni Awurooppaa Bahaa gara dureeyyii Westmount eebbifamaniiru yookiin godaananiiru, ammas, gara Toronto.	Yihudoonni uummata Anglo waliin salphaatti walii galu.	0
+Yoo danda’ame dursitee daba sana of barsiisi.	Dursitee daba keessa hin seenin; booda bashannana ni balleessa.	2
+Yoo danda’ame dursitee daba sana of barsiisi.	Yoo dandeesse dursiiti daba sana baruu yaali.	0
+Yoo danda’ame dursitee daba sana of barsiisi.	Dubbii kitaabichaa yoo hubatte dareen sun salphaa ta'ee argatta.	1
+Kuusaan awwaalchaa isaa, lafa jalaa m 27 (88 ft) kan ta'e, marbilii irraa kan hojjetame yoo ta'u, sq m 1,200 (13,000 sq ft) kan uwwifame dha.	Inni 20m ol lafa jalatti awwaalameera.	0
+Kuusaan awwaalchaa isaa, lafa jalaa m 27 (88 ft) kan ta'e, marbilii irraa kan hojjetame yoo ta'u, sq m 1,200 (13,000 sq ft) kan uwwifame dha.	Inni nama qaroo ummataa barbaachisaa ture.	1
+Kuusaan awwaalchaa isaa, lafa jalaa m 27 (88 ft) kan ta'e, marbilii irraa kan hojjetame yoo ta'u, sq m 1,200 (13,000 sq ft) kan uwwifame dha.	Taa'umsi awwaalcha isaa kan muka irraa hojjetaman ture.	2
+Qabeenya socho'aa hunda jaldeessota jalaa dhoksuu yaadadhu.	Qabeenya kee jaldeessa jalaa dhoksi.	0
+Qabeenya socho'aa hunda jaldeessota jalaa dhoksuu yaadadhu.	Jaldeessonni qabeenya kee dabalatee wantoota hedduudhaaf fedhii guddaa qabu.	1
+Qabeenya socho'aa hunda jaldeessota jalaa dhoksuu yaadadhu.	Qabeenya kee jaldessa jalaa dhoksuun si hin barbaachisu.	2
+Masaraan Estei dhaabbachuu isaa gara waggaa 1,400 dura, Milreu mana baadiyyaa guddaa nama beekamaa tokkoos ture.	Milreu waan kamirraayyuu fageenya maayilii 10 irra ture.	1
+Masaraan Estei dhaabbachuu isaa gara waggaa 1,400 dura, Milreu mana baadiyyaa guddaa nama beekamaa tokkoos ture.	Milreu biyyaa ala ture.	0
+Masaraan Estei dhaabbachuu isaa gara waggaa 1,400 dura, Milreu mana baadiyyaa guddaa nama beekamaa tokkoos ture.	Milreu sirrii gidduu magaalattii keessa ture.	2
+Ho’i galaanaa 18e fi 24e C (64-75e F) gidduutti jijjiirama qaba.	Ho’i galaanaa yeroo hunda jijjiiramaa jira, garuu ho’a qorraa gadi hin deeman.	0
+Ho’i galaanaa 18e fi 24e C (64-75e F) gidduutti jijjiirama qaba.	Ho’i galaanaa yeroo hunda waggaa guutuu bakka murtaa’e tokkotti argama.	2
+Ho’i galaanaa 18e fi 24e C (64-75e F) gidduutti jijjiirama qaba.	Ho'i galaanaa yeroo ho'u guyyaa keessaa olka'a ta'uu isaa ilaala.	1
+Paarkiin biyyoolessaa Kinabalu naannoolee eegumsa argatan ja'a bulchiinsa kanaa keessaa tokko qofa.	Paarkiin biyyoolessaa Kinabalu arba kudhanii fi saroonni ja'a qaba.	1
+Paarkiin biyyoolessaa Kinabalu naannoolee eegumsa argatan ja'a bulchiinsa kanaa keessaa tokko qofa.	Bulchiinsi kun naannolee eegumsa argate kan qabu yoo ta'u, isaanis paarkii biyyoolessaa Kinabalu dabalata.	0
+Paarkiin biyyoolessaa Kinabalu naannoolee eegumsa argatan ja'a bulchiinsa kanaa keessaa tokko qofa.	Naannichatti iddoowwan eegumsa argatan walumaagala sadiitu jiru.	2
+Viidiyoowwan seenaa Anne fi kan Amsterdam suuraa fi meeshaalee yeroo sanaa waliin ni argitu.	Suuraawwan hin argitan.	2
+Viidiyoowwan seenaa Anne fi kan Amsterdam suuraa fi meeshaalee yeroo sanaa waliin ni argitu.	Suuraawwan ni argitu.	0
+Viidiyoowwan seenaa Anne fi kan Amsterdam suuraa fi meeshaalee yeroo sanaa waliin ni argitu.	Suuraalee jalqabaa tokko tokko keessaa muraasa ni argitu.	1
+Treasure Beach naannoo riizoortii kan itti dubbatamu qofa yoo ta'u, kan quban lakkaawaman hoteelonni muraasni qofti bakka cirrachaa sadii irratti diriiranii jiru.	Uummata Treasure Beach daawwataniif filannoowwan hoteelaa hangas hin jiran.	0
+Treasure Beach naannoo riizoortii kan itti dubbatamu qofa yoo ta'u, kan quban lakkaawaman hoteelonni muraasni qofti bakka cirrachaa sadii irratti diriiranii jiru.	Turistoota kanneen Treasure Beach daawwataniif hoteelli urjii afur tokko jira.	1
+Treasure Beach naannoo riizoortii kan itti dubbatamu qofa yoo ta'u, kan quban lakkaawaman hoteelonni muraasni qofti bakka cirrachaa sadii irratti diriiranii jiru.	Treasure Beach riizoortii naannoo sana jiran hedduu keessaa isa tokko.	2
+Ganni haala qilleensaa ho’aa (garuu ho’aa miti) fi ho’a galaanaa ho’aa waan fiduuf, bishaan keessa cuuphamuu, snorkeling, fi ispoortii bishaanii biroof mijataa taasisa.	Yeroo hunda yeroo gannaa digrii 100 fi isaa ol ho'a.	2
+Ganni haala qilleensaa ho’aa (garuu ho’aa miti) fi ho’a galaanaa ho’aa waan fiduuf, bishaan keessa cuuphamuu, snorkeling, fi ispoortii bishaanii biroof mijataa taasisa.	Yeroo baayyee ganna 75 ta'a.	1
+Ganni haala qilleensaa ho’aa (garuu ho’aa miti) fi ho’a galaanaa ho’aa waan fiduuf, bishaan keessa cuuphamuu, snorkeling, fi ispoortii bishaanii biroof mijataa taasisa.	Yeroo gannaa keessa waqtii ho'aadha.	0
+Bishaan kuufamaa kana keessaa kan daawwattoonni mataa qocaa irraa darbachuu abdachuun saantima itti darbatan yoo ta'u, kunis karaa mirkanaa'aa carraa gaarii argachuuf gargaarudha.	Namoonni gonkumaa maallaqa hin darbatan sababni isaa carraa badaa waan ta'eef.	2
+Bishaan kuufamaa kana keessaa kan daawwattoonni mataa qocaa irraa darbachuu abdachuun saantima itti darbatan yoo ta'u, kunis karaa mirkanaa'aa carraa gaarii argachuuf gargaarudha.	Namoonni mallattoon sun hin darbatiin osoo jedhuullee saantima darbatu.	1
+Bishaan kuufamaa kana keessaa kan daawwattoonni mataa qocaa irraa darbachuu abdachuun saantima itti darbatan yoo ta'u, kunis karaa mirkanaa'aa carraa gaarii argachuuf gargaarudha.	Namoonni saantima bishaan keessatti darbatu.	0
+Magaalaan buufata doonii Nafplio naannoo sana daawwachuuf buufata gaarii dha, ykn tarii bakka yeroo daawwannaa keessan irratti laaqana itti nyaattan ta'a.	Nafplio bakka daawwanaa gaarii qaba.	1
+Magaalaan buufata doonii Nafplio naannoo sana daawwachuuf buufata gaarii dha, ykn tarii bakka yeroo daawwannaa keessan irratti laaqana itti nyaattan ta'a.	Nafplio bu'uura hamaadha.	2
+Magaalaan buufata doonii Nafplio naannoo sana daawwachuuf buufata gaarii dha, ykn tarii bakka yeroo daawwannaa keessan irratti laaqana itti nyaattan ta'a.	Nafplio bu'uura mudaa hin qabnedha.	0
+Prinsengracht keessatti Otto Frank fi maatiin isaa osoo hin argamiin dura waggoota lamaa oliif mana gubbaa bakka daldalaa isaanii keessa dhokatanii turan.	Otto Frank guyyaa lammaffaatti booji'ame.	2
+Prinsengracht keessatti Otto Frank fi maatiin isaa osoo hin argamiin dura waggoota lamaa oliif mana gubbaa bakka daldalaa isaanii keessa dhokatanii turan.	Otto Frank ji'oota 25 oliif dhokate.	0
+Prinsengracht keessatti Otto Frank fi maatiin isaa osoo hin argamiin dura waggoota lamaa oliif mana gubbaa bakka daldalaa isaanii keessa dhokatanii turan.	Otto Frank hanga Naaziin isa argatutti dhokate.	1
+Mootummoonni naannolee fi bulchinsoonni naannoo hedduun ulaagaalee odiitii dabalataa qabu.	Bulchinsoonni naannoo seera mataa isaanii tumachuu qabu.	1
+Mootummoonni naannolee fi bulchinsoonni naannoo hedduun ulaagaalee odiitii dabalataa qabu.	Bulchinsoonni naannoo ulaagaa zeeroo qabu.	2
+Mootummoonni naannolee fi bulchinsoonni naannoo hedduun ulaagaalee odiitii dabalataa qabu.	Dhimmoonni odiitii dabalataa bulchinsoota naannootiin barbaachisan jiru.	0
+Gareen nageenya odeeffannoo kun baatiitti walgahii 8 hamma 12 gidduutti gaggeessa.	Gurmiin nageenyaa kun baatiitti giddu galeessaan walgahii 9 qaba.	1
+Gareen nageenya odeeffannoo kun baatiitti walgahii 8 hamma 12 gidduutti gaggeessa.	Gumiin nageenyaa kun baatii keessaa guyyaa tokko tokkoon walgahii gaggeessa.	2
+Gareen nageenya odeeffannoo kun baatiitti walgahii 8 hamma 12 gidduutti gaggeessa.	Gumiin nageenyaa kun waggaatti walgahii yeroo hedduu godhata.	0
+Haa ta'uyyu malee, injinariingiin duraa dafee raawwateera.	Injinariingiin yeroo jalqabaa qaba ture.	0
+Haa ta'uyyu malee, injinariingiin duraa dafee raawwateera.	Injinariingiin kan raawwate sadarkaa dhumaa qofa keessatti.	2
+Haa ta'uyyu malee, injinariingiin duraa dafee raawwateera.	Yeroon jalqabaa osoo hin jiraatin sadarkaa dhumaatti injinariingiin kufaa ta’uun isaa hin oolu.	1
+Kanarraan kan ka’e murteessitoonni bulchinsaa fi hoggantoonni mala yaada haaraa fudhachaa, mala galma ga’iinsa adda addaa ilaaluu fi odeeffannoo haaraa murtii soroorsuuf dhimma itti bahaa jiru.	Bakka bu'oonni bulchinsaa tooftaa isaanii geeddaraa jiru.	0
+Kanarraan kan ka’e murteessitoonni bulchinsaa fi hoggantoonni mala yaada haaraa fudhachaa, mala galma ga’iinsa adda addaa ilaaluu fi odeeffannoo haaraa murtii soroorsuuf dhimma itti bahaa jiru.	Bakka bu’oonni bulchinsaa bifa adda ta’een xiinxaluun aangoo isaanii guddisuuf yaalaa jiru.	1
+Kanarraan kan ka’e murteessitoonni bulchinsaa fi hoggantoonni mala yaada haaraa fudhachaa, mala galma ga’iinsa adda addaa ilaaluu fi odeeffannoo haaraa murtii soroorsuuf dhimma itti bahaa jiru.	Bakka bu'oonni bulchinsaa haala jiruu isaanii jijjiiruu rincicu.	2
+Dhimmi faayilootaa maamiltoota afaan Ingiliffaan ala dubbisaniif hiikuu barbaachisuu danda’a.	Dhimmi faayilootaa afaan Ingiliffaa qofaan akka ta'an hayyamama.	2
+Dhimmi faayilootaa maamiltoota afaan Ingiliffaan ala dubbisaniif hiikuu barbaachisuu danda’a.	Dhimmi faayilootaa afaan Chaayinaa ykn Raashiyaatiin kaa'amuu danda’u.	1
+Dhimmi faayilootaa maamiltoota afaan Ingiliffaan ala dubbisaniif hiikuu barbaachisuu danda’a.	Dhimmi faayilootaa afaanota birootiin kaa'amuu danda'u.	0
+Xaarriin biraan kan yeroo ammaa gaggeeffamaa jiru ykn karoorfame kan hammatu dha	Xaariin keenya irra jireessi isaa amma sochiirra jira.	1
+Xaarriin biraan kan yeroo ammaa gaggeeffamaa jiru ykn karoorfame kan hammatu dha	Boruuf waan addaa karoorfanne hin qabnu.	2
+Xaarriin biraan kan yeroo ammaa gaggeeffamaa jiru ykn karoorfame kan hammatu dha	Nuyi waa karoorfanne qabna.	0
+Dhiibbaalee kanneen akka yeroo gabaabaa, sanadoota kompiitaraa jalqabaa balleessuu fi sanadoota barbaachisan argachuu dhabuu dabalatee itti dabaluu yaala.	Sanadoota kompiitaraa IBM irraa balleessaniiru.	1
+Dhiibbaalee kanneen akka yeroo gabaabaa, sanadoota kompiitaraa jalqabaa balleessuu fi sanadoota barbaachisan argachuu dhabuu dabalatee itti dabaluu yaala.	Sanadoota kompiitaraa jalqabaa balleessaniiru.	0
+Dhiibbaalee kanneen akka yeroo gabaabaa, sanadoota kompiitaraa jalqabaa balleessuu fi sanadoota barbaachisan argachuu dhabuu dabalatee itti dabaluu yaala.	Sanadoota jalqabaa hunda kaa'aniiru.	2
+Ergasii, bakka bu’aan daawwannaa duraa raawwate sun gaaffii dhiyaataniif deebii deebisuufi rakkoolee samuuda himannaa keessatti argaman hundayyuu irratti mari’achuuf dhiyeessaa haaraa irra deebi’ee daawwata.	Bakka bu'aan kun sa'aatii tokkoof do'ateera.	1
+Ergasii, bakka bu’aan daawwannaa duraa raawwate sun gaaffii dhiyaataniif deebii deebisuufi rakkoolee samuuda himannaa keessatti argaman hundayyuu irratti mari’achuuf dhiyeessaa haaraa irra deebi’ee daawwata.	Do'annaan bakka bu'aan godhameera.	0
+Ergasii, bakka bu’aan daawwannaa duraa raawwate sun gaaffii dhiyaataniif deebii deebisuufi rakkoolee samuuda himannaa keessatti argaman hundayyuu irratti mari’achuuf dhiyeessaa haaraa irra deebi’ee daawwata.	Do'annaa argannee hin beeknu.	2
+Qusannaan kuufama qabeenya irratti dhiibbaa uumuu qofa osoo hin taane, qabeenyi dabaree isaatiin filannoo qusachuu irratti dhiibbaa qaba.	Murannoon namni tokko ni qusata moo hin qusatu qabeenya isaatin dhiibbaa qaba.	0
+Qusannaan kuufama qabeenya irratti dhiibbaa uumuu qofa osoo hin taane, qabeenyi dabaree isaatiin filannoo qusachuu irratti dhiibbaa qaba.	Qabeenyii fi qusannaan akka idileetti sirumaa hariiroo hin qaban.	2
+Qusannaan kuufama qabeenya irratti dhiibbaa uumuu qofa osoo hin taane, qabeenyi dabaree isaatiin filannoo qusachuu irratti dhiibbaa qaba.	Namoonni sooressa ta’an galii isaanii keessaa harka caalaa qusachuuf carraan isaanii guddaadha.	1
+Fakkeenyaaf, dhaabbati nuti qo'anne tokko muuxannoo lama walitti makamuu kan dhaabbatichi barbaadu daddafee daldala haaraa walitti makuu fi fedhii daldalaa guddachaa jiru guutuuf irra deebiin gurmaa’uu kan gaafatu isa mudateera.	Walitti makaamni lama jiraatanis dhaabbatichi cancala dhaabbata isaanii irra deebiin gurmeessuun hin barbaachisu ture.	2
+Fakkeenyaaf, dhaabbati nuti qo'anne tokko muuxannoo lama walitti makamuu kan dhaabbatichi barbaadu daddafee daldala haaraa walitti makuu fi fedhii daldalaa guddachaa jiru guutuuf irra deebiin gurmaa’uu kan gaafatu isa mudateera.	Waajjiraalee lama gara dhhaaba tokkotti walitti dabaluun qindaa’insi haaraan haala hojii jeequmsaa uumeera.	1
+Fakkeenyaaf, dhaabbati nuti qo'anne tokko muuxannoo lama walitti makamuu kan dhaabbatichi barbaadu daddafee daldala haaraa walitti makuu fi fedhii daldalaa guddachaa jiru guutuuf irra deebiin gurmaa’uu kan gaafatu isa mudateera.	Dhaabbata walitti dabalamuu muuxannoo qabu lamaa fi gaaffii daldalaa isaanii guutuuf saffisaan irra deebiin gurmaa’uu akka qaban qo'anneerra.	0
+dizaayiniin isaa, imalli sun ifaa ifatti xumuramuu isaa osoo hin mirkaneessin dura kaffaltii ni hayyama jennee shakkii qabna turre.	Kaffaltiin sun yeroo barabaraa akka fudhatu beekna turre.	2
+dizaayiniin isaa, imalli sun ifaa ifatti xumuramuu isaa osoo hin mirkaneessin dura kaffaltii ni hayyama jennee shakkii qabna turre.	Kaffaltiin sun osoo hin mirkaneessiin dursee darbuu mala jennee tilmaane.	0
+dizaayiniin isaa, imalli sun ifaa ifatti xumuramuu isaa osoo hin mirkaneessin dura kaffaltii ni hayyama jennee shakkii qabna turre.	Kaffaltiin sun saffisee socho'uu danda'aa fi ittiin gowwoomfamuu dandeenya  jennee tilmaamne.	1
+Teeknooloojiin adeemsa daldalaa dhaabbilee kanneen keessatti sirriitti kan walitti hidhame yoo ta’u sababiin isaa teknooloojiin akka meeshaa qofa osoo hin taane hojii daldalaaf akka si'eessituutti waan ilaalamuufidha.	Sirni sagantaa sadarkaa olaanaa qopheessuuf dandeessisu teeknooloojiiwwan cimoo daldaltoonni irratti kaayyeffatan keessaa isa tokkodha.	1
+Teeknooloojiin adeemsa daldalaa dhaabbilee kanneen keessatti sirriitti kan walitti hidhame yoo ta’u sababiin isaa teknooloojiin akka meeshaa qofa osoo hin taane hojii daldalaaf akka si'eessituutti waan ilaalamuufidha.	Teeknooloojiin mi'a qofa malee daldalaa dandeessisiistuu miti.	2
+Teeknooloojiin adeemsa daldalaa dhaabbilee kanneen keessatti sirriitti kan walitti hidhame yoo ta’u sababiin isaa teknooloojiin akka meeshaa qofa osoo hin taane hojii daldalaaf akka si'eessituutti waan ilaalamuufidha.	Daldaloonni kunneen teeknooloojiif iddoo guddaa kennu.	0
+Yaad-rimeewwan lama ogbarruu keessatti yeroo hedduu argaman gara fulduraatti qo'annoo beeksisuudhaaf bu'aa qabaachuu danda’u.	Ogbarroonni akkaataa saamuda itti qorru jijjiiruu danda’u.	1
+Yaad-rimeewwan lama ogbarruu keessatti yeroo hedduu argaman gara fulduraatti qo'annoo beeksisuudhaaf bu'aa qabaachuu danda’u.	Ogbarroonni gara fuula duraattti qorannoo geeddaruu ni danda'u.	0
+Yaad-rimeewwan lama ogbarruu keessatti yeroo hedduu argaman gara fulduraatti qo'annoo beeksisuudhaaf bu'aa qabaachuu danda’u.	Gara qo'annoo geeddaruutiin wanti biraa dalagamu hin jiru.	2
+Sararoonni saanduqa irraa tolfaman sadarkaa walgargaarsa ergamtoota poostaa mara walitti qabaman kan akeekan yoo ta’u sararoonni daayimandii irraa tolfaman ammoo kasaaraa teeknikaa (yoo nagatiivii ta’e) hojii gara qaama addaatti geeddaruu akeeku.	Sararoonni sadarkaan walgargaarsaa warra poostaa erganii %10 akka ta’e agarsiisu.	1
+Sararoonni saanduqa irraa tolfaman sadarkaa walgargaarsa ergamtoota poostaa mara walitti qabaman kan akeekan yoo ta’u sararoonni daayimandii irraa tolfaman ammoo kasaaraa teeknikaa (yoo nagatiivii ta’e) hojii gara qaama addaatti geeddaruu akeeku.	Sararoonni karaa malee waa biraa agarsiisan hin qaban.	2
+Sararoonni saanduqa irraa tolfaman sadarkaa walgargaarsa ergamtoota poostaa mara walitti qabaman kan akeekan yoo ta’u sararoonni daayimandii irraa tolfaman ammoo kasaaraa teeknikaa (yoo nagatiivii ta’e) hojii gara qaama addaatti geeddaruu akeeku.	Sararoonni kun namoota poostaa ergan mara bira walgargaarsi hammam akka jiru akeeku.	0
+Madaallii balaa kana irratti hundaa’uun, Seenterliinki maloota ittisaa adda addaa kan fayyadamtootaa fi hojjechiistota ulaagaalee gabaasa galii irratti hubachiisuu irratti xiyyeeffatan qopheessera.	Seenterliinki akkamitti rakkoon kun akka furmaata argatu hin goone.	2
+Madaallii balaa kana irratti hundaa’uun, Seenterliinki maloota ittisaa adda addaa kan fayyadamtootaa fi hojjechiistota ulaagaalee gabaasa galii irratti hubachiisuu irratti xiyyeeffatan qopheessera.	Mootummaan dogoggoraan maallaqa guddaa dhabaa waan tureef Seenterliinki akkaataa galii itti gabaasan namoota hubachiisuuf maloota baay'ee qaba ture.	1
+Madaallii balaa kana irratti hundaa’uun, Seenterliinki maloota ittisaa adda addaa kan fayyadamtootaa fi hojjechiistota ulaagaalee gabaasa galii irratti hubachiisuu irratti xiyyeeffatan qopheessera.	Seenterliinki haala galii itti gabaasan namoota hubachiisuuf maloota baay'ee qaba ture.	0
+Kunis waajjiraaleen marsaa agarsiisaaf piroototaayipoota bakka bu’oota oomishaa ijaaruuf meeshaalee omishaa fi meeshaalee irratti invastimantii baasii guddaa baasu osoo hin godhin jalqaba agarsiisa wixinichaa kan dandeessise ture.	Achiis wixineen sun akkamitti akka dalagu muldhisuu dandaʼu turan.	0
+Kunis waajjiraaleen marsaa agarsiisaaf piroototaayipoota bakka bu’oota oomishaa ijaaruuf meeshaalee omishaa fi meeshaalee irratti invastimantii baasii guddaa baasu osoo hin godhin jalqaba agarsiisa wixinichaa kan dandeessise ture.	Warshaalee haaraa ijaaruun ogummaa akka hin taane dhaabbatichatti muldhisu danda'u turan.	1
+Kunis waajjiraaleen marsaa agarsiisaaf piroototaayipoota bakka bu’oota oomishaa ijaaruuf meeshaalee omishaa fi meeshaalee irratti invastimantii baasii guddaa baasu osoo hin godhin jalqaba agarsiisa wixinichaa kan dandeessise ture.	Dhiibbaa invastimantiiwwan akkamitti akka muldhisan yaada homaa hin qaban turan.	2
+Tattaaffiin walta’iinsaa Kaarolinaa Kibbaa waggaa dhufutti galma ga'insa biraa muldhiseera.	Kaarolinaa Kibbaa keessatti namni waliin hin dalagu ture.	2
+Tattaaffiin walta’iinsaa Kaarolinaa Kibbaa waggaa dhufutti galma ga'insa biraa muldhiseera.	SC waliin dalaganiiru.	0
+Tattaaffiin walta’iinsaa Kaarolinaa Kibbaa waggaa dhufutti galma ga'insa biraa muldhiseera.	Dimookiraatonni fi rippabilikaanonni Kaarolinaa Kibbaa waliin dalagaa jiru.	1
+Akka qondaalli Boordii tokko jedhanitti, mirkaneessi Boordichaa kwt 605(b) Gorsaa Olaanaa Abukaatummaa Bulchiinsa Daldala Xixiqqaa (BDX)f qophaa qophaatti hin qoodamne.	Boordiin ragaa BBXf hin kennine sanas waajjira madaalliif dhiisan.	1
+Akka qondaalli Boordii tokko jedhanitti, mirkaneessi Boordichaa kwt 605(b) Gorsaa Olaanaa Abukaatummaa Bulchiinsa Daldala Xixiqqaa (BDX)f qophaa qophaatti hin qoodamne.	Boordiin ragaa BBXf hin kennine.	0
+Akka qondaalli Boordii tokko jedhanitti, mirkaneessi Boordichaa kwt 605(b) Gorsaa Olaanaa Abukaatummaa Bulchiinsa Daldala Xixiqqaa (BDX)f qophaa qophaatti hin qoodamne.	Boordiin kun yeroo yeroon ragaa BBX nama gaafateef kenna ture.	2
+Hoteelaa fi kaffaltiiwwan biroo muraasaaf walsimsiisni yeroo uumamu, imala qabatamaa sanaa mirkaneessuun ni godhama ture.	Sanasalatoonni Hoteeloota biyyoolessaa irra caalaan isaanii kaffaltii kirediit kaardii ni fudhatu.	1
+Hoteelaa fi kaffaltiiwwan biroo muraasaaf walsimsiisni yeroo uumamu, imala qabatamaa sanaa mirkaneessuun ni godhama ture.	Imalli mataan isaa kaffaltii hoteelaa itti dhimma bahuun ragga'ama ture.	0
+Hoteelaa fi kaffaltiiwwan biroo muraasaaf walsimsiisni yeroo uumamu, imala qabatamaa sanaa mirkaneessuun ni godhama ture.	Imalli tokko dhuguma uumamuu fi dhiisuu isaa karaan itti raggaasisan hin jiru.	2
+Fakkeenyaaf, magaalaan guddoo naannoo tokko kan nuti ilaalle dhaabbilee moosaajii 600 ol kan qabdudha.	Magaalonni gurguddoon dhaabbilee moosaajiidhaaf bakkeewwan mararra mijatoo ta’aniidha.	1
+Fakkeenyaaf, magaalaan guddoo naannoo tokko kan nuti ilaalle dhaabbilee moosaajii 600 ol kan qabdudha.	Magaalli tokko dhaabbilee moosaajii toonii tokko qaba.	0
+Fakkeenyaaf, magaalaan guddoo naannoo tokko kan nuti ilaalle dhaabbilee moosaajii 600 ol kan qabdudha.	Dhaabbileen moosaajii ijaa seeraatiin magaala irraa fagaatu.	2
+Bu’a qabeessummaa madaaluu keessatti mudaa kan hin qabne ta'uun hin danda'amu.	Yoo carraaqqii gahaa goote mudaa kan hin qabne taʼuu dandeessa.	2
+Bu’a qabeessummaa madaaluu keessatti mudaa kan hin qabne ta'uun hin danda'amu.	 Gonkumaa mudaa kan hin qabne taʼuu hin dandeessu.	0
+Bu’a qabeessummaa madaaluu keessatti mudaa kan hin qabne ta'uun hin danda'amu.	Marti keenya namoota gadi fageenyaan fafa qabnu waan taaneef nama mudaa hin qabne ta'uu hin dandeessu.	1
+Hiriyyaan manaa bara 2000 keessa kutaa kana Hazmii fi Mihidhariif kireeffate kun lammii seera kabaju yoo ta'u, poolisii naannoo fi hojjettoota FBI gidduutti yeroo hedduuf hariiroo michuu kan qabudha.	Hazmii fi Mihidhar mana bitatanii nama kam faanayyuu hariiroo hin qaban turan.	2
+Hiriyyaan manaa bara 2000 keessa kutaa kana Hazmii fi Mihidhariif kireeffate kun lammii seera kabaju yoo ta'u, poolisii naannoo fi hojjettoota FBI gidduutti yeroo hedduuf hariiroo michuu kan qabudha.	Hazmi fi Mihidhar waggaa guutuu guyyaatti $500n kutaa tokko kireeffatan.	1
+Hiriyyaan manaa bara 2000 keessa kutaa kana Hazmii fi Mihidhariif kireeffate kun lammii seera kabaju yoo ta'u, poolisii naannoo fi hojjettoota FBI gidduutti yeroo hedduuf hariiroo michuu kan qabudha.	Hazmii fi Mihidhar kutaa tokko kireeffatan.	0
+Deemsa gara Bosniyaatti gootaniif,  gabaasa odeeffannoo, gaaffii fi deebii miseensa al-Qaayidaa Sa’uudii, Onkoloolessa 3, 2001 ilaali.	Miseensi al Qaayidaa tokko bara 2001 si'a 18 gara Bosniyaa dhaqe.	1
+Deemsa gara Bosniyaatti gootaniif,  gabaasa odeeffannoo, gaaffii fi deebii miseensa al-Qaayidaa Sa’uudii, Onkoloolessa 3, 2001 ilaali.	Miseensi al Qaayidaa tokko Bosniyaa dhaqe.	0
+Deemsa gara Bosniyaatti gootaniif,  gabaasa odeeffannoo, gaaffii fi deebii miseensa al-Qaayidaa Sa’uudii, Onkoloolessa 3, 2001 ilaali.	Miseensi al Qaayidaa tokko gara Bosniyaa akka dhaqe ragaan hin jiru.	2
+Jeen bakka bu’aan Niiw Yoorki sakatta’iinsa Mihidhar irratti ajajame unka beekamtii FISA kan iddoo bu’aan sun odeeffannoo FISA akkamitti akka ilaaluu qabu beekuu isaa akeeku akka mallatteessuu gaafatte.	Jeen unka beekamtii FISA abbaa murtii federaalaatiin akka mallattaa'u gaafatte.	1
+Jeen bakka bu’aan Niiw Yoorki sakatta’iinsa Mihidhar irratti ajajame unka beekamtii FISA kan iddoo bu’aan sun odeeffannoo FISA akkamitti akka ilaaluu qabu beekuu isaa akeeku akka mallatteessuu gaafatte.	Jeen unka beekamtii FISA akka mallattaa'u gaafatte.	0
+Jeen bakka bu’aan Niiw Yoorki sakatta’iinsa Mihidhar irratti ajajame unka beekamtii FISA kan iddoo bu’aan sun odeeffannoo FISA akkamitti akka ilaaluu qabu beekuu isaa akeeku akka mallatteessuu gaafatte.	Jeen beekamtiin FISA kennuu homaallee akka hin barbaachifne himteetti.	2
+Sadarkaan nageenyaa tokkicha sakatta’iinsa buufata sakatta’iinsaa qabatamaa wajjin walitti dufeenya qabu ture ilaalchisee wanti isaan keessaa tokko illee adda ta’e hin jiru.	Sakatta'iinsa buufata sakatta'iinsaa irratti ragaan sodaachisaa argameera.	2
+Sadarkaan nageenyaa tokkicha sakatta’iinsa buufata sakatta’iinsaa qabatamaa wajjin walitti dufeenya qabu ture ilaalchisee wanti isaan keessaa tokko illee adda ta’e hin jiru.	Sakatta’iinsi iddoo sakatta’iinsaa waliigalatti hubannoo iddoo bu’aan gumurukaa sakatta’iinsa raawwatu irratti hundaa’a.	1
+Sadarkaan nageenyaa tokkicha sakatta’iinsa buufata sakatta’iinsaa qabatamaa wajjin walitti dufeenya qabu ture ilaalchisee wanti isaan keessaa tokko illee adda ta’e hin jiru.	Sakatta'iinsi buufata sakatta'iinsaa ragaa tokkollee isaan irratti argachuu hin dandeenye.	0
+Khallad vershinii lammaffaa dhiyeessee jira, innis sadan isaanii waliin gara Karachi akka imalan.	Khallad waa'ee sadan isaanii homaa akka hin beekne himeera.	2
+Khallad vershinii lammaffaa dhiyeessee jira, innis sadan isaanii waliin gara Karachi akka imalan.	Khallad akka dubbatetti sadan isaanii waliin deemuu danda'u turan.	0
+Khallad vershinii lammaffaa dhiyeessee jira, innis sadan isaanii waliin gara Karachi akka imalan.	Khallad akka jedhetti carraan sadan isaanii Onkoloolessa keessa gara Karaachii waliin deemuu isaanii %50 dha.	1
+Gabaasa basaasaa, gaaffii fi deebii Binalshibhi, Onkoloolessa 1, 2002.	Binalshibhi tuuta hojii FBIn gaafatame.	1
+Gabaasa basaasaa, gaaffii fi deebii Binalshibhi, Onkoloolessa 1, 2002.	Binalshibhi bara 2002 gaafatamee ture.	0
+Gabaasa basaasaa, gaaffii fi deebii Binalshibhi, Onkoloolessa 1, 2002.	Binalshibhi tasumaa itti hin dubbatamne, innis bade.	2
+Mihidhar viizaa Ameerikaa haaraa kan argate walgahii CIA-FBI New York keessatti gaggeeffameen guyyaa lama booda.	Mihidhar biyya galuuf Viizaa Ameerikaa qaba ture.	0
+Mihidhar viizaa Ameerikaa haaraa kan argate walgahii CIA-FBI New York keessatti gaggeeffameen guyyaa lama booda.	Mihidhar viizaa waan hin arganneef gara keenya dhufee hin beeku.	2
+Mihidhar viizaa Ameerikaa haaraa kan argate walgahii CIA-FBI New York keessatti gaggeeffameen guyyaa lama booda.	Mihidhar sodaachisaa waan hin taaneef Viizaan laatameef.	1
+Qor'nnoon waggoota lamaaf adeemsifamus, FBIn nama waliin hojjetu kana argachuus ta'e eenyummaa isaa isa dhugaa adda baasuu hin dandeenye.	FBIn nama kana bara 2001 Filooriidaa gadhiisee erga deemee booda illee argachuu tasuma hin dandeenye.	1
+Qor'nnoon waggoota lamaaf adeemsifamus, FBIn nama waliin hojjetu kana argachuus ta'e eenyummaa isaa isa dhugaa adda baasuu hin dandeenye.	FBIn eenyummaa nama kanaa baruu hin dandeenye.	0
+Qor'nnoon waggoota lamaaf adeemsifamus, FBIn nama waliin hojjetu kana argachuus ta'e eenyummaa isaa isa dhugaa adda baasuu hin dandeenye.	FBIn eenyu akka ta'e qulqulleessee mana sirreessaatti darbate.	2
+Ameerikaadhaan 11 irratti, hariiroon idilee xiyyaara irraa kan raawwate sa'aatii 8:13 AMtti ture.	Hariiroon Ameerikaa 11 irraa dhufaa ture.	0
+Ameerikaadhaan 11 irratti, hariiroon idilee xiyyaara irraa kan raawwate sa'aatii 8:13 AMtti ture.	Quunnamtiin Amerikan 11 faana yeroo hunda daqiiqaa shan shaniin ture. 	1
+Ameerikaadhaan 11 irratti, hariiroon idilee xiyyaara irraa kan raawwate sa'aatii 8:13 AMtti ture.	Ameerikaan 11 irraa hariiroon homtillee hin turre.	2
+Isa argachuuf mootummaa Jarmanii irraa tumsa saffisaa fi hedduu guddaa barbaada ture, kunis argachuun rakkisaa ta’uu danda’a ture.	Qorannoon kun yoo raawwatame iddoo namoonni sadii itti dhokatan baramu danda'a ture.	1
+Isa argachuuf mootummaa Jarmanii irraa tumsa saffisaa fi hedduu guddaa barbaada ture, kunis argachuun rakkisaa ta’uu danda’a ture.	Mootummaan Jarmanii qorannoo saffisaa fi gadi fageenya qabu gochuuf rakkachuu danda'a ture.	0
+Isa argachuuf mootummaa Jarmanii irraa tumsa saffisaa fi hedduu guddaa barbaada ture, kunis argachuun rakkisaa ta’uu danda’a ture.	Qorannoon kun mootummaa gaggeessuuf hedduu salphaa fi salphaa ta'a.	2
+Dandeettiin kun gahaa miti ture, garuu babal’isuuf ykn haaromsuuf hojiin raawwatame bicuu dha.	Beellama hordoffii isaanii hedduu hin geeddarre.	1
+Dandeettiin kun gahaa miti ture, garuu babal’isuuf ykn haaromsuuf hojiin raawwatame bicuu dha.	Waantota geeddaruuf waan guddaa hin dalagne.	0
+Dandeettiin kun gahaa miti ture, garuu babal’isuuf ykn haaromsuuf hojiin raawwatame bicuu dha.	Waan maraa aanjessuuf tattaaffii hedduu taasisaniiru.	2
+Iimeeliin xinxaltuu kun garuu of eeggannoowwan hedduu fi danqaawwan seeraa odeeffannoo waliif hiruu fi seera ergamtoonni yakkaa odeeffannoo karaa basaasaa walitti qabame itti fayyadaman bulchan burjaajessaa akka turte ibsa.	Xiinxalaan kun xiinxala gutummaatti ifaa ta'e dhiyeesse.	2
+Iimeeliin xinxaltuu kun garuu of eeggannoowwan hedduu fi danqaawwan seeraa odeeffannoo waliif hiruu fi seera ergamtoonni yakkaa odeeffannoo karaa basaasaa walitti qabame itti fayyadaman bulchan burjaajessaa akka turte ibsa.	Xiinxalaan kun waan hedduu irratti ifa hin turre.	0
+Iimeeliin xinxaltuu kun garuu of eeggannoowwan hedduu fi danqaawwan seeraa odeeffannoo waliif hiruu fi seera ergamtoonni yakkaa odeeffannoo karaa basaasaa walitti qabame itti fayyadaman bulchan burjaajessaa akka turte ibsa.	Gabaasni xiinxala kanaa hedduu waan booraheef namni dubbisuu hin dandeenye.	1
+Achii booda qondaalli tokko tokko sadarkaa sadarkaa irraa ba'uuf akka deeggaran ramadamanii ture, kaan immoo pilaazaa, konkoorsii fi buufata PATH gadhiisisuu saffisiisuuf ramadamaniiru.	Qondaaltonni gita hojii isaanii argataniiru.	0
+Achii booda qondaalli tokko tokko sadarkaa sadarkaa irraa ba'uuf akka deeggaran ramadamanii ture, kaan immoo pilaazaa, konkoorsii fi buufata PATH gadhiisisuu saffisiisuuf ramadamaniiru.	Qondaaltonni iddoo barbaachisanitti akka tasaa qofa fiigan.	2
+Achii booda qondaalli tokko tokko sadarkaa sadarkaa irraa ba'uuf akka deeggaran ramadamanii ture, kaan immoo pilaazaa, konkoorsii fi buufata PATH gadhiisisuu saffisiisuuf ramadamaniiru.	Qondaaltonni tajaajila olaanaa qabaachuu irratti dhaabbatanii ramadamaniiru.	1
+Fulbaana 9 Afgaanistaan ​​irraa oduu dinqisiisaan dhufe.	Afgaanistaan ​​irraa oduu arganne.	0
+Fulbaana 9 Afgaanistaan ​​irraa oduu dinqisiisaan dhufe.	Hamma Onkololeessatti Afgaanistaan ​​irraa homaayyuu hin dhageenye.	2
+Fulbaana 9 Afgaanistaan ​​irraa oduu dinqisiisaan dhufe.	Haleellaan Fulbaana 9 godhamuuf jiru nutti himameera.	1
+Walqunnamtii dadhabuun bakka balaan kun itti qaqqabe Giddugala Daldala Addunyaa, Pentagon fi Somerset Koontii, Pennisyilvania, bakka ejensiiwwan baay'ee fi aangoo murtii baay'ee deebii kennanitti waan murteessaa ture.	Qunnamtiin 9/11 irratti sirruma haalaan hojjete.	2
+Walqunnamtii dadhabuun bakka balaan kun itti qaqqabe Giddugala Daldala Addunyaa, Pentagon fi Somerset Koontii, Pennisyilvania, bakka ejensiiwwan baay'ee fi aangoo murtii baay'ee deebii kennanitti waan murteessaa ture.	Namoonni Giddugala Daldala Addunyaa keessatti humni ibsaa waan badeef, sararri bilbilaa waan citeef walitti dhufeenya uumuuf cinqatan.	1
+Walqunnamtii dadhabuun bakka balaan kun itti qaqqabe Giddugala Daldala Addunyaa, Pentagon fi Somerset Koontii, Pennisyilvania, bakka ejensiiwwan baay'ee fi aangoo murtii baay'ee deebii kennanitti waan murteessaa ture.	Namoonni Giddugala Daldala Addunyaa keessatti wal qunnamuuf rakkatani ture.	0
+Kuusaawwan odeeffannoo salphaatti muldhatan sakattaʼuun eeyyema konkolaachisummaa, galmee konkolaataa fi sarara bilbilaa argachuun dandaʼama ture.	Qorattoonni kuusaawwan odeeffannoo ogummaas akka argatan gaafataniiru.	1
+Kuusaawwan odeeffannoo salphaatti muldhatan sakattaʼuun eeyyema konkolaachisummaa, galmee konkolaataa fi sarara bilbilaa argachuun dandaʼama ture.	Odeeffannoowwan gosa baay'ee kuusaawwan daataa jiran irraa argamuu danda’aniiru.	0
+Kuusaawwan odeeffannoo salphaatti muldhatan sakattaʼuun eeyyema konkolaachisummaa, galmee konkolaataa fi sarara bilbilaa argachuun dandaʼama ture.	Maddoota jiran tajaajilamuun waa’ee dhimmoota kanaa odeeffannoo homaallee karaan itti argatan hin turre.	2
+Bulchaan kun daldala kana mara mameera jechuun Hazmii fi Mihidhar irraa of fageesse, garuu deeggarsa isaan barbaachisu osoo hin argatiin dura miti.	Bulchaan kun yoggisuma aanga'oota haasosiisee dhimma kana irratti deeggarsa gochuu dide.	2
+Bulchaan kun daldala kana mara mameera jechuun Hazmii fi Mihidhar irraa of fageesse, garuu deeggarsa isaan barbaachisu osoo hin argatiin dura miti.	Bulchaan kun mufii qabaatus deeggarsa godheera.	0
+Bulchaan kun daldala kana mara mameera jechuun Hazmii fi Mihidhar irraa of fageesse, garuu deeggarsa isaan barbaachisu osoo hin argatiin dura miti.	Deeggarsi kun maallaqaa fi deeggarsa sanadoota imalaa bitachuuf kan of keessaa qabu ture.	1
+Bara 2003tti maqaaleen kunniin balleeffamaniiru; waa'een shororkeessummaa idil-addunyaa marri amma maqaa walfakkaataa argataniiru, 315.	Waa'een shororkeessummaa marti barbaachisummaa isaaf mallattoon guddaan kennamaaf.	1
+Bara 2003tti maqaaleen kunniin balleeffamaniiru; waa'een shororkeessummaa idil-addunyaa marri amma maqaa walfakkaataa argataniiru, 315.	Waa'een shororkeessummaa marti mallattoo wal fakkaatu argatu.	0
+Bara 2003tti maqaaleen kunniin balleeffamaniiru; waa'een shororkeessummaa idil-addunyaa marri amma maqaa walfakkaataa argataniiru, 315.	Waa'een shororkeessummaa hundi qofa qofaan murtaa'ee sadarkaan kennama.	2
+Qondaalli kun, kan caccabuu Masaraa Kibbaa ilaale, qajeelfama gad dhiisuu kutaalee ESU Masaraa Kaabaa keessa jiraniif beeksise.	Erga Masaraan Kibbaa caccabee as namni Masaraa Kaabaa keessatti hafe hin jiru.	2
+Qondaalli kun, kan caccabuu Masaraa Kibbaa ilaale, qajeelfama gad dhiisuu kutaalee ESU Masaraa Kaabaa keessa jiraniif beeksise.	Qondaalli kun garee ESU Masaraa Kaabaa keessa jiran faana dubbachuu isaa daqiiqaa 30 dura masaraan Kibbaa jige.	1
+Qondaalli kun, kan caccabuu Masaraa Kibbaa ilaale, qajeelfama gad dhiisuu kutaalee ESU Masaraa Kaabaa keessa jiraniif beeksise.	Qondaalli kun caccabuu Masaraa Kibbaa ragga'eera.	0
+Indiyaanaapoolis dhuguma iddoo taatonni namoota baay'eedhaaf dalagan keessaa isa tokkodha.	Taatonni Indiyaanaapoolis kan fedhan ijaa dhaabbilee tamsaasaa hundi achi jiraniifi.	1
+Indiyaanaapoolis dhuguma iddoo taatonni namoota baay'eedhaaf dalagan keessaa isa tokkodha.	Yoo taatoo taate gara Indiyaanaapoolis dhaquuf yaaduu qabda.	0
+Indiyaanaapoolis dhuguma iddoo taatonni namoota baay'eedhaaf dalagan keessaa isa tokkodha.	Yoo daldala fiilmii fi tiyaatiraa keessa jirta ta'e Indiyaanaapoolis keessatti dalagaa argachuun rakkisaadha, sababiin isaas irra jireessi magaalaa teeknooloojii waan taateef.	2
+Deeggarsa bilbilaan sa’aatii 24, torbanitti guyyaa 7 karaa sarara deeggarsa warraa Giddugala Qabeenya Odeeffannoo Ittisaa ni laanna.	Namoonni bifa poostaa ykn iimeelii qofaan nu argachuu danda'u.	2
+Deeggarsa bilbilaan sa’aatii 24, torbanitti guyyaa 7 karaa sarara deeggarsa warraa Giddugala Qabeenya Odeeffannoo Ittisaa ni laanna.	Bilbilaan nu argattu, guyyaa keessaa sa'aatii hundayyuu ni argamna.	0
+Deeggarsa bilbilaan sa’aatii 24, torbanitti guyyaa 7 karaa sarara deeggarsa warraa Giddugala Qabeenya Odeeffannoo Ittisaa ni laanna.	Wiixataa fi Jimaata yeroo hunda bilbila dhibbaa keessummeessina.	1
+Saanduqonni kun kennaawwan kaan marti erga banamanii booda yeroo baay'eef haguuggii isaanii keessaatti ni hafu.	Sanduuqonni kun boombii hamaa of keessaa qabu.	1
+Saanduqonni kun kennaawwan kaan marti erga banamanii booda yeroo baay'eef haguuggii isaanii keessaatti ni hafu.	Sanduuqonni kun kennaawwan kaan dura ni banamu.	2
+Saanduqonni kun kennaawwan kaan marti erga banamanii booda yeroo baay'eef haguuggii isaanii keessaatti ni hafu.	Sanduuqonni kunneen yeroof osoo hin saaqamiin ni turu.	0
+Yoo gatii keenya gadi aanaa goone, ergama kana akka galmaan geenyu nu deeggaruuf gara keessan, dhaggeeffattoota keenyatti dhaqnee gumaacha xinnoo gaafachuu qabna.	Gatiin tikkeettii keenyaa doolaara 10 gad akka ta’uuf, dhaggeeffattoonni keenya hundi doolaara 25 akka arjooman nu barbaachisa.	1
+Yoo gatii keenya gadi aanaa goone, ergama kana akka galmaan geenyu nu deeggaruuf gara keessan, dhaggeeffattoota keenyatti dhaqnee gumaacha xinnoo gaafachuu qabna.	Yoo dhuguma feene gatii keenya gad bu'aa gochuu dandeenya, maallaqa keessan malee, garuu dura ta'aan keenya qananii isaa ni jaallata.	2
+Yoo gatii keenya gadi aanaa goone, ergama kana akka galmaan geenyu nu deeggaruuf gara keessan, dhaggeeffattoota keenyatti dhaqnee gumaacha xinnoo gaafachuu qabna.	Hirmaannaan keessan gatiin gadi bu'aa akka ta'u nu gargaareera.	0
+00 ijoolleen naannoo Indiyaanaapoolis gara 400 ta’aniif qajeelfama, jajjabinaa fi bashannana akka kenninuuf nu gargaareera.	Arjooma arjummaa keenyaaf galata, Biyoonseen daa’imman Indiyaanaapoolis abbaa fi haadha hin qabnef konsartii akka gootu affeeruu dandeenyeerra.	1
+00 ijoolleen naannoo Indiyaanaapoolis gara 400 ta’aniif qajeelfama, jajjabinaa fi bashannana akka kenninuuf nu gargaareera.	Ijoollee kanaaf ayyaana Qilee kabajuuf abdii goonee turre, garuu homaa isaaniif gochuu hin dandeenyee.	2
+00 ijoolleen naannoo Indiyaanaapoolis gara 400 ta’aniif qajeelfama, jajjabinaa fi bashannana akka kenninuuf nu gargaareera.	Ijoollee Indiyaanaapoolis baay'ee deeggaruu dandeenyeerra.	0
+Jalqabarraa namoonni dhuunfaa waggaatti kennaa baay'ee hedduu $1,000 ykn isaa ol hiriyyaa Chaansileraa, ykn $500 fi isaa ol Gita Chaansileraaf kennuudhaan hirmaachuu danda’u.	Namoonni dhuunfaa arjooma muraasa doolaara 50 erga taasisanii booda hirmaachuu danda’u.	2
+Jalqabarraa namoonni dhuunfaa waggaatti kennaa baay'ee hedduu $1,000 ykn isaa ol hiriyyaa Chaansileraa, ykn $500 fi isaa ol Gita Chaansileraaf kennuudhaan hirmaachuu danda’u.	Namoonni dhuunfaa deeggarsa guddaa gahaa yoo taasisan hirmaachuu dandaʼu.	0
+Jalqabarraa namoonni dhuunfaa waggaatti kennaa baay'ee hedduu $1,000 ykn isaa ol hiriyyaa Chaansileraa, ykn $500 fi isaa ol Gita Chaansileraaf kennuudhaan hirmaachuu danda’u.	Namoonni dhuunfaa baay'een isaanii Gita Chaansileraa jedhamuuf arjooma taasisuu filatu.	1
+Kennaan amma kennitan bu'aa gibira xumura waggaa dabalataa siniif laachuu danda’a.	Yoo xiqqaate gumaata doolaara 1,000 yoo gumaachite, bu'aa gibiraa argachuu akka dandeessu jala muramaadha.	1
+Kennaan amma kennitan bu'aa gibira xumura waggaa dabalataa siniif laachuu danda’a.	Kan nama dhibu gorsitoonni gibira keenyaa gumaata homaallee akka hin taasisne isin gorsu turan.	2
+Kennaan amma kennitan bu'aa gibira xumura waggaa dabalataa siniif laachuu danda’a.	Buusii keessan irraa gibira hir’ifame fudhachuu dandeessu ta’a.	0
+Akkuma hubattan miseensummaan garee kanaa hiriyyootaa fi barattoota duraanii waggaatti doolaara 1,000 fi isaa ol mana barumsaa seeraa kanaaf kennan kan hammatudha.	Miseensonni garee kanaa muraasni mana barumsichaaf doolaara kuma 100 ol gumaachaniiru.	1
+Akkuma hubattan miseensummaan garee kanaa hiriyyootaa fi barattoota duraanii waggaatti doolaara 1,000 fi isaa ol mana barumsaa seeraa kanaaf kennan kan hammatudha.	Garee kana keessatti namoota mana barumsaa seeraa kanaaf doolaara 1,000 ol kennan qabna.	0
+Akkuma hubattan miseensummaan garee kanaa hiriyyootaa fi barattoota duraanii waggaatti doolaara 1,000 fi isaa ol mana barumsaa seeraa kanaaf kennan kan hammatudha.	Gareen kun mana barumsichaaf kennaa maallaqaa akka taasisu gaafachuuf karoorfannee jirra, garuu kanaan dura tasuma hin taasifne.	2
+Ijoollummaa kootti yeroo 5O keessatti guddachaa turetti, yaadannoowwan natti tolan keessaa tokko oomisha Tiyaatira Siivikii irratti qooda fudhachuu ture.	Yeroo ijoollummaakootti agarsiisa tiyaatiraa dhaquu waanan jibbeef, kanaafan saayintistii ta'e.	2
+Ijoollummaa kootti yeroo 5O keessatti guddachaa turetti, yaadannoowwan natti tolan keessaa tokko oomisha Tiyaatira Siivikii irratti qooda fudhachuu ture.	Yeroo ijoollummaa kootti gara tiyaatiraa deemuun hedduu na gammachiisa ture.	0
+Ijoollummaa kootti yeroo 5O keessatti guddachaa turetti, yaadannoowwan natti tolan keessaa tokko oomisha Tiyaatira Siivikii irratti qooda fudhachuu ture.	Oomisha Tiyaatira Siivikii ani baay'ee jaalladhu Bareedinaa fi Yeeyyii ture.	1
+Namni xalayaa kana fudhate hundi isaa doolaara 18 qofa yoo kenne.	Namni xalayaa kana argate marti: qarshii keessan hin kenniinaa, gowwoomsaa dha.	2
+Namni xalayaa kana fudhate hundi isaa doolaara 18 qofa yoo kenne.	Yoo $18 kennitan kennaa isiniif laanna.	1
+Namni xalayaa kana fudhate hundi isaa doolaara 18 qofa yoo kenne.	Namoonni xalayaa fudhatan hundi $18 kennuu akka danda'an hin shakkinu.	0
+Kutaa jalaa salphaatti addaan baasuu qofa, filannoo dalagaarra jiru mirkaneessaa, yoo barbaachise teessoo kee irratti jijjiirama kamiyyuu taasisaati fi postaa cufame keessatti ergaa.	Maaloo teessoo keessan irratti jijjiirama homaallee hin taasisiinaa.	2
+Kutaa jalaa salphaatti addaan baasuu qofa, filannoo dalagaarra jiru mirkaneessaa, yoo barbaachise teessoo kee irratti jijjiirama kamiyyuu taasisaati fi postaa cufame keessatti ergaa.	Poostaa adiin golgame kan teessoon kee irratti barreeffamee jira.	1
+Kutaa jalaa salphaatti addaan baasuu qofa, filannoo dalagaarra jiru mirkaneessaa, yoo barbaachise teessoo kee irratti jijjiirama kamiyyuu taasisaati fi postaa cufame keessatti ergaa.	Teessoo kee irratti fooyya'insa taasisuuf bilisa dha, yoo si gammachiise.	0
+Manni Barumsaa Narsiingii gahumsa barnootaa isaa itti fufuu fi kabachiisuuf gargaarsa arjummaa keessan fedha.	Maaloo Mana Barumsaa Narsiingiif doolaara miiliyoona 100 arjooma, yookaan siidaa yaadannoo keessan ni dhabdu.	1
+Manni Barumsaa Narsiingii gahumsa barnootaa isaa itti fufuu fi kabachiisuuf gargaarsa arjummaa keessan fedha.	Manni Barumsaa Narsiingii galma faayinaansii isaa hunda waan guuteef kana booda maallaqa hin barbaadu.	2
+Manni Barumsaa Narsiingii gahumsa barnootaa isaa itti fufuu fi kabachiisuuf gargaarsa arjummaa keessan fedha.	Mana Barumsaa Narsiingiif akka tola ooltan hin shakkinu.	0
+Hirmaattonni %80 dandeettii waldiddaa furuu dabaluu ni gabaasu.	Hirmaattonni walakkaa ol ta’an dandeettii waldhabdee furuu dabaluu ni gabaasu.	0
+Hirmaattonni %80 dandeettii waldiddaa furuu dabaluu ni gabaasu.	Hirmaattota keessaa parsentaa afurtama qofatu dandeettii waldhabdee furuu dabaluu isaanii dubbatu.	2
+Hirmaattonni %80 dandeettii waldiddaa furuu dabaluu ni gabaasu.	Hirmaattonni dhuunfaa 100 ol turan.	1
+Maaloo gara tarree arjoomtoota keenyaa dogongora ta'eetti hin lixiinaa.	Osoo arjooma dhiiftan qaanii ta'a.	0
+Maaloo gara tarree arjoomtoota keenyaa dogongora ta'eetti hin lixiinaa.	Tarreen arjoomtoota keenyaa darbanii addunyaan akka ilaaltuuf maxxanfama, kanaaf na amanaa, akkasitti qaana'uu hin barbaaddan!	1
+Maaloo gara tarree arjoomtoota keenyaa dogongora ta'eetti hin lixiinaa.	Arjoomtoota hedduu qabna, kanaaf arjooma taasisuu dhiisaa.	2
+Nama kompiwuuteraa fi moodemii qabatee mooraa keenya dhufu kamiifuu mooraan keenya banama dha.	Namoonni mooraa argachuuf homaa hin barbaachisu.	2
+Nama kompiwuuteraa fi moodemii qabatee mooraa keenya dhufu kamiifuu mooraan keenya banama dha.	Namoonni mooraa keessa seenuuf kompuuteraa fi moodemii lamaanuu isaan barbaachisa.	0
+Nama kompiwuuteraa fi moodemii qabatee mooraa keenya dhufu kamiifuu mooraan keenya banama dha.	Namoonni yeroo gara mooraa seenan kompuuteraa fi moodemii isaanii qabatanii deemuu qabu, akka isaan qaqqabuuf.	1
+Gurgurtaan tikkeettii fi galmeewwan miseensummaan maallaqa galchuun bara keenya guutuu dorgommii kana maallaqaan gargaaruu hin danda'u.	Hamma gurgurtaa tikkeettii qabnutti bara guutuu keenya faayinaansiidhaan deeggaramna.	2
+Gurgurtaan tikkeettii fi galmeewwan miseensummaan maallaqa galchuun bara keenya guutuu dorgommii kana maallaqaan gargaaruu hin danda'u.	Barri dorgommii keenya guutuun maallaqaan gargaaruuf waan caalu fedha, ergasii gurgurtaa tikkeettii fi maallaqa galchuu qofa.	0
+Gurgurtaan tikkeettii fi galmeewwan miseensummaan maallaqa galchuun bara keenya guutuu dorgommii kana maallaqaan gargaaruu hin danda'u.	Gurgurtaan tikkeettii fi maallaqa galchuu baasii faayinaansii bara keenya guutuuf %70 qofa uwwisa.	1
+GAHINSOONNI HAARAAN KENNAAN HUNDI GARAAGARTEE NI UUUMA.	Kennaan marti galmaa’ee barruu keenyaan baatii baatiin ni beeksifama.	1
+GAHINSOONNI HAARAAN KENNAAN HUNDI GARAAGARTEE NI UUUMA.	Kennaan kennamu marti waan ta'eef heerregama.	0
+GAHINSOONNI HAARAAN KENNAAN HUNDI GARAAGARTEE NI UUUMA.	Kennaa doolaara 100 ol qofatu jijjiirama fida.	2
+Galma keenya $365,000 bira ga'uuf hiriyyootaa fi maamiloota akka keessanii irraa argachuu keenya dura karaa dheeraa qabna.	Galmi maallaqa keenyaa doolaara kuma 300 ol ta'a.	0
+Galma keenya $365,000 bira ga'uuf hiriyyootaa fi maamiloota akka keessanii irraa argachuu keenya dura karaa dheeraa qabna.	Dhugumatti galma maallaqa keenyaa dachaa sadiin guddisuuf abdii qabna.	1
+Galma keenya $365,000 bira ga'uuf hiriyyootaa fi maamiloota akka keessanii irraa argachuu keenya dura karaa dheeraa qabna.	Maallaqa ilaalchisee ulaagaa madaallii hin qabnu.	2
+Kilinikiin Hojii Siivilii keenya waggoota baay'eedhaaf kan hojjete yoo ta’u, dhiheenya kana Kilinika Ittisa yakkaa idaanee jirra.	Kilinikiin Hojii Siiviilii keenyaa waggoota saddeetiif dalagaa ture.	1
+Kilinikiin Hojii Siivilii keenya waggoota baay'eedhaaf kan hojjete yoo ta’u, dhiheenya kana Kilinika Ittisa yakkaa idaanee jirra.	Kilinikiin Hojii Siivilii keenyaa baatii dhufu waggaa guutuu jalqaba isaa hojiirra ture kabajata.	2
+Kilinikiin Hojii Siivilii keenya waggoota baay'eedhaaf kan hojjete yoo ta’u, dhiheenya kana Kilinika Ittisa yakkaa idaanee jirra.	Kilinikiin Hojii Siivilii kun erga dalagaa jalqabee waggaa tokkoo ol dabarseera.	0
+Galiin tikkeettii baasii sagantaalee kanaa cufuu hin eegalle.	Baasiin sagantaalee kanaa galii tikkeettiitiin waan hin cufamne fakkaata.	0
+Galiin tikkeettii baasii sagantaalee kanaa cufuu hin eegalle.	Baasiin sagantaalee kanaa hedduu guddaa dha.	1
+Galiin tikkeettii baasii sagantaalee kanaa cufuu hin eegalle.	Galiin tikkeettii kanaa baasii sagantaalee kanaa akka cufu hin mamsiisu.	2
+Jaalalli hunda ni mo'ata (yoo istandardii torbaaniif hojjettan malee): Brit Hume (Sagantaa Sanbataa Fox News ) maaliif Lewinsky hin ta'u jedhee tilmaamti Ammallee pirezidaanticha irratti jaalala abdii hin qabne qabdi.	Brit Hume rippoortara olaanaa Fox dha.	1
+Jaalalli hunda ni mo'ata (yoo istandardii torbaaniif hojjettan malee): Brit Hume (Sagantaa Sanbataa Fox News ) maaliif Lewinsky hin ta'u jedhee tilmaamti Ammallee pirezidaanticha irratti jaalala abdii hin qabne qabdi.	Brit Hume CNN keessaa hojjetti.	2
+Jaalalli hunda ni mo'ata (yoo istandardii torbaaniif hojjettan malee): Brit Hume (Sagantaa Sanbataa Fox News ) maaliif Lewinsky hin ta'u jedhee tilmaamti Ammallee pirezidaanticha irratti jaalala abdii hin qabne qabdi.	Brit Hume Fox keessaa hojjetti.	0
+Mikaa'el Aptewdi qacaruun tuqa namaa caalaa tapha walduraa duubaa kanaaf fiduuf waan hedduun dalagameera.	Mikaa'el Aptewdii ho'a isa kamiyyuu fi namaa ta'an hundayyuu akka baasan cichuudhaan tapha walduraa duubaa kana balleesse.	2
+Mikaa'el Aptewdi qacaruun tuqa namaa caalaa tapha walduraa duubaa kanaaf fiduuf waan hedduun dalagameera.	Mikaa'el Aptewdi qulqullina dhuunfaa tapha walduraa duubaa kanaaf akka ida'uuf miindeffame.	0
+Mikaa'el Aptewdi qacaruun tuqa namaa caalaa tapha walduraa duubaa kanaaf fiduuf waan hedduun dalagameera.	Taphni walduraa duubaa kun qorraa fi nuffisiisaa ta'ee waan yaadameef, sadarkaa fooyyessuuf tuqa ho'aa, dhuunfaa akka itti dabaluuf Mikaa'el Aptewdi qacaruun barbaachisaa ture.	1
+Shamarree jakkeettii furdaa adii qoobii qabu  fi boottii uffatte ilaaluuf	Shamarreen tokko cabbiirra sigigaachuuf uffattee jirti.	1
+Shamarree jakkeettii furdaa adii qoobii qabu  fi boottii uffatte ilaaluuf	Shamarreen tokko huccuu adii uffatti.	0
+Shamarree jakkeettii furdaa adii qoobii qabu  fi boottii uffatte ilaaluuf	Shamarreen uffanni uffatte hundi diimaa dha.	2
+Waan fiilmiin kun ibsuu dhiise Kaa'ufman yeroo hedduu akkamitti du'a ofii isaatii ofirraa fageessuu akka barbaadu dubbatee ture.	Fiilmiin kun Kaa'ufman du'a ofii isaa irratti mari'achuu isaa hin caqasne.	0
+Waan fiilmiin kun ibsuu dhiise Kaa'ufman yeroo hedduu akkamitti du'a ofii isaatii ofirraa fageessuu akka barbaadu dubbatee ture.	Fiilmiin kun waa'ee du'a isaa Kaa'ufman waliin af-gaaffii gadi fageenya qabu godheera.	2
+Waan fiilmiin kun ibsuu dhiise Kaa'ufman yeroo hedduu akkamitti du'a ofii isaatii ofirraa fageessuu akka barbaadu dubbatee ture.	Fiilmiin kun waa'ee Kaa'ufman ibsa barbaachisaa tokko tokko dhiisus, baay'ee guddaa ture.	1
+Rookfeelar kennaa gidiraa kanaan qabamee yeroo Avenjiingi Anjeel Taarbeel foon isaa keessa Misikiluretti cicciruu eegale.	Rookfeelar qo'annoo kaansariif kenne.	1
+Rookfeelar kennaa gidiraa kanaan qabamee yeroo Avenjiingi Anjeel Taarbeel foon isaa keessa Misikiluretti cicciruu eegale.	Rookfeelar kennaa ture.	0
+Rookfeelar kennaa gidiraa kanaan qabamee yeroo Avenjiingi Anjeel Taarbeel foon isaa keessa Misikiluretti cicciruu eegale.	Rookfeelar sassataa ture.	2
+Dhiheenya kana dhimma daldalaa Niiw Yoorkitti raawwatameen, Kilaaymaan himannaa loogii sabaatiin himatame irratti of argate.	Kilaaymaan himannaa loogii sabaatiin Kaalifoorniyaatti himatameera.	2
+Dhiheenya kana dhimma daldalaa Niiw Yoorkitti raawwatameen, Kilaaymaan himannaa loogii sabaatiin himatame irratti of argate.	Kilaaymaan loogii sabaatiin himatama jedhee hin eegne.	1
+Dhiheenya kana dhimma daldalaa Niiw Yoorkitti raawwatameen, Kilaaymaan himannaa loogii sabaatiin himatame irratti of argate.	Himannaan loogii sabaa Kilaaymaan irratti dhiyaatee ture.	0
+Namni tokko bakka bu'oonni dhaabbilee kutaa tokko guutuu barreessaa hojii Ameerikaa taa'ee jiru tokkotti foolichuu, iyyuudhaaf fi akka iyyan eeguu hin danda'u. Barreessituu hojjettoota.	Bakka bu'oonni dhaabbilee uffatoota uffatu.	1
+Namni tokko bakka bu'oonni dhaabbilee kutaa tokko guutuu barreessaa hojii Ameerikaa taa'ee jiru tokkotti foolichuu, iyyuudhaaf fi akka iyyan eeguu hin danda'u. Barreessituu hojjettoota.	Namni tokko bakka bu'oonni dhaabbilee foolican jedhee  tilmaama.	2
+Namni tokko bakka bu'oonni dhaabbilee kutaa tokko guutuu barreessaa hojii Ameerikaa taa'ee jiru tokkotti foolichuu, iyyuudhaaf fi akka iyyan eeguu hin danda'u. Barreessituu hojjettoota.	Namni tokko iddoo bu'oonni jaarmiyaalee ni foolicu jedhee hin eegu.	0
+Haa ta'u malee, guddinni ga'umsa atileetiksii irratti dhiibbaa guddaa waan qabuuf uumamni rafaa dha jechuu miti.	Atileetonni dandeettii ga’umsa isaanii mara waliigalatti dhugoomsanii dhalatan.	2
+Haa ta'u malee, guddinni ga'umsa atileetiksii irratti dhiibbaa guddaa waan qabuuf uumamni rafaa dha jechuu miti.	Gahumsi atileetiksii sanyiidhaan irra caalaa leenjiidhaan dhiibbaa guddaa qaba.	0
+Haa ta'u malee, guddinni ga'umsa atileetiksii irratti dhiibbaa guddaa waan qabuuf uumamni rafaa dha jechuu miti.	Atileetonni jajjaboon hedduun isaanii torbanitti yoo xiqqaate sa'aatii saddeet leenji'u.	1
+Yeroon gara manaatti deebi'ee Ameerikaan dhiyeessii karaa lama akka addaan kuttu hubadhe.	Siyaasaaf fedhii qaba.	1
+Yeroon gara manaatti deebi'ee Ameerikaan dhiyeessii karaa lama akka addaan kuttu hubadhe.	Ani waahee Ameerikaa baradhe.	0
+Yeroon gara manaatti deebi'ee Ameerikaan dhiyeessii karaa lama akka addaan kuttu hubadhe.	Ameerikaan karaa lama dhiyeessii akka adda kuttu osoo gara biyyaatti hin deebi'in duran hubadhe.	2
+Pireesiin yunivarsiitii addunyaa inni dulloomaa fi guddaan--Oxfordi--toora walaloo isaa haquu isaa ammma beeksiseera.	Toorri walaloo Oksifoordi jiru kana booda itti fufee hin argamu.	0
+Pireesiin yunivarsiitii addunyaa inni dulloomaa fi guddaan--Oxfordi--toora walaloo isaa haquu isaa ammma beeksiseera.	Yuunivarsiitiin kabajamaa kun toora walaloo kana sochiirra akka turuuf qarshii hin qabu.	1
+Pireesiin yunivarsiitii addunyaa inni dulloomaa fi guddaan--Oxfordi--toora walaloo isaa haquu isaa ammma beeksiseera.	Yuunivarsiitichi toora walaloo kunuunsuuf kan of kenne yoo ta'u, tasuma akka hin haqne dhaadateera.	2
+Badhaasni jajjabina dhala namaaf kennamu garuu jira.	Badhaasni jajjabinaa kun nama hundaaf tolaan saffisa lama walitti dabaludha.	1
+Badhaasni jajjabina dhala namaaf kennamu garuu jira.	Haala kana keessatti dhala namaaf Jijjiiramni hin jiru.	2
+Badhaasni jajjabina dhala namaaf kennamu garuu jira.	Kun marti namaaf oduu badaa miti.	0
+Marsariitiiwwan kanarratti qabsiisuun kan taphatamu taatee ispoortii irratti qofa miti.	Qabsiisuun dorgommii siyaasaa fi filannoo irratti tahu marsariitiiwwan sana irratti fudhatama qaba.	1
+Marsariitiiwwan kanarratti qabsiisuun kan taphatamu taatee ispoortii irratti qofa miti.	Marsariitiiwwan kun taateewwan ispoortii irratti qofa qabsiisuu fudhatu.	2
+Marsariitiiwwan kanarratti qabsiisuun kan taphatamu taatee ispoortii irratti qofa miti.	Marsariitiiwwan kun sochiiwwan hedduu irratti filatamoo kan ta'anidha.	0
+Hagayya 25, walgahiin paartii Dimookiraatotaa Atlaantiik Siitii, NJ keessatti erga banamee booda, Joonsan, si'a sanatti umuriin isaa ganna 56, haasawa waraabame sadii irratti dorgommii pirezidaantummaa irraa akka bahu sodaachise.	Joonsan gargaarsa dhabuun itti dhaga'ame.	1
+Hagayya 25, walgahiin paartii Dimookiraatotaa Atlaantiik Siitii, NJ keessatti erga banamee booda, Joonsan, si'a sanatti umuriin isaa ganna 56, haasawa waraabame sadii irratti dorgommii pirezidaantummaa irraa akka bahu sodaachise.	Joonsan gadhiisuuf yaadee hin beeku.	2
+Hagayya 25, walgahiin paartii Dimookiraatotaa Atlaantiik Siitii, NJ keessatti erga banamee booda, Joonsan, si'a sanatti umuriin isaa ganna 56, haasawa waraabame sadii irratti dorgommii pirezidaantummaa irraa akka bahu sodaachise.	Joonsan akka gadhiisee ba'uuf dhaaddateera.	0
+Lamar Aleeksaandar dorgommii caalbaasii pirezidaantummaa isaa kuffiseera.	Yoo xiqqaate namni tokko yaalii pirezidaantii ta'uuf taasiseen abdii kutateera.	0
+Lamar Aleeksaandar dorgommii caalbaasii pirezidaantummaa isaa kuffiseera.	Lamar Aleeksaandar duula filannoo pirezidaantummaa isaa dhiisuuf eyyamamaa hin taane.	2
+Lamar Aleeksaandar dorgommii caalbaasii pirezidaantummaa isaa kuffiseera.	Obbo Aleeksaandar suuraan isa saalfachiisu erga maxxanfamee booda addaan kutuuf dirqame.	1
+Galmee bilisummaa siiviilii gaddisiisaa kana irratti qo'annoo waajjira imala jalqabaa Waayit Haawus mataa isaa keessatti FBIn dogoggoraan tajaajilamuu isaa, fi wanti Faayilgeet jedhamuun beekamuu dhufe.	Waayit Haawus FBI kaadhimamoota siyaasaa irratti basaasaan qaba.	1
+Galmee bilisummaa siiviilii gaddisiisaa kana irratti qo'annoo waajjira imala jalqabaa Waayit Haawus mataa isaa keessatti FBIn dogoggoraan tajaajilamuu isaa, fi wanti Faayilgeet jedhamuun beekamuu dhufe.	Waayit Haawus FBI dogoggoraan fayyadama.	0
+Galmee bilisummaa siiviilii gaddisiisaa kana irratti qo'annoo waajjira imala jalqabaa Waayit Haawus mataa isaa keessatti FBIn dogoggoraan tajaajilamuu isaa, fi wanti Faayilgeet jedhamuun beekamuu dhufe.	Waayit Haawus FBI haalaan fayyadama.	2
+Taangii namoota qabeenya tilmaaman irratti tarkaanfii fudhachuuf dhaadateera, garuu namoonni baay'een dunni isaa ciniinnaa isaarra daran hamaa ta'a jedhanii tilmaamu.	Waa'een tilmaama qabeenyaa Taangiin hin ilaallatu.	2
+Taangii namoota qabeenya tilmaaman irratti tarkaanfii fudhachuuf dhaadateera, garuu namoonni baay'een dunni isaa ciniinnaa isaarra daran hamaa ta'a jedhanii tilmaamu.	Taangi tilmaamtoonni qabeenyaa naamusa malee hojjechaa jiru jedhee yaada.	1
+Taangii namoota qabeenya tilmaaman irratti tarkaanfii fudhachuuf dhaadateera, garuu namoonni baay'een dunni isaa ciniinnaa isaarra daran hamaa ta'a jedhanii tilmaamu.	Taangi tilmaama qabeenyaa irratti dhiibbaa uumuu barbaada.	0
+Komiin dhiyaatan kun rakkoo mi'aa, cinqamuu hojjettoota balallii, balallii dhoksaadhaan haqame, yakkoota kaffaltii kan hammatan ture. 	Namoonni 10 mi'a gatanii turan.	1
+Komiin dhiyaatan kun rakkoo mi'aa, cinqamuu hojjettoota balallii, balallii dhoksaadhaan haqame, yakkoota kaffaltii kan hammatan ture. 	Namoonni dhimma mi'aa komataniiru.	0
+Komiin dhiyaatan kun rakkoo mi'aa, cinqamuu hojjettoota balallii, balallii dhoksaadhaan haqame, yakkoota kaffaltii kan hammatan ture. 	Komiin sirumaa hin turre.	2
+Gudeeddaa maqaa gaarii qabu kan harka duraa miidhamtuu isaa irraa micciiree booda ganna saddeet qofa hidhaa keessa ture Laawureensi Siingileetan, Filooriidaatti dubartii biraa waraanee ajjeese irratti to'annoo jala ooleera.	Erga harka duraa miidhamtoota isaa irraa micciiree booda balfa keessa dhoksuuf yaale.	1
+Gudeeddaa maqaa gaarii qabu kan harka duraa miidhamtuu isaa irraa micciiree booda ganna saddeet qofa hidhaa keessa ture Laawureensi Siingileetan, Filooriidaatti dubartii biraa waraanee ajjeese irratti to'annoo jala ooleera.	Yeroon mana sirreessaa keessa ture guutummaatti akka isa deebise maraaf ifa ture.	2
+Gudeeddaa maqaa gaarii qabu kan harka duraa miidhamtuu isaa irraa micciiree booda ganna saddeet qofa hidhaa keessa ture Laawureensi Siingileetan, Filooriidaatti dubartii biraa waraanee ajjeese irratti to'annoo jala ooleera.	Obbo Siingileetan nama gudeeddii raawwatee jedhamee Filooriidaatti itti murta'eedha.	0
+Chaarlis Leeniin Niiw Rippaablikii akka jedhutti Oduun buttaa galmee gaazexeessummaa amanamummaa hin qabne Gabri'eel Garcaa Markuu'ez dheeressa.	Chaarlis Leen rippoortara dha.	0
+Chaarlis Leeniin Niiw Rippaablikii akka jedhutti Oduun buttaa galmee gaazexeessummaa amanamummaa hin qabne Gabri'eel Garcaa Markuu'ez dheeressa.	Chaarlis Leen konkolaataa gurguraa ture.	2
+Chaarlis Leeniin Niiw Rippaablikii akka jedhutti Oduun buttaa galmee gaazexeessummaa amanamummaa hin qabne Gabri'eel Garcaa Markuu'ez dheeressa.	Chaarlis Leen dorgommii Puuliitzer moo'ate.	1
+Manni murtii kun ganama har'aa Waashingitan keessatti agarsiisa siyaasaa qofa miti.	Manni murtii kun Waashingitan keessatti iddoo siyaasaa qofa miti.	0
+Manni murtii kun ganama har'aa Waashingitan keessatti agarsiisa siyaasaa qofa miti.	Guyyaan siyaasaa ganama eegaluu hin oolu.	1
+Manni murtii kun ganama har'aa Waashingitan keessatti agarsiisa siyaasaa qofa miti.	Dhaddacha mana murtii sanatti agarsiisni qoosaa qabu jira.	2
+Namni buuldoozarii oofu tokko misooma haaraadhaaf daandii tokko yeroo qulqulleessu tilmaamuun ni danda'ama, misoomsaan Hey, Loyd ...	Namni buuldoozerii oofu tokko buuldoozerii eegaluu isaa tilmaamuun ni danda'ama.	1
+Namni buuldoozarii oofu tokko misooma haaraadhaaf daandii tokko yeroo qulqulleessu tilmaamuun ni danda'ama, misoomsaan Hey, Loyd ...	Nama buuldoozerii oofu tokko tilmaamuun ni danda'ama.	0
+Namni buuldoozarii oofu tokko misooma haaraadhaaf daandii tokko yeroo qulqulleessu tilmaamuun ni danda'ama, misoomsaan Hey, Loyd ...	Nama buuldoozerii oofu tilmaamuun hin danda'amu.	2
+Xalayaatiin kana gabaaseen ture Dr'f. waan isa bashannansiise fakkaata, inni immoo ayyaana Qillee sana irraatti keekii fuduraa xiqqoo naaf erge.	Xalayaa ani itti erge doktorichi akka fudhate mirkanaa'aa dha.	0
+Xalayaatiin kana gabaaseen ture Dr'f. waan isa bashannansiise fakkaata, inni immoo ayyaana Qillee sana irraatti keekii fuduraa xiqqoo naaf erge.	Ayyaana Qillee sana irratti keekii doktorri naaf erge hin nyaanne.	1
+Xalayaatiin kana gabaaseen ture Dr'f. waan isa bashannansiise fakkaata, inni immoo ayyaana Qillee sana irraatti keekii fuduraa xiqqoo naaf erge.	Doktarri kun Ayyaana Qillee sana irratti qaruuraa wayinii tokko naaf erge.	2
+Gareen kun kanaan dura maqaa yaadatamuu danda'u Biiniitersi jedhamuun kan beekamu yoo ta'u, kunis, haala nama dinquun, maqaa masoo Hindootaa ta'ee fudhatamuu danda'a.	Gareen kun maqaa isaa kan jijjiireef beekamaa waan hin taaneef.	1
+Gareen kun kanaan dura maqaa yaadatamuu danda'u Biiniitersi jedhamuun kan beekamu yoo ta'u, kunis, haala nama dinquun, maqaa masoo Hindootaa ta'ee fudhatamuu danda'a.	Gareen kun maqaa kana dura maqaa masoo Hindootaa jedhamee yaadamuu danda'u qaba ture.	0
+Gareen kun kanaan dura maqaa yaadatamuu danda'u Biiniitersi jedhamuun kan beekamu yoo ta'u, kunis, haala nama dinquun, maqaa masoo Hindootaa ta'ee fudhatamuu danda'a.	Gareen kun maqaa tokko qofa qabaatee beeka.	2
+Hiika akkasii kitaaba jechoota hiika walfakkootaa qabu keessatti argachuu hin dandeenye.	Hiika isaa kitaaba jechoota hiika walfakkootaa qabu keessatti argadhe.	2
+Hiika akkasii kitaaba jechoota hiika walfakkootaa qabu keessatti argachuu hin dandeenye.	Kitaaba jechoota hiika walfakkootaa qabu keessa ilaaleen hiika hin arganne.	0
+Hiika akkasii kitaaba jechoota hiika walfakkootaa qabu keessatti argachuu hin dandeenye.	Kitaabni jechoota hiika walfakkootaa qabu ani fayyadame kitaaba sadarkaa isaa eege ture.	1
+Namni tokko akkamitti akkas dalaguu danda’a?	Namoonni hedduun akkamitti homaa raawwachuu hin danda'an?	2
+Namni tokko akkamitti akkas dalaguu danda’a?	Namni tokko akkamitti waan badaa akkasii gochuu danda’a?	1
+Namni tokko akkamitti akkas dalaguu danda’a?	Namni tokko akkas dalaguun kan dandaʼamu akkamitti?	0
+Kana malees, jechoota Jaarraa Digdamaffaa keessa akka ka’an beekaman qofa of keessaa qaba, akka Seensaatti, garuu jechoota waraanaa jaarraa 20ffaa duraa dhiisa.	Akka seensaatti jechoota jaarraa digdamaffaa keessa ka’an kan of keessaa qabu yoo ta’u, jechoota loqoda kanaan dura ka’an garuu ni dhiisa.	0
+Kana malees, jechoota Jaarraa Digdamaffaa keessa akka ka’an beekaman qofa of keessaa qaba, akka Seensaatti, garuu jechoota waraanaa jaarraa 20ffaa duraa dhiisa.	Yeroo jalqabaa irraa kaasee loqoda hunda of keessaa qaba.	2
+Kana malees, jechoota Jaarraa Digdamaffaa keessa akka ka’an beekaman qofa of keessaa qaba, akka Seensaatti, garuu jechoota waraanaa jaarraa 20ffaa duraa dhiisa.	Jaarraa digdamaffaa dura kan ture loqoda gosa gosaa hedduu dha.	1
+Namni tokko maxxansa bara 1984 utuu qabaatee, kitaaba gabaabaa kan dabalataa (fi gatii rakasaa) ta’e bitachuu caalaa aarii guddaa qabaachuu danda’a.	Maxxansi bara 1984 maxxanfame hedduu gaarii dha.	1
+Namni tokko maxxansa bara 1984 utuu qabaatee, kitaaba gabaabaa kan dabalataa (fi gatii rakasaa) ta’e bitachuu caalaa aarii guddaa qabaachuu danda’a.	Kitaabni kun gurgurtaaf miti.	2
+Namni tokko maxxansa bara 1984 utuu qabaatee, kitaaba gabaabaa kan dabalataa (fi gatii rakasaa) ta’e bitachuu caalaa aarii guddaa qabaachuu danda’a.	Kitaabicha caalaa isa dabalataatu rakasaa dha.	0
+Bernisteen seensa irratti ibsa.	Bernisteen gadi fageenyaan hin ibsu.	1
+Bernisteen seensa irratti ibsa.	Bernisteen raawwii irratti qofa ibseera.	2
+Bernisteen seensa irratti ibsa.	Seensi ibsa of keessaa qaba.	0
+Dhimmoonni kun akka gidduu galan hin gorfaman, gara waggaa digdamaa boodas, namni biyya alaa ta’e tokko waa’ee isaanii waan hedduu nama kofalchiisu adda baasuun ulfaataa ta’uu isaa qofa.	Namoonni afaan dhalootaa dubbatan illee darbee darbee qoosaa irratti rakkatu.	1
+Dhimmoonni kun akka gidduu galan hin gorfaman, gara waggaa digdamaa boodas, namni biyya alaa ta’e tokko waa’ee isaanii waan hedduu nama kofalchiisu adda baasuun ulfaataa ta’uu isaa qofa.	Qoosaan akka waliigalaatti wantoota salphaatti namoonni biyya alaa hubachuu danda’an keessaa isa tokkodha.	2
+Dhimmoonni kun akka gidduu galan hin gorfaman, gara waggaa digdamaa boodas, namni biyya alaa ta’e tokko waa’ee isaanii waan hedduu nama kofalchiisu adda baasuun ulfaataa ta’uu isaa qofa.	Dhimmoonni kun namoota alaaf hubachuun rakkisaadha.	0
+Dhumarratti, namni tokko dheerina hiika adda ta’e of keessaa qabu irraa of qusachuu qaba.	Gulaaltonni akka idileetti dogongora akkanaa to'achuuf miindeffamu.	1
+Dhumarratti, namni tokko dheerina hiika adda ta’e of keessaa qabu irraa of qusachuu qaba.	Dheeressuun hiikni hima tokkoo akka ifaa ta'uuf karaa guddaadha.	2
+Dhumarratti, namni tokko dheerina hiika adda ta’e of keessaa qabu irraa of qusachuu qaba.	Hiikni isaa yeroo ibsa tokko dheeressuuf yaallu geeddaramuu danda’a.	0
+Mataan kee ho'aan akka nannaa'u godhi.	Ho'a mataa namaa irratti dibuun xiyyeeffannoo fi qalbeeffannoo isaa fooyyessuuf karaa gaarii dha.	2
+Mataan kee ho'aan akka nannaa'u godhi.	Ho’i garmalee darbee darbee mataa naannessaa fiduu danda’a.	0
+Mataan kee ho'aan akka nannaa'u godhi.	Har'a giddu galeessa waqtii irraa digrii shan ol ture.	1
+Ogummaan biraa duudhaa oftuffachuun akkas badhaadhaa hin qabu.	Ogeeyyiin biroo hedduun ofii isaaniitiif ol’aantummaadhaan yaadu.	1
+Ogummaan biraa duudhaa oftuffachuun akkas badhaadhaa hin qabu.	Ogeeyyiin baay'een duudhaa of tuffachuu qabu.	2
+Ogummaan biraa duudhaa oftuffachuun akkas badhaadhaa hin qabu.	Hojiin biraa duudhaa cimaa waa’ee ofii isaa qeequu hin qabu.	0
+Akkasumas yaadannoo boonsaa wajjin, bututtuuwwan kanneen maqaa gaarii afoola naannoo sanaa keessatti argatan sun masoo sana xalayaa dhuunfaa, saalon chaat, fi reezumee seerawaa hin taane keessatti fayyadamu.	Waraqaaleen sun tasuma beekamtii hin qaban.	2
+Akkasumas yaadannoo boonsaa wajjin, bututtuuwwan kanneen maqaa gaarii afoola naannoo sanaa keessatti argatan sun masoo sana xalayaa dhuunfaa, saalon chaat, fi reezumee seerawaa hin taane keessatti fayyadamu.	Waraqaaleen sun maqaa bareedaa hin qaban.	0
+Akkasumas yaadannoo boonsaa wajjin, bututtuuwwan kanneen maqaa gaarii afoola naannoo sanaa keessatti argatan sun masoo sana xalayaa dhuunfaa, saalon chaat, fi reezumee seerawaa hin taane keessatti fayyadamu.	Waraqaaleen sun haadhotii manaa irraa odeessa baay'ee qabu.	1
+Yoo lite/light salphaatti amala biiraa tokkoo ibse (fkn.	Biiraan mallattoo lite ykn light qabaachuu danda'a.	0
+Yoo lite/light salphaatti amala biiraa tokkoo ibse (fkn.	Lite fi light wayinii fi wiiskii ibsuuf qofa fayyadu.	2
+Yoo lite/light salphaatti amala biiraa tokkoo ibse (fkn.	Biiraan Lite alkoolii dhibbeentaa ol'aanaa hin qabu.	1
+Maqaan hiyyeessaa irratti dalagame bakka innis ta’e iddoo bu’aan homaallee hin barbaachifnetti illee itti fayyadamaa ture.	Namoonni maqaa filannoo argachuuf rakkatu.	1
+Maqaan hiyyeessaa irratti dalagame bakka innis ta’e iddoo bu’aan homaallee hin barbaachifnetti illee itti fayyadamaa ture.	Maqaan akka malee itti fayyadamama.	0
+Maqaan hiyyeessaa irratti dalagame bakka innis ta’e iddoo bu’aan homaallee hin barbaachifnetti illee itti fayyadamaa ture.	Maqaan irra caalaatti fayyadamuu qaba.	2
+Kana mara irra darbee, barreeffamni dubbii bareedaa ta’e dhuguma darbee darbee yaadatamuu kan danda’u ta’uu isaa, rakkinicha irra caalaa kan hammaatu ta’uu isaa dhugaa nama hin gammachiifne qabna.	Namoonni barreeffama badaa yaadachuuf carraan isaanii hedduu guddaadha.	2
+Kana mara irra darbee, barreeffamni dubbii bareedaa ta’e dhuguma darbee darbee yaadatamuu kan danda’u ta’uu isaa, rakkinicha irra caalaa kan hammaatu ta’uu isaa dhugaa nama hin gammachiifne qabna.	Barreeffamni akka gaariitti barreeffame yeroo hedduu barreeffama haala yaraa hin taaneen barreeffame caalaa yaadachuun baay’ee salphaadha.	0
+Kana mara irra darbee, barreeffamni dubbii bareedaa ta’e dhuguma darbee darbee yaadatamuu kan danda’u ta’uu isaa, rakkinicha irra caalaa kan hammaatu ta’uu isaa dhugaa nama hin gammachiifne qabna.	Barreeffamni akka gaariitti barreeffame baay’inaan baay'isuuf baay’ee qaala’aa dha.	1
+Ilaalcha kanaan wal-qabatee fi hanga tokko kan ajaadhibsiifaman Ingilizoonnis jecha kana qubee guddaadhaan barreessuudhaan kabaja isaaniif beekamtii kennaniiru.	Ingilizoonnis ulfina hin qaban turan.	2
+Ilaalcha kanaan wal-qabatee fi hanga tokko kan ajaadhibsiifaman Ingilizoonnis jecha kana qubee guddaadhaan barreessuudhaan kabaja isaaniif beekamtii kennaniiru.	Ingilizoonnis diinagdee addunyaa dhuunfatan.	1
+Ilaalcha kanaan wal-qabatee fi hanga tokko kan ajaadhibsiifaman Ingilizoonnis jecha kana qubee guddaadhaan barreessuudhaan kabaja isaaniif beekamtii kennaniiru.	Ingilizoonnis addunyaa guutuutti hedduu daldalaa turan.	0
+Takka takka hamataa dha, innis.	Takka takka adda baasuun hedduu rakkisaa ta’uu danda’a.	0
+Takka takka hamataa dha, innis.	Sagalee hedduu xiqqaa dhageessisa karaa motora of eeggannoodhaan golgameen ta'een.	1
+Takka takka hamataa dha, innis.	Yeroo mara fageenya kamirraayyuu adda baasuun hedduu salphaa ture.	2
+Akkuma ta’utti, Ameerikaa Kaabaa caalaa loqoda Ingiliffaa adda ta’e Biriiteen keessatti akka jiru beekamaadha, namni yeroo kamiyyuu isaan dhaggeeffachuuf dabarse tokko tokko wal-hubachuu akka hin dandeenye ni beeka.	Biriiteen loqoda Ingiliffaa adda ta’e kan lakkoofsi isaanii kanneen Ameerikaa Kaabaa caalaa hedduu ta'an  baay'ee qabdi.	0
+Akkuma ta’utti, Ameerikaa Kaabaa caalaa loqoda Ingiliffaa adda ta’e Biriiteen keessatti akka jiru beekamaadha, namni yeroo kamiyyuu isaan dhaggeeffachuuf dabarse tokko tokko wal-hubachuu akka hin dandeenye ni beeka.	Loqodni Ameerikaa Kaabaa fi Ingilizii sirriitti wal fakkaata, namoonni garaagarummaa isaan gidduu jiru adda baasuu hin danda'an.	2
+Akkuma ta’utti, Ameerikaa Kaabaa caalaa loqoda Ingiliffaa adda ta’e Biriiteen keessatti akka jiru beekamaadha, namni yeroo kamiyyuu isaan dhaggeeffachuuf dabarse tokko tokko wal-hubachuu akka hin dandeenye ni beeka.	Namoonni Ameerikaa Kaabaa irraa dhufan walakkaa loqoda Biriiteeniin dubbatamu hubachuun rakkisaadha.	1
+Odeeffataan Teeneesii tokko haala qilleensaa saree `haala ho'aa, rooba hin qabneef fayyadame, kunis ibsa guyyoota saree jedhu irraa kan maddu ta'uu danda'a, kunis haala qilleensaa goggogaa Hagayyaa kan agarsiisuu danda'a.	Akka odeeffataan kun jedhutti, haalli qilleensaa saree rooba waqtii roobaa ibsuuf itti fayyadameera.	2
+Odeeffataan Teeneesii tokko haala qilleensaa saree `haala ho'aa, rooba hin qabneef fayyadame, kunis ibsa guyyoota saree jedhu irraa kan maddu ta'uu danda'a, kunis haala qilleensaa goggogaa Hagayyaa kan agarsiisuu danda'a.	Waxabajjii fi Adoolessa akkasumas Tennessee keessatti baayyee ho'aa dha.	1
+Odeeffataan Teeneesii tokko haala qilleensaa saree `haala ho'aa, rooba hin qabneef fayyadame, kunis ibsa guyyoota saree jedhu irraa kan maddu ta'uu danda'a, kunis haala qilleensaa goggogaa Hagayyaa kan agarsiisuu danda'a.	Haalli qilleensaa baatii Hagayyaa keessa guyyoota hedduu ho'aa fi rooba kan hin qabnedha.	0

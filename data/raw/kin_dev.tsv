@@ -1,0 +1,459 @@
+premise	hypothesis	label
+Yaravuze , mama nageze murugo	Yahamagaye nyina igihe imodoka y'ishuri yarimaze kumujyeza murugo	1
+Yaravuze , mama nageze murugo	Ntajambo yavuze	2
+Yaravuze , mama nageze murugo	Yabwiye nyina ko yajyeze murugo	0
+Ntabwonzi icyo narinkurikiye nakimwe, nagombaga kwitaba ahajyenewe muri washington	Sinarinajyera washington, igihe noherejweyo naratakaye ndikujyerajyeza gushaka aho ariho	1
+Ntabwonzi icyo narinkurikiye nakimwe, nagombaga kwitaba ahajyenewe muri washington	Narinzi neza icyo nagombaga gukora ubwo narindi gutembera washington 	2
+Ntabwonzi icyo narinkurikiye nakimwe, nagombaga kwitaba ahajyenewe muri washington	Ntabwo narinzi neza icyo naringiye gukorayo, nagiye washinhgton kubera ariho narinoherejwe	0
+Ntabwo yashoboye kujyenda 	Yari uwambere gutumirwa kandi yishimiye ubutumire	2
+Ntabwo yashoboye kujyenda 	Ntabwo yemerewe/yahawe uruhusa rwo kwitabira	0
+Ntabwo yashoboye kujyenda 	Ntabwo yemerewe kujya kurebe ifungurwa ry'inzu ndangamurage	1
+Narimeze neza kandi byari bihagije 	Nyuma yogusubiza yego, byararangiye	0
+Narimeze neza kandi byari bihagije 	Navuze hoya, bikomeza kumbangamira	2
+Narimeze neza kandi byari bihagije 	Igihe navuze yego, twemeranyije guhita dushyingirwa uwo munsi	1
+Narimpari, ndimo nshakisha inzira yuko byakemuka	Narasobanukiwe neza kuva muntangiriro	2
+Narimpari, ndimo nshakisha inzira yuko byakemuka	Narindi kugerajyeza kumenya aho amafaranga yagiye	1
+Narimpari, ndimo nshakisha inzira yuko byakemuka	Narindi kugerageza gusobanukirwa	0
+Nyogokuru yatubwiraga inkuru yuko mwenenyina , n'umugabo wamwenenyina uko biyemeje kwimukira mumugi, Augusta kandi banyuze ahitwa white. 	Mweneyina wa nyogokuru yareraga kandi yimukiye Texas	2
+Nyogokuru yatubwiraga inkuru yuko mwenenyina , n'umugabo wamwenenyina uko biyemeje kwimukira mumugi, Augusta kandi banyuze ahitwa white. 	Mweneyina wa nyogokuru ntabwo yeraga	0
+Nyogokuru yatubwiraga inkuru yuko mwenenyina , n'umugabo wamwenenyina uko biyemeje kwimukira mumugi, Augusta kandi banyuze ahitwa white. 	Mweneyina wa nyogokuru ntabwo yeraga ariko yashakaga kwera kujyirango ajye kwishuri	1
+Mubyukuri kubijyanye nimyitwarire yarameze nkumwana wumukungu wa mashyamba kuko yari umwana wumutunzi wibihigwa. 	Ise ntacyo yijyeze atunga mubuzimabwe	2
+Mubyukuri kubijyanye nimyitwarire yarameze nkumwana wumukungu wa mashyamba kuko yari umwana wumutunzi wibihigwa. 	Ise yarafite hegitari 2000 zubutaka bwoguhingwa	1
+Mubyukuri kubijyanye nimyitwarire yarameze nkumwana wumukungu wa mashyamba kuko yari umwana wumutunzi wibihigwa. 	Ise yarafite ubutunzi bwinshi	0
+Akazi kanjye karako gushiraho ibyuma by'ubwirinzi kuriyo, nikirinda ubuzima , iyo twabaga turigupakira  dushaka kwerekeza mumahanga	Ntabwo narimfite akazi, nabitse amakarito yose murugo 	2
+Akazi kanjye karako gushiraho ibyuma by'ubwirinzi kuriyo, nikirinda ubuzima , iyo twabaga turigupakira  dushaka kwerekeza mumahanga	Nohereje amakarito mubuyapani 	1
+Akazi kanjye karako gushiraho ibyuma by'ubwirinzi kuriyo, nikirinda ubuzima , iyo twabaga turigupakira  dushaka kwerekeza mumahanga	Narayohereje	0
+Aha niho nakenyereye	Nashishoje ko ipfundiko rifashe neza kujyirango nzingame ubuzima 	1
+Aha niho nakenyereye	Gutyo niko nezaneza nahambuwe 	2
+Aha niho nakenyereye	Gutyo niko nishumitse umukandara neza	0
+yari umusambanyi wibereyaho,uzi nikindi ntabwo namukundaga, ariko izi ntinkuru zanjye 	Yari umwizerwa kandi mwiza 	2
+yari umusambanyi wibereyaho,uzi nikindi ntabwo namukundaga, ariko izi ntinkuru zanjye 	Naramwaganga kuko yarafite agasuzuguro 	1
+yari umusambanyi wibereyaho,uzi nikindi ntabwo namukundaga, ariko izi ntinkuru zanjye 	ntabwo narimushigikiye 	0
+Ubwo nakururaga umutumba  ngo mukuremo, yanyeretse ibumoso ibikoresho bibiri by'indenge byaribyashonze mujyihe indege yajyendaga. 	ibikoresho byose byo mudenge byari bigifatanye	2
+Ubwo nakururaga umutumba  ngo mukuremo, yanyeretse ibumoso ibikoresho bibiri by'indenge byaribyashonze mujyihe indege yajyendaga. 	Byari bikomeye kumukuramo 	1
+Ubwo nakururaga umutumba  ngo mukuremo, yanyeretse ibumoso ibikoresho bibiri by'indenge byaribyashonze mujyihe indege yajyendaga. 	Hari hari  ibikoresho mundenge byashonze	0
+Kandi ntabwo yashoboye gusobanukirwa	Ntabwo yashoboye gusobanukirwa neza kubera ikibazo cyururimi	1
+Kandi ntabwo yashoboye gusobanukirwa	Ntabwo yasobanukiwe 	0
+Kandi ntabwo yashoboye gusobanukirwa	Yarazi neza ibyo twavugagaho	2
+birashoboka ko yaba yarabwiye abandi kubera narimpuze muri uwo mwanya 	Ntabwo namunvise arikubwira abandi 	0
+birashoboka ko yaba yarabwiye abandi kubera narimpuze muri uwo mwanya 	Numvise burikintu yavuze	2
+birashoboka ko yaba yarabwiye abandi kubera narimpuze muri uwo mwanya 	Narindi kuvugisha undi muntu muri uwo mwanya 	1
+Twatakaje ebyiri,izindi ndege eshatu kubiganye nikizamini 	Hari indege zatakaye kubera ikirere kibi 	1
+Twatakaje ebyiri,izindi ndege eshatu kubiganye nikizamini 	zimwe mundege zarabuze 	0
+Twatakaje ebyiri,izindi ndege eshatu kubiganye nikizamini 	Ntanarimwe twaritwabura indege	2
+Haricyo nshakako unkorera. 	Ntabufasha na gato nkeneye	2
+Haricyo nshakako unkorera. 	Harakazi gakomeye nifuzako gakorwa	1
+Haricyo nshakako unkorera. 	Haricyo nshakako gikorwa	0
+Wari umugezi winzoka,wuzuyemwo inzoka nyinshi	Utitaye kubyizina ,ntabwo umugezi winzoka ufite inzoka, bahitiriye uko haremye 	2
+Wari umugezi winzoka,wuzuyemwo inzoka nyinshi	Kumugezi winzoka huzuye utunyamasyo twinshi. 	1
+Wari umugezi winzoka,wuzuyemwo inzoka nyinshi	Mumugezi winzoka huzuye inzoka nyishi 	0
+ Mubyukuri ni leta ikora ntabwo arikintu ushobora kumenya ngo ugiremo uruhare rukomeye kandi sinkeka ko washobora gukora ibyiza rwose 	Ndakeka ko ugomba kwigomwa amasaha icumi  kumunsi kugirango ugire ubumenyi buhagije	1
+ Mubyukuri ni leta ikora ntabwo arikintu ushobora kumenya ngo ugiremo uruhare rukomeye kandi sinkeka ko washobora gukora ibyiza rwose 	Ndankeka ko ugomba kwitanga ,kujyirango urusheho kubikora neza	0
+ Mubyukuri ni leta ikora ntabwo arikintu ushobora kumenya ngo ugiremo uruhare rukomeye kandi sinkeka ko washobora gukora ibyiza rwose 	Ntakibazo nimba utabiha uburemere bigomba	2
+Ntekerezako ikizaba gishishikaje cyane aricyo tuzabikoraho kandi ko dukiwiriye guhindura abaduhagarariye 	Ndumva bitazaba bishimishije kandi ntagaciro bifite guhindura abaduhagarariye ntanubwo dukwiriye na gato kubigerageza 	2
+Ntekerezako ikizaba gishishikaje cyane aricyo tuzabikoraho kandi ko dukiwiriye guhindura abaduhagarariye 	Nkeka ko bizaba bigoye guhindura abaduhagarariye ariko bizaba ibyagaciro munyuma	1
+Ntekerezako ikizaba gishishikaje cyane aricyo tuzabikoraho kandi ko dukiwiriye guhindura abaduhagarariye 	Tugombwa/Dukwiriye guhindura abaduhagarariye 	0
+Kandi baba beza bashoboye gutozwa	Barakomera no gucisha makeya iyo barangije imyitozo	2
+Kandi baba beza bashoboye gutozwa	Bahinduka vuba iyo bari mumyitozo	1
+Kandi baba beza bashoboye gutozwa	Iyo barigutozwa baranenezeza no gushimisha	0
+bishobora gukomeza mumyaka icumi,makumyabiri irimbere,birasekeje	Biratangaje kubona urubanza rumwe rushobora gufata imyaka myinshi	1
+bishobora gukomeza mumyaka icumi,makumyabiri irimbere,birasekeje	Birababaje kubona byafata igihe kirekire 	0
+bishobora gukomeza mumyaka icumi,makumyabiri irimbere,birasekeje	Bifata icyumweru cyimwe	2
+Yego ushobora kuba warufite ibidafite code	Nukuri ibyo warufite byaribidafite code	0
+Yego ushobora kuba warufite ibidafite code	Iyo warufite nkekako yarifite code gusa	2
+Yego ushobora kuba warufite ibidafite code	ushobora kuba warufite ibitangombwa code	1
+uri kuvuga abarimu cyangwa ababyeyi	uri kuvuga abanyeshyuri cyangwa umukozi wumwarimu niwe wabikoze?	2
+uri kuvuga abarimu cyangwa ababyeyi	Hari ubwo ari abarimu cyangwa nababyeyi?	0
+uri kuvuga abarimu cyangwa ababyeyi	Nibiki wasobanura kubijyanye nababyeyi hamwe nabarimu?	1
+Nkeka ko byashoboka,ntabwo narinakemura ibijyanye nubwiyumvire bujyanye no gusuzuma imiti,ndumva meza neza ntakeneye gukoresha imiti	"Ntabwo nshigikiye ibyo gusuzuma imiti,ntacyo nshidikanya
+"	2
+Nkeka ko byashoboka,ntabwo narinakemura ibijyanye nubwiyumvire bujyanye no gusuzuma imiti,ndumva meza neza ntakeneye gukoresha imiti	nkekako namererwa neza bansuzumye kubiganye nibiyobyabwenge	1
+Nkeka ko byashoboka,ntabwo narinakemura ibijyanye nubwiyumvire bujyanye no gusuzuma imiti,ndumva meza neza ntakeneye gukoresha imiti	Ntekerezako ntarinafata akanya gahagije ngo ntekereze ibijyanye no gusuzumwa 	0
+Witayeko amakuru yigihugu agira ingaruka mugiturage cyuturere	ufite impungenge yuko uturere tugizwe ningaruka zamakuru yigihugu cyose	0
+Witayeko amakuru yigihugu agira ingaruka mugiturage cyuturere	Ntabwo bindeba kubiganye namakuru yigihugu uko azana ingaruka muturere	2
+Witayeko amakuru yigihugu agira ingaruka mugiturage cyuturere	Amakuru yigihugu atuma uturere twacu dusa nkaho tukirinyuma	1
+Ubusanzwe duhora twambaye igipo na mashati cyangwa kostime cyangwa ikanzu nibyo biboneka ariko nkunda gukorera murugo kubera nshobora kwambara ipantaro	iyo nakoreye murugo ntabwo nambara imyenda bikabije	0
+Ubusanzwe duhora twambaye igipo na mashati cyangwa kostime cyangwa ikanzu nibyo biboneka ariko nkunda gukorera murugo kubera nshobora kwambara ipantaro	iyo nkoreye murugo nambara imyenda yoroheje nkipantaro 	1
+Ubusanzwe duhora twambaye igipo na mashati cyangwa kostime cyangwa ikanzu nibyo biboneka ariko nkunda gukorera murugo kubera nshobora kwambara ipantaro	nkomeza kwambara ikanzu iyo ndigukorera murugo kubera bituma numva mberewe	2
+byukuri haribyiza bijyanye no kugira aho kuba sinzi	Kugira ahantu ho kuba niinzozi ziba zabaye impamo	1
+byukuri haribyiza bijyanye no kugira aho kuba sinzi	kugira aho kuba simbyitayeho	2
+byukuri haribyiza bijyanye no kugira aho kuba sinzi	Nibyiza kugira aho gutura	0
+byukuri ntakibazo byantera niyo baba bafite isosiyete iterwa inkunga	byarikoroha kumenya niba isosiyete iterwa inkunga	1
+byukuri ntakibazo byantera niyo baba bafite isosiyete iterwa inkunga	Byambabaza cyane kumenya niba barateye inkunga isosiyete	2
+byukuri ntakibazo byantera niyo baba bafite isosiyete iterwa inkunga	Ntabwo byambabaza niba isosiyete iterwa inkunga	0
+yego ni ibyacu hano dufite ihuzamuyoboro yo mucyaro ariko ni mabi rwose	"Ihuzamuyoboro rimwe na rimwe ni byiza.
+"	1
+yego ni ibyacu hano dufite ihuzamuyoboro yo mucyaro ariko ni mabi rwose	Ntabwo tubona ihuzamuyoboro neza hano	0
+yego ni ibyacu hano dufite ihuzamuyoboro yo mucyaro ariko ni mabi rwose	Hano tugira ihuzamuyoboro ryiza 	2
+Imwe mu nyungu tubona birumvikana nibijyanye nurungendo	Gutembera nibimwe mubyo nkunda	1
+Imwe mu nyungu tubona birumvikana nibijyanye nurungendo	"Gutembera ni perk imwe tubona
+"	0
+Imwe mu nyungu tubona birumvikana nibijyanye nurungendo	Nta nyungu tubona	2
+"nukuri nibibi rwose ""uh i"""	Numvise ko atari byiza	1
+"nukuri nibibi rwose ""uh i"""	Biteye ubwoba	0
+"nukuri nibibi rwose ""uh i"""	Ntabwo ari bibi	2
+"Izi nzego zo murwego rwohejuru rwibikoresho bya molekile bivuka kubera ko gutoranya bisanzwe gushobora gukora kumitungo rusange yibintu bya molekile iyo iyo mitungo rusange yongerewe imbaraga zo guhuza n'imihindagurikire y'ikirere.
+"	Ibikoresho byose bya molekile biba bgoranye	2
+"Izi nzego zo murwego rwohejuru rwibikoresho bya molekile bivuka kubera ko gutoranya bisanzwe gushobora gukora kumitungo rusange yibintu bya molekile iyo iyo mitungo rusange yongerewe imbaraga zo guhuza n'imihindagurikire y'ikirere.
+"	Ibikoresho byinshi bigoye bya molekuline birashobora kuvuka mubihe bimwe na bimwe	0
+"Izi nzego zo murwego rwohejuru rwibikoresho bya molekile bivuka kubera ko gutoranya bisanzwe gushobora gukora kumitungo rusange yibintu bya molekile iyo iyo mitungo rusange yongerewe imbaraga zo guhuza n'imihindagurikire y'ikirere.
+"	"Ibi bikoresho bya molekile bikoreshwa cyane mugukora uburozi butandukanye bukoreshwa mubyo kwirinda
+"	1
+Ariko sinizera ko igikoresho icyo aricyo cyose cya algorithmic gishobora kuba cyuzuye neza	Algorithm ntishobora guhitamo uburyo bwo gukora sandwich itunganijwe neza abantu batabajijwe	1
+Ariko sinizera ko igikoresho icyo aricyo cyose cya algorithmic gishobora kuba cyuzuye neza	Nta gikoresho gishobora gukemura iki kibazo burundu ari cyonyine	0
+Ariko sinizera ko igikoresho icyo aricyo cyose cya algorithmic gishobora kuba cyuzuye neza	Ibi bikoresho bikora neza mubihe byose	2
+Amategeko ntabwo acungura umuntu ku giti cye ahubwo ni umuryango cyangwa igihugu muri rusange	Kubijyanye no gucungurwa, abantu bagomba kwitabaza amategeko	2
+Amategeko ntabwo acungura umuntu ku giti cye ahubwo ni umuryango cyangwa igihugu muri rusange	Amategeko azacungura Amerika	1
+Amategeko ntabwo acungura umuntu ku giti cye ahubwo ni umuryango cyangwa igihugu muri rusange	Amategeko azakiza abaturage nigihugu	0
+Umwandiko w’itegeko nshinga wo mu 1787 wateganyaga uburenganzira bwa ba nyir'abacakara bwo kugarura abacakara bahungiye mu butaka bwisanzuye.	Mu 1787, hashyizweho itegeko ribuza abantu kwigarurira abacakara bose bageze mubutaka bwubuntu	2
+Umwandiko w’itegeko nshinga wo mu 1787 wateganyaga uburenganzira bwa ba nyir'abacakara bwo kugarura abacakara bahungiye mu butaka bwisanzuye.	Igice cy'inyandiko y'itegeko nshinga cyanditswe muri 1787	0
+Umwandiko w’itegeko nshinga wo mu 1787 wateganyaga uburenganzira bwa ba nyir'abacakara bwo kugarura abacakara bahungiye mu butaka bwisanzuye.	"Uburenganzira bwo kugarura imbata kubutaka bwubuntu ntabwo bwari uburenganzira bukunzwe
+nabenshi"	1
+Steve Harris, umuhanga mu binyabuzima bya molekuline ukomoka muri Texas yari yasuye	Steve Harris yanze kuva mu rugo rwe kubera impamvu iyo ari yo yose	2
+Steve Harris, umuhanga mu binyabuzima bya molekuline ukomoka muri Texas yari yasuye	Steve yari umuhanga mu binyabuzima ukomoka mu mujyi	0
+Steve Harris, umuhanga mu binyabuzima bya molekuline ukomoka muri Texas yari yasuye	Steve yasuye Californiya kwiga icyitegererezo gishya	1
+Kuba umunyamuryango byari bigizwe n'abagabo bakuze bari hagati ya mirongo itatu na mirongo itanu kuri buri gice (bitwa moradas) kandi bagabanijwemo abanyamuryango babiri basanzwe, bitwa abigishwa ba hermanos (abavandimwe bahana), n'abayobozi, yitwa hermanos de luz (abavandimwe b'umucyo)	Abayobozi barenga ijana bakoraga muri buri gice	2
+Kuba umunyamuryango byari bigizwe n'abagabo bakuze bari hagati ya mirongo itatu na mirongo itanu kuri buri gice (bitwa moradas) kandi bagabanijwemo abanyamuryango babiri basanzwe, bitwa abigishwa ba hermanos (abavandimwe bahana), n'abayobozi, yitwa hermanos de luz (abavandimwe b'umucyo)	Ibice byari bikubiyemo abanyamuryango n'abayobozi basanzwe	0
+Kuba umunyamuryango byari bigizwe n'abagabo bakuze bari hagati ya mirongo itatu na mirongo itanu kuri buri gice (bitwa moradas) kandi bagabanijwemo abanyamuryango babiri basanzwe, bitwa abigishwa ba hermanos (abavandimwe bahana), n'abayobozi, yitwa hermanos de luz (abavandimwe b'umucyo)	Ibi bice byari bishinzwe guhindura abaturage kavukire muri Amerika yo Hagati	1
+Kubana bafite imyaka 4 na 5, ibibazo bikunze gukemura ishyirahamwe rivuga inkuru (Bizagenda gute ubutaha?	Abana ntibakunze kwiga kuvuga kugeza bafite imyaka itandatu	2
+Kubana bafite imyaka 4 na 5, ibibazo bikunze gukemura ishyirahamwe rivuga inkuru (Bizagenda gute ubutaha?	Abana bafite imyaka itanu bahangayikishijwe nibizakurikiraho	0
+Kubana bafite imyaka 4 na 5, ibibazo bikunze gukemura ishyirahamwe rivuga inkuru (Bizagenda gute ubutaha?	Abana bafite imyaka itanu muri rusange bafatwa nkabazitavuga neza	1
+Ubushishozi, urujya n'uruza ruto mumwanya wa leta rwemerera gutondekanya, kuko mugihe leta ebyiri zihurira kumurongo umwe uzasimbura, ibyo bihugu byombi byashyizwe mubikorwa bihwanye numuyoboro wa rezo	Guhinduranya ibintu byemerera ibyiciro bitandukanye	0
+Ubushishozi, urujya n'uruza ruto mumwanya wa leta rwemerera gutondekanya, kuko mugihe leta ebyiri zihurira kumurongo umwe uzasimbura, ibyo bihugu byombi byashyizwe mubikorwa bihwanye numuyoboro wa rezo	Gutemba neza biterwa nabaturage.	1
+Ubushishozi, urujya n'uruza ruto mumwanya wa leta rwemerera gutondekanya, kuko mugihe leta ebyiri zihurira kumurongo umwe uzasimbura, ibyo bihugu byombi byashyizwe mubikorwa bihwanye numuyoboro wa rezo	Guhinduranya bikumira ibyiciro	2
+Kubwibyo, bakomeje kurema isi idahagaze aho amateka ya vuba gusa afite amakuru yemewe	Isi idahagaze ntabwo yifuzwa kuri bamwe niba igomba kubara amakuru kuva kera	0
+Kubwibyo, bakomeje kurema isi idahagaze aho amateka ya vuba gusa afite amakuru yemewe	Amakuru yose kuva buri gihe cyagenwe afite agaciro kwisi iyariyo yose.	2
+Kubwibyo, bakomeje kurema isi idahagaze aho amateka ya vuba gusa afite amakuru yemewe	Iyi isi y'ibitekerezo ikoreshwa muguhishurira imiterere yikirere.	1
+Kandi rero, leta ntabwo yari ishinzwe abo bantu ku giti cyabo bahakana uburenganzira bw’imibereho y’abirabura.	Bamwe mu bikorera ku giti cyabo bimye uburenganzira bw’imibereho kubirabura	0
+Kandi rero, leta ntabwo yari ishinzwe abo bantu ku giti cyabo bahakana uburenganzira bw’imibereho y’abirabura.	Abikorera bari abazungu	1
+Kandi rero, leta ntabwo yari ishinzwe abo bantu ku giti cyabo bahakana uburenganzira bw’imibereho y’abirabura.	Leta yari ishinzwe rwose imyitwarire yabantu ku giti cyabo	2
+Nta tandukaniro rihari hagati yabanyeshuri bato nabakuze mumanota y'ibizamini.	Mugihe ibisubizo byikizamini ari bimwe kubanyeshuri bigana arabatoya nabakuze , abanyeshuri batoya barangiza ikizamini vuba	1
+Nta tandukaniro rihari hagati yabanyeshuri bato nabakuze mumanota y'ibizamini.	Abanyeshuri bigana ari bato n'abakuru bagira ibisubizo bimwe mumanota y'ibizamini	0
+Nta tandukaniro rihari hagati yabanyeshuri bato nabakuze mumanota y'ibizamini.	Abanyeshuri bigana ari bato n'abakuru bagira ibisubizo bitandukanye byikizamini kuko imyaka ni ikintu	2
+Darwin itangirana nubuzima hano	Darwin yatangiye yibanda kubijyanye na mafi	1
+Darwin itangirana nubuzima hano	Darwin yatangiranye n'ubuzima bwari busanzweho	0
+Darwin itangirana nubuzima hano	Darwin yibanze gusa ku kwiga ibintu byapfuye	2
+Impamvu zikunze kugaragara mugihe cyo kubyara no mumyaka yintangiriro yishuri ni itangazamakuru rya otitis, cyangwa kwandura mugutwi hagati.	Kwandura mugutwi rwagati nimpamvu ikunze gutera abana bakiri bato	0
+Impamvu zikunze kugaragara mugihe cyo kubyara no mumyaka yintangiriro yishuri ni itangazamakuru rya otitis, cyangwa kwandura mugutwi hagati.	Itangazamakuru rya Otitis ni gake cyane mugihe cyumwana utaratangira kujya ku ishuri	2
+Impamvu zikunze kugaragara mugihe cyo kubyara no mumyaka yintangiriro yishuri ni itangazamakuru rya otitis, cyangwa kwandura mugutwi hagati.	Umubare munini wabana bato bazandura indwara yomugutwi hagati	1
+Iyo societe civile itumvise neza, ibitekerezo bitagira akamaro bitakaza umurongo	Ibitekerezo bitagira akamaro ntabwo byoroshye iyo birengagijwe na societe civile	0
+Iyo societe civile itumvise neza, ibitekerezo bitagira akamaro bitakaza umurongo	Ibitekerezo bitagira akamaro bigenda byamamara muri societe civile iyo byirengagijwe na societe civile	2
+Iyo societe civile itumvise neza, ibitekerezo bitagira akamaro bitakaza umurongo	Ibitekerezo byinshi bitagira akamaro birengagizwa na societe civile	1
+Mubyukuri, igice cyibyo dukeneye nuburyo bwo kuranga imitunganyirize yimikorere nyayo mwisi idafite uburinganire.	Dukeneye ibirango kugirango tubone aho ishyirahamwe rikora neza	1
+Mubyukuri, igice cyibyo dukeneye nuburyo bwo kuranga imitunganyirize yimikorere nyayo mwisi idafite uburinganire.	Tugomba kuranga ishyirahamwe	0
+Mubyukuri, igice cyibyo dukeneye nuburyo bwo kuranga imitunganyirize yimikorere nyayo mwisi idafite uburinganire.	Ntabwo dukwiriye gushyira akamenyetso ku kintu na kimwe	2
+Yarajuriye kuri Lord Julian	Yashakaga kubaza Lord Julian ikintu	0
+Yarajuriye kuri Lord Julian	Yashakaga kubaza Lord Julian kurokora umugore we	1
+Yarajuriye kuri Lord Julian	Lord Julian ntaho yarari kugaragara	2
+Jeremy Pitt yashubije aseka arino kurahira	Jeremy Pitt yashubije ibitwenge aseka kandi atera hejuru mu maso yu wasekaga	2
+Jeremy Pitt yashubije aseka arino kurahira	Jeremy Pitt yarahiye kurwanira igihugu cye n'umwamikazi we	1
+Jeremy Pitt yashubije aseka arino kurahira	Hari umuntu wasetse hafi ya Jeremy Pitt	0
+Pitt waruri kureba ibibera muri gari ya moshi ya kimwe cya kane, atubwira ko nyakubahwa we yari akomeye nka umuntu umanitse.	Pitt ntabwo yari yigera abona nyakubahwa we arakaye nkuko yari ameze icyo gihe	1
+Pitt waruri kureba ibibera muri gari ya moshi ya kimwe cya kane, atubwira ko nyakubahwa we yari akomeye nka umuntu umanitse.	Pitt yararahiye ko atashoboye kubona aho byabereye	2
+Pitt waruri kureba ibibera muri gari ya moshi ya kimwe cya kane, atubwira ko nyakubahwa we yari akomeye nka umuntu umanitse.	Pitt yashoboye kubona uburyo nyakubahwa yarafite igitsure mugihe byabaye.	0
+Koloneli yarabyemeye, arunama, akuramo ingofero ye	Koloneli yemeye kwakira umudari w'umuyobozi w'umujyi wa New York.	1
+Koloneli yarabyemeye, arunama, akuramo ingofero ye	Koloneli yanze ibyo yahawe kandi akomeza kwambara ingofero ye ari kimenyetso cyo gusuzugura.	2
+Koloneli yarabyemeye, arunama, akuramo ingofero ye	Koloneli yariyambaye ingofero	0
+Ntanisoni ufite yo kundwanya kuko ntabwo nagufata mumaboko mugihe nzi uko yanduye, icyo nkuziho nubwicanyi nibindi bibi?   Yamwitegereje kumunwa we	Yizeraga ko icyaha cyakozwe cyashoboraga kuba jenoside	1
+Ntanisoni ufite yo kundwanya kuko ntabwo nagufata mumaboko mugihe nzi uko yanduye, icyo nkuziho nubwicanyi nibindi bibi?   Yamwitegereje kumunwa we	Yahisemo kudafata amaboko ye kuko yakoze icyaha.	0
+Ntanisoni ufite yo kundwanya kuko ntabwo nagufata mumaboko mugihe nzi uko yanduye, icyo nkuziho nubwicanyi nibindi bibi?   Yamwitegereje kumunwa we	Yahisemo kumufata amabokoye kuko yari mato, yoroshye, kandi cyane cyane, afite isuku.	2
+Yemerewe mu buryo bweruye kubona ko ari umusore mwiza, mwiza cyane ukomoka kuri St. James's, Lord Julian Wade, uwo buri mwanya we yamwitangiye	Lord Julian akomoka St, James	0
+Yemerewe mu buryo bweruye kubona ko ari umusore mwiza, mwiza cyane ukomoka kuri St. James's, Lord Julian Wade, uwo buri mwanya we yamwitangiye	We na Lord Julian Wade baraye basomanye nijoro	1
+Yemerewe mu buryo bweruye kubona ko ari umusore mwiza, mwiza cyane ukomoka kuri St. James's, Lord Julian Wade, uwo buri mwanya we yamwitangiye	Akunda Lord Julian Wade, nubwo afite imiterere idahwitse/itarimyiza	2
+Ariko..ariko..muri ubu bwato...? Umuyobozi yakoze ikimenyetso cyo kutagira ubushobozi, maze yiyegurira urujijo, araceceka mu buryo butunguranye	Ibiro byavugije induru iminota mike, birakajwe n'ubwiyandarike ku magorofa ye	2
+Ariko..ariko..muri ubu bwato...? Umuyobozi yakoze ikimenyetso cyo kutagira ubushobozi, maze yiyegurira urujijo, araceceka mu buryo butunguranye	Umuyobozii yari mu rujijo kubijyanye n'ibibera mu bwato	0
+Ariko..ariko..muri ubu bwato...? Umuyobozi yakoze ikimenyetso cyo kutagira ubushobozi, maze yiyegurira urujijo, araceceka mu buryo butunguranye	 Umupolisi yatunguwe no kuruka ku gikuta	1
+Uri Lord Julian Wade, ndumva, yari indamutso yuzuye	Lord Julian Wade yatanze indamutso ishyushye kandi yo kwakira 	2
+Uri Lord Julian Wade, ndumva, yari indamutso yuzuye	Lord Julian Wade yakiriye abandi muburyo bwukuri.	0
+Uri Lord Julian Wade, ndumva, yari indamutso yuzuye	Nubwo benshi bagerageje kumwegera, Lord Wade yakundaga kumera nkutishimye kandi nta marangamutima	1
+Mary Traill yarikukubwira ibyayo	Mary Traill ashobora kukubwira ibyerekeranye nindogobe	1
+Mary Traill yarikukubwira ibyayo	Mary Traill arabizi	0
+Mary Traill yarikukubwira ibyayo	Gusa ninjye ubizi	2
+Hano hari igiti gitegereje iyi rascal muri Port Royal.   Blood yaba yarabigizemo uruhare, ariko Lord Julian yaramuhagaritse.	Blood ni umuryango mpuzamahanga w’abagizi ba nabi ufite icyicaro i Port Royal, Lord Julian agirana amasezerano mumpamvu zitemewe.	2
+Hano hari igiti gitegereje iyi rascal muri Port Royal.   Blood yaba yarabigizemo uruhare, ariko Lord Julian yaramuhagaritse.	Indangantego ya Lord Julian irimo Port Royal, umujyi wubucuruzi ni ihuriro ryibikorwa muri kariya karere.	1
+Hano hari igiti gitegereje iyi rascal muri Port Royal.   Blood yaba yarabigizemo uruhare, ariko Lord Julian yaramuhagaritse.	Port Royal ifite ibikoresho bihagije byo guhana abagizi ba nabi	0
+Ntabwo azaba Musenyeri ubwe, yaravuze Wolverstone, hagati yukwibaza no kwemeza	Wolverstone yari yabajije ikibazo cyerekana nuko ashimangira abandi	0
+Ntabwo azaba Musenyeri ubwe, yaravuze Wolverstone, hagati yukwibaza no kwemeza	Wolverstone yari yavuze ko Umwepiskopi ari umwe wari mwiza cyane	1
+Ntabwo azaba Musenyeri ubwe, yaravuze Wolverstone, hagati yukwibaza no kwemeza	Wolverstone ntacyo yavuze kubijyanye na musenyeri	2
+Uzahagarika ibijyanye nibyo kwigomeka no kugambanira inkiko-yabatabara?   Blood yambara ingofero, yicara hasi atabujijwe	Blood yari afite ingofero yambaraga mbere yo kwicara	0
+Uzahagarika ibijyanye nibyo kwigomeka no kugambanira inkiko-yabatabara?   Blood yambara ingofero, yicara hasi atabujijwe	Blood yambaye ingofero, ava mucyumba ntacyo arikuvuga	2
+Uzahagarika ibijyanye nibyo kwigomeka no kugambanira inkiko-yabatabara?   Blood yambara ingofero, yicara hasi atabujijwe	Ingofero ya blood yari umukara, ifite amababa atatu yinkona	1
+Ibintu ntabwo byihutaga na gato mu byumweru bibiri bishize kuva yemera inshingano z'umwami.	Yaryamye neza nijoro azi ko yanze inshingano z'umwami	2
+Ibintu ntabwo byihutaga na gato mu byumweru bibiri bishize kuva yemera inshingano z'umwami.	Kwemera kuharara ijoro ni uko yemeye inshingano z'umwami	0
+Ibintu ntabwo byihutaga na gato mu byumweru bibiri bishize kuva yemera inshingano z'umwami.	Komisiyo y'umwami yari izina rikomeye cyane rifite inshingano nyinshi	1
+Bari mururworwego, Ogle ararira	Ogle yavuze ko bashobora kuboneka	0
+Bari mururworwego, Ogle ararira	Ogle yavuze ko bari hafi byumvikana	1
+Bari mururworwego, Ogle ararira	Nubwo yari azi ko bari murwego rwemewe, Ogle yarabigumanye,yarabihishe	2
+Nagutumyeho, Kapiteni Blood, kubera amakuru amaze kungeraho	Nta makuru nigeze numva, Kapiteni Blood. Wowe haricyo wumvise?	2
+Nagutumyeho, Kapiteni Blood, kubera amakuru amaze kungeraho	Hari amakuru nakiriye mbere yo kugutumaho, Kapiteni Blood	0
+Nagutumyeho, Kapiteni Blood, kubera amakuru amaze kungeraho	Amakuru nakiriye yarantunguye 	1
+Nyuma yo kureba hirya no hino muri ibyo byegeranyo, uzamuke umusozi ujya kwa Komiseri, aho uzasangamo ibintu byiza byerekeranye n’inyanja ikikije hamwe n’ibindi bigo bya Dockyard 	Urashobora kubona ubwato hejuru yumusozi	1
+Nyuma yo kureba hirya no hino muri ibyo byegeranyo, uzamuke umusozi ujya kwa Komiseri, aho uzasangamo ibintu byiza byerekeranye n’inyanja ikikije hamwe n’ibindi bigo bya Dockyard 	Urashobora kubona ibyerekezo byinyanja urihejuru yumusozi	0
+Nyuma yo kureba hirya no hino muri ibyo byegeranyo, uzamuke umusozi ujya kwa Komiseri, aho uzasangamo ibintu byiza byerekeranye n’inyanja ikikije hamwe n’ibindi bigo bya Dockyard 	Ntushobora kubona inkombe urihejuru yumusozi	2
+Inyuma yakarere ka Amerika yepfo uzasangamo Uruganda rwa parufe, aho ushobora gukora impumuro yawe bwite	Uruganda rwa parufe rwatangiye gukora kuva 1954	1
+Inyuma yakarere ka Amerika yepfo uzasangamo Uruganda rwa parufe, aho ushobora gukora impumuro yawe bwite	Uruganda rwa parufe ruri inyuma yakarere ka Afrika yepfo	0
+Inyuma yakarere ka Amerika yepfo uzasangamo Uruganda rwa parufe, aho ushobora gukora impumuro yawe bwite	Uruganda rwa parufe ruri imbere yakarere ka Afrika yepfo	2
+Ibyiringiro byarazamutse, kandi biranyeganyega, hejuru ya citrusi ya Bahamoni n'inanasi	Nubwo inanasi zaraziryoshye cyane amafaranga yo kohereza yari menshi cyane kuburyo bigoye kuzizana ku isoko	1
+Ibyiringiro byarazamutse, kandi biranyeganyega, hejuru ya citrusi ya Bahamoni n'inanasi	Kubijyanye na Citrus yo muri Bahamoni byagenze neza cyane, nkuko abantu bose baribabihanuye	2
+Ibyiringiro byarazamutse, kandi biranyeganyega, hejuru ya citrusi ya Bahamoni n'inanasi	Citrus yo muri Bahamoni ntabwo yari ikomeye nkuko abantu bose babitekerezaga	0
+Ijwi, nko muri kilometero 2 z'umurambararo, batekereza ko ari Caldera nini yabayeho nyuma yo guturika gukomeye kwikirunga	Ijwi rya kilometero 2 ryashoboraga guterwa nibintu byinshi, harimo no guturika kwikirunga	1
+Ijwi, nko muri kilometero 2 z'umurambararo, batekereza ko ari Caldera nini yabayeho nyuma yo guturika gukomeye kwikirunga	Ijwi rya kilometero 2 rwose ntabwo ryatewe no guturika kwikirunga	2
+Ijwi, nko muri kilometero 2 z'umurambararo, batekereza ko ari Caldera nini yabayeho nyuma yo guturika gukomeye kwikirunga	Ijwi rya kilometero 2 birashoboka ko ryatewe no guturika kwikirunga	0
+Ngaho ibibera ntibyorohewe kandi ikibazo cyururimi gishobora kugutera ubwoba, ariko byibuze uzashobora kubona incamake yumuryango w’abaguzi b’abashinwa	Nibyiza kugira umusemuzi hafi yawe	1
+Ngaho ibibera ntibyorohewe kandi ikibazo cyururimi gishobora kugutera ubwoba, ariko byibuze uzashobora kubona incamake yumuryango w’abaguzi b’abashinwa	Hariho icyibazo cyururimi gishobora kugutera ubwoba	0
+Ngaho ibibera ntibyorohewe kandi ikibazo cyururimi gishobora kugutera ubwoba, ariko byibuze uzashobora kubona incamake yumuryango w’abaguzi b’abashinwa	Ntugomba guhangayikishwa nibibazo byururimi bihari, kubera ko buriwese avuga icyongereza	2
+Hagati ya 1936 na 1940 Ubugereki bwari ku butegetsi bw'igitugu bwa gisirikare bwa Ioannis Metaxas, bwibukwa kubera echi yumvikana (oya ) yatanze asubiza ultimatum ya Mussolini yokwiyegurira mu 1940.	Ubugereki ntabwo bwaribwategekwa n'umunyagitugu wa gisirikare	2
+Hagati ya 1936 na 1940 Ubugereki bwari ku butegetsi bw'igitugu bwa gisirikare bwa Ioannis Metaxas, bwibukwa kubera echi yumvikana (oya ) yatanze asubiza ultimatum ya Mussolini yokwiyegurira mu 1940.	Ubugereki ni kimwe mu bihugu byo ku isi byagize umunyagitugu	0
+Hagati ya 1936 na 1940 Ubugereki bwari ku butegetsi bw'igitugu bwa gisirikare bwa Ioannis Metaxas, bwibukwa kubera echi yumvikana (oya ) yatanze asubiza ultimatum ya Mussolini yokwiyegurira mu 1940.	Ubukungu bw'Ubugereki ntabwo bwaribumeze neza kubutegetsi bwigitugu bwa gisirikare bwa Metaxas	1
+Ubworoherane bwimirongo ya Romanesque ya Sant Pau nimpinduka zemewe ziva mubikabije bya modernisme ya Barcelona hamwe nubuhanga bwububiko bwa Gothique	Sant Pau ntabwo afite imirongo ya Romanesque.	2
+Ubworoherane bwimirongo ya Romanesque ya Sant Pau nimpinduka zemewe ziva mubikabije bya modernisme ya Barcelona hamwe nubuhanga bwububiko bwa Gothique	Sant Pau ifite imirongo ya Romanesque	0
+Ubworoherane bwimirongo ya Romanesque ya Sant Pau nimpinduka zemewe ziva mubikabije bya modernisme ya Barcelona hamwe nubuhanga bwububiko bwa Gothique	Sant Pau igira kiriziya/amatorero	1
+Gukubita umurizo cyangwa fluke, kandi byarashize	Biroroshye guterwa ubwoba ningendo zose zitunguranye.	1
+Gukubita umurizo cyangwa fluke, kandi byarashize	Nta bwoba, kandi ntacyo kubikuraho	2
+Gukubita umurizo cyangwa fluke, kandi byarashize	Murugendo ruto kandi niko,bigenda	0
+Gahunda nini ijyanye no kuvugurura igomba kurangira mu mpera za 2001	Gahunda yo kuvugurura izarangira mbere yuko umwaka wa 2001 utangira	2
+Gahunda nini ijyanye no kuvugurura igomba kurangira mu mpera za 2001	Gahunda yo kuvugurura ntabwo izakorwa neza mbere yuko umwaka wa 2000 urangira	0
+Gahunda nini ijyanye no kuvugurura igomba kurangira mu mpera za 2001	Gahunda yo kuvugurura nirangira, izaba imaze imyaka itanu	1
+Abakozi barimo gukora gahunda yo kongera umubare wa flamingos mu birwa bya Virginie ya Amerika, kandi uzasangamo umukumbi muto hano wororoka neza buri mwaka	Abakozi bakora kugirango barandure flamingos	2
+Abakozi barimo gukora gahunda yo kongera umubare wa flamingos mu birwa bya Virginie ya Amerika, kandi uzasangamo umukumbi muto hano wororoka neza buri mwaka	Abakozi bakora kugirango bongere umubare wa flamingos kuruzinga kugirango bashobore gukinga ko zizimangana	1
+Abakozi barimo gukora gahunda yo kongera umubare wa flamingos mu birwa bya Virginie ya Amerika, kandi uzasangamo umukumbi muto hano wororoka neza buri mwaka	Abakozi bakora kugirango bongere umubare wa flamingos kuruzinga	0
+Imisozi ihanamye ya Serra de Tramuntana ikora kunyanja cyane ku buryo hano hari ahantu hake ho kugera kandi icyambu kimwe n'icyambu kimwe gusa gifite ubunini ku nkombe	Imisozi ihora ifite inkangu kubera ibyambu ntabwo byoroshye kuhubaka	1
+Imisozi ihanamye ya Serra de Tramuntana ikora kunyanja cyane ku buryo hano hari ahantu hake ho kugera kandi icyambu kimwe n'icyambu kimwe gusa gifite ubunini ku nkombe	Imisozi ituma kuhubaka ibyambu bigorana	0
+Imisozi ihanamye ya Serra de Tramuntana ikora kunyanja cyane ku buryo hano hari ahantu hake ho kugera kandi icyambu kimwe n'icyambu kimwe gusa gifite ubunini ku nkombe	Hari ibyambu 27 ku misozi	2
+Culebra yari azwi ku kirwa cya Virginie ya Esipanye kugeza igihe Abanyamerika bagifashe kiri hagati ya Porto Rico na St. Thoms mu birwa bya Virginie yo muri Amerika	Culebra iri hagati ya Porto Rico na St. Thomas mu birwa bya Virginie yo muri Amerika	0
+Culebra yari azwi ku kirwa cya Virginie ya Esipanye kugeza igihe Abanyamerika bagifashe kiri hagati ya Porto Rico na St. Thoms mu birwa bya Virginie yo muri Amerika	Culebra ntahantu yegereye Porto Rico na St. Thomas mu birwa bya Virginie yo muri Amerika	2
+Culebra yari azwi ku kirwa cya Virginie ya Esipanye kugeza igihe Abanyamerika bagifashe kiri hagati ya Porto Rico na St. Thoms mu birwa bya Virginie yo muri Amerika	Culebra iri ahantu hagati ya Porto Rico na St. Tomasi mu birwa bya Virginie yo muri Amerika	1
+Umeda iranga amajyaruguru yakarere kubucuruzi nimyidagaduro izwi cyane ku izina rya Kita (bisobanura Amajyaruguru), kandi ni yo ngingo nyamukuru y’imyidagaduro ya Osaka igezweho	Umeda ntabwo iri mukarere kiimyidagaduro	2
+Umeda iranga amajyaruguru yakarere kubucuruzi nimyidagaduro izwi cyane ku izina rya Kita (bisobanura Amajyaruguru), kandi ni yo ngingo nyamukuru y’imyidagaduro ya Osaka igezweho	Umeda nigice cyimwe kinini cyakarere kimyidagaduro	1
+Umeda iranga amajyaruguru yakarere kubucuruzi nimyidagaduro izwi cyane ku izina rya Kita (bisobanura Amajyaruguru), kandi ni yo ngingo nyamukuru y’imyidagaduro ya Osaka igezweho	Umeda iri amajyaruguru yakarere ka myidagaduro	0
+Umunyamuryango wa gatatu w’ubutatu bw’Abahindu ni Brahma, ushinzwe umurimo wo kurema isi	Brahma ni intumwa ya gikristo	2
+Umunyamuryango wa gatatu w’ubutatu bw’Abahindu ni Brahma, ushinzwe umurimo wo kurema isi	Brahma ni igice cyubutatu bwa Abahindu	0
+Umunyamuryango wa gatatu w’ubutatu bw’Abahindu ni Brahma, ushinzwe umurimo wo kurema isi	Brahma nigice cyingenzi cyane cyubutatu	1
+Pedro yafashe ingoma, nubwo intambara yintwaro yakomeje mumezi menshi n'uburakari burengeje nyuma yibyo	Abantu 10000 bapfiriye mu ntambara	1
+Pedro yafashe ingoma, nubwo intambara yintwaro yakomeje mumezi menshi n'uburakari burengeje nyuma yibyo	Intambara yari iyamezi arenga	0
+Pedro yafashe ingoma, nubwo intambara yintwaro yakomeje mumezi menshi n'uburakari burengeje nyuma yibyo	Intambara yarangiye mumunsi umwe gusa	2
+Sisitemu zabakozi zarahurijwe hamwe kandi inzego nshyashya zamasosiyete zarateranyije vuba kugirango zikomeze gushyigikira no gushyigikirwa nabakiriya benshi	Muguhuriza hamwe sisitemu ijyanye nimikorere ya bantu , umwanya warabonetse wimiterere mishya muri sosiyete	1
+Sisitemu zabakozi zarahurijwe hamwe kandi inzego nshyashya zamasosiyete zarateranyije vuba kugirango zikomeze gushyigikira no gushyigikirwa nabakiriya benshi	Imiterere ya sosiyete yarakozwe	0
+Sisitemu zabakozi zarahurijwe hamwe kandi inzego nshyashya zamasosiyete zarateranyije vuba kugirango zikomeze gushyigikira no gushyigikirwa nabakiriya benshi	Sisitemu zi jyanye nibyabakoze, zaravuguruwe kurusha mbere 	2
+Uburyo bwinkunga bwakwiyongera, kandi inkunga arahari yaka kazi	Ibikoresho birahari byiki gikorwa	0
+Uburyo bwinkunga bwakwiyongera, kandi inkunga arahari yaka kazi	Nta nkuga ihari yaka kazi	2
+Uburyo bwinkunga bwakwiyongera, kandi inkunga arahari yaka kazi	Ntakunga ihari ihagije yaka kazi	1
+Imibare yimihanda yigiturange batanze kuri uru rupapuro,  nibyo muri 1989 urwego rushizwe kubyibarura	Imibare kuri uru urpapuro yibanze kuri rapolo ya 2001	2
+Imibare yimihanda yigiturange batanze kuri uru rupapuro,  nibyo muri 1989 urwego rushizwe kubyibarura	Imibare kuri uru rurupapuro yataye igihe 	1
+Imibare yimihanda yigiturange batanze kuri uru rupapuro,  nibyo muri 1989 urwego rushizwe kubyibarura	Uru rupapuro rukubiyemo amakuru y'inzira zi cyaro	0
+ubuyobozi bwakagombye nabwo kubona amanota yibanze cyagwa yibikorwa bitakozwe	Burigikorwa ubuyoboze bujyereranyijweho, gitanga amanota atandukanye	0
+ubuyobozi bwakagombye nabwo kubona amanota yibanze cyagwa yibikorwa bitakozwe	Ubuyobozi ntibwa tsindwa	2
+ubuyobozi bwakagombye nabwo kubona amanota yibanze cyagwa yibikorwa bitakozwe	Ubuyobizi bugomba guhabwa amanota meza kugirango bushobore gukomeza 	1
+Ingingo yaganiriweho mugihe kimyitozo niyerekeye uko urugo rwabyitwayemo ku barurwa yo kwamamaza	kutemeranwa n'imyitozo yambere ntabwo biguhesha akazi	1
+Ingingo yaganiriweho mugihe kimyitozo niyerekeye uko urugo rwabyitwayemo ku barurwa yo kwamamaza	imyitozo yibanze ntacyo ibivugaho kubyerekeye ibaruwa yo kwamamaza	2
+Ingingo yaganiriweho mugihe kimyitozo niyerekeye uko urugo rwabyitwayemo ku barurwa yo kwamamaza	Imyitozo yibanze ikubiyemo bicye byukuntu abantu bitwaye kubarwa ryiyamamaza.	0
+189  nibicyiro byuwabikoresheje birajyereranwa muburyo bumwe	Barajyereranije kubicyiro byuwakoresheje	0
+189  nibicyiro byuwabikoresheje birajyereranwa muburyo bumwe	Barajyereranije kubicyiro byuwakoresheje byari $10000	1
+189  nibicyiro byuwabikoresheje birajyereranwa muburyo bumwe	baribazi neza ibiciro byuwakoresheje 	2
+urungero muri GGD igishushanyo mbonera cyarakozwe nka kandi kazi kuruhandi kinyongera. 	igishushanyo mbonera ntikigezekibaho 	2
+urungero muri GGD igishushanyo mbonera cyarakozwe nka kandi kazi kuruhandi kinyongera. 	igishushanyo mbonera  cyara kozwe kuruhande	0
+urungero muri GGD igishushanyo mbonera cyarakozwe nka kandi kazi kuruhandi kinyongera. 	ibyigishushanyo mbonera ntabwo byacyiyemo	1
+Ajanse icenda zose  ziviga ko raporo zitabiriye.  	Ni ebyiri gusa muri ajanse icenda zihutiye gusubiza kucyibazo cyacu kerekeye ubwitabire	2
+Ajanse icenda zose  ziviga ko raporo zitabiriye.  	Hari ajanse icenda  zashubije zemezako zitabiriye 	0
+Ajanse icenda zose  ziviga ko raporo zitabiriye.  	Izo ajense icenda zishimye ko zagize ubwitabire buhimbaje 	1
+Kuva 1996 ubutunzi bwurugo byariyongereye cyane bejyeze kuri 6.4 muri 1999	ubutunzi bwurugo byose byinjije &10000 mumwaka ushize	1
+Kuva 1996 ubutunzi bwurugo byariyongereye cyane bejyeze kuri 6.4 muri 1999	ubutunzi bwurugo buriguta ubukungu.	2
+Kuva 1996 ubutunzi bwurugo byariyongereye cyane bejyeze kuri 6.4 muri 1999	Ubutunzi bwurugo burinjiza ubukungu bwintanga rujyero	0
+Muburyo buciriritse, ibyingenzi nicyiciro cyakazi buri wese ahabwa ijanisha hejuru yikiguzi, kugirango abone igipimo cyabyo.	Icyiciro cyibanze kirenze ikiguzi	0
+Muburyo buciriritse, ibyingenzi nicyiciro cyakazi buri wese ahabwa ijanisha hejuru yikiguzi, kugirango abone igipimo cyabyo.	Igiciro kirenze 10% kuruta ikiguzi.	1
+Muburyo buciriritse, ibyingenzi nicyiciro cyakazi buri wese ahabwa ijanisha hejuru yikiguzi, kugirango abone igipimo cyabyo.	Igiciro buri gihe kiri munsi yikiguzi.	2
+19 Dufashe amezi ane yakazi mbere yigihembo cyamasezerano, igihe cyashize cyamezi 13 cyaba gikenewe kugirango dusubiremo iyi  675 MWe.	Byatwaye amezi abiri gusa kugirango tuyasubiremo.	2
+19 Dufashe amezi ane yakazi mbere yigihembo cyamasezerano, igihe cyashize cyamezi 13 cyaba gikenewe kugirango dusubiremo iyi  675 MWe.	Byanfashe amezi 13 , guhindura ubushyuhe bwo  mumazi .	1
+19 Dufashe amezi ane yakazi mbere yigihembo cyamasezerano, igihe cyashize cyamezi 13 cyaba gikenewe kugirango dusubiremo iyi  675 MWe.	Byanfashe amezi 13 yose kuhindura ubushyuhe. 	0
+ibura ryabakozi bafite ubumenyi ba IT, mwisoko ryubungubu nibidukikije, nimpanvu nini ituma amashyira hamwe  ashaka abakozi  muyandi masosiete. 	Hari abakozi bikorana buhanga  benshi. 	2
+ibura ryabakozi bafite ubumenyi ba IT, mwisoko ryubungubu nibidukikije, nimpanvu nini ituma amashyira hamwe  ashaka abakozi  muyandi masosiete. 	Ntabwo hahari abakozi bikorana buhanga bahagije kuko abandi bagiye mubuhinde. 	1
+ibura ryabakozi bafite ubumenyi ba IT, mwisoko ryubungubu nibidukikije, nimpanvu nini ituma amashyira hamwe  ashaka abakozi  muyandi masosiete. 	Ntabakozi bikorana buhanga bahagije bokujya mumyanya y'akazi. 	0
+Ntibyoroshye kumenya urugero cyangwa ikerekezo cyokubogama  mumihindukire yose ishingiye kubikorwa rusange ya kimwe muri  C-R ikorera ahantu hose.	Biragaragara urujyero rwo kubogama ruhari.	2
+Ntibyoroshye kumenya urugero cyangwa ikerekezo cyokubogama  mumihindukire yose ishingiye kubikorwa rusange ya kimwe muri  C-R ikorera ahantu hose.	Ntushobora kumenya urujyero rwo kubogama ruhari kuko birakomeye kurutandukanya nizindi ngufu zo hanze. 	1
+Ntibyoroshye kumenya urugero cyangwa ikerekezo cyokubogama  mumihindukire yose ishingiye kubikorwa rusange ya kimwe muri  C-R ikorera ahantu hose.	Ntushobora kumenya urujyero rwokubogama ruhari.	0
+Ingaruka zibicyiro kubera akazi karigukorwa numushinga kujyiciro cyohejuru nabyo birabarwa muburyo bumwe nka mbere . 	Ingaruka zibiciro zirabarwa kimwe.	0
+Ingaruka zibicyiro kubera akazi karigukorwa numushinga kujyiciro cyohejuru nabyo birabarwa muburyo bumwe nka mbere . 	Ntabwo baribamenya uburyo bwo kubara, ingaruka zibiciro. 	2
+Ingaruka zibicyiro kubera akazi karigukorwa numushinga kujyiciro cyohejuru nabyo birabarwa muburyo bumwe nka mbere . 	Bakoresha amakuru yahambere mukubara ingaruka zibiciro	1
+umwitozo wa 4: gucunga insanganya kuburyo buhoraho. 	Igice ya kane, gikubiyemo imyitozo yo kwirinda insanganya. 	0
+umwitozo wa 4: gucunga insanganya kuburyo buhoraho. 	Igitabo ntabwo gifite amahugurwa arabye yo kwirinda insanganya. 	2
+umwitozo wa 4: gucunga insanganya kuburyo buhoraho. 	Uyu mwitozo ugomba kuragizwa kandi ugatagizwa mumprea zucyumweru 	1
+Umuryango wakisilamu wa vutse mu mwaka wi 1940, numusaruro wisi yubungubu, uhabwa imbaraga na  Marxist-leninist ugamije kwihinduramatwara mumuryango. 	 Imyunvire ya Marxist-leninist yongejwe muri mwishyirahamwe rya kisilamu	0
+Umuryango wakisilamu wa vutse mu mwaka wi 1940, numusaruro wisi yubungubu, uhabwa imbaraga na  Marxist-leninist ugamije kwihinduramatwara mumuryango. 	umutwe wa k'isilamu watangiye mukinyejana cya gatandatu	2
+Umuryango wakisilamu wa vutse mu mwaka wi 1940, numusaruro wisi yubungubu, uhabwa imbaraga na  Marxist-leninist ugamije kwihinduramatwara mumuryango. 	uyu muryango wa k'isilamu , inkomoko yawo wari nkumuryango wubukangurambaga	1
+Abandi bajyanama nabo bakomojeho kuri iki kibazo	Abajyanama bose bemeje ko ntakintu nakimwe cyoguhangayika	2
+Abandi bajyanama nabo bakomojeho kuri iki kibazo	Umujyanama umwe gusa ntiyerekanye ibimenyetso ko  ahangayikishijwe niyi gahunda.	1
+Abandi bajyanama nabo bakomojeho kuri iki kibazo	Iyi mpungege isangiwe nabajyanama batandukanye. 	0
+Sisitemu ntabwo yahisemo abajyenzi yikurikiranyije kujyirango bashobore kubona umutekano uhamye. 	Abajyenzi bose banyuzemo ntakibazo. 	2
+Sisitemu ntabwo yahisemo abajyenzi yikurikiranyije kujyirango bashobore kubona umutekano uhamye. 	Abajyenzi bamwe basatswe umubiri wose. 	1
+Sisitemu ntabwo yahisemo abajyenzi yikurikiranyije kujyirango bashobore kubona umutekano uhamye. 	Abajyenzi bamwe bongeye gusakwa nabashinzwe umutekano. 	0
+twasanze ntagihamya ko igitekerezo cya bwiwe ubuyobozi bushya  cyangwa Clarke yatanze impapuro ze kuribo,uretseko ikipe yimyuga yakoresheje ubuyobozi bwombi. 	 turabizi neza ijana kwijana ko Clarke ntawe yahaye impapuro ze. 	1
+twasanze ntagihamya ko igitekerezo cya bwiwe ubuyobozi bushya  cyangwa Clarke yatanze impapuro ze kuribo,uretseko ikipe yimyuga yakoresheje ubuyobozi bwombi. 	Ntagihamya twabona ko Clarke yamhaye impapuro ze.	0
+twasanze ntagihamya ko igitekerezo cya bwiwe ubuyobozi bushya  cyangwa Clarke yatanze impapuro ze kuribo,uretseko ikipe yimyuga yakoresheje ubuyobozi bwombi. 	Turabizi neza ko Clarke yabahaye impapuro ze ku ya 2 Nyakanga.	2
+Ntabwo bizwi neza ko sisitemu ya shirwaho mbere ya 2010, ariko nyi ngengebihe yabe iri gahoro cyane , bivanye nimpanvu zumutekano. 	Intibyoroshye gushiraho sisitemu kuko abajura bayitera buri joro.	1
+Ntabwo bizwi neza ko sisitemu ya shirwaho mbere ya 2010, ariko nyi ngengebihe yabe iri gahoro cyane , bivanye nimpanvu zumutekano. 	Ntabwo byoroshye gushiraho sisitemu kubera ikibazo cyumutekano. 	0
+Ntabwo bizwi neza ko sisitemu ya shirwaho mbere ya 2010, ariko nyi ngengebihe yabe iri gahoro cyane , bivanye nimpanvu zumutekano. 	Sisitemu yumutekano izashirwaho mubyumweru bitandatu, ndabijeje.	2
+Mugihe turikurinda igihugu cyacyu , abanyamerika bagomba kuzirikana iterabwoba kubaturage  nubwijyenge  bwabo.	Abanyamerika ntibagomba guhangayikishwa nubwisanzure bwaba turange- bazahora barizwe. 	2
+Mugihe turikurinda igihugu cyacyu , abanyamerika bagomba kuzirikana iterabwoba kubaturage  nubwijyenge  bwabo.	Abanyamerika bagomba gucyunga neza ko imbunda zabo zidatwarwa.	1
+Mugihe turikurinda igihugu cyacyu , abanyamerika bagomba kuzirikana iterabwoba kubaturage  nubwijyenge  bwabo.	Abanyamerika bagoma  guha agaciro iterabwoba  kubwisanzure bwacu.	0
+Kubitanga inshuro nyinshi ntabwo byatumye bikora neza.	Kuyizana ntabwo byayongereye akamaro.	0
+Kubitanga inshuro nyinshi ntabwo byatumye bikora neza.	Kuyizana  byatumye igira akamaro kanini cyane.	2
+Kubitanga inshuro nyinshi ntabwo byatumye bikora neza.	Ntakamaro byijyeze bitanga mugihe twayizanaga muri  White House. 	1
+Intera yindi ikurikira yo hasi, umuyobozi ushinzwe al Qaeda muri CIA muruwo mwanya yibutse ko  atijyeze atekereza ko byari akazi ke ko  gutanga amabwiriza cyangwa ibitagombwa gukorwa.  	Umuyobozi ntiyashakaga kubigiramo uruhare kuko yari hafi kujya muzabukuru.	1
+Intera yindi ikurikira yo hasi, umuyobozi ushinzwe al Qaeda muri CIA muruwo mwanya yibutse ko  atijyeze atekereza ko byari akazi ke ko  gutanga amabwiriza cyangwa ibitagombwa gukorwa.  	Umuyobozi wubumwe ntabwo yifuzaga kugira uruhare mu kuyobora ibyakozwe.	0
+Intera yindi ikurikira yo hasi, umuyobozi ushinzwe al Qaeda muri CIA muruwo mwanya yibutse ko  atijyeze atekereza ko byari akazi ke ko  gutanga amabwiriza cyangwa ibitagombwa gukorwa.  	Umuyobozi yatekereje ko byose ari we byarebaga.	2
+Pickard aribuka magambo avugwa mu kiganiro kirigutangwa  mucyamake ku ya 12 Nyakanga.	Pickard ntiyashoboraga kwibuka ibyo bari bavuze.	2
+Pickard aribuka magambo avugwa mu kiganiro kirigutangwa  mucyamake ku ya 12 Nyakanga.	Pickard yibukaga mwicyamake amakuru yakubiwemo  impavu zimanuka .	1
+Pickard aribuka magambo avugwa mu kiganiro kirigutangwa  mucyamake ku ya 12 Nyakanga.	Pickard yibutse ibyaribyavuzwe mukiganiro kincyamake.	0
+Yari yagiye muri pakisitani ariko ntiyishimye ubwo bamubazaga  niba yaba yaratembereye mubihugu biri hafi ya Pakisitani .(Pakisitani yariyo nzira isazwe yerekeza mumyitozo yakisirikale muri Afuganisitani. )	Ntabwo byari ibisazwe ko imitwe yiterabwoba  yanyura  muri pakisitani yerekeza muri afuganisitani. 	0
+Yari yagiye muri pakisitani ariko ntiyishimye ubwo bamubazaga  niba yaba yaratembereye mubihugu biri hafi ya Pakisitani .(Pakisitani yariyo nzira isazwe yerekeza mumyitozo yakisirikale muri Afuganisitani. )	Pakisitani na Afuganisitani biherereye kure cyane yibihugu byombi.	2
+Yari yagiye muri pakisitani ariko ntiyishimye ubwo bamubazaga  niba yaba yaratembereye mubihugu biri hafi ya Pakisitani .(Pakisitani yariyo nzira isazwe yerekeza mumyitozo yakisirikale muri Afuganisitani. )	imyitozo yatazwe muri Afuganisitani harimo kurwanisha amaboko.	1
+  Mucamake yiyigahunda nimpanvu  zatumye impuza zayo zihagarikwa , reba Graham Allison na Philip Zelikow , intandaro yikemezo, 2d ed. 	Ibisobanuro byafashwe neza.	2
+  Mucamake yiyigahunda nimpanvu  zatumye impuza zayo zihagarikwa , reba Graham Allison na Philip Zelikow , intandaro yikemezo, 2d ed. 	ibisobanuro byoherejwe kumuntu utariwe ngo abisesegure.	1
+  Mucamake yiyigahunda nimpanvu  zatumye impuza zayo zihagarikwa , reba Graham Allison na Philip Zelikow , intandaro yikemezo, 2d ed. 	Ibisobanuro ntabwo byafashwe neza	0
+Bashiraho intego zikomeye kujyirango bashobore gutera neza] kandi bakumira ibitero mugufata ahantu nabantu cyane cyane.  	Baribabizi ko mugushiraho  intego zigoye kujyeraho bizaganisha  kubwinshi bwo gufata bunyago. 	1
+Bashiraho intego zikomeye kujyirango bashobore gutera neza] kandi bakumira ibitero mugufata ahantu nabantu cyane cyane.  	Bashizeho intego yoroshye cyane , bafashwe  muminota mice cyane.	2
+Bashiraho intego zikomeye kujyirango bashobore gutera neza] kandi bakumira ibitero mugufata ahantu nabantu cyane cyane.  	Bashizeho intego ubwabo bonyine kandi zitoroheje, gutyo bituma bigarurira inshuro nyinshi. 	0
+Urwego rurinda ikirere cyo mumajyepfo yuburasira zuba, rwamenyeshejwe ibyabaye  saa 9:55, nyuma yiminota 28.	Nyuma yiminota 28  urwego rw’ingabo zirwanira mu kirere rw’amajyepfo rwabonye itangazo.	0
+Urwego rurinda ikirere cyo mumajyepfo yuburasira zuba, rwamenyeshejwe ibyabaye  saa 9:55, nyuma yiminota 28.	Akarere, ntabwo kabonye itangazo kubera gutinda kwitumanaho. 	1
+Urwego rurinda ikirere cyo mumajyepfo yuburasira zuba, rwamenyeshejwe ibyabaye  saa 9:55, nyuma yiminota 28.	Akarere karinda ikirire cyo mumajyepfo y'uburasira zuba, kabonye itangazo ryibyabaye  nyuma yiminota 28, bimaze kuba. 	2
+Dutegereje impaka zigihugu ku bijyanye n’ibyo twasabye, kandi tuzitabira cyane muri izo mpaka.	Ntampamvu yo kujya impaka kuriyi ngingo.	2
+Dutegereje impaka zigihugu ku bijyanye n’ibyo twasabye, kandi tuzitabira cyane muri izo mpaka.	Dushaka kugira impaka kuko tuzi ko ibi byifuzo ari ngombwa.	1
+Dutegereje impaka zigihugu ku bijyanye n’ibyo twasabye, kandi tuzitabira cyane muri izo mpaka.	Turashaka kujya impaka kubyifuzo.	0
+Mihdhar amaze kugenda, abandi banyeshuri bimukiye mu nzu.	Mihdhar yarazi ko abanyeshuri bamutegereje ko agenda.	1
+Mihdhar amaze kugenda, abandi banyeshuri bimukiye mu nzu.	Abanyeshuri bagiye murugo Mihdhar amaze kugenda.	0
+Mihdhar amaze kugenda, abandi banyeshuri bimukiye mu nzu.	Abanyeshuri bigaragambije hanze yinzu Mihdhar yari atuyemo.	2
+Impano yawe ningirakamaro muguhimbaza ibihe byacu bya  85.	Impano yose tubona ntabwo ari ingenzi nkiyanyu.	1
+Impano yawe ningirakamaro muguhimbaza ibihe byacu bya  85.	Ntabwo dushishikajwe na gato n'impano yawe.	2
+Impano yawe ningirakamaro muguhimbaza ibihe byacu bya  85.	Tumaze imyaka irenga 80 dukora ibi.	0
+Bisaba ubufatanye bwinkunga yigenga, ninkunga ya kaminuza kwishuri ryigisha amategeko kugirango dukomeze kumenyakana no gukomera.	Ishuri ryacu ryigisha amategeko riterwa inkunga yigenga yonyine.	2
+Bisaba ubufatanye bwinkunga yigenga, ninkunga ya kaminuza kwishuri ryigisha amategeko kugirango dukomeze kumenyakana no gukomera.	Ishuri ryacu ryigisha amategeko rishyigikiwe igice na Melinda na Bill Gates Foundation.	1
+Bisaba ubufatanye bwinkunga yigenga, ninkunga ya kaminuza kwishuri ryigisha amategeko kugirango dukomeze kumenyakana no gukomera.	Ishuri ryacu ryigisha amategeko rikeneye amafaranga kugirango rikomeze gukura.	0
+kubufashwa bwonyine bwabafatanyabikorwa bacu b'abagiraneza twashoboye kugera kuri byinshi.	Bill Gates yaduhaye miliyoni 5 z'amadolari.	1
+kubufashwa bwonyine bwabafatanyabikorwa bacu b'abagiraneza twashoboye kugera kuri byinshi.	Urebye uko amasoko yimari ameze, abafatanyabikorwa bacu b'abagiraneza basubiranye  inkunga zabo zose.	2
+kubufashwa bwonyine bwabafatanyabikorwa bacu b'abagiraneza twashoboye kugera kuri byinshi.	Twashoboye kugera kuri byinshi, kubera abagiraneza twabonye.	0
+Murakoze gutera inkunga inzu ndangamurage ya Indianapolis muri 1999.	Murakoze ku  inkunga ya $100 mutanze  ku inzu ndangamurage ya Indianapolis.	1
+Murakoze gutera inkunga inzu ndangamurage ya Indianapolis muri 1999.	Urakoze ariko nta shimwe kubwo gutinda ku nkunga yawe muri 1999.	2
+Murakoze gutera inkunga inzu ndangamurage ya Indianapolis muri 1999.	Twishimiye ko mwafashije gushyigikira inzu ndangamurage.	0
+Nizere ko wahawe umugisha cyane kandi ugaterwa umurava niki kibazo.	Nizere ko iki kibazo cyaguhaye ishyaka rishya.	0
+Nizere ko wahawe umugisha cyane kandi ugaterwa umurava niki kibazo.	Ndazi ko iki kibazo kigutera kwiheba, ariko tegereza ibiruhuko byawe.	2
+Nizere ko wahawe umugisha cyane kandi ugaterwa umurava niki kibazo.	Ndazi ko uzakora ibishoboka byose kugirango urwanye kanseri yonsa.	1
+Ni ngombwa ko twumva igitekerezo cyawe muri iki gihe cyo gukusanya inkunga ya nyuma yigihembwe.	Iki nigikorwa cyanyuma tuzagira cyo gutanga impano muri iki gihembwe, dukeneye ubufasha bwawe!	0
+Ni ngombwa ko twumva igitekerezo cyawe muri iki gihe cyo gukusanya inkunga ya nyuma yigihembwe.	Dufite izindi nshyuro ebyiri zisigaye zo gukusanya inkunga muri uyu mwaka.	2
+Ni ngombwa ko twumva igitekerezo cyawe muri iki gihe cyo gukusanya inkunga ya nyuma yigihembwe.	Dukeneye andi 100.000 $ kugirango dukore igipimo cyo gukusanya inkunga muri iki gihembwe.	1
+P. S. Impano yawe ni ingenzi mu kwizihiza imyaka 85 ituma Civic Theatre ya Indianapolis ariya kera cyane yikinamico ikorera mu gihugu.	Hariho indi nzu yerekana filime nimikino iherutse kwizihiza isabukuru yimyaka 84, ariko nyuma kirafugwa.	1
+P. S. Impano yawe ni ingenzi mu kwizihiza imyaka 85 ituma Civic Theatre ya Indianapolis ariya kera cyane yikinamico ikorera mu gihugu.	Turi kwizihiza ifungurwa ry'inzu yerekana filime nimikino nshya muri Indianapolis.	2
+P. S. Impano yawe ni ingenzi mu kwizihiza imyaka 85 ituma Civic Theatre ya Indianapolis ariya kera cyane yikinamico ikorera mu gihugu.	Twishimiye cyane ko inzu yerekana filime nimikino ya Indianapolis imaze imyaka 85 ikora.	0
+Abazababitabiriye amahugurwa bazahabwa amazina yicyizere, aderesi na numero za terefone, hamwe namakuru yibanze kubyo ishuri rikeneye.	Abazababitabiriye amahugurwa bazahabwa amakuru arambuye  hamwe namakuru yibanze.	0
+Abazababitabiriye amahugurwa bazahabwa amazina yicyizere, aderesi na numero za terefone, hamwe namakuru yibanze kubyo ishuri rikeneye.	Abazababitabiriye amahugurwa bagomba gusinya amasezerano yo kutamenyekanisha, mbere yo kubona ibisobanuro birambuye.	1
+Abazababitabiriye amahugurwa bazahabwa amazina yicyizere, aderesi na numero za terefone, hamwe namakuru yibanze kubyo ishuri rikeneye.	Abitabiriye amahugurwa bashobora kumenya gusa amazina yicyizere, ariko ntibamenye aderesi zabo.	2
+Parike yacu yakozwe hifashishijwe igitekerezo cya biomes, igereranywa nahantu  inyamaswa ziba.	Biomes yigana inyamaswa niibidukikije bisanzwe.	0
+Parike yacu yakozwe hifashishijwe igitekerezo cya biomes, igereranywa nahantu  inyamaswa ziba.	Muri parike yacu, twizera ko ubuturo bw’ubukorikori ari bwiza kuruta ubwa kamere.	2
+Parike yacu yakozwe hifashishijwe igitekerezo cya biomes, igereranywa nahantu  inyamaswa ziba.	Biomes muri parike yacu yari ihenze cyane.	1
+Inkunga yawe ya Goodwill izatanga amahugurwa yakazi hamwe na serivisi zo gutanga akazi kugirango zifashe abakorera muri Indiana rwagati kubona akazi keza.	Abantu bo muri Indiana rwagati ntibigera bahabwa amahugurwa yakazi.	2
+Inkunga yawe ya Goodwill izatanga amahugurwa yakazi hamwe na serivisi zo gutanga akazi kugirango zifashe abakorera muri Indiana rwagati kubona akazi keza.	Gushyigikira ubushake bizagirira akamaro abantu muri Indiana.	0
+Inkunga yawe ya Goodwill izatanga amahugurwa yakazi hamwe na serivisi zo gutanga akazi kugirango zifashe abakorera muri Indiana rwagati kubona akazi keza.	Gushyigikira ubushake bizagabanya ubushomeri.	1
+Kuva mu ntangiriro yoroheje kugeza ku rwego rwo muri iki gihe , Indiana ni kimwe mu bigo nderabuzima byigisha amasomo meza mu gihugu, n' ishuri ry'ubuvuzi ryonyine rifite umurage ushimishije.	Indiana ifite byibura amashuri makumyabiri meza yubuvuzi.	2
+Kuva mu ntangiriro yoroheje kugeza ku rwego rwo muri iki gihe , Indiana ni kimwe mu bigo nderabuzima byigisha amasomo meza mu gihugu, n' ishuri ry'ubuvuzi ryonyine rifite umurage ushimishije.	Intara ya Indiana ifite ishuri rimwe ry'ubuvuzi.	0
+Kuva mu ntangiriro yoroheje kugeza ku rwego rwo muri iki gihe , Indiana ni kimwe mu bigo nderabuzima byigisha amasomo meza mu gihugu, n' ishuri ry'ubuvuzi ryonyine rifite umurage ushimishije.	Nta rindi shuri ry'ubuvuzi rizaba muri Indiana mu myaka itanu iri imbere.	1
+Hari ukwiyongera gutangaje kwibiciro byibitabo byamategeko, ibinyamakuru, na serivisi za data base,  biravuga ko ibyo dukusanya ubu birenze ingingo yimari yacu.	Kubungabunga ibyegeranyo byubu bisaba  kimwe cya gatatu cyingengo yimari yumwaka.	2
+Hari ukwiyongera gutangaje kwibiciro byibitabo byamategeko, ibinyamakuru, na serivisi za data base,  biravuga ko ibyo dukusanya ubu birenze ingingo yimari yacu.	injengo  yimari yacu yubu ntabwo kiitwemerera gukomeza ibyo dukusanya.	0
+Hari ukwiyongera gutangaje kwibiciro byibitabo byamategeko, ibinyamakuru, na serivisi za data base,  biravuga ko ibyo dukusanya ubu birenze ingingo yimari yacu.	Dukeneye byibuze $ 10,000 mumpano kugirango tubashe gukomeza ibyo dukusanya.	1
+Tuzagerageza kuvugana na buri wese muri mwe utaritabiriye uyu mwaka w’ingengo y’imari mu minsi 45 iri imbere kugira ngo intego zacu zizagerweho bitarenze   ku ya 30 Kamena.	Ntabwo dufite gahunda yo kuzigera duhamagara  abataratanze inkunga uyu mwaka.	2
+Tuzagerageza kuvugana na buri wese muri mwe utaritabiriye uyu mwaka w’ingengo y’imari mu minsi 45 iri imbere kugira ngo intego zacu zizagerweho bitarenze   ku ya 30 Kamena.	Tuzabamenyesha kuri imeli mu minsi 45 iri mbere , abazaba bataratanze inkunga uyumwaka.	1
+Tuzagerageza kuvugana na buri wese muri mwe utaritabiriye uyu mwaka w’ingengo y’imari mu minsi 45 iri imbere kugira ngo intego zacu zizagerweho bitarenze   ku ya 30 Kamena.	Tuzagerageza kuvugisha abazaba bataratanze inkunga ya uyumwaka muminsi 45 iri mbere.	0
+Nkumwe mubanyamuryango b'ishuri ryamategeko , ndabiziko uzi uko  dutera imbere .	Ndumwe mubagize ishuri ryamategeko 	1
+Nkumwe mubanyamuryango b'ishuri ryamategeko , ndabiziko uzi uko  dutera imbere .	Ntamuntu uri mw' ishuri ryigisha amategeko	2
+Nkumwe mubanyamuryango b'ishuri ryamategeko , ndabiziko uzi uko  dutera imbere .	Ishuri ryamategeko ryemeye abantu	0
+Igiciro cyo kubaka aya mazu kirenze uko abaguzi bacu babashya kwishyura, bityo rero twishingikiriza kumpano nintwererano no kumuntu kigiticye kugirango bishobore guhenduka.	Gukora amazu byari ubuntu.	2
+Igiciro cyo kubaka aya mazu kirenze uko abaguzi bacu babashya kwishyura, bityo rero twishingikiriza kumpano nintwererano no kumuntu kigiticye kugirango bishobore guhenduka.	Amazu agomba ibikoresho kujyirango yubakwe	0
+Igiciro cyo kubaka aya mazu kirenze uko abaguzi bacu babashya kwishyura, bityo rero twishingikiriza kumpano nintwererano no kumuntu kigiticye kugirango bishobore guhenduka.	Amazu yarahenze kubakwa kurusha uko twabikekaga	1
+Ibifubiko by'ibinyamakuru bya newsweeklies, bihangayikishije ababyeyi	Guhangayika kwa babyeyi nikimwe mubisunika igurishwa ryibifubiko byibinyamakuru	0
+Ibifubiko by'ibinyamakuru bya newsweeklies, bihangayikishije ababyeyi	Newsweeklies ikora ibifubiko muburyo bishimisha abana bato cyangwa abakuru. 	2
+Ibifubiko by'ibinyamakuru bya newsweeklies, bihangayikishije ababyeyi	Ababyeyi, birashoboka ko bakoresha amafaranga mukugura imodoka nshya, bituma bamamaza ibicye bimwe  byibinyamakuru. 	1
+IKinyamakuru Time, gikubiyemo intabwe 12 za Bill gates zo gutsinda mugihe cya digitale.	Kim Kardashian yanditse inkuru yikinyamakuru Time kivuga intambwe 12 zikenewe kugirango umuntu atsinde mugihe cya digitale.	2
+IKinyamakuru Time, gikubiyemo intabwe 12 za Bill gates zo gutsinda mugihe cya digitale.	ikinyamakuru cya Time, gifite ifoto ya Bill Gates kujyifubiko. 	1
+IKinyamakuru Time, gikubiyemo intabwe 12 za Bill gates zo gutsinda mugihe cya digitale.	Ikinyamakuru cya Time, gifite inkuru ya Bill Gates niterambere mugihe cya digitale. 	0
+Irukanga bucece, irukanga gahoro gahoro, koresha igisubizo	Iruka urigusakuza	2
+Irukanga bucece, irukanga gahoro gahoro, koresha igisubizo	Iruka amaboko ahishe.	1
+Irukanga bucece, irukanga gahoro gahoro, koresha igisubizo	Iruka ntawukunvise	0
+Paul ashaka guha ishimwe Alan greenspan kubitekerezo bye byo guchunga ubushomeri nkuko bigaragara  mubyerekeye ubukungu.	Alan Greenspan afite ibitekerezo byubukungu bijyanye nubwiyongere kubushomere.	0
+Paul ashaka guha ishimwe Alan greenspan kubitekerezo bye byo guchunga ubushomeri nkuko bigaragara  mubyerekeye ubukungu.	Paul ntiyariyijyera yunva Alan Greenspan cyangwa ibitekerezo bye byubukungu	2
+Paul ashaka guha ishimwe Alan greenspan kubitekerezo bye byo guchunga ubushomeri nkuko bigaragara  mubyerekeye ubukungu.	Paul akekako Alan Greenspan ariwe muhanga cyane mubyubukungu azi.	1
+Nkoresheje ubwifashishe bwa microsoft, namenye ko akabiko ka CD kari karigukoreshwa kwi karta yamajwi  ntabwo ari kuri poti ya IDE alibyo byabeshyaga Linux	Ntabwo narinijyera nkoresha LInux	2
+Nkoresheje ubwifashishe bwa microsoft, namenye ko akabiko ka CD kari karigukoreshwa kwi karta yamajwi  ntabwo ari kuri poti ya IDE alibyo byabeshyaga Linux	Narifite ikibazo cyo gukoresha Linux kuri moderm yanjye.	1
+Nkoresheje ubwifashishe bwa microsoft, namenye ko akabiko ka CD kari karigukoreshwa kwi karta yamajwi  ntabwo ari kuri poti ya IDE alibyo byabeshyaga Linux	Narifite ikibazo na linux 	0
+steve, sinshobora  gushyigura ikotomoni yawe,  Hatch yarashubije	Hatch yavuze arakaye ko atashobora guterula uruhago rwamafaranga ya Steve	1
+steve, sinshobora  gushyigura ikotomoni yawe,  Hatch yarashubije	Hatch ntanyongera yarafite kuruhago rwa steve	2
+steve, sinshobora  gushyigura ikotomoni yawe,  Hatch yarashubije	Hatch yakinaga avugako atashobora no gushyigura uruhago rwamafaranga rwa  Steve	0
+Aba hanga bahatamye cyane mubyubukungu n'imyijyire ya kopyuta ,ninabo bafite ukwizera gucye	Aba hanga bakompyuta ntakizere bafite	0
+Aba hanga bahatamye cyane mubyubukungu n'imyijyire ya kopyuta ,ninabo bafite ukwizera gucye	Abahanga ba kompyuta ntabwo aribeza mubusabane	1
+Aba hanga bahatamye cyane mubyubukungu n'imyijyire ya kopyuta ,ninabo bafite ukwizera gucye	Abahanga ba kpmpyuta bafite ejo hazaza	2
+N'ibiki bindi kurusha News Quiz byo kwizeza kuri Fox 	nibike kurusha News Quiz yakwizeza kuri Fox.	2
+N'ibiki bindi kurusha News Quiz byo kwizeza kuri Fox 	Nibyinshi kurusha News Quiz yakwemeza kuri Fox	0
+N'ibiki bindi kurusha News Quiz byo kwizeza kuri Fox 	Birashoboka ko hari byinshyi kurusha News Quiz yavuga kuri fox	1
+ubwiyongere bwabantu ninkumwanda murundi ruhande	Umwanda nikimwe mubigabanya ubwiyongere bwabantu	1
+ubwiyongere bwabantu ninkumwanda murundi ruhande	Ubwiyongere bwabantu bijyendana nigabanuka ryumwanda	0
+ubwiyongere bwabantu ninkumwanda murundi ruhande	Ntasano ihari hagati yubwiyongere bwabantu n'umwanda	2
+Nubwo Bill Bradley yakuriye muri st louis, ihangane gato,byari kuba bisekeje iyo Al Gore yarigukurira muri Tennessee	Bradley yavaga Arkansas	2
+Nubwo Bill Bradley yakuriye muri st louis, ihangane gato,byari kuba bisekeje iyo Al Gore yarigukurira muri Tennessee	Bradley yavaga missouri	0
+Nubwo Bill Bradley yakuriye muri st louis, ihangane gato,byari kuba bisekeje iyo Al Gore yarigukurira muri Tennessee	Bradley yavaga muburengera zuba bwa st. Louis	1
+Sabol yavuze ko agomba rimwe na rimwe guhahagarika, ariko nibintu bipanze neza 	Sabol ntakeneye gufata utwoturuhuko twose. 	1
+Sabol yavuze ko agomba rimwe na rimwe guhahagarika, ariko nibintu bipanze neza 	sabol yavuzeko ubu noneho agomba kujyira akaruhuko gato	0
+Sabol yavuze ko agomba rimwe na rimwe guhahagarika, ariko nibintu bipanze neza 	sabol yavuzeko adakeneye icyuruhuko	2
+kuki iki kidakoreshwa kurubuga ?	Iki kirakoreshwa kurubuga	2
+kuki iki kidakoreshwa kurubuga ?	Ibi amajyingo aya ntabwo bikoreshwa kurubuga	0
+kuki iki kidakoreshwa kurubuga ?	Ibi byakoreshwa rimwe na rimwe kurubuga.	1
+Abapolisi bemejeko, muruna wa Joh Benet Ramsey na mushikiwe, bacyekwaho ubwicyanyi bwe.IKigaragaza nuko bose barihanze yumujyi mujyihe icyaha cyakorwaga 	Murumuna wa Joh Benet Ramsey's ntabwo yari mumujyi ubwo ubwicyanyi bwakorwaga 	0
+Abapolisi bemejeko, muruna wa Joh Benet Ramsey na mushikiwe, bacyekwaho ubwicyanyi bwe.IKigaragaza nuko bose barihanze yumujyi mujyihe icyaha cyakorwaga 	Mushiki wa Jon Benet Ramsey's numwere kuko afite amutangira ubuhamya ko amarorerwa yakozwe yasohotse mumujyi	1
+Abapolisi bemejeko, muruna wa Joh Benet Ramsey na mushikiwe, bacyekwaho ubwicyanyi bwe.IKigaragaza nuko bose barihanze yumujyi mujyihe icyaha cyakorwaga 	Hari ibimenyetso bihagije byogufata  murumuna wa Joh Benet Ramsey's nkumwicyanyi.	2
+Ntabwo ubizineza uruhande rwuwo ushigikiye 	N'ibigaragarira buri wese uwo ushigikiye 	2
+Ntabwo ubizineza uruhande rwuwo ushigikiye 	ntabwo tuzi uwo ushigikiye mumatora 	1
+Ntabwo ubizineza uruhande rwuwo ushigikiye 	Ntabwo tuzi uwo ushigikiye 	0
+umunsi umwe , iritera mbere rijyezweho kandi rishimishije rizatabwa nkamatara yumuriro. 	Iterambere rirarambirana nyuma yigihe 	0
+umunsi umwe , iritera mbere rijyezweho kandi rishimishije rizatabwa nkamatara yumuriro. 	Iterambere rirashimisha 	2
+umunsi umwe , iritera mbere rijyezweho kandi rishimishije rizatabwa nkamatara yumuriro. 	Itera mbere rirarambirana iyo udakomeje kurihindura 	1
+Ubundi buryo ntibugomba gukoreshwa  guhinduranya 	Ntabwo aribyo gukoresha ubundi buryo bwoguhinduranya 	0
+Ubundi buryo ntibugomba gukoreshwa  guhinduranya 	Biremewe gusimbuza , guhundaza no guhinduranya 	2
+Ubundi buryo ntibugomba gukoreshwa  guhinduranya 	Abantu benshi ntabwo bazi gukoresha ubundi buryo no kubuhinduranya 	1
+Mugihe yajyiraga imyaka mirongwitandatu, muri 1895, Skeat yerekanye ibimenyetsoko yaratangiye kutangira icyo yitaho. 	Ubwo Skeat yajyeraga mumyaka mirongwi tandatu, yerekanye ibimenyetso ko ntacyo yatekerezagaho. 	2
+Mugihe yajyiraga imyaka mirongwitandatu, muri 1895, Skeat yerekanye ibimenyetsoko yaratangiye kutangira icyo yitaho. 	Ubwo Skeat yari amaze gukura, ibibazo ntabwo yabihaye agaciro kuko ntamaraga mutima yabijyiranye	0
+Mugihe yajyiraga imyaka mirongwitandatu, muri 1895, Skeat yerekanye ibimenyetsoko yaratangiye kutangira icyo yitaho. 	Skeat yatangiye kwita kubindi bintu amaze gukura	1
+Ariko nubwakabiri  yisanze  hagati yinshuti ebyiri	Ntabwo azi nuruhe ruhande , rwogutoramo hagati yinshutize ebyiri	1
+Ariko nubwakabiri  yisanze  hagati yinshuti ebyiri	Afite umuhuza umwe gusa, wakoresheje inshutiye. 	2
+Ariko nubwakabiri  yisanze  hagati yinshuti ebyiri	Inshyuro ya kabiri , umuhuzi yakoresheje abantu batatu	0
+niki ukunda cyane, imibare cyangwa siyanse ?	Ugira ihitamo ryimibare cyangwa siyanse ?	0
+niki ukunda cyane, imibare cyangwa siyanse ?	Niki waga cyane , icyongereza cyangwa filozofiya ?	2
+niki ukunda cyane, imibare cyangwa siyanse ?	ushobora gukunda ibindi bintu usibye imibare na siyansi	1
+Mubihe biza no mwiterambere , telephone zose zidafite radio zizahindurwa  telephone zinsinga 	telephone zitari izaradiyo bizahinduka ari telephone zitsinga	0
+Mubihe biza no mwiterambere , telephone zose zidafite radio zizahindurwa  telephone zinsinga 	telephone zizahinduka bijyanye niterambere	1
+Mubihe biza no mwiterambere , telephone zose zidafite radio zizahindurwa  telephone zinsinga 	telephone zitsinga ziramenyerewe cyane kurusha telephone zitariziradiyo	2
+urwandiko rwanyuma twizereko utatanze iyinyandiko ahandi hanu	Dufate ko utahaye iyinyandiko undi muntu uwo ariwe wese. 	0
+urwandiko rwanyuma twizereko utatanze iyinyandiko ahandi hanu	Turabiziko, mbere wariwasohoye iyi nyandiko mubinyamakuru bitano	2
+urwandiko rwanyuma twizereko utatanze iyinyandiko ahandi hanu	Turifuzako wadusinyira  wemezako , aritwe twenyine wahaye iyi nyandiko	1
+Umuhungu mwiza-iki kivugo gikoreshwa cyane ugisanga muri Julius caesar 	muri julius Caesar , ijambo umuhungu mwiza ryarakoreshejwe	0
+Umuhungu mwiza-iki kivugo gikoreshwa cyane ugisanga muri Julius caesar 	ijambo umuhungu mwiza ryakoreshejwe guhera mukinyejana cya makumyabiri	2
+Umuhungu mwiza-iki kivugo gikoreshwa cyane ugisanga muri Julius caesar 	ijambo umuhungu mwiza rikoreshwa kuri muramu wawe	1
+Niba ari uko, barakururwa no kugura iyi nteguro ifite amapage  55 yamagambo, ibisobanuro n'imyivugo bitasohowe ubushize. 	iki gitabo gifite amagambo mashya atariyarasohowe mbere 	0
+Niba ari uko, barakururwa no kugura iyi nteguro ifite amapage  55 yamagambo, ibisobanuro n'imyivugo bitasohowe ubushize. 	Iyi nteguro nimwe nkiyubushize	2
+Niba ari uko, barakururwa no kugura iyi nteguro ifite amapage  55 yamagambo, ibisobanuro n'imyivugo bitasohowe ubushize. 	iyi nteguro yagurishijwe inshuro zikubye ibihumbi magana tanu  mu mwaka wayo wambere.	1
+Ntabwo twashimishijwe nuko byasaga ariko twabiriye ntamususu, ariko twarushijeho gukomeza umurava twaridufite , hamwe na mata yaba mama	Buriwese yitanze kurya ibiryo bahawe kandi banavugako byabibukije ibiryo bakunda kurya bari mubiruhuko	2
+Ntabwo twashimishijwe nuko byasaga ariko twabiriye ntamususu, ariko twarushijeho gukomeza umurava twaridufite , hamwe na mata yaba mama	Twiyunvisemo agahato kurya ibyo twahawe kuko ntitwashatse kubabaza abadutumiye	1
+Ntabwo twashimishijwe nuko byasaga ariko twabiriye ntamususu, ariko twarushijeho gukomeza umurava twaridufite , hamwe na mata yaba mama	Ntabwo twashizeho umuhate kurya ibyo twahawe, nubwo rwose tutishimiye uko byasaga 	0
+Abato nabafite imyaka ingahe ?	Ndabizi neza uko abato bangana 	2
+Abato nabafite imyaka ingahe ?	ubuto  nigice abantu bagira ikibazo kumenye bajyendeye kumyaka	0
+Abato nabafite imyaka ingahe ?	Abato bose bari munsi yimyaka makumyabiri nitano.	1
+Nubwo imyunvire yabo kubihe ari muzunguruko,  kubahiriza ibihe bihita ntabwo babiha agaciro nko kwishimira kugaruka kwibihe byimboneka rimwe.	kuko imyunvire yabo kubihe iri kumurongo, ibihe bahita babiha agaciro kurusha iminsi mikuru yibihe bijyenda bigaruka 	2
+Nubwo imyunvire yabo kubihe ari muzunguruko,  kubahiriza ibihe bihita ntabwo babiha agaciro nko kwishimira kugaruka kwibihe byimboneka rimwe.	Kuko babona igihe ari umuzenguruko, iminsi mikuru yibihe bijyenda bigaruka nagaciro kuribo.	0
+Nubwo imyunvire yabo kubihe ari muzunguruko,  kubahiriza ibihe bihita ntabwo babiha agaciro nko kwishimira kugaruka kwibihe byimboneka rimwe.	Bubahiriza imisi mikuru yibihe kuko bemerako igihe ari muzunguruko. 	1
+Nkurujyero, bamwe bafite inkomoko yavanywe mubikoresho bikoreshwa cyagwa mukibuga aho umukino icyinirwa. 	imikino yose yitwa ukurikije ibikoresho bikoreshwa muri uwo mukino	2
+Nkurujyero, bamwe bafite inkomoko yavanywe mubikoresho bikoreshwa cyagwa mukibuga aho umukino icyinirwa. 	Hari imikino ititwa amazina hakurikije ibikoresho byayo cyangwa uburyo ikinwa. 	0
+Nkurujyero, bamwe bafite inkomoko yavanywe mubikoresho bikoreshwa cyagwa mukibuga aho umukino icyinirwa. 	ibi biba cyanecyane iyo umukino ukozwe umuntu akoresheje ibikoresho byindi mikino	1
+Nttabwo byoroshye ariko ndikureba ijammbo ryakatwamo kabiri ,uduce dutoya 	nabonye amagambo atatu ya kyibwamo ibice bibiri natkibazo	2
+Nttabwo byoroshye ariko ndikureba ijammbo ryakatwamo kabiri ,uduce dutoya 	Ntabwo najyize ibihe byoroshye mugushaka ijambo rya cyibwamo kabiri mubice bitoya  	0
+Nttabwo byoroshye ariko ndikureba ijammbo ryakatwamo kabiri ,uduce dutoya 	naje gukunda ibyindimi nyuma yo gutangira kwiga ibyibanze mumwaka ushize	1
+Ariko ubu busobanuro  mukwitanga bwarasibwe mwisubirwamo , byasize umusomyi ntacyo yiyunguyeho kurusha mbere 	igitabo cyari cyeguriwe kuri nyina wumwanditsi.	1
+Ariko ubu busobanuro  mukwitanga bwarasibwe mwisubirwamo , byasize umusomyi ntacyo yiyunguyeho kurusha mbere 	Isubirwamo ryakusanyije amakuru yose umunsomyi yarakwiriye kumenya 	2
+Ariko ubu busobanuro  mukwitanga bwarasibwe mwisubirwamo , byasize umusomyi ntacyo yiyunguyeho kurusha mbere 	isubirwamo ryitangazo ntabwo ryibanda kumakuru amwe yingenzi. 	0
+Mumpera y'imyaka yikinyejana cya 19 , hariho cyane ikiganiro gihugiye kwi jambo	Byaje kunvikanaho ko jambo ritari ryemewe mukinyabupfura. 	1
+Mumpera y'imyaka yikinyejana cya 19 , hariho cyane ikiganiro gihugiye kwi jambo	Ijambo yryari ihuriro ryikiganiro imyaka ishize 	0
+Mumpera y'imyaka yikinyejana cya 19 , hariho cyane ikiganiro gihugiye kwi jambo	Ijambo ryaribangiranywe  mbere yikinyejana19.	2
