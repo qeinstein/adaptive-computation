@@ -188,36 +188,59 @@ Feature: `mdeberta_base_L12_eff_rank`. Pair: MiniLM → mDeBERTa. n = 9,000.
 
 Variance explained ≈ **1.6%**.
 
-### 4b. It does not survive contact with a baseline
+### 4b. Target misalignment (post-hoc correction, 2026-08-19)
 
-Leave-one-language-out, 11 viable ladder languages, matched compute budget.
-Ridge on all 18 geometry features (λ=10) vs. escalate-least-confident.
+**An error in the original Stage IV design was found while drafting.** The router
+was trained to predict Δ (a gold-probability gain) but scored on routing accuracy
+(a correctness flip, `correct_e − correct_s`). These are not the same objective:
+corr(Δ, flip) = +0.655. Confidence relates to the flip (ρ = −0.085) far more than
+to Δ (ρ = +0.021), so the original comparison handicapped geometry by training it
+on a misaligned proxy.
 
-| budget | all-cheap | random | **confidence** | geometry | geom+conf | oracle | all-expensive |
-|---|---|---|---|---|---|---|---|
-| 20% | 0.426 | 0.461 | **0.466** | 0.460 | 0.463 | 0.555 | 0.577 |
-| 40% | 0.426 | 0.493 | **0.506** | 0.498 | 0.498 | 0.632 | 0.577 |
-| 60% | 0.426 | 0.518 | **0.543** | 0.524 | 0.526 | 0.678 | 0.577 |
-| 80% | 0.426 | 0.546 | **0.564** | 0.556 | 0.554 | 0.661 | 0.577 |
+Registered as post-hoc: this check was not preplanned. It was prompted by noticing
+that confidence has ~zero within-language correlation with Δ (+0.003) yet wins the
+routing comparison — two facts only consistent if Δ is not the routing objective.
 
-Confidence − geometry gap, across ridge λ ∈ {1, 10, 100, 1000}:
+Retrained on the correctness flip (`src/objective_check.py`), leave-one-language-out,
+11 viable languages:
 
-| budget | gap | conf wins |
-|---|---|---|
-| 20% | +0.006 to +0.007 | 7–8 / 11 |
-| 40% | +0.008 to +0.012 | 7 / 11 |
-| 60% | **+0.017 to +0.019** | 9–10 / 11 |
-| 80% | +0.008 to +0.018 | 7–10 / 11 |
+| budget | random | confidence | geom(Δ) | **geom(flip)** | **geom+conf(flip)** | oracle |
+|---|---|---|---|---|---|---|
+| 20% | 0.457 | 0.466 | 0.461 | **0.468** | **0.472** | 0.613 |
+| 40% | 0.486 | 0.506 | 0.498 | 0.504 | **0.508** | 0.688 |
+| 60% | 0.519 | 0.543 | 0.524 | 0.535 | **0.545** | 0.688 |
+| 80% | 0.548 | 0.564 | 0.553 | 0.559 | **0.565** | 0.688 |
 
-Geometry beats *random* by only +0.5 to +1.0 points (wins 5–9 / 11). Oracle reaches
-0.678 at 60% budget, so the headroom is real (+0.10 over all-expensive) and unexploited.
+Confidence − geometry(flip) gap, across λ ∈ {1,10,100,1000}:
 
-**Required qualification.** At the 20% and 40% budgets the per-language sd (~0.015)
-exceeds the mean gap (~0.007). The correct statement is: *geometry never beats
-confidence at any budget or penalty, and is clearly worse at moderate budgets.* Do
-**not** write "confidence substantially outperforms geometry at all budgets."
+| budget | gap | sd | conf wins |
+|---|---|---|---|
+| 20% | −0.0015 to −0.0024 | ~0.019 | 5/11 |
+| 60% | +0.0059 to +0.0147 | ~0.019 | 6–8/11 |
 
----
+Confidence − (geometry+confidence): −0.0005 to −0.0062, combined wins 4–6/11.
+
+**REVISED CLAIM.** Every gap is far smaller than the per-language sd (~0.018), and
+win counts sit at chance (4–8 of 11). The correct statement is:
+
+> *With a correctly aligned target, representation geometry and confidence are
+> statistically indistinguishable as routing signals at every compute budget, and
+> neither approaches the oracle (0.688 vs ~0.545 at the 60% budget).*
+
+**SUPERSEDED WORDING — DO NOT USE.** The previously frozen constraint
+*"geometry never beats confidence at any budget or penalty, and is clearly worse at
+moderate budgets"* is now known to be an artifact of target misalignment. It must
+not appear in the paper.
+
+**The negative conclusion survives, with a changed basis.** Representation geometry
+still provides no useful routing signal — but because it is no better than a trivial
+confidence baseline, not because it is worse. The unexploited oracle headroom
+(+0.14 over the best method at 60%) is the substantive point.
+
+**New methodological finding (candidate 5th).** Evaluating a routing method against
+a target that differs from the scoring metric inflates apparent baseline superiority.
+Here it manufactured a ~0.019 advantage for confidence at the 60% budget that
+disappears under correct targeting.
 
 ## Cross-cutting limitations (must appear in the paper)
 
