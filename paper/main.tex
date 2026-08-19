@@ -31,14 +31,11 @@
 \usepackage{booktabs}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
-\usepackage{multirow}
-\usepackage{xcolor}
 \usepackage[margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
 
-\newcommand{\claim}[1]{#1}
-\newcommand{\todo}[1]{\textcolor{gray}{[\textsc{todo}: #1]}}
+\newcommand{\claim}[1]{#1}   % frozen wording; see results/LEDGER.md
 \newcommand{\nodelta}{\textsuperscript{$\dagger$}}
 
 \title{Structure, Association, and Decision Value:\\
@@ -292,7 +289,7 @@ explicitly which results depend on them.
 \ref{sec:f1}  & Benchmark contamination        & no \\
 \ref{sec:f2}  & Capability not ordered by size & no \\
 \ref{sec:f3a} & Language dominates geometry ($\eta^2$) & no \\
-\ref{sec:f3b} & Residual association with $\Delta_{\mathrm{prob/correct}}$ & yes \\
+\ref{sec:f3b} & Residual association with either target & yes \\
 \ref{sec:f4}  & Routing evaluation             & yes \\
 \bottomrule
 \end{tabular}
@@ -306,11 +303,11 @@ discard \S\ref{sec:f3b}--\S\ref{sec:f4} without affecting the rest.}
 For each example, hidden states at layers $\{4,8,12\}$ over non-padding tokens
 give $X \in \mathbb{R}^{T \times d}$. With $p_i$ the normalised squared singular
 values of column-centred $X$, and $U$ the row-normalised $X$:
-\begin{align}
+\begin{align*}
 \text{effective rank} &= \exp\!\Big(-\textstyle\sum_i p_i \log p_i\Big),\\
 \text{spectral concentration} &= p_1,\\
 \text{angular dispersion} &= 1 - \big\lVert \tfrac{1}{T}\textstyle\sum_t U_t \big\rVert.
-\end{align}
+\end{align*}
 Three sources $\times$ three layers $\times$ three statistics gives 27 features.
 
 \subsection{Statistical procedure}
@@ -640,8 +637,8 @@ than of the example. A quantity computed by pooling such a statistic across
 languages is therefore substantially a re-description of language identity, and
 will behave like a difficulty signal to the exact extent that languages differ
 in difficulty. This holds whatever target the statistic is subsequently
-correlated against, which is why the observation does not depend on our
-$\Delta$: it is a property of the representations, not of the analysis
+correlated against, which is why the observation does not depend on our choice
+of target: it is a property of the representations, not of the analysis
 downstream of them.
 
 We emphasise what is and is not established here. $\eta^2$ is descriptive; it
@@ -695,7 +692,7 @@ two ways. The first asks how much escalation moves the model's probability on th
 correct label; the second asks whether escalation changes the decision at all:
 \begin{align}
 \Delta_{\mathrm{prob}}(x) &= p_e(y^\star \mid x) - p_s(y^\star \mid x),
-  \tag{\ref{eq:dprob} restated}\\
+  \tag{\ref{eq:dprob}, restated}\\
 \Delta_{\mathrm{correct}}(x) &= \mathbf{1}[\hat{y}_e = y^\star]
                               - \mathbf{1}[\hat{y}_s = y^\star].
   \label{eq:dcorr}
