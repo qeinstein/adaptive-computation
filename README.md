@@ -1,37 +1,10 @@
-# Structure, Association, and Decision Value
+**Structure, Association, and Decision Value: Representation-Based Difficulty Estimation for Adaptive Inference in African-Language NLI**
 
-Representation-Based Difficulty Estimation for Adaptive Inference in African-Language NLI
+Code, cached model outputs, and analysis for a study of whether internal representation statistics can estimate the per-example value of escalating an input to a more capable model, in low-resource multilingual NLI. The answer, under the tested setup, is no — and the reasons arise before the representation analysis itself. `results/LEDGER.md` is the source of truth for every number reported in the paper, including the analyses that were superseded during the study.
 
-Code, cached model outputs, and analysis for a study of whether internal
-representation statistics can estimate the per-example value of escalating an
-input to a more capable model, in low-resource multilingual NLI.
+Four findings. First, evaluation validity: AfriXNLI is a translation of XNLI, with 1,047 of its 1,050 English examples appearing verbatim in XNLI evaluation data, and its English development split *is* XNLI validation. Contamination is split-specific, and the development–test accuracy gap fingerprints which split a checkpoint saw. Second, capability ordering: parameter count does not reliably order accuracy across African languages, with the larger checkpoint winning in seven languages and losing in eight, and no significant aggregate difference. Third, language confounding: across three multilingual representation spaces, angular dispersion is consistently the most language-determined statistic (η² ≈ 0.48–0.58) and effective rank the least (0.08–0.15), so pooled correlations inflate one and mask the other; a stronger claim, that η² predicts pooling bias generally, did **not** replicate and is not made. Fourth, target dependence and routing: effective rank predicts the probability gain from escalation but not whether escalation changes the prediction, while confidence does the reverse, and under the tested models, signals, and compute budgets no routing method beats always-expensive inference — though an oracle exceeds it by 11 points at 60% of the compute.
 
-The answer, under the tested setup, is no — and the reasons arise before the
-representation analysis itself. `results/LEDGER.md` is the source of truth for
-every number reported in the paper, including the analyses that were superseded
-during the study.
-
-## Findings
-
-1. **Evaluation validity.** AfriXNLI is a translation of XNLI: 1,047 of its 1,050
-   English examples appear verbatim in XNLI evaluation data, and its English
-   development split *is* XNLI validation. Contamination is split-specific, and
-   the development–test accuracy gap fingerprints which split a checkpoint saw.
-2. **Capability ordering.** Parameter count does not reliably order accuracy
-   across African languages: the larger checkpoint wins in seven languages and
-   loses in eight, with no significant aggregate difference.
-3. **Language confounding.** Across three multilingual representation spaces,
-   angular dispersion is consistently the most language-determined statistic
-   (η² ≈ 0.48–0.58) and effective rank the least (0.08–0.15), so pooled
-   correlations inflate one and mask the other. A stronger claim — that η²
-   predicts pooling bias generally — did **not** replicate and is not made.
-4. **Target dependence and routing.** Effective rank predicts the probability
-   gain from escalation but not whether escalation changes the prediction;
-   confidence does the reverse. Under the tested models, signals, and compute
-   budgets, no routing method beats always-expensive inference, though an oracle
-   exceeds it by 11 points at 60% of the compute.
-
-## Reproducing
+To reproduce, create the environment:
 
 ```bash
 python3 -m venv .venv
@@ -40,8 +13,7 @@ python3 -m venv .venv
 export HF_HUB_DISABLE_XET=1        # the Xet transfer backend was unreliable here
 ```
 
-Inference runs **once** on CPU/MPS and caches to `data/cache/`; every analysis
-then re-runs from cache in seconds with no accelerator.
+Inference runs once on CPU/MPS and caches to `data/cache/`; every analysis then re-runs from cache in seconds with no accelerator.
 
 ```bash
 .venv/bin/python src/full15.py        # 3 rungs x 15 clean languages -> results/full15/
@@ -52,54 +24,15 @@ then re-runs from cache in seconds with no accelerator.
 .venv/bin/python src/stability.py     # bootstrap / subsample / permutation battery
 .venv/bin/python src/decide.py        # eta^2 and the first routing evaluation
 .venv/bin/python src/within_lang.py   # within-language partial correlations
-.venv/bin/python src/make_figures.py  # paper/figures/*.pdf (+ *.pgf if LaTeX present)
+.venv/bin/python src/make_figures.py  # paper/figures/*.pdf
 ```
 
-Supporting scripts not in the main path: `src/prefetch.py` and
-`src/prefetch2.py` download checkpoints with the Xet backend disabled and retry on
-failure; `src/gate.py` is the corrected six-language gate that `full15.py`
-generalises; `src/closeout.py` produced the contaminated-language and paired
-bootstrap checks later folded into `split_probe.py` and the ledger.
+Supporting scripts outside the main path: `src/prefetch.py` and `src/prefetch2.py` download checkpoints with the Xet backend disabled and retry on failure; `src/gate.py` is the corrected six-language gate that `full15.py` generalises; `src/closeout.py` produced the contaminated-language and paired-bootstrap checks later folded into `split_probe.py` and the ledger.
 
-## Layout
+Layout: `src/` holds the analysis scripts, `data/raw/` the AfriXNLI TSVs committed for reproducibility, `data/cache/` the cached logits and geometry (gitignored, regenerated by the scripts), `results/` the ledger and per-experiment JSON and NPZ artifacts, and `paper/` the manuscript, bibliography, and figures.
 
-```
-src/          analysis scripts (see below)
-data/raw/     AfriXNLI TSVs, committed for reproducibility
-data/cache/   cached logits and geometry (gitignored; regenerated by the scripts)
-results/      LEDGER.md plus per-experiment JSON/NPZ artifacts
-paper/        main.tex, refs.bib, figures/
-```
+A note on `src/spike.py`: it is **retained deliberately and is not part of the pipeline.** It is the original, invalidated experimental design — the one whose contamination the gate exposed. It calibrated temperature on the English split, which is verbatim XNLI validation, and would have produced confident, meaningless numbers. It is kept as provenance for how the contamination finding was reached. Do not run it expecting valid results; `gate.py` and `full15.py` supersede it.
 
-### A note on `src/spike.py`
+On figures: `src/make_figures.py` recomputes every plotted value from the cached arrays — nothing is typed by hand — and writes vector PDF to `paper/figures/`, included as `\includegraphics[width=0.75\textwidth]{figures/<name>.pdf}`. With a TeX binary on `PATH`, `EMIT_PGF=1` additionally emits `.pgf` for anyone who wants figure text typeset by LaTeX itself; the paper does not use it. The categorical palette (`#2166ac, #b2182b, #762a83, #4d9221`) passes lightness, chroma, colour-vision-deficiency separation, and contrast checks. Because the worst pair differs by only 0.025 relative luminance, colour alone is insufficient in grayscale, so every series also carries a distinct marker and line style.
 
-`spike.py` is **retained deliberately and is not part of the pipeline.** It is
-the original, invalidated experimental design — the one whose contamination the
-gate exposed. It calibrated temperature on the English split, which is verbatim
-XNLI validation, and would have produced confident, meaningless numbers. It is
-kept as provenance for how the contamination finding was reached. Do not run it
-expecting valid results; `gate.py` and `full15.py` supersede it.
-
-## Figures
-
-`src/make_figures.py` recomputes every plotted value from the cached arrays —
-nothing is typed by hand — and writes vector PDF to `paper/figures/`, included as
-`\includegraphics[width=0.75\textwidth]{figures/<name>.pdf}`. With a TeX binary
-on `PATH`, `EMIT_PGF=1` additionally emits `.pgf` for anyone who wants figure text
-typeset by LaTeX itself; the paper does not use it.
-
-The categorical palette (`#2166ac, #b2182b, #762a83, #4d9221`) passes lightness,
-chroma, colour-vision-deficiency separation, and contrast checks. Because the
-worst pair differs by only 0.025 relative luminance, colour alone is insufficient
-in grayscale, so every series also carries a distinct marker and line style.
-
-## Caveats
-
-- No model was fine-tuned. Both marginal-gain targets come from a single frozen
-  checkpoint pair, so the seed-averaged target the design called for could not be
-  constructed. This is the study's most significant methodological gap.
-- The 15 "clean" languages are clean only at the surface-string level: they are
-  translations of XNLI examples the checkpoints saw in other languages. The
-  pipeline is not contamination-free.
-- Two analyses are post-hoc and labelled as such: the third representation source
-  and the dual-target analysis.
+Caveats. No model was fine-tuned: both marginal-gain targets come from a single frozen checkpoint pair, so the seed-averaged target the design called for could not be constructed, and this is the study's most significant methodological gap. The 15 "clean" languages are clean only at the surface-string level — they are translations of XNLI examples the checkpoints saw in other languages — so the pipeline is not contamination-free. Two analyses are post-hoc and labelled as such: the third representation source and the dual-target analysis.
