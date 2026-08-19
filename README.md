@@ -55,6 +55,12 @@ then re-runs from cache in seconds with no accelerator.
 .venv/bin/python src/make_figures.py  # paper/figures/*.pdf (+ *.pgf if LaTeX present)
 ```
 
+Supporting scripts not in the main path: `src/prefetch.py` and
+`src/prefetch2.py` download checkpoints with the Xet backend disabled and retry on
+failure; `src/gate.py` is the corrected six-language gate that `full15.py`
+generalises; `src/closeout.py` produced the contaminated-language and paired
+bootstrap checks later folded into `split_probe.py` and the ledger.
+
 ## Layout
 
 ```
