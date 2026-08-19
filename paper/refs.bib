@@ -1,77 +1,169 @@
-% Skeleton bibliography. Entries marked TODO need verification before use --
-% do not cite from memory. Confirm venue, year, authors, and DOI/anthology ID.
+% All entries below were verified on 2026-08-19 against the ACL Anthology
+% (title/booktitle/year fetched from aclanthology.org/<id>.bib), the arXiv API
+% (id, date, author list), or Crossref (DOI). Author lists are truncated to the
+% first author plus "and others" where the full list was not transcribed; expand
+% before submission. Do NOT add an entry here that has not been checked against
+% a primary source.
 
-@inproceedings{TODO-afrixnli,
-  title  = {{IrokoBench}: A New Benchmark for African Languages in the Age of Large Language Models},
-  author = {TODO},
-  year   = {2025},
-  note   = {VERIFY: NAACL 2025; aclanthology.org/2025.naacl-long.139/. AfriXNLI is the NLI subset.}
+@inproceedings{conneau2018xnli,
+  title     = {{XNLI}: Evaluating Cross-lingual Sentence Representations},
+  author    = {Conneau, Alexis and Rinott, Ruty and Lample, Guillaume and
+               Williams, Adina and Bowman, Samuel R. and Schwenk, Holger and
+               Stoyanov, Veselin},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in
+               Natural Language Processing},
+  year      = {2018},
+  url       = {https://aclanthology.org/D18-1269},
+  note      = {arXiv:1809.05053}
 }
 
-@inproceedings{TODO-xnli,
-  title  = {{XNLI}: Evaluating Cross-lingual Sentence Representations},
-  author = {Conneau, Alexis and others},
-  year   = {2018},
-  note   = {VERIFY authors/venue (EMNLP 2018).}
+@inproceedings{conneau2020xlmr,
+  title     = {Unsupervised Cross-lingual Representation Learning at Scale},
+  author    = {Conneau, Alexis and Khandelwal, Kartikay and Goyal, Naman and
+               Chaudhary, Vishrav and others},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for
+               Computational Linguistics},
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.acl-main.747},
+  note      = {arXiv:1911.02116}
 }
 
-@inproceedings{TODO-xlmr,
-  title  = {Unsupervised Cross-lingual Representation Learning at Scale},
-  author = {Conneau, Alexis and others},
-  year   = {2020},
-  note   = {VERIFY (ACL 2020). XLM-R.}
+@inproceedings{adelani2025irokobench,
+  title     = {{IrokoBench}: A New Benchmark for {African} Languages in the Age
+               of Large Language Models},
+  author    = {Adelani, David Ifeoluwa and Ojo, Jessica and
+               Azime, Israel Abebe and Zhuang, Jian Yun and others},
+  booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas
+               Chapter of the Association for Computational Linguistics: Human
+               Language Technologies (Volume 1: Long Papers)},
+  year      = {2025},
+  url       = {https://aclanthology.org/2025.naacl-long.139},
+  note      = {arXiv:2406.03368. Source of the AfriXNLI subset used here.}
 }
 
-@inproceedings{TODO-afroxlmr,
-  title  = {Adapting Pre-trained Language Models to African Languages},
-  author = {Alabi, Jesujoba and others},
-  year   = {2022},
-  note   = {VERIFY exact title/venue (COLING 2022?). AfroXLMR / Davlan checkpoints.}
+@inproceedings{alabi2022afroxlmr,
+  title     = {Adapting Pre-trained Language Models to {African} Languages via
+               Multilingual Adaptive Fine-Tuning},
+  author    = {Alabi, Jesujoba O. and Adelani, David Ifeoluwa and
+               Mosbach, Marius and Klakow, Dietrich},
+  booktitle = {Proceedings of the 29th International Conference on Computational
+               Linguistics},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.coling-1.382},
+  note      = {arXiv:2204.06487. AfroXLMR.}
 }
 
-@inproceedings{TODO-mdeberta,
-  title  = {{DeBERTaV3}},
-  author = {He, Pengcheng and others},
-  year   = {2023},
-  note   = {VERIFY (ICLR 2023).}
+@inproceedings{adelani2021masakhaner,
+  title     = {{MasakhaNER}: Named Entity Recognition for {African} Languages},
+  author    = {Adelani, David Ifeoluwa and Abbott, Jade and Neubig, Graham and
+               D'souza, Daniel and others},
+  journal   = {Transactions of the Association for Computational Linguistics},
+  year      = {2021},
+  url       = {https://aclanthology.org/2021.tacl-1.66},
+  note      = {arXiv:2103.11811}
 }
 
-@inproceedings{TODO-minilm,
-  title  = {{MiniLMv2}},
-  author = {Wang, Wenhui and others},
-  year   = {2021},
-  note   = {VERIFY (ACL Findings 2021).}
+@inproceedings{wang2021minilmv2,
+  title     = {{MiniLMv2}: Multi-Head Self-Attention Relation Distillation for
+               Compressing Pretrained Transformers},
+  author    = {Wang, Wenhui and Bao, Hangbo and Huang, Shaohan and Dong, Li and
+               Wei, Furu},
+  booktitle = {Findings of the Association for Computational Linguistics:
+               ACL-IJCNLP 2021},
+  year      = {2021},
+  url       = {https://aclanthology.org/2021.findings-acl.188},
+  note      = {arXiv:2012.15828}
 }
 
-@inproceedings{TODO-deebert,
-  title  = {{DeeBERT}: Dynamic Early Exiting for Accelerating {BERT} Inference},
-  author = {Xin, Ji and others},
-  year   = {2020},
-  note   = {VERIFY (ACL 2020).}
+@article{he2021debertav3,
+  title   = {{DeBERTaV3}: Improving {DeBERTa} using {ELECTRA}-Style
+             Pre-Training with Gradient-Disentangled Embedding Sharing},
+  author  = {He, Pengcheng and Gao, Jianfeng and Chen, Weizhu},
+  journal = {arXiv preprint arXiv:2111.09543},
+  year    = {2021},
+  note    = {VERIFY VENUE: arXiv id, date and authors confirmed; conference
+             publication (ICLR) not verified.}
 }
 
-@inproceedings{TODO-pabee,
-  title  = {{BERT} Loses Patience: Fast and Robust Inference with Early Exit},
-  author = {Zhou, Wangchunshu and others},
-  year   = {2020},
-  note   = {VERIFY (NeurIPS 2020).}
+@inproceedings{xin2020deebert,
+  title     = {{DeeBERT}: Dynamic Early Exiting for Accelerating {BERT}
+               Inference},
+  author    = {Xin, Ji and Tang, Raphael and Lee, Jaejun and Yu, Yaoliang and
+               Lin, Jimmy},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for
+               Computational Linguistics},
+  year      = {2020},
+  url       = {https://aclanthology.org/2020.acl-main.204},
+  note      = {arXiv:2004.12993}
 }
 
-@inproceedings{TODO-cascadebert,
-  title  = {{CascadeBERT}: Accelerating Inference of Pre-trained Language Models via Calibrated Complete Models Cascade},
-  author = {Li, Lei and others},
-  year   = {2021},
-  note   = {VERIFY (EMNLP Findings 2021). Directly relevant: motivates cascades over early exit.}
+@article{zhou2020pabee,
+  title   = {{BERT} Loses Patience: Fast and Robust Inference with Early Exit},
+  author  = {Zhou, Wangchunshu and Xu, Canwen and Ge, Tao and McAuley, Julian
+             and others},
+  journal = {arXiv preprint arXiv:2006.04152},
+  year    = {2020},
+  note    = {VERIFY VENUE: arXiv id, date and authors confirmed; conference
+             publication (NeurIPS) not verified.}
 }
 
-@article{TODO-guo-calibration,
-  title  = {On Calibration of Modern Neural Networks},
-  author = {Guo, Chuan and others},
-  year   = {2017},
-  note   = {VERIFY (ICML 2017). Temperature scaling.}
+@inproceedings{li2021cascadebert,
+  title     = {{CascadeBERT}: Accelerating Inference of Pre-trained Language
+               Models via Calibrated Complete Models Cascade},
+  author    = {Li, Lei and Lin, Yankai and Chen, Deli and Ren, Shuhuai and
+               others},
+  booktitle = {Findings of the Association for Computational Linguistics:
+               EMNLP 2021},
+  year      = {2021},
+  url       = {https://aclanthology.org/2021.findings-emnlp.43},
+  note      = {arXiv:2012.14682}
 }
 
-@misc{TODO-contamination,
-  title  = {TODO: a data-contamination-in-NLP-benchmarks reference},
-  note   = {NEEDED. Find a canonical citation for benchmark contamination/leakage.}
+@inproceedings{guo2017calibration,
+  title     = {On Calibration of Modern Neural Networks},
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and
+               Weinberger, Kilian Q.},
+  booktitle = {Proceedings of the 34th International Conference on Machine
+               Learning},
+  year      = {2017},
+  note      = {arXiv:1706.04599}
+}
+
+@article{ethayarajh2019contextual,
+  title   = {How Contextual are Contextualized Word Representations? Comparing
+             the Geometry of {BERT}, {ELMo}, and {GPT-2} Embeddings},
+  author  = {Ethayarajh, Kawin},
+  journal = {arXiv preprint arXiv:1909.00512},
+  year    = {2019},
+  note    = {VERIFY VENUE: arXiv id, date and author confirmed; EMNLP 2019
+             publication not verified.}
+}
+
+@article{sainz2023contamination,
+  title   = {{NLP} Evaluation in trouble: On the Need to Measure {LLM} Data
+             Contamination for each Benchmark},
+  author  = {Sainz, Oscar and Campos, Jon Ander and Garc{\'i}a-Ferrero, Iker
+             and Etxaniz, Julen and others},
+  journal = {arXiv preprint arXiv:2310.18018},
+  year    = {2023}
+}
+
+@article{golchin2023quiz,
+  title   = {Data Contamination Quiz: A Tool to Detect and Estimate
+             Contamination in Large Language Models},
+  author  = {Golchin, Shahriar and Surdeanu, Mihai},
+  journal = {arXiv preprint arXiv:2311.06233},
+  year    = {2023}
+}
+
+@article{robinson1950ecological,
+  title   = {Ecological Correlations and the Behavior of Individuals},
+  author  = {Robinson, W. S.},
+  journal = {American Sociological Review},
+  volume  = {15},
+  number  = {3},
+  year    = {1950},
+  note    = {Reprinted in International Journal of Epidemiology (2009),
+             DOI 10.1093/ije/dyn357, which is the record verified here.
+             VERIFY original ASR pagination before submission.}
 }

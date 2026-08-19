@@ -55,81 +55,93 @@ Adaptive Inference in African NLP}
 
 %==============================================================================
 \begin{abstract}
-\todo{Opening: state the research question (one sentence).}
-
 \claim{We ask whether internal representation statistics can provide useful
 example-level difficulty signals for adaptive inference in multilingual African
 NLP, and find that they cannot in this setting---for reasons that arise before
-the representation analysis itself.}
-
-\todo{One sentence bridging to the contamination result.}
-
+the representation analysis itself.} Studying natural language inference across
+15 African languages with frozen off-the-shelf checkpoints, we report four
+results. First, evaluation validity:
 \claim{AfriXNLI's English configuration shares 1{,}047 of its 1{,}050 examples
 verbatim with XNLI evaluation data, and one widely used NLI checkpoint scores
 1.000 on that configuration's test split, a result consistent with XNLI test
-exposure.}
-
-\todo{Then, in order: (i) parameter count does not order capability across
-African languages; (ii) across three multilingual representation spaces,
-angular dispersion is dominated by language identity while effective rank is
-not, so pooled analyses invert; (iii) the association that survives language
-control is target-specific --- it predicts the probability gain from escalation
-but not whether escalation changes the prediction --- and yields no routing
-advantage over a confidence baseline.}
-
+exposure.} Because the benchmark is a translation of XNLI, its English, French
+and Swahili configurations cannot serve as clean evaluations for XNLI-trained
+models. Second, parameter count does not order capability across African
+languages: our larger checkpoint is better in seven languages and worse in
+eight, with no significant aggregate difference. Third, across three multilingual
+representation spaces---a task-tuned model, an African-adapted masked language
+model, and a generic one---angular dispersion is consistently dominated by
+between-language variance while effective rank is not, so pooled correlations
+inflate the former nearly fivefold and mask the latter. Fourth, the association
+that survives language control is target-specific: effective rank predicts the
+probability gain from escalation but not whether escalation changes the
+prediction, while cheap-model confidence shows the opposite pattern; the two
+formalisations of computational benefit correlate at only $0.655$. Under the
+tested models, signals, and compute budgets, no evaluated signal makes adaptive
+routing preferable to always-expensive inference, although an oracle exceeds it
+by eleven accuracy points at 60\% of the compute.
 \claim{Our central methodological finding is that a representation statistic can
 be highly structured and statistically significant with respect to one notion of
 computational benefit while being irrelevant to another, and therefore useless as
 a decision variable.}
-
-\todo{Do not describe the paper as proposing a method. State the negative result
-plainly. Write this section LAST.}
 \end{abstract}
 
 %==============================================================================
 \section{Introduction}
 \label{sec:intro}
 
-\todo{Para 1 --- the broader problem. Multilingual representation statistics are
-increasingly used to reason about difficulty, efficiency, and adaptive
-computation. Low-resource multilingual settings are where such methods would
-matter most and where they are least validated.}
+Suppose a representation statistic computed from a model's hidden states
+correlates with a plausible measure of example difficulty, across fifteen
+languages and nine thousand examples, at a significance level that survives
+multiple-comparison correction by thirty orders of magnitude. It is natural to
+conclude that the statistic captures something about difficulty, and reasonable
+to expect it to inform decisions that depend on difficulty---most obviously, how
+much computation an input deserves.
 
-\todo{Para 2 --- the concrete question we set out to answer: can a cheap model's
-internal representation estimate the marginal value of escalating an input to a
-more capable model?}
+This paper reports a case in which each step of that reasoning is defensible and
+the conclusion is nonetheless wrong. The setting is adaptive inference for
+low-resource multilingual natural language inference: given a cheap model and a
+more expensive one, can the cheap model's internal representation tell us which
+inputs are worth escalating? The question matters most in low-resource
+multilingual deployment, where compute is scarce and per-language performance
+varies widely, and it is precisely there that the assumptions behind such methods
+are least often checked.
 
-\todo{Para 3 --- the pivot. State that answering it required first establishing
-that the measurement setup could distinguish three things that are ordinarily
-conflated.}
 \claim{Before asking whether representation geometry predicts example
 difficulty, one must establish that the evaluation and statistical setup can
 distinguish example difficulty from language identity and from benchmark
-contamination.}
-
-\todo{Para 4 --- surface the contamination number here as well as in the
-abstract, so a reader skimming the introduction encounters it directly. It has a
-different audience from the rest of the paper.}
+contamination.} We found that our initial setup could do neither, and that
+correcting each problem changed the answer. AfriXNLI, the benchmark we use,
+shares \textbf{1{,}047 of its 1{,}050 English examples verbatim with XNLI}, and
+the off-the-shelf checkpoints used to evaluate on it are trained on XNLI; its
+English, French and Swahili configurations therefore cannot function as clean
+evaluations, and one checkpoint answers every English test item correctly.
+Pooled correlations between representation statistics and difficulty turned out
+to be substantially carried by language identity. And our own routing experiment
+optimised a predictor for one formalisation of ``benefit from computation'' while
+scoring it against another.
 
 \paragraph{This paper.}
-We report a single investigation in four stages, each answering why the overall
-answer is negative:
+We report a single investigation in four stages, each establishing why the
+overall answer is negative:
 
 \begin{enumerate}
   \item \textbf{Evaluation validity} (\S\ref{sec:f1}). AfriXNLI preserves XNLI
         examples verbatim, and contamination interacts with \emph{which} XNLI
-        split each checkpoint was trained on.
+        split each checkpoint was trained on, which the development--test
+        accuracy gap exposes without access to training data.
   \item \textbf{Capability ordering} (\S\ref{sec:f2}). Parameter count does not
         reliably order accuracy across African languages, so the compute
         hierarchy a cascade presupposes cannot be assumed.
-  \item \textbf{Language confounding} (\S\ref{sec:f3a}). Across three
-        multilingual representation spaces, some geometry statistics are
-        dominated by language identity and others are not, and naive pooled
-        analysis inverts as a result (\S\ref{sec:f3b}).
-  \item \textbf{Operational value} (\S\ref{sec:f3b}--\S\ref{sec:f4}). The
-        association that survives every control is specific to one notion of
-        computational benefit and confers no routing advantage over a trivial
-        confidence baseline, while a large oracle headroom goes unexploited.
+  \item \textbf{Language confounding and target dependence}
+        (\S\ref{sec:f3a}--\S\ref{sec:f3b}). Across three multilingual
+        representation spaces, some geometry statistics are dominated by language
+        identity and others are not, so pooled analysis both manufactures and
+        masks relationships; and the association that survives is specific to
+        which notion of computational benefit it is measured against.
+  \item \textbf{Adaptive-routing utility} (\S\ref{sec:f4}). No signal we tested
+        makes routing preferable to always-expensive inference, though an oracle
+        shows the allocation problem is learnable.
 \end{enumerate}
 
 \paragraph{What the reader should take away.}
@@ -138,32 +150,56 @@ significant without being a useful decision variable.} \claim{Which notion of
 ``benefit from computation'' one measures determines which signals appear
 informative.}
 
-%==============================================================================
 \section{Background and Related Work}
 \label{sec:related}
 
-\todo{Compact --- roughly one column, four short paragraphs. Not a survey of
-early exit; that is not the contribution.}
+\paragraph{African-language NLI.} Evaluation resources for African languages have
+expanded substantially, from named-entity benchmarks
+\citep{adelani2021masakhaner} to broader multi-task suites. IrokoBench
+\citep{adelani2025irokobench} introduces AfriXNLI, the natural language inference
+benchmark used here, by translating a subset of XNLI
+\citep{conneau2018xnli} into 16 African languages. On the modelling side,
+XLM-R \citep{conneau2020xlmr} provides the multilingual encoder that most
+African-adapted models extend, including AfroXLMR
+\citep{alabi2022afroxlmr}, which adapts it through continued pre-training on
+African-language corpora. The translated construction that makes AfriXNLI
+possible is also what creates the lineage we examine in \S\ref{sec:f1}.
 
-\paragraph{African-language NLI.} \todo{AfriXNLI, IrokoBench, XNLI lineage.}
+\paragraph{Multilingual representation geometry.} A line of work characterises
+contextual representation spaces through geometric summaries---anisotropy,
+directional concentration, and spectral or rank-based measures of how many
+dimensions a representation effectively occupies
+\citep{ethayarajh2019contextual}. Such statistics are attractive as difficulty or
+quality proxies because they are cheap to compute from a forward pass that has
+already been performed. They are also, in multilingual corpora, routinely
+reported pooled across languages, which is the practice \S\ref{sec:f3a}
+examines.
 
-\paragraph{Multilingual representation geometry.} \todo{Effective rank,
-anisotropy and angular measures, spectral concentration; their prior use as
-difficulty or quality proxies. Note that these are usually reported pooled.}
+\paragraph{Adaptive inference and cascades.} Conditional computation for
+transformer inference is well established, and we claim no novelty in the idea.
+Early-exit methods attach classifiers to intermediate layers and halt when a
+confidence criterion is met \citep{xin2020deebert} or when successive layers
+agree \citep{zhou2020pabee}. CascadeBERT \citep{li2021cascadebert} argues that
+intermediate-layer representations are unreliable for this purpose and instead
+cascades complete models, calibrating them so that a cheap model's confidence can
+govern escalation---the design our compute ladder follows. Calibration itself
+follows standard temperature scaling \citep{guo2017calibration}. Our contribution
+is not a new routing mechanism but an examination of whether representation
+statistics supply a usable signal for one.
 
-\paragraph{Adaptive inference and cascades.} \todo{Early exit (DeeBERT, PABEE,
-BERxiT), complete-model cascades (CascadeBERT), test-time compute allocation.
-State plainly that conditional computation is established and that this paper
-claims no novelty there.}
+\paragraph{Benchmark contamination.} Overlap between evaluation data and training
+corpora is a recognised threat to benchmark validity, with recent work arguing
+that contamination should be measured and reported per benchmark rather than
+assumed absent \citep{sainz2023contamination}, and proposing procedures for
+detecting it \citep{golchin2023quiz}. Translated benchmarks are an underexamined
+case: contamination can propagate through the source examples even when no target
+string was ever seen. Separately, the distinction between pooled and
+within-group association is long-standing outside NLP---the ecological fallacy
+\citep{robinson1950ecological} names precisely the inference we find multilingual
+representation analyses at risk of making.
 
-\paragraph{Evaluation contamination.} \todo{Data leakage in NLP benchmarks;
-translated-benchmark lineage as an underexamined case.}
-
-%==============================================================================
 \section{Experimental Design}
 \label{sec:design}
-
-\todo{This section earns the reader's trust. Be exhaustive and boring.}
 
 \subsection{Data and the clean-language protocol}
 AfriXNLI \citep{TODO-afrixnli} provides 18 language configurations with 450
@@ -204,9 +240,10 @@ sources supply representation statistics only and are never asked to predict.
 Checkpoint label orders differ: \texttt{mDeBERTa} and \texttt{MiniLM} emit
 $(\text{entailment}, \text{neutral}, \text{contradiction})$ while
 \texttt{xlm-roberta-large-xnli} emits the reverse. All logits are permuted into
-the AfriXNLI canonical order before any comparison. \todo{One sentence noting
-this is a silent-failure reproducibility trap: index-order comparison produces
-plausible-looking but meaningless quantities.}
+the AfriXNLI canonical order before any comparison. We note this because it fails
+silently: comparing probabilities by logit index across these checkpoints
+subtracts one class from a different one and yields plausible-looking quantities
+with no meaning.
 
 Each model receives one scalar temperature fitted by L-BFGS on the pooled clean
 \emph{development} split ($n=6{,}750$): $T=4.116$ (MiniLM), $T=1.704$
@@ -220,14 +257,15 @@ For cheap model $s$ and expensive model $e$,
 \label{eq:delta}
 \end{equation}
 with $y^\star$ the gold label and probabilities temperature-calibrated.
-\todo{Explain why a continuous target rather than a correctness flip: a
-$\{-1,0,+1\}$ target is dominated by coin-flips near the decision boundary and
-admits a fantasy oracle that exploits label noise.}
+We use a continuous target rather than a
+change in correctness because the latter takes only three values, is dominated by
+examples near the decision boundary where the outcome is close to a coin flip, and
+admits an oracle that exploits that noise rather than any property of the input.
+\S\ref{sec:twotargets} returns to this choice, which turns out to matter more than
+we initially assumed.
 
 \subsection{Which results depend on $\Delta$}
 \label{sec:dependency}
-\todo{Keep this subsection. It is unusual, and it is the single most useful
-thing we can do for a sceptical reviewer.}
 $\Delta$ is constructed from a single frozen checkpoint pair rather than the
 seed-averaged quantity the design called for (\S\ref{sec:limitations}). We
 therefore mark explicitly which results depend on it.
@@ -264,19 +302,42 @@ values of column-centred $X$, and $U$ the row-normalised $X$:
 Three sources $\times$ three layers $\times$ three statistics gives 27 features.
 
 \subsection{Statistical procedure}
-\todo{Spell out in order: (i) partial Spearman controlling for cheap-model
-confidence, token count, and subword fragmentation; (ii) per-language
-computation then Fisher-$z$ meta-analysis weighted by $n-k-3$; (iii) Holm
-correction across features; (iv) $\eta^2$ as between-language variance share;
-(v) bootstrap and permutation procedures, including the cluster bootstrap used
-in \S\ref{sec:f2}; (vi) leave-one-language-out matched-budget routing.}
+Associations between a representation statistic and a target are measured by
+partial Spearman correlation, controlling for cheap-model confidence, token count
+and subword fragmentation by regressing all quantities on the ranks of the
+controls and correlating the residuals. Every such correlation is computed
+\emph{within} each language and the 15 per-language estimates are then combined by
+Fisher-$z$ meta-analysis weighted by $n - k - 3$, yielding a pooled within-language
+estimate with a confidence interval and a two-sided $p$-value. Because 27 features
+are screened against each target, all $p$-values are Holm-corrected across
+features. Between-language structure is quantified by $\eta^2$
+(Equation~\ref{eq:eta2}), the share of a quantity's total variance lying between
+languages.
+
+Uncertainty is estimated by resampling rather than by parametric assumption.
+Correlation stability uses a within-language bootstrap and subsampling at 25\% and
+50\%; a label-permutation null establishes the scale of spurious association.
+Accuracy differences between models use a cluster bootstrap that resamples
+languages and then examples within language, since examples within a language are
+not independent and the comparison generalises over languages. Routing is
+evaluated leave-one-language-out at matched average compute budget: the predictor
+is fitted on 10 languages and applied to the held-out one, and every method is
+compared at the same escalation rate.
 
 \subsection{Benchmark lineage and contamination audit}
 \label{sec:audit}
-\todo{Present the audit procedure itself as a contribution: exact-string
-matching of AfriXNLI against XNLI splits, cross-referencing model-card
-training-data statements, and split-specific accuracy probing. Argue that this
-should precede any evaluation on a translated benchmark.}
+Before any modelling result, we audit the benchmark itself in three steps.
+First, exact-string matching of every AfriXNLI premise--hypothesis pair in the
+overlapping configurations against the XNLI evaluation splits, which establishes
+lineage independently of any documentation. Second, cross-referencing the
+training-data statements on each checkpoint's model card against the splits that
+matching implicates. Third, split-specific accuracy probing: measuring each model
+separately on the development and test configurations, since a model exposed to
+one split but not the other should show a gap that a genuinely capable model would
+not. The three steps are cheap, require no access to training corpora, and in our
+case each was necessary---the lineage alone does not identify which models are
+affected, and the cards alone do not identify which splits. We suggest this
+sequence should precede evaluation on any translated benchmark.
 
 %==============================================================================
 \section{Stage I: Evaluation Validity}\nodelta
@@ -386,9 +447,9 @@ advantage on them. We report this as a limitation rather than a controlled
 variable, since no uncontaminated African-language NLI benchmark of comparable
 coverage was available to us.
 
-\todo{Handoff to Stage II: having established which portion of the benchmark can
-support interpretation, we next ask whether the models themselves furnish the
-compute hierarchy that an adaptive-inference study presupposes.}
+Having established which portion of the benchmark can support interpretation,
+we next ask whether the models themselves furnish the compute hierarchy that an
+adaptive-inference study presupposes.
 
 \section{Stage II: Capability Is Not Ordered by Parameter Count}\nodelta
 \label{sec:f2}
@@ -450,9 +511,9 @@ fifteen the difference exceeds ten accuracy points in one direction or the other
 The aggregate near-tie is thus the average of large and inconsistent
 disagreements rather than the average of small ones.
 
-\todo{One sentence on what this does \emph{not} show --- we have not identified
-which linguistic or resource properties predict the ordering, and with 15
-languages and three checkpoints we are not positioned to.}
+We have not identified which linguistic, script, or resource properties predict
+the direction of the difference, and with 15 languages and three checkpoints we are
+not positioned to: the observation here is that the ordering varies, not why.
 
 \subsection{Consequences for adaptive inference}
 
@@ -479,11 +540,11 @@ establishes that the compute hierarchy an adaptive-inference study presupposes
 cannot be assumed from model size and must be verified per language before any
 routing claim is attempted.
 
-\todo{Handoff to Stage III(a), roughly: if model capacity cannot be ordered
-reliably by parameter count, and if representation statistics may themselves
-encode language-level structure, we next ask whether the internal variables used
-for difficulty analysis are primarily properties of examples or of the languages
-in which those examples are expressed.}
+If model capacity cannot be ordered reliably by parameter count, and if
+representation statistics may themselves carry language-level structure, then the
+next question is prior to any difficulty analysis: are the internal variables such
+analyses rely on primarily properties of examples, or of the languages those
+examples are expressed in?
 
 \section{Stage III(a): Language Identity Dominates Representation Geometry}\nodelta
 \label{sec:f3a}
@@ -659,9 +720,9 @@ variance at this layer, carries a pooled correlation of $+0.296$ with
 $\Delta_{\mathrm{prob}}$ that falls to $+0.061$ once language is controlled.
 Effective rank, at $\eta^2 = 0.040$, shows the opposite: a pooled correlation
 indistinguishable from zero ($-0.009$) that becomes $-0.127$ under the same
-control. \todo{One sentence on the selection-pressure asymmetry: an analyst
-screening features by pooled correlation would promote the first and discard the
-second, which is exactly backwards.} The inversion is not confined to
+control. An analyst screening candidate features by pooled correlation would promote
+angular dispersion and discard effective rank, which is the opposite of what the
+within-language evidence supports. The inversion is not confined to
 $\Delta_{\mathrm{prob}}$: for effective rank against $\Delta_{\mathrm{correct}}$
 the pooled correlation is $+0.050$ while the within-language estimate is
 $-0.027$, a sign reversal.
@@ -729,10 +790,9 @@ should be interpreted as a post-hoc analysis rather than a pre-specified test.}
 It rests on a single cheap--expensive pair and has not been replicated across
 model pairs.
 
-\todo{Handoff sentence to Stage IV, roughly: we therefore asked not whether
-effective rank is statistically associated with a marginal-benefit target, but
-whether any of these associations carries enough incremental information to
-support a useful routing decision.}
+We therefore asked not whether effective rank is statistically associated with
+a marginal-benefit target---it is---but whether any of these associations carries
+enough incremental information to support a useful routing decision.
 
 %==============================================================================
 \section{Stage IV: From Statistical Association to Adaptive Routing}
@@ -1027,18 +1087,53 @@ optimal adaptive signal is.}
 \section{Conclusion}
 \label{sec:conclusion}
 
-\todo{One paragraph. Restate the question, the four stages, and the broader
-implication. Introduce no new claims.}
+We set out to determine whether internal representation statistics can estimate,
+per example, the value of escalating an input to a more capable model in
+low-resource multilingual NLI. Answering that question required first
+establishing what our evaluation measured. AfriXNLI shares 1{,}047 of its 1{,}050
+English examples verbatim with XNLI, and the checkpoints commonly used to
+evaluate on it are trained on XNLI, so its English, French and Swahili
+configurations cannot serve as clean evaluations or as high-resource controls.
+Among the remaining 15 languages, parameter count does not order capability: the
+larger of our two main checkpoints is better in seven languages and worse in
+eight, with no significant aggregate difference. Across three multilingual
+representation spaces, angular dispersion is consistently dominated by language
+identity and effective rank consistently is not, so pooled correlations inflate
+the former and mask the latter. And the association that survives every control
+is specific to the target it was measured against: effective rank predicts the
+probability gain from escalation but not whether escalation changes the
+prediction, while cheap-model confidence does the reverse.
 
-%==============================================================================
+\claim{Under the tested models, signals, and compute budgets, the evaluated
+signals did not recover enough of the available headroom to make adaptive routing
+preferable to always-expensive inference.} We do not conclude that adaptive
+inference is infeasible here; an oracle reaches $0.688$ at the 60\% budget
+against $0.577$ for always-expensive inference, so a substantial and learnable
+allocation problem exists. What we conclude is narrower and, we think, more
+useful: \claim{representation structure, statistical association, and decision
+usefulness are three distinct properties, and multilingual evaluation can
+conflate all three.}
+
 \section*{Reproducibility}
-\todo{Repository, frozen commit hash, results ledger. Note that all analyses run
-from cached logits on a laptop without a GPU.}
+Code, configurations, cached model outputs and a results ledger recording every
+reported number with its sample, statistic, uncertainty and limitation are
+available at \todo{repository URL}, frozen at commit \todo{hash}. No model was
+fine-tuned. All inference was performed once on a laptop without a discrete GPU and
+cached; every analysis in this paper, including all bootstrap and permutation
+procedures, re-runs from those caches in minutes and requires no accelerator. The
+ledger also records the analyses that were superseded during the study, including
+the initial misaligned routing experiment of \S\ref{sec:targetalign}.
 
 \section*{Ethics and Data Statement}
-\todo{Public benchmarks and public checkpoints only; no human subjects.
-Identifying contamination in a widely used checkpoint is intended as a
-constructive evaluation caution, not a criticism of its authors.}
+This work uses only publicly released benchmarks and publicly released model
+checkpoints, and involves no human subjects and no new data collection. Our
+contamination findings concern the interaction between a benchmark's construction
+and a checkpoint's training data; both were documented by their authors, and we
+intend the analysis as a caution about how such artefacts are combined in
+evaluation rather than as criticism of anyone who released them. We note that
+undetected contamination is likely to distort measured progress on low-resource
+languages specifically, since the affected configurations are typically the
+high-resource controls against which low-resource results are compared.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
