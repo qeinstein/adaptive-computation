@@ -1,0 +1,451 @@
+premise	hypothesis	label
+Et il a dit, maman, je suis à la maison.	Il a appelé sa mère dès que le bus scolaire l'a déposé.	1
+Et il a dit, maman, je suis à la maison.	Il n'a pas dit un mot.	2
+Et il a dit, maman, je suis à la maison.	Il a dit à sa mère qu'il était rentré.	0
+Je ne savais pas dans quoi je me lançais, donc j'allais être rattaché à un lieu désigné à Washington.	Je ne suis jamais allé à Washington et donc quand j'ai été nommé là-bas je me suis perdu an essayant de trouver ce lieu.	1
+Je ne savais pas dans quoi je me lançais, donc j'allais être rattaché à un lieu désigné à Washington.	Je savais exactement ce que j'avais à faire quand je marchais vers Washington.	2
+Je ne savais pas dans quoi je me lançais, donc j'allais être rattaché à un lieu désigné à Washington.	Je n'étais pas tout à fait certain de ce que j'allais faire, alors je suis allé à Washington où j'étais chargé de faire un rapport.	0
+Il n'a pas pu y aller.	Il a été le premier à être invité et à profiter de l'expérience.	2
+Il n'a pas pu y aller.	Il n'avait pas l'autorisation de participer.	0
+Il n'a pas pu y aller.	Il n'avait pas le droit d'aller à l'inauguration du musée.	1
+Et j'étais comme OK, et c'était tout !	après que j'ai dit oui, c’était la fin.	0
+Et j'étais comme OK, et c'était tout !	J'ai dit non et ça a traîné encore et encore.	2
+Et j'étais comme OK, et c'était tout !	Quand j'ai dit oui, nous avons décidé de nous marier ce jour-là.	1
+J'étais juste là juste à essayer de comprendre.	J'avais bien compris depuis le début.	2
+J'étais juste là juste à essayer de comprendre.	J'essayais de comprendre où allait l'argent.	1
+J'étais juste là juste à essayer de comprendre.	J'essayais de comprendre.	0
+Et Grand-Mère racontait souvent l'histoire de sa sœur et de son beau-frère, qui avaient décidé de s'installer en ville, à Augusta, et de passer pour Blancs.	La sœur de grand-mère était blanche et a déménagé au Texas.	2
+Et Grand-Mère racontait souvent l'histoire de sa sœur et de son beau-frère, qui avaient décidé de s'installer en ville, à Augusta, et de passer pour Blancs.	La sœur de Grand-Mère n'était pas Blanche.	0
+Et Grand-Mère racontait souvent l'histoire de sa sœur et de son beau-frère, qui avaient décidé de s'installer en ville, à Augusta, et de passer pour Blancs.	La sœur de grand-mère n'était pas blanche, mais elle voulait l'être pour pouvoir aller à l'école.	1
+Mais il était, vous le savez, à bien des égards, tout comme le fils d'un propriétaire de plantation, parce qu'il était le fils de ce type qui possédait beaucoup de biens.	Son père n'a jamais rien possédé dans sa vie.	2
+Mais il était, vous le savez, à bien des égards, tout comme le fils d'un propriétaire de plantation, parce qu'il était le fils de ce type qui possédait beaucoup de biens.	Son père possédait 2000 acres de terres agricoles.	1
+Mais il était, vous le savez, à bien des égards, tout comme le fils d'un propriétaire de plantation, parce qu'il était le fils de ce type qui possédait beaucoup de biens.	Son père possédait de nombreux biens.	0
+Mais mon travail était de mettre des parachutes sur ça et des gilets de sauvetages lorsque nous le chargions et quelque part à l'étranger commencions .	Je n'avais pas de travail alors j'ai gardé toutes les boîtes à la maison.	2
+Mais mon travail était de mettre des parachutes sur ça et des gilets de sauvetages lorsque nous le chargions et quelque part à l'étranger commencions .	J'ai envoyé les boîtes au Japon.	1
+Mais mon travail était de mettre des parachutes sur ça et des gilets de sauvetages lorsque nous le chargions et quelque part à l'étranger commencions .	Je les ai expédiés.	0
+C'est comme ça que, maintenant, je reste accroché.	J'ai vérifié que la ceinture soit bien ajustée afin que je sois en sécurité.	1
+C'est comme ça que, maintenant, je reste accroché.	C'est exactement comme ça que j'ai décroché.	2
+C'est comme ça que, maintenant, je reste accroché.	C'est exactement comme ça qu'on m'a attaché.	0
+Et il était un coureur de jupon, et oh ouais, il était comme dehors. Et, ça, alors, tu sais, je ne l'aimais pas, mais de toute façon ce sont mes histoires.	Il était si fidèle et gentil.	2
+Et il était un coureur de jupon, et oh ouais, il était comme dehors. Et, ça, alors, tu sais, je ne l'aimais pas, mais de toute façon ce sont mes histoires.	Je le détestais parce qu'il était tellement arrogant.	1
+Et il était un coureur de jupon, et oh ouais, il était comme dehors. Et, ça, alors, tu sais, je ne l'aimais pas, mais de toute façon ce sont mes histoires.	Je n'étais pas un de ses fans.	0
+Lorsque je tire, lorsqu'il tire sur la verrière pour que je commence à le sortir de là, il montre deux instruments sur la gauche de l'avion qui avaient en fait fondu durant le vol.	Tous les instruments de bord de l'avion étaient intacts.	2
+Lorsque je tire, lorsqu'il tire sur la verrière pour que je commence à le sortir de là, il montre deux instruments sur la gauche de l'avion qui avaient en fait fondu durant le vol.	C'était difficile de l'en faire sortir.	1
+Lorsque je tire, lorsqu'il tire sur la verrière pour que je commence à le sortir de là, il montre deux instruments sur la gauche de l'avion qui avaient en fait fondu durant le vol.	Dans l'avion, des instruments ont fondu.	0
+Et, elle n'avait pas vraiment compris.	Hélas, elle n'était pas capable de comprendre clairement à cause de la barrière de la langue.	1
+Et, elle n'avait pas vraiment compris.	En effet, elle ne comprenait pas.	0
+Et, elle n'avait pas vraiment compris.	Elle savait exactement de quoi nous parlions.	2
+Peut-être qu'elle l'a dit à tous les autres et que je ne faisais pas attention à ce moment précis.	Je ne l'avais pas entendu quand elle en a parlé à tous les autres.	0
+Peut-être qu'elle l'a dit à tous les autres et que je ne faisais pas attention à ce moment précis.	J'ai entendu tout ce qu'elle a dit.	2
+Peut-être qu'elle l'a dit à tous les autres et que je ne faisais pas attention à ce moment précis.	Je parlais à une autre personne à ce moment-là.	1
+Nous avons seulement perdu deux, trois avions pendant que nous étions là, et, euh, la phase de test.	Quelques avions sont portés disparus en raison des conditions météorologiques.	1
+Nous avons seulement perdu deux, trois avions pendant que nous étions là, et, euh, la phase de test.	Plusieurs avions ont été perdus.	0
+Nous avons seulement perdu deux, trois avions pendant que nous étions là, et, euh, la phase de test.	Nous n'avons jamais perdu d'avion.	2
+J'ai besoin que tu fasses quelque chose pour moi.	Je n'ai pas besoin d'aide.	2
+J'ai besoin que tu fasses quelque chose pour moi.	C'est une tâche colossale que je veux qu'on accomplisse.	1
+J'ai besoin que tu fasses quelque chose pour moi.	Il y a quelque chose que j'ai besoin de voir terminé.	0
+oh c'était Snake River oh Snake River avec beaucoup de serpents dedans	Malgré son nom, la Rivière Serpent ne contient pas de serpents; elle a été nommée d'après sa forme en S.	2
+oh c'était Snake River oh Snake River avec beaucoup de serpents dedans	Snake River a beaucoup de tortues serpentines.	1
+oh c'était Snake River oh Snake River avec beaucoup de serpents dedans	La rivière Snake est remplie de serpents.	0
+exactement c'est un état actif ce n'est pas quelque chose dans laquelle on peut s'impliquer passivement et espérer une bonne performance, vraiment je ne pense pas	Je pense qu'il faut y consacrer 10 heures par jour pour être bon dans ce domaine.	1
+exactement c'est un état actif ce n'est pas quelque chose dans laquelle on peut s'impliquer passivement et espérer une bonne performance, vraiment je ne pense pas	Je pense que vous devez vous y consacrer pour bien faire.	0
+exactement c'est un état actif ce n'est pas quelque chose dans laquelle on peut s'impliquer passivement et espérer une bonne performance, vraiment je ne pense pas	Ce n'est pas grave si vous ne prenez pas cela vraiment au sérieux.	2
+et que je oense serait très intéressant est ce que nous faisons à prpos de cela je veux dire nous aurons à changer les gens qui nous représentent	Je sais juste que ce sera si ennuyeux et ne vaut pas la peine de changer ceux qui nous représentent, donc nous ne devrions même pas essayer de changer.	2
+et que je oense serait très intéressant est ce que nous faisons à prpos de cela je veux dire nous aurons à changer les gens qui nous représentent	Je pense qu'il sera difficile de changer nos représentants, mais cela en vaut la peine à la fin.	1
+et que je oense serait très intéressant est ce que nous faisons à prpos de cela je veux dire nous aurons à changer les gens qui nous représentent	Nous devons apporter des changements à ceux qui nous représentent.	0
+et ils peuvent être très gentils en plus après qu'ils aient été entraîné	Ils s'endurcissent et se refroidissent une fois l'entraînement terminé.	2
+et ils peuvent être très gentils en plus après qu'ils aient été entraîné	Ils changent rapidement en cours de formation.	1
+et ils peuvent être très gentils en plus après qu'ils aient été entraîné	En suivant une formation ils peuvent s'avérer plutôt agréables.	0
+et ça peut continuer pendant dix vingt ans, je pense que c'est un peu ridicule	Je pense que c'est stupide qu'un procès puisse se poursuivre sur autant d'années.	1
+et ça peut continuer pendant dix vingt ans, je pense que c'est un peu ridicule	Je pense que c'est fou que ça puisse durer si longtemps.	0
+et ça peut continuer pendant dix vingt ans, je pense que c'est un peu ridicule	Ça ne dure qu'une semaine.	2
+Oui toi, tu dois avoir eu un sans-fil.	Réparer celui que vous aviez déjà aurait été plus utile.	0
+Oui toi, tu dois avoir eu un sans-fil.	Celui que tu avais était forcément uniquement une version avec corde.	2
+Oui toi, tu dois avoir eu un sans-fil.	Vous en avez peut-être eu un avec un cordon optionnel.	1
+vous parlez des enseignants ou des parents ?	Vous dites que ce sont les élèves ou l'assistant qui l'ont fait ?	2
+vous parlez des enseignants ou des parents ?	Est-ce les enseignants ou les parents ?	0
+vous parlez des enseignants ou des parents ?	Que sous-entendez-vous par rapport aux parents et aux enseignants ?	1
+Eh bien, je suppose que, je suppose que oui, enfin je ne sais pas je, je n'ai pas encore vraiment réfléchi au sujet du dépistage des drogues euh en tout cas moi je n'y toucherai jamais.	Je suis totalement contre le dépistage de drogue, il n'y a aucun doute là-dessus.	2
+Eh bien, je suppose que, je suppose que oui, enfin je ne sais pas je, je n'ai pas encore vraiment réfléchi au sujet du dépistage des drogues euh en tout cas moi je n'y toucherai jamais.	Je suppose que je serais d'accord de passer un test anti-drogue.	1
+Eh bien, je suppose que, je suppose que oui, enfin je ne sais pas je, je n'ai pas encore vraiment réfléchi au sujet du dépistage des drogues euh en tout cas moi je n'y toucherai jamais.	Je le pense mais je n'ai pas fait le tour de la question en ce qui concerne le dépistage des drogues.	0
+attentif à la manière dont les actualités nationales affectent la région	Préoccupé vis-à-vis des endroits au niveau local qui sont affectés par les informations nationales.	0
+attentif à la manière dont les actualités nationales affectent la région	Je me fiche de ce que les nouvelles nationales couvrent avec des préoccupations au sujet de nos régions locales.	2
+attentif à la manière dont les actualités nationales affectent la région	Les médias nationaux font paraître nos endroits locaux attardés.	1
+mais non, habituellement c'est jupe et chemisier ou costume ou robe ou ce que vous voyez ici donc c'est sympa pour moi de travailler à la maison parce que je peux porter un pantalon	Je ne m'habille pas de façon présentable quand je travaille à la maison.	0
+mais non, habituellement c'est jupe et chemisier ou costume ou robe ou ce que vous voyez ici donc c'est sympa pour moi de travailler à la maison parce que je peux porter un pantalon	Je ne porte rien d'autre que des sweats quand je travaille à la maison.	1
+mais non, habituellement c'est jupe et chemisier ou costume ou robe ou ce que vous voyez ici donc c'est sympa pour moi de travailler à la maison parce que je peux porter un pantalon	Je porte encore des robes quand je travaille à la maison parce que je me sens plus chic.	2
+oui, il y a quelque chose que je ne peux pas comprendre dans le fait d'avoir un endroit où vivre	Avoir un endroit où vivre est un rêve devenu réalité.	1
+oui, il y a quelque chose que je ne peux pas comprendre dans le fait d'avoir un endroit où vivre	Ça m'est un peu égal tant que j'ai un endroit pour vivre.	2
+oui, il y a quelque chose que je ne peux pas comprendre dans le fait d'avoir un endroit où vivre	C'est un lieu de vie très agréable.	0
+oui oui, vous savez que ça ne me dérangerait pas tant s'ils avaient une entreprise qui était financée	Il serait facile de savoir si la société a été financée.	1
+oui oui, vous savez que ça ne me dérangerait pas tant s'ils avaient une entreprise qui était financée	Cela m'énerverait si je me rendais compte qu'ils ont financé la société.	2
+oui oui, vous savez que ça ne me dérangerait pas tant s'ils avaient une entreprise qui était financée	Cela ne me dérangerait pas si la corporation était financée.	0
+oui c'est à nous là-bas nous avons nos ruraux connections sont très mauvaises	Les connexions ici sont parfois correctes.	1
+oui c'est à nous là-bas nous avons nos ruraux connections sont très mauvaises	Nous n'établissons pas de bonnes connexions ici.	0
+oui c'est à nous là-bas nous avons nos ruraux connections sont très mauvaises	La connexion à cet endroit est la meilleure.	2
+l'un des avantages que nous avons est bien sûr les voyages	Le voyage est la partie que j'apprécie le plus.	1
+l'un des avantages que nous avons est bien sûr les voyages	Voyager est un avantage que nous recevons.	0
+l'un des avantages que nous avons est bien sûr les voyages	Nous ne récoltons aucun bénéfice.	2
+c'est c' est très mal ce uh je	J'ai entendu dire que ce n'est pas bon.	1
+c'est c' est très mal ce uh je	C'est horrible.	0
+c'est c' est très mal ce uh je	Ce n'est pas mal du tout.	2
+Ces complexes moléculaires d'ordre supérieur se forment parce que la sélection naturelle est capable d'agir sur les propriétés collectives de tels agrégats moléculaires lorsque ces propriétés collectives augmentent la capacité d'adaptation.	Tous les dispositifs moléculaires sont également complexes.	2
+Ces complexes moléculaires d'ordre supérieur se forment parce que la sélection naturelle est capable d'agir sur les propriétés collectives de tels agrégats moléculaires lorsque ces propriétés collectives augmentent la capacité d'adaptation.	Des dispositifs moléculaires plus complexes peuvent se former sous certaines conditions.	0
+Ces complexes moléculaires d'ordre supérieur se forment parce que la sélection naturelle est capable d'agir sur les propriétés collectives de tels agrégats moléculaires lorsque ces propriétés collectives augmentent la capacité d'adaptation.	Ces appareils moléculaires sont principalement utilisés pour la production de poisons divers, à des fins de protection.	1
+Mais je ne crois pas qu'un tel outil algorithmique puisse être complet.	L'algorithme ne peut pas décider comment faire un sandwich parfait sans jugement humain.	1
+Mais je ne crois pas qu'un tel outil algorithmique puisse être complet.	Il n'existe aucun outil qui puisse résoudre complètement ce problème à lui seul.	0
+Mais je ne crois pas qu'un tel outil algorithmique puisse être complet.	Ces outils fonctionnent sans problème dans certaines circonstances.	2
+La loi rachète non pas l'individu mais la communauté ou la nation dans son ensemble.	Pour la rédemption, les individus devraient se tourner vers la loi.	2
+La loi rachète non pas l'individu mais la communauté ou la nation dans son ensemble.	La loi sera rédemptrice en Amérique.	1
+La loi rachète non pas l'individu mais la communauté ou la nation dans son ensemble.	La loi sauvera la communauté et la nation.	0
+Le texte constitutionnel de 1787 stipulait que les propriétaires d'esclaves pouvaient récupérer les esclaves qui s'étaient échappés dans le territoire libre.	En 1787, une loi a été adoptée qui empêchait les gens de réclamer les esclaves qui s'étaient rendus sur des terres libres.	2
+Le texte constitutionnel de 1787 stipulait que les propriétaires d'esclaves pouvaient récupérer les esclaves qui s'étaient échappés dans le territoire libre.	Une partie du texte de la constitution a été écrit en 1787.	0
+Le texte constitutionnel de 1787 stipulait que les propriétaires d'esclaves pouvaient récupérer les esclaves qui s'étaient échappés dans le territoire libre.	Le droit de récupérer les esclaves des territoires libres n'est pas un droit populaire.	1
+Steve Harris, un biologiste moléculaire du Texas était nous a rendu visite.	Steve Harris a refusé de quitter sa maison pour quelque raison que ce soit.	2
+Steve Harris, un biologiste moléculaire du Texas était nous a rendu visite.	Steve était un biologiste de l'extérieur de la ville.	0
+Steve Harris, un biologiste moléculaire du Texas était nous a rendu visite.	Steve était en visite en Californie pour étudier un nouvel échantillon.	1
+Chaque branche (appelée morada) comptait de trente à cinquante hommes répartis en 2 catégories : les membres ordinaires, appelé hermanos disciplantes (frères disciplinés) et les cadres, appelés hermanos de luz (frères de lumière).	Plus d'une centaine d'officiers ont servi dans chaque chapitre.	2
+Chaque branche (appelée morada) comptait de trente à cinquante hommes répartis en 2 catégories : les membres ordinaires, appelé hermanos disciplantes (frères disciplinés) et les cadres, appelés hermanos de luz (frères de lumière).	Les chapitres contenaient à la fois des membres ordinaires et des officiers.	0
+Chaque branche (appelée morada) comptait de trente à cinquante hommes répartis en 2 catégories : les membres ordinaires, appelé hermanos disciplantes (frères disciplinés) et les cadres, appelés hermanos de luz (frères de lumière).	Ces unités étaient responsables de convertir les populations natives d'Amérique Centrale.	1
+Pour les 4 et 5 ans, les questions portent plus souvent sur l'organisation narrative (que se passe-t-il ensuite?	Les enfants n'apprennent généralement pas à communiquer avant l'âge de six ans.	2
+Pour les 4 et 5 ans, les questions portent plus souvent sur l'organisation narrative (que se passe-t-il ensuite?	Les enfants de cinq ans s'inquiètent de la suite des événements.	0
+Pour les 4 et 5 ans, les questions portent plus souvent sur l'organisation narrative (que se passe-t-il ensuite?	Les enfants de cinq an sont généralement considérés comme de mièvres causeurs.	1
+Intuitivement, un flux légèrement convergent dans l'espace des états permet la classification car, lorsque deux états convergent en un unique état à une date ultérieure, ces deux états sont étiquetés comme équivalents par le réseau.	Le flux convergent permet la classification.	0
+Intuitivement, un flux légèrement convergent dans l'espace des états permet la classification car, lorsque deux états convergent en un unique état à une date ultérieure, ces deux états sont étiquetés comme équivalents par le réseau.	Le flux convergent est influencé par la population.	1
+Intuitivement, un flux légèrement convergent dans l'espace des états permet la classification car, lorsque deux états convergent en un unique état à une date ultérieure, ces deux états sont étiquetés comme équivalents par le réseau.	Le flux convergent empêche la classification.	2
+Donc, ils créent avec persistence un monde non stationnaire dans lequel le passé relativement récent a des données valides.	Un monde non stationnaire est indésirable pour certains s'il doit tenir compte de l'information d'un passé lointain.	0
+Donc, ils créent avec persistence un monde non stationnaire dans lequel le passé relativement récent a des données valides.	Toutes les données de chaque période sont valables pour n'importe quel monde.	2
+Donc, ils créent avec persistence un monde non stationnaire dans lequel le passé relativement récent a des données valides.	Ces mondes hypothétiques sont utilisés pour prévoir les conditions météorologiques.	1
+Et donc, l'état n'était pas responsable de ces individus qui refusaient d'accorder des droits sociaux aux citoyens noirs.	Certaines personnes privées ont refusé des droits sociaux aux citoyens noirs.	0
+Et donc, l'état n'était pas responsable de ces individus qui refusaient d'accorder des droits sociaux aux citoyens noirs.	Les particuliers étaient blancs.	1
+Et donc, l'état n'était pas responsable de ces individus qui refusaient d'accorder des droits sociaux aux citoyens noirs.	L'État était entièrement responsable de l'attitude des particuliers.	2
+Aucune différence n'existe entre les camarades de classe plus jeunes et plus âgés dans les scores aux tests de rendement.	Bien que les jeunes et les adultes produisent les mêmes résultats aux examens, les jeunes étudiants terminent les épreuves plus vites.	1
+Aucune différence n'existe entre les camarades de classe plus jeunes et plus âgés dans les scores aux tests de rendement.	Les jeunes et les vieux camarades de classe obtiennent les mêmes résultats aux tests.	0
+Aucune différence n'existe entre les camarades de classe plus jeunes et plus âgés dans les scores aux tests de rendement.	Les élèves plus jeunes et les plus agés obtiennent des résultats différents au test car l'âge est un facteur.	2
+Déjà ici Darwin commence à s'intéresser à la vie.	Darwin a commencé en se concentrant sur le poisson.	1
+Déjà ici Darwin commence à s'intéresser à la vie.	Darwin a commencé avec une vie qui existait déjà.	0
+Déjà ici Darwin commence à s'intéresser à la vie.	Darwin s'est uniquement concentré sur l'étude de choses mortes.	2
+Chez les enfants en bas âge et en âge préscolaire, la cause principale, ce sont les otites à répétition.	Les otites mineures sont les causes les plus courantes chez les jeunes enfants.	0
+Chez les enfants en bas âge et en âge préscolaire, la cause principale, ce sont les otites à répétition.	L'otite moyenne est incroyablement rare pendant les années préscolaires d'un enfant.	2
+Chez les enfants en bas âge et en âge préscolaire, la cause principale, ce sont les otites à répétition.	La majorité des jeunes enfants contracteront une une otite moyenne.	1
+Lorsque la société civile fait l'oreille sourde, les idées folles perdent leur potentiel.	Les idées folles sont moins irritables lorsqu'elles sont ignorées par la société civile.	0
+Lorsque la société civile fait l'oreille sourde, les idées folles perdent leur potentiel.	Les idées folles deviennent plus populaires auprès de la société civile lorsqu'elles sont ignorées par la société civile.	2
+Lorsque la société civile fait l'oreille sourde, les idées folles perdent leur potentiel.	La plupart des idées folles sont ignorées par la société civile.	1
+Effectivement, nous avons notamment besoin de trouver une façon de définir l'organisation des processus réels dans le monde hors d'équilibre.	Nous avons besoin d'étiquettes pour voir où l'organisation se porte bien.	1
+Effectivement, nous avons notamment besoin de trouver une façon de définir l'organisation des processus réels dans le monde hors d'équilibre.	Nous devons classer l'organisation.	0
+Effectivement, nous avons notamment besoin de trouver une façon de définir l'organisation des processus réels dans le monde hors d'équilibre.	Nous ne devrions pas poser d'étiquettes sur quoi que ce soit.	2
+Il fit appel à Lord Julian.	Il voulait demander quelque chose à Lord Julian.	0
+Il fit appel à Lord Julian.	Il voulut demander à Lord Julian d'épargner sa femme.	1
+Il fit appel à Lord Julian.	Lord Julian était introuvable.	2
+Jeremy Pitt a répondu au rire par un serment.	Jeremy Pitt a répondu à la rigolade par un fou rire et un uppercut direct au visage du ricaneur.	2
+Jeremy Pitt a répondu au rire par un serment.	Jeremy Pitt a juré de se battre pour son pays et sa reine.	1
+Jeremy Pitt a répondu au rire par un serment.	Quelqu'un a ri près de Jeremy Pitt.	0
+Pitt, qui a regardé la scène depuis la balustrade du quart de pont, nous dit que sa seigneurie était aussi grave qu'un pasteur à une pendaison.	Pitt n'avait jamais sa seigneurie l'air aussi grave qu'alors.	1
+Pitt, qui a regardé la scène depuis la balustrade du quart de pont, nous dit que sa seigneurie était aussi grave qu'un pasteur à une pendaison.	Pitt jura qu'il n'avait rien aperçu de la scène.	2
+Pitt, qui a regardé la scène depuis la balustrade du quart de pont, nous dit que sa seigneurie était aussi grave qu'un pasteur à une pendaison.	Pitt a été témoin du caractère sérieux de sa seigneurie pendant la scène.	0
+le colonel l'accepta, et tardivement s'inclina, ôtant son large chapeau.	Le colonel a accepté une médaille délivrée par le maire de New York.	1
+le colonel l'accepta, et tardivement s'inclina, ôtant son large chapeau.	Le Colonel refusa ce qu'on lui donnait, et ne retira pas son chapeau en signe de défi.	2
+le colonel l'accepta, et tardivement s'inclina, ôtant son large chapeau.	Le colonel portait un chapeau.	0
+Tu as le culot de me réprimander parce que je ne te prendrai pas la main alors que je sais qu'elles sont tachés, alors que je sais que tu es un meurtrier et pire ? Il la regarda bouche ouverte.	Il croyait que le crime commis pouvait être un génocide.	1
+Tu as le culot de me réprimander parce que je ne te prendrai pas la main alors que je sais qu'elles sont tachés, alors que je sais que tu es un meurtrier et pire ? Il la regarda bouche ouverte.	Il a choisi de ne pas prendre ses mains, car elles sont salies par un crime.	0
+Tu as le culot de me réprimander parce que je ne te prendrai pas la main alors que je sais qu'elles sont tachés, alors que je sais que tu es un meurtrier et pire ? Il la regarda bouche ouverte.	Il a choisi de lui prendre les mains parce qu'elles étaient petites, délicates et surtout propres.	2
+Il lui fut clairement permis de s'apercevoir que c'était le gracieux et élégant jeune bagarreur de Saint-James, Lord Julian Wade, à qui chacun de ses moments était dévoué.	Lord Julian est de St. James's.	0
+Il lui fut clairement permis de s'apercevoir que c'était le gracieux et élégant jeune bagarreur de Saint-James, Lord Julian Wade, à qui chacun de ses moments était dévoué.	Elle et Lord Julian Wade ont échangé un baiser la nuit dernière.	1
+Il lui fut clairement permis de s'apercevoir que c'était le gracieux et élégant jeune bagarreur de Saint-James, Lord Julian Wade, à qui chacun de ses moments était dévoué.	Elle s'est éprise de Lord Julian Wade malgré sa nature maladroite.	2
+Mais... mais... à bord de ce bateau... ? L'officier fit un geste d'impuissance et, s'abandonnant à son égarement, devint brusquement silencieux.	La direction hurla pendant plusieurs minutes, furieuse de la débauche sur ses ponts.	2
+Mais... mais... à bord de ce bateau... ? L'officier fit un geste d'impuissance et, s'abandonnant à son égarement, devint brusquement silencieux.	L'officier était confus par ce qui se passait à bord du navire.	0
+Mais... mais... à bord de ce bateau... ? L'officier fit un geste d'impuissance et, s'abandonnant à son égarement, devint brusquement silencieux.	L'officier a été choqué par le vomissement sur le pont.	1
+Vous êtes Lord Julian Wade, je comprends, fut sa truculente salutation.	Lord Julian Wade a offert un accueil chaleureux et convivial.	2
+Vous êtes Lord Julian Wade, je comprends, fut sa truculente salutation.	Lord Julian Wade a accueilli les autres d'une manière que l’on pourrait qualifier d’hostile.	0
+Vous êtes Lord Julian Wade, je comprends, fut sa truculente salutation.	Bien que beaucoup aient essayé de l'approcher, Lord Wade était souvent froid et sans émotion.	1
+Mary Traill pourrait vous en parler.	Mary Traill peut vous en dire plus sur le singe.	1
+Mary Traill pourrait vous en parler.	Mary Traill sait tout à ce propos.	0
+Mary Traill pourrait vous en parler.	Je suis le seul à le savoir.	2
+Il y a une potence qui attend ce garnement à Port Royal. Blood serait intervenu mais Lord Julian l'en a empêché.	Blood est une organisation criminelle internationale basée à Port Royal avec laquelle Lord Julian a conclu des contrats à des fins illicites.	2
+Il y a une potence qui attend ce garnement à Port Royal. Blood serait intervenu mais Lord Julian l'en a empêché.	Le domaine de Lord Julian comprend la ville de Port Royal, une ville commerciale qui est un centre d'activité dans la région.	1
+Il y a une potence qui attend ce garnement à Port Royal. Blood serait intervenu mais Lord Julian l'en a empêché.	Port Royal dispose d'installations pour punir les criminels.	0
+Ce ne sera pas Bishop lui-même, dit Wolverstone, entre l'interrogative et l'affirmative.	Wolverstone posa une question qui fut la preuve de son assurance par rapport aux autres.	0
+Ce ne sera pas Bishop lui-même, dit Wolverstone, entre l'interrogative et l'affirmative.	Wolverstone a parlé de l'évêque comme étant l'un des plus mignons.	1
+Ce ne sera pas Bishop lui-même, dit Wolverstone, entre l'interrogative et l'affirmative.	Wolverstone n'a jamais rien dit de l'évêque.	2
+Allez-vous cesser de débiter des bêtises de mutinerie, de trahison et de cour martiale ? Blood mit son chapeau, et s'assis spontanément.	Blood avait un chapeau qu'il portait avant de s'asseoir.	0
+Allez-vous cesser de débiter des bêtises de mutinerie, de trahison et de cour martiale ? Blood mit son chapeau, et s'assis spontanément.	Blood a mis son chapeau, et a quitté la pièce sans rien dire.	2
+Allez-vous cesser de débiter des bêtises de mutinerie, de trahison et de cour martiale ? Blood mit son chapeau, et s'assis spontanément.	Le chapeau de Blood était noir, avec trois plumes d'aigle.	1
+Les choses n'avaient pas bien marché avec lui ces quinze derniers jours depuis qu'il avait accepté la commission du roi.	Il dormait profondément la nuit en sachant qu'il avait rejeté la commission du roi.	2
+Les choses n'avaient pas bien marché avec lui ces quinze derniers jours depuis qu'il avait accepté la commission du roi.	Le garder éveillé le soir était le fait d'avoir accepté la commission du roi.	0
+Les choses n'avaient pas bien marché avec lui ces quinze derniers jours depuis qu'il avait accepté la commission du roi.	La commission du Roi était un titre très prestigieux avec de nombreuses responsabilités.	1
+Ils sont à portée, cria Ogle.	Ogle a dit qu'ils étaient joignables.	0
+Ils sont à portée, cria Ogle.	Ogle a dit qu'ils étaient à portée de voix.	1
+Ils sont à portée, cria Ogle.	Bien qu'il savait qu'ils étaient à portée de tir, Ogle l'a gardé pour lui.	2
+J'ai envoyé pour vous, capitaine Blood, à cause de certaines nouvelles qui viennent de m'arriver.	Je n'ai pas entendu de nouvelles, capitaine Blood. L'avez-vous fait ?	2
+J'ai envoyé pour vous, capitaine Blood, à cause de certaines nouvelles qui viennent de m'arriver.	J'ai reçu des nouvelles avant de vous les envoyer, Capitaine Blood.	0
+J'ai envoyé pour vous, capitaine Blood, à cause de certaines nouvelles qui viennent de m'arriver.	Les nouvelles que j'ai reçues m'ont choqué au plus profond de moi-même.	1
+Après avoir regardé autour de ces collections, grimpez la colline jusqu'à la maison de la commissaire, où vous trouverez de belles vues sur la côte environnante et le reste du complexe de l'arsenal maritime.	Vous pouvez voir des bateaux au sommet de la colline.	1
+Après avoir regardé autour de ces collections, grimpez la colline jusqu'à la maison de la commissaire, où vous trouverez de belles vues sur la côte environnante et le reste du complexe de l'arsenal maritime.	Vous pouvez avoir une vue sur le littoral au sommet de la colline.	0
+Après avoir regardé autour de ces collections, grimpez la colline jusqu'à la maison de la commissaire, où vous trouverez de belles vues sur la côte environnante et le reste du complexe de l'arsenal maritime.	On ne peut pas voir la côte depuis le sommet de la colline.	2
+Derrière la zone sud-américaine, vous trouverez l'usine de parfum, où vous pouvez créer votre propre parfum personnel.	La Parfumerie est en production depuis 1954.	1
+Derrière la zone sud-américaine, vous trouverez l'usine de parfum, où vous pouvez créer votre propre parfum personnel.	L'usine de parfum est derrière la zone sud-africaine.	0
+Derrière la zone sud-américaine, vous trouverez l'usine de parfum, où vous pouvez créer votre propre parfum personnel.	L'usine de parfum se trouve en face de la zone sud-africaine.	2
+Quant aux agrumes et ananas des Bahamas, les espoirs naissants n’ont pas fait long feu.	Malgré le goût délicieux des ananas, les frais d'expédition étaient trop élevés pour les amener sur le marché.	1
+Quant aux agrumes et ananas des Bahamas, les espoirs naissants n’ont pas fait long feu.	Le citron des Bahamas fut un énorme succès, exactement comme tout le monde l'avait prédit.	2
+Quant aux agrumes et ananas des Bahamas, les espoirs naissants n’ont pas fait long feu.	Les citrons des Bahamas n'étaient pas aussi grands que tout le monde l'avait espéré.	0
+Le bras de mer, d’environ 3 km (2 miles) de diamètre, est sans doute une énorme caldera formée par une puissante éruption volcanique.	Le bruit de 2 milles aurait pu être causé par beaucoup de choses, y compris une éruption volcanique.	1
+Le bras de mer, d’environ 3 km (2 miles) de diamètre, est sans doute une énorme caldera formée par une puissante éruption volcanique.	Le son entendu à 2 mile n'était assurément pas causé par une éruption volcanique.	2
+Le bras de mer, d’environ 3 km (2 miles) de diamètre, est sans doute une énorme caldera formée par une puissante éruption volcanique.	Le son de 3 km a probablement été causé par une éruption volcanique.	0
+Là, la scène est moins détendue et le problème de la langue peut vous décourager, mais au moins, vous serez en mesure d'avoir un aperçu de la société de consommation chinoise.	C'est une bonne idée d'avoir un traducteur avec vous.	1
+Là, la scène est moins détendue et le problème de la langue peut vous décourager, mais au moins, vous serez en mesure d'avoir un aperçu de la société de consommation chinoise.	Il y a un problème de langage qui pourrait vous intimider.	0
+Là, la scène est moins détendue et le problème de la langue peut vous décourager, mais au moins, vous serez en mesure d'avoir un aperçu de la société de consommation chinoise.	Pas besoin de s'inquiéter pour la langue, tout le monde parle anglais de toute façon.	2
+Entre 1936 et 1940, la Grèce se trouvait sous la dictature militaire de Ioannis Metaxas, dont on se souvient en raison du echi (non) retentissant qu'il opposa à l'ultimatum de Mussolini exigeant la reddition en 1940.	La Grèce n'a jamais été dirigée par un dictateur militaire.	2
+Entre 1936 et 1940, la Grèce se trouvait sous la dictature militaire de Ioannis Metaxas, dont on se souvient en raison du echi (non) retentissant qu'il opposa à l'ultimatum de Mussolini exigeant la reddition en 1940.	La Grèce est l'un des pays au monde qui a eu un dictateur.	0
+Entre 1936 et 1940, la Grèce se trouvait sous la dictature militaire de Ioannis Metaxas, dont on se souvient en raison du echi (non) retentissant qu'il opposa à l'ultimatum de Mussolini exigeant la reddition en 1940.	L'économie grecque ne s'est pas bien comportée sous la dictature militaire de Metaxas.	1
+La simplicité des lignes romanes de Sant Pau est un changement agréable par rapport à l'extravagance du modernisme de Barcelone et la complexité de l'architecture gothique.	Sant Pau n'a pas de lignes romanes.	2
+La simplicité des lignes romanes de Sant Pau est un changement agréable par rapport à l'extravagance du modernisme de Barcelone et la complexité de l'architecture gothique.	Sant Pau possède des traits Romanèsques.	0
+La simplicité des lignes romanes de Sant Pau est un changement agréable par rapport à l'extravagance du modernisme de Barcelone et la complexité de l'architecture gothique.	Sant Pau possède des églises.	1
+Un coup de queue ou de patte, et c'est parti.	Il est facilement intimidé par des mouvements brusques.	1
+Un coup de queue ou de patte, et c'est parti.	Il est intrépide et ne chancellera point.	2
+Un coup de queue ou de patte, et c'est parti.	Un mouvement minuscule et voilà, il est parti.	0
+Un vaste programme de rénovation devrait être achevé d'ici la fin de 2001.	Le programme de rénovation prendra fin avant le début de l'année 2001.	2
+Un vaste programme de rénovation devrait être achevé d'ici la fin de 2001.	Le programme de reconditionnement ne sera pas terminé avant la fin de l'an 2000.	0
+Un vaste programme de rénovation devrait être achevé d'ici la fin de 2001.	Lorsque le programme de rénovation prendra fin, il aura duré cinq ans.	1
+Le personnel travaille sur un programme visant à augmenter le nombre de flamants roses dans les îles Vierges américaines et vous trouverez un petit groupe qui se reproduit avec succès chaque année.	Le personnel travaille à éliminer les flamants roses.	2
+Le personnel travaille sur un programme visant à augmenter le nombre de flamants roses dans les îles Vierges américaines et vous trouverez un petit groupe qui se reproduit avec succès chaque année.	Le personnel travaille pour augmenter le nombre de flamants sur l'île afin qu'ils puissent se rétablir de la quasi-extinction.	1
+Le personnel travaille sur un programme visant à augmenter le nombre de flamants roses dans les îles Vierges américaines et vous trouverez un petit groupe qui se reproduit avec succès chaque année.	Le personnel travaille en vue d'augmenter le nombre de flamants sur l'île.	0
+Les montagnes escarpées de la Serra de Tramuntana descendent si abruptement jusqu'à la mer qu'il y a peu de points d'accès et seulement un port de toute taille le long de la côte.	Il y a constamment des éboulements dans les montagnes et il n'est pas facile d'y construire des ports.	1
+Les montagnes escarpées de la Serra de Tramuntana descendent si abruptement jusqu'à la mer qu'il y a peu de points d'accès et seulement un port de toute taille le long de la côte.	La montagne rend difficile la construction de ports.	0
+Les montagnes escarpées de la Serra de Tramuntana descendent si abruptement jusqu'à la mer qu'il y a peu de points d'accès et seulement un port de toute taille le long de la côte.	Il y a 27 ports le long des montagnes.	2
+Avant que les Américains n’en prennent le contrôle, Culebra était appelée l'île Vierge espagnole. Elle est située dans les îles Vierges des États-Unis, à mi-chemin entre Puerto Rico et St. Thomas.	Culebra est à mi-chemin entre Porto Rico et St. Thomas dans les îles Vierges américaines.	0
+Avant que les Américains n’en prennent le contrôle, Culebra était appelée l'île Vierge espagnole. Elle est située dans les îles Vierges des États-Unis, à mi-chemin entre Puerto Rico et St. Thomas.	Culebra est situé quelque part entre Puerto Rico et St. Thomas dans les Iles Vierges américaines.	2
+Avant que les Américains n’en prennent le contrôle, Culebra était appelée l'île Vierge espagnole. Elle est située dans les îles Vierges des États-Unis, à mi-chemin entre Puerto Rico et St. Thomas.	Culebra se trouve quelque part entre Porto Rico et St. Thomas dans les îles Vierges Américaines.	1
+Umeda marque l'extrémité nord du quartier d'affaires et de divertissement populairement connu comme Kita (signifiant simplement le nord), et est l'essence même de l'agitation et de l'animation du Osaka moderne.	Umeda ne fait pas partie du quartier des spectacles.	2
+Umeda marque l'extrémité nord du quartier d'affaires et de divertissement populairement connu comme Kita (signifiant simplement le nord), et est l'essence même de l'agitation et de l'animation du Osaka moderne.	Umeda est la plus grande partie du quartier des divertissements.	1
+Umeda marque l'extrémité nord du quartier d'affaires et de divertissement populairement connu comme Kita (signifiant simplement le nord), et est l'essence même de l'agitation et de l'animation du Osaka moderne.	Umeda est l'extrémité nord du quartier des divertissements.	0
+Le troisième membre de la trinité hindoue est Brahma, dont la seule tâche était de créer le monde.	Brahma est un apôtre chrétien.	2
+Le troisième membre de la trinité hindoue est Brahma, dont la seule tâche était de créer le monde.	Brahma fait partie de la trinité Hindoue.	0
+Le troisième membre de la trinité hindoue est Brahma, dont la seule tâche était de créer le monde.	Brahma est la partie la plus importante de la trinité.	1
+Pedro a pris le trône, bien que la lutte armée ait continué pendant des mois et la rancœur persisté longtemps après cela.	10 000 personnes sont mortes à cette guerre.	1
+Pedro a pris le trône, bien que la lutte armée ait continué pendant des mois et la rancœur persisté longtemps après cela.	La guerre durait des mois.	0
+Pedro a pris le trône, bien que la lutte armée ait continué pendant des mois et la rancœur persisté longtemps après cela.	La guerre fut terminée en seulement un jour.	2
+Les systèmes de ressources humaines ont été consolidés et de nouvelles structures corporatives ont été rapidement définies pour assurer un soutien continu à la clientèle élargie.	En consolidant les systèmes de ressources humaines, une salle a été créée pour les nouvelles structures d'entreprise.	1
+Les systèmes de ressources humaines ont été consolidés et de nouvelles structures corporatives ont été rapidement définies pour assurer un soutien continu à la clientèle élargie.	Des structures corporatives ont été créées.	0
+Les systèmes de ressources humaines ont été consolidés et de nouvelles structures corporatives ont été rapidement définies pour assurer un soutien continu à la clientèle élargie.	Les systèmes de ressources humaines ont été étendus au-delà de leur état antérieur.	2
+Bien que les stratégies de financement puissent être améliorées, des fonds sont disponibles pour ce travail.	Des ressources sont disponibles pour ces tâches.	0
+Bien que les stratégies de financement puissent être améliorées, des fonds sont disponibles pour ce travail.	Il n'y a pas de financement disponible pour le travail.	2
+Bien que les stratégies de financement puissent être améliorées, des fonds sont disponibles pour ce travail.	Il n'y a pas assez de fonds pour le travail.	1
+Les statistiques sur les routes rurales présentées dans ce papier sont basées sur des données du National Mail Count de 1989.	Les données statistiques de ce document sont basées sur un rapport datant de 2001.	2
+Les statistiques sur les routes rurales présentées dans ce papier sont basées sur des données du National Mail Count de 1989.	Les statistiques présentées dans le présent document sont désuètes.	1
+Les statistiques sur les routes rurales présentées dans ce papier sont basées sur des données du National Mail Count de 1989.	Ce document comprend des données sur les routes rurales.	0
+Les cadres pourraient également recevoir une note provisoire ou échouer pour chaque élément.	Chaque élément sur lequel le cadre est évalué pourrait donner lieu à des cotes différentes.	0
+Les cadres pourraient également recevoir une note provisoire ou échouer pour chaque élément.	Les cadres ne peuvent pas échouer.	2
+Les cadres pourraient également recevoir une note provisoire ou échouer pour chaque élément.	Les cadres doivent être bien notés pour continuer.	1
+Un sujet qui est discuté lors de l'entretien initial est la réaction du ménage au courrier publicitaire.	Le fait de ne pas être d'accord durant l'entretien d'embauche ne te permettra pas d'obtenir le poste.	1
+Un sujet qui est discuté lors de l'entretien initial est la réaction du ménage au courrier publicitaire.	L'entretien d'entrée ne mentionne rien sur le courrier publicitaire.	2
+Un sujet qui est discuté lors de l'entretien initial est la réaction du ménage au courrier publicitaire.	L'entrevue initiale inclut en partie de savoir comment on réagit aux mails publicitaires.	0
+189 et les coûts d'utilisation sont estimés de la même manière.	Ils ont deviné le coût d'utilisation	0
+189 et les coûts d'utilisation sont estimés de la même manière.	Ils ont deviné que les coûts d'utilisation étaient de 10000 $.	1
+189 et les coûts d'utilisation sont estimés de la même manière.	Ils connaissaient les coûts d'utilisateur exacts.	2
+Par exemple, en GGD, une étude de design fut faites séparément, culminant	Il n'y a jamais eu d'étude de conception.	2
+Par exemple, en GGD, une étude de design fut faites séparément, culminant	Une étude conceptuelle fut menée individuellement.	0
+Par exemple, en GGD, une étude de design fut faites séparément, culminant	L'étude de conception n'a pas abouti.	1
+Les neuf agences ayant répondu ont déclaré participer à	Seuls deux des neuf organismes ont pris la peine de répondre à nos questions sur la participation.	2
+Les neuf agences ayant répondu ont déclaré participer à	Neuf organismes ont répondu par l'affirmative qu'ils participaient.	0
+Les neuf agences ayant répondu ont déclaré participer à	Ces neuf agences sont heureuses d'avoir eu un niveau de participation aussi élevé.	1
+Depuis 1996, le ratio patrimoine/revenu des foyers a augmenté rapidement, atteignant un pic à 6,4 en 1999.	Tous les ménages ont gagné 10000 $ de plus l'an dernier.	1
+Depuis 1996, le ratio patrimoine/revenu des foyers a augmenté rapidement, atteignant un pic à 6,4 en 1999.	Les ménages ont perdu beaucoup d'argent.	2
+Depuis 1996, le ratio patrimoine/revenu des foyers a augmenté rapidement, atteignant un pic à 6,4 en 1999.	Les ménages ont obtenu un ratio de revenu de richesse beaucoup plus élevé.	0
+Dans l'approche de la sous-classe, la catégorie de base et la catégorie de travail partagé reçoivent chacune un pourcentage supérieur au coût, afin d'obtenir leur taux moyen.	La catégorie de base est plus que coûteuse.	0
+Dans l'approche de la sous-classe, la catégorie de base et la catégorie de travail partagé reçoivent chacune un pourcentage supérieur au coût, afin d'obtenir leur taux moyen.	Le prix est supérieur de 10% au coût.	1
+Dans l'approche de la sous-classe, la catégorie de base et la catégorie de travail partagé reçoivent chacune un pourcentage supérieur au coût, afin d'obtenir leur taux moyen.	Le prix est toujours inférieur aux coûts.	2
+19 En supposant quatre mois de travaux avant l'attribution du marché, une durée totale de 13 mois aurait été nécessaire à la rénovation de cette chaudière de 675 MWe.	Il a fallu seulement deux mois pour le réaménager.	2
+19 En supposant quatre mois de travaux avant l'attribution du marché, une durée totale de 13 mois aurait été nécessaire à la rénovation de cette chaudière de 675 MWe.	Il a fallu 13 mois pour rénover la chaudière du sous-marin.	1
+19 En supposant quatre mois de travaux avant l'attribution du marché, une durée totale de 13 mois aurait été nécessaire à la rénovation de cette chaudière de 675 MWe.	Il a fallu 13 mois au total pour rénover la chaudière.	0
+La pénurie d'informaticiens sur le marché du travail actuellement est souvent une des raisons principales pour lesquelles les grandes organisations font appel à des sous-traitants.	Il y a trop de travailleurs des technologies de l'information.	2
+La pénurie d'informaticiens sur le marché du travail actuellement est souvent une des raisons principales pour lesquelles les grandes organisations font appel à des sous-traitants.	Il n'y a pas assez d'employés en informatique car ils sont tous allés en Inde.	1
+La pénurie d'informaticiens sur le marché du travail actuellement est souvent une des raisons principales pour lesquelles les grandes organisations font appel à des sous-traitants.	Il n'y a pas assez de travailleurs en TI pour combler les postes.	0
+Il n'est pas possible de connaître l'étendue ou la direction du biais dans le changement d'incidence total basé sur l'application générale d'une seule fonction C-R partout.	C'est évident combien de biais il y a.	2
+Il n'est pas possible de connaître l'étendue ou la direction du biais dans le changement d'incidence total basé sur l'application générale d'une seule fonction C-R partout.	Vous ne pouvez pas savoir à quel point les préjugés existent parce qu'il est difficile de les séparer des autres influences extérieures.	1
+Il n'est pas possible de connaître l'étendue ou la direction du biais dans le changement d'incidence total basé sur l'application générale d'une seule fonction C-R partout.	Vous ne savez pas quelle partialité il y a.	0
+Les coûts techniques, dus au travail effectué par une partie qui peut le faire à un coût plus élevé, sont également calculés de la même manière qu'auparavant.	Les effets des coûts techniques sont calculés d'une façon.	0
+Les coûts techniques, dus au travail effectué par une partie qui peut le faire à un coût plus élevé, sont également calculés de la même manière qu'auparavant.	Ils n'ont pas compris comment calculer les frais de fonctionnement techniques.	2
+Les coûts techniques, dus au travail effectué par une partie qui peut le faire à un coût plus élevé, sont également calculés de la même manière qu'auparavant.	Ils utilisent les données historiques pour calculer les effets de coût techniques.	1
+Exerciser 4 : Gérer le risque sur une base continue	Le chapitre quatre contient un exercice pratique sur la gestion des risques.	0
+Exerciser 4 : Gérer le risque sur une base continue	Le livre ne contient aucune information sur la gestion des risques à long terme.	2
+Exerciser 4 : Gérer le risque sur une base continue	Cet exercice doit être terminé et remis avant la fin de la semaine.	1
+Le mouvement islamiste, né vers 1940, est un produit du monde moderne, influencé par les concepts marxistes-léninistes sur l'organisation révolutionnaire.	Des concepts marxistes-léninistes ont été incorporés dans le mouvement islamiste.	0
+Le mouvement islamiste, né vers 1940, est un produit du monde moderne, influencé par les concepts marxistes-léninistes sur l'organisation révolutionnaire.	Le mouvement islamiste a commencé au sixième siècle.	2
+Le mouvement islamiste, né vers 1940, est un produit du monde moderne, influencé par les concepts marxistes-léninistes sur l'organisation révolutionnaire.	Le mouvement islamiste a été fondé à l'origine comme étant une organisation de mobilisation sociale.	1
+D'autres conseillers ont émis la même préoccupation.	Tous les conseillers étaient unanimes sur le fait qu'il n'y avait rien à craindre.	2
+D'autres conseillers ont émis la même préoccupation.	Un seul conseiller n'a pas fait part de ses préoccupations au sujet de ce plan.	1
+D'autres conseillers ont émis la même préoccupation.	Cette préoccupation est partagée par plusieurs conseillers différents.	0
+Le système a également choisi des passagers au hasard pour recevoir un examen de sécurité supplémentaire.	Tous les passagers peuvent traverser sans problème.	2
+Le système a également choisi des passagers au hasard pour recevoir un examen de sécurité supplémentaire.	Les passagers ont donc droit à des scanners corporels.	1
+Le système a également choisi des passagers au hasard pour recevoir un examen de sécurité supplémentaire.	Certains passagers se font contrôler plus soigneusement par la sécurité.	0
+Nous n'avons trouvé aucune indication que l'idée ait été transmise à la nouvelle administration ou que Clarke leur ait transmis son document, bien que la même équipe de responsables de carrière se soit étendue aux deux administrations.	Nous sommes certains à 100% que Clarke n'a jamais donné son papier à qui que ce soit.	1
+Nous n'avons trouvé aucune indication que l'idée ait été transmise à la nouvelle administration ou que Clarke leur ait transmis son document, bien que la même équipe de responsables de carrière se soit étendue aux deux administrations.	Nous ne pouvons pas trouver de preuve que Clarke lui a donné son papier.	0
+Nous n'avons trouvé aucune indication que l'idée ait été transmise à la nouvelle administration ou que Clarke leur ait transmis son document, bien que la même équipe de responsables de carrière se soit étendue aux deux administrations.	Nous sommes certains que Clarke leur a remis son papier le 2 juillet.	2
+Il n'est pas clair que le système puisse être installé avant 2010, mais même ce calendrier peut être trop lent, compte tenu des risques de sécurité possibles.	Il est difficile d'installer le système parce que les pirates l'attaquent tous les soirs.	1
+Il n'est pas clair que le système puisse être installé avant 2010, mais même ce calendrier peut être trop lent, compte tenu des risques de sécurité possibles.	Il n'est pas facile d'installer le système à cause des dangers pour la sécurité.	0
+Il n'est pas clair que le système puisse être installé avant 2010, mais même ce calendrier peut être trop lent, compte tenu des risques de sécurité possibles.	Le système de sécurité sera installé dans 6 semaines, je le promets.	2
+Par conséquent, tout en protégeant notre patrie, les Américains devraient être conscients des menaces pesant sur les libertés personnelles et civiles vitales.	Les Américains n'ont pas à s'inquiéter de leurs libertés civiles - ils seront toujours protégés.	2
+Par conséquent, tout en protégeant notre patrie, les Américains devraient être conscients des menaces pesant sur les libertés personnelles et civiles vitales.	Les Américains devraient s'assurer que leurs armes à feu ne leur sont pas enlevées.	1
+Par conséquent, tout en protégeant notre patrie, les Américains devraient être conscients des menaces pesant sur les libertés personnelles et civiles vitales.	Les Américains devraient prêter attention aux menaces qui planent sur nos libertés.	0
+La répétition ne l'a pas rendu plus efficace.	La livraison n'a pas amélioré son efficacité.	0
+La répétition ne l'a pas rendu plus efficace.	La livraison l'a rendu incroyablement efficace.	2
+La répétition ne l'a pas rendu plus efficace.	Cela ne l'a pas rendu plus efficace lorsque nous l'avons livré à la Maison-Blanche.	1
+Au niveau inférieur, le directeur de l'unité dédiée à Al-Qaïda au sein de la CIA à l'époque se rappelle avoir pensé qu'il n'était pas de son ressort de décider de ce qui aurait dû ou n'aurait pas dû être fait.	Le directeur ne voulait pas s'impliquer car il était quasiment retraité.	1
+Au niveau inférieur, le directeur de l'unité dédiée à Al-Qaïda au sein de la CIA à l'époque se rappelle avoir pensé qu'il n'était pas de son ressort de décider de ce qui aurait dû ou n'aurait pas dû être fait.	Le directeur du service n'a pas voulu être impliqué et diriger ce qui était fait.	0
+Au niveau inférieur, le directeur de l'unité dédiée à Al-Qaïda au sein de la CIA à l'époque se rappelle avoir pensé qu'il n'était pas de son ressort de décider de ce qui aurait dû ou n'aurait pas dû être fait.	Le directeur pensait que tout relevait de sa responsabilité.	2
+Pickard se souvient que la déclaration présumée a été faite lors d'un briefing du 12 juillet.	Pickard ne pouvait pas se souvenir de ce qu'ils avaient dit.	2
+Pickard se souvient que la déclaration présumée a été faite lors d'un briefing du 12 juillet.	Pickard s'est souvenu que les directives couvraient les faits de l'accident.	1
+Pickard se souvient que la déclaration présumée a été faite lors d'un briefing du 12 juillet.	Pickard s'est souvenu de ce qui a été dit au briefing.	0
+Il s'était rendu au Pakistan mais devint agité lorsqu'on lui demanda s'il avait voyagé dans des pays voisins pendant son séjour au Pakistan (le Pakistan était la route habituelle vers les camps d'entraînement en Afghanistan).	Il n'était pas rare que des terroristes traversent le Pakistan pour se rendre en Afghanistan.	0
+Il s'était rendu au Pakistan mais devint agité lorsqu'on lui demanda s'il avait voyagé dans des pays voisins pendant son séjour au Pakistan (le Pakistan était la route habituelle vers les camps d'entraînement en Afghanistan).	Le Pakistan et l'Afghanistan sont très éloignés l'un de l'autre.	2
+Il s'était rendu au Pakistan mais devint agité lorsqu'on lui demanda s'il avait voyagé dans des pays voisins pendant son séjour au Pakistan (le Pakistan était la route habituelle vers les camps d'entraînement en Afghanistan).	La formation dispensée en Afghanistan comprenait le combat au corps à corps.	1
+Pour un résumé bref de ces routines et la raison pour laquelle les écoutes téléphoniques n'ont pas été bien comprises, reférez-vous à Graham Allison and Philip Zelikow, Essence of Decision, 2d ed.	Les interceptions ont été parfaitement gérées.	2
+Pour un résumé bref de ces routines et la raison pour laquelle les écoutes téléphoniques n'ont pas été bien comprises, reférez-vous à Graham Allison and Philip Zelikow, Essence of Decision, 2d ed.	Les interceptions ont été envoyées à la mauvaise personne pour l'analyse.	1
+Pour un résumé bref de ces routines et la raison pour laquelle les écoutes téléphoniques n'ont pas été bien comprises, reférez-vous à Graham Allison and Philip Zelikow, Essence of Decision, 2d ed.	Les interceptions n'ont pas été gérées correctement.	0
+Ils rendent les cibles plus difficiles à attaquer avec succès et découragent les attaques en rendant la capture plus probable.	Ils savaient que le fait de rendre les cibles plus difficiles mènerait à une augmentation des captures.	1
+Ils rendent les cibles plus difficiles à attaquer avec succès et découragent les attaques en rendant la capture plus probable.	Ils ont fait les cibles tellement faciles qu'elles ont été capturées en seulement quelques minutes.	2
+Ils rendent les cibles plus difficiles à attaquer avec succès et découragent les attaques en rendant la capture plus probable.	Ils font que les cibles représentent un plus grand défi, donc à leur tour ils provoquent des captures plus fréquentes.	0
+Le secteur de défense aérienne du sud-est a été informé de l'événement à 9h55, 28 minutes plus tard.	28 minutes après le fait, le secteur de la défense aérienne du sud-est a reçu une notification.	0
+Le secteur de défense aérienne du sud-est a été informé de l'événement à 9h55, 28 minutes plus tard.	Le Secteur n'a pas reçu les notifications à temps en raison d'un retard dans les communications.	1
+Le secteur de défense aérienne du sud-est a été informé de l'événement à 9h55, 28 minutes plus tard.	Le secteur de défense aérienne du sud-est a reçu une notification de l'incident juste 28 secondes après qu'il ait eu lieu.	2
+Nous attendons avec impatience le débat national sur les points que nous avons recommandés et nous participerons activement à ce débat.	Il n'y a aucun intérêt à débattre ce sujet.	2
+Nous attendons avec impatience le débat national sur les points que nous avons recommandés et nous participerons activement à ce débat.	Nous voulons avoir un débat parce que nous savons que ces recommandations sont importantes.	1
+Nous attendons avec impatience le débat national sur les points que nous avons recommandés et nous participerons activement à ce débat.	Nous aimerions débattre des recommandations.	0
+Après le départ de Mihdhar, d'autres étudiants sont entrés dans la maison.	Mihdhar savait que les étudiants l'attendaient pour partir.	1
+Après le départ de Mihdhar, d'autres étudiants sont entrés dans la maison.	Les élèves sont entrés dans ma maison après que Mihdhar soit parti.	0
+Après le départ de Mihdhar, d'autres étudiants sont entrés dans la maison.	Les étudiants ont protesté à l'extérieur de la maison où habitait Mihdhar.	2
+Votre don revêt une importance majeure pour la célébration de notre 85ème saison.	Chaque cadeau que nous recevons n'est pas aussi important que le vôtre.	1
+Votre don revêt une importance majeure pour la célébration de notre 85ème saison.	Nous ne nous soucions pas du tout de votre cadeau.	2
+Votre don revêt une importance majeure pour la célébration de notre 85ème saison.	Nous faisons cela depuis plus de 80 ans.	0
+Il faut un partenariat de soutien privé et de financement universitaire pour que notre faculté de droit continue de grandir en importance et en influence.	Notre faculté de droit dépend uniquement du financement privé.	2
+Il faut un partenariat de soutien privé et de financement universitaire pour que notre faculté de droit continue de grandir en importance et en influence.	Notre école de droit est soutenue en partie par la Fondation Bill-et-Melinda-Gates.	1
+Il faut un partenariat de soutien privé et de financement universitaire pour que notre faculté de droit continue de grandir en importance et en influence.	Notre faculté de droit a besoin d'argent pour continuer à grandir.	0
+Ce n'est qu'avec l'aide de nos partenaires philanthropiques que nous avons été en mesure d'accomplir autant de choses.	Bill Gates nous a fait un don de 5 millions de dollars.	1
+Ce n'est qu'avec l'aide de nos partenaires philanthropiques que nous avons été en mesure d'accomplir autant de choses.	Compte tenu de l'état des marchés financiers, nos partenaires philanthropiques ont retiré tous leurs financements.	2
+Ce n'est qu'avec l'aide de nos partenaires philanthropiques que nous avons été en mesure d'accomplir autant de choses.	Nous avons été capables de réaliser énormément grâce à la philanthropie que nous avons reçu.	0
+Merci de soutenir le Indianapolis Museum of Art en 1999.	Merci pour votre don de 100 $ au Musée d'Art d'Indianapolis.	1
+Merci de soutenir le Indianapolis Museum of Art en 1999.	Merci, mais non-merci pour avoir traîner sur votre don de 1999.	2
+Merci de soutenir le Indianapolis Museum of Art en 1999.	Nous sommes très heureux que vous avez aidé à supporter le musée.	0
+Mon espoir est que vous avez été grandement béni et encouragé par ce problème.	J'espère que cet enjeu vous a donné un nouvel enthousiasme.	0
+Mon espoir est que vous avez été grandement béni et encouragé par ce problème.	Je sais que cette question vous cause du désespoir, mais j'ai hâte de vos vacances.	2
+Mon espoir est que vous avez été grandement béni et encouragé par ce problème.	Je sais que vous ferez tout ce qui est en votre pouvoir pour combattre le cancer du sain.	1
+Il est important que vous vous manifestiez au cours de cette dernière campagne de collecte de fonds de la saison.	C'est la dernière collecte de dons que nous aurons cette saison, donc nous avons besoin de votre aide !	0
+Il est important que vous vous manifestiez au cours de cette dernière campagne de collecte de fonds de la saison.	Nous avons deux autres collectes de fonds cette année.	2
+Il est important que vous vous manifestiez au cours de cette dernière campagne de collecte de fonds de la saison.	Nous avons besoin de 100 000 $ de plus pour établir nos quotas de collecte de fonds cette saison.	1
+P. S. Votre don est important pour notre fête des 85 ans faisant du théâtre civique d'Indianapolis le théâtre communautaire le plus ancien du pays.	Un autre théâtre a récemment célébré son 84e anniversaire, mais il a brûlé par la suite.	1
+P. S. Votre don est important pour notre fête des 85 ans faisant du théâtre civique d'Indianapolis le théâtre communautaire le plus ancien du pays.	Nous célébrons la grande ouverture du nouveau théâtre d'Indianapolis.	2
+P. S. Votre don est important pour notre fête des 85 ans faisant du théâtre civique d'Indianapolis le théâtre communautaire le plus ancien du pays.	Nous sommes très heureux que le théâtre civique d'Indianapolis fonctionne depuis 85 ans.	0
+Les participants recevront les noms, adresses et numéros de téléphone des clients potentiels, ainsi que des informations générales sur les besoins de notre établissement scolaire.	Les participants recevront les données de contact des prospects et des informations contextuelles.	0
+Les participants recevront les noms, adresses et numéros de téléphone des clients potentiels, ainsi que des informations générales sur les besoins de notre établissement scolaire.	Les participants devront signer un accord de confidentialité avant d'accéder aux informations des clients.	1
+Les participants recevront les noms, adresses et numéros de téléphone des clients potentiels, ainsi que des informations générales sur les besoins de notre établissement scolaire.	Les participants ne peuvent connaître que le nom des prospects, mais pas leur adresse.	2
+Notre Zoo a été conçu en utilisant le concept de biomes, qui simulent les habitats naturels dans lesquels les animaux vivent.	Les biomes simulent les espaces naturels de vie pour la faune.	0
+Notre Zoo a été conçu en utilisant le concept de biomes, qui simulent les habitats naturels dans lesquels les animaux vivent.	Dans notre zoo, nous croyons que les habitats artificiels sont plus meilleurs que les habitats naturels.	2
+Notre Zoo a été conçu en utilisant le concept de biomes, qui simulent les habitats naturels dans lesquels les animaux vivent.	Les biomes de notre zoo étaient très chers.	1
+Votre soutien de Goodwill fournira une formation professionnelle et des services de placement pour aider les plus en difficulté à servir dans le centre de l'Indiana à trouver un emploi intéressant.	Les habitants du centre de l'Indiana ne reçoivent jamais de formation professionnelle.	2
+Votre soutien de Goodwill fournira une formation professionnelle et des services de placement pour aider les plus en difficulté à servir dans le centre de l'Indiana à trouver un emploi intéressant.	Soutenir Goodwill profitera aux habitants de l'Indiana.	0
+Votre soutien de Goodwill fournira une formation professionnelle et des services de placement pour aider les plus en difficulté à servir dans le centre de l'Indiana à trouver un emploi intéressant.	Soutenir Goodwill fera baisser le taux de chômage.	1
+Depuis ses débuts modestes jusqu'à son rang actuel parmi les meilleurs centres médicaux universitaires du pays, l'unique faculté de médecine de l'Indiana peut se targuer d'un glorieux héritage.	L'Indiana a au moins vingt excellentes écoles de médecine.	2
+Depuis ses débuts modestes jusqu'à son rang actuel parmi les meilleurs centres médicaux universitaires du pays, l'unique faculté de médecine de l'Indiana peut se targuer d'un glorieux héritage.	L'état de l'Indiana a seulement une école de médecine.	0
+Depuis ses débuts modestes jusqu'à son rang actuel parmi les meilleurs centres médicaux universitaires du pays, l'unique faculté de médecine de l'Indiana peut se targuer d'un glorieux héritage.	Il n'y aura pas d'autre école de médecine en Indiana pendant les cinq prochaines années.	1
+Cependant, les augmentations spectaculaires des coûts des livres juridiques, des revues et des services de bases de données signifient que le simple maintien de nos collections actuelles dépasse notre budget.	L'entretien de nos collections actuelles ne coûte qu'un tiers de notre budget annuel.	2
+Cependant, les augmentations spectaculaires des coûts des livres juridiques, des revues et des services de bases de données signifient que le simple maintien de nos collections actuelles dépasse notre budget.	Notre budget actuel ne nous permet pas de maintenir nos collections actuelles.	0
+Cependant, les augmentations spectaculaires des coûts des livres juridiques, des revues et des services de bases de données signifient que le simple maintien de nos collections actuelles dépasse notre budget.	Nous avons besoin d'au moins $10000 de dons pour pouvoir conserver nos collections actuelles.	1
+Au cours des 45 prochains jours, nous tâcherons de joindre chacun de ceux d'entre vous qui n'ont pas participé durant cet exercice comptable, afin que nous puissions atteindre notre but avant la date limite du 30 juin.	Nous n'avons pas l'intention de communiquer avec ceux qui n'ont pas fait de dons au cours du présent exercice financier.	2
+Au cours des 45 prochains jours, nous tâcherons de joindre chacun de ceux d'entre vous qui n'ont pas participé durant cet exercice comptable, afin que nous puissions atteindre notre but avant la date limite du 30 juin.	Nous communiquerons par la poste dans les 45 prochains jours avec ceux qui n'ont pas donné cet exercice financier.	1
+Au cours des 45 prochains jours, nous tâcherons de joindre chacun de ceux d'entre vous qui n'ont pas participé durant cet exercice comptable, afin que nous puissions atteindre notre but avant la date limite du 30 juin.	Ces 45 prochains jours, nous tenterons de contacter toute personne n'ayant pas fait de don au cours de l'année fiscale.	0
+En tant que membre de l'école de droit__, je sais que vous êtes au courant de nos progrès.	Je suis un membre de l'école de droit.	1
+En tant que membre de l'école de droit__, je sais que vous êtes au courant de nos progrès.	Personne n'appartient à l'école de droit.	2
+En tant que membre de l'école de droit__, je sais que vous êtes au courant de nos progrès.	L'école de droit a accepté des gens.	0
+Le coût de la création de ces maisons dépasse de loin ce que nos acheteurs paient, alors nous comptons sur les subventions et les dons individuels pour les garder à un prix abordable.	La création des maisons était complètement gratuite.	2
+Le coût de la création de ces maisons dépasse de loin ce que nos acheteurs paient, alors nous comptons sur les subventions et les dons individuels pour les garder à un prix abordable.	Il fallait des ressources pour créer les logements.	0
+Le coût de la création de ces maisons dépasse de loin ce que nos acheteurs paient, alors nous comptons sur les subventions et les dons individuels pour les garder à un prix abordable.	Les maisons étaient plus chères à créer que prévu.	1
+Les paquets de couverture des newsweeklies attirent les parents anxieux.	Les parents anxieux sont l'une des cibles marketing des journaux hebdomadaires.	0
+Les paquets de couverture des newsweeklies attirent les parents anxieux.	Les journaux hebdomadaires conçoivent leurs couvertures afin d'attirer les jeunes enfants ou les personnes âgées.	2
+Les paquets de couverture des newsweeklies attirent les parents anxieux.	Les parents sont plus à même de dépenser de l'argent dans des nouvelles voitures, ce qui en fait des cibles rentables pour la publicité dans les magasines.	1
+L 'article de couverture de Time est le programme en 12 étapes de Bill Gates pour réussir à l' ère numérique.	Kim Kardashian a écrit l'article de couverture pour le Time Magazine sur les 12 étapes nécessaires pour atteindre le succès dans l'ère numérique.	2
+L 'article de couverture de Time est le programme en 12 étapes de Bill Gates pour réussir à l' ère numérique.	Le magazine Time a une photo de Bill Gates en couverture.	1
+L 'article de couverture de Time est le programme en 12 étapes de Bill Gates pour réussir à l' ère numérique.	Le magazine Time publie une histoire sur Bill Gates et le succès à l'ère du numérique.	0
+Courez en silence, exécutez en profondeur, initiez la réponse	Courir en faisant des bruits.	2
+Courez en silence, exécutez en profondeur, initiez la réponse	Courir avec les bras agités.	1
+Courez en silence, exécutez en profondeur, initiez la réponse	Courir sans faire du bruit.	0
+Paul semble considérer Alan Greenspan comme un idéologue qui contrôle réellement le taux de chômage selon les préceptes de certaines théories économiques.	Alan Greenspan a des théories économiques concernant le taux de chômage.	0
+Paul semble considérer Alan Greenspan comme un idéologue qui contrôle réellement le taux de chômage selon les préceptes de certaines théories économiques.	Paul n'a jamais entendu parler d'Alan Greenspan ou de ses théories économiques.	2
+Paul semble considérer Alan Greenspan comme un idéologue qui contrôle réellement le taux de chômage selon les préceptes de certaines théories économiques.	Paul pense que Alan Grenspan est l'économiste le plus intelligent qu'il connait.	1
+Avec l'assistance de Microsoft Helpdesk, je me suis rendu compte que mon lecteur de CD-ROM était probablement connecté à ma carte son et non au port IDE, ce qui faussait Linux.	Je n'ai jamais touché à Linux.	2
+Avec l'assistance de Microsoft Helpdesk, je me suis rendu compte que mon lecteur de CD-ROM était probablement connecté à ma carte son et non au port IDE, ce qui faussait Linux.	J'avais du mal à faire en sorte que Linux se connecte à mon modem.	1
+Avec l'assistance de Microsoft Helpdesk, je me suis rendu compte que mon lecteur de CD-ROM était probablement connecté à ma carte son et non au port IDE, ce qui faussait Linux.	J'avais des difficultés avec Linux.	0
+Steve, je n'ai même pas réussi à soulever ton portefeuille, répondit Hatch.	Hatch a dit avec colère qu'il ne pouvait même pas soulever la sacoche de Steve.	1
+Steve, je n'ai même pas réussi à soulever ton portefeuille, répondit Hatch.	Hatch n'avait pas d'aprioris sur le porte-feuille de Steve.	2
+Steve, je n'ai même pas réussi à soulever ton portefeuille, répondit Hatch.	Hatch plaisantait en disant qu'il ne pouvait même pas soulever le portefeuille de Steve.	0
+Les accrocs qui se rassemeblent dans les classes d'économie et d'informatique sont dans une bien pire situation.	Les geeks sont sans espoir.	0
+Les accrocs qui se rassemeblent dans les classes d'économie et d'informatique sont dans une bien pire situation.	Les nerds ne sont pas bons avec l'interaction sociale.	1
+Les accrocs qui se rassemeblent dans les classes d'économie et d'informatique sont dans une bien pire situation.	Les nerds ont un future.	2
+Ce qui est plus que ce que le News Quiz peut promettre à propos de Fox.	C'est moins que ce que News Quiz peut promettre à propos de Fox.	2
+Ce qui est plus que ce que le News Quiz peut promettre à propos de Fox.	C'est plus que News Quiz peut assurer en ce qui concerne Fox.	0
+Ce qui est plus que ce que le News Quiz peut promettre à propos de Fox.	C'est probablement plus que ce que le News Quiz peut dire sur Fox/	1
+La croissance de la population est comme la pollution à l'envers.	La pollution est un facteur limitant de la croissance démographique.	1
+La croissance de la population est comme la pollution à l'envers.	La croissance de la population est similaire à l'inverse de la pollution.	0
+La croissance de la population est comme la pollution à l'envers.	Il n'y pas de lien entre la croissance de la population et la pollution.	2
+Eh bien, dans la mesure où Bill Bradley a grandi à Saint Louis... attendez, désolé, ça ne serait drôle que si Al Gore avait grandi dans le Tennessee.	Bradley est originaire de l'Arkansas.	2
+Eh bien, dans la mesure où Bill Bradley a grandi à Saint Louis... attendez, désolé, ça ne serait drôle que si Al Gore avait grandi dans le Tennessee.	Bradley venait du Missouri.	0
+Eh bien, dans la mesure où Bill Bradley a grandi à Saint Louis... attendez, désolé, ça ne serait drôle que si Al Gore avait grandi dans le Tennessee.	Bradley était du côté est de Saint-Louis.	1
+Sabol a dit devoir faire un arrêt au stand occasionnel, mais même cela est organisé de manière pratique.	Sabol n'a pas besoin de faire tous ces arrêts.	1
+Sabol a dit devoir faire un arrêt au stand occasionnel, mais même cela est organisé de manière pratique.	Sabol a mentionné qu'il a de temps en temps besoin de faire une pause.	0
+Sabol a dit devoir faire un arrêt au stand occasionnel, mais même cela est organisé de manière pratique.	Sabol a fait remarquer qu'il n'a pas besoin de prendre des pauses.	2
+Pourquoi est-ce que cela ne s'applique pas sur le Web ?	Cela s'applique sur le net.	2
+Pourquoi est-ce que cela ne s'applique pas sur le Web ?	Pour le moment, ceci ne s'applique pas sur le Web.	0
+Pourquoi est-ce que cela ne s'applique pas sur le Web ?	Dans certains cas, cela peut s'appliquer sur Internet.	1
+La police a announce avoir écarté le demi-frère et la demi-sœur de JonBenet Ramsey de la liste des suspects dans son meurtre, à l'évidence parce que tous deux étaient hors de la ville lorsque le crime a été commis.	Le demi-frère de Jon Benet Ramsey n'était pas en ville lorsque le meurtre a été commis.	0
+La police a announce avoir écarté le demi-frère et la demi-sœur de JonBenet Ramsey de la liste des suspects dans son meurtre, à l'évidence parce que tous deux étaient hors de la ville lorsque le crime a été commis.	La demi-sœur de Jon Benet Ramsey a un alibi solide car elle était à l'extérieur de la ville lorsque le crime a été commis.	1
+La police a announce avoir écarté le demi-frère et la demi-sœur de JonBenet Ramsey de la liste des suspects dans son meurtre, à l'évidence parce que tous deux étaient hors de la ville lorsque le crime a été commis.	Il n'y a pas de preuves suffisantes pour arrêter le demi-frère de Jon Benet Ramsey pour meurtre.	2
+Vous n'êtes pas sûr d'avoir bien compris de quel côté vous êtes.	On voit tout de suite qui vous soutenez.	2
+Vous n'êtes pas sûr d'avoir bien compris de quel côté vous êtes.	Nous ne savons pas qui vous supportez dans l'élection.	1
+Vous n'êtes pas sûr d'avoir bien compris de quel côté vous êtes.	Nous ne savons pas qui vous soutenez.	0
+Une jour, la technologie qui crée aujourd'hui un marché pour les visionnaires sera aussi banale que les ampoules.	La technologie devient ennuyeuse après un certain temps.	0
+Une jour, la technologie qui crée aujourd'hui un marché pour les visionnaires sera aussi banale que les ampoules.	La technologie c'est toujours amusant !	2
+Une jour, la technologie qui crée aujourd'hui un marché pour les visionnaires sera aussi banale que les ampoules.	La technologie est ennuyeuse si vous ne la changez pas constamment.	1
+L'alternative ne doit pas être utilisée à la place de l'alternative.	Il n'est pas approprié d'utiliser une alternative pour signifier alternative.	0
+L'alternative ne doit pas être utilisée à la place de l'alternative.	Il est permis de remplacer la solution de rechange par une autre solution.	2
+L'alternative ne doit pas être utilisée à la place de l'alternative.	Beaucoup de gens ignorent comment utiliser correctement les mots « alternatif » et « variante ».	1
+Quand il approchait la soixantaine, en 1895, Skeat donnait l'impression qu'il prenait ces sujets avec un peu moins	Lorsque Skeat est entré dans sa soixantaine, il n'a donné aucune indication sur le fait qu'il pensait à quoi que ce soit.	2
+Quand il approchait la soixantaine, en 1895, Skeat donnait l'impression qu'il prenait ces sujets avec un peu moins	Alors que Skeat vieillissait, il donnait l'impression de moins se préoccuper de ces problèmes.	0
+Quand il approchait la soixantaine, en 1895, Skeat donnait l'impression qu'il prenait ces sujets avec un peu moins	Skeat a commencé à s'intéresser à différentes choses en vieillissant.	1
+..., mais la deuxième fois que la rencontre se produit, il est il coincé entre deux amis.	Il ne sait pas quel côté choisir entre ses deux amis.	1
+..., mais la deuxième fois que la rencontre se produit, il est il coincé entre deux amis.	Il a seulement une rencontre, ce qui implique un de ses amis.	2
+..., mais la deuxième fois que la rencontre se produit, il est il coincé entre deux amis.	La deuxième fois, la rencontre implique trois personnes.	0
+Qu’est-ce que tu préfères, les maths ou les sciences ?	Avez-vous une préférence pour les mathématiques ou la science ?	0
+Qu’est-ce que tu préfères, les maths ou les sciences ?	Que détestez-vous le plus, l'anglais ou la philosophie ?	2
+Qu’est-ce que tu préfères, les maths ou les sciences ?	Vous pouvez aimer quelque chose d'autre que les mathématiques et les sciences.	1
+Avec le temps et l'amélioration de la technologie, tous les téléphones non radiophoniques peuvent être considérés comme des téléphones filaires.	Les téléphones non radio finiront tous comme des téléphones filaires.	0
+Avec le temps et l'amélioration de la technologie, tous les téléphones non radiophoniques peuvent être considérés comme des téléphones filaires.	Les téléphones vont s'améliorer avec la technologie.	1
+Avec le temps et l'amélioration de la technologie, tous les téléphones non radiophoniques peuvent être considérés comme des téléphones filaires.	Les téléphones fixes sont plus basiques que les téléphones non-radio.	2
+La dernière phrase Nous supposons, bien sûr, que vous n'avez pas soumis cette dissertation autre part.	Nous considérons que vous n'avez présenté cet essai à personne d'autre.	0
+La dernière phrase Nous supposons, bien sûr, que vous n'avez pas soumis cette dissertation autre part.	Nous comprenons que vous avez déjà publié cet essai dans cinq journaux.	2
+La dernière phrase Nous supposons, bien sûr, que vous n'avez pas soumis cette dissertation autre part.	Nous aimerions que vous signiez un formulaire acceptant que nous sommes les seuls à qui vous avez présenté cet essai.	1
+bon frère - cette expression de l'usage actuel commun se trouve dans Jules César (iv.	Dans Jules César, on utilise le terme « bon frère ».	0
+bon frère - cette expression de l'usage actuel commun se trouve dans Jules César (iv.	Le terme bon frère n'est utilisé que depuis le XXe siècle.	2
+bon frère - cette expression de l'usage actuel commun se trouve dans Jules César (iv.	Le terme bon frère est utilisé pour désigner un beau-frère.	1
+Dans ce cas, ils pourraient être provoqués à acheter cette édition parce qu'elle contient 55 pages de mots, définitions et citations qui n'ont pas été publiées précédemment.	Ce livre comprend beaucoup de nouveaux mots qui n'ont pas été publiés auparavant.	0
+Dans ce cas, ils pourraient être provoqués à acheter cette édition parce qu'elle contient 55 pages de mots, définitions et citations qui n'ont pas été publiées précédemment.	Cette édition est la même que l'édition précédente.	2
+Dans ce cas, ils pourraient être provoqués à acheter cette édition parce qu'elle contient 55 pages de mots, définitions et citations qui n'ont pas été publiées précédemment.	Plus de cinq cent mille copies de cette édition ont été vendues la première année.	1
+Nous étions un peu intimidés par son apparence, mais nous l'avons mangé - sans enthousiasme, mais avec la lèvre supérieure raide que nous avions imbibée, pour ainsi dire, avec le lait de nos mères.	Tout le monde a mangé avec passion leurs repas et a commenté que cela leur rappelait leurs plats de vacances préférés.	2
+Nous étions un peu intimidés par son apparence, mais nous l'avons mangé - sans enthousiasme, mais avec la lèvre supérieure raide que nous avions imbibée, pour ainsi dire, avec le lait de nos mères.	Nous nous sommes sentis obligés de manger ce qui nous a été présenté parce que nous ne voulions pas offenser nos hôtes.	1
+Nous étions un peu intimidés par son apparence, mais nous l'avons mangé - sans enthousiasme, mais avec la lèvre supérieure raide que nous avions imbibée, pour ainsi dire, avec le lait de nos mères.	Nous avons mangé à contrecœur ce qui nous a été donné, même si nous n'aimions pas son aspect.	0
+Quel âge ont les jeunes ?	Je sais exactement quel âge ont les gens.	2
+Quel âge ont les jeunes ?	Les jeunes sont un groupe que certaines personnes ont du mal à classer par âge.	0
+Quel âge ont les jeunes ?	Tous les jeunes on moins de vingt-cinq ans.	1
+En outre, leur concept du temps est circulaire, et non linéaire. Il n'est donc pas aussi important de marquer le passage du temps que de célébrer le retour des événements saisonniers.	Puisque leur concept du temps est linéaire, le passage du temps est plus important que le retour d'évènements saisonniers.	2
+En outre, leur concept du temps est circulaire, et non linéaire. Il n'est donc pas aussi important de marquer le passage du temps que de célébrer le retour des événements saisonniers.	Parce qu'ils considèrent le temps comme circulaire, le retour des événements saisonniers est plus important pour eux.	0
+En outre, leur concept du temps est circulaire, et non linéaire. Il n'est donc pas aussi important de marquer le passage du temps que de célébrer le retour des événements saisonniers.	Ils célèbrent les événements de manière saisonnière, parce-qu'ils pensent que le temps est une boucle.	1
+Par exemple, certains ont des dérivations distinctement retirées de l'équipement utilisé ou du terrain sur lequel le jeu est joué.	Tous les sports tirent leurs noms d'un équipement utilisé dans le sport.	2
+Par exemple, certains ont des dérivations distinctement retirées de l'équipement utilisé ou du terrain sur lequel le jeu est joué.	Certains jeux ne portent pas le nom de l'équipement ou du terrain.	0
+Par exemple, certains ont des dérivations distinctement retirées de l'équipement utilisé ou du terrain sur lequel le jeu est joué.	Cela se produit souvent lorsqu'un sport est créé en utilisant l'équipement existant d'autres sports.	1
+Mon défi : je recherche un mot qui puisse être coupé en deux petits bouts.	J'ai trouvé trois mots qui peuvent être coupés en deux formes successives plus courtes.	2
+Mon défi : je recherche un mot qui puisse être coupé en deux petits bouts.	J'ai eu du mal à trouver un mot qui peut être coupé en deux formes successivement plus petites.	0
+Mon défi : je recherche un mot qui puisse être coupé en deux petits bouts.	Je me suis intéressé à la linguistique, car j'ai participé à une classe pour débutant l'année dernière.	1
+Mais ce gloss sur la dédicace est omis dans la revue, ne laissant pas le lecteur plus sage qu'avant.	Le livre était dédié à la mère de l'auteur.	1
+Mais ce gloss sur la dédicace est omis dans la revue, ne laissant pas le lecteur plus sage qu'avant.	L'examen a couvert toutes les informations qu'un lecteur pourrait avoir besoin de savoir.	2
+Mais ce gloss sur la dédicace est omis dans la revue, ne laissant pas le lecteur plus sage qu'avant.	La critique ne couvre pas toutes les informations essentielles de la dédicace.	0
+en fin d'année du 19ème siècle il avait beaucoup de discussion concernant le mot	Il a finalement été décidé que le mot n'était pas acceptable en société.	1
+en fin d'année du 19ème siècle il avait beaucoup de discussion concernant le mot	Ce mot a fait l'objet d'un débat il y a de nombreuses années.	0
+en fin d'année du 19ème siècle il avait beaucoup de discussion concernant le mot	Le mot a été abandonné et oublié avant la fin du XIXème siècle.	2

@@ -288,46 +288,101 @@ $\Delta(x)$; see \S\ref{sec:dependency}.}\addtocounter{footnote}{-1}}
 \claim{AfriXNLI is a translation of XNLI, and XNLI-trained checkpoints therefore
 cannot be evaluated cleanly on its English, French, or Swahili configurations.}
 
-Of the 1{,}050 unique English premise--hypothesis pairs in AfriXNLI,
-\textbf{1{,}047 (99.7\%)} appear verbatim in XNLI evaluation splits, and the
-450-example AfriXNLI English development split is \emph{exactly} XNLI validation.
+An evaluation can only support conclusions about model behaviour to the extent
+that it measures behaviour rather than recall. We therefore begin by establishing
+what our evaluation measures, before using it to interpret anything about
+representations.
+
+\subsection{Benchmark lineage}
+
+AfriXNLI is constructed by translating a subset of XNLI into 16 African
+languages, and its own documentation states that it retains the original English
+and French subsets and that its \texttt{dev} and \texttt{test} splits are subsets
+of the corresponding XNLI splits. We confirm this by exact string matching: of
+the 1{,}050 unique English premise--hypothesis pairs in AfriXNLI, \textbf{1{,}047
+(99.7\%)} occur verbatim in the XNLI evaluation splits, and the 450-example
+AfriXNLI English development split is \emph{exactly} XNLI validation. Because
+XNLI covers 15 languages including Swahili and French, the two benchmarks
+intersect at \{\texttt{eng}, \texttt{fra}, \texttt{swa}\}.
+
+This lineage is public and, in itself, unsurprising: translated benchmarks are
+built from source benchmarks. It becomes consequential when combined with the
+training data of the checkpoints used to evaluate on it. The model cards for both
+cheap rungs state training on XNLI---MiniLM specifically on ``the XNLI
+development dataset and the MNLI train dataset''---and the large rung's card
+states fine-tuning on ``a combination of NLI data in 15 languages'' without
+identifying which splits.
+
+\subsection{Split-specific contamination}
+
+\claim{The contamination is split-specific, and the gap between development and
+test accuracy acts as a fingerprint of which split a model was exposed to.}
 
 \begin{table}[t]
 \centering
 \small
-\begin{tabular}{lcccc}
+\begin{tabular}{lcccccc}
 \toprule
-& \multicolumn{3}{c}{Contaminated configs (test)} & Clean \\
-\cmidrule(lr){2-4}
-Model & \texttt{eng} & \texttt{fra} & \texttt{swa} & 15 langs \\
+& \multicolumn{2}{c}{\texttt{eng}} & \multicolumn{2}{c}{\texttt{fra}}
+& \multicolumn{2}{c}{\texttt{swa}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Model & dev & test & dev & test & dev & test \\
 \midrule
-MiniLM-L6      & 0.760 & 0.720 & 0.622 & 0.410 \\
-mDeBERTa-base  & 0.890 & 0.867 & 0.742 & 0.545 \\
-XLM-R-large    & \textbf{1.000} & \textbf{0.995} & \textbf{0.978} & 0.523 \\
+MiniLM-L6     & 0.887 & 0.760 & 0.927 & 0.720 & 0.891 & 0.622 \\
+mDeBERTa-base & 1.000 & 0.890 & 0.998 & 0.867 & 0.993 & 0.742 \\
+XLM-R-large   & 0.998 & \textbf{1.000} & 0.987 & \textbf{0.995} & 0.973 & \textbf{0.978} \\
 \bottomrule
 \end{tabular}
-\caption{Test-split accuracy. $n=600$ per contaminated configuration,
-$n=9{,}000$ for the clean set.}
-\label{tab:contamination}
+\caption{Accuracy on the contaminated configurations, full splits
+($n=450$ dev, $n=600$ test). The two models whose cards report training on XNLI
+\emph{development} data lose 11--27 points from dev to test. XLM-R-large loses
+nothing.}
+\label{tab:devtest}
 \end{table}
 
-\claim{The contamination is split-specific.} MiniLM and mDeBERTa report training
-on the XNLI \emph{development} set and memorise it accordingly---mDeBERTa scores
-1.000 on AfriXNLI English \emph{dev} but 0.890 on English \emph{test}.
-XLM-R-large scores 1.000 on English test and 0.978 on Swahili test, which is
-\claim{consistent with XNLI test exposure}, though its card does not specify the
-split.
+Table~\ref{tab:devtest} separates the three checkpoints sharply. MiniLM and
+mDeBERTa perform far better on the development configurations than on the test
+configurations---mDeBERTa is perfect on English dev at $1.000$ and falls to
+$0.890$ on English test, and the corresponding Swahili drop is 25 points. This is
+the pattern their cards predict: both report training on XNLI development data,
+and AfriXNLI development \emph{is} XNLI validation.
 
-\todo{Table: which model saw which split, the card quotation, and the observed
-accuracy, aligned so the correspondence is visually immediate. This is the
-figure a reader will remember.}
+XLM-R-large shows no such gap. It scores $0.998$ on English dev and $1.000$ on
+English test, $0.973$ and $0.978$ on Swahili. \claim{This is consistent with
+exposure to XNLI test data as well as development data}, but we state it as a
+consistency rather than a fact: the model card does not specify which splits were
+used, and we cannot verify training data we do not have access to. What can be
+said without inference is that the checkpoint answers every English test item
+correctly, and that no model in our study achieves anything remotely comparable
+on uncontaminated languages, where the same checkpoint reaches $0.523$.
 
-\paragraph{Wording constraint.} For the 15 African configurations this is
-\emph{benchmark-lineage} contamination: the surface strings are translations,
-but the underlying examples were seen in other languages. It is not verbatim
-leakage and must not be described as such.
+\subsection{What follows, and what does not}
 
-%==============================================================================
+\todo{One short paragraph distinguishing three claims of decreasing certainty:
+(i) the lineage, which is documented and measured; (ii) the dev-split exposure of
+MiniLM and mDeBERTa, which is documented on their cards and corroborated by the
+dev--test gap; (iii) the test-split exposure of XLM-R-large, which is inferred
+from behaviour alone. Only (i) and (ii) are established.}
+
+The practical consequence is that \texttt{eng}, \texttt{fra}, and \texttt{swa}
+cannot serve as clean evaluations---or, more importantly for this study, as the
+high-resource control against which African-language behaviour is compared. We
+exclude them from all subsequent analysis and work with the 15 remaining
+configurations.
+
+That exclusion does not make the remainder pristine.
+\claim{For the 15 African configurations this is benchmark-lineage contamination
+rather than verbatim leakage}: the surface strings are translations the models
+have not seen, but the underlying premise--hypothesis pairs were seen in other
+languages. A model with strong cross-lingual transfer may therefore retain some
+advantage on them. We report this as a limitation rather than a controlled
+variable, since no uncontaminated African-language NLI benchmark of comparable
+coverage was available to us.
+
+\todo{Handoff to Stage II: having established which portion of the benchmark can
+support interpretation, we next ask whether the models themselves furnish the
+compute hierarchy that an adaptive-inference study presupposes.}
+
 \section{Stage II: Capability Is Not Ordered by Parameter Count}\nodelta
 \label{sec:f2}
 

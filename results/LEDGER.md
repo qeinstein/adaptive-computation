@@ -44,14 +44,19 @@ cannot be evaluated cleanly on its eng/fra/swa configs.
 | AfriXNLI-eng/dev vs XNLI validation | 450/450 — exact |
 | XNLI ∩ AfriXNLI languages | {eng, fra, swa} |
 
-Accuracy on the **test** split of the contaminated configs (n=1,800; 600 each),
-like-for-like with the 9,000-example clean figure:
+Accuracy on the contaminated configs, **full dev and test splits**
+($n=450$ dev, $n=600$ test; accuracy is temperature-invariant so no calibration
+is involved):
 
-| model | eng | fra | swa | 15 clean langs |
-|---|---|---|---|---|
-| MiniLM-L6 | 0.760 | 0.720 | 0.622 | 0.410 |
-| mDeBERTa-base | 0.890 | 0.867 | 0.742 | 0.545 |
-| **XLM-R-large** | **1.000** | **0.995** | **0.978** | 0.523 |
+| model | eng/dev | eng/test | fra/dev | fra/test | swa/dev | swa/test | 15 clean (test) |
+|---|---|---|---|---|---|---|---|
+| MiniLM-L6 | 0.887 | 0.760 | 0.927 | 0.720 | 0.891 | 0.622 | 0.410 |
+| mDeBERTa-base | 1.000 | 0.890 | 0.998 | 0.867 | 0.993 | 0.742 | 0.545 |
+| XLM-R-large | 0.998 | **1.000** | 0.987 | **0.995** | 0.973 | **0.978** | 0.523 |
+
+**The dev–test gap is a contamination fingerprint.** MiniLM and mDeBERTa — the two
+whose cards report training on XNLI *development* data — drop 11–27 points from dev
+to test. XLM-R-large drops nothing; test is marginally higher than dev on all three.
 
 **The contamination is split-specific, and this is the sharper claim.** MiniLM and
 mDeBERTa were trained on XNLI *dev*, so they memorise dev (mDeBERTa scores 1.000 on
