@@ -171,6 +171,46 @@ tokens, so all three statistics are partly length-sensitive by construction.
 **Claim.** One geometry statistic has a statistically unimpeachable association with
 Δ that confers no practical routing advantage over a confidence threshold.
 
+### 4a-pre. THE TWO NOTIONS OF MARGINAL BENEFIT ARE NOT INTERCHANGEABLE
+
+Post-hoc (`src/dual_target.py`), prompted by the Stage IV target-misalignment
+correction. Same procedure for both targets: partial Spearman per language
+controlling for confidence, token count and fragmentation; Fisher-z meta;
+Holm across all 27 features.
+
+| | Δ_prob = p_e(y*) − p_s(y*) | Δ_correct = 1[ŷ_e=y*] − 1[ŷ_s=y*] |
+|---|---|---|
+| corr between targets | \multicolumn{2}{c}{+0.655} | |
+| η² (between-language) | 0.126 | **0.033** |
+| distribution | continuous, sd 0.221 | +1: 24.7%, 0: 64.1%, −1: 11.2% |
+
+| feature | vs Δ_prob | Holm | vs Δ_correct | Holm |
+|---|---|---|---|---|
+| mdeberta L12 eff_rank | **−0.127** [−0.147,−0.106] | 5.8e−32 | −0.027 [−0.048,−0.006] | **0.28 (n.s.)** |
+| mdeberta L12 spec_conc | +0.099 | 2.9e−19 | +0.003 | 1.0 |
+| mdeberta L8 ang_disp | +0.061 | 2.2e−07 | +0.007 | 1.0 |
+| mdeberta L12 ang_disp | +0.029 | 0.13 (n.s.) | **−0.066** [−0.086,−0.045] | **1.6e−08** |
+| **confidence baseline** | **+0.003** [−0.018,+0.023] | — | **−0.099** [−0.120,−0.079] | — |
+
+**KEY CLAIM (candidate paper centrepiece).**
+
+> The representation signal is real but attaches to the wrong quantity. Effective
+> rank predicts the continuous probability gain from escalation (ρ=−0.127,
+> Holm p=5.8e−32) but not whether escalation changes the prediction (ρ=−0.027,
+> Holm p=0.28, not significant). Confidence shows the reverse pattern (+0.003 vs
+> −0.099). The two notions of "benefit from more computation" are correlated at
+> only +0.655 and are predicted by different features — for one feature
+> (L12 angular dispersion) with opposite signs.
+
+This explains the Stage IV routing outcome mechanistically rather than leaving it
+as an unexplained baseline loss, and it supersedes "the effect is real but tiny"
+as the characterisation of Finding 4. The effect is real, and it is *targeted at a
+quantity that is not the decision variable*.
+
+Also note η²(Δ_correct)=0.033 vs η²(Δ_prob)=0.126: target choice determines how
+much language confounding is inherited. And pooling inverts the eff_rank/Δ_correct
+sign too (pooled +0.050 vs within −0.027).
+
 ### 4a. The association is real
 
 Feature: `mdeberta_base_L12_eff_rank`. Pair: MiniLM → mDeBERTa. n = 9,000.
