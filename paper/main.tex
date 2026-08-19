@@ -358,11 +358,18 @@ on uncontaminated languages, where the same checkpoint reaches $0.523$.
 
 \subsection{What follows, and what does not}
 
-\todo{One short paragraph distinguishing three claims of decreasing certainty:
-(i) the lineage, which is documented and measured; (ii) the dev-split exposure of
-MiniLM and mDeBERTa, which is documented on their cards and corroborated by the
-dev--test gap; (iii) the test-split exposure of XLM-R-large, which is inferred
-from behaviour alone. Only (i) and (ii) are established.}
+Three claims of decreasing certainty are involved here, and we separate them
+deliberately. The \emph{lineage}---that AfriXNLI is derived from XNLI and shares
+its evaluation examples---is both documented by the dataset and measured by us
+through exact string matching; it is established. The \emph{development-split
+exposure} of MiniLM and mDeBERTa is stated on their model cards and independently
+corroborated by the dev--test gap in Table~\ref{tab:devtest}; it is likewise
+established. The \emph{test-split exposure} of XLM-R-large is neither documented
+nor directly verifiable, and is inferred from behaviour alone; it is not
+established, and nothing in the remainder of this paper depends on it. Readers
+who reject the third claim should still treat the first two as grounds for
+excluding the affected configurations, since exclusion follows from the lineage
+regardless of any individual model's training history.
 
 The practical consequence is that \texttt{eng}, \texttt{fra}, and \texttt{swa}
 cannot serve as clean evaluations---or, more importantly for this study, as the
@@ -390,44 +397,94 @@ compute hierarchy that an adaptive-inference study presupposes.}
 model wins on a given African language; the ordering is language-dependent and
 unstable.}
 
+An adaptive-inference system presupposes a hierarchy of computational
+alternatives: escalation must purchase something. The most convenient way to
+construct such a hierarchy is by parameter count, treating a larger checkpoint as
+the more capable one. This section asks whether that assumption holds in the
+setting we are studying.
+
+\subsection{Parameter count is not a sufficient proxy}
+
 \begin{table}[t]
 \centering
 \small
-\begin{tabular}{lrrr}
+\begin{tabular}{lrrrr}
 \toprule
-Model & Params & Accuracy & Above chance \\
+Model & Params & Layers & Accuracy & Above chance \\
 \midrule
-MiniLMv2-L6      & $\sim$118M & 0.410 & 11/15 \\
-mDeBERTa-v3-base & $\sim$278M & 0.545 & 14/15 \\
-XLM-R-large      & $\sim$560M & 0.523 & 14/15 \\
+MiniLMv2-L6      & $\sim$118M & 6  & 0.410 & 11/15 \\
+mDeBERTa-v3-base & $\sim$278M & 12 & 0.545 & 14/15 \\
+XLM-R-large      & $\sim$560M & 24 & 0.523 & 14/15 \\
 \bottomrule
 \end{tabular}
-\caption{Accuracy on 15 clean languages ($n=9{,}000$). Chance is $0.333$;
+\caption{Accuracy on the 15 clean languages ($n=9{,}000$). Chance is $0.333$;
 ``above chance'' counts languages whose Wilson 95\% lower bound exceeds it.}
 \label{tab:capability}
 \end{table}
 
-The aggregate mDeBERTa$-$XLM-R gap of $+0.022$ is \textbf{not significant}: a
-cluster bootstrap over languages and then examples within language
-(5{,}000 replicates) gives 95\% CI $[-0.035, +0.083]$, $P(\text{diff}>0)=0.772$.
-\todo{Footnote: an example-level bootstrap gives $[+0.009,+0.035]$ but ignores
-language clustering and is the wrong analysis. Keep --- it is a useful
-cautionary detail.} Per-language differences range from $-0.145$ to $+0.220$
-with no consistent winner (Appendix~\ref{app:perlang}).
+Table~\ref{tab:capability} shows that accuracy is not monotone in size. The
+largest checkpoint, with roughly twice the parameters and twice the depth of
+mDeBERTa-base, is the second-best of the three. We do not claim it is worse. The
+aggregate difference of $+0.022$ in mDeBERTa's favour is not statistically
+distinguishable from zero: a cluster bootstrap resampling languages and then
+examples within language (5{,}000 replicates) gives a 95\% confidence interval of
+$[-0.035, +0.083]$, with $P(\mathrm{diff} > 0) = 0.772$.\footnote{An
+example-level bootstrap gives $[+0.009, +0.035]$, apparently excluding zero. That
+interval is wrong for this comparison: examples within a language are not
+independent draws, and the quantity of interest generalises over languages rather
+than over items within the 15 we happen to have. We report it only to note that
+the choice of resampling unit changes the conclusion.} The defensible statement
+is weaker and more useful than an ordering: parameter count simply does not
+determine which of these two models is better.
 
-\paragraph{Wording constraint.} \claim{Do not write that the larger model is
-worse.} The result is that the ordering is language-dependent and not
-predictable from parameter count.
+\subsection{The better model is language-dependent}
 
-\paragraph{Consequence for the investigation.} A cascade presupposes a capacity
-ladder. $\Delta_{\text{mDeBERTa}\rightarrow\text{XLM-R}}$ has mean $-0.011$
-(helps 37.5\%, hurts 39.7\%): no ladder exists. Only
-MiniLM$\rightarrow$mDeBERTa forms one ($\sim 8\times$ FLOPs, mean
-$\Delta=+0.099$, sd $0.221$; helps 51.2\%, hurts 26.0\%, flat 22.7\%), and only
-in the 11/15 languages where the cheap rung clears chance. \todo{Note that this
-already constrains what any routing result could claim.}
+\claim{A model can be substantially better than another for one language and
+substantially worse for a second.} Per-language accuracy differences between
+mDeBERTa and XLM-R-large span
+$-0.145 \le \Delta_{\mathrm{acc}} \le +0.220$
+(Appendix~\ref{app:perlang}): XLM-R-large is 14.5 points better on Amharic and
+12.7 on Oromo, while mDeBERTa is 22.0 points better on Igbo and 20.0 on Shona.
+Seven languages favour mDeBERTa and eight favour XLM-R-large, and in six of the
+fifteen the difference exceeds ten accuracy points in one direction or the other.
+The aggregate near-tie is thus the average of large and inconsistent
+disagreements rather than the average of small ones.
 
-%==============================================================================
+\todo{One sentence on what this does \emph{not} show --- we have not identified
+which linguistic or resource properties predict the ordering, and with 15
+languages and three checkpoints we are not positioned to.}
+
+\subsection{Consequences for adaptive inference}
+
+This matters directly for the framing of the present study.
+\claim{If the expensive model is not reliably more capable, escalation cannot be
+interpreted as purchasing additional intelligence; it purchases a different model
+whose value depends on the language and input regime.} A cascade ordered by
+parameter count is, in this setting, not a compute ladder but a model switch with
+a language-dependent sign.
+
+The consequence is measurable. For the mDeBERTa$\rightarrow$XLM-R-large pair,
+$\Delta_{\mathrm{prob}}$ has mean $-0.011$: escalation helps on 37.5\% of
+examples and hurts on 39.7\%, which is not a target a router can profitably
+predict because there is no aggregate benefit to allocate. Only the
+MiniLM$\rightarrow$mDeBERTa pair forms a usable ladder---approximately
+$8\times$ the floating-point operations, mean $\Delta_{\mathrm{prob}} = +0.099$
+(sd $0.221$), helping on 51.2\% of examples and hurting on 26.0\%---and even that
+holds only for the 11 of 15 languages in which the cheap rung exceeds chance. All
+routing experiments in \S\ref{sec:f4} are therefore restricted to those 11
+languages, which is a real limitation on their generality.
+
+We emphasise that this section establishes nothing about routing itself. It
+establishes that the compute hierarchy an adaptive-inference study presupposes
+cannot be assumed from model size and must be verified per language before any
+routing claim is attempted.
+
+\todo{Handoff to Stage III(a), roughly: if model capacity cannot be ordered
+reliably by parameter count, and if representation statistics may themselves
+encode language-level structure, we next ask whether the internal variables used
+for difficulty analysis are primarily properties of examples or of the languages
+in which those examples are expressed.}
+
 \section{Stage III(a): Language Identity Dominates Representation Geometry}\nodelta
 \label{sec:f3a}
 
