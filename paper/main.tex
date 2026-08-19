@@ -949,36 +949,81 @@ not provide (\S\ref{sec:limitations}).
 \section{Limitations}
 \label{sec:limitations}
 
-\paragraph{$\Delta$ is not seed-averaged.} \claim{The intended target was
-$\Delta$ averaged over multiple fine-tuning seeds; frozen off-the-shelf
-checkpoints made this impossible, so part of the variance in
-Equation~\ref{eq:delta} is checkpoint idiosyncrasy rather than example
-difficulty.} This cuts specifically against \S\ref{sec:f3b}--\S\ref{sec:f4}: a
-cleaner target might prove more predictable. \todo{This is the single most
-significant methodological gap; state it in these terms and reference
-Table~\ref{tab:dependency}.}
+\paragraph{The marginal-gain target.} The most significant limitation concerns
+the construction of $\Delta$, and it has two parts.
 
-\paragraph{Benchmark lineage affects the clean languages too.} They are
-translations of XNLI examples the checkpoints saw in other languages.
+The first is a matter of interpretation. $\Delta_{\mathrm{prob}}$ is a
+well-defined and useful quantity for the descriptive analysis of
+\S\ref{sec:f3b}: it measures continuously how much escalation changes the model's
+probability on the correct label, and a continuous target admits far more
+statistical power than a ternary one. \claim{But our own routing experiment shows
+that $\Delta_{\mathrm{prob}} \neq \Delta_{\mathrm{correct}}$, and
+$\Delta_{\mathrm{prob}}$ should therefore not be treated as a universal measure of
+computational benefit.} It is one operationalisation among several, and
+\S\ref{sec:swap} demonstrates that the choice determines which signals appear
+informative.
 
-\paragraph{Calibration shares that lineage.} Temperature was fitted on African
-development splits of XNLI ancestry. All reported results are on test and
-temperature is one scalar per model, but the pipeline is not contamination-free.
+The second is more restrictive. \claim{Because the models were frozen and no
+repeated fine-tuning runs were available, the study could not construct the
+initially planned seed-averaged marginal-gain target. The stability of the
+measured $\Delta_{\mathrm{prob}}$ relationship therefore reflects variation across
+examples and languages within fixed checkpoints, but does not establish how
+stable the relationship would be across independently trained model instances.}
+Part of the variance in Equation~\ref{eq:dprob} is checkpoint idiosyncrasy rather
+than example difficulty, and we cannot separate the two. This bears on
+\S\ref{sec:f3b} and \S\ref{sec:f4}; per Table~\ref{tab:dependency}, it does not
+bear on \S\ref{sec:f1}--\S\ref{sec:f3a}.
 
-\paragraph{Encoder-only.} No decoder or instruction-tuned rung was evaluated;
-conclusions may not transfer to LLM test-time-compute settings.
+\paragraph{Benchmark lineage.} Excluding \texttt{eng}, \texttt{fra}, and
+\texttt{swa} removes the direct surface-overlap problem, but the 15 remaining
+configurations are translations of XNLI instances that the checkpoints
+encountered in other languages. Cross-lingual contamination cannot be ruled out,
+and we have no uncontaminated African-language NLI benchmark of comparable
+coverage against which to estimate its size. Our temperature calibration, fitted
+on the African development splits, shares this lineage; the fitted quantity is a
+single scalar per model and all reported results are on test, but the pipeline as
+a whole is not contamination-free.
 
-\paragraph{Router coverage.} Restricted to the 11/15 languages where the cheap
-rung clears chance.
+\paragraph{Checkpoint selection.} We examine three particular publicly available
+NLI checkpoints, not the space of multilingual architectures. The
+capability-ordering result therefore supports language-dependent capability
+\emph{for these models}, and should not be read as a general law about parameter
+count. All three are also XNLI-derived, which makes them a correlated sample
+rather than three independent observations.
 
-\paragraph{Geometry definition.} Per-example statistics over one sequence's
-tokens are partly length-determined by construction; length is controlled
+\paragraph{Representation statistics.} The three-source replication is stronger
+than a two-model analysis, but three encoders of similar depth remain a limited
+sample of model families, and effective rank, spectral concentration, and angular
+dispersion are a limited sample of possible geometric descriptors. The statistics
+are additionally computed over the token dimension of a single sequence, which
+makes them partly length-determined by construction; we control for length
 statistically rather than by design.
 
-\paragraph{Single $\Delta$ pair.} \S\ref{sec:f3b} and \S\ref{sec:f4} both rest
-on MiniLM$\rightarrow$mDeBERTa.
+\paragraph{Single task and coverage.} Natural language inference is the entire
+experimental task. We do not claim that the target-alignment or routing
+conclusions transfer automatically to generation, question answering,
+classification, or agentic reasoning. Within the task, the routing experiments
+cover only the 11 of 15 languages in which the cheap rung exceeds chance, and
+only the single MiniLM$\rightarrow$mDeBERTa model pair.
 
-%==============================================================================
+\paragraph{Post-hoc analyses.} Two analyses were not part of the initial design
+and are identified as post-hoc throughout: the addition of XLM-R-base as a third
+representation source (\S\ref{sec:f3a}), which we ran to test a generalisation
+that subsequently failed, and the dual-target analysis (\S\ref{sec:swap}), which
+we ran after identifying the routing-target mismatch. Both are explanatory rather
+than confirmatory, and neither has been replicated on independent data.
+
+\paragraph{The oracle is not deployable.} The oracle in Table~\ref{tab:router}
+has access to the outcome it is asked to predict. \claim{It establishes an upper
+bound on what perfect per-example allocation could achieve under this cascade,
+not evidence that a practical system can approach that level.} The 14-point gap
+we report should be read as the size of the opportunity, not as a deficit
+attributable to any particular method.
+
+\claim{Taken together, this paper identifies several measurement and evaluation
+barriers to finding useful adaptive signals; it does not establish what the
+optimal adaptive signal is.}
+
 \section{Conclusion}
 \label{sec:conclusion}
 
