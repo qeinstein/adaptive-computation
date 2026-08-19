@@ -847,25 +847,105 @@ in our original experiment was substantially an artifact of target misalignment.
 \section{Discussion}
 \label{sec:discussion}
 
-\todo{Answer why the original hypothesis failed. Three phenomena are conflated
-in the naive setup: language structure, representation geometry, and
-example-level difficulty. Pooled analyses read the first as the third.}
+\claim{Our experiments do not show that representation geometry is useless. They
+show that representation structure, statistical association, and decision
+usefulness are three different things, and that multilingual evaluation can
+conflate them.} Each stage of the investigation separates a pair of these that
+would otherwise be run together.
 
-\claim{A representation statistic can be highly structured and statistically
-significant without being a useful decision variable.}
+\paragraph{Evaluation validity.} The contamination result does not establish that
+AfriXNLI is invalid, and we do not claim it. A translated benchmark that
+deliberately preserves its source-language subsets is behaving as documented; the
+difficulty arises from the pairing of such a benchmark with checkpoints trained on
+the source. The narrower conclusion we draw is that
+\claim{model--benchmark pairings require contamination-aware reporting}: a result
+on AfriXNLI English, French, or Swahili obtained with an XNLI-trained checkpoint
+is not interpretable as a measure of capability, and the dev--test gap of
+Table~\ref{tab:devtest} offers a cheap diagnostic for detecting the problem
+without access to training data. This matters most where it is least likely to be
+checked---the high-resource configurations of a low-resource benchmark, which are
+typically used as controls rather than as objects of study.
 
-\todo{Develop the practitioner corollary as concrete recommendations: report
-within-language statistics; report $\eta^2$ alongside any pooled multilingual
-correlation; state which notion of computational benefit a difficulty signal is
+\paragraph{Model selection.} Stage~\ref{sec:f2} implies that a cascade cannot be
+constructed by sorting checkpoints by parameter count. The relevant finding is
+not that the larger model is globally inferior---it is not, and the aggregate
+difference is not distinguishable from zero---but that the ordering is
+language-dependent, with differences exceeding ten accuracy points in six of
+fifteen languages and running in both directions. For a practitioner building a
+multilingual cascade this converts an assumption into a measurement: which
+checkpoint is the ``expensive'' one must be determined per language, and in some
+languages the answer inverts.
+
+\paragraph{Representation confounding.} We regard
+Stage~\ref{sec:f3a} as the most generalisable result in the paper, because it
+replicates across three representation spaces that share neither a training
+objective nor, in two of three cases, a pre-training corpus. Angular dispersion
+is consistently far more language-determined than effective rank, and a statistic
+that is roughly half between-language variance cannot support a pooled
+correlation that is interpreted as an example-level relationship. The practical
+form of this observation is a reporting convention rather than a prohibition:
+\claim{report $\eta^2$ alongside any pooled multilingual correlation}, so that
+readers can see how much of the reported relationship could be carried by
+language identity alone.
+
+We are equally explicit about the boundary. We hypothesised a stronger,
+quantitative version---that $\eta^2$ predicts the magnitude of pooling bias
+across features---and it did not survive the addition of a third source. We
+therefore establish an ordering of statistics by language dependence and a
+mechanism by which pooling misleads, but not a law relating the two.
+
+\paragraph{What ``benefit from computation'' means.} The result we would
+emphasise most is Stage~\ref{sec:swap}, because it explains the others rather
+than merely adding to them. Effective rank is associated with
+$\Delta_{\mathrm{prob}}$ and not with $\Delta_{\mathrm{correct}}$; cheap-model
+confidence is associated with $\Delta_{\mathrm{correct}}$ and not with
+$\Delta_{\mathrm{prob}}$. Both quantities are reasonable formalisations of ``this
+example benefits from more computation,'' and they correlate at only $+0.655$.
+\claim{A feature can therefore be genuinely informative about one
+operationalisation of computational benefit while being irrelevant to---or, for
+layer-12 angular dispersion, oppositely related to---the objective a system is
+actually evaluated against.}
+
+This is what makes the failure mode difficult to notice. A researcher who
+measures a representation statistic against a plausible difficulty target, finds
+a robust and highly significant association, and concludes that the statistic
+captures difficulty will have done nothing methodologically unusual. Our own
+initial routing experiment made precisely this error, and the error was invisible
+in the routing results themselves; it became visible only when the two targets
+were placed side by side.
+
+\paragraph{Practical routing.} The conclusion we draw from Stage~\ref{sec:f4} is
+not that adaptive inference does not work. The oracle reaches $0.688$ at the 60\%
+budget against $0.577$ for always-expensive inference, so under the tested models
+and languages there is a substantial and genuinely learnable allocation problem.
+\claim{What the evidence supports is that the tested representation and
+confidence signals do not recover enough of that headroom to make routing
+worthwhile under the tested models, signals, and compute budgets}---no practical
+method we evaluated exceeds simply running the expensive model on every input.
+The gap between what is achievable and what these signals achieve is roughly 14
+accuracy points, and closing it is an open problem rather than a closed one.
+
+\paragraph{Recommendations.} Four practices follow directly from the failures
+above. Audit translated benchmarks for lineage, and report the dev--test gap when
+evaluating with checkpoints whose training data overlaps the source. Do not order
+cascade rungs by parameter count without per-language verification. Report
+$\eta^2$ alongside pooled multilingual correlations. And
+\claim{state which notion of computational benefit a difficulty signal is
 validated against, and train routing predictors on the quantity the evaluation
-scores; benchmark against confidence before claiming a representation-based
-method adds information; audit translated benchmarks for lineage before use;
-do not order cascade rungs by parameter count.}
+scores.}
 
-\todo{Develop the selection-pressure asymmetry from \S\ref{sec:f3b}: naive
-analysis promotes the language-encoding statistic and discards the genuine one.}
+\paragraph{Future work.} Three directions follow from what the experiments
+exposed rather than from speculation. First, contamination-controlled
+multilingual benchmarks, or at minimum published lineage metadata sufficient for
+practitioners to exclude affected configurations automatically. Second,
+task-specific and language-specific capacity ladders, constructed by measurement
+rather than by parameter count, which would also supply the wider compute range
+our frozen encoder pair could not. Third, routing targets defined directly from
+the deployment objective, with representation signals validated against that
+objective rather than against a proxy. A seed-averaged marginal-gain target is a
+natural next experiment in this last direction, and one our frozen setup could
+not provide (\S\ref{sec:limitations}).
 
-%==============================================================================
 \section{Limitations}
 \label{sec:limitations}
 
