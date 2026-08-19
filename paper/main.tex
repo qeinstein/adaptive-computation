@@ -35,6 +35,14 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
 
+% Figures ship as vector PDF (works with no extra packages) and, optionally, as
+% LaTeX-native PGF in which all text is typeset by LaTeX in this document's own
+% font. To use PGF: run  EMIT_PGF=1 python src/make_figures.py  on a machine with
+% pdflatex, add \usepackage{pgf} above, and change \pgffiguresfalse to true.
+\newif\ifpgffigures \pgffiguresfalse
+\newcommand{\paperfig}[1]{%
+  \ifpgffigures\input{figures/#1.pgf}\else\includegraphics{figures/#1.pdf}\fi}
+
 \newcommand{\claim}[1]{#1}
 \newcommand{\todo}[1]{\textcolor{gray}{[\textsc{todo}: #1]}}
 \newcommand{\nodelta}{\textsuperscript{$\dagger$}}
@@ -110,8 +118,8 @@ are least often checked.
 \claim{Before asking whether representation geometry predicts example
 difficulty, one must establish that the evaluation and statistical setup can
 distinguish example difficulty from language identity and from benchmark
-contamination.} We found that our initial setup could do neither, and that
-correcting each problem changed the answer. AfriXNLI, the benchmark we use,
+contamination.} Our initial setup failed on both counts, and a third problem
+emerged behind them; correcting each changed the answer. AfriXNLI, the benchmark we use,
 shares \textbf{1{,}047 of its 1{,}050 English examples verbatim with XNLI}, and
 the off-the-shelf checkpoints used to evaluate on it are trained on XNLI; its
 English, French and Swahili configurations therefore cannot function as clean
@@ -212,6 +220,10 @@ are excluded throughout. The remaining 15 configurations (\texttt{amh},
 $n=6{,}750$ development and $n=9{,}000$ test examples.
 
 \subsection{Models}
+Table~\ref{tab:models} lists every checkpoint used. Three serve as rungs of the
+compute ladder and three as sources of representation statistics; mDeBERTa-base
+appears in both roles, as a rung and as a feature source. No checkpoint was
+fine-tuned, and the feature sources are never asked to produce a prediction.
 
 \begin{table}[t]
 \centering
@@ -251,43 +263,47 @@ Each model receives one scalar temperature fitted by L-BFGS on the pooled clean
 \emph{development} split ($n=6{,}750$): $T=4.116$ (MiniLM), $T=1.704$
 (mDeBERTa), $T=2.723$ (XLM-R-large). All reported results are on test.
 
-\subsection{The escalation target $\Delta$}
+\subsection{The escalation target}
 \label{sec:delta}
-For cheap model $s$ and expensive model $e$,
+For cheap model $s$ and expensive model $e$ we measure the marginal value of
+escalation as the change in the calibrated probability assigned to the gold
+label $y^\star$:
 \begin{equation}
-\Delta_{s\rightarrow e}(x) \;=\; p_e(y^\star \mid x) \;-\; p_s(y^\star \mid x),
-\label{eq:delta}
+\Delta_{\mathrm{prob}}(x) \;=\; p_e(y^\star \mid x) \;-\; p_s(y^\star \mid x).
+\label{eq:dprob}
 \end{equation}
-with $y^\star$ the gold label and probabilities temperature-calibrated.
-We use a continuous target rather than a
-change in correctness because the latter takes only three values, is dominated by
-examples near the decision boundary where the outcome is close to a coin flip, and
-admits an oracle that exploits that noise rather than any property of the input.
-\S\ref{sec:twotargets} returns to this choice, which turns out to matter more than
-we initially assumed.
+We use a continuous quantity rather than a change in correctness \emph{for
+measuring association}, because the latter takes only three values and is
+dominated by examples near the decision boundary, which costs a great deal of
+statistical power. That choice is appropriate for the correlation analysis and,
+as \S\ref{sec:twotargets} and \S\ref{sec:targetalign} show, inappropriate for
+training a router: the two are different quantities, and conflating them was an
+error in our initial design.
 
-\subsection{Which results depend on $\Delta$}
+\subsection{Which results depend on a constructed target}
 \label{sec:dependency}
-$\Delta$ is constructed from a single frozen checkpoint pair rather than the
-seed-averaged quantity the design called for (\S\ref{sec:limitations}). We
-therefore mark explicitly which results depend on it.
+Both targets used in this paper---$\Delta_{\mathrm{prob}}$ above and
+$\Delta_{\mathrm{correct}}$, introduced in \S\ref{sec:twotargets}---are
+constructed from a single frozen checkpoint pair rather than the seed-averaged
+quantity the design called for (\S\ref{sec:limitations}). We therefore mark
+explicitly which results depend on them.
 
 \begin{table}[t]
 \centering
 \small
 \begin{tabular}{llc}
 \toprule
-\S & Result & Depends on $\Delta$ \\
+\S & Result & Depends on a target \\
 \midrule
 \ref{sec:f1}  & Benchmark contamination        & no \\
 \ref{sec:f2}  & Capability not ordered by size & no \\
 \ref{sec:f3a} & Language dominates geometry ($\eta^2$) & no \\
-\ref{sec:f3b} & Residual association with $\Delta$ & yes \\
+\ref{sec:f3b} & Residual association with $\Delta_{\mathrm{prob/correct}}$ & yes \\
 \ref{sec:f4}  & Routing evaluation             & yes \\
 \bottomrule
 \end{tabular}
 \caption{Sections marked ``no'' are computed from accuracies, string matching,
-and representations alone. A reader who rejects our $\Delta$ construction may
+and representations alone. A reader who rejects our target construction may
 discard \S\ref{sec:f3b}--\S\ref{sec:f4} without affecting the rest.}
 \label{tab:dependency}
 \end{table}
@@ -345,8 +361,9 @@ sequence should precede evaluation on any translated benchmark.
 \section{Stage I: Evaluation Validity}\nodelta
 \label{sec:f1}
 {\renewcommand{\thefootnote}{}\footnotetext{$\dagger$ Results marked with this
-symbol do not depend on the construction of the marginal-gain target
-$\Delta(x)$; see \S\ref{sec:dependency}.}\addtocounter{footnote}{-1}}
+symbol do not depend on the construction of either marginal-gain target
+($\Delta_{\mathrm{prob}}$, $\Delta_{\mathrm{correct}}$); see
+\S\ref{sec:dependency}.}\addtocounter{footnote}{-1}}
 
 \claim{AfriXNLI is a translation of XNLI, and XNLI-trained checkpoints therefore
 cannot be evaluated cleanly on its English, French, or Swahili configurations.}
@@ -506,7 +523,7 @@ determine which of these two models is better.
 substantially worse for a second.} Per-language accuracy differences between
 mDeBERTa and XLM-R-large span
 $-0.145 \le \Delta_{\mathrm{acc}} \le +0.220$
-(Appendix~\ref{app:perlang}): XLM-R-large is 14.5 points better on Amharic and
+(Table~\ref{tab:perlang}, Appendix~\ref{app:perlang}): XLM-R-large is 14.5 points better on Amharic and
 12.7 on Oromo, while mDeBERTa is 22.0 points better on Igbo and 20.0 on Shona.
 Seven languages favour mDeBERTa and eight favour XLM-R-large, and in six of the
 fifteen the difference exceeds ten accuracy points in one direction or the other.
@@ -583,7 +600,7 @@ consistently the least.}
 \small
 \begin{tabular}{lccc}
 \toprule
-& mDeBERTa & AfroXLMR & XLM-R \\
+& mDeBERTa-base & AfroXLMR-base & XLM-R-base \\
 Statistic & (task-tuned) & (African MLM) & (generic MLM) \\
 \midrule
 Angular dispersion     & \textbf{0.583} & \textbf{0.484} & \textbf{0.542} \\
@@ -597,8 +614,19 @@ task-tuned model, an African-adapted MLM, and a generic multilingual MLM.}
 \label{tab:eta2}
 \end{table}
 
-Table~\ref{tab:eta2} reports $\eta^2$ averaged over layers $\{4,8,12\}$ for each
-statistic in each representation space. The three sources were chosen to differ
+\begin{figure}[t]
+\centering
+\paperfig{eta2}
+\caption{Between-language variance share $\eta^2$ for each geometry statistic in
+each representation space, averaged over layers $\{4,8,12\}$; the values are
+those of Table~\ref{tab:eta2}. The ordering---angular dispersion most
+language-determined, effective rank least---is identical in all three spaces,
+although the magnitudes differ.}
+\label{fig:eta2}
+\end{figure}
+
+Table~\ref{tab:eta2} and Figure~\ref{fig:eta2} report $\eta^2$ averaged over
+layers $\{4,8,12\}$ for each statistic in each representation space. The three sources were chosen to differ
 in how they were produced: \texttt{mDeBERTa-v3-base} is fine-tuned for NLI,
 \texttt{afro-xlmr-base} is a masked language model adapted to African languages,
 and \texttt{xlm-roberta-base} is a generic multilingual masked language model
@@ -673,7 +701,7 @@ two ways. The first asks how much escalation moves the model's probability on th
 correct label; the second asks whether escalation changes the decision at all:
 \begin{align}
 \Delta_{\mathrm{prob}}(x) &= p_e(y^\star \mid x) - p_s(y^\star \mid x),
-  \label{eq:dprob}\\
+  \tag{\ref{eq:dprob} restated}\\
 \Delta_{\mathrm{correct}}(x) &= \mathbf{1}[\hat{y}_e = y^\star]
                               - \mathbf{1}[\hat{y}_s = y^\star].
   \label{eq:dcorr}
@@ -716,8 +744,20 @@ inflated $4.9\times$ by pooling; effective rank is masked roughly tenfold.}
 \label{tab:simpson}
 \end{table}
 
-Table~\ref{tab:simpson} shows the consequence of \S\ref{sec:f3a} for correlation
-analysis. Angular dispersion, the statistic that is 76\% between-language
+\begin{figure}[t]
+\centering
+\paperfig{pooled_vs_within}
+\caption{Pooled versus within-language partial Spearman correlation with
+$\Delta_{\mathrm{prob}}$, for the statistics of Table~\ref{tab:simpson}. Solid
+lines mark associations inflated by pooling, dashed lines those masked by it.
+Angular dispersion, the most language-determined statistic
+($\eta^2 = 0.757$), loses most of its apparent relationship once language is
+controlled; effective rank, the least ($\eta^2 = 0.040$), acquires one.}
+\label{fig:pooled}
+\end{figure}
+
+Table~\ref{tab:simpson} and Figure~\ref{fig:pooled} show the consequence of
+\S\ref{sec:f3a} for correlation analysis. Angular dispersion, the statistic that is 76\% between-language
 variance at this layer, carries a pooled correlation of $+0.296$ with
 $\Delta_{\mathrm{prob}}$ that falls to $+0.061$ once language is controlled.
 Effective rank, at $\eta^2 = 0.040$, shows the opposite: a pooled correlation
@@ -767,7 +807,7 @@ $\Delta_{\mathrm{prob}}$ ($\rho = -0.127$, 95\% CI $[-0.147, -0.106]$,
 Holm-adjusted $p = 5.8 \times 10^{-32}$, sign-consistent in 12/15 languages) and
 survives bootstrap resampling, subsampling to a quarter of the data,
 leave-one-language-out, and label permutation
-(Appendix~\ref{app:stability}). Against $\Delta_{\mathrm{correct}}$ the same
+(Table~\ref{tab:stability}, Appendix~\ref{app:stability}). Against $\Delta_{\mathrm{correct}}$ the same
 feature reaches only $\rho = -0.027$ and does not survive multiple-comparison
 correction ($p = 0.28$).
 
@@ -863,7 +903,19 @@ its apparent deficit against confidence.}
 \label{tab:router}
 \end{table}
 
-Table~\ref{tab:router} reports the corrected experiment. Retraining the geometry
+\begin{figure}[t]
+\centering
+\paperfig{frontier}
+\caption{Accuracy--compute frontier over the 11 viable ladder languages,
+leave-one-language-out; the values are those of Table~\ref{tab:router}. The
+shaded band marks accuracy unreachable by any practical method tested: every
+routing signal lies below always-expensive inference at every budget, while the
+oracle exceeds it by 11 points at 60\% of the compute.}
+\label{fig:frontier}
+\end{figure}
+
+Table~\ref{tab:router} and Figure~\ref{fig:frontier} report the corrected
+experiment. Retraining the geometry
 router on the decision-relevant target improves it at every budget---by $+0.007$
 at 20\% and $+0.011$ at 60\%---and correspondingly narrows the gap to confidence.
 Across ridge penalties $\lambda \in \{1, 10, 100, 1000\}$ the
@@ -887,7 +939,7 @@ other.
 The corrected comparison should not be read as a mild success for representation
 geometry. A stronger negative result is visible in the same table.
 \claim{No practical method tested exceeds always-expensive inference at any
-budget}: at the 60\% budget the best method reaches $0.545$ against $0.577$ for
+budget} (Figure~\ref{fig:frontier}): at the 60\% budget the best method reaches $0.545$ against $0.577$ for
 simply running the expensive model on everything, and at 80\% it reaches $0.565$,
 still below. Under these signals, adaptive routing does not pay for itself.
 
@@ -928,7 +980,7 @@ without access to training data. This matters most where it is least likely to b
 checked---the high-resource configurations of a low-resource benchmark, which are
 typically used as controls rather than as objects of study.
 
-\paragraph{Model selection.} Stage~\ref{sec:f2} implies that a cascade cannot be
+\paragraph{Model selection.} \S\ref{sec:f2} implies that a cascade cannot be
 constructed by sorting checkpoints by parameter count. The relevant finding is
 not that the larger model is globally inferior---it is not, and the aggregate
 difference is not distinguishable from zero---but that the ordering is
@@ -939,9 +991,10 @@ checkpoint is the ``expensive'' one must be determined per language, and in some
 languages the answer inverts.
 
 \paragraph{Representation confounding.} We regard
-Stage~\ref{sec:f3a} as the most generalisable result in the paper, because it
-replicates across three representation spaces that share neither a training
-objective nor, in two of three cases, a pre-training corpus. Angular dispersion
+\S\ref{sec:f3a} as the most generalisable result in the paper, because it
+replicates across three representation spaces produced in different ways: no two
+share a training objective, and only two of the three share a pre-training
+corpus. Angular dispersion
 is consistently far more language-determined than effective rank, and a statistic
 that is roughly half between-language variance cannot support a pooled
 correlation that is interpreted as an example-level relationship. The practical
@@ -957,7 +1010,7 @@ therefore establish an ordering of statistics by language dependence and a
 mechanism by which pooling misleads, but not a law relating the two.
 
 \paragraph{What ``benefit from computation'' means.} The result we would
-emphasise most is Stage~\ref{sec:swap}, because it explains the others rather
+emphasise most is \S\ref{sec:swap}, because it explains the others rather
 than merely adding to them. Effective rank is associated with
 $\Delta_{\mathrm{prob}}$ and not with $\Delta_{\mathrm{correct}}$; cheap-model
 confidence is associated with $\Delta_{\mathrm{correct}}$ and not with
@@ -976,7 +1029,7 @@ initial routing experiment made precisely this error, and the error was invisibl
 in the routing results themselves; it became visible only when the two targets
 were placed side by side.
 
-\paragraph{Practical routing.} The conclusion we draw from Stage~\ref{sec:f4} is
+\paragraph{Practical routing.} The conclusion we draw from \S\ref{sec:f4} is
 not that adaptive inference does not work. The oracle reaches $0.688$ at the 60\%
 budget against $0.577$ for always-expensive inference, so under the tested models
 and languages there is a substantial and genuinely learnable allocation problem.
@@ -1011,8 +1064,9 @@ not provide (\S\ref{sec:limitations}).
 \section{Limitations}
 \label{sec:limitations}
 
-\paragraph{The marginal-gain target.} The most significant limitation concerns
-the construction of $\Delta$, and it has two parts.
+\paragraph{The marginal-gain targets.} The most significant limitation concerns
+how the targets of Equations~\ref{eq:dprob} and \ref{eq:dcorr} were constructed,
+and it has two parts.
 
 The first is a matter of interpretation. $\Delta_{\mathrm{prob}}$ is a
 well-defined and useful quantity for the descriptive analysis of
