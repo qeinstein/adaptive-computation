@@ -1,0 +1,526 @@
+%==============================================================================
+% When Multilingual Representation Signals Mislead
+% SKELETON -- structure, tables, and frozen claim sentences. Prose to be written.
+%
+% Every number below is transcribed from results/LEDGER.md, which is the source
+% of truth. Do not improvise claims while writing prose. Sentences marked
+% \claim{} are frozen wording constraints agreed before drafting; they may be
+% reworded for flow ONLY if the strength of the claim is unchanged.
+%
+% Compiles standalone with pdflatex. To switch to ACL format, replace the
+% documentclass/preamble block with the acl_latex.sty boilerplate and delete
+% the \author block (ACL uses its own).
+%==============================================================================
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+% Frozen claim sentences -- rendered normally, but visually marked in drafts.
+\newcommand{\claim}[1]{#1}
+% Drafting placeholders. Delete \todo definition's visibility before submission.
+\newcommand{\todo}[1]{\textcolor{gray}{[\textsc{todo}: #1]}}
+
+\title{When Multilingual Representation Signals Mislead:\\
+Benchmark Contamination, Language Confounding, and\\
+Adaptive Inference in African NLP}
+
+\author{
+  Toheeb Ogunade\\
+  University of Lagos\\
+  \texttt{240805099@live.unilag.edu.ng}
+}
+\date{}
+
+\begin{document}
+\maketitle
+
+%==============================================================================
+\begin{abstract}
+\todo{Write last. Must contain, in order: (i) the motivating question --- can
+representation geometry estimate the marginal value of escalating an input to a
+larger model in low-resource multilingual NLI; (ii) that answering it first
+required auditing the evaluation setup; (iii) the four findings; (iv) the
+methodological lesson that a statistically robust representation statistic need
+not be a useful decision variable. Do not describe the paper as proposing a
+method. State the negative result plainly in the abstract.}
+\end{abstract}
+
+%==============================================================================
+\section{Introduction}
+\label{sec:intro}
+
+\todo{Frame the broader problem: multilingual representation statistics are
+increasingly used to reason about difficulty, efficiency, and adaptive
+computation. Motivating question: can such signals support reliable
+example-level decisions in low-resource multilingual settings?}
+
+\todo{Pivot paragraph. The unexpected finding is prior to the question itself:}
+\claim{Before asking whether representation geometry can predict example
+difficulty, one must establish that the evaluation and statistical setup can
+distinguish example difficulty from language identity and from benchmark
+contamination.}
+
+\todo{Close with the four contributions, phrased exactly as the section claims
+in \S\ref{sec:f1}--\S\ref{sec:f4}.}
+
+\paragraph{Contributions.}
+\begin{enumerate}
+  \item A contamination audit of AfriXNLI showing that it preserves XNLI
+        examples verbatim, and that the contamination is \emph{split-specific}
+        across widely used NLI checkpoints (\S\ref{sec:f1}).
+  \item Evidence that parameter count does not reliably order multilingual
+        capability across African languages (\S\ref{sec:f2}).
+  \item Evidence, replicated across three multilingual representation spaces,
+        that language identity dominates certain representation-geometry
+        statistics and inverts naive pooled analyses (\S\ref{sec:f3}).
+  \item A negative result: a highly stable representation--difficulty
+        association that nonetheless fails to beat a confidence baseline for
+        adaptive routing under matched compute (\S\ref{sec:f4}).
+\end{enumerate}
+
+%==============================================================================
+\section{Background and Related Work}
+\label{sec:related}
+
+\todo{Keep compact --- roughly one column. Four short paragraphs. This is not a
+survey of early exit; that is no longer the contribution.}
+
+\paragraph{African-language NLI and AfriXNLI.} \todo{AfriXNLI, IrokoBench, XNLI
+lineage.}
+
+\paragraph{Multilingual representation geometry.} \todo{Effective rank,
+anisotropy/angular measures, spectral concentration; prior use as difficulty or
+quality proxies.}
+
+\paragraph{Adaptive inference and cascades.} \todo{Early exit (DeeBERT, PABEE,
+BERxiT), model cascades (CascadeBERT), test-time compute allocation. State
+plainly that conditional computation is established and that this paper does
+\emph{not} claim novelty there.}
+
+\paragraph{Evaluation contamination.} \todo{Data leakage in NLP benchmarks;
+translated-benchmark lineage as an underexamined case.}
+
+%==============================================================================
+\section{Experimental Design}
+\label{sec:design}
+
+\todo{This section earns the reader's trust. Be exhaustive and boring.}
+
+\subsection{Data and the clean-language protocol}
+AfriXNLI \citep{TODO} provides 18 language configurations with 450 development
+and 600 test examples each, with perfectly balanced three-way labels. XNLI
+intersects AfriXNLI at \{\texttt{eng}, \texttt{fra}, \texttt{swa}\}; these three
+are excluded throughout. The remaining 15 configurations
+(\texttt{amh}, \texttt{ewe}, \texttt{hau}, \texttt{ibo}, \texttt{kin},
+\texttt{lin}, \texttt{lug}, \texttt{orm}, \texttt{sna}, \texttt{sot},
+\texttt{twi}, \texttt{wol}, \texttt{xho}, \texttt{yor}, \texttt{zul}) constitute
+the clean set: $n=6{,}750$ development and $n=9{,}000$ test examples.
+
+\subsection{Models}
+\todo{Table~\ref{tab:models} plus one paragraph. Emphasise that no fine-tuning
+was performed; all checkpoints are frozen and publicly available.}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrrr}
+\toprule
+Role & Checkpoint & Layers & Hidden & Params \\
+\midrule
+Cheap rung   & multilingual-MiniLMv2-L6-mnli-xnli & 6  & 384  & $\sim$118M \\
+Mid rung     & mDeBERTa-v3-base-xnli-\dots-2mil7  & 12 & 768  & $\sim$278M \\
+Large rung   & xlm-roberta-large-xnli             & 24 & 1024 & $\sim$560M \\
+\midrule
+Features (task-tuned) & mDeBERTa-v3-base                & 12 & 768 & --- \\
+Features (African MLM) & afro-xlmr-base                 & 12 & 768 & --- \\
+Features (generic MLM) & xlm-roberta-base               & 12 & 768 & --- \\
+\bottomrule
+\end{tabular}
+\caption{Frozen checkpoints. The three feature sources supply representation
+statistics only; they are never asked to predict. \texttt{xlm-roberta-base} was
+added post hoc as a replication source (\S\ref{sec:f3}).}
+\label{tab:models}
+\end{table}
+
+\subsection{Label alignment and calibration}
+\todo{State the label-permutation issue explicitly --- it is a reproducibility
+trap worth one short paragraph.} Checkpoint label orders differ:
+\texttt{mDeBERTa} and \texttt{MiniLM} emit
+$(\text{entailment}, \text{neutral}, \text{contradiction})$ whereas
+\texttt{xlm-roberta-large-xnli} emits the reverse. All logits are permuted into
+the AfriXNLI canonical order $0{=}\text{entailment}$, $1{=}\text{neutral}$,
+$2{=}\text{contradiction}$ before any comparison.
+
+Each model receives a single scalar temperature fitted by L-BFGS on the pooled
+clean \emph{development} split ($n=6{,}750$): $T=4.116$ (MiniLM), $T=1.704$
+(mDeBERTa), $T=2.723$ (XLM-R-large). All reported results are on the held-out
+test split.
+
+\subsection{The escalation target $\Delta$}
+For a cheap model $s$ and an expensive model $e$ we define the marginal value of
+escalation on the calibrated gold-label probability:
+\begin{equation}
+\Delta_{s\rightarrow e}(x) \;=\; p_e(y^\star \mid x) \;-\; p_s(y^\star \mid x),
+\label{eq:delta}
+\end{equation}
+where $y^\star$ is the gold label. \todo{Explain why a continuous target is used
+rather than a correctness flip: a $\{-1,0,+1\}$ target is dominated by
+coin-flips near the decision boundary and yields a fantasy oracle. Then state
+the limitation forward-reference to \S\ref{sec:limitations}: the intended
+seed-averaged target could not be constructed under frozen checkpoints.}
+
+\subsection{Representation statistics}
+For each example, hidden states at layers $\{4,8,12\}$ are collected over the
+non-padding token dimension, giving $X \in \mathbb{R}^{T \times d}$. Let
+$p_i = \sigma_i^2 / \sum_j \sigma_j^2$ be the normalised squared singular values
+of the column-centred $X$, and $U$ the row-normalised $X$. We compute
+\begin{align}
+\text{effective rank} &= \exp\!\Big(-\textstyle\sum_i p_i \log p_i\Big),\\
+\text{spectral concentration} &= p_1,\\
+\text{angular dispersion} &= 1 - \big\lVert \tfrac{1}{T}\textstyle\sum_t U_t \big\rVert.
+\end{align}
+Three sources $\times$ three layers $\times$ three statistics gives 27 features.
+
+\subsection{Statistical procedure}
+\todo{Spell out, in this order: (i) partial Spearman controlling for cheap-model
+confidence, token count, and subword fragmentation; (ii) per-language
+computation followed by Fisher-$z$ meta-analysis weighted by $n-k-3$;
+(iii) Holm correction across features; (iv) $\eta^2$ as the between-language
+variance share; (v) bootstrap and permutation procedures; (vi) the
+leave-one-language-out matched-budget routing evaluation.}
+
+\subsection{Benchmark lineage and contamination audit}
+\label{sec:audit}
+\todo{Describe the audit procedure itself as a contribution: exact-string
+matching of AfriXNLI configurations against XNLI splits, cross-referencing
+against model-card training-data statements, and split-specific accuracy
+probing. Note that this audit should arguably precede any evaluation on a
+translated benchmark.}
+
+%==============================================================================
+\section{Finding I: Benchmark Contamination}
+\label{sec:f1}
+
+\claim{AfriXNLI is a translation of XNLI, and XNLI-trained checkpoints therefore
+cannot be evaluated cleanly on its English, French, or Swahili configurations.}
+
+Of the 1{,}050 unique English premise--hypothesis pairs in AfriXNLI,
+\textbf{1{,}047 (99.7\%)} appear verbatim in the XNLI evaluation splits, and the
+450-example AfriXNLI English development split is \emph{exactly} XNLI
+validation.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{3}{c}{Contaminated configs (test)} & Clean \\
+\cmidrule(lr){2-4}
+Model & \texttt{eng} & \texttt{fra} & \texttt{swa} & 15 langs \\
+\midrule
+MiniLM-L6      & 0.760 & 0.720 & 0.622 & 0.410 \\
+mDeBERTa-base  & 0.890 & 0.867 & 0.742 & 0.545 \\
+XLM-R-large    & \textbf{1.000} & \textbf{0.995} & \textbf{0.978} & 0.523 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy on the test split. $n=600$ per contaminated configuration,
+$n=9{,}000$ for the clean set. XLM-R-large is perfect on English test.}
+\label{tab:contamination}
+\end{table}
+
+\claim{The contamination is split-specific.} MiniLM and mDeBERTa state training
+on the XNLI \emph{development} set and memorise it accordingly---mDeBERTa scores
+1.000 on AfriXNLI English \emph{dev} but only 0.890 on English \emph{test}.
+XLM-R-large's 1.000 on English test and 0.978 on Swahili test is
+\claim{consistent with training on the XNLI test split}, though its model card
+does not specify which split was used.
+
+\todo{Table~\ref{tab:cards}: which model saw which split, card quotation, and
+observed accuracy. Make the alignment visually obvious --- this is the figure a
+reader will remember.}
+
+\paragraph{Wording constraint.} For the 15 African configurations this is
+\emph{benchmark-lineage} contamination: the surface strings are translations,
+but the underlying examples were seen in other languages. It is not verbatim
+leakage, and must not be described as such.
+
+%==============================================================================
+\section{Finding II: Parameter Count Does Not Order Capability}
+\label{sec:f2}
+
+\claim{Among off-the-shelf XNLI checkpoints, model size does not predict which
+model wins on a given African language; the ordering is language-dependent and
+unstable.}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+Model & Params & Accuracy & Above chance \\
+\midrule
+MiniLMv2-L6      & $\sim$118M & 0.410 & 11/15 \\
+mDeBERTa-v3-base & $\sim$278M & 0.545 & 14/15 \\
+XLM-R-large      & $\sim$560M & 0.523 & 14/15 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy on 15 clean languages ($n=9{,}000$). Chance is $0.333$;
+``above chance'' counts languages whose Wilson 95\% lower bound exceeds it.}
+\label{tab:capability}
+\end{table}
+
+The aggregate mDeBERTa$-$XLM-R gap of $+0.022$ is \textbf{not significant}. A
+cluster bootstrap resampling languages and then examples within language
+(5{,}000 replicates) gives a 95\% CI of $[-0.035, +0.083]$ with
+$P(\text{diff}>0)=0.772$. \todo{Footnote: an example-level bootstrap gives
+$[+0.009, +0.035]$, but it ignores language clustering and is the wrong
+analysis. Include this --- it is a useful cautionary detail.}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrlrlr}
+\toprule
+Lang & $\delta$ & Lang & $\delta$ & Lang & $\delta$ \\
+\midrule
+\texttt{ibo} & $+0.220$ & \texttt{lug} & $+0.033$ & \texttt{zul} & $-0.003$ \\
+\texttt{sna} & $+0.200$ & \texttt{twi} & $+0.015$ & \texttt{yor} & $-0.010$ \\
+\texttt{sot} & $+0.197$ & \texttt{lin} & $+0.008$ & \texttt{ewe} & $-0.037$ \\
+\texttt{kin} & $+0.147$ & \texttt{wol} & $-0.002$ & \texttt{hau} & $-0.080$ \\
+             &          &              &          & \texttt{xho} & $-0.087$ \\
+             &          &              &          & \texttt{orm} & $-0.127$ \\
+             &          &              &          & \texttt{amh} & $-0.145$ \\
+\bottomrule
+\end{tabular}
+\caption{Per-language accuracy difference $\delta = $ mDeBERTa $-$ XLM-R-large.
+Swings exceed $\pm 0.2$ with no consistent winner.}
+\label{tab:perlang}
+\end{table}
+
+\paragraph{Wording constraint.} \claim{Do not write that the larger model is
+worse.} The result is that the ordering is language-dependent and not
+predictable from parameter count.
+
+\paragraph{Consequence for cascade design.} $\Delta_{\text{mDeBERTa}\rightarrow
+\text{XLM-R}}$ has mean $-0.011$ (helps 37.5\%, hurts 39.7\%): there is no
+capacity ladder. Only MiniLM$\rightarrow$mDeBERTa forms a usable ladder
+($\sim 8\times$ FLOPs, mean $\Delta = +0.099$, sd $0.221$; helps 51.2\%, hurts
+26.0\%, flat 22.7\%), and only in the 11/15 languages where the cheap rung
+clears chance.
+
+%==============================================================================
+\section{Finding III: Language Identity Confounds Representation Geometry}
+\label{sec:f3}
+
+\claim{Across three multilingual representation spaces, angular dispersion is
+consistently the most language-determined statistic and effective rank
+consistently the least.}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+& mDeBERTa & AfroXLMR & XLM-R \\
+Statistic & (task-tuned) & (African MLM) & (generic MLM) \\
+\midrule
+Angular dispersion     & \textbf{0.583} & \textbf{0.484} & \textbf{0.542} \\
+Spectral concentration & 0.112 & 0.249 & 0.241 \\
+Effective rank         & 0.075 & 0.133 & 0.151 \\
+\bottomrule
+\end{tabular}
+\caption{Between-language variance share $\eta^2$, averaged over layers
+$\{4,8,12\}$. The ordering replicates in all three representation spaces.}
+\label{tab:eta2}
+\end{table}
+
+\claim{Naive pooled analysis errs in both directions: it manufactures a
+relationship for the language-determined statistic and erases a genuine one for
+the language-neutral statistic.}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+Feature (mDeBERTa) & $\eta^2$ & Pooled $\rho$ & Within $\rho$ \\
+\midrule
+L8 angular dispersion     & 0.757 & $+0.296$ & $+0.061$ \\
+L12 effective rank        & 0.040 & $-0.009$ & $-0.127$ \\
+L12 spectral concentration& 0.031 & $+0.044$ & $+0.099$ \\
+\midrule
+\multicolumn{4}{l}{\emph{reference}: $\eta^2(\Delta)=0.126$,
+$\eta^2(\text{conf})=0.212$, $\eta^2(n_{\text{tok}})=0.196$} \\
+\bottomrule
+\end{tabular}
+\caption{Partial Spearman with $\Delta$, controlling for confidence, token
+count, and fragmentation. Angular dispersion is inflated $4.9\times$ by pooling;
+effective rank is masked roughly tenfold.}
+\label{tab:simpson}
+\end{table}
+
+\paragraph{A stronger claim that did not replicate.} \todo{Report this
+explicitly --- it strengthens the paper.} We tested whether $\eta^2$ predicts
+pooling bias in general. Across all 27 features,
+$\mathrm{Spearman}(\eta^2, |\rho_{\text{pooled}}| - |\rho_{\text{within}}|) =
++0.415$ (permutation $p=0.032$), but the bootstrap 95\% CI is
+$[-0.031, +0.737]$ and the effect is carried almost entirely by one source
+(mDeBERTa $+0.917$; AfroXLMR $+0.133$; XLM-R-base $+0.133$). The 27 features are
+not independent. \claim{We therefore do not claim that $\eta^2$ predicts pooling
+bias as a general quantitative law.}
+
+%==============================================================================
+\section{Finding IV: A Real Signal That Does Not Yield a Useful Router}
+\label{sec:f4}
+
+\claim{One geometry statistic has a highly stable association with $\Delta$ that
+confers no practical routing advantage over a confidence threshold.}
+
+\subsection{The association is robust}
+For \texttt{mDeBERTa L12 effective rank} on the MiniLM$\rightarrow$mDeBERTa pair
+($n=9{,}000$), the within-language partial Spearman is $\rho = -0.127$, 95\% CI
+$[-0.147, -0.106]$ (Fisher-$z$), Holm-adjusted $p = 3.88\times 10^{-32}$,
+sign-consistent in 12/15 languages.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+Stability test & Result \\
+\midrule
+Bootstrap, 300$\times$ within-language resample & $-0.127$, 95\% $[-0.142,-0.111]$ \\
+Subsample 25\%, 40 seeds & $-0.122 \pm 0.019$ \\
+Subsample 50\%, 40 seeds & $-0.129 \pm 0.011$ \\
+Leave-one-language-out & $[-0.138, -0.117]$ \\
+Label permutation, 20$\times$ & $-0.001$, $\max|\rho| = 0.026$ \\
+\bottomrule
+\end{tabular}
+\caption{All resampling variants remain negative; the permutation null is
+centred at zero with a maximum magnitude five times smaller than the effect.
+Variance explained is nonetheless only $\approx 1.6\%$.}
+\label{tab:stability}
+\end{table}
+
+\subsection{It loses to confidence under matched compute}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Budget & Cheap & Random & Conf. & Geom. & G+C & Oracle & All-exp. \\
+\midrule
+20\% & 0.426 & 0.461 & \textbf{0.466} & 0.460 & 0.463 & 0.555 & 0.577 \\
+40\% & 0.426 & 0.493 & \textbf{0.506} & 0.498 & 0.498 & 0.632 & 0.577 \\
+60\% & 0.426 & 0.518 & \textbf{0.543} & 0.524 & 0.526 & 0.678 & 0.577 \\
+80\% & 0.426 & 0.546 & \textbf{0.564} & 0.556 & 0.554 & 0.661 & 0.577 \\
+\bottomrule
+\end{tabular}
+\caption{Leave-one-language-out routing accuracy at matched compute budget,
+11 viable ladder languages. ``Conf.'' escalates the least-confident examples;
+``Geom.'' is a ridge regression on all 18 geometry features.}
+\label{tab:router}
+\end{table}
+
+The confidence$-$geometry gap is positive at every budget and every ridge
+penalty $\lambda \in \{1, 10, 100, 1000\}$, ranging from $+0.006$ to $+0.019$,
+with confidence winning in 7--10 of 11 held-out languages.
+
+\paragraph{Wording constraint.} At the 20\% and 40\% budgets the per-language
+standard deviation ($\approx 0.015$) exceeds the mean gap ($\approx 0.007$).
+\claim{The correct statement is that geometry never beats confidence at any
+budget or penalty, and is clearly worse at moderate budgets.} It must not be
+stated as confidence substantially outperforming geometry everywhere.
+
+\paragraph{Unexploited headroom.} The oracle reaches $0.678$ at the 60\% budget
+against $0.577$ for always-expensive: the routing problem is genuinely
+learnable, and neither signal captures it.
+
+%==============================================================================
+\section{Discussion}
+\label{sec:discussion}
+
+\todo{Answer why the original hypothesis failed. The evidence suggests three
+phenomena are being conflated: language structure, representation geometry, and
+example-level difficulty. Pooled analyses read the first as the third.}
+
+\claim{A representation statistic can be highly structured and statistically
+significant without being a useful decision variable.}
+
+\todo{Develop the practical corollary for practitioners: report within-language
+statistics; report $\eta^2$ alongside any pooled multilingual correlation;
+benchmark against confidence before claiming a representation-based method
+adds information; audit translated benchmarks for lineage before use.}
+
+\todo{Note the asymmetry worth dwelling on: the statistic that looked most
+promising under pooling (angular dispersion) was the most language-determined,
+while the one that survived (effective rank) was invisible under pooling. The
+selection pressure of naive analysis runs exactly backwards.}
+
+%==============================================================================
+\section{Limitations}
+\label{sec:limitations}
+
+\todo{Do not bury these. Reviewers will find them.}
+
+\paragraph{$\Delta$ is not seed-averaged.} \claim{The intended target was
+$\Delta$ averaged over multiple fine-tuning seeds; frozen off-the-shelf
+checkpoints made this impossible, so part of the variance in
+Equation~\ref{eq:delta} is checkpoint idiosyncrasy rather than example
+difficulty.} This cuts specifically against Finding~IV: a cleaner target might
+prove more predictable. \todo{This is the single most significant methodological
+gap. State it in these terms.}
+
+\paragraph{Benchmark lineage affects the clean languages too.} They are
+translations of XNLI examples the checkpoints saw in other languages.
+
+\paragraph{Calibration touched the same lineage.} Temperature was fitted on
+African development splits which share XNLI ancestry. All reported results are
+on test and temperature is a single scalar per model, but the pipeline is not
+contamination-free.
+
+\paragraph{Encoder-only.} No decoder or instruction-tuned rung was evaluated;
+conclusions may not transfer to LLM test-time-compute settings.
+
+\paragraph{Router coverage.} Restricted to the 11/15 languages where the cheap
+rung clears chance.
+
+\paragraph{Geometry definition.} Per-example statistics over a single sequence's
+tokens are partly length-determined by construction; length is controlled
+statistically rather than by design.
+
+\paragraph{Single $\Delta$ pair.} Findings III and IV both rest on
+MiniLM$\rightarrow$mDeBERTa.
+
+%==============================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+\todo{Very short --- one paragraph. Restate the four findings and the broader
+implication. Do not introduce new claims.}
+
+%==============================================================================
+\section*{Reproducibility}
+\todo{Point to the repository, the frozen commit hash, the results ledger, and
+note that all analyses run from cached logits without a GPU.}
+
+\section*{Ethics and Data Statement}
+\todo{Public benchmarks and public checkpoints only; no human subjects. Note
+that identifying contamination in a widely used checkpoint is intended as a
+constructive evaluation caution, not a criticism of its authors.}
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}
