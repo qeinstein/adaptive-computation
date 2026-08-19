@@ -1,0 +1,222 @@
+{
+  "records": [
+    {
+      "feat": "mdeberta_base_L4_eff_rank",
+      "source": "mdeberta_base",
+      "eta2": 0.10349427525090074,
+      "pooled": 0.11930876210909672,
+      "within": 0.01205969137482883,
+      "bias": 0.10724907073426788
+    },
+    {
+      "feat": "mdeberta_base_L4_spec_conc",
+      "source": "mdeberta_base",
+      "eta2": 0.2024445424110645,
+      "pooled": -0.1311828544210833,
+      "within": -0.028032874225608552,
+      "bias": 0.10314998019547475
+    },
+    {
+      "feat": "mdeberta_base_L4_ang_disp",
+      "source": "mdeberta_base",
+      "eta2": 0.622898661030957,
+      "pooled": 0.2507873382719471,
+      "within": 0.04750777057999486,
+      "bias": 0.20327956769195224
+    },
+    {
+      "feat": "mdeberta_base_L8_eff_rank",
+      "source": "mdeberta_base",
+      "eta2": 0.08126645557702035,
+      "pooled": -0.011984221675872472,
+      "within": -0.021265993460349075,
+      "bias": -0.009281771784476603
+    },
+    {
+      "feat": "mdeberta_base_L8_spec_conc",
+      "source": "mdeberta_base",
+      "eta2": 0.10249661229990642,
+      "pooled": -0.1441021070721804,
+      "within": 0.0008528178100735423,
+      "bias": 0.14324928926210687
+    },
+    {
+      "feat": "mdeberta_base_L8_ang_disp",
+      "source": "mdeberta_base",
+      "eta2": 0.7569305669683573,
+      "pooled": 0.29555198441345887,
+      "within": 0.06093133327343666,
+      "bias": 0.2346206511400222
+    },
+    {
+      "feat": "mdeberta_base_L12_eff_rank",
+      "source": "mdeberta_base",
+      "eta2": 0.03976686950285294,
+      "pooled": -0.00949369286876363,
+      "within": -0.12698424144871687,
+      "bias": -0.11749054857995324
+    },
+    {
+      "feat": "mdeberta_base_L12_spec_conc",
+      "source": "mdeberta_base",
+      "eta2": 0.03069487873560932,
+      "pooled": 0.04400315736751607,
+      "within": 0.0985611292890232,
+      "bias": -0.05455797192150714
+    },
+    {
+      "feat": "mdeberta_base_L12_ang_disp",
+      "source": "mdeberta_base",
+      "eta2": 0.3703862667625556,
+      "pooled": 0.20093792276860617,
+      "within": 0.02915576650865769,
+      "bias": 0.17178215625994847
+    },
+    {
+      "feat": "afroxlmr_base_L4_eff_rank",
+      "source": "afroxlmr_base",
+      "eta2": 0.11519908205886449,
+      "pooled": 0.10694212210049388,
+      "within": 0.011579195125750444,
+      "bias": 0.09536292697474344
+    },
+    {
+      "feat": "afroxlmr_base_L4_spec_conc",
+      "source": "afroxlmr_base",
+      "eta2": 0.22194470150668608,
+      "pooled": -0.1528509040874558,
+      "within": -0.005789639666498221,
+      "bias": 0.14706126442095757
+    },
+    {
+      "feat": "afroxlmr_base_L4_ang_disp",
+      "source": "afroxlmr_base",
+      "eta2": 0.634748329996345,
+      "pooled": 0.1852836298564812,
+      "within": 0.03107680907504142,
+      "bias": 0.15420682078143977
+    },
+    {
+      "feat": "afroxlmr_base_L8_eff_rank",
+      "source": "afroxlmr_base",
+      "eta2": 0.1434362228530386,
+      "pooled": 0.023616424542537148,
+      "within": 0.014228526742711464,
+      "bias": 0.009387897799825684
+    },
+    {
+      "feat": "afroxlmr_base_L8_spec_conc",
+      "source": "afroxlmr_base",
+      "eta2": 0.27471921842834335,
+      "pooled": 0.04484770187351778,
+      "within": -0.023461493742922442,
+      "bias": 0.02138620813059534
+    },
+    {
+      "feat": "afroxlmr_base_L8_ang_disp",
+      "source": "afroxlmr_base",
+      "eta2": 0.32561642233138405,
+      "pooled": 0.032357737119489874,
+      "within": -0.012765802141300105,
+      "bias": 0.01959193497818977
+    },
+    {
+      "feat": "afroxlmr_base_L12_eff_rank",
+      "source": "afroxlmr_base",
+      "eta2": 0.14018602576310418,
+      "pooled": 0.08423075449123847,
+      "within": 0.01949814728054524,
+      "bias": 0.06473260721069324
+    },
+    {
+      "feat": "afroxlmr_base_L12_spec_conc",
+      "source": "afroxlmr_base",
+      "eta2": 0.24968089583954703,
+      "pooled": 0.07790713122606653,
+      "within": -0.00937624181407703,
+      "bias": 0.0685308894119895
+    },
+    {
+      "feat": "afroxlmr_base_L12_ang_disp",
+      "source": "afroxlmr_base",
+      "eta2": 0.4929078393080323,
+      "pooled": 0.07932501894263057,
+      "within": 0.013950675396845653,
+      "bias": 0.06537434354578492
+    },
+    {
+      "feat": "xlmr_base_L4_eff_rank",
+      "source": "xlmr_base",
+      "eta2": 0.13619791947140578,
+      "pooled": 0.08407130350694306,
+      "within": 0.008044891622771996,
+      "bias": 0.07602641188417106
+    },
+    {
+      "feat": "xlmr_base_L4_spec_conc",
+      "source": "xlmr_base",
+      "eta2": 0.2646794541825726,
+      "pooled": -0.09841984737363231,
+      "within": 0.0018531320216303574,
+      "bias": 0.09656671535200195
+    },
+    {
+      "feat": "xlmr_base_L4_ang_disp",
+      "source": "xlmr_base",
+      "eta2": 0.6262425670633817,
+      "pooled": 0.07413946815103158,
+      "within": 0.0028266126962405874,
+      "bias": 0.07131285545479099
+    },
+    {
+      "feat": "xlmr_base_L8_eff_rank",
+      "source": "xlmr_base",
+      "eta2": 0.1364369381418724,
+      "pooled": 0.05755668705828005,
+      "within": 0.0036811070822963783,
+      "bias": 0.05387557997598367
+    },
+    {
+      "feat": "xlmr_base_L8_spec_conc",
+      "source": "xlmr_base",
+      "eta2": 0.23504255789762732,
+      "pooled": -0.05564450692336085,
+      "within": -0.002399870763307573,
+      "bias": 0.053244636160053274
+    },
+    {
+      "feat": "xlmr_base_L8_ang_disp",
+      "source": "xlmr_base",
+      "eta2": 0.3749625097863242,
+      "pooled": 0.027202958876245836,
+      "within": 0.0034109843109059804,
+      "bias": 0.023791974565339855
+    },
+    {
+      "feat": "xlmr_base_L12_eff_rank",
+      "source": "xlmr_base",
+      "eta2": 0.18056419211392882,
+      "pooled": -0.033390283251638175,
+      "within": 0.011218775956928292,
+      "bias": 0.02217150729470988
+    },
+    {
+      "feat": "xlmr_base_L12_spec_conc",
+      "source": "xlmr_base",
+      "eta2": 0.2228231831046196,
+      "pooled": 0.06777216618555851,
+      "within": -0.007991063442619278,
+      "bias": 0.05978110274293923
+    },
+    {
+      "feat": "xlmr_base_L12_ang_disp",
+      "source": "xlmr_base",
+      "eta2": 0.6257673437130452,
+      "pooled": 0.07234082847612705,
+      "within": 0.007372602630249386,
+      "bias": 0.06496822584587766
+    }
+  ],
+  "spearman": NaN,
+  "pearson": 0.5663789835492753
+}
