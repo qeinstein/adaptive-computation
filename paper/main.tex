@@ -629,19 +629,43 @@ support a useful routing decision.}
 \subsection{Target alignment}
 \label{sec:targetalign}
 
-\todo{Open by stating the error plainly and in the first person: our initial
-routing experiment trained a predictor of $\Delta_{\mathrm{prob}}$ but scored the
-resulting decisions by accuracy, which is a function of
-$\Delta_{\mathrm{correct}}$. Given \S\ref{sec:swap}, that mismatch gave
-confidence an implicit advantage, because confidence is related to the scoring
-quantity and effective rank is not.}
+In our initial routing experiment we trained the routing predictor against
+$\Delta_{\mathrm{prob}}$, the change in gold-label probability, but evaluated
+routing quality using prediction correctness. We subsequently recognised that
+these are different objectives. The predictor was therefore optimised for a
+quantity that the evaluation did not measure.
+
+The distinction is empirical rather than semantic. As reported in
+\S\ref{sec:twotargets}, the two targets correlate at only $+0.655$, and the
+dual-target analysis in \S\ref{sec:swap}---which we ran precisely because this
+mismatch came to light---shows that they are predicted by different signals.
+Cheap-model confidence is essentially unrelated to $\Delta_{\mathrm{prob}}$
+within language ($\rho = +0.003$) while being the strongest available predictor
+of $\Delta_{\mathrm{correct}}$ ($\rho = -0.099$). Effective rank shows the
+opposite profile.
+
+This mismatch gave the confidence baseline an advantage that representation-based
+routing did not receive: confidence was related to the decision-relevant
+correctness flip that the evaluation scored, while the geometry predictor had
+been fitted to a quantity that is not. We therefore repeated the routing
+experiment using $\Delta_{\mathrm{correct}}$ as the training target, holding
+everything else fixed.
 
 \claim{A routing method should be trained against the quantity whose decision
-value is being evaluated.} \todo{State this as the principle the original design
-violated, and note that identifying and correcting the violation is part of the
-contribution rather than an erratum.}
+value is being evaluated.} We state this as a principle because our original
+design violated it, and because the violation was not visible from the routing
+results alone---it surfaced only when the two targets were analysed side by side.
+We report the sequence in full---original hypothesis, initial result, recognition
+of the objective mismatch, corrected target, re-evaluated conclusion---because
+the correction is part of the evidence rather than an erratum.
+
+\claim{The original comparison therefore does not support the stronger claim that
+confidence is intrinsically superior to representation geometry. The appropriate
+conclusion is that target alignment materially changes the comparison}, which
+motivates the corrected experiment below.
 
 \subsection{The corrected comparison}
+\label{sec:corrected}
 
 \begin{table}[t]
 \centering
@@ -658,37 +682,55 @@ Budget & Random & Conf. & Geom.$(\Delta_{\mathrm{prob}})$
 \bottomrule
 \end{tabular}
 \caption{Leave-one-language-out routing accuracy at matched compute budget,
-11 viable ladder languages. Training the geometry router on
+11 viable ladder languages. Always-cheap inference gives $0.426$ and
+always-expensive $0.577$. Training the geometry router on
 $\Delta_{\mathrm{correct}}$ rather than $\Delta_{\mathrm{prob}}$ recovers most of
-the apparent deficit against confidence.}
+its apparent deficit against confidence.}
 \label{tab:router}
 \end{table}
 
-\todo{Report the stability of the corrected comparison: across
-$\lambda \in \{1,10,100,1000\}$ the confidence$-$geometry gap is $-0.0015$ to
-$-0.0024$ at the 20\% budget (confidence wins 5/11 languages, i.e.\ chance) and
-$+0.0059$ to $+0.0147$ at 60\% (6--8/11). Geometry+confidence beats confidence
-alone by $-0.0005$ to $-0.0062$, winning 4--6/11. Per-language sd is
-$\approx 0.018$ throughout, larger than every gap.}
+Table~\ref{tab:router} reports the corrected experiment. Retraining the geometry
+router on the decision-relevant target improves it at every budget---by $+0.007$
+at 20\% and $+0.011$ at 60\%---and correspondingly narrows the gap to confidence.
+Across ridge penalties $\lambda \in \{1, 10, 100, 1000\}$ the
+confidence$-$geometry gap is $-0.0015$ to $-0.0024$ at the 20\% budget, where
+confidence wins in 5 of 11 held-out languages, and $+0.0059$ to $+0.0147$ at the
+60\% budget, where it wins in 6 to 8. Combining geometry with confidence yields a
+further $-0.0005$ to $-0.0062$ over confidence alone, winning in 4 to 6 languages
+of 11. The per-language standard deviation is approximately $0.018$ throughout,
+larger than every one of these differences.
 
 \claim{Once the routing predictor is trained against the decision-relevant
 target, representation geometry and confidence are statistically
-indistinguishable across the tested budgets and regularisation settings, and
-both remain substantially below the oracle.}
+indistinguishable across the tested budgets and regularisation settings, and both
+remain substantially below the oracle.} Win counts at or near 5.5 of 11 are what
+one expects from two signals of comparable value, not from one dominating the
+other.
 
 \subsection{Unexploited headroom}
+\label{sec:headroom}
 
-\claim{The routing problem is genuinely learnable and neither signal captures
-it.} At the 60\% budget an oracle over $\Delta_{\mathrm{correct}}$ reaches
-$0.688$ against roughly $0.545$ for the best practical method and $0.577$ for
-always-expensive inference---approximately 14 accuracy points of recoverable
-headroom.
+The corrected comparison should not be read as a mild success for representation
+geometry. A stronger negative result is visible in the same table.
+\claim{No practical method tested exceeds always-expensive inference at any
+budget}: at the 60\% budget the best method reaches $0.545$ against $0.577$ for
+simply running the expensive model on everything, and at 80\% it reaches $0.565$,
+still below. Under these signals, adaptive routing does not pay for itself.
 
-\todo{Draw the conclusion carefully: the negative result is not that adaptive
-routing is impossible here, nor that representation geometry is uninformative.
-It is that neither of the tested per-example signals extracts the available
-benefit, and that the appearance of a clear baseline win was partly an artifact
-of target misalignment.}
+The oracle behaves differently. At the 60\% budget an oracle over
+$\Delta_{\mathrm{correct}}$ reaches $0.688$---eleven points above
+always-expensive inference while using 40\% less computation.
+\claim{The routing problem is therefore genuinely learnable, and neither of the
+tested signals captures it.} The gap between the best practical method and the
+oracle is approximately 14 accuracy points at the 60\% budget.
+
+We draw the conclusion narrowly. The negative result is not that adaptive routing
+is infeasible in this setting; the oracle demonstrates the opposite. Nor is it
+that representation geometry is uninformative; \S\ref{sec:swap} establishes a
+robust association with one notion of computational benefit. It is that neither
+the geometry statistics nor cheap-model confidence extracts enough of the
+available benefit to be useful, and that the appearance of a clear baseline win
+in our original experiment was substantially an artifact of target misalignment.
 
 \section{Discussion}
 \label{sec:discussion}
