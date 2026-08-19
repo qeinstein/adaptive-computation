@@ -35,14 +35,6 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
 
-% Figures ship as vector PDF (works with no extra packages) and, optionally, as
-% LaTeX-native PGF in which all text is typeset by LaTeX in this document's own
-% font. To use PGF: run  EMIT_PGF=1 python src/make_figures.py  on a machine with
-% pdflatex, add \usepackage{pgf} above, and change \pgffiguresfalse to true.
-\newif\ifpgffigures \pgffiguresfalse
-\newcommand{\paperfig}[1]{%
-  \ifpgffigures\input{figures/#1.pgf}\else\includegraphics{figures/#1.pdf}\fi}
-
 \newcommand{\claim}[1]{#1}
 \newcommand{\todo}[1]{\textcolor{gray}{[\textsc{todo}: #1]}}
 \newcommand{\nodelta}{\textsuperscript{$\dagger$}}
@@ -616,7 +608,7 @@ task-tuned model, an African-adapted MLM, and a generic multilingual MLM.}
 
 \begin{figure}[t]
 \centering
-\paperfig{eta2}
+\includegraphics[width=0.85\textwidth]{figures/eta2.pdf}
 \caption{Between-language variance share $\eta^2$ for each geometry statistic in
 each representation space, averaged over layers $\{4,8,12\}$; the values are
 those of Table~\ref{tab:eta2}. The ordering---angular dispersion most
@@ -746,7 +738,7 @@ inflated $4.9\times$ by pooling; effective rank is masked roughly tenfold.}
 
 \begin{figure}[t]
 \centering
-\paperfig{pooled_vs_within}
+\includegraphics[width=0.85\textwidth]{figures/pooled_vs_within.pdf}
 \caption{Pooled versus within-language partial Spearman correlation with
 $\Delta_{\mathrm{prob}}$, for the statistics of Table~\ref{tab:simpson}. Solid
 lines mark associations inflated by pooling, dashed lines those masked by it.
@@ -905,7 +897,7 @@ its apparent deficit against confidence.}
 
 \begin{figure}[t]
 \centering
-\paperfig{frontier}
+\includegraphics[width=0.75\textwidth]{figures/frontier.pdf}
 \caption{Accuracy--compute frontier over the 11 viable ladder languages,
 leave-one-language-out; the values are those of Table~\ref{tab:router}. The
 shaded band marks accuracy unreachable by any practical method tested: every
@@ -1173,7 +1165,8 @@ conflate all three.}
 \section*{Reproducibility}
 Code, configurations, cached model outputs and a results ledger recording every
 reported number with its sample, statistic, uncertainty and limitation are
-available at \todo{repository URL}, frozen at commit \todo{hash}. No model was
+available at \url{https://github.com/qeinstein/adaptive-computation}, at the tag
+\texttt{paper-v1}. No model was
 fine-tuned. All inference was performed once on a laptop without a discrete GPU and
 cached; every analysis in this paper, including all bootstrap and permutation
 procedures, re-runs from those caches in minutes and requires no accelerator. The

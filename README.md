@@ -75,9 +75,10 @@ expecting valid results; `gate.py` and `full15.py` supersede it.
 ## Figures
 
 `src/make_figures.py` recomputes every plotted value from the cached arrays —
-nothing is typed by hand — and emits vector PDF. With a TeX binary on `PATH`,
-`EMIT_PGF=1` additionally emits `.pgf`, in which all figure text is typeset by
-LaTeX in the document's own font; set `\pgffigurestrue` in `main.tex` to use it.
+nothing is typed by hand — and writes vector PDF to `paper/figures/`, included as
+`\includegraphics[width=0.75\textwidth]{figures/<name>.pdf}`. With a TeX binary
+on `PATH`, `EMIT_PGF=1` additionally emits `.pgf` for anyone who wants figure text
+typeset by LaTeX itself; the paper does not use it.
 
 The categorical palette (`#2166ac, #b2182b, #762a83, #4d9221`) passes lightness,
 chroma, colour-vision-deficiency separation, and contrast checks. Because the
