@@ -5,7 +5,7 @@ limitation recorded per finding. Purpose: prevent the write-up from drifting
 stronger than the evidence. **Nothing here may be restated more strongly in prose
 than it is stated here.**
 
-Commit anchor: `03803471` (pre-third-source). All numbers reproducible from
+Commit anchor: `c675d74`. Findings 1 and 2 corrected 2026-08-19 after closing open items. All numbers reproducible from
 `src/` against `data/cache/`.
 
 ---
@@ -43,46 +43,72 @@ cannot be evaluated cleanly on its eng/fra/swa configs.
 | Verbatim overlap with XNLI English (validation+test) | **1,047 (99.7%)** |
 | AfriXNLI-eng/dev vs XNLI validation | 450/450 — exact |
 | XNLI ∩ AfriXNLI languages | {eng, fra, swa} |
-| mDeBERTa accuracy, eng | **1.000** (n=200, dev sample) |
-| mDeBERTa accuracy, swa | **0.995** (n=200, dev sample) |
-| mDeBERTa accuracy, 15 clean languages | **0.545** (n=9,000, test) |
+
+Accuracy on the **test** split of the contaminated configs (n=1,800; 600 each),
+like-for-like with the 9,000-example clean figure:
+
+| model | eng | fra | swa | 15 clean langs |
+|---|---|---|---|---|
+| MiniLM-L6 | 0.760 | 0.720 | 0.622 | 0.410 |
+| mDeBERTa-base | 0.890 | 0.867 | 0.742 | 0.545 |
+| **XLM-R-large** | **1.000** | **0.995** | **0.978** | 0.523 |
+
+**The contamination is split-specific, and this is the sharper claim.** MiniLM and
+mDeBERTa were trained on XNLI *dev*, so they memorise dev (mDeBERTa scores 1.000 on
+eng/dev but only 0.890 on eng/test). `joeddav/xlm-roberta-large-xnli` scores **1.000
+on the eng test split** and 0.978 on swa test, indicating it trained on XNLI *test*.
+That checkpoint has ~91k downloads.
 
 Documentary support (model/dataset cards, retrieved 2026-08-19):
 - AfriXNLI card: *"translations of a subset of the XNLI dataset into 16 African languages … maintaining the English and French subsets from the original XNLI dataset"*; *"dev and test [are] a subset of the original dev and test splits of the XNLI dataset."*
 - MiniLM card: *"This model was trained on the XNLI development dataset and the MNLI train dataset."*
-- joeddav card: *"fine-tunes it on a combination of NLI data in 15 languages … fine-tuned on XNLI."*
+- joeddav card: *"fine-tunes it on a combination of NLI data in 15 languages … fine-tuned on XNLI."* (does not specify split)
 
 **Limitations.**
-- The eng/swa accuracies come from a **200-example dev sample**, not the test split, and were produced by the superseded `spike.py` run. Accuracy is temperature-invariant so the numbers stand, but they are not on the same footing as the 9,000-example clean figure. *Open item: re-run eng/fra/swa on test under the `full15` protocol before publication.*
-- Wording constraint: for the 15 African languages this is **benchmark-lineage / underlying-example contamination**, NOT verbatim string leakage. The African strings are translations; the *examples* were seen in other languages. Do not conflate these.
+- The joeddav training-split claim is inferred from 1.000 test accuracy, not stated on the card. Word it as *consistent with* training on XNLI test, not as documented fact.
+- For the 15 African languages this is **benchmark-lineage / underlying-example contamination**, NOT verbatim string leakage. The African strings are translations; the *examples* were seen in other languages. Do not conflate these.
+- CORRECTED 2026-08-19: an earlier version of this ledger reported mDeBERTa at 1.000/0.995 on eng/swa and contrasted it with a test-split clean figure. Those were **dev** numbers. The like-for-like test numbers are above and they reassign the dramatic memorisation to XLM-R-large.
 
 ---
 
-## Finding 2 — Capability is not monotone in parameter count
+## Finding 2 — Parameter count does not reliably order capability
 
-**Claim.** Among off-the-shelf XNLI checkpoints, model size does not order accuracy
-on African languages, so cascade design cannot be read off parameter count.
+**Claim.** Among off-the-shelf XNLI checkpoints, model size does not predict which
+model wins on a given African language; the ordering is language-dependent and
+unstable. Cascade design therefore cannot be read off parameter count.
 
 n = 9,000 (test, 15 clean languages). Chance = 0.333, Wilson 95% intervals.
 
 | rung | params | temperature | accuracy | above chance |
 |---|---|---|---|---|
 | MiniLMv2-L6 | ~118M | 4.116 | 0.410 | 11/15 |
-| mDeBERTa-v3-base | ~278M | 1.704 | **0.545** | 14/15 |
-| XLM-R-large | ~560M | 2.723 | **0.523** | 14/15 |
+| mDeBERTa-v3-base | ~278M | 1.704 | 0.545 | 14/15 |
+| XLM-R-large | ~560M | 2.723 | 0.523 | 14/15 |
 
-XLM-R-large has ~2× the parameters and 2× the depth of mDeBERTa-base and is
-**0.022 lower**. On the earlier 6-language subset the same inversion appeared
-(0.606 vs 0.613).
+**The aggregate mDeBERTa − XLM-R gap of +0.022 is NOT significant.** Cluster
+bootstrap resampling languages and then examples within language (5,000×):
+**95% CI [−0.035, +0.083]**, P(diff>0) = 0.772. (An example-level bootstrap gives
+[+0.009, +0.035], but it ignores language clustering and is the wrong analysis.)
+
+What *is* substantial is the per-language instability — mDeBERTa minus XLM-R-large:
+
+```
+amh -0.145  ewe -0.037  hau -0.080  ibo +0.220  kin +0.147  lin +0.008
+lug +0.033  orm -0.127  sna +0.200  sot +0.197  twi +0.015  wol -0.002
+xho -0.087  yor -0.010  zul -0.003
+```
+
+Swings exceed ±0.2 with no consistent winner. **Do not write "the larger model is
+worse."** Write that the ordering is language-dependent and not predictable from size.
 
 Consequence for Δ: `mDeBERTa → XLM-R-large` has mean Δ = **−0.011** (helps 37.5%,
 hurts 39.7%) — no capacity ladder. Only `MiniLM → mDeBERTa` is a usable ladder:
 mean Δ = **+0.099**, sd 0.221, helps 51.2% / hurts 26.0% / flat 22.7%, ~8× FLOPs.
 
-**Limitations.** Three checkpoints from two families; all XNLI-tuned, so this is a
-statement about the available off-the-shelf ecosystem, not about scaling in general.
-No significance test on the 0.022 gap is recorded yet. *Open item: paired bootstrap
-on the mDeBERTa−XLM-R accuracy difference.*
+**Limitations.** Three checkpoints from two families, all XNLI-tuned: a statement
+about the available off-the-shelf ecosystem, not about scaling in general. XLM-R-large's
+clean-language accuracy may itself be depressed relative to its contaminated-language
+accuracy in ways that confound the comparison.
 
 ---
 
