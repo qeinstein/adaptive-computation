@@ -275,6 +275,9 @@ should precede any evaluation on a translated benchmark.}
 %==============================================================================
 \section{Stage I: Evaluation Validity}\nodelta
 \label{sec:f1}
+{\renewcommand{\thefootnote}{}\footnotetext{$\dagger$ Results marked with this
+symbol do not depend on the construction of the marginal-gain target
+$\Delta(x)$; see \S\ref{sec:dependency}.}\addtocounter{footnote}{-1}}
 
 \claim{AfriXNLI is a translation of XNLI, and XNLI-trained checkpoints therefore
 cannot be evaluated cleanly on its English, French, or Swahili configurations.}
@@ -367,8 +370,28 @@ already constrains what any routing result could claim.}
 \section{Stage III(a): Language Identity Dominates Representation Geometry}\nodelta
 \label{sec:f3a}
 
-\todo{This is the intellectual center of the paper. It requires no target
-variable at all --- only representations and language labels.}
+A representation statistic intended to measure something about an \emph{example}
+should vary primarily with the example. In a multilingual corpus it may instead
+vary primarily with the \emph{language} the example is written in, in which case
+any quantity computed by pooling examples across languages will partly be a
+restatement of language identity. This stage measures how much of each
+statistic's variation is attributable to language, before any difficulty target
+is introduced. It requires only representations and language labels, and is
+therefore independent of the modelling choices examined in
+\S\ref{sec:f3b}--\S\ref{sec:f4}.
+
+For each statistic we compute $\eta^2$, the proportion of its total variance
+lying between languages rather than within them:
+\begin{equation}
+\eta^2 \;=\; \frac{\sum_{\ell} n_\ell (\bar{v}_\ell - \bar{v})^2}
+                  {\sum_{i} (v_i - \bar{v})^2},
+\label{eq:eta2}
+\end{equation}
+where $\ell$ indexes the 15 clean languages, $n_\ell$ is the number of test
+examples in language $\ell$, and $\bar{v}_\ell$ is the mean of the statistic
+within that language. A value near zero indicates a statistic that varies almost
+entirely example-to-example; a value near one indicates one that is close to a
+per-language constant.
 
 \claim{Across three multilingual representation spaces, angular dispersion is
 consistently the most language-determined statistic and effective rank
@@ -393,21 +416,64 @@ task-tuned model, an African-adapted MLM, and a generic multilingual MLM.}
 \label{tab:eta2}
 \end{table}
 
-\todo{Argue the implication directly: a statistic that is 48--58\% language
-identity cannot be pooled across languages, and reporting it pooled amounts to
-reporting language identity under another name. This holds regardless of what
-downstream target one correlates it against --- which is why this section needs
-no $\Delta$.}
+Table~\ref{tab:eta2} reports $\eta^2$ averaged over layers $\{4,8,12\}$ for each
+statistic in each representation space. The three sources were chosen to differ
+in how they were produced: \texttt{mDeBERTa-v3-base} is fine-tuned for NLI,
+\texttt{afro-xlmr-base} is a masked language model adapted to African languages,
+and \texttt{xlm-roberta-base} is a generic multilingual masked language model
+with no African adaptation and no task supervision. They share no training
+objective, and only the last two share a pre-training corpus.
 
-\paragraph{A stronger claim that did not replicate.} \todo{Report the failure
-explicitly; it strengthens the paper.} We further hypothesised that $\eta^2$
-predicts pooling bias in general. Across all 27 features,
+The magnitudes differ across sources, but the ordering does not. Angular
+dispersion is the most language-determined statistic in all three spaces
+($\eta^2 = 0.583$, $0.484$, $0.542$), and effective rank the least
+($0.075$, $0.133$, $0.151$), with spectral concentration intermediate
+throughout. At the individual-layer level the effect is more pronounced still:
+angular dispersion at layer 8 of mDeBERTa reaches $\eta^2 = 0.757$.
+
+The implication is direct. Roughly half of the variation in angular dispersion,
+and three quarters of it at some layers, is a property of the language rather
+than of the example. A quantity computed by pooling such a statistic across
+languages is therefore substantially a re-description of language identity, and
+will behave like a difficulty signal to the exact extent that languages differ
+in difficulty. This holds whatever target the statistic is subsequently
+correlated against, which is why the observation does not depend on our
+$\Delta$: it is a property of the representations, not of the analysis
+downstream of them.
+
+We emphasise what is and is not established here. $\eta^2$ is descriptive; it
+identifies how variance is distributed, not why. We do not claim that angular
+dispersion \emph{encodes} language identity in any mechanistic sense, nor that
+it is uninformative about examples---only that its example-level variation is a
+minority of its total variation, and that pooled analyses cannot separate the
+two. Nor do the three sources constitute an exhaustive sample: they are three
+encoder models of similar depth, and the pattern may not extend to decoder-only
+or substantially larger models.
+
+\paragraph{A stronger claim that did not replicate.} Having observed this
+pattern on two sources, we hypothesised a quantitative version of it: that
+$\eta^2$ predicts, across features, how far a pooled correlation departs from
+the corresponding within-language one. We added the third source specifically to
+test that hypothesis, and it did not survive.
+
+Across all 27 features,
 $\mathrm{Spearman}(\eta^2, |\rho_{\text{pooled}}|-|\rho_{\text{within}}|)=+0.415$
-(permutation $p=0.032$), but the bootstrap 95\% CI is $[-0.031, +0.737]$ and the
-effect is carried almost entirely by one source (mDeBERTa $+0.917$; AfroXLMR
-$+0.133$; XLM-R-base $+0.133$); the features are not independent.
-\claim{We therefore do not claim that $\eta^2$ predicts pooling bias as a
-general quantitative law.}
+with a permutation $p$ of $0.032$, which taken alone would appear to support the
+hypothesis. The bootstrap 95\% confidence interval, however, is
+$[-0.031, +0.737]$, and the relationship is carried almost entirely by a single
+source: $+0.917$ for mDeBERTa against $+0.133$ for both AfroXLMR and
+XLM-R-base. The two procedures disagree because the 27 features are not
+independent---nine per source, sharing layers and statistics---which the
+permutation test over feature labels does not accommodate. \claim{We therefore
+do not claim that $\eta^2$ predicts pooling bias as a general quantitative
+law.}
+
+We report this failure because it delimits the surviving claim. What replicates
+across three representation spaces is an ordering of statistics by their
+language dependence, not a quantitative relationship between that dependence and
+the resulting analytical bias. The former is sufficient for the practical
+recommendation we draw in \S\ref{sec:discussion}; the latter would have been a
+stronger and more general result, and we did not obtain it.
 
 %==============================================================================
 \section{Stage III(b): What Survives Language Control}
